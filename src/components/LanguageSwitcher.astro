@@ -9,46 +9,99 @@ interface Props {
 const { alternates } = Astro.props;
 const current = getLangFromUrl(Astro.url);
 
+const flags: Record<Lang, string> = { pt: '🇧🇷', en: '🇺🇸', es: '🇪🇸' };
+
 function homeFor(lang: Lang): string {
   return lang === defaultLang ? '/' : `/${lang}/`;
 }
 
-// With alternates (post pages), show only available translations linking to the
-// equivalent page; otherwise show all locales linking to their home.
-const items: { lang: Lang; href: string }[] = alternates
-  ? alternates.map((a) => ({ lang: a.lang, href: a.path }))
-  : (Object.keys(languages) as Lang[]).map((lang) => ({ lang, href: homeFor(lang) }));
+// With alternates (post pages), use the available translations linking to the
+// equivalent page; otherwise all locales linking to their home. The current
+// language is the summary, so it's excluded from the dropdown items.
+const items: { lang: Lang; href: string }[] = (
+  alternates
+    ? alternates.map((a) => ({ lang: a.lang, href: a.path }))
+    : (Object.keys(languages) as Lang[]).map((lang) => ({ lang, href: homeFor(lang) }))
+).filter((i) => i.lang !== current);
 ---
 
-<nav class="lang-switcher" aria-label="Language">
+<details class="lang-switcher">
+  <summary aria-label="Language">
+    <span class="flag">{flags[current]}</span>
+    <span>{languages[current]}</span>
+    <span class="caret" aria-hidden="true">▾</span>
+  </summary>
   <ul>
     {
       items.map(({ lang, href }) => (
         <li>
-          <a href={href} aria-current={lang === current ? 'true' : undefined} hreflang={lang}>
-            {languages[lang]}
+          <a href={href} hreflang={lang} aria-current={lang === current ? 'true' : undefined}>
+            <span class="flag">{flags[lang]}</span>
+            <span>{languages[lang]}</span>
           </a>
         </li>
       ))
     }
   </ul>
-</nav>
+</details>
 
 <style>
-  .lang-switcher ul {
-    display: flex;
-    gap: 0.75rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  .lang-switcher {
+    position: relative;
   }
-  .lang-switcher a {
+  .lang-switcher summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
     color: inherit;
     font-family: var(--font-heading);
     font-weight: 600;
   }
-  .lang-switcher a[aria-current='true'] {
-    font-weight: 700;
-    text-decoration: underline;
+  .lang-switcher summary::-webkit-details-marker {
+    display: none;
+  }
+  .caret {
+    font-size: 0.7em;
+  }
+  .flag {
+    font-size: 1.05em;
+    line-height: 1;
+  }
+  .lang-switcher ul {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 0.75rem);
+    z-index: 50;
+    margin: 0;
+    padding: 1rem 0;
+    min-width: 230px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+  }
+  .lang-switcher li a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.65rem 1.75rem;
+    color: var(--color-heading);
+    font-family: var(--font-heading);
+    font-weight: 600;
+  }
+  .lang-switcher li a:hover {
+    background: #f5f5f5;
+    color: var(--color-accent);
+    text-decoration: none;
   }
 </style>
+
+<script>
+  // Close any open language dropdown when clicking outside it.
+  document.addEventListener('click', (e) => {
+    document.querySelectorAll('details.lang-switcher[open]').forEach((d) => {
+      if (!d.contains(e.target as Node)) d.removeAttribute('open');
+    });
+  });
+</script>
