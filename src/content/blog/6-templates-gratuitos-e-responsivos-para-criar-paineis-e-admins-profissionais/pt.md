@@ -38,7 +38,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 [https://colorlib.com//polygon/adminty/default/index.html](https://colorlib.com//polygon/adminty/default/index.html)  
 
-**Adminty** foi desenvolvido pela empresa [Colorlib](https://colorlib.com) em cima do [Bootstrap 4,](http://getbootstrap.com/) possuí diversos componentes e é extremamente expansivo, utilizar ele não é tão fácil mas com certeza vale a pena, tem um layout bem agradável e moderno.[](http://getbootstrap.com)
+**Adminty** foi desenvolvido pela empresa [Colorlib](https://colorlib.com) em cima do [Bootstrap 4,](http://getbootstrap.com/) possuí diversos componentes e é extremamente expansivo, utilizar ele não é tão fácil mas com certeza vale a pena, tem um layout bem agradável e moderno.
 
 ## [SB Admin](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
 

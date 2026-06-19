@@ -62,7 +62,7 @@ The launch.json file contains all the debugger settings for the project, creates
       "name": "Launch Program",
       "preLaunchTask": "tsc: build - tsconfig.json",
       "program": "${workspaceFolder}/src/main.ts",
-      "outFiles":\["${workspaceFolder}/dist/\*\*/\*.js"\]
+      "outFiles": \["${workspaceFolder}/dist/\*\*/\*.js"\]
     }
   \]
 }

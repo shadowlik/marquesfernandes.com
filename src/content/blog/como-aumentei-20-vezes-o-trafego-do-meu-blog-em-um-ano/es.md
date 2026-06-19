@@ -45,7 +45,7 @@ Desarrollar un blog o sitio web con calidad requiere tiempo, y cuando hacemos al
 
 [https://themeforest.net/](https://themeforest.net/)
 
-Elegí Wordpress con mi plataforma de contenido, ampliamente utilizado en el mundo y tiene muchos plugins y temas disponibles, encontré mi tema en el sitio https://[themeforest.net/, hice u](https://themeforest.net/)n montón de investigación y pruebas antes de comprar este tema, porque quería un tema que hablara con lo que imaginé que sería mi público objetivo, pero también siguió todas las buenas prácticas de SEO y rendimiento.
+Elegí Wordpress con mi plataforma de contenido, ampliamente utilizado en el mundo y tiene muchos plugins y temas disponibles, encontré mi tema en el sitio [https://themeforest.net/](https://themeforest.net/), hice un montón de investigación y pruebas antes de comprar este tema, porque quería un tema que hablara con lo que imaginé que sería mi público objetivo, pero también siguió todas las buenas prácticas de SEO y rendimiento.
 
 ## Encuentra tu público objetivo
 
@@ -53,11 +53,11 @@ Si ya has elegido tu tema o cómo será tu sitio, probablemente ya tengas una id
 
 ## Escribir con calma y generar contenido de calidad
 
-Ese es el consejo que probablemente más encontrarás en Internet, pero encontrar tu público objetivo y desarrollar contenido de calidad es lo que realmente te ayudará a generar tráfico a tu blog. Dibuja un plan de artículos y escribe tranquilamente te ayudará a generar contenido de calidad, actualmente utilizo T[rello](https://trello.com/) para organizar todas las ideas que tengo para artículos y priorizar según dificultad de escritura, he hecho la táctica de escribir en promedio 5 artículos "fácil" por mes y 2 artículos que necesitarán más trabajo, así que logré mantener una constancia alternando estilos de contenido.
+Ese es el consejo que probablemente más encontrarás en Internet, pero encontrar tu público objetivo y desarrollar contenido de calidad es lo que realmente te ayudará a generar tráfico a tu blog. Dibuja un plan de artículos y escribe tranquilamente te ayudará a generar contenido de calidad, actualmente utilizo [Trello](https://trello.com/) para organizar todas las ideas que tengo para artículos y priorizar según dificultad de escritura, he hecho la táctica de escribir en promedio 5 artículos "fácil" por mes y 2 artículos que necesitarán más trabajo, así que logré mantener una constancia alternando estilos de contenido.
 
 ## SEO - Estudiar, probar y seguir
 
-Necesitas entender qué es SE[O](https://resultadosdigitais.com.br/especiais/o-que-e-seo/) y cuáles son las estrategias para tu modelo. No creas que el SEO es una fórmula mágica y no te engañes con la historia de quienes lo dicen, es un proceso lento y laborioso y requiere mucho estudio, entrenamiento y pruebas. Hay varios sitios especializados en esto, le recomiendo que recopile tanta información como sea posible y comience a aplicar y monitorear las estrategias.
+Necesitas entender qué es [SEO](https://resultadosdigitais.com.br/especiais/o-que-e-seo/) y cuáles son las estrategias para tu modelo. No creas que el SEO es una fórmula mágica y no te engañes con la historia de quienes lo dicen, es un proceso lento y laborioso y requiere mucho estudio, entrenamiento y pruebas. Hay varios sitios especializados en esto, le recomiendo que recopile tanta información como sea posible y comience a aplicar y monitorear las estrategias.
 
 ## Compromiso - Chatea con tu audiencia
 

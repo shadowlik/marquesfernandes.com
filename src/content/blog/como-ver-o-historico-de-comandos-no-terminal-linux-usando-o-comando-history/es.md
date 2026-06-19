@@ -16,9 +16,9 @@ needsReview: false
 updated: 2021-12-12T11:24:08.000Z
 ---
 
-Cuanto más trabajes con terminales Linux, más necesitarás para optimizar tus tareas recurrentes, buscando comandos que optimicen tu día a día y mejoren tu productividad: El comando his`tory es` sin duda uno de ellos. Dado que el nombre ya entrega, el comando history enumera todo el historial de comandos de su terminal (el mismo historial se puede encontrar en el archivo .b`ash_history en` la carpeta de i*nici*o). De forma predeterminada, el comando history muestra los últimos 5k comandos guardados.
+Cuanto más trabajes con terminales Linux, más necesitarás para optimizar tus tareas recurrentes, buscando comandos que optimicen tu día a día y mejoren tu productividad: El comando his`tory es` sin duda uno de ellos. Dado que el nombre ya entrega, el comando history enumera todo el historial de comandos de su terminal (el mismo historial se puede encontrar en el archivo .b`ash_history en` la carpeta de *inicio*). De forma predeterminada, el comando history muestra los últimos 5k comandos guardados.
 
-***También echa un vi**s[tazo: Cómo escanear su servidor Linux en busca de malware (Debian / Ubuntu)](http://marquesfernandes.com/2019/12/04/como-escanear-seu-servidor-linux-por-malwares-debian-ubuntu)*
+***También echa un vistazo:** [Cómo escanear su servidor Linux en busca de malware (Debian / Ubuntu)](http://marquesfernandes.com/2019/12/04/como-escanear-seu-servidor-linux-por-malwares-debian-ubuntu)*
 
 ## Uso del comando de historial básico
 

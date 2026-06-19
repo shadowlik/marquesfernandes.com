@@ -16,13 +16,13 @@ needsReview: false
 updated: 2021-12-12T11:24:13.000Z
 ---
 
-Hay varias herramientas disponibles en el mercado para administrar su base de datos [MongoDB](https://www.mongodb.com/). Han mejorado la productividad en el desarrollo, la administración y también ayudan a reducir la curva de aprendizaje para aquellos que comienzan con la base de datos nosql [o que](https://pt.wikipedia.org/wiki/NoSQL) provienen de [SQ](https://dicasdeprogramacao.com.br/o-que-e-sql/)L. He separado una lista con algunas de las herramientas más populares y gratuitas que he utilizado y recomiendo.
+Hay varias herramientas disponibles en el mercado para administrar su base de datos [MongoDB](https://www.mongodb.com/). Han mejorado la productividad en el desarrollo, la administración y también ayudan a reducir la curva de aprendizaje para aquellos que comienzan con la base de datos [nosql](https://pt.wikipedia.org/wiki/NoSQL) o que provienen de [SQL](https://dicasdeprogramacao.com.br/o-que-e-sql/). He separado una lista con algunas de las herramientas más populares y gratuitas que he utilizado y recomiendo.
 
 ## [Robo 3T (anteriormente Robomongo)](https://robomongo.org/)
 
 [![Robo 3T (anteriormente Robomongo)](https://robomongo.org/static/screens-transparent-6e2a44fd.png)](https://robomongo.org/)
 
-Robo 3T (anteriormente Robomongo) es una de las interfaces gráficas más populares y gratuita para los amantes de MongoDB. Ligero y de código abierto, es compatible con múltiples plataformas (Mac, Linux y Windows) y también incorpora la línea de coma[ndos m](https://docs.mongodb.com/manual/mongo/)ongo en la aplicación para proporcionar interacción a usuarios más avanzados. Está desarrollado por 3T Software, el equipo detrás de IDE [Studio 3](https://studio3t.com/)T.
+Robo 3T (anteriormente Robomongo) es una de las interfaces gráficas más populares y gratuita para los amantes de MongoDB. Ligero y de código abierto, es compatible con múltiples plataformas (Mac, Linux y Windows) y también incorpora la línea de comandos [mongo](https://docs.mongodb.com/manual/mongo/) en la aplicación para proporcionar interacción a usuarios más avanzados. Está desarrollado por 3T Software, el equipo detrás de IDE [Studio 3T](https://studio3t.com/).
 
 ### Características clave
 

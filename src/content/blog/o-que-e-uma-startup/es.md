@@ -17,21 +17,21 @@ needsReview: false
 updated: 2021-12-12T11:23:40.000Z
 ---
 
-Probablemente ya has oído a alguien usar el término Inic*io en a*lguna conversación. ¡En los últimos años nunca hemos oído esa palabra tanto como antes! El término se ha popularizado debido a la creciente ola de nuevas empresas innovadoras, operaciones, ya he entregado una parte... Pero, ¿realmente sabes lo que define una Startup?
+Probablemente ya has oído a alguien usar el término *Inicio* en alguna conversación. ¡En los últimos años nunca hemos oído esa palabra tanto como antes! El término se ha popularizado debido a la creciente ola de nuevas empresas innovadoras, operaciones, ya he entregado una parte... Pero, ¿realmente sabes lo que define una Startup?
 
 ## Definiciones de inicio
 
 Hay varias definiciones por ahí, y la comunidad parece incapaz de ponerse de acuerdo sobre una definición global, por ejemplo, algunos piensan que una startup puede limitarse entre el tamaño y el tiempo de existencia, mientras que otros piensan que estas limitaciones no son suficientes para diferenciar una Startup de una empresa "tradicional". Separé dos definiciones que, para mí, abarcan brevemente lo que es una Startup:
 
-> Una startup es una empresa que trabaja para r**esolver un problema d**onde la s**olución no es obvia** y el **éxito no está garantizad**o.
+> Una startup es una empresa que trabaja para **resolver un problema** donde la **solución no es obvia** y el **éxito no está garantizado**.
 > 
 > Neil Blumenthal cofundador y co-CEO de Warby Parker
 
-> Una startup es una **institución humana** diseñada para of**recer nuevos productos o servicios en** condiciones de ext**rema incertidumbr**e.
+> Una startup es una **institución humana** diseñada para **ofrecer nuevos productos o servicios** en condiciones de **extrema incertidumbre**.
 > 
 > Eric Ries, autor de The Lean Startup
 
-Así que si juntamos las dos definiciones que tene*mos: una startup es una empresa que trabaja para resolver un problema, donde la solución no es obvia, a través de productos y servicios innovadores, en condiciones de extrema incertidumbre.*
+Así que si juntamos las dos definiciones que tenemos: *una startup es una empresa que trabaja para resolver un problema, donde la solución no es obvia, a través de productos y servicios innovadores, en condiciones de extrema incertidumbre.*
 
 ## Diferencias entre Startup y Company
 
@@ -39,7 +39,7 @@ Sólo analizar las dos definiciones anteriores puede no ser suficiente para ente
 
 Si te estás preguntando: ¿Podría una panadería ser una startup? Por supuesto, si de alguna manera alguien encuentra una manera de innovar la forma en que el pan diario llega al consumidor, utilizando tecnología y recursos limitados y ofreciendo un nuevo servicio a un mercado incierto, voi-la, tenemos una Startup.
 
-A diferencia de las empresas ya consolidadas y comúnmente llamadas empresas tradicionales, las Startups comienzan en un escenario con poco o incluso ninguno, buscan su crecimiento a través de una serie de rondas de inversión, hablaremos de ello más adelante. Muchas Startups [pueden pasar años y años sin obtener ga](https://olhardigital.com.br/noticia/nubank-tem-prejuizo-de-r-313-milhoes-em-2019-mas-isso-nao-e-ma-noticia/97307)nancias, y eso está bien, muchos inicialmente apuntan sólo al crecimiento y multiplicador financiero potencial que sólo un mercado sin explotar suele tener.
+A diferencia de las empresas ya consolidadas y comúnmente llamadas empresas tradicionales, las Startups comienzan en un escenario con poco o incluso ninguno, buscan su crecimiento a través de una serie de rondas de inversión, hablaremos de ello más adelante. Muchas Startups [pueden pasar años y años sin obtener ganancias](https://olhardigital.com.br/noticia/nubank-tem-prejuizo-de-r-313-milhoes-em-2019-mas-isso-nao-e-ma-noticia/97307), y eso está bien, muchos inicialmente apuntan sólo al crecimiento y multiplicador financiero potencial que sólo un mercado sin explotar suele tener.
 
 ## Ejemplo: Google
 
@@ -69,7 +69,7 @@ Los préstamos bancarios también son muy comunes, si por alguna razón Startup 
 
 #### Angel Investors
 
-La inversión Angel es la inversión realizada por personas con capital. Estas personas suelen ser especialistas en este tipo de inversión y buscan un retorno de alta ganancia y alto riesgo en estas empresas, por lo general añaden valor a las empresas con sus conocimientos y/o red de relaciones. Por lo general invierten en las primeras etapas de la empr*esa (dinero* semilla), donde la cantidad requerida no es tan expresiva desde el punto de vista de la inversión, ya hablaremos más sobre esta etapa de inversión.
+La inversión Angel es la inversión realizada por personas con capital. Estas personas suelen ser especialistas en este tipo de inversión y buscan un retorno de alta ganancia y alto riesgo en estas empresas, por lo general añaden valor a las empresas con sus conocimientos y/o red de relaciones. Por lo general invierten en las primeras etapas de la empresa (*dinero semilla*), donde la cantidad requerida no es tan expresiva desde el punto de vista de la inversión, ya hablaremos más sobre esta etapa de inversión.
 
 #### Fondos de Capital Riesgo (VC)
 
@@ -77,9 +77,9 @@ Venture Capital son empresas y personas especializadas en este tipo de inversió
 
 ### Rondas de inversión
 
-Antes de que comience cualquier ronda de financiación, los analistas realizan una evaluación de la empresa, la famosa *"valoració*n" en cuestión. Estas evaluaciones se derivan de una variedad de factores, incluyendo la gestión, la trayectoria comprobada, el tamaño del mercado y el riesgo. Estas valoraciones son importantes para distinguir las rondas de financiación, así como con el nivel de madurez y las perspectivas de crecimiento. Estos factores son importantes porque afectan a los tipos de inversores que probablemente se involucren y a las razones por las que la empresa puede estar buscando nuevo capital. Una vez realizada la valoración, uno tiene una noción de cuánto vale esa empresa en potencial y cuánto y cuánta inversión se necesitará.
+Antes de que comience cualquier ronda de financiación, los analistas realizan una evaluación de la empresa, la famosa "*valoración*" en cuestión. Estas evaluaciones se derivan de una variedad de factores, incluyendo la gestión, la trayectoria comprobada, el tamaño del mercado y el riesgo. Estas valoraciones son importantes para distinguir las rondas de financiación, así como con el nivel de madurez y las perspectivas de crecimiento. Estos factores son importantes porque afectan a los tipos de inversores que probablemente se involucren y a las razones por las que la empresa puede estar buscando nuevo capital. Una vez realizada la valoración, uno tiene una noción de cuánto vale esa empresa en potencial y cuánto y cuánta inversión se necesitará.
 
-#### Financiación de se*millas (Investimento Sement*e)
+#### Financiación de semillas (*Investimento Semente*)
 
 La financiación inicial es la primera etapa "oficial" de financiación de estas empresas. Por lo general, representa el primer dinero oficial de terceros invertido en Startup. Este dinero se recauda generalmente para poner en funcionamiento la empresa y posiblemente conducir a las otras rondas de inversión. Por lo general, los inversores ángeles y algunos fondos de capital riesgo especializados en esta etapa invierten aquí.
 
@@ -97,6 +97,6 @@ En este momento la empresa ya está bien desarrollada y muchas terminan lanzando
 
 ## Conclusión
 
-Aprendemos lo que es una Startup y cómo se crean y financian, sus productos, así como los modelos de negocio son innovadores y a menudo inspiradores. En Brasil una de las Startups más populares es [Nubank,](https://blog.nubank.com.br/) que cada año atrae a un número relevante de nuevos clientes y no deja de crecer! Para aquellos que no lo saben, Nubank es una Fintech, un tipo de startup especializada, [enseñé lo que estas empresas están aqu](http://marquesfernandes.com/fintech-vs-embedded-fintech-o-que-sao-e-qual-a-diferenca/)í.
+Aprendemos lo que es una Startup y cómo se crean y financian, sus productos, así como los modelos de negocio son innovadores y a menudo inspiradores. En Brasil una de las Startups más populares es [Nubank](https://blog.nubank.com.br/), que cada año atrae a un número relevante de nuevos clientes y no deja de crecer! Para aquellos que no lo saben, Nubank es una Fintech, un tipo de startup especializada, [enseñé lo que estas empresas están aquí](http://marquesfernandes.com/fintech-vs-embedded-fintech-o-que-sao-e-qual-a-diferenca/).
 
 ¿Tiene alguna definición diferente a la que presenté aquí? ¡Dejé tu comentario!

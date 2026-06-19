@@ -64,7 +64,7 @@ O ambiente [**node**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nod
 
 ### [Java](https://rockcontent.com/br/blog/o-que-e-java/)
 
-**[Java](https://rockcontent.com/br/blog/o-que-e-java/) é um** **tipo de linguagem de programaçãocriada** e comercializada pela Sun Microsystems desde 1995. É definida como uma linguagem orientada a objetos.  
+**[Java](https://rockcontent.com/br/blog/o-que-e-java/) é um tipo de linguagem de programação criada** e comercializada pela Sun Microsystems desde 1995. É definida como uma linguagem orientada a objetos.  
 Sua intenção é permitir que os desenvolvedores escrevam o programa apenas uma vez e o executem por meio de qualquer dispositivo.
 
 ## Responsabilidades de um Desenvolvedor Backend

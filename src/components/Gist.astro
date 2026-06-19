@@ -1,0 +1,50 @@
+---
+/**
+ * GitHub Gist embed, used in MDX articles where the legacy WordPress oEmbed
+ * rendered the gist inline. The classic gist.js uses document.write, which
+ * breaks when injected directly into a page, so we load it inside a srcdoc
+ * iframe (a fresh document) and auto-size the iframe to its content height.
+ *
+ * Pass the gist `id` and the `user` that owns it; optional `file` pins one
+ * file from a multi-file gist.
+ */
+interface Props {
+  id: string;
+  user: string;
+  file?: string;
+}
+const { id, user, file } = Astro.props;
+
+const scriptSrc = `https://gist.github.com/${user}/${id}.js${file ? `?file=${file}` : ''}`;
+const srcdoc = `<base target="_parent"><script src="${scriptSrc}"></script>`;
+---
+
+<iframe class="gist-embed" srcdoc={srcdoc} title="GitHub Gist" loading="lazy"></iframe>
+
+<script is:inline>
+  // Size each gist iframe to its rendered content once the embed has loaded.
+  document.querySelectorAll('iframe.gist-embed').forEach((frame) => {
+    const resize = () => {
+      try {
+        const doc = frame.contentDocument;
+        if (doc && doc.body) frame.style.height = `${doc.body.scrollHeight + 16}px`;
+      } catch {
+        /* cross-origin: leave the default height */
+      }
+    };
+    frame.addEventListener('load', () => {
+      resize();
+      // Gist styles can land a tick after load; re-measure shortly after.
+      setTimeout(resize, 300);
+    });
+  });
+</script>
+
+<style>
+  .gist-embed {
+    width: 100%;
+    height: 320px;
+    margin-block: 1.5rem;
+    border: 0;
+  }
+</style>

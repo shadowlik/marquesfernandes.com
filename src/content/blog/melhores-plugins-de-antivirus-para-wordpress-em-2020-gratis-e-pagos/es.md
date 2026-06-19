@@ -52,7 +52,7 @@ Algunas de las muchas funciones disponibles en este complemento son:
 -   ESCANEO DE SEGURIDAD
 -   SEGURIDAD DE SPAM DE COMENTARIOS
 
-## 2. [Wordfence Security: escaneo de firewall y malware (gratuito y de pag](https://wordpress.org/plugins/wordfence/)o)
+## 2. [Wordfence Security: escaneo de firewall y malware (gratuito y de pago)](https://wordpress.org/plugins/wordfence/)
 
 [![Seguridad de Wordfence: escaneo de firewall y malware ](./2020-08-banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
 

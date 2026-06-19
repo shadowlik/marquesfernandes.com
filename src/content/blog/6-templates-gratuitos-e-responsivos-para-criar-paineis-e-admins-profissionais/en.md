@@ -30,7 +30,7 @@ Are you building a control panel or an administrative system? I've separated 8 f
 
 [https://colorlib.com//polygon/adminty/default/index.html](https://colorlib.com//polygon/adminty/default/index.html)  
 
-**administration** was developed by the company [colorlib](https://colorlib.com) upon [Bootstrap 4,](http://getbootstrap.com/) it has several components and is extremely expansive, using it is not so easy but it is definitely worth it, it has a very nice and modern layout.[](http://getbootstrap.com)
+**administration** was developed by the company [colorlib](https://colorlib.com) upon [Bootstrap 4,](http://getbootstrap.com/) it has several components and is extremely expansive, using it is not so easy but it is definitely worth it, it has a very nice and modern layout.
 
 ## [SB Admin](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
 

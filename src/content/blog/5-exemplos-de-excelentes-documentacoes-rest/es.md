@@ -16,31 +16,31 @@ updated: 2021-12-12T11:24:12.000Z
 
 ¿Busca ejemplos de documentación REST en línea? Separé 5 DOCUMENTATION DE APIs que recientemente me ayudaron como inspiración.
 
-[Twitter AP](https://dev.twitter.com/overview/api)I
+[Twitter API](https://dev.twitter.com/overview/api)
 
 ![](./2019-09-07160155479276.jpg)
 
 Twitter es una \[ˈtwɪtər\]red social y servidor de microblogging que permite a los usuarios enviar y recibir actualizaciones personales de otros contactos (en textos de hasta 280 caracteres, conocidos como "tweets"), a través del sitio web del servicio, sms, y software de gestión específico.
 
-[Github AP](https://developer.github.com/v3/#parameters)I
+[Github API](https://developer.github.com/v3/#parameters)
 
 ![](./2019-09-what-is-github-1-1.png)
 
 GitHub es una plataforma de alojamiento de código fuente controlada por versiones que utiliza Git.
 
-[Google Drive AP](https://developers.google.com/drive/v2/reference/files#resource)I
+[Google Drive API](https://developers.google.com/drive/v2/reference/files#resource)
 
 ![](./2019-09-Google-Drive-Apps-Main.png)
 
 Google Drive es un servicio de almacenamiento y sincronización de archivos que fue introducido por Google el 24 de abril de 2012.
 
-[Paypal AP](https://developer.paypal.com/docs/api/overview/)I
+[Paypal API](https://developer.paypal.com/docs/api/overview/)
 
 ![](./2019-09-wpca-paypal-gateway-addon.jpg)
 
 PayPal es una compañía de pago en línea con sede en San José, California, Estados Unidos. Fundada en 1998 por Peter Thiel y Max Levchin, opera internacionalmente y es una de las más grandes del negocio por poder hacer pagos rápidos y ayudar en los envíos de dinero.
 
-[API de catálogo VT](https://documenter.getpostman.com/view/845/vtex-catalog-api/Hs44?version=latest)EX
+[API de catálogo VTEX](https://documenter.getpostman.com/view/845/vtex-catalog-api/Hs44?version=latest)
 
 ![](./2019-09-vtex-1.jpg)
 

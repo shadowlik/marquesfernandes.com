@@ -23,7 +23,7 @@ Facebook ahora te permite descargar todos los datos que se le proporcionan, foto
 
 Encontré una solución, relativamente simple, pero necesitará tener instalado Python 2 para ejecutar un script:
 
-1\. Descargue el script de Pytho[n: https://github.com/mgjohnston/fmpd](https://github.com/mgjohnston/fmpd)
+1\. Descargue el script de Python: [https://github.com/mgjohnston/fmpd](https://github.com/mgjohnston/fmpd)
 
 dos. Ve a la página "Fotos contigo" y desplázate hasta el final: [https://www.facebook.com/me/photos](https://www.facebook.com/me/photos)
 
@@ -36,7 +36,7 @@ para (enlace de document.getElementsByTagName ('a')) {
 
 Ahora necesita copiar todas las URL generadas y guardarlas en un archivo llamado list.txt. No olvide limpiar el archivo y dejar solo los FBID de las fotos.
 
-4\. Ahora necesitaremos cookies de Facebook para que el script funcione y acceda a las fotos para descargarlas en su computadora. Te recomiendo que uses la extensión co[okies.txt para Chrome y gu](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg)ardes el archivo como "cookies.txt" en la misma carpeta donde descargaste el script.
+4\. Ahora necesitaremos cookies de Facebook para que el script funcione y acceda a las fotos para descargarlas en su computadora. Te recomiendo que uses la extensión [cookies.txt para Chrome](https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg) y guardes el archivo como "cookies.txt" en la misma carpeta donde descargaste el script.
 
 5\. Use Python 2 para ejecutar el script y descargar las fotos.
 

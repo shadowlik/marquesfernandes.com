@@ -15,11 +15,11 @@ needsReview: false
 updated: 2021-12-12T11:23:33.000Z
 ---
 
-Es probable que te encuentres con un archivo con la extensió`n .ya`ml o `.ym`l, y te estás preguntando cuál es ese tipo de archivo. YAML es un acrónimo recursivo en in*glés y signifi*ca Ain't Markup Language. Según el sitio web oficial: Y*AML es una serialización de datos estándar y amigable para el ser humano para todos los lenguajes de programación.*
+Es probable que te encuentres con un archivo con la extensión `.yaml` o `.yml`, y te estás preguntando cuál es ese tipo de archivo. YAML es un acrónimo recursivo en inglés y significa *Ain't Markup Language*. Según el sitio web oficial: *YAML es una serialización de datos estándar y amigable para el ser humano para todos los lenguajes de programación.*
 
 Al reunir algunas otras definiciones que podemos encontrar en Internet, podemos concluir que YAML es un patrón de datos jerárquico y legible que se puede utilizar junto con todos los lenguajes de programación, y normalmente se utiliza para almacenar archivos de configuración.
 
-YAML fue propuesto [por Clark](https://pt.wikipedia.org/w/index.php?title=Clark_Evans&action=edit&redlink=1) Evans en 2001 y al comienzo de su desarrollo significó "Yet Another Markup Language", esto para distinguir su propósito centrado en los datos en lugar de documentos marcados. Esto significa que YAML no propone etiquetas y etiquetas, solo formato e identificadores mínimos, centrándose realmente en los datos. No se preocupe si todavía no lo entiende, será más fácil entender lo que eso significa en comparación con algunos lenguajes de marcado conocidos.
+YAML fue propuesto por [Clark Evans](https://pt.wikipedia.org/w/index.php?title=Clark_Evans&action=edit&redlink=1) en 2001 y al comienzo de su desarrollo significó "Yet Another Markup Language", esto para distinguir su propósito centrado en los datos en lugar de documentos marcados. Esto significa que YAML no propone etiquetas y etiquetas, solo formato e identificadores mínimos, centrándose realmente en los datos. No se preocupe si todavía no lo entiende, será más fácil entender lo que eso significa en comparación con algunos lenguajes de marcado conocidos.
 
 ## Ejemplo de un archivo YAML
 
@@ -38,8 +38,8 @@ Como podemos ver, no hay etiquetas predefinidas, las propias propiedades delimit
 Puntos principales
 
 -   YAML es un lenguaje basado en datos que tiene características derivadas de Perl, C, HTML y otros lenguajes.
--   YAML es un superconjunto derivado de JS[ON q](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/)ue viene con varias ventajas integradas, como comentarios, autoreferencia y compatibilidad con tipos de datos complejos.
+-   YAML es un superconjunto derivado de [JSON](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/) que viene con varias ventajas integradas, como comentarios, autoreferencia y compatibilidad con tipos de datos complejos.
 -   Varios paquetes de software han implementado YAML para crear potentes herramientas de administración de configuración.
 -   Infraestructura de alto rendimiento
 
-Puede ver más información técnica sobre YAML en su sitio web [oficial o en](https://yaml.org/) el sitio web de referencia de [Ansible - RedHa](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)t, ambos en inglés.
+Puede ver más información técnica sobre YAML en su sitio web [oficial](https://yaml.org/) o en el sitio web de referencia de [Ansible - RedHat](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html), ambos en inglés.

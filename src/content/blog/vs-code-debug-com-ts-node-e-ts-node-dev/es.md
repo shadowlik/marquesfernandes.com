@@ -15,9 +15,9 @@ needsReview: false
 updated: 2021-12-12T11:23:30.000Z
 ---
 
-Si tiene problemas para depurar en VS Code sus proyectos [con Typescript que u](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/)san ts-node o ts-node-dev, como líneas incorrectas en debbuger o no selecciona ninguna línea, no se preocupe, la solución es simple.
+Si tiene problemas para depurar en VS Code sus [proyectos con Typescript](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/) que usan ts-node o ts-node-dev, como líneas incorrectas en debbuger o no selecciona ninguna línea, no se preocupe, la solución es simple.
 
-Por alguna razón, el depurador de VS Code se confunde al intentar interpretar los archivos .map y termina seleccionando las líneas incorrectas, lo que puede hacer imposible usar debbuger en la aplicación. Esta solución también es para aquellos que están desarrollando con [Docke](http://marquesfernandes.com/conteineres-e-docker-o-que-e-e-para-que-serve/)r.
+Por alguna razón, el depurador de VS Code se confunde al intentar interpretar los archivos .map y termina seleccionando las líneas incorrectas, lo que puede hacer imposible usar debbuger en la aplicación. Esta solución también es para aquellos que están desarrollando con [Docker](http://marquesfernandes.com/conteineres-e-docker-o-que-e-e-para-que-serve/).
 
 Explicaré la configuración paso a paso para que pueda identificar cualquier problema potencial en su proyecto.
 
@@ -25,22 +25,22 @@ Explicaré la configuración paso a paso para que pueda identificar cualquier pr
 
 Debe incluir ts-`node o` ts`-node-dev` en sus dependencias:
 
-"devDependencies":
+"devDependencies": {
   "ts-node": "8.9.0",
   "ts-node-dev": "1.0.0-pre.44",
 }
 
 Cree un script para ejecutar el proyecto con ts-node-dev o ts-node:
 
-"scripts":
-  "dev": "ts-node-dev --inspect-0.0.0.0:7001 --exit-child --respawn src/index.ts",
+"scripts": {
+  "dev": "ts-node-dev --inspect=0.0.0.0:7001 --exit-child --respawn src/index.ts",
 }
 
 ### Configuración de tsconfig.json
 
 Siempre necesitamos habilitar la opción `sourceMap` en `compilerOptions,` esta opción hace que el compilador genere los archivos de asignación necesarios para que el debug funcione correctamente:
 
-"compilerOptions":
+"compilerOptions": {
   ...  
   "sourceMap": true
 }
@@ -51,16 +51,16 @@ Cree o modifique su archi`vo .vscode/launch.jso`n . No olvide configurar el puer
 
 {
   "version": "0.2.0",
-  "configuraciones": \[
+  "configurations": \[
     {
-      "type": "nodo",
-      "request": "adjuntar",
-      "name": "Docker: Adjuntar al nodo",
+      "type": "node",
+      "request": "attach",
+      "name": "Docker: Attach to Node",
       "port": 7001,
       "address": "localhost",
-      "localRoot": "$-workspaceFolder",
-      "sourceMapPathOverrides":
-        "/app/\*": "$-workspaceRoot-/\*"
+      "localRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "/app/\*": "${workspaceRoot}/\*"
       },
       "remoteRoot": "/app/"
     }
@@ -69,10 +69,10 @@ Cree o modifique su archi`vo .vscode/launch.jso`n . No olvide configurar el puer
 
 El balcón está aquí en la propiedad s`ourceMapPathOverrides, n`ecesitamos indicar explícitamente al depurador qué ruta de acceso debe seguir desde los archivos de mapa de origen hasta los archivos dentro del contenedor de Docker.
 
-"sourceMapPathOverrides": "<W  
-ORKDIR>/\*": "$-workspaceRoot-/\*"</WORKDI  
-R>
+"sourceMapPathOverrides": {  
+  "<WORKDIR>/\*": "${workspaceRoot}/\*"  
+}
 
-Hay un prob[lema abierto en el repositorio de Typescript so](https://github.com/Microsoft/vscode-recipes/issues/187)bre este problema, por ahora la solución es utilizar esta configuración.
+Hay un [problema abierto en el repositorio de Typescript](https://github.com/Microsoft/vscode-recipes/issues/187) sobre este problema, por ahora la solución es utilizar esta configuración.
 
 Gracias por la solución original: [https://medium.com/@mitsuhideohi/debugging-uncompiled-typescript-code-running-on-a-docker-container-213418ab2b1f](https://medium.com/@mitsuhideohi/debugging-uncompiled-typescript-code-running-on-a-docker-container-213418ab2b1f)

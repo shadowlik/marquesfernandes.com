@@ -66,8 +66,33 @@ function deriveDescription(excerpt: string, markdown: string): string | undefine
   return plain.length > 160 ? `${plain.slice(0, 157)}...` : plain;
 }
 
-function buildMarkdownFile(frontmatter: Record<string, unknown>, body: string): string {
-  return `---\n${stringify(frontmatter)}---\n\n${body}\n`;
+/** MDX components an extracted body may reference, with their import source. */
+const MDX_COMPONENTS: Record<string, string> = {
+  YouTube: "import YouTube from '@/components/YouTube.astro';",
+  Gist: "import Gist from '@/components/Gist.astro';",
+};
+
+/** Import lines for whichever components appear as `<Name ...>` tags in the body. */
+function componentImports(body: string): string[] {
+  return Object.entries(MDX_COMPONENTS)
+    .filter(([name]) => new RegExp(`<${name}[\\s/>]`).test(body))
+    .map(([, imp]) => imp);
+}
+
+/**
+ * Build the content file. A body that uses MDX components (e.g. the `<YouTube>`
+ * / `<Gist>` embeds emitted by `convertEmbeds`) must be an `.mdx` file with the
+ * components imported after the frontmatter, or Astro renders the tags as inert
+ * HTML. Plain bodies stay `.md`.
+ */
+function buildContentFile(
+  frontmatter: Record<string, unknown>,
+  body: string,
+): { ext: 'md' | 'mdx'; content: string } {
+  const head = `---\n${stringify(frontmatter)}---\n\n`;
+  const imports = componentImports(body);
+  if (imports.length === 0) return { ext: 'md', content: `${head}${body}\n` };
+  return { ext: 'mdx', content: `${head}${imports.join('\n')}\n\n${body}\n` };
 }
 
 async function main() {
@@ -162,7 +187,8 @@ async function main() {
 
       const dir = join(BLOG_DIR, translationKey);
       await mkdir(dir, { recursive: true });
-      await writeFile(join(dir, `${lang}.md`), buildMarkdownFile(frontmatter, body));
+      const { ext, content } = buildContentFile(frontmatter, body);
+      await writeFile(join(dir, `${lang}.${ext}`), content);
       written++;
     }
 

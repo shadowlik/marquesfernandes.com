@@ -21,7 +21,7 @@ Hay una broma de referirse a un desarrollador de pila completa como el desarroll
 
 ## Comprender las capas
 
-Una aplicación web tiene capas de tecnología, en definitiva podemos enumerar dos principales: [Frontend (Lado cliente / Lado cliente); B](http://tutano.trampos.co/10943-guia-de-profissoes-desenvolvedor-back-end/#:~:text=O%20Desenvolvedor%20Back%2Dend%20se,parte%20das%20suas%20tarefas%20di%C3%A1rias.)ac[kend (lado del servidor/lado del servidor](https://www.igti.com.br/blog/o-que-faz-um-desenvolvedor-front-end/));
+Una aplicación web tiene capas de tecnología, en definitiva podemos enumerar dos principales: [Frontend (Lado cliente / Lado cliente)](http://tutano.trampos.co/10943-guia-de-profissoes-desenvolvedor-back-end/#:~:text=O%20Desenvolvedor%20Back%2Dend%20se,parte%20das%20suas%20tarefas%20di%C3%A1rias.); [Backend (lado del servidor/lado del servidor)](https://www.igti.com.br/blog/o-que-faz-um-desenvolvedor-front-end/));
 
 El desarrollador de pila completa actualmente tiene que ser capaz de actuar en estas dos capas, ser capaz de desarrollar la regla de negocio en el backend y desarrollar el frente. Así que si el desarrollador puede programar en PHP, que es un lenguaje backend y sabe cómo ensamblar una estructura básica en HTML/CSS/Javascript, teóricamente ya puede llamarse a sí mismo pila completa.
 

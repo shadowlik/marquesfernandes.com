@@ -132,7 +132,7 @@ Now let's add a script to our file. `package.json` to run lint:
 
 ...
 "scripts": {
-  "test": "echo "Error: no test specified" && exit 1",
+  "test": "echo \\"Error: no test specified\\" && exit 1",
   "lint": "eslint --fix ./src/\*"
 }
 ...
@@ -147,11 +147,11 @@ If you are using VS Code with the configuration at the beginning of the article,
 
 If you've already developed with Typescript, you've probably been annoyed with the whole process of compiling and restarting your application. There are several ways to configure your environment to compile your files ***.ts*** and restart your application, here we're going to focus on the setup that I felt most productive using the lib **ts-node-dev** . This library compiles the Typescript but shares this compilation between application restarts, this means that we will be able to have an auto-reload without having to wait for the entire compilation process. The ts-node-dev lib is a mix of two other libraries, [node-dev](https://github.com/fgnass/node-dev) with [ts-node](https://github.com/TypeStrong/ts-node) .
 
-Let's create the script `must` that will be used during development:
+Let's create the script `dev` that will be used during development:
 
 ...
 "scripts": {
-  "test": "echo "Error: no test specified" && exit 1",
+  "test": "echo \\"Error: no test specified\\" && exit 1",
   "lint": "eslint --fix ./src/\*",
   "dev": "ts-node-dev --inspect=8181 --respawn --transpileOnly src/index.ts"
 }
@@ -263,7 +263,7 @@ Repeat the steps of the last step and change some codes, check in your browser i
 
 ## Setting up the debugger in VS Code
 
-As we are developing inside our container, we need to access node remote debugging, so we release the port `8181` in docker compose and also in our script `must` of `package.json` . Let's create a file `launch.json` inside our folder `.vscode` and paste the configuration:
+As we are developing inside our container, we need to access node remote debugging, so we release the port `8181` in docker compose and also in our script `dev` of `package.json` . Let's create a file `launch.json` inside our folder `.vscode` and paste the configuration:
 
 {
   "type": "node",

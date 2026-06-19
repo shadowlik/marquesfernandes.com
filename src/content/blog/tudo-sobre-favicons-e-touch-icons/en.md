@@ -91,7 +91,22 @@ rel="apple-touch-icon-precomposed" | 76x76 - iPad 2 and iPad mini
 
 Finally, I have separated a list with most sizes used and by whom:
 
-<table style="background-color: #ffffff; height: 942px;"><tbody><tr style="height: 43px;"><td style="height: 43px; width: 102px;"><strong>Size</strong></td><td style="height: 43px; width: 150px;"><strong>Name</strong></td><td style="height: 43px; width: 455px;"><b>Use</b></td></tr><tr style="height: 43px;"><td style="height: 43px; width: 102px;">32×32</td><td style="height: 43px; width: 150px;">favicon-32.png</td><td style="height: 43px; width: 455px;">Default for most browsers</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">57×57</td><td style="height: 65px; width: 150px;">favicon-57.png</td><td style="height: 65px; width: 455px;">Standard for iOS and iPhone home screen up to 3rd generation</td></tr><tr style="height: 43px;"><td style="height: 43px; width: 102px;">76×76</td><td style="height: 43px; width: 150px;">favicon-76.png</td><td style="height: 43px; width: 455px;">iPad Home Screen</td></tr><tr style="height: 43px;"><td style="height: 43px; width: 102px;">96×96</td><td style="height: 43px; width: 150px;">favicon-96.png</td><td style="height: 43px; width: 455px;">GoogleTV</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">120×120</td><td style="height: 65px; width: 150px;">favicon-120.png</td><td style="height: 65px; width: 455px;">retina iPhone</td></tr><tr style="height: 120px;"><td style="height: 120px; width: 102px;">128×128</td><td style="height: 120px; width: 150px;">favicon-128.png</td><td style="height: 120px; width: 455px;">Chrome Web Store icon and Windows 8 Start Screen</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">144×144</td><td style="height: 65px; width: 150px;">favicon-144.png</td><td style="height: 65px; width: 455px;">IE10 metro icon *</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">152×152</td><td style="height: 65px; width: 150px;">favicon-152.png</td><td style="height: 65px; width: 455px;">iPad</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">167×167</td><td style="height: 65px; width: 150px;">favicon-167.png</td><td style="height: 65px; width: 455px;">Retina iPad</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">180×180</td><td style="height: 65px; width: 150px;">favicon-180.png</td><td style="height: 65px; width: 455px;">iPhone 6 plus</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">192×192</td><td style="height: 65px; width: 150px;">favicon-192.png</td><td style="height: 65px; width: 455px;">Google Developer Web App Recommendation</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">195×195</td><td style="height: 65px; width: 150px;">favicon-195.png</td><td style="height: 65px; width: 455px;">Opera Speed Dial (Version 15 and earlier)</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">196×196</td><td style="height: 65px; width: 150px;">favicon-196.png</td><td style="height: 65px; width: 455px;">Chrome home screen shortcut on Android</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">228×228</td><td style="height: 65px; width: 150px;">favicon-228.png</td><td style="height: 65px; width: 455px;">Opera Coast icon</td></tr></tbody></table>
+| **Size** | **Name** | **Use** |
+| --- | --- | --- |
+| 32×32 | favicon-32.png | Default for most browsers |
+| 57×57 | favicon-57.png | Standard for iOS and iPhone home screen up to 3rd generation |
+| 76×76 | favicon-76.png | iPad Home Screen |
+| 96×96 | favicon-96.png | GoogleTV |
+| 120×120 | favicon-120.png | retina iPhone |
+| 128×128 | favicon-128.png | Chrome Web Store icon and Windows 8 Start Screen |
+| 144×144 | favicon-144.png | IE10 metro icon \* |
+| 152×152 | favicon-152.png | iPad |
+| 167×167 | favicon-167.png | Retina iPad |
+| 180×180 | favicon-180.png | iPhone 6 plus |
+| 192×192 | favicon-192.png | Google Developer Web App Recommendation |
+| 195×195 | favicon-195.png | Opera Speed Dial (Version 15 and earlier) |
+| 196×196 | favicon-196.png | Chrome home screen shortcut on Android |
+| 228×228 | favicon-228.png | Opera Coast icon |
 
 ## Favicons generator sites
 
@@ -99,6 +114,6 @@ To make our lives easier there are sites that generate all major sizes automatic
 
 -   [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
 -   [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
--   [](https://favicon.io/)[https://favicon.io/](https://favicon.io/)
+-   [https://favicon.io/](https://favicon.io/)
 -   [http://www.genfavicon.com/](http://www.genfavicon.com/pt/)
--   [](https://www.favicon.cc/)[https://www.favicon.cc/](https://www.favicon.cc/)
+-   [https://www.favicon.cc/](https://www.favicon.cc/)

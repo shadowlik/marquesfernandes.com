@@ -23,9 +23,9 @@ updated: 2021-12-12T11:24:15.000Z
 
 [D3.JS](https://d3js.org/)
 
-D3.js es probablemente una de las bibliotecas más famosas hoy en día, utilizada en más de 100k [sitios we](https://www.wappalyzer.com/technologies/d3)b. Su lenguaje es muy cercano a jQuer[y y tie](https://jquery.com/)ne una amplia gama de gráficos y visualizaciones haciendo la vida más fácil para aquellos que quieren crear gráficos usando HTML, CSS y SVG. Una desventaja es su rendimiento en navegadores más antiguos.
+D3.js es probablemente una de las bibliotecas más famosas hoy en día, utilizada en más de [100k sitios web](https://www.wappalyzer.com/technologies/d3). Su lenguaje es muy cercano a [jQuery](https://jquery.com/) y tiene una amplia gama de gráficos y visualizaciones haciendo la vida más fácil para aquellos que quieren crear gráficos usando HTML, CSS y SVG. Una desventaja es su rendimiento en navegadores más antiguos.
 
-### Sitios que utilizan [D3.j](https://d3js.org/)s:
+### Sitios que utilizan [D3.js](https://d3js.org/):
 
 -   Nytimes
 -   Uber
@@ -37,9 +37,9 @@ D3.js es probablemente una de las bibliotecas más famosas hoy en día, utilizad
 
 Gráficos de Google
 
-Google Charts tiene varios gráficos predefinidos como gráficos de barras, gráficos de calendario, gráficos de área, gráficos geográficos, gráficos circulares y muchos otros [gráficos multifunciona](https://developers.google.com/chart/interactive/docs/examples)les, y permite la creación de gráficos más simples.
+Google Charts tiene varios gráficos predefinidos como gráficos de barras, gráficos de calendario, gráficos de área, gráficos geográficos, gráficos circulares y muchos otros [gráficos multifuncionales](https://developers.google.com/chart/interactive/docs/examples), y permite la creación de gráficos más simples.
 
-Los gráficos altamente personalizables se representan mediante HTML5 o SVG que ofrecen compatibilidad con el navegador y portabilidad de la plataforma. Google Charts utiliza [VML](https://en.wikipedia.org/wiki/Vector_Markup_Language) para admitir versiones anteriores del navegador Internet Explorer, actualmente utilizado por más de 30k [sitios we](https://www.wappalyzer.com/technologies/google-charts)b.
+Los gráficos altamente personalizables se representan mediante HTML5 o SVG que ofrecen compatibilidad con el navegador y portabilidad de la plataforma. Google Charts utiliza [VML](https://en.wikipedia.org/wiki/Vector_Markup_Language) para admitir versiones anteriores del navegador Internet Explorer, actualmente utilizado por más de [30k sitios web](https://www.wappalyzer.com/technologies/google-charts).
 
 ## **[Chart.js](https://www.chartjs.org/)**
 
@@ -47,7 +47,7 @@ Los gráficos altamente personalizables se representan mediante HTML5 o SVG que 
 
 **\-ERR:REF-NOT-FOUND-Chart.js**
 
-Chart.js es amado por su simplicidad y objetividad, tiene una amplia selección de gráficos y ejemplos. Compatible con navegadores más antiguos como IE7 e IE8 mediante el uso de pol[yfill y re](https://pt.stackoverflow.com/questions/194857/o-que-%C3%A9-polyfill)sponsive de forma predeterminada. Por su naturaleza opensource tiene una comunidad activa y muchos tutoriales / ejemplos disponibles, utilizado en más d[e 100k siti](https://www.wappalyzer.com/technologies/chart-js)os es seguro que es una biblioteca para tener en su arsenal.
+Chart.js es amado por su simplicidad y objetividad, tiene una amplia selección de gráficos y ejemplos. Compatible con navegadores más antiguos como IE7 e IE8 mediante el uso de [polyfill](https://pt.stackoverflow.com/questions/194857/o-que-%C3%A9-polyfill) y responsive de forma predeterminada. Por su naturaleza opensource tiene una comunidad activa y muchos tutoriales / ejemplos disponibles, utilizado en más de [100k sitios](https://www.wappalyzer.com/technologies/chart-js) es seguro que es una biblioteca para tener en su arsenal.
 
 ## **[Chartist.js](https://gionkunz.github.io/chartist-js/)**
 

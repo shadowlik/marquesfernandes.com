@@ -17,7 +17,7 @@ updated: 2021-12-12T11:22:51.000Z
 
 Necesita cambiar la contraseña de una cuenta de usuario en Linux, quizás para acceder a un sftp o ssh en Ubuntu.¿Cómo cambiar la contraseña de un usuario en Ubuntu Linux?
 
-La información de su cuenta de Ubuntu Linux se almacena en un archivo llamado / etc / **passwd y la** contraseña encriptada en / **etc / shado**w. Afortunadamente, por su seguridad, no es posible acceder a contraseñas ya almacenadas en texto sin cifrar. 
+La información de su cuenta de Ubuntu Linux se almacena en un archivo llamado **/ etc / passwd** y la contraseña encriptada en **/ etc / shadow**. Afortunadamente, por su seguridad, no es posible acceder a contraseñas ya almacenadas en texto sin cifrar. 
 
 ## Cómo cambiar una contraseña de usuario en Ubuntu
 
@@ -31,7 +31,7 @@ La información de su cuenta de Ubuntu Linux se almacena en un archivo llamado /
 
 ## ¿Cómo cambio la contraseña de la cuenta de usuario en Ubuntu?
 
-Abra una ventana de terminal nuevamente.Ingrese el siguiente comando para cambiar la contraseña de una cuenta de usuario regular de Ubuntu llamada *henriqu*e:
+Abra una ventana de terminal nuevamente.Ingrese el siguiente comando para cambiar la contraseña de una cuenta de usuario regular de Ubuntu llamada *henrique*:
 
 `sudo passwd {nombre de usuari   o} sudo passwd henriq   uesudo passwd marques`
 

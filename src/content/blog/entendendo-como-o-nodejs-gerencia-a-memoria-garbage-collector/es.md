@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:23:36.000Z
 ---
 
-A medida que desarrollamos aplicaciones más complejas, la necesidad de entender cómo funciona nuestro lenguaje bajo las cubiertas en ciertos aspectos se hace necesaria. No[deJS,](http://marquesfernandes.com/afinal-o-que-e-nodejs/) más específicamente el motor v8 que es el motor que ejecuta nuestras aplicaciones tiene algunas limitaciones, no voy a entrar en detalle de todas ellas, nos centraremos sólo en uno: E*l límite de memori*a. De forma predeterminada, el límite máximo de memoria asignada es de alrededor de 700 MB y 1400 MB, para sistemas de 32 bits y 64 bits respectivamente, y esto puede convertirse en un cuello de botella para algunas aplicaciones y, por lo tanto, es importante comprender cómo se asigna y desasigna esta memoria.
+A medida que desarrollamos aplicaciones más complejas, la necesidad de entender cómo funciona nuestro lenguaje bajo las cubiertas en ciertos aspectos se hace necesaria. El [NodeJS](http://marquesfernandes.com/afinal-o-que-e-nodejs/), más específicamente el motor v8 que es el motor que ejecuta nuestras aplicaciones tiene algunas limitaciones, no voy a entrar en detalle de todas ellas, nos centraremos sólo en uno: El *límite de memoria*. De forma predeterminada, el límite máximo de memoria asignada es de alrededor de 700 MB y 1400 MB, para sistemas de 32 bits y 64 bits respectivamente, y esto puede convertirse en un cuello de botella para algunas aplicaciones y, por lo tanto, es importante comprender cómo se asigna y desasigna esta memoria.
 
 ## Gestión de la memoria
 
@@ -24,11 +24,11 @@ La administración de memoria consta de formas de asignar memoria dinámicamente
 Hay dos maneras de administración de memoria:
 
 -   **Manual:** Consiste en delegar esta responsabilidad para desarrollarla por sí misma, es responsable de asignar y desasignar memoria en el desarrollo de su aplicación.
--   **Automátic**o: Consiste en el uso de un "programa" nativo, generalm*ente llamado rec*olector de basura, que se encarga de hacer todo este proceso y tratar de evitar pérdidas de memoria.
+-   **Automático:** Consiste en el uso de un "programa" nativo, generalmente llamado *recolector de basura*, que se encarga de hacer todo este proceso y tratar de evitar pérdidas de memoria.
 
 ## Coletor de Lixo - Recolector de Basura
 
-El concepto de "recolección de basura" es una forma de administrar la memoria de la aplicación automáticamente. El trabajo del recolector de elementos no utilizados (GC) es recuperar la memoria ocupada por objetos no utilizados (basura). Fue concebido y utilizado por primera vez en [LIS](https://pt.wikipedia.org/wiki/Lisp)P en 1959, inventado por John McCarthy.
+El concepto de "recolección de basura" es una forma de administrar la memoria de la aplicación automáticamente. El trabajo del recolector de elementos no utilizados (GC) es recuperar la memoria ocupada por objetos no utilizados (basura). Fue concebido y utilizado por primera vez en [LISP](https://pt.wikipedia.org/wiki/Lisp) en 1959, inventado por John McCarthy.
 
 La forma en que el GC sabe que los objetos ya no están en uso es que ningún otro objeto tiene referencias a ellos.
 
@@ -66,11 +66,11 @@ El conjunto residente también contiene el código Javascript real (que se ejecu
 
 El motor NodeJS V8 divide el montón en varios espacios diferentes para una gestión eficaz de la memoria:
 
--   **Nuevo espacio**: la mayoría de los objetos se asignan aquí. El nuevo espacio es pequeño y está diseñado para ser recogido rápidamente.
+-   **Nuevo espacio:** la mayoría de los objetos se asignan aquí. El nuevo espacio es pequeño y está diseñado para ser recogido rápidamente.
 -   **Espacio de puntero antiguo:** contiene la mayoría de los objetos que pueden tener punteros a otros objetos. La mayoría de los objetos se mueven aquí después de sobrevivir en el nuevo espacio después de un cierto tiempo.
--   **Espacio de datos antigu**o: contiene objetos que contienen solo datos muertos (sin punteros a otros objetos). Las cadenas, los números y las matrices se mueven aquí después de sobrevivir en un nuevo espacio durante un tiempo.
--   **Espacio de objetos grande**s: contiene objetos que son mayores que los límites de tamaño de otros espacios. Cada objeto obtiene su propia región de memoria de mmap. El recolector de elementos no utilizados nunca mueve los objetos grandes.
--   E**spaci**o **d**e **código:** los objetos de código, que contienen instrucciones JIT, se asignan aquí. Este es el único espacio con memoria ejecutable (su código está aquí)
+-   **Espacio de datos antiguo:** contiene objetos que contienen solo datos muertos (sin punteros a otros objetos). Las cadenas, los números y las matrices se mueven aquí después de sobrevivir en un nuevo espacio durante un tiempo.
+-   **Espacio de objetos grandes:** contiene objetos que son mayores que los límites de tamaño de otros espacios. Cada objeto obtiene su propia región de memoria de mmap. El recolector de elementos no utilizados nunca mueve los objetos grandes.
+-   **Espacio de código:** los objetos de código, que contienen instrucciones JIT, se asignan aquí. Este es el único espacio con memoria ejecutable (su código está aquí)
 -   **Espacio de celda, espacio de celda de propiedad y espacio de mapa:** contiene celdas, PropertyCells y Maps, respectivamente. Cada espacio contiene objetos que tienen el mismo tamaño y están restringidos en punteros, lo que simplifica la colección.
 
 ## Operación más detallada
@@ -85,7 +85,7 @@ Como vimos anteriormente el V8 divide el montón en dos generaciones. Los objeto
 
 Los objetos que han sobrevivido a dos ciclos de pequeñas recolecciones de elementos no utilizados se promueven a "espacio antiguo". El espacio antiguo es la basura recogida en el GC completo (ciclo principal de recolección de elementos no utilizados), que es mucho menos frecuente. Un ciclo de GC completo se activa cuando se alcanza una cierta cantidad de memoria en el espacio antiguo.
 
-Para recopilar espacio antiguo, que puede contener varios cientos de megabytes de datos, utilizamos dos algoritmos estrechamente relacionados[, Mark-swe](https://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/)ep y [Mark-compac](https://en.wikipedia.org/wiki/Mark-compact_algorithm)t.
+Para recopilar espacio antiguo, que puede contener varios cientos de megabytes de datos, utilizamos dos algoritmos estrechamente relacionados, [Mark-sweep](https://www.geeksforgeeks.org/mark-and-sweep-garbage-collection-algorithm/) y [Mark-compact](https://en.wikipedia.org/wiki/Mark-compact_algorithm).
 
 ## Forzar al recolector de basura
 
@@ -93,7 +93,7 @@ Aunque el recolector de elementos no utilizados NodeJS se ha mejorado, y mucho, 
 
 Ejecutar en modo normal esto no es posible, Node no nos permite asignar o desasignar memorias o tener acceso al recolector de elementos no utilizados, si queremos tener acceso a la función que llama al receptor, necesitamos ejecutar nuestra aplicación con la siguiente opción:
 
-Nodo $ --expose-gc index.js
+$ node --expose-gc index.js
 
 Al iniciar el programa con esta opción, tendrá acceso a la función:
 
@@ -101,10 +101,10 @@ global.gc();
 
 Para hacerlo más seguro, puede utilizar:
 
-función forceGC()
-   si (global.gc)
+function forceGC()
+   if (global.gc) {
       global.gc();
-   Más
-      console.warn('GC no habilitado! Ejecute el programa con 'node --expose-gc index.js'.');
+   } else {
+      console.warn('GC no habilitado! Ejecute el programa con \`node --expose-gc index.js\`.');
    }
 }

@@ -27,47 +27,47 @@ Lo que tenemos que hacer es intentar capturar la URL que causaría el error 404 
 
 Para ello, agregaremos el siguiente script al archivo `functions.php` del tema activo de WordPress:
 
-add\_action ('template\_redirect', 'maybe\_redirect\_404\_old\_permalink');
+add\_action( 'template\_redirect', 'maybe\_redirect\_404\_old\_permalink' );
 
-function maybe\_redirect\_404\_old\_permalink () {
-    // Realice esta función solo si es una página 404
-    if (! is\_404 ()) {
-        regreso;
+function maybe\_redirect\_404\_old\_permalink() {
+    // Ejecuta esta función solo si es una página de 404
+    if( ! is\_404() ) {
+        return;
     }
  
     // Truco para obtener la URL completa
-    $ url = add\_query\_arg ('', '');
+    $url = add\_query\_arg( '', '' );
 
-    // Tomamos la parte relacionada con% postname%
-    $ partes = explotar ('/', $ url);
-    $ partes = array\_filter ($ partes);
-    $ tamaño = recuento ($ partes);
-    $ maybe\_slug = $ parte\[ $size \]s;
+    // Tomamos la parte relacionada con %postname%
+    $parts = explode( '/', $url );
+    $parts = array\_filter( $parts );
+    $size = count( $parts );
+    $maybe\_slug = $parts\[ $size \];
 
     // Intentamos encontrar el nuevo enlace en la base de datos
-    $ args = matriz (
-        'nombre' => $ maybe\_slug,
-        'post\_type' => 'publicación',
-        'post\_status' => 'publicar',
+    $args = array(
+        'name'        => $maybe\_slug,
+        'post\_type'   => 'post',
+        'post\_status' => 'publish',
         'numberposts' => 1,
     );
 
-    $ publicaciones = get\_posts ($ args);
+    $posts = get\_posts( $args );
 
     // Encontramos la publicación
-    if ($ publicaciones &&! empty ($ publica\[0\]ciones-> ID)) {
-        $ post\_id = $ publicacion\[0\]es-> ID;
+    if( $posts && ! empty( $posts\[0\]->ID ) ) {
+        $post\_id = $posts\[0\]->ID;
 
-        $ post\_url = get\_permalink ($ post\_id);
+        $post\_url = get\_permalink( $post\_id );
 
-        // Redirigimos a la nueva URL con el estado de redireccionamiento permanente 301
-        if ($ post\_url) {
-            wp\_safe\_redirect ($ post\_url, 301);
+        // Redirigimos a la nueva URL con el estado de redirección permanente 301
+        if( $post\_url ) {
+            wp\_safe\_redirect( $post\_url, 301 );
         }
     }
 
   // Si llegas aquí es porque no se encontró ninguna publicación
-// y se mostrará la página 404
+// y se mostrará la página de 404
 }
 
-¡Gracias a Ben Lo[baugh, el c](https://ben.lobaugh.net/blog/202980/wordpress-add-category-to-permalink-and-redirect-old-permalinks)reador original de esta solución!
+¡Gracias a [Ben Lobaugh](https://ben.lobaugh.net/blog/202980/wordpress-add-category-to-permalink-and-redirect-old-permalinks), el creador original de esta solución!

@@ -34,7 +34,7 @@ Los servidores suelen tener sistemas operativos específicos, normalmente sin un
 
 ![](./2020-08-image-5.png)
 
-La mayoría de los servidores utilizan Linux como su sistema operativo, por ejempl[o Ubuntu Serve](https://ubuntu.com/download/server)r y [CentO](https://www.centos.org/)S, pero algunas aplicaciones necesitan ser rotadas en el sistema operativo de microsoft, por lo que hay una versión de Windows dedicada al servidor, [Windows Serve](https://www.microsoft.com/pt-br/windows-server)r.
+La mayoría de los servidores utilizan Linux como su sistema operativo, por ejemplo [Ubuntu Server](https://ubuntu.com/download/server) y [CentOS](https://www.centos.org/), pero algunas aplicaciones necesitan ser rotadas en el sistema operativo de microsoft, por lo que hay una versión de Windows dedicada al servidor, [Windows Server](https://www.microsoft.com/pt-br/windows-server).
 
 Básicamente cualquier equipo se puede considerar un servidor, por ejemplo, puede tomar un equipo antiguo y utilizarlo como servidor, instalar el sistema operativo específico y hospedar alguna aplicación. Los servidores domésticos son ampliamente utilizados por los desarrolladores de software.
 

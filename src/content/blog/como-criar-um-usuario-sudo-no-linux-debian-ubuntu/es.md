@@ -27,18 +27,18 @@ $ sudo usermod -aG sudo nomedousuario
 
 $ sudo adduser nomedousuario
 
-A continuación, tendrá que establecer una contraseña, ya que es un usuario que tendrá permisos de root utilizar una cont[raseña muy segur](https://passwordsgenerator.net)a. A continuación, tendrá que rellenar algunos datos de usuario opcionales, ya que no es necesario que puede dejar vacío.
+A continuación, tendrá que establecer una contraseña, ya que es un usuario que tendrá permisos de root utilizar una [contraseña muy segura](https://passwordsgenerator.net). A continuación, tendrá que rellenar algunos datos de usuario opcionales, ya que no es necesario que puede dejar vacío.
 
 **2.** Ahora vamos a usar el comando usermod para agregar el usuario al grupo sudo.
 
 $ sudo usermod -aG sudo nomedousuario
 
-**3.** Ahora vamos a probar el nuevo usuario creado y sus poderes como **sud**o.
+**3.** Ahora vamos a probar el nuevo usuario creado y sus poderes como **sudo**.
 
 $ su - nomedo tercero
 namedo usuario$ sudo ls -ls /root
 
-Deberá introducir la contraseña la primera vez que utilice el comando s**udo** cada vez que inicie una nueva sesión de terminal.
+Deberá introducir la contraseña la primera vez que utilice el comando **sudo** cada vez que inicie una nueva sesión de terminal.
 
 ## Extra: Quitar un usuario
 

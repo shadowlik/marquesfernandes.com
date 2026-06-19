@@ -14,7 +14,7 @@ needsReview: false
 updated: 2021-12-12T11:23:37.000Z
 ---
 
-Recientemente me encontré con un problema para crear un servidor web en casa usando un ordenador antiguo, así que decidí escribir sobr[e Carrier Grid NAT (CGNAT](http://marquesfernandes.com/2019/03/07/o-que-e-cgnat-double-nat/)), que es lo que hace imposible enrutar puertos y acceso externo a servidores domésticos / servicios web. Afortunadamente hay una manera de evitar esta situación usando el protocol[o S](https://pt.wikipedia.org/wiki/Secure_Shell)SH para enrutar los puertos a un servidor con acceso web externo, lo llamamos el [túnel SSH.](https://www.ssh.com/ssh/tunneling/example)
+Recientemente me encontré con un problema para crear un servidor web en casa usando un ordenador antiguo, así que decidí escribir sobre [Carrier Grid NAT (CGNAT)](http://marquesfernandes.com/2019/03/07/o-que-e-cgnat-double-nat/), que es lo que hace imposible enrutar puertos y acceso externo a servidores domésticos / servicios web. Afortunadamente hay una manera de evitar esta situación usando el protocolo [SSH](https://pt.wikipedia.org/wiki/Secure_Shell) para enrutar los puertos a un servidor con acceso web externo, lo llamamos el [túnel SSH.](https://www.ssh.com/ssh/tunneling/example)
 
 ## Requisitos previos
 
@@ -23,7 +23,7 @@ Recientemente me encontré con un problema para crear un servidor web en casa us
 
 ## Comenzando...
 
-Tienes un servidor web en tu ordenador y te gustaría poder acceder a él fuera de tu red local, para ello necesitarás tener alguna máquina que tenga acceso externo, por ejemplo, una gota básica en digitalocia (5 dole[tas mensuale](https://m.do.co/c/6bc37502c1d9)s) que ya viene con SSH instalado y habilitado de forma predeterminada, también puedes consultar amazon y googl[e clo](https://aws.amazon.com/pt/)ud [services , o](https://cloud.google.com/?&utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1008075-LUAC0010101&utm_content=text-ad-none-none-DEV_c-CRE_380746899544-ADGP_BKWS+%7C+Multi+~+GCP-KWID_43700047045899971-kwd-155951229-userloc_1001773&utm_term=KW_gcp-ST_GCP&gclid=Cj0KCQjw9tbzBRDVARIsAMBplx-vPL2bYpnbkP49E7n_QpkMwSEJ0VbcLbssHOeHDUbDZuOhIjEbMUoaAmAHEALw_wcB&gclsrc=aw.ds)frecen algunos límites gratuitos e incluso un crédito inicial para usar.
+Tienes un servidor web en tu ordenador y te gustaría poder acceder a él fuera de tu red local, para ello necesitarás tener alguna máquina que tenga acceso externo, por ejemplo, una gota básica en [digitalocia](https://m.do.co/c/6bc37502c1d9) (5 doletas mensuales) que ya viene con SSH instalado y habilitado de forma predeterminada, también puedes consultar [amazon](https://aws.amazon.com/pt/) y [google cloud services](https://cloud.google.com/?&utm_source=google&utm_medium=cpc&utm_campaign=latam-BR-all-pt-dr-bkws-all-all-trial-e-dr-1008075-LUAC0010101&utm_content=text-ad-none-none-DEV_c-CRE_380746899544-ADGP_BKWS+%7C+Multi+~+GCP-KWID_43700047045899971-kwd-155951229-userloc_1001773&utm_term=KW_gcp-ST_GCP&gclid=Cj0KCQjw9tbzBRDVARIsAMBplx-vPL2bYpnbkP49E7n_QpkMwSEJ0VbcLbssHOeHDUbDZuOhIjEbMUoaAmAHEALw_wcB&gclsrc=aw.ds), o ofrecen algunos límites gratuitos e incluso un crédito inicial para usar.
 
 No causar confusión, en este tutorial cada vez que me refiero al servidor, estoy hablando de la máquina que tiene una IP con acceso externo, es decir, la máquina creada en algún proveedor de nube como mencionamos anteriormente.
 

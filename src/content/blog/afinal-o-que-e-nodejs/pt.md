@@ -25,7 +25,7 @@ Você provavelmente já deve ter escutado sobre **[NodeJS](https://nodejs.org)**
 
 **NodeJS é um ambiente de execução Javascript.** Que bacana, mas o que isso significa? Como funciona?
 
-***Confira também: [](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*** *[Javascript - O que é, como funciona e para que server?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
+***Confira também: *** *[Javascript - O que é, como funciona e para que server?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
 
 Você provavelmente vai escutar desenvolvedores se referindo apenas como **Node** e não **NodeJS.**
 

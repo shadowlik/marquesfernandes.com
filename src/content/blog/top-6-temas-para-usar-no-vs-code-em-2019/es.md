@@ -17,13 +17,13 @@ updated: 2021-12-12T11:24:17.000Z
 
 [VS Code](https://code.visualstudio.com/) es mi querido editor de la época: Código abierto, multiplataforma, ligero, altamente personalizable y con una comunidad increíble. Si aún no lo has probado, ¡pruébalo!
 
-***También echa un vis***[*tazo: Paquetes de iconos para VS Code*](http://marquesfernandes.com/2019/10/07/pacotes-de-icones-para-vs-code-2019)
+***También echa un vistazo:*** [*Paquetes de iconos para VS Code*](http://marquesfernandes.com/2019/10/07/pacotes-de-icones-para-vs-code-2019)
 
 Separé una lista de 6 temas que he usado y aprobado:
 
 ## [0\. Búho Nocturno](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
 
-Uno de los queridos de la comunidad, el tema Nigh Owl fue desarrollado por Sarah [Drasner y tien](https://github.com/sdras)e colores optimizados para aquellos que les gusta trabajar en la oscuridad.
+Uno de los queridos de la comunidad, el tema Nigh Owl fue desarrollado por [Sarah Drasner](https://github.com/sdras) y tiene colores optimizados para aquellos que les gusta trabajar en la oscuridad.
 
 [![Búho Nocturno](https://raw.githubusercontent.com/sdras/night-owl-vscode-theme/master/preview.png)](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)
 
@@ -41,7 +41,7 @@ Para aquellos que están migrando desde [Atom,](https://ide.atom.io/) One Dark P
 
 ## [3\. Rainglow, Año Nuevo](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)
 
-Si estás buscando variedad, R**ainglow** es tu elección: Una colección con más de 320 temas de combinación de colores.
+Si estás buscando variedad, **Rainglow** es tu elección: Una colección con más de 320 temas de combinación de colores.
 
 -   ![](./2019-03-earthsong.png)
     
@@ -63,7 +63,7 @@ Con combinaciones suaves este es un tema para aquellos que buscan descansar sus 
 
 ## [5\. Un tema Monokai](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
-[Joshua Azemoh d](https://github.com/azemoh)ecidió hacer una referencia cruzada de su tema One Dark Pro c[on el tem](https://www.monokai.pro/)a Monokai, dando vida a One Monokai Theme.
+[Joshua Azemoh](https://github.com/azemoh) decidió hacer una referencia cruzada de su tema One Dark Pro con el tema [Monokai](https://www.monokai.pro/), dando vida a One Monokai Theme.
 
 [![Un tema Monokai](https://github.com/azemoh/vscode-one-monokai/raw/master/screenshot-v0.2.0.png)](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 

@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:23:00.000Z
 ---
 
-Que VSCode se ha conv[erti](http://marquesfernandes.com/melhores-editores-de-texto-ides-para-desenvolvimento-web-em-2020/)do en el IDE favorito de la comunidad no es nada nuevo, hace que la vida de muchos desarrolladores diariamente. Podemos optimizar aún más nuestro proceso de desarrollo utilizando algunas extensiones súper útiles. He separado una lista con las extensiones que utilizo y recomiendo mejorar su productividad.
+Que VSCode se ha convertido en el [IDE](http://marquesfernandes.com/melhores-editores-de-texto-ides-para-desenvolvimento-web-em-2020/) favorito de la comunidad no es nada nuevo, hace que la vida de muchos desarrolladores diariamente. Podemos optimizar aún más nuestro proceso de desarrollo utilizando algunas extensiones súper útiles. He separado una lista con las extensiones que utilizo y recomiendo mejorar su productividad.
 
 ## 1. [GitLens, Año Nuevo](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 

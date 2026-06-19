@@ -109,11 +109,11 @@ Você pode utilizar as regras diretamente nas tags HTML:
 
 Você pode criar uma tag de estilo (<style>) no seu documento e centralizar todas as regras:
 
-<**style>**
+**<style>**
 h1 {
     color: red;
 }
-<**/style>**
+**</style>**
 
 Você pode adicionar um arquivo CSS externo:
 

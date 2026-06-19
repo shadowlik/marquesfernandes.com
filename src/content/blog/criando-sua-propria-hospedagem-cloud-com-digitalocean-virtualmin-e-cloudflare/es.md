@@ -17,13 +17,13 @@ needsReview: false
 updated: 2021-12-12T11:23:42.000Z
 ---
 
-Cuando empecé como Freelancer no hice nada sobre alojar sitios web, y mucho menos servidores. ¿Dns? ¿Eso es una enfermedad? Todo parecía tan complicado que me llevó a optar por servicios como UO[L Host, L](https://uolhost.uol.com.br/#rmcl)oc[aweb y](https://www.locaweb.com.br/) Host[gator, y c](https://www.hostgator.com.br/17815.html)on ellos me quedé y tamizado durante mucho tiempo...
+Cuando empecé como Freelancer no hice nada sobre alojar sitios web, y mucho menos servidores. ¿Dns? ¿Eso es una enfermedad? Todo parecía tan complicado que me llevó a optar por servicios como [UOL Host](https://uolhost.uol.com.br/#rmcl), [Locaweb](https://www.locaweb.com.br/) y [Hostgator](https://www.hostgator.com.br/17815.html), y con ellos me quedé y tamizado durante mucho tiempo...
 
-**Descargo de res**ponsabilidad 1: Si usted es un usuario laico que está buscando configurar un blog o un sitio web institucional para su empresa y no tiene mucho conocimiento técnico, no lo piense dos veces, opte por uno de estos servicios! Personalmente re[comiendo h](https://www.hostgator.com.br/17815.html)ostgator, tienen un panel administrativo intuitivo y el apoyo es relativamente bueno...
+**Descargo de responsabilidad 1:** Si usted es un usuario laico que está buscando configurar un blog o un sitio web institucional para su empresa y no tiene mucho conocimiento técnico, no lo piense dos veces, opte por uno de estos servicios! Personalmente recomiendo [hostgator](https://www.hostgator.com.br/17815.html), tienen un panel administrativo intuitivo y el apoyo es relativamente bueno...
 
-**Descargo de r**esponsabilidad 2: El alojamiento del sitio puede ser algo ambiguo, así que aclare que en este artículo cuando me refiero a "alojamiento de sitios": Sistema para crear y administrar sitios en PHP; Creación y configuración de cuenta de usuario, correo electrónico, FTP; Algunas otras características de alojamiento estándar que se encuentran en el mercado.
+**Descargo de responsabilidad 2**: El alojamiento del sitio puede ser algo ambiguo, así que aclare que en este artículo cuando me refiero a "alojamiento de sitios": Sistema para crear y administrar sitios en PHP; Creación y configuración de cuenta de usuario, correo electrónico, FTP; Algunas otras características de alojamiento estándar que se encuentran en el mercado.
 
-**Descargo de res**ponsabilidad 3: Si vas a construir y ofrecer servicios de alojamiento, piensa y reflexiona sobre todos los aspectos positivos y en su mayoría negativos de asumir esta responsabilidad: Tendrás que lidiar y controlar el uso de los recursos de la máquina por parte de tus clientes, el spam en la IP de tu servidor, el acceso y la creación de cuentas, el posible tiempo de inactividad, gestionar copias de seguridad y mucho más... Es un buen trabajo.
+**Descargo de responsabilidad 3:** Si vas a construir y ofrecer servicios de alojamiento, piensa y reflexiona sobre todos los aspectos positivos y en su mayoría negativos de asumir esta responsabilidad: Tendrás que lidiar y controlar el uso de los recursos de la máquina por parte de tus clientes, el spam en la IP de tu servidor, el acceso y la creación de cuentas, el posible tiempo de inactividad, gestionar copias de seguridad y mucho más... Es un buen trabajo.
 
 Normalmente estoy en contra de reinventar la rueda y siempre que sea posible priorizo el uso de servicios ya hechos que hacen mi vida más fácil, siempre y cuando satisfagan mis necesidades... Este no fue el caso y después de muchos problemas en situaciones "avanzadas" donde necesitaba optimizar alguna configuración, decidí buscar una solución que me diera más autonomía.
 
@@ -31,7 +31,7 @@ Normalmente estoy en contra de reinventar la rueda y siempre que sea posible pri
 
 -   [Cloudflare](https://cloudflare.com/): Tal vez uno de los servicios "freemiuns" más completos que he utilizado, aquí manejo toda mi configuración de DNS y puedo contar con muchos otros servicios nativos gratuitos muy útiles: Seguridad y prevención de DDOS, Red de entrega de contenido (CDN), Almacenamiento en caché y optimizaciones de rendimiento... 
 
--   [DigitalOcea](https://m.do.co/c/6bc37502c1d9)n: Toda mi "infraestructura en la nube" está aquí, por R$ 22 / mes ($5 doletas / mes, cotización de 24/02/2020) se puede subir a un servidor que puede mantener en silencio entre 10 x 15 sitios institucionales que no reciben muchas visitas, y tienen toda la libertad también para subir a la demanda, con un solo clic puede aumentar los recursos de su máquina, sin ninguna configuración necesaria! Otro positivo es en su apoyo, aaaa el apoyo de DigitalOcean<3, é maravilhoso! (DigitalOcean, me patrocina!)
+-   [DigitalOcean](https://m.do.co/c/6bc37502c1d9): Toda mi "infraestructura en la nube" está aquí, por R$ 22 / mes ($5 doletas / mes, cotización de 24/02/2020) se puede subir a un servidor que puede mantener en silencio entre 10 x 15 sitios institucionales que no reciben muchas visitas, y tienen toda la libertad también para subir a la demanda, con un solo clic puede aumentar los recursos de su máquina, sin ninguna configuración necesaria! Otro positivo es en su apoyo, aaaa el apoyo de DigitalOcean<3, é maravilhoso! (DigitalOcean, me patrocina!)
 -   [Virtualmin](https://www.virtualmin.com/): Nuestro sistema de alojamiento administrativo, software de código abierto, hermoso, extremadamente completo y configurable. Hará toda la magia de instalar, configurar y administrar todos los servicios necesarios para nuestro hosting, Apache + PHP para sitios web dinámicos, servicio de correo electrónico, configuración de acceso FTP, creación y administración de cuentas de usuario y correo electrónico, y mucho más.
 
 ## Pasos
@@ -40,7 +40,7 @@ Normalmente estoy en contra de reinventar la rueda y siempre que sea posible pri
 
 En primer lugar, cree su cuenta de [DigitalOcean](https://m.do.co/c/6bc37502c1d9) ( d. ).
 
-Vamos a crear un servidor con el sistema operativo Ubuntu Server 18.04, en Dig[italOcean, va](https://m.do.co/c/6bc37502c1d9)mos a utilizar el Droplet más básico para las pruebas:
+Vamos a crear un servidor con el sistema operativo Ubuntu Server 18.04, en [DigitalOcean](https://m.do.co/c/6bc37502c1d9), vamos a utilizar el Droplet más básico para las pruebas:
 
 ![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-22_54_10.png)
 
@@ -52,9 +52,9 @@ Ahora vamos a seleccionar en qué región queremos que se cree nuestro Droplet, 
 
 ![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_03_29.png)
 
-**Redes privadas: crea** una IP local, útil para si en el futuro desea crear un clúster de hospedaje, por lo que puede usar una IP interna con baja latencia. IPv6: Permite la  
-**com**patibilidad con el nuevo protoloco de Internet, IPv6Monitoring: In  
-**stala algun**os paquetes de monitoreo DigitalOcean, útiles para que pueda realizar un seguimiento del estado de su máquina directamente desde el panel de control DO.
+**Redes privadas:** crea una IP local, útil para si en el futuro desea crear un clúster de hospedaje, por lo que puede usar una IP interna con baja latencia.  
+**IPv6**: Permite la compatibilidad con el nuevo protoloco de Internet, IPv6  
+**Monitoring:** Instala algunos paquetes de monitoreo DigitalOcean, útiles para que pueda realizar un seguimiento del estado de su máquina directamente desde el panel de control DO.
 
 Ahora un paso muy importante de creación, primero seleccionaremos el método de autenticación con la máquina virtual, el modo más seguro es a través de las claves SSH, pero para facilitar vamos a elegir el método "Contraseña de una sola vez", enviará una contraseña temporal a nuestro correo electrónico. En nombre de host, pondremos qué dominio queremos que nuestra máquina sea responsable, importante utilizar algún nombre intuitivo porque esto aparecerá en algunos lugares, como en los encabezados en el envío de correos electrónicos, y también lo utilizaremos como la forma de nuestro panel administrativo:
 
@@ -74,19 +74,19 @@ A continuación, configuremos nuestro hosped`agem-teste.marquesfernandes.com de 
 
 ### Configuración de la Nota A - IPv4
 
-Vamos a crear el primer tipo Una nota p`a`ra nuestro IPv`4,` recuerde deshabilitar el e*stado del pr*oxy por ahora:
+Vamos a crear el primer tipo Una nota p`a`ra nuestro IPv`4,` recuerde deshabilitar el *estado del proxy* por ahora:
 
 ![Configuración de la observación IPv4](./2020-02-screenshot-dash.cloudflare.com-2020.02.24-23_15_22.png)
 
 ### Configuración de la nota AAAA - IPv6
 
-Ahora vamos a crear la nota de tipo AA`AA p`ara nuestro IP`v6,` recuerde deshabilitar el e*stado del pr*oxy por ahora:
+Ahora vamos a crear la nota de tipo AA`AA p`ara nuestro IP`v6,` recuerde deshabilitar el *estado del proxy* por ahora:
 
 ![Configuración de la observación IPv6](./2020-02-screenshot-dash.cloudflare.com-2020.02.24-23_16_38.png)
 
 ## Instalación y configuración de Virtualmin
 
-Probaremos nuestro registro de configuración DNS a través de SSH en nuestra máquina utilizando el usuario raíz y la contraseña enviada al correo electrónico. Si está en Windows, puede usar PowerShell para esto o algún e[mulador de termin](http://marquesfernandes.com/melhores-emuladores-de-terminal-para-windows/)al que tenga funcionalidad SSH.
+Probaremos nuestro registro de configuración DNS a través de SSH en nuestra máquina utilizando el usuario raíz y la contraseña enviada al correo electrónico. Si está en Windows, puede usar PowerShell para esto o algún [emulador de terminal](http://marquesfernandes.com/melhores-emuladores-de-terminal-para-windows/) que tenga funcionalidad SSH.
 
 • root@hospedagem-teste.marquesfernandes.com ssh
 
@@ -169,11 +169,11 @@ Recordando que, la configuración FTP y MX no debe tener el estado de proxy habi
 
 Voila, esto significa que nuestra nota y sitio web están funcionando, ya que no tenemos ningún archivo html o sistema instalado, el mensaje predeterminado del sistema es "Prohibido".
 
-## Generación del certificado SSL co[n Let's Encrypt](https://letsencrypt.org/pt-br/getting-started/)
+## Generación del certificado SSL con [Let's Encrypt](https://letsencrypt.org/pt-br/getting-started/)
 
 Ahora que tenemos nuestras notas funcionando, vamos a configurar nuestro sitio web para utilizar el certificado SSL, para que podamos acceder a nuestro sitio web a través del protocolo segu`ro https:/`/.
 
-L[et's Encrypt](https://letsencrypt.org/pt-br/getting-started/) es una entidad de certificación (CA) gratuita, automatizada y abierta que funciona en beneficio del público. Es un servicio prestado por [el Internet Security Research Group (ISRG](https://www.abetterinternet.org/)).
+[Let's Encrypt](https://letsencrypt.org/pt-br/getting-started/) es una entidad de certificación (CA) gratuita, automatizada y abierta que funciona en beneficio del público. Es un servicio prestado por el [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/).
 
 ![Generación de un certificado SSL válido - Parte 1](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_09_38.png)
 

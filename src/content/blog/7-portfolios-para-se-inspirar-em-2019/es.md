@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:24:32.000Z
 ---
 
-Paso constantemente horas deambulando por sitios co[mo Awwwa](https://www.awwwards.com/)rds [y One Page Lo](https://onepagelove.com/)ve, buscando referencias y diseños inspiradores. No es de extrañar que con tantas inspiraciones acabe luchando una batalla interna diaria para no estar rehaciendo mi portafolio y blog ... Como soy muy buena gente, decidí compartir mi agonía con ustedes, sigue una lista de algunos sitios que me llamaron la atención:
+Paso constantemente horas deambulando por sitios como [Awwwards](https://www.awwwards.com/) y [One Page Love,](https://onepagelove.com/) buscando referencias y diseños inspiradores. No es de extrañar que con tantas inspiraciones acabe luchando una batalla interna diaria para no estar rehaciendo mi portafolio y blog ... Como soy muy buena gente, decidí compartir mi agonía con ustedes, sigue una lista de algunos sitios que me llamaron la atención:
 
 ## [Heller Designstudio](https://heller.tv/work﻿)
 
@@ -42,19 +42,19 @@ Paso constantemente horas deambulando por sitios co[mo Awwwa](https://www.awwwar
 
 [https://winkstrategies.com/](https://winkstrategies.com/)
 
-## [Pixages, Pixages](http://www.pixages.fun)
+## [Pixages](http://www.pixages.fun)
 
 ![](./2019-02-image-9.png)
 
 [http://www.pixages.](http://www.pixages.fun/)[fun](http://www.pixages.fun/)[/](http://www.pixages.fun/)
 
-## [John Wong,\[1)](http://johnwong.io)
+## [John Wong](http://johnwong.io)
 
 ![](./2019-02-image-11.png)
 
 [http://johnwong.io/](http://johnwong.io/)
 
-## [DoubleDouble, Año Nuevo](https://doubledouble.be)
+## [DoubleDouble](https://doubledouble.be)
 
 ![](./2019-02-image-12.png)
 

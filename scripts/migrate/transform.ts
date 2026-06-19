@@ -123,12 +123,68 @@ function expandCaptions(html: string): string {
 }
 
 /**
+ * Strip presentational attributes (class, style, align, width, height, and any
+ * `data-*`) from table elements. Turndown's GFM plugin only converts a table to
+ * Markdown when its cells are plain; Gutenberg tables carry `class` and
+ * `data-align` attributes that otherwise make Turndown leave the whole table as
+ * raw HTML. Clearing those attributes lets GFM emit a real Markdown table.
+ */
+function stripTableAttributes(html: string): string {
+  return html.replace(/<(table|thead|tbody|tfoot|tr|th|td)\b[^>]*>/gi, '<$1>');
+}
+
+/** A paragraph/line that is nothing but a single bare URL (a WordPress oEmbed). */
+const STANDALONE_URL = /^(?:<p>)?\s*(https?:\/\/[^\s<]+?)\s*(?:<\/p>)?$/gm;
+
+/** Pull the YouTube video id and optional playlist id out of any YouTube URL. */
+function parseYouTube(url: string): { id: string; list?: string } | null {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, '');
+    const list = u.searchParams.get('list') ?? undefined;
+    if (host === 'youtu.be') return { id: u.pathname.slice(1), list };
+    if (host.endsWith('youtube.com')) {
+      const id = u.searchParams.get('v') ?? u.pathname.split('/').pop() ?? '';
+      return id ? { id, list } : null;
+    }
+  } catch {
+    /* not a parseable URL */
+  }
+  return null;
+}
+
+/** Pull the owner and gist id out of a gist.github.com URL. */
+function parseGist(url: string): { user: string; id: string } | null {
+  const m = url.match(/^https?:\/\/gist\.github\.com\/([^/]+)\/([0-9a-f]+)/i);
+  return m ? { user: m[1], id: m[2] } : null;
+}
+
+/**
+ * Replace standalone oEmbed URLs (a bare YouTube or Gist link on its own line)
+ * with the matching MDX embed component, mirroring how WordPress auto-embedded
+ * them. Posts that gain a component MUST be written with an `.mdx` extension so
+ * Astro renders the tag (see `src/components/{YouTube,Gist}.astro`).
+ */
+function convertEmbeds(markdown: string): string {
+  return markdown.replace(STANDALONE_URL, (line, url: string) => {
+    const yt = parseYouTube(url);
+    if (yt) return `<YouTube id="${yt.id}"${yt.list ? ` list="${yt.list}"` : ''} />`;
+    const gist = parseGist(url);
+    if (gist) return `<Gist user="${gist.user}" id="${gist.id}" />`;
+    return line;
+  });
+}
+
+/**
  * Convert WordPress post HTML to clean Markdown.
  *
- * Strips Gutenberg block-delimiter comments and expands `[caption]` shortcodes,
- * then runs Turndown with the GFM plugin (tables, strikethrough, fenced code).
+ * Strips Gutenberg block-delimiter comments, expands `[caption]` shortcodes, and
+ * clears presentational table attributes so GFM can convert tables, then runs
+ * Turndown with the GFM plugin (tables, strikethrough, fenced code). Finally it
+ * turns standalone oEmbed URLs into MDX embed components.
  */
 export function wpHtmlToMarkdown(html: string): string {
-  const cleaned = expandCaptions(html.replace(WP_BLOCK_COMMENT, ''));
-  return makeTurndown().turndown(cleaned);
+  const cleaned = stripTableAttributes(expandCaptions(html.replace(WP_BLOCK_COMMENT, '')));
+  const markdown = makeTurndown().turndown(cleaned);
+  return convertEmbeds(markdown);
 }

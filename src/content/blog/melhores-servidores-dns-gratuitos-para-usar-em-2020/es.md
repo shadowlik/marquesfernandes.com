@@ -33,7 +33,7 @@ Algunas empresas ofrecen servicios DNS con complementos para empresas, por ejemp
 
 El servidor DNS almacena en caché las solicitudes frecuentes para que pueda responder rápidamente, sin tener que consultar otras solicitudes desde cero.
 
-Otro punto para elegir su DNS y que se ha convertido en una preocupación frecuente, es el **anonimat**o. A menos que esté conectado por una red privada virtual (VPN), los servidores DNS de su proveedor tienen acceso a todos los dominios solicitados. Su proveedor sabe exactamente dónde navega por Internet y probablemente no le importa, pero puede terminar usando esta información. Por ejemplo, algunos proveedores han encontrado una manera de monetizar tu servicio DNS: cuando llegas a un dominio que no existe, redirigen la solicitud a una página de búsqueda y publicidad precargada, normalmente páginas de ventas de dominio.
+Otro punto para elegir su DNS y que se ha convertido en una preocupación frecuente, es el **anonimato**. A menos que esté conectado por una red privada virtual (VPN), los servidores DNS de su proveedor tienen acceso a todos los dominios solicitados. Su proveedor sabe exactamente dónde navega por Internet y probablemente no le importa, pero puede terminar usando esta información. Por ejemplo, algunos proveedores han encontrado una manera de monetizar tu servicio DNS: cuando llegas a un dominio que no existe, redirigen la solicitud a una página de búsqueda y publicidad precargada, normalmente páginas de ventas de dominio.
 
 ## El mejor DNS para usar en 2020
 
@@ -44,38 +44,38 @@ Otro punto para elegir su DNS y que se ha convertido en una preocupación frecue
 
 ![](./2020-03-image-16.png)
 
-Puse Cloud[flare pri](https://1.1.1.1/)mero en la lista porque es el DNS que uso y recomiendo. Cloudflare es una empresa de infraestructura de gran a su nombre y hoy en día proporciona servicios a millones de sitios en todo el mundo. Crearon su solución de DNS público llamada WARP, y según los propios puntos de referencia de la compañía, su velocidad supera a las de sus competidores. Además del enfoque en el rendimiento, WARP está cifrando toda su conexión a su servidor con el fin de preservar su anonimato y posibles estafas en Internet.
+Puse [Cloudflare](https://1.1.1.1/) primero en la lista porque es el DNS que uso y recomiendo. Cloudflare es una empresa de infraestructura de gran a su nombre y hoy en día proporciona servicios a millones de sitios en todo el mundo. Crearon su solución de DNS público llamada WARP, y según los propios puntos de referencia de la compañía, su velocidad supera a las de sus competidores. Además del enfoque en el rendimiento, WARP está cifrando toda su conexión a su servidor con el fin de preservar su anonimato y posibles estafas en Internet.
 
 ## 2. Google
 
 -   **DNS** **principal**: *8.8.8.8*
 -   **DNS secundario:** *8.8.4.4*
 
-El [DNS público de Googl](https://developers.google.com/speed/public-dns/)e es probablemente el servidor DNS más conocido y utilizado en el mundo, tienen alta disponibilidad y velocidad, especialmente si tenemos en cuenta el número de usuarios que utilizan el servicio. Mi única advertencia es para el control de datos, Google almacena toda la información que pasa a través de sus servidores y posiblemente puede utilizarlo para otros fines.
+El [DNS público de Google](https://developers.google.com/speed/public-dns/) es probablemente el servidor DNS más conocido y utilizado en el mundo, tienen alta disponibilidad y velocidad, especialmente si tenemos en cuenta el número de usuarios que utilizan el servicio. Mi única advertencia es para el control de datos, Google almacena toda la información que pasa a través de sus servidores y posiblemente puede utilizarlo para otros fines.
 
 ## 3\. Opendns
 
 -   **DNS** **principal**: *208.67.222.222*
 -   **DNS secundario:** *208.67.220.220*
 
-O[penDNS](https://signup.opendns.com/homefree/) es otro servidor bien establecido en el mercado, una gran alternativa a DNS popular. Incluso ofrece servicios de protección infantil que bloquean contenido inapropiado.
+[OpenDNS](https://signup.opendns.com/homefree/) es otro servidor bien establecido en el mercado, una gran alternativa a DNS popular. Incluso ofrece servicios de protección infantil que bloquean contenido inapropiado.
 
 ## 4\. Quad9, 2010
 
 -   **DNS** **principal**: *9.9.9.9*
 -   **DNS secundario:** *149.112.112.112*
 
-Qu[ad9 t](https://www.quad9.net/)iende a centrarse en su capacidad para bloquear dominios maliciosos, supuestamente recopilando información de varias fuentes, tanto públicas como privadas. No se sabe con certeza su eficiencia, pero es una buena opción en términos de calidad y velocidad.
+[Quad9](https://www.quad9.net/) tiende a centrarse en su capacidad para bloquear dominios maliciosos, supuestamente recopilando información de varias fuentes, tanto públicas como privadas. No se sabe con certeza su eficiencia, pero es una buena opción en términos de calidad y velocidad.
 
 ## 5\. Verisign
 
 -   **DNS** **principal**: *64.6.64.6*
 -   **DNS secundario:** *64.6.65.6*
 
-El servicio DNS d[e Verisi](https://www.verisign.com/en_US/security-services/public-dns/index.xhtml)gn es gratuito y la compañía destaca las tres características que consideran más important*es: estabilid*ad*, segurid*ad *y privacida*d. El servicio definitivamente sirve a esta cuenta, especialmente si usted busca un servidor DNS seguro y estable, en cuanto al anonimato de la empresa asegura que sus datos nunca serán utilizados o vendidos a terceros, y hasta entonces no se sabe ningún problema al respecto.
+El servicio DNS de [Verisign](https://www.verisign.com/en_US/security-services/public-dns/index.xhtml) es gratuito y la compañía destaca las tres características que consideran más importantes: *estabilidad*, *seguridad* y *privacidad*. El servicio definitivamente sirve a esta cuenta, especialmente si usted busca un servidor DNS seguro y estable, en cuanto al anonimato de la empresa asegura que sus datos nunca serán utilizados o vendidos a terceros, y hasta entonces no se sabe ningún problema al respecto.
 
 Probablemente debido a sus capas de seguridad, su rendimiento termina siendo menor que el de sus competidores, lo que puede no ser tan impactante si su objetivo principal es la seguridad.
 
 ## Conclusión
 
-Hay varios servicios DNS disponibles por ahí, parte de la búsqueda debe tener en cuenta la velocidad y la estabilidad, ya en el lado de la seguridad y el anonimato depende de usted para decidir cuánto confía en la empresa que está proporcionando el servicio, por desgracia es difícil crear un punto de referencia para esto. Puede obtener métricas y clasificación de los servicios DNS en todo el mundo accediendo al siti[o: https://www.dnsperf.com/](https://www.dnsperf.com/)
+Hay varios servicios DNS disponibles por ahí, parte de la búsqueda debe tener en cuenta la velocidad y la estabilidad, ya en el lado de la seguridad y el anonimato depende de usted para decidir cuánto confía en la empresa que está proporcionando el servicio, por desgracia es difícil crear un punto de referencia para esto. Puede obtener métricas y clasificación de los servicios DNS en todo el mundo accediendo al sitio: [https://www.dnsperf.com/](https://www.dnsperf.com/)

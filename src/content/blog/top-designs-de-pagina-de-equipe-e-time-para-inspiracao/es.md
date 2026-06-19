@@ -38,7 +38,7 @@ Separé una lista con algunos ejemplos de páginas de equipo muy bonitas, alguna
 10.  [Seda digital](#digital-silk)
 11.  [Bleech](#bleech)
 
-### 1\. -ERR:REF-NOT-FOUND-Lado
+### 1\. [Lateral](https://www.lateral-inc.com/about.html)
 
 [![Lado](./2020-05-lateral.gif)](https://www.lateral-inc.com/about.html)
 
@@ -54,7 +54,7 @@ Separé una lista con algunos ejemplos de páginas de equipo muy bonitas, alguna
 
 [![](./2020-05-image-29.jpg)](https://www.khanacademy.org/about/the-team)
 
-Kh[an Academy of](https://www.khanacademy.org/about/the-team)rece ejercicios prácticos, videos instructivos y un panel de aprendizaje personalizado que permite a los estudiantes estudiar a su propio ritmo, tanto dentro como fuera del aula. La página de su equipo tiene un diseño algo simple pero alegre, lo que permite la búsqueda por persona o posición.
+La [Khan Academy](https://www.khanacademy.org/about/the-team) ofrece ejercicios prácticos, videos instructivos y un panel de aprendizaje personalizado que permite a los estudiantes estudiar a su propio ritmo, tanto dentro como fuera del aula. La página de su equipo tiene un diseño algo simple pero alegre, lo que permite la búsqueda por persona o posición.
 
 ## 4\. [Pulp Electric](https://www.electricpulp.com/about/)
 
@@ -66,13 +66,13 @@ Kh[an Academy of](https://www.khanacademy.org/about/the-team)rece ejercicios pr�
 
 [![targetprocess](./2020-05-ezgif.com-optimize.gif)](https://www.targetprocess.com/team/)
 
-ta[rgetprocess es](https://www.targetprocess.com/team/) una empresa enfocada en ayudar a las empresas a implementar y optimizar la metodología Agile. Pasaron mucho tiempo en su página de equipo, trayendo un video animado con sus empleados categorizados por la industria.
+La [targetprocess](https://www.targetprocess.com/team/) es una empresa enfocada en ayudar a las empresas a implementar y optimizar la metodología Agile. Pasaron mucho tiempo en su página de equipo, trayendo un video animado con sus empleados categorizados por la industria.
 
 ## 6\. [Wistia, Año Nuevo](https://wistia.com/about/yearbook)
 
 [![Wistia, Año Nuevo](./2020-05-screenshot-wistia.com-2020.05.12-21_15_10.jpg)](https://wistia.com/about/yearbook)
 
-[Wisit](https://wistia.com/about/yearbook)a es una empresa enfocada en el desarrollo de software, vídeos y contenido educativo. Su página de equipo trae dos opciones muy divertidas, la primera presentando a todos sus colaboradores con sus nombres y sus posiciones, y cuando pasa el ratón la foto toma la vida en forma de un gif, el otro, que han desarrollado una especie de juego donde cada empleado es el sonido de un tambor.
+[Wistia](https://wistia.com/about/yearbook) es una empresa enfocada en el desarrollo de software, vídeos y contenido educativo. Su página de equipo trae dos opciones muy divertidas, la primera presentando a todos sus colaboradores con sus nombres y sus posiciones, y cuando pasa el ratón la foto toma la vida en forma de un gif, el otro, que han desarrollado una especie de juego donde cada empleado es el sonido de un tambor.
 
 ## 7\. [FCINQ, Año Nuevo](https://www.fcinq.com/)
 
@@ -84,13 +84,13 @@ ta[rgetprocess es](https://www.targetprocess.com/team/) una empresa enfocada en 
 
 [![Advantix Digital](./2020-05-image-25.jpg)](https://advantixdigital.com/about/)
 
-[Advantix Digita](https://advantixdigital.com/about/)l es una agencia digital que supo aprovechar sus recursos, poniendo a sus diseñadores a dibujar caricaturas de cada empleado, una buena opción para las empresas que no quieren tomar fotos.
+[Advantix Digital](https://advantixdigital.com/about/) es una agencia digital que supo aprovechar sus recursos, poniendo a sus diseñadores a dibujar caricaturas de cada empleado, una buena opción para las empresas que no quieren tomar fotos.
 
 ## 9\. [Brandand & Mortar](https://brandandmortar.com/who_we_are/)
 
 [![Brandand & Mortar](./2020-05-screenshot-brandandmortar.com-2020.05.12-21_01_32.png)](https://brandandmortar.com/who_we_are/)
 
-[Brandand & Mo](https://brandandmortar.com/who_we_are/)rtar es especialista en marketing. Traje a la página de su equipo una solución semi-profesional, con imágenes en blanco y negro que van con una pose divertida al flotar.
+[Brandand & Mortar](https://brandandmortar.com/who_we_are/) es especialista en marketing. Traje a la página de su equipo una solución semi-profesional, con imágenes en blanco y negro que van con una pose divertida al flotar.
 
 ## 10\. [Seda digital](https://www.digitalsilk.com/about)
 
@@ -102,7 +102,7 @@ ta[rgetprocess es](https://www.targetprocess.com/team/) una empresa enfocada en 
 
 [![Bleech](./2020-05-screenshot-bleech.de-2020.05.12-20_49_10.jpg)](https://bleech.de/en/)
 
-[Bleec](https://bleech.de/en/)h es una empresa de desarrollo de Berlín. Fotos y gráficos mezclados en su página de equipo, trayendo un aspecto divertido con una huella moderna.
+[Bleech](https://bleech.de/en/) es una empresa de desarrollo de Berlín. Fotos y gráficos mezclados en su página de equipo, trayendo un aspecto divertido con una huella moderna.
 
 ## Conclusión
 

@@ -22,7 +22,7 @@ Una tarea muy común realizada con Crontab es automatizar copias de seguridad, m
 
 ## Significado de Crontab
 
-No hay una explicación concluyente, pero la respuesta más aceptada es de Ken Thompson (autor de unix cron): El nombre cr*on p*roviene d*e chro*n, el prefijo griego para '*tiemp*o'. Y tabulación tabla de referencias, una tabla que contiene crons: Horario (Tabla de tiempo).
+No hay una explicación concluyente, pero la respuesta más aceptada es de Ken Thompson (autor de unix cron): El nombre *cron* proviene de *chron*, el prefijo griego para '*tiempo*'. Y tabulación tabla de referencias, una tabla que contiene crons: Horario (Tabla de tiempo).
 
 ## Sintaxis de Crontab
 
@@ -39,7 +39,7 @@ La sintaxis cron consta de un grupo de 5 variables separadas por espacio: `* * *
 
 [![](./2020-03-image-12.png)](https://crontab.guru/)
 
-Un sitio que uso mucho para validar mis crons: C[rontab.guru](https://crontab.guru/). En este sitio se puede ver visualmente cómo se comportan sus caídas cron, es muy importante tener cuidado al crear crons complejos, ya que esto puede conducir a resultados catastróficos si se configura mal!
+Un sitio que uso mucho para validar mis crons: [Crontab.guru](https://crontab.guru/). En este sitio se puede ver visualmente cómo se comportan sus caídas cron, es muy importante tener cuidado al crear crons complejos, ya que esto puede conducir a resultados catastróficos si se configura mal!
 
 ## Creación de un horario en Crontab
 

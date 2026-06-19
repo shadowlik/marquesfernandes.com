@@ -15,12 +15,12 @@ needsReview: false
 updated: 2021-12-12T11:22:48.000Z
 ---
 
-Una URL (acrónimo de Uniform Resource Locator) es la dirección de un recurso en la red mundial. Las URL tienen una estructura bien definida que fue formu[lada en](https://tools.ietf.org/html/rfc1738) RFC [1738 por Tim B](https://pt.wikipedia.org/wiki/Tim_Berners-Lee)erners-Lee, inventor de la World Wide Web.
+Una URL (acrónimo de Uniform Resource Locator) es la dirección de un recurso en la red mundial. Las URL tienen una estructura bien definida que fue formulada en [RFC 1738](https://tools.ietf.org/html/rfc1738) por [Tim Berners-Lee](https://pt.wikipedia.org/wiki/Tim_Berners-Lee), inventor de la World Wide Web.
 
 Una URL sigue la siguiente *sintaxis:*
 
 ```
-protocolo[//[usuario:senha@]: ho[:porta]st] ruta[?parametro][#fragmento]
+protocolo:[//[usuario:senha@]host[:porta]]caminho[?parametro][#fragmento]
 ```
 
 El uso más conocido de la URL es para conectarse a sitios web, como podemos ver en el siguiente ejemplo.
@@ -29,7 +29,7 @@ El uso más conocido de la URL es para conectarse a sitios web, como podemos ver
 https://google.com
 ```
 
-Se realizaron varias mejoras al RFC inicial.El RFC actual que define la sintaxis de URI es [RFC 398](https://tools.ietf.org/html/rfc3986)6\. Esta publicación contiene información del documento RFC más reciente.
+Se realizaron varias mejoras al RFC inicial.El RFC actual que define la sintaxis de URI es [RFC 3986](https://tools.ietf.org/html/rfc3986)\. Esta publicación contiene información del documento RFC más reciente.
 
 ## Diferencia entre URL y URI
 
@@ -42,11 +42,11 @@ Si el protocolo (HTTPS, FTP, etc.) está presente o implícito para un dominio, 
 
 ## Codificación de URL (codificación porcentual)
 
-Una URL está formada por un conjunto limitado de caracteres que pertenecen al conjunto de caracteres US[\-ASCI](http://marquesfernandes.com/desenvolvimento/codigo-ascii-tabela-ascii-completa/)I.Estos caracteres incluyen dígitos (0-9), letras (AZ, az), y algunos caracteres especiales, `(` "-`",` "\_`",` "~`" "`"), ya que son US-ASCII, los caracteres permitidos no incluya acentos como los que se encuentran en el idioma portugués.
+Una URL está formada por un conjunto limitado de caracteres que pertenecen al conjunto de caracteres US-[ASCII](http://marquesfernandes.com/desenvolvimento/codigo-ascii-tabela-ascii-completa/).Estos caracteres incluyen dígitos (0-9), letras (AZ, az), y algunos caracteres especiales, `(` "-`",` "\_`",` "~`" "`"), ya que son US-ASCII, los caracteres permitidos no incluya acentos como los que se encuentran en el idioma portugués.
 
 Hay algunos caracteres especiales que tienen un uso especial en las URL. Algunos ejemplos de caracteres reservados son ?, /, \# `,`: `E`tc. Los datos transmitidos como parte de la URL, ya sea en un segmento de cadena de consulta o en una ruta, no deben contener estos caracteres directamente.
 
-Además, los caracteres peligrosos como `el esp`ac`i`o, , <,>`,` {`,`} etc. y cualquier carácter fuera del conjunto de caracter[es AS](http://marquesfernandes.com/desenvolvimento/codigo-ascii-tabela-ascii-completa/)CII, no se permiten directamente en las URL.
+Además, los caracteres peligrosos como `el esp`ac`i`o, , <,>`,` {`,`} etc. y cualquier carácter fuera del conjunto de caracteres [ASCII](http://marquesfernandes.com/desenvolvimento/codigo-ascii-tabela-ascii-completa/), no se permiten directamente en las URL.
 
 Entonces, ¿qué hacer cuando necesitamos enviar datos en la URL que contiene estos caracteres no permitidos?Usamos la magia de la codificación.
 
@@ -191,4 +191,4 @@ La siguiente tabla es una referencia a los caracteres ASCII para su forma codifi
 | 126 | ~ | % 7E |
 | 127 | DEL (borrar) | % 7F |
 
-## [](https://www.urlencoder.io/learn/#url-encoding-percent-encoding)
+## [Codificación de URL (Percent-Encoding)](https://www.urlencoder.io/learn/#url-encoding-percent-encoding)

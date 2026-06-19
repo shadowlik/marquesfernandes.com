@@ -28,15 +28,24 @@ Para aprender a lógica por trás da geração do dígito verificador utilizarem
 
 Primeiro vamos fazer uma tabela com 3 linhas e 8 colunas, teremos na primeira linha os 8 primeiros algarismos do número do RG.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 
 Agora precisamos preencher a segunda linha, ela sempre obedecerá uma sequência lógica de números para todos o cálculo de qualquer RG. A sequência é **2,3,4,5,6,7,8 e 9**.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|  |  |  |  |  |  |  |  |
 
 Agora para obter os valores da terceira linha devemos multiplicar os números de cada linha por coluna. Por exemplo, 3x2, 9x3 e assim por diante.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>6</td><td>27</td><td>16</td><td>0</td><td>36</td><td>49</td><td>8</td><td>36</td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| 6 | 27 | 16 | 0 | 36 | 49 | 8 | 36 |
 
 Agora que temos nossa tabela completa, precisamos somar todos os números obtidos na terceira linha. Em nosso exemplo teremos: **6 + 27 + 16 + 0 + 36 + 49 + 8 + 36 = 178**.
 

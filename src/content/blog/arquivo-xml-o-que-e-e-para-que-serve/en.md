@@ -33,7 +33,7 @@ Markup language is a set of codes and/or conventions applied to data or texts to
             <actor>Marlon Wayans</actor>
             <actor>Shawn Wayans</actor>
         </cast>
-    </film>
+    </movie>
 </movies>
 
 ### HTML
