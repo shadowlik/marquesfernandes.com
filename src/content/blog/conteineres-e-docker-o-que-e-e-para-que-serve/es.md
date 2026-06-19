@@ -39,7 +39,7 @@ Por el contrario, los contenedores se ejecutan en todo el mismo sistema operativ
 
 ![Máquinas virtuales vs contenedores ](https://blog.netapp.com/wp-content/uploads/2016/03/Screen-Shot-2018-03-20-at-9.24.09-AM-1024x548.png)
 
-Imagen: B[log de Netapp](https://blog.netapp.com/blogs/containers-vs-vms/)
+Imagen: [Blog de Netapp](https://blog.netapp.com/blogs/containers-vs-vms/)
 
 La siguiente tabla muestra algunas de las similitudes y diferencias de estas tecnologías:
 
@@ -76,4 +76,4 @@ Su popularización tuvo en cuenta la adopción por parte de las grandes empresas
 
 Ahora que hemos aprendido qué son los contenedores y qué es Docker, le recomiendo que empiece a estudiar esta tecnología, que la mayoría de las empresas ya utilizan o buscan adaptarse a esta nueva forma de desarrollo. Definitivamente hace la vida más fácil para los desarrolladores, hoy no puedo imaginar el desarrollo sin usar Docker.
 
-**Desprot**e[jo: desarrollo optimizado de NodeJS con Typescript, Docker y ESlint](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/)
+**Desprotejo:** [desarrollo optimizado de NodeJS con Typescript, Docker y ESlint](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/)

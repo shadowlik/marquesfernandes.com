@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:22:52.000Z
 ---
 
-Airbnb está tratando de tomar medidas enérgicas contra las fiestas y eventos que promueven aglomeraciones de propiedades listadas en su plataforma, siguiendo los protocolos recomendados por las organizaciones de salud para el desapego social para grandes reuniones, dijo la compañía en un artícu[lo en](https://news.airbnb.com/airbnb-announces-global-party-ban/) su blog el jueves. Están imponiendo un límite de ocupación de un máximo de 16 personas, y los inquilinos de la plataforma que no sigan estas nuevas reglas corren el riesgo de ser expulsados de la plataforma o incluso de responder en los tribunales.
+Airbnb está tratando de tomar medidas enérgicas contra las fiestas y eventos que promueven aglomeraciones de propiedades listadas en su plataforma, siguiendo los protocolos recomendados por las organizaciones de salud para el desapego social para grandes reuniones, dijo la compañía en un artículo en su [blog](https://news.airbnb.com/airbnb-announces-global-party-ban/) el jueves. Están imponiendo un límite de ocupación de un máximo de 16 personas, y los inquilinos de la plataforma que no sigan estas nuevas reglas corren el riesgo de ser expulsados de la plataforma o incluso de responder en los tribunales.
 
 Con los esfuerzos locales tratando de frenar los nuevos casos de coronavirus, muchos han implementado restricciones sobre la cantidad de personas permitidas en bares, restaurantes y tiendas. Airbnb dijo que descubrió que las personas llevaban fiestas que normalmente se celebran en bares y clubes a casas alquiladas en su plataforma.
 

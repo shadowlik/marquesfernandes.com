@@ -59,7 +59,7 @@ Las bases de datos NoSQL surgieron a finales de la década de 2000 a medida que 
 
 Hay varios tipos de base de datos no relacional, que se clasifican por su forma de almacenar datos. Los dos tipos más utilizados de bancos NoSQL son:
 
--   **Document Db: almac**ena los datos en documentos similares a los objetos JS[ON (JavaScript Object Notation)](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/). Normalmente tienen lenguajes de consulta eficaces, estas bases de datos de documentos son ideales para usos generales. Se pueden escalar fácilmente horizontalmente para dar cabida a grandes volúmenes de datos. MongoDB se clasifica constantemente como la base de datos NoSQL más popular en el mundo, y es un ejemplo de una base de datos de documentos. A continuación se muestra un ejemplo de una colección MongoDB:
+-   **Document Db: almac**ena los datos en documentos similares a los objetos [JSON (JavaScript Object Notation)](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/). Normalmente tienen lenguajes de consulta eficaces, estas bases de datos de documentos son ideales para usos generales. Se pueden escalar fácilmente horizontalmente para dar cabida a grandes volúmenes de datos. MongoDB se clasifica constantemente como la base de datos NoSQL más popular en el mundo, y es un ejemplo de una base de datos de documentos. A continuación se muestra un ejemplo de una colección MongoDB:
 
 \[{ 
   "\_id": ObjectId("5e6261a1df9bcf90c29726d4"),
@@ -85,7 +85,7 @@ Ejemplos de bases de datos no relacionales:
 
 -   [Mongodb](https://www.mongodb.com/)
 -   [Couchdb](https://couchdb.apache.org/)
--   [Redis, Año Nuevo](https://redis.io/)
+-   [Redis](https://redis.io/)
 
 ### Posibles razones para utilizar un banco no relacional
 

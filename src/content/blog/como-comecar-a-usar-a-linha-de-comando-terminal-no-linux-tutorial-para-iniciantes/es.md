@@ -34,7 +34,7 @@ La línea de comandos de Linux es una interfaz de texto, todos los comandos se i
 
 ## Lo que necesitarás
 
-En este tutorial vamos a utilizar ejemplos utilizando el sistema op[erativo](https://ubuntu.com/) Ubuntu, pero todas las distribuciones de Linux tienen línea de comandos y se pueden utilizar, algunos comandos pueden necesitar ser adaptados.
+En este tutorial vamos a utilizar ejemplos utilizando el sistema operativo [Ubuntu](https://ubuntu.com/), pero todas las distribuciones de Linux tienen línea de comandos y se pueden utilizar, algunos comandos pueden necesitar ser adaptados.
 
 ## Breve historial de la línea de comandos
 
@@ -173,7 +173,7 @@ Eliminación de carpetas
 
 ### Tenga mucho cuidado con el comando RM
 
-Tenga mucho cuidado al utilizar el comando rm, puede realizar operaciones irreversibles, especialmente si se realiza con privilegios de administrador. Si por alguna razón eliminaste un archivo que no querías, no te preocupes, tal v[ez aún se puedan recuperar](http://marquesfernandes.com/como-recuperar-arquivos-excluidos-no-linux-ubuntu-debian/).
+Tenga mucho cuidado al utilizar el comando rm, puede realizar operaciones irreversibles, especialmente si se realiza con privilegios de administrador. Si por alguna razón eliminaste un archivo que no querías, no te preocupes, tal vez [aún se puedan recuperar](http://marquesfernandes.com/como-recuperar-arquivos-excluidos-no-linux-ubuntu-debian/).
 
 ## Roscado de comados
 

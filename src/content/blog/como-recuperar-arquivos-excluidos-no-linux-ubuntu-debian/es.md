@@ -19,7 +19,7 @@ updated: 2021-12-12T11:24:06.000Z
 
 ¿Alguna vez has tenido esa horrible sensación? ¿Una sensación desesperada que se produce cuando te das cuenta de que borraste accidentalmente un archivo importante y no está en la basura? Ser y ser que comienza el proceso de luto, negación, ira...
 
-Pero, ¿qué tal si no pasas por todas las etapas del dolor? ¡Respira, no te preocupes y recuerda que no estás solo! Tarde o temprano todo e[l mundo termina haciéndolo en](https://www.tecmundo.com.br/programacao/103701-cara-cade-firma-rapaz-deleta-empresa-linha-codigo-errada.htm) un momento de distracción.
+Pero, ¿qué tal si no pasas por todas las etapas del dolor? ¡Respira, no te preocupes y recuerda que no estás solo! Tarde o temprano [todo el mundo termina haciéndolo](https://www.tecmundo.com.br/programacao/103701-cara-cade-firma-rapaz-deleta-empresa-linha-codigo-errada.htm) en un momento de distracción.
 
 *\- Pero, ¿cómo me dices que no me preocupe? ¡¿Estás demente?! Acabo de borrar un guión en el que había estado trabajando durante horas!!!*
 
@@ -33,7 +33,7 @@ Ahora que estás más tranquilo, vamos a la parte buena, no necesitas ser un hac
 
 ## 0 - Descubrir el tipo de partición
 
-Si está en modo EFI y/o la partición donde estaba el archivo eliminado es ext3 o e**xt4,** siga **el** paso 1.1 [**y, a cont**i](#Instalando-o-TestDisk)nuación, vaya a Rec**[uperación de archivos eliminados con Photore](#photorec)**c.
+Si está en modo EFI y/o la partición donde estaba el archivo eliminado es ext3 o **ext4,** siga [**el paso 1.1**](#Instalando-o-TestDisk) y, a continuación, vaya a **[Recuperación de archivos eliminados con Photorec](#photorec)**.
 
 Si no está seguro de qué tipo de partición es, utilice el comando `df -Th` para enumerar todas las particiones y sus tipos desde sus unidades de disco:
 

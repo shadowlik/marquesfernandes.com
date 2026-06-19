@@ -14,7 +14,7 @@ needsReview: false
 updated: 2021-12-12T11:23:26.000Z
 ---
 
-**H**ojas de e**s**tilo **e**n casca**da** (CSS) es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas web **[(HTM](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**L).
+**H**ojas de e**s**tilo **e**n casca**da** (CSS) es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas web (**[HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**).
 
 Si ya sabes lo [que es HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/), entendido que es el esqueleto de todas las páginas en Internet, podemos pensar en css como piel o incluso ropa, es responsable de aplicar todas las personalizaciones visuales como, tamaño de fuente y color, color de fondo, y más. Las reglas presentes para la personalización se establecen en cascada, jerárquicamente, para cada etiqueta secundaria y etiquetas. Por ejemplo:
 
@@ -44,7 +44,7 @@ Un selector es un conjunto de propiedades (también predefinidas) y valores. Los
 
 Los selectores por clase e id distinguen mayúsculas de minúsculas, deben comenzar con letras y pueden incluir caracteres alfanuméricos, guiones y guiones bajos. Una clase se puede aplicar a cualquier número de instancias de cualquier elemento. Un identificador solo se puede aplicar a un único elemento.
 
-También hay pse*udo-clases, se* utilizan en selectores CSS para permitir el formato basado en información o interacciones que no están explícitamente contenidas en HTML. Un ejemplo de una pseudo-clase ampliamente utilizada es aquella que identifica el contenido solo cuando el usuario pasa el cursor sobre el elemento, normalmente esta clase se utiliza para informar y cambiar de color, por ejemplo, un ví[ncul](#)o. Las pseudoclases se separan e identifican por : o `::`.
+También hay pse*udo-clases, se* utilizan en selectores CSS para permitir el formato basado en información o interacciones que no están explícitamente contenidas en HTML. Un ejemplo de una pseudo-clase ampliamente utilizada es aquella que identifica el contenido solo cuando el usuario pasa el cursor sobre el elemento, normalmente esta clase se utiliza para informar y cambiar de color, por ejemplo, un [vínculo](#). Las pseudoclases se separan e identifican por : o `::`.
 
 ## Lista de selectores CSS
 

@@ -143,4 +143,4 @@ Un sistema aeropónico es similar a un sistema NFT en el que las raíces se susp
 
 Jardín de verduras DIY
 
-Bueno, aprendimos un poco más sobre la hidroponía y sus ventajas, algunos pueden estar preguntándose ¿qué tiene que ver esto con un blog de tecnología? Bueno, este es el primer artículo de una serie que quiero mostrar de un huerto hidropónico que construí en la casa de mis padres, además de toda la tecnología detrás del cultivo, con la ayu[da de la](http://marquesfernandes.com/category/iot/) automatización logré crear un huerto prácticamente 100% automatizado y decidí compartir esta experiencia contigo.
+Bueno, aprendimos un poco más sobre la hidroponía y sus ventajas, algunos pueden estar preguntándose ¿qué tiene que ver esto con un blog de tecnología? Bueno, este es el primer artículo de una serie que quiero mostrar de un huerto hidropónico que construí en la casa de mis padres, además de toda la tecnología detrás del cultivo, con la ayuda de la [automatización](http://marquesfernandes.com/category/iot/) logré crear un huerto prácticamente 100% automatizado y decidí compartir esta experiencia contigo.

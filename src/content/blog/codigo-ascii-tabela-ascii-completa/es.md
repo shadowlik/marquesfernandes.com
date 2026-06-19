@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:23:43.000Z
 ---
 
-**AS**CII, *del Código Estánda*r Americano de Información. Es un código de caracteres de 7 bits, donde cada bit representa un solo carácter. Aquí encontrará la tabla ASCII de 8 bits, 256 caracteres, según Windows-1[252, que es](https://en.wikipedia.org/wiki/Windows-1252) un superconjunto de ISO 8[859-1 en](https://www.iso.org/standard/28245.html) términos de caracteres imprimibles. En el rango de 128 a 159 (hex 80 a 9F), ISO/IEC 8859-1 tiene caracteres de control invisibles, mientras que Windows-1252 tiene caracteres grabables. Wi**ndows-1252 e**s probablemente la codificación de caracteres de 8 bits más utilizada en el mundo.
+**AS**CII, *del Código Estánda*r Americano de Información. Es un código de caracteres de 7 bits, donde cada bit representa un solo carácter. Aquí encontrará la tabla ASCII de 8 bits, 256 caracteres, según [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252), que es un superconjunto de [ISO 8859-1](https://www.iso.org/standard/28245.html) en términos de caracteres imprimibles. En el rango de 128 a 159 (hex 80 a 9F), ISO/IEC 8859-1 tiene caracteres de control invisibles, mientras que Windows-1252 tiene caracteres grabables. Wi**ndows-1252 e**s probablemente la codificación de caracteres de 8 bits más utilizada en el mundo.
 
 ***Ver también:** [Tabla completa de caracteres Base64 - Codificación/Decodificación](http://marquesfernandes.com/tabela-de-caracteres-base64-completa-codificacao-decodificacao/)*
 

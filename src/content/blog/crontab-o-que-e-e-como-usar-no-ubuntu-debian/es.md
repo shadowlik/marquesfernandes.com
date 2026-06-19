@@ -39,7 +39,7 @@ La sintaxis cron consta de un grupo de 5 variables separadas por espacio: `* * *
 
 [![](./2020-03-image-12.png)](https://crontab.guru/)
 
-Un sitio que uso mucho para validar mis crons: C[rontab.guru](https://crontab.guru/). En este sitio se puede ver visualmente cómo se comportan sus caídas cron, es muy importante tener cuidado al crear crons complejos, ya que esto puede conducir a resultados catastróficos si se configura mal!
+Un sitio que uso mucho para validar mis crons: [Crontab.guru](https://crontab.guru/). En este sitio se puede ver visualmente cómo se comportan sus caídas cron, es muy importante tener cuidado al crear crons complejos, ya que esto puede conducir a resultados catastróficos si se configura mal!
 
 ## Creación de un horario en Crontab
 
