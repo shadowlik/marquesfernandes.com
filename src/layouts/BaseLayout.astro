@@ -31,6 +31,7 @@ const {
   description,
   alternates,
   overlayHeader,
+  ogImage,
   ogType = 'website',
   publishedTime,
   modifiedTime,
@@ -43,7 +44,7 @@ const hreflang = (l: Lang) => (l === 'pt' ? 'pt-BR' : l);
 
 const ogLocales: Record<Lang, string> = { pt: 'pt_BR', en: 'en_US', es: 'es_ES' };
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
-const ogImageUrl = new URL(Astro.props.ogImage ?? ogImagePath(DEFAULT_OG_ROUTE), Astro.site);
+const ogImageUrl = new URL(ogImage ?? ogImagePath(DEFAULT_OG_ROUTE), Astro.site);
 ---
 
 <!doctype html>

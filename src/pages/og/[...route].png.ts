@@ -154,6 +154,7 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 export const GET: APIRoute = async ({ props }) => {
+  // props shape is guaranteed by getStaticPaths (satisfies CardProps).
   const png = await renderPng(props as CardProps);
   return new Response(new Uint8Array(png), {
     headers: {

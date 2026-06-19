@@ -34,6 +34,7 @@ export function categoryLabel(slug: string): string {
  * locale connector words / abbreviation periods that Intl adds.
  */
 export function formatOgDate(date: Date, lang: Lang): string {
+  // pt-BR (not bare 'pt'): month abbreviations from generic 'pt' can vary by runtime.
   const locale = lang === 'pt' ? 'pt-BR' : lang;
   const parts = new Intl.DateTimeFormat(locale, {
     day: '2-digit',
