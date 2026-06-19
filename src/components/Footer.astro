@@ -1,0 +1,42 @@
+---
+import { type Lang } from '@/i18n/ui';
+import { useTranslations } from '@/i18n/utils';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="brand">MF.</p>
+    <p class="tagline">{t('site.tagline')}</p>
+    <p class="copy">© {year} Henrique Marques Fernandes</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 4rem;
+    padding-block: 3rem;
+    border-top: 1px solid var(--color-rule);
+  }
+  .brand {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.75rem;
+    letter-spacing: var(--tracking-tight);
+    color: var(--color-heading);
+    margin: 0;
+  }
+  .tagline {
+    margin: 0.25rem 0 1rem;
+  }
+  .copy {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+</style>

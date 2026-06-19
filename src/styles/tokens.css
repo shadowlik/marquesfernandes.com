@@ -1,0 +1,26 @@
+/* Design tokens — captured from the live gentium-themed site. See docs/design.md. */
+:root {
+  /* Color */
+  --color-accent: #e9204f;
+  --color-text: #747474;
+  --color-heading: #101010;
+  --color-bg: #ffffff;
+  --color-ink: #000000;
+  --color-on-dark: #ffffff;
+  --color-rule: #ededed;
+
+  /* Type families */
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Roboto Condensed', system-ui, sans-serif;
+
+  /* Type scale */
+  --text-base: 17px;
+  --leading-base: 1.5;
+  --tracking-tight: -0.04em;
+
+  /* Layout */
+  --container: 1200px;
+  --measure: 760px;
+  --space-pad: 1rem;
+  --hero-pad: 90px;
+}

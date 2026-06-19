@@ -1,7 +1,9 @@
 ---
+import '@/styles/global.css';
 import { type Lang } from '@/i18n/ui';
-import { useTranslations, getLangFromUrl, localizedPath } from '@/i18n/utils';
-import LanguageSwitcher from '@/components/LanguageSwitcher.astro';
+import { getLangFromUrl } from '@/i18n/utils';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
 
 interface Props {
   title: string;
@@ -12,7 +14,6 @@ interface Props {
 
 const { title, description } = Astro.props;
 const lang: Lang = Astro.props.lang ?? getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
 const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
 ---
 
@@ -27,54 +28,10 @@ const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href={localizedPath('', lang)}>MF.</a>
-      <nav class="primary" aria-label="Primary">
-        <a href={localizedPath('blog', lang)}>{t('nav.blog')}</a>
-        <a href={localizedPath('portfolio', lang)}>{t('nav.portfolio')}</a>
-      </nav>
-      <LanguageSwitcher />
-    </header>
-
+    <Header lang={lang} />
     <main>
       <slot />
     </main>
-
-    <footer class="site-footer">
-      <p>MF. — {t('site.tagline')}</p>
-    </footer>
+    <Footer lang={lang} />
   </body>
 </html>
-
-<style>
-  :global(:root) {
-    --max-width: 42rem;
-  }
-  :global(body) {
-    margin: 0;
-    font-family: system-ui, sans-serif;
-    line-height: 1.6;
-  }
-  .site-header,
-  main,
-  .site-footer {
-    max-width: var(--max-width);
-    margin-inline: auto;
-    padding-inline: 1rem;
-  }
-  .site-header {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-block: 1rem;
-  }
-  .brand {
-    font-weight: 800;
-    text-decoration: none;
-  }
-  .primary {
-    display: flex;
-    gap: 1rem;
-    margin-right: auto;
-  }
-</style>
