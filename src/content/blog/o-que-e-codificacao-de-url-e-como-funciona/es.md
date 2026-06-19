@@ -20,7 +20,7 @@ Una URL (acrónimo de Uniform Resource Locator) es la dirección de un recurso e
 Una URL sigue la siguiente *sintaxis:*
 
 ```
-protocolo[//[usuario:senha@]: ho[:porta]st] ruta[?parametro][#fragmento]
+protocolo:[//[usuario:senha@]host[:porta]]caminho[?parametro][#fragmento]
 ```
 
 El uso más conocido de la URL es para conectarse a sitios web, como podemos ver en el siguiente ejemplo.

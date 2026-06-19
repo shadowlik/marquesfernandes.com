@@ -18,7 +18,7 @@ updated: 2021-12-12T11:23:37.000Z
 
 MongoDB es una base de datos que ha ganado mucha popularidad en los últimos tiempos, su capacidad para el crecimiento de bases de datos y el modelado amigable con objetos ha atraído a más y más adherentes. Después de todo, el lema del sistema es "por ideas gigantes" y por una buena razón. El sistema admite una escalabilidad extrema y está diseñado para almacenar un número excepcionalmente grande de documentos.
 
-Si está empezando o ya está utilizando un banco MongoDB, es posible que ya haya notado la existencia obligatoria de un campo curioso: `_i`d. ¿Sabes lo que realmente sirve y lo que se esconde en medio de tantas letras y números?
+Si está empezando o ya está utilizando un banco MongoDB, es posible que ya haya notado la existencia obligatoria de un campo curioso: `_id`. ¿Sabes lo que realmente sirve y lo que se esconde en medio de tantas letras y números?
 
 ## Características de objectid
 

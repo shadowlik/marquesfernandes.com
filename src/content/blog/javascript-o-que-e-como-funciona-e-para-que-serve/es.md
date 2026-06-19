@@ -91,11 +91,11 @@ Su amplia portabilidad también permite la programación de [dispositivos integr
 
 ![](./2020-02-led-scene-0.gif)
 
-var cinco - require("johnny-five");
-var board - nuevos cinco. Junta Directiva();
+var five = require("johnny-five");
+var board = new five.Board();
 
-board.on("ready", function()
-  var llevó a los cinco nuevos. Led(13);
+board.on("ready", function() {
+  var led = new five.Led(13);
   led.blink(500);
 });
 

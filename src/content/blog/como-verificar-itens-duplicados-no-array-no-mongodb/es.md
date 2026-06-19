@@ -16,80 +16,80 @@ needsReview: false
 updated: 2021-12-12T11:22:51.000Z
 ---
 
-Si tiene una colección grande y necesita averiguar si hay elementos con valores duplicados dentro de una matriz. Este problema probablemente te sucederá algún día, ¡pero no te preocupes! Para verificar si hay duplicados en una matriz, usaremos `.aggregate (`) en MongoDB.
+Si tiene una colección grande y necesita averiguar si hay elementos con valores duplicados dentro de una matriz. Este problema probablemente te sucederá algún día, ¡pero no te preocupes! Para verificar si hay duplicados en una matriz, usaremos `.aggregate()` en MongoDB.
 
 Creemos una colección con documentos de muestra, primero insertamos un registro de prueba:
 
-db.demo.insertOne ({"asunto":\["MySQL","MongoDB","Node", "MySQL"\]});
+db.demo.insertOne({"assunto":\["MySQL","MongoDB","Node", "MySQL"\]});
 
 Luego insertaremos un registro más con un elemento duplicado dentro de nuestra matriz de asunto:
 
-db.demo.insertOne ({"asunto":\["Java","C+","Node", "C+"\]});
+db.demo.insertOne({"assunto":\["Java","C+","Node", "C+"\]});
 
 Y ahora, solo para probar, insertemos un registro sin elementos duplicados:
 
-db.demo.insertOne ({"asunto":\["JavaScript","C#","Python"\]});
+db.demo.insertOne({"assunto":\["JavaScript","C#","Python"\]});
 
-Ahora muestre todos los documentos de nuestra colección con la ayuda del método `.find ()`
+Ahora muestre todos los documentos de nuestra colección con la ayuda del método `.find()`
 
-db.demo.find ();
+db.demo.find();
 
 Esto producirá el siguiente resultado:
 
-/ \* 1 \* /
+/\* 1 \*/
 {
-    "\_id": ObjectId ("5f89f5da526ef077555fe4aa"),
-    "tema en cuestion" : \[
-        "MySQL",
-        "MongoDB",
-        "Nodo"
+    "\_id" : ObjectId("5f89f5da526ef077555fe4aa"),
+    "assunto" : \[ 
+        "MySQL", 
+        "MongoDB", 
+        "Node"
     \]
 }
 
-/ \* 2 \* /
+/\* 2 \*/
 {
-    "\_id": ObjectId ("5f89f718526ef077555fe4ab"),
-    "tema en cuestion" : \[
-        "Java",
-        "C +",
-        "Nodo"
+    "\_id" : ObjectId("5f89f718526ef077555fe4ab"),
+    "assunto" : \[ 
+        "Java", 
+        "C+", 
+        "Node"
     \]
 }
 
-/ \* 3 \* /
+/\* 3 \*/
 {
-    "\_id": ObjectId ("5f89f71f526ef077555fe4ac"),
-    "tema en cuestion" : \[
-        "JavaScript",
-        "C#",
-        "Pitón"
+    "\_id" : ObjectId("5f89f71f526ef077555fe4ac"),
+    "assunto" : \[ 
+        "JavaScript", 
+        "C#", 
+        "Python"
     \]
 }
 
 Usaremos el método `.aggregate` para consultar y comprobar si hay duplicados en una matriz en los documentos de nuestra colección:
 
-db.demo.aggregate (\[
-    {"$ project": {"subject": 1}},
-    {"$ wind": "$ subject"},
-    {"$ group": {"\_id": {"\_ id": "$ \_ id", "Name": "$ subject"}, "count": {"$ sum": 1}}},
-    {"$ match": {"count": {"$ gt": 1}}},
-    {"$ group": {"\_id": "$ \_id.\_id", "subject": {"$ addToSet": "$ \_ id.Nombre "}}}
+db.demo.aggregate(\[
+    {"$project": {"assunto":1}},
+    {"$unwind":"$assunto"},
+    {"$group": {"\_id":{"\_id":"$\_id", "Name":"$assunto"}, "count":{"$sum":1}}},
+    {"$match": {"count":{"$gt":1}}},
+    {"$group": {"\_id": "$\_id.\_id", "assunto":{"$addToSet":"$\_id.Name"}}}
  \])
 
 Debe esperar el siguiente resultado:
 
-/ \* 1 \* /
+/\* 1 \*/
 {
-    "\_id": ObjectId ("5f89ff1f526ef077555fe4b0"),
-    "tema en cuestion" : \[
+    "\_id" : ObjectId("5f89ff1f526ef077555fe4b0"),
+    "assunto" : \[ 
         "MySQL"
     \]
 }
 
-/ \* 2 \* /
+/\* 2 \*/
 {
-    "\_id": ObjectId ("5f89ff24526ef077555fe4b1"),
-    "tema en cuestion" : \[
-        "C +"
+    "\_id" : ObjectId("5f89ff24526ef077555fe4b1"),
+    "assunto" : \[ 
+        "C+"
     \]
 }

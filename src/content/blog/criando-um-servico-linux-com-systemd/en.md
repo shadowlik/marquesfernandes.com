@@ -34,7 +34,7 @@ http.createServer(function (req, res) {
   res.end();
 }).listen(9999);
 
-Let's test it, in the browser, go to `http://localhost:999` .
+Let's test it, in the browser, go to `http://localhost:9999` .
 
 ![](./2020-07-image-2.png)
 
@@ -49,11 +49,11 @@ Description=WebDate - Date Web Service
 After=network.target
 StartLimitIntervalSec=0
 \[Service\]
-type=simple
-restart=always
+Type=simple
+Restart=always
 RestartSec=1
-User=hundreds
-ExecStart=/usr/bin/node /path/file.js
+User=centos
+ExecStart=/usr/bin/node /caminho/arquivo.js
 
 \[Install\]
 WantedBy=multi-user.target

@@ -34,7 +34,7 @@ Para lograr la depuración en TypeScript necesitamos habilitar los mapas de orig
 Si el proyecto aún no tiene el archivo ts`config.json,` vamos a crear un archivo con la configuración mínima para este tutorial:
 
 {
-    "compilerOptions":
+    "compilerOptions": {
       "target": "ES2020",
       "rootDir": "./src",
       "outDir": "./dist",
@@ -55,14 +55,14 @@ El archivo launch.json contiene toda la configuración de los depuradores del pr
 
 {
   "version": "0.2.0",
-  "configuraciones": \[
+  "configurations": \[
     {
-      "type": "nodo",
-      "request": "lanzamiento",
+      "type": "node",
+      "request": "launch",
       "name": "Programa de lanzamiento",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "program": "$-workspaceFolder/src/main.ts",
-      "outFiles":\["${workspaceFolder}/dist/\*\*/\*.js"\]
+      "program": "${workspaceFolder}/src/main.ts",
+      "outFiles": \["${workspaceFolder}/dist/\*\*/\*.js"\]
     }
   \]
 }

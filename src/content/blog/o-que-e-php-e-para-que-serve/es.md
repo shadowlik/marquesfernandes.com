@@ -39,17 +39,19 @@ Un archivo PHP también puede contener etiquetas como HTML y [JavaScript](http:/
 
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
     <title>Ejemplo de página</title>
-  
-  <body></body>
+  </head>
+  <body>
     <h1>
-      <?php echo "Olá, eu sou um título!"; ?>
-    
+      <?php echo "¡Hola, soy un título!"; ?>
+    </h1>
     <script>
-      alerta("Hola, soy una alerta!");
-    
-  
+      alert("¡Hola, soy una alerta!");
+    </script>
+  </body>
+</html>
+
 
 ## Flujo de una aplicación PHP
 

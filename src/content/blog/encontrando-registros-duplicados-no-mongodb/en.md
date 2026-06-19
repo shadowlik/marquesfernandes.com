@@ -38,7 +38,7 @@ For this we will use the method [aggregate](https://docs.mongodb.com/manual/aggr
 db.list.aggregate(\[  
     {$group: {
         \_id: {cpf: "$cpf"},
-        Unique ids: {$addToSet: "$\_id"},
+        idsUnicos: {$addToSet: "$\_id"},
         total: {$sum: 1}
         }
     }
@@ -49,7 +49,7 @@ The query above will return a list with all CPFs and their respective counts. No
 db.list.aggregate(\[
     {$group: {
         \_id: {cpf: "$cpf"},
-        Unique ids: {$addToSet: "$\_id"},
+        idsUnicos: {$addToSet: "$\_id"},
         total: {$sum: 1}
         }
     },

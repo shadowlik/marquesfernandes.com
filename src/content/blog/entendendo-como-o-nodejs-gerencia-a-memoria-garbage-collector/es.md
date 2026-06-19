@@ -93,7 +93,7 @@ Aunque el recolector de elementos no utilizados NodeJS se ha mejorado, y mucho, 
 
 Ejecutar en modo normal esto no es posible, Node no nos permite asignar o desasignar memorias o tener acceso al recolector de elementos no utilizados, si queremos tener acceso a la función que llama al receptor, necesitamos ejecutar nuestra aplicación con la siguiente opción:
 
-Nodo $ --expose-gc index.js
+$ node --expose-gc index.js
 
 Al iniciar el programa con esta opción, tendrá acceso a la función:
 
@@ -101,10 +101,10 @@ global.gc();
 
 Para hacerlo más seguro, puede utilizar:
 
-función forceGC()
-   si (global.gc)
+function forceGC()
+   if (global.gc) {
       global.gc();
-   Más
-      console.warn('GC no habilitado! Ejecute el programa con 'node --expose-gc index.js'.');
+   } else {
+      console.warn('GC no habilitado! Ejecute el programa con \`node --expose-gc index.js\`.');
    }
 }

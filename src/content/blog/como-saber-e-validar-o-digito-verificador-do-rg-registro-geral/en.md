@@ -53,7 +53,26 @@ Now we need to subtract the rest of our division from 11 and we finally have our
 
 Below you find the algorithm made in JavaScript ES5 following the logic explained above.
 
-function discoverDigit(rg) { var digits = rg.split(""); var totals =\[\] ; total var = 0; // We multiply the ones that would be in the first line with those in the second digits.forEach(function (digit, index) { totals.push(Number(digit) \* (2 + index)); }); // We multiply total columns.forEach(function(number) { total += number }); // We find the remainder of the division var remainder = total % 11; return 11 - rest; } console.log(discoverDigit("39406714"));
+function descobrirDigito(rg) {
+    var digitos = rg.split("");
+    var totais = \[\];
+    var total = 0;
+    
+    // We multiply the ones that would be in the first row with those in the second    
+    digitos.forEach(function (digito, index) {
+        totais.push(Number(digito) \* (2 + index));
+    });
+    
+    // We multiply the columns
+    totais.forEach(function(numero) { total += numero });
+
+    // We find the remainder of the division
+    var resto = total % 11;
+
+    return 11 - resto;
+}
+
+console.log(descobrirDigito("39406714"));
 
 ## special cases
 

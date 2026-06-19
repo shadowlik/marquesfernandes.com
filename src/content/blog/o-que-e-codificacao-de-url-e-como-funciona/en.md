@@ -20,7 +20,7 @@ A URL (acronym for Uniform Resource Locator) is the address of a resource on the
 A URL follows the following *syntax:*
 
 ```
-protocol:[//[usuario:senha@] host[:porta] ]path[?parametro][#fragmento]
+protocolo:[//[usuario:senha@]host[:porta]]caminho[?parametro][#fragmento]
 ```
 
 The best known use for the URL is for connecting to websites, as we can see in the example below.
