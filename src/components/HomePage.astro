@@ -1,0 +1,196 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PostCard from '@/components/PostCard.astro';
+import { type Lang } from '@/i18n/ui';
+import { useTranslations } from '@/i18n/utils';
+import { postsForLang } from '@/lib/blog';
+import portrait from '@/assets/home/4-Henrique-Marques-Fernandes-HeadshotPro.png';
+import signature from '@/assets/home/c6487c0e-1b5b-45a6-8e31-577b23f5d148_removalai_preview.png';
+
+interface Props {
+  lang: Lang;
+  /** Bio paragraphs as HTML (per language, includes the Apuama link). */
+  bioHtml: string;
+}
+const { lang, bioHtml } = Astro.props;
+const t = useTranslations(lang);
+const name = 'Henrique Marques Fernandes';
+const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
+---
+
+<BaseLayout lang={lang} title={`${name} — MF.`} description={t('site.tagline')} overlayHeader>
+  <section class="hero">
+    <Image class="hero-bg" src={portrait} alt={name} widths={[768, 1280, 1920]} loading="eager" />
+    <div class="hero-inner container">
+      <h1>{name}</h1>
+    </div>
+  </section>
+
+  <section class="about container">
+    <p class="role">{t('home.role')}</p>
+    <h2 class="about-name">{name}.</h2>
+    <div class="bio" set:html={bioHtml} />
+    <Image class="signature" src={signature} alt="" loading="lazy" />
+  </section>
+
+  <section class="apuama">
+    <div class="container">
+      <h2><a href="https://apuama.com" rel="noopener">apuama.com</a></h2>
+      <p>{t('home.apuamaTagline')}</p>
+      <a class="btn" href="https://apuama.com" rel="noopener">apuama.com →</a>
+    </div>
+  </section>
+
+  <section class="latest container">
+    <p class="role">{t('home.latestLabel')}</p>
+    <h2>{t('home.latestPosts')}</h2>
+    <div class="grid">
+      {
+        latest.map((p) => (
+          <PostCard
+            href={p.data.canonicalPath ?? '#'}
+            title={p.data.title}
+            category={p.data.category?.replace(/-/g, ' ')}
+            excerpt={p.data.description}
+            date={p.data.date}
+            lang={lang}
+          />
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Hero — full viewport, portrait behind, name centered. */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: var(--color-ink);
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .hero h1 {
+    color: var(--color-on-dark);
+    font-size: clamp(2.5rem, 8vw, 6rem);
+    margin: 0;
+  }
+
+  /* About */
+  .about {
+    padding-block: 5rem 4rem;
+  }
+  .role {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-accent);
+    letter-spacing: 0.03em;
+    margin: 0 0 0.5rem;
+  }
+  .about-name {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    margin: 0 0 1.5rem;
+    position: relative;
+    display: inline-block;
+  }
+  .about-name::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0.1em;
+    height: 0.18em;
+    width: 100%;
+    background: var(--color-accent);
+    z-index: -1;
+    opacity: 0.9;
+  }
+  .bio {
+    max-width: var(--measure);
+  }
+  .bio :global(a) {
+    font-weight: 700;
+  }
+  .signature {
+    margin-top: 1.5rem;
+    height: 80px;
+    width: auto;
+  }
+
+  /* apuama CTA */
+  .apuama {
+    background: var(--color-ink);
+    color: var(--color-on-dark);
+    padding-block: 5rem;
+  }
+  .apuama h2 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+  .apuama h2 a {
+    color: var(--color-on-dark);
+  }
+  .apuama h2 a:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .apuama p {
+    max-width: 40ch;
+    margin: 0 0 2rem;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border: 2px solid var(--color-accent);
+    color: var(--color-on-dark);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    transition:
+      background 0.2s ease,
+      color 0.2s ease;
+  }
+  .btn:hover {
+    background: var(--color-accent);
+    text-decoration: none;
+  }
+
+  /* Latest posts */
+  .latest {
+    padding-block: 4rem;
+  }
+  .latest > h2 {
+    margin: 0 0 2rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 3rem;
+  }
+  @media (max-width: 720px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

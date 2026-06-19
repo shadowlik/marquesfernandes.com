@@ -1,13 +1,7 @@
 ---
-import BaseLayout from '@/layouts/BaseLayout.astro';
-import { useTranslations } from '@/i18n/utils';
+import HomePage from '@/components/HomePage.astro';
 
-const t = useTranslations('en');
+const bio = `<p>Senior full-stack engineer by day, triathlete by... well, also by day. I lead teams and build scalable, simple solutions in tech (e-commerce, fintech, SaaS).</p><p>I'm now building <a href="https://apuama.com" target="_blank" rel="noopener"><strong>Apuama</strong></a>, a platform connecting athletes with races, crews, and gear. It's the intersection of my two passions: clean code and open roads.</p><p>For me, life is about health, discipline, and pushing what's possible, on and off the clock.</p>`;
 ---
 
-<BaseLayout lang="en" title="MF." description={t('site.tagline')}>
-  <section class="container" style="padding-block: 3rem;">
-    <h1>MF.</h1>
-    <p>{t('site.tagline')}</p>
-  </section>
-</BaseLayout>
+<HomePage lang="en" bioHtml={bio} />

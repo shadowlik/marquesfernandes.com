@@ -7,14 +7,16 @@ interface Props {
   lang: Lang;
   /** Per-language equivalents of the current page, for the switcher. */
   alternates?: { lang: Lang; path: string }[];
+  /** Float a transparent header over a full-bleed hero (homepage). */
+  overlay?: boolean;
 }
-const { lang, alternates } = Astro.props;
+const { lang, alternates, overlay = false } = Astro.props;
 const t = useTranslations(lang);
 
 const onBlog = /\/blog\/?$/.test(Astro.url.pathname);
 ---
 
-<header class="site-header">
+<header class:list={['site-header', { overlay }]}>
   <div class="container bar">
     <a class="brand" href={localizedPath('', lang)}>MF.</a>
     <nav class="primary" aria-label="Primary">
@@ -30,6 +32,12 @@ const onBlog = /\/blog\/?$/.test(Astro.url.pathname);
   .site-header {
     background: var(--color-ink);
     color: var(--color-on-dark);
+  }
+  .site-header.overlay {
+    position: absolute;
+    inset: 0 0 auto 0;
+    background: transparent;
+    z-index: 10;
   }
   .bar {
     display: flex;

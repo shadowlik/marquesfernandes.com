@@ -12,9 +12,11 @@ interface Props {
   lang?: Lang;
   /** Per-language equivalents for hreflang tags + the language switcher. */
   alternates?: { lang: Lang; path: string }[];
+  /** Float a transparent header over a full-bleed hero (homepage). */
+  overlayHeader?: boolean;
 }
 
-const { title, description, alternates } = Astro.props;
+const { title, description, alternates, overlayHeader } = Astro.props;
 const lang: Lang = Astro.props.lang ?? getLangFromUrl(Astro.url);
 const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
 const hreflang = (l: Lang) => (l === 'pt' ? 'pt-BR' : l);
@@ -36,7 +38,7 @@ const hreflang = (l: Lang) => (l === 'pt' ? 'pt-BR' : l);
     }
   </head>
   <body>
-    <Header lang={lang} alternates={alternates} />
+    <Header lang={lang} alternates={alternates} overlay={overlayHeader} />
     <main>
       <slot />
     </main>

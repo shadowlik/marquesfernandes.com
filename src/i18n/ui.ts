@@ -28,6 +28,11 @@ export const ui = {
     'post.writtenBy': 'Escrito por:',
     'post.postedOn': 'Publicado em:',
     'post.tags': 'Tags:',
+    'home.role': 'Software Engineer',
+    'home.apuamaTagline':
+      'The all-in-one platform to discover and register for endurance events worldwide',
+    'home.latestPosts': 'Últimos Posts',
+    'home.latestLabel': 'Leia minhas reflexões',
   },
   en: {
     'nav.home': 'Home',
@@ -37,6 +42,11 @@ export const ui = {
     'post.writtenBy': 'Written by:',
     'post.postedOn': 'Posted on:',
     'post.tags': 'Tags:',
+    'home.role': 'Software Engineer',
+    'home.apuamaTagline':
+      'The all-in-one platform to discover and register for endurance events worldwide',
+    'home.latestPosts': 'Latest Posts',
+    'home.latestLabel': 'Check out some of my thinking',
   },
   es: {
     'nav.home': 'Inicio',
@@ -46,6 +56,11 @@ export const ui = {
     'post.writtenBy': 'Escrito por:',
     'post.postedOn': 'Publicado el:',
     'post.tags': 'Etiquetas:',
+    'home.role': 'Software Engineer',
+    'home.apuamaTagline':
+      'The all-in-one platform to discover and register for endurance events worldwide',
+    'home.latestPosts': 'Últimas Entradas',
+    'home.latestLabel': 'Conoce algunas de mis ideas',
   },
 } as const satisfies Record<Lang, Record<string, string>>;
 
