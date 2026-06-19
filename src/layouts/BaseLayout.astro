@@ -10,11 +10,14 @@ interface Props {
   description?: string;
   /** Override the detected locale (e.g. when rendering a fixed-language page). */
   lang?: Lang;
+  /** Per-language equivalents for hreflang tags + the language switcher. */
+  alternates?: { lang: Lang; path: string }[];
 }
 
-const { title, description } = Astro.props;
+const { title, description, alternates } = Astro.props;
 const lang: Lang = Astro.props.lang ?? getLangFromUrl(Astro.url);
 const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
+const hreflang = (l: Lang) => (l === 'pt' ? 'pt-BR' : l);
 ---
 
 <!doctype html>
@@ -26,9 +29,14 @@ const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    {
+      alternates?.map((alt) => (
+        <link rel="alternate" hreflang={hreflang(alt.lang)} href={new URL(alt.path, Astro.site)} />
+      ))
+    }
   </head>
   <body>
-    <Header lang={lang} />
+    <Header lang={lang} alternates={alternates} />
     <main>
       <slot />
     </main>

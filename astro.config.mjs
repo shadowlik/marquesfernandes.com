@@ -8,6 +8,9 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://marquesfernandes.com',
 
+  // Match the legacy WordPress URLs, which all end in a trailing slash.
+  trailingSlash: 'always',
+
   // Mirrors the legacy Polylang setup: pt is the default and lives at the
   // root (no /pt/ prefix), en/es are served under their language prefix.
   // This keeps every historical URL identical after the migration.
