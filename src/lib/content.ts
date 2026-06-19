@@ -13,7 +13,6 @@ import type { TranslatableEntry } from './translations';
 type Assert<T extends TranslatableEntry> = T;
 
 export type BlogEntry = Assert<CollectionEntry<'blog'>>;
-export type PortfolioEntry = Assert<CollectionEntry<'portfolio'>>;
 export type PageEntry = Assert<CollectionEntry<'pages'>>;
 
-export type AnyContentEntry = BlogEntry | PortfolioEntry | PageEntry;
+export type AnyContentEntry = BlogEntry | PageEntry;

@@ -48,7 +48,7 @@ truth since the rendered look = UIkit + theme `style.css` + customizer settings.
 ### Header (`Header.astro`)
 
 Solid black bar (`--color-ink`), full width. Left: "MF." brand (white Poppins).
-Right: primary nav (Blog, Portfolio) + language switcher, white text. Not sticky.
+Right: primary nav (Blog) + language switcher, white text. Not sticky.
 
 ### Footer (`Footer.astro`)
 

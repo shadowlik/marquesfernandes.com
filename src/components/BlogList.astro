@@ -1,0 +1,55 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PostCard from '@/components/PostCard.astro';
+import { type Lang } from '@/i18n/ui';
+
+interface Props {
+  lang: Lang;
+  heading: string;
+  posts: CollectionEntry<'blog'>[];
+}
+const { lang, heading, posts } = Astro.props;
+---
+
+<BaseLayout lang={lang} title={`${heading} — MF.`}>
+  <section class="container listing">
+    <h1>{heading}</h1>
+    <div class="grid">
+      {
+        posts.map((p) => (
+          <PostCard
+            href={p.data.canonicalPath ?? '#'}
+            title={p.data.title}
+            category={p.data.category?.replace(/-/g, ' ')}
+            excerpt={p.data.description}
+            date={p.data.date}
+            lang={lang}
+          />
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .listing {
+    padding-block: 3rem;
+  }
+  .listing > h1 {
+    margin-bottom: 2rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 3rem;
+  }
+  .grid > :global(.card) {
+    border-bottom: 1px solid var(--color-rule);
+  }
+  @media (max-width: 720px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -23,7 +23,6 @@ export const ui = {
   pt: {
     'nav.home': 'Início',
     'nav.blog': 'Blog',
-    'nav.portfolio': 'Portfólio',
     'site.tagline': 'Tecnologia, desenvolvimento e design',
     'lang.label': 'Idioma',
     'post.writtenBy': 'Escrito por:',
@@ -33,7 +32,6 @@ export const ui = {
   en: {
     'nav.home': 'Home',
     'nav.blog': 'Blog',
-    'nav.portfolio': 'Portfolio',
     'site.tagline': 'Technology, development and design',
     'lang.label': 'Language',
     'post.writtenBy': 'Written by:',
@@ -43,7 +41,6 @@ export const ui = {
   es: {
     'nav.home': 'Inicio',
     'nav.blog': 'Blog',
-    'nav.portfolio': 'Portafolio',
     'site.tagline': 'Tecnología, desarrollo y diseño',
     'lang.label': 'Idioma',
     'post.writtenBy': 'Escrito por:',
