@@ -34,7 +34,7 @@ Hay varios programas de afiliados en Internet, vamos a hablar de los más famoso
 
 ### 1\. [Hotmart, Año Nuevo](https://www.hotmart.com/pt-BR/affiliates)
 
-[![Hotmart, Año Nuevo](/wp-content/uploads/2020/07/image-21-1.jpg)](https://www.hotmart.com/pt-BR/affiliates)
+[![Hotmart, Año Nuevo](./2020-07-image-21-1.jpg)](https://www.hotmart.com/pt-BR/affiliates)
 
 Hotmart es la plataforma de aprendizaje a distancia más grande y completa de América Latina. 
 
@@ -46,7 +46,7 @@ Una plataforma totalmente integrada con las mejores soluciones para escalar cual
 
 ### 2\. [Monetizze, Año Nuevo](https://app.monetizze.com.br/r/AP/13283239)
 
-[![Monetizze, Año Nuevo](/wp-content/uploads/2020/07/image-18-1.jpg)](https://app.monetizze.com.br/r/AP/13283239)
+[![Monetizze, Año Nuevo](./2020-07-image-18-1.jpg)](https://app.monetizze.com.br/r/AP/13283239)
 
 Nacido en 2015 en Belo Horizonte, Monetizze llegó a la propuesta de cambiar el mercado digital, aportando más transparencia, calidad y atención a afiliados y productores en la venta de productos digitales y físicos.
 
@@ -54,7 +54,7 @@ Márcio Motta, fundador de la plataforma, se centró en su misión, programado d
 
 ### 3\. [Revista Luiza](https://www.magazinevoce.com.br/)
 
-![Magalu, Año Nuevo](/wp-content/uploads/2020/07/image-19.jpg)
+![Magalu, Año Nuevo](./2020-07-image-19.jpg)
 
 Magalu, una tienda en línea brasileña querida, tiene un programa de afiliados muy fresco. Con ella creas tu propia tienda, con un enlace único con todos los productos de la web oficial.
 
@@ -62,13 +62,13 @@ https://www.youtube.com/watch?v=sy8zPcg94Kc&feature=emb\_title
 
 ### 4\. [Amazon](https://associados.amazon.com.br/)
 
-[![Amazon](/wp-content/uploads/2020/07/image-20-1024x494.jpg)](https://associados.amazon.com.br/)
+[![Amazon](./2020-07-image-20.jpg)](https://associados.amazon.com.br/)
 
 El Programa de Membresía de Amazon ayuda a creadores, editores y blogueros a monetizar sus sitios. Con millones de productos y múltiples programas disponibles en Amazon, los miembros pueden utilizar herramientas sencillas de creación de enlaces para dirigir a sus clientes a sus recomendaciones y facturas para compras y programas calificados.
 
 ### 5\. [Eduzz, Año Nuevo](https://www.eduzz.com/afiliados)
 
-[![Eduzz, Año Nuevo](/wp-content/uploads/2020/07/image-20-1.jpg)](https://www.eduzz.com/afiliados)
+[![Eduzz, Año Nuevo](./2020-07-image-20-1.jpg)](https://www.eduzz.com/afiliados)
 
 En el caso de los infoproductos, Eduzz ofrece una forma segura, transparente, muy fácil y eficiente para que los afiliados encuentren, difundan y vendan Contenido Digital de alta demanda. Es como tener un gran equipo de ventas trabajando para generar nuevos negocios.
 
@@ -78,13 +78,13 @@ s. Los productos disponibles son previamente evaluados por nuestro equipo. Solo 
 
 ### 6\. [Udemy, Udemy](https://www.udemy.com/affiliate/?locale=pt_BR)
 
-[![Udemy, Udemy](/wp-content/uploads/2020/07/image-19-1.jpg)](https://www.udemy.com/affiliate/?locale=pt_BR)
+[![Udemy, Udemy](./2020-07-image-19-1.jpg)](https://www.udemy.com/affiliate/?locale=pt_BR)
 
 Promociona un producto que siempre sea útil, deseado por las personas y que nunca pase de moda: ¡miles de cursos online en cientos de categorías! El programa de afiliados es administrado por Rakuten, así que le sugiero que vea el siguiente tema.
 
 ### 7\. [Rakuten](https://rakutenadvertising.com/pt-br/afiliados/)
 
-[![Rakuten](/wp-content/uploads/2020/07/image-21.jpg)](https://rakutenadvertising.com/pt-br/afiliados/)
+[![Rakuten](./2020-07-image-21.jpg)](https://rakutenadvertising.com/pt-br/afiliados/)
 
 Ya seas un blogger, influencer, desarrollador de aplicaciones o negocio, la red global de afiliados de Rakuten Advertising te ayuda a ganar dinero con tu contenido digital y crear mejores experiencias para tus visitantes. Asóciate con marcas líderes en todas las industrias, desde la moda hasta los servicios financieros.
 

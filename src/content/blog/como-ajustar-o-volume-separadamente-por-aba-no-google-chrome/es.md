@@ -20,13 +20,13 @@ updated: 2021-12-12T11:22:52.000Z
 
 ## Maestro de volumen para controlar el volumen de la pestaña en Google Chrome
 
-![Maestro de volumen](/wp-content/uploads/2020/08/image-19.jpg)
+![Maestro de volumen](./2020-08-image-19.jpg)
 
 Puede descargar Volume Master de forma fáci*l y segura de*sde Chrome Web Store. Una vez descargado e instalado, puede acceder y controlar el volumen de cada pestaña simplemente haciendo clic en el icono de la extensión.
 
 Si el icono no está visible, debe hacer clic en el icono del rompecabezas y seleccionar hacerlo visible en los accesos directos de la extensión:
 
-![ Extensión de Google Chrome](/wp-content/uploads/2020/08/image-20.jpg)
+![ Extensión de Google Chrome](./2020-08-image-20.jpg)
 
 ### Ajuste el volumen en las pestañas de Chrome por separado
 

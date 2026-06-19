@@ -43,11 +43,11 @@ El primer ordenador que vamos a configurar debe ser el que queremos usar el rat�
 
 Descargue la última versió`n de` Barrier .exe en [github.com/debauchee/barrier/releases](https://github.com/debauchee/barrier/releases) y haga doble clic en el archivo descargado. Windows probablemente mostrará un mensaje que tiene este aspecto:
 
-![Instalación de Barrera](/wp-content/uploads/2020/07/barrier-1.jpg)
+![Instalación de Barrera](./2020-07-barrier-1.jpg)
 
 Haga clic *en Más informaci*ón *y Ejecutar de todos* modos, luego acepte los términos y condiciones y continúe haciendo cli*c junto* a completar la instalación.
 
-![Configuración de la primaria](/wp-content/uploads/2020/07/image-33.png)
+![Configuración de la primaria](./2020-07-image-33.png)
 
 Ahora busque su atajo Barrera en su computadora y ejecute el programa. Selecciona la primera opció*n "Servi*dor" para configurar como el equipo principal. Anote la IP de su ordenador dentro de su red, la utilizaremos para configurar el ordenador secundario, en nuestro caso es la IP al lado del número en negrita, vamos a utilizar e*l 192.168.0.4*3.
 
@@ -62,17 +62,17 @@ $sudo barrera apt-get install -y
 
 Ahora abra la aplicación y siga el proceso de instalación. Cuando haya terminado, abra el programa, seleccione el *modo "Cl*iente" y borre la selección *"Auto config".* En el cam*po IP del SERV*IDOR agregue el número IP copiado del paso anterior. También anota el *Nombre de Pant*alla, lo usaremos para configurar la posición de la pantalla en nuestro ordenador principal.
 
-![Barrera de configuración secundaria](/wp-content/uploads/2020/07/image-35.jpg)
+![Barrera de configuración secundaria](./2020-07-image-35.jpg)
 
 ## Configuración de la posición de la pantalla
 
 Ahora que tenemos el programa ejecutándose en ambos equipos, necesitamos configurar y autorizar en el ordenador principal la posición del equipo secundario que queremos controlar. Abra el programa de nuevo y haga clic en el b*otón Configurar serv*idor, asegúrese de que la barrera no se está ejecutando, aparte de que no podrá editar la configuración.
 
-![Computadora agregada de Barrera](/wp-content/uploads/2020/07/image-36.jpg)
+![Computadora agregada de Barrera](./2020-07-image-36.jpg)
 
 Haga clic en el equipo para agregar un nuevo equipo secundario. Agregue el nomb*re de la pantal*la el nombre que anotamos en el paso anterior y haga clic en Aceptar.
 
-![Configuración secundaria de barrera](/wp-content/uploads/2020/07/image-38.png)
+![Configuración secundaria de barrera](./2020-07-image-38.png)
 
 En este caso establecemos la posición de nuestro ordenador secundario a la izquierda de nuestro ordenador principal, esto significa que cuando arrastremos el ratón al extremo izquierdo del ordenador principal, cambiará el control al ordenador secundario. Vamos a probar nuestra configuración, h*aga cl*ic en Inicio en el equipo p*rincip*al y Aplicar en el secundario, si todo sucede como se esperaba, ya podrá controlar ambos equipos desde un solo ratón y teclado. Incluso puede agregar un tercer ordenador, por ejemplo, un ordenador Apple con MacOS, para configurar simplemente siga los mismos pasos y elegir su posición para su ordenador principal.
 

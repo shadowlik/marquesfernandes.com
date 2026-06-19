@@ -42,7 +42,7 @@ Otro punto para elegir su DNS y que se ha convertido en una preocupación frecue
 -   **DNS** **principal**: *1.1.1.1*
 -   **DNS secundario:** *1.0.0.1*
 
-![](/wp-content/uploads/2020/03/image-16.png)
+![](./2020-03-image-16.png)
 
 Puse Cloud[flare pri](https://1.1.1.1/)mero en la lista porque es el DNS que uso y recomiendo. Cloudflare es una empresa de infraestructura de gran a su nombre y hoy en día proporciona servicios a millones de sitios en todo el mundo. Crearon su solución de DNS público llamada WARP, y según los propios puntos de referencia de la compañía, su velocidad supera a las de sus competidores. Además del enfoque en el rendimiento, WARP está cifrando toda su conexión a su servidor con el fin de preservar su anonimato y posibles estafas en Internet.
 

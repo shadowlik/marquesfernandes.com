@@ -37,7 +37,7 @@ $ shred -zvu -n 5 passwordsbancarias.txt
 
 **Conse**jo: Nunca escriba sus contraseñas en un archivo de texto. Desafortunadamente, es una práctica muy común pero totalmente insegura de almacenar dicha información.
 
-![Triturar - Sobrescribir el archivo para ocultar su contenido](/wp-content/uploads/2020/02/image-8.png)
+![Triturar - Sobrescribir el archivo para ocultar su contenido](./2020-02-image-8.png)
 
 ## 2\. Limpiar - Eliminar archivos de forma segura en Linux
 
@@ -56,7 +56,7 @@ $ borrar contraseñas -rfi/\*
 -   `-f` - permite la eliminación forzada y desactiva las confirmaciones
 -   `-i` - muestra el progreso
 
-![Limpiar - Eliminar archivos de forma segura en Linux](/wp-content/uploads/2020/02/image-9.png)
+![Limpiar - Eliminar archivos de forma segura en Linux](./2020-02-image-9.png)
 
 ***Nota**: La herramienta Limpiar solo funciona de forma segura en memoria magnética (HDD), utilice los otros métodos si va a eliminar archivos o carpetas en un SDD o USB.*
 
@@ -76,4 +76,4 @@ $ srm -vz contraseñas/\*
 -   `-v` - modo detallado, muestra más información del proceso
 -   `-z` - borra la última eliminación con ceros en lugar de datos aleatorios
 
-![Kit de herramientas de eliminación segura para Linux](/wp-content/uploads/2020/02/image-10.png)
+![Kit de herramientas de eliminación segura para Linux](./2020-02-image-10.png)

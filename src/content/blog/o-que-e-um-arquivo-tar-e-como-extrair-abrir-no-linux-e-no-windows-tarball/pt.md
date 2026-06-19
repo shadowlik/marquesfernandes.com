@@ -58,12 +58,12 @@ Agora se você está no Windows, a maneira menos complicada de criar o arquivo *
 1.  Selecione todos os arquivos e pastas que você deseja no seu arquivo **.tar**
 2.  Clique no primeiro ícone da barra superior "Adicionar"
 
-![7Zip](/wp-content/uploads/2019/12/image-3.jpg)
+![7Zip](./2019-12-image-3.jpg)
 
 3.  Em "Formato do arquivo compactado" selecione **tar**
 4.  Clique em Ok
 
-![7Zip](/wp-content/uploads/2019/12/image-4.jpg)
+![7Zip](./2019-12-image-4.jpg)
 
 No Windows o 7-Zip não permite realizar a geração do arquivo **TAR** e a compressão com **gzip** em uma etapa só, por isso precisamos de uma etapa adicional.
 
@@ -71,4 +71,4 @@ No Windows o 7-Zip não permite realizar a geração do arquivo **TAR** e a comp
 5.  Em "Formato do arquivo compactado" selecione **gzip**
 6.  Clique em Ok
 
-![7Zip](/wp-content/uploads/2019/12/image-5.jpg)
+![7Zip](./2019-12-image-5.jpg)

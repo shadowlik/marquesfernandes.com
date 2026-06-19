@@ -22,7 +22,7 @@ Al mismo tiempo, muchas canciones "libres de regalías" son ampliamente utilizad
 
 ## 1\. **[Incompetech.com](https://incompetech.com/)**
 
-![Incompetech, Nuevo](/wp-content/uploads/2020/05/image-3-1024x525.jpg)
+![Incompetech, Nuevo](./2020-05-image-3.jpg)
 
 **[Incompetech, Nuevo](https://incompetech.com/)**
 
@@ -32,7 +32,7 @@ Si navegas por un tiempo en la plataforma probablemente te encontrarás con much
 
 ## 2\. [Biblioteca de audio de Youtube](https://www.youtube.com/audiolibrary/music?nv=1)
 
-![Biblioteca de audio de Youtube (Biblioteca de Audio do Youtube)](/wp-content/uploads/2020/05/image-4-1024x514.png)
+![Biblioteca de audio de Youtube (Biblioteca de Audio do Youtube)](./2020-05-image-4.png)
 
 \-ERR:REF-NOT-FOUND-Biblioteca de audio de Youtube
 
@@ -40,7 +40,7 @@ Yo**utube Audio Library es** un servicio de Youtube conocido por unos pocos. Cue
 
 ## 3\. [FMA - Free Music Archive](https://freemusicarchive.org/)
 
-![FMA - Free Music Archive](/wp-content/uploads/2020/05/image-5-1024x514.png)
+![FMA - Free Music Archive](./2020-05-image-5.png)
 
 \-ERR:REF-NOT-FOUND-FMA - Free Music Archive
 
@@ -48,13 +48,13 @@ Yo**utube Audio Library es** un servicio de Youtube conocido por unos pocos. Cue
 
 ## 4\. [Planeta Púrpura, Nuevo](https://www.purple-planet.com/)
 
-[![Planeta Púrpura, Nuevo](/wp-content/uploads/2020/05/image-7-1024x514.jpg)](https://www.purple-planet.com/)
+[![Planeta Púrpura, Nuevo](./2020-05-image-7.jpg)](https://www.purple-planet.com/)
 
 **Purple Planet** es un sitio web mantenido por Geoff Harvey y Chris Martyn en Inglaterra. Ellos se encargan de la composición, producción y grabación de las canciones. Además de ser gratuitas, las canciones son de calidad, y según ellas, preferentemente utilizan instrumentos reales para dar una sensación de natural.
 
 ## 5\. [Musopen, Año Nuevo](https://musopen.org/)
 
-![Musopen, Año Nuevo](/wp-content/uploads/2020/05/image-6-1024x514.jpg)
+![Musopen, Año Nuevo](./2020-05-image-6.jpg)
 
 \-ERR:REF-NOT-FOUND-Musopen, Año Nuevo
 

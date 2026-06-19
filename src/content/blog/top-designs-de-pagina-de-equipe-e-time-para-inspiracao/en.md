@@ -40,67 +40,67 @@ I've put together a list with some examples of very beautiful team pages, some m
 
 ### 1\. [Side](https://www.lateral-inc.com/about.html)
 
-[![Side](/wp-content/uploads/2020/05/lateral.gif)](https://www.lateral-inc.com/about.html)
+[![Side](./2020-05-lateral.gif)](https://www.lateral-inc.com/about.html)
 
 [Side](https://www.lateral-inc.com/about.html) is a creative company, focused on design and development studio. Their team page was very well designed, they found a fun solution to accommodate a very large team, as you move the mouse people will follow with the direction of the head and when hovering over a person, their position in the company is displayed.
 
 ### two. [human](https://humaan.com/about/)
 
-![human](/wp-content/uploads/2020/05/humaan.gif)
+![human](./2020-05-humaan.gif)
 
 [human](https://humaan.com/about/) is a company focused on creating digital products. Your team page is very fun, bringing animated gifs of your collaborators and when hovering over a brief description appears.
 
 ## 3\. [Khan Academy](https://www.khanacademy.org/about/the-team)
 
-[![](/wp-content/uploads/2020/05/image-29-1024x525.jpg)](https://www.khanacademy.org/about/the-team)
+[![](./2020-05-image-29.jpg)](https://www.khanacademy.org/about/the-team)
 
 THE [Khan Academy](https://www.khanacademy.org/about/the-team) offers hands-on exercises, instructional videos and a personalized learning dashboard that enables students to study at their own pace, in and out of the classroom. Your team page has a somewhat simple but cheerful design, allowing you to search by person or position.
 
 ## 4\. [Electric Pulp](https://www.electricpulp.com/about/)
 
-![Electric Pulp](/wp-content/uploads/2020/05/image-28-1024x498.png)
+![Electric Pulp](./2020-05-image-28.png)
 
 [Electric Pulp](https://www.electricpulp.com/about/) is an agency focused on digital products, design and development. With a very creative page, it brings all its collaborators and when hovering the mouse it displays, in what I assume, a gif that the person most identifies with.
 
 ## 5\. [targetprocess](https://www.targetprocess.com/team/)
 
-[![targetprocess](/wp-content/uploads/2020/05/ezgif.com-optimize.gif)](https://www.targetprocess.com/team/)
+[![targetprocess](./2020-05-ezgif.com-optimize.gif)](https://www.targetprocess.com/team/)
 
 THE [targetprocess](https://www.targetprocess.com/team/) is a company focused on helping companies to implement and optimize the Agile methodology. They spent a lot of time on their team page, bringing an animated video featuring their contributors categorized by industry.
 
 ## 6\. [Wistia](https://wistia.com/about/yearbook)
 
-[![Wistia](/wp-content/uploads/2020/05/screenshot-wistia.com-2020.05.12-21_15_10-1024x498.jpg)](https://wistia.com/about/yearbook)
+[![Wistia](./2020-05-screenshot-wistia.com-2020.05.12-21_15_10.jpg)](https://wistia.com/about/yearbook)
 
 [Wisita](https://wistia.com/about/yearbook) is a company focused on the development of software, videos and educational content. Their team page has two very fun options, the first showing all their collaborators with their names and their titles, and when you hover the photo comes to life in the format of a gif, the other, they developed a kind of game where each collaborator is the sound of a drum.
 
 ## 7\. [FCINQ](https://www.fcinq.com/)
 
-[![FCINQ](/wp-content/uploads/2020/05/image-27-1024x525.jpg)](https://www.fcinq.com/)
+[![FCINQ](./2020-05-image-27.jpg)](https://www.fcinq.com/)
 
 [FCINQ](https://www.fcinq.com/) is a French creation studio, brought the combination of its visual identity with the presentation of its collaborators.
 
 ## 8\. [Advantix Digital](https://advantixdigital.com/about/)
 
-[![Advantix Digital](/wp-content/uploads/2020/05/image-25-1024x525.jpg)](https://advantixdigital.com/about/)
+[![Advantix Digital](./2020-05-image-25.jpg)](https://advantixdigital.com/about/)
 
 [Advantix Digital](https://advantixdigital.com/about/) is a digital agency that knew how to make good use of its resources, having its designers draw caricatures of each employee, a good option for companies that do not want to take pictures.
 
 ## 9\. [Brandand & Mortar](https://brandandmortar.com/who_we_are/)
 
-[![Brandand & Mortar](/wp-content/uploads/2020/05/screenshot-brandandmortar.com-2020.05.12-21_01_32-1024x525.png)](https://brandandmortar.com/who_we_are/)
+[![Brandand & Mortar](./2020-05-screenshot-brandandmortar.com-2020.05.12-21_01_32.png)](https://brandandmortar.com/who_we_are/)
 
 [Brandand & Mortar](https://brandandmortar.com/who_we_are/) is a specialist marketing company. Brought to your team page a semi-professional solution, with black and white images varying with a fun pose on mouseover.
 
 ## 10\. [Digital Silk](https://www.digitalsilk.com/about)
 
-[![Digital Silk](/wp-content/uploads/2020/05/image-24-1-1024x525.png)](https://www.digitalsilk.com/about)
+[![Digital Silk](./2020-05-image-24-1.png)](https://www.digitalsilk.com/about)
 
 [Digital Silk](https://www.digitalsilk.com/about) is a digital consultancy, and it brought all the sobriety that a consultancy normally gives to its team page.
 
 ## 11\. [Bleech](https://bleech.de/en/)
 
-[![Bleech](/wp-content/uploads/2020/05/screenshot-bleech.de-2020.05.12-20_49_10-1024x525.jpg)](https://bleech.de/en/)
+[![Bleech](./2020-05-screenshot-bleech.de-2020.05.12-20_49_10.jpg)](https://bleech.de/en/)
 
 [Bleech](https://bleech.de/en/) is a development company from Berlin. It mixed photos and graphics on its team page, bringing a fun look with a modern feel.
 

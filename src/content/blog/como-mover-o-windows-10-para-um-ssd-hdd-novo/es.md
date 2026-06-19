@@ -32,13 +32,13 @@ El proceso de migración puede tardar unos buenos minutos, por lo que para facil
 
 El primer paso es hacer una limpieza del disco, puede acceder a este programa escribiendo "Liberador de e**spacio en disco"** en el menú de inicio. Seleccione los archivos que desea eliminar y presione OK. Este paso puede tardar varios minutos dependiendo de la cantidad de archivos que se eliminarán.
 
-![Limpieza de disco](/wp-content/uploads/2020/09/image-1.png)
+![Limpieza de disco](./2020-09-image-1.png)
 
 ### 2.2. Desinstalar programas no utilizados
 
 Acceda al panel de control escribiendo **"Panel de control"** en su menú de inicio y busque la opción **"Desinstalar un program**a".
 
-![](/wp-content/uploads/2020/09/image-2-1-1024x560.jpg)
+![](./2020-09-image-2-1.jpg)
 
 En esta pantalla encontrarás todos los programas instalados en tu computadora, revisa la lista y desinstala los programas que ya no uses.
 
@@ -50,25 +50,25 @@ Navegue por sus carpetas, especialmente las carpetas *Documento*s, *Imágen*es *
 
 Windows 10 no ofrece una forma nativa y sencilla de clonar y cambiar su sistema operativo a un nuevo disco duro. Para eso necesitaremos descargar e instalar el programa [EaseU](https://www.easeus.com/backup-software/tb-free.html)S.
 
-![](/wp-content/uploads/2020/09/image-3-1024x650.png)
+![](./2020-09-image-3.png)
 
 ## 4\. Seleccione el disco de origen
 
 El primer paso es seleccionar el disco de origen, es decir, el disco en el que está instalado Windows 10. Recordando que el tamaño que ocupa el disco de origen debe ser menor o igual al tamaño disponible del nuevo disco. Haga clic en el menú lateral para ingresar a la herramienta de clonación y seleccione el disco completo que contiene la instalación de su sistema operativo, haga clic en siguiente.
 
-![Seleccione el disco de origen](/wp-content/uploads/2020/09/image-5.png)
+![Seleccione el disco de origen](./2020-09-image-5.png)
 
 ## 5\. Seleccione el disco de destino
 
 Ahora debemos seleccionar el disco de destino, el disco al que queremos mover la instalación de Windows 10.
 
-![Seleccione el disco de destino](/wp-content/uploads/2020/09/image-7.png)
+![Seleccione el disco de destino](./2020-09-image-7.png)
 
 ### 5.1. Migrando a SSD
 
 Si está migrando la instalación a un disco tipo SSD, se recomienda que haga clic en "Opciones avanzadas" y seleccione la opción "Optimizar para SSD".
 
-![Migrando a SSD](/wp-content/uploads/2020/09/image-9.png)
+![Migrando a SSD](./2020-09-image-9.png)
 
 Haga clic en siguiente e inicie el proceso de clonación del disco duro, recordando que esto eliminará todos los archivos del disco de destino. Este paso puede tardar unos minutos, todo dependerá de la velocidad de tu computadora y la cantidad de archivos a migrar al nuevo disco.
 

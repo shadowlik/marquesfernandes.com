@@ -61,4 +61,4 @@ Enter the root password and wait for the following response:*\[ ok \] Restarting
 
 Open Google Chrome browser, type **chrome://net-internals/#dns** in the navigation bar and press the button **clear host cache** :
 
-![](/wp-content/uploads/2019/07/image.png)
+![](./2019-07-image.png)

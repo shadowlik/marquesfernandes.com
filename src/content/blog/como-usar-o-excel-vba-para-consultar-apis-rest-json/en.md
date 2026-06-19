@@ -24,25 +24,25 @@ This article hopes you will know the basics of Excel and VBA, as well as [what i
 
 First let's create a blank sheet with macro enabled, inside it I'll create a tab called `results` .
 
-![Excel spreadsheet](/wp-content/uploads/2020/07/image-15.png)
+![Excel spreadsheet](./2020-07-image-15.png)
 
 ## Creating the macro to query the API
 
 by shortcut `alt + f11` let's open the Excel macro editor, and create a module called `list pokemons` .
 
-![Macro VBA](/wp-content/uploads/2020/07/image-16-1024x560.png)
+![Macro VBA](./2020-07-image-16.png)
 
 ### Importing the VBA-JSON library
 
 As the API we're going to query returns a [JSON](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/) as an answer we will need to import the library [VBA JSON](https://github.com/VBA-tools/VBA-JSON) , it will take care of all the boring work of translating the JSON and returning as an array and object. Installation is very simple, just [download the latest version here](https://github.com/VBA-tools/VBA-JSON/releases) and in the macro editor go to `File > Import File > JsonConverter.bas` .
 
-![Import VBA JSON](/wp-content/uploads/2020/07/importarjsonvba-1024x706.jpg)
+![Import VBA JSON](./2020-07-importarjsonvba.jpg)
 
 ### Enabling Microsoft Scripting Runtime
 
 We also need to enable Microsoft Scripting Runtime, to do this just browse `Tools > References` and search and enable in the list the `Microsoft Scripting Runtime` .
 
-![Excel API Rest Microsoft Scripting Runtime](/wp-content/uploads/2020/07/image-17-1024x560.png)
+![Excel API Rest Microsoft Scripting Runtime](./2020-07-image-17.png)
 
 ## Creating the VBA macro to query the REST API
 
@@ -217,7 +217,7 @@ next
 
 If everything goes as expected, by pressing `f5` to run our macro, in your spreadsheet you should see the following result:
 
-![Excel API Rest](/wp-content/uploads/2020/07/image-18-1024x560.jpg)
+![Excel API Rest](./2020-07-image-18.jpg)
 
 ## Conclusion
 

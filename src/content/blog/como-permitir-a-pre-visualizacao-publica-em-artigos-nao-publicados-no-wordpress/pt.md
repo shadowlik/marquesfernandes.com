@@ -26,7 +26,7 @@ Para toda a mágica acontecer precisamos instalar e ativar o plugin [Public Pos
 
 Após a ativação você precisa navegue e edite o post desejado e você notará que na aba *Documento* uma nova opção de "Ativar pré-visualização pública" apareceu, para ativar a funcionalidade basta clicar e ativar a caixa de seleção.
 
-![Como permitir a pré-visualização pública em artigos não publicados no Wordpress - Imagem 1](/wp-content/uploads/2019/12/image-1-1024x547.png)
+![Como permitir a pré-visualização pública em artigos não publicados no Wordpress - Imagem 1](./2019-12-image-1.png)
 
 Após ativar o compartilhamento, salve como rascunho qualquer alteração feita no artigo, copie o link gerado e compartilhe com a pessoa desejada.
 
@@ -36,6 +36,6 @@ Para desabilitar a pré-visualização pública basta voltar a edição do post 
 
 O link compartilhado renderiza uma pré-visualização exatamente igual a página quando o artigo for finalmente publicado.
 
-![Como permitir a pré-visualização pública em artigos não publicados no Wordpress - Imagem 2](/wp-content/uploads/2019/12/image-2-1024x527.jpg)
+![Como permitir a pré-visualização pública em artigos não publicados no Wordpress - Imagem 2](./2019-12-image-2.jpg)
 
 Após o lançamento do artigo a opção de pré-visualização pública não estará mais disponível no modo edição e a URL compartilhada criara um redirecionamento para o link permanente do artigo.

@@ -61,4 +61,4 @@ Introduzca la contraseña raíz y espere a que se responda a la siguie*\[ ok \]n
 
 Abre el navegador Google Chrome, escribe **chrome://net-internals/#dns** en la barra de navegación y pulsa el botón Bor**rar caché de hos**t:
 
-![](/wp-content/uploads/2019/07/image.png)
+![](./2019-07-image.png)

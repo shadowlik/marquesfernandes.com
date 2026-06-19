@@ -29,17 +29,17 @@ Descarga e instal[a PU](https://www.ssh.com/ssh/putty/#sec-PuTTY-downloads)TTY y
 
 Abra el program**a PUTTYg**en y haga clic en el botó*n Genera*r.
 
-![](/wp-content/uploads/2019/11/download.jpg)
+![](./2019-11-download.jpg)
 
 Aparecerá una barra de progreso pidiéndole que mueva el ratón para generar aleatoriedad. Mueva el ratón sobre el área gris del programa, espere a que la barra de progreso se rellene por completo y luego se generarán las claves.
 
-![](/wp-content/uploads/2019/11/download-1.jpg)
+![](./2019-11-download-1.jpg)
 
 Después de generar las claves, aparecerán nuevos campos justo debajo. En el camp**o Comentario c**lave, escriba el usuario deseado.
 
 Copie la clave pública y guarde la clave privada en un lugar seguro del equipo.
 
-![](/wp-content/uploads/2019/11/download-2.jpg)
+![](./2019-11-download-2.jpg)
 
 ## Adición de la clave pública a la instancia en Google Cloud
 
@@ -47,11 +47,11 @@ Inicie sesión en su cuenta de Google Cloud y vaya **a Compute Engine > Vm Insta
 
 Seleccione la instancia a la que desea acceder, haga clic en editar y vaya hacia abajo hasta que encuentre la sesión **de claves SS**H.
 
-![](/wp-content/uploads/2019/11/image-6.png)
+![](./2019-11-image-6.png)
 
 Pegue la clave pública que copió anteriormente en el campo **"Introducir todos los datos c**lave", para que vea el usuario que ha especificado al crear la clave izquierda.
 
-![](/wp-content/uploads/2019/11/image-7.png)
+![](./2019-11-image-7.png)
 
 Ahora actualice la instancia haciendo clic en **Guarda**r.
 
@@ -59,13 +59,13 @@ Ahora actualice la instancia haciendo clic en **Guarda**r.
 
 Abra F**ileZill**a y vaya a Ed**itar > Configuración**.
 
-![](/wp-content/uploads/2019/11/image-9.png)
+![](./2019-11-image-9.png)
 
 En el menú del lado izquierdo vaya a **Conexión > FTP > SFT**P.
 
 Haga clic **en Agregar archivo de c**lave y seleccione la clave privada que guardó.
 
-![](/wp-content/uploads/2019/11/image-8.png)
+![](./2019-11-image-8.png)
 
 Haga clic en **A**ceptar para guardar la configuración.
 

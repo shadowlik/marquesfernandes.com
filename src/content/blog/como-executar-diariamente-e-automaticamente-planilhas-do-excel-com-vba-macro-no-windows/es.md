@@ -87,13 +87,13 @@ Ahora necesitamos reemplazar alguna información:
 
 Vamos a guardar este archivo con la extensión **.vbs**: en el Bloc de notas en el momento de guardar en el tipo de campo de nombre de archivo algo así co**mo: excelautomatico.vbs** y en el tipo de archivo seleccione**: Todos los archivo**s. Un bien si todas las rutas son correctas y guardar este archivo en un lugar seguro donde nadie puede eliminar accidentalmente. ¡Anote la ruta del archivo guardado porque lo necesitaremos para más adelante!
 
-[![](/wp-content/uploads/2019/09/image.jpg)](/wp-content/uploads/2019/09/image.jpg)
+[![](./2019-09-image.jpg)](./2019-09-image.jpg)
 
 ## Creación de la programación con el Programador de tareas
 
 Para encontrar el programa sólo tiene que escribir en el menú de búsqueda inicia**r El Programador de tarea**s. 
 
-[![](/wp-content/uploads/2019/09/image-1.jpg)](/wp-content/uploads/2019/09/image-1.jpg)
+[![](./2019-09-image-1.jpg)](./2019-09-image-1.jpg)
 
 Para crear una nueva tarea simplemente haga clic en el botón en el lado derec**ho: Crear tarea...**
 

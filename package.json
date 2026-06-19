@@ -24,6 +24,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "migrate:extract": "tsx scripts/migrate/extract.ts",
+    "migrate:images": "tsx scripts/migrate/images.ts",
     "astro": "astro"
   },
   "dependencies": {

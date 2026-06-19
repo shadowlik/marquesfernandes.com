@@ -21,7 +21,7 @@ updated: 2021-12-12T11:24:33.000Z
 
 Comenzando con el amor de Internet, con casi 30 mil millones de uso semanal, esta fuente se consagró en Internet gracias a su amplia apertura y gran altura en letras minúsculas, proporcionando una agradable experiencia de lectura.
 
-![Open Sans Google Font](/wp-content/uploads/2019/02/image-4.png)
+![Open Sans Google Font](./2019-02-image-4.png)
 
 [https://fonts.google.com/specimen/Open+Sans](https://fonts.google.com/specimen/Open+Sans)
 
@@ -29,7 +29,7 @@ Comenzando con el amor de Internet, con casi 30 mil millones de uso semanal, est
 
 Inspirado en formas geométricas, está diseñado para pantallas grandes pero lo suficientemente legible en dispositivos más pequeños, excelente para títulos.
 
-![Quicksand Google Font](/wp-content/uploads/2019/02/image-3.png)
+![Quicksand Google Font](./2019-02-image-3.png)
 
 [https://fonts.google.com/specimen/Quicksand](https://fonts.google.com/specimen/Quicksand)
 
@@ -38,7 +38,7 @@ Inspirado en formas geométricas, está diseñado para pantallas grandes pero lo
 Esta fuente fue desarrollada p[or Goo](http://google.com)gle para su sistema operativo móvil, fue lanzado en Android 4.0 "Ice Cream Sandwich". Según su diseñador la fuente es "moderna pero accesible".  
   
 
-![Robot de fuente de Google](/wp-content/uploads/2019/02/image-2.png)
+![Robot de fuente de Google](./2019-02-image-2.png)
 
 [https://fonts.google.com/specimen/Roboto](https://fonts.google.com/specimen/Roboto)
 
@@ -46,7 +46,7 @@ Esta fuente fue desarrollada p[or Goo](http://google.com)gle para su sistema ope
 
 Su nombre proviene de origen polaco, que significa "verano". ¡Su diseño de borde semi-redondeado promueve una sensación de lectura ligera!
 
-![Lato Google Font](/wp-content/uploads/2019/02/image.png)
+![Lato Google Font](./2019-02-image.png)
 
 [https://fonts.google.com/specimen/Lato](https://fonts.google.com/specimen/Lato)
 
@@ -54,7 +54,7 @@ Su nombre proviene de origen polaco, que significa "verano". ¡Su diseño de bor
 
 Su nombre proviene de origen sudafricano, que significa "humanidad". Una fuente para aquellos que buscan un aspecto moderno y con un toque humano, un hecho curioso es que los sitios brasileños están entre los mejores usuarios de la fuente!
 
-![Ubuntu Google Font](/wp-content/uploads/2019/02/image-1.png)
+![Ubuntu Google Font](./2019-02-image-1.png)
 
 [https://fonts.google.com/specimen/Ubuntu](https://fonts.google.com/specimen/Ubuntu)
 
@@ -62,6 +62,6 @@ Su nombre proviene de origen sudafricano, que significa "humanidad". Una fuente 
 
 Antes de que comience la lapidación... ¡Haga clic en el enlace!
 
-![](/wp-content/uploads/2019/02/image-5.png)
+![](./2019-02-image-5.png)
 
 [http://www.comicsanscriminal.com/](http://www.comicsanscriminal.com/)

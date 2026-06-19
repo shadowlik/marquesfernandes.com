@@ -25,7 +25,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 ## [AdminLTE](https://adminlte.io/themes/AdminLTE/index2.html)
 
-![](/wp-content/uploads/2019/03/screenshot-adminlte.io-2019.03.07-13-22-06-1024x502.png)
+![](./2019-03-screenshot-adminlte.io-2019.03.07-13-22-06.png)
 
 [https://adminlte.io/themes/AdminLTE/index2.html](https://adminlte.io/themes/AdminLTE/index2.html)
 
@@ -33,7 +33,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 ## [Adminty](https://colorlib.com//polygon/adminty/default/index.html)
 
-![](/wp-content/uploads/2019/03/screenshot-colorlib.com-2019.03.07-13-36-19-1024x463.png)
+![](./2019-03-screenshot-colorlib.com-2019.03.07-13-36-19.png)
 
 [https://colorlib.com//polygon/adminty/default/index.html](https://colorlib.com//polygon/adminty/default/index.html)  
 
@@ -41,7 +41,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 ## [SB Admin](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
 
-![](/wp-content/uploads/2019/03/screenshot-blackrockdigital.github.io-2019.03.07-13-26-46-1024x463.png)
+![](./2019-03-screenshot-blackrockdigital.github.io-2019.03.07-13-26-46.png)
 
 [https://blackrockdigital.github.io/startbootstrap-sb-admin/](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
 
@@ -49,7 +49,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 ## [Light Bootstrap](https://demos.creative-tim.com/light-bootstrap-dashboard/)
 
-![](/wp-content/uploads/2019/03/screenshot-demos.creative-tim.com-2019.03.07-13-28-21-1024x458.png)
+![](./2019-03-screenshot-demos.creative-tim.com-2019.03.07-13-28-21.png)
 
 [https://demos.creative-tim.com/light-bootstrap-dashboard/](https://demos.creative-tim.com/light-bootstrap-dashboard/)  
 
@@ -57,7 +57,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 ## [Matrix Admin](https://wrappixel.com/templates/matrix-admin/)
 
-![](/wp-content/uploads/2019/03/screenshot-wrappixel.com-2019.03.07-13-30-43-1024x463.png)
+![](./2019-03-screenshot-wrappixel.com-2019.03.07-13-30-43.png)
 
 [https://wrappixel.com/templates/matrix-admin/](https://wrappixel.com/templates/matrix-admin/)
 
@@ -65,7 +65,7 @@ Você está construindo um painel de controle ou um sistema administrativo? Sepa
 
 ## [AdminBSB](https://gurayyarar.github.io/AdminBSBMaterialDesign/)
 
-![](/wp-content/uploads/2019/03/screenshot-gurayyarar.github.io-2019.03.07-13-37-16-1024x463.png)
+![](./2019-03-screenshot-gurayyarar.github.io-2019.03.07-13-37-16.png)
 
 [https://gurayyarar.github.io/AdminBSBMaterialDesign/](https://gurayyarar.github.io/AdminBSBMaterialDesign/)
 

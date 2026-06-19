@@ -25,7 +25,7 @@ In the past there was a certain prejudice with the use of the famous **[stock ph
 
 ## [1\. Freepik](https://br.freepik.com/)
 
-[![Freepik](/wp-content/uploads/2020/03/image-1024x501.png)](https://br.freepik.com/)
+[![Freepik](./2020-03-image.png)](https://br.freepik.com/)
 
 [Freepik](https://br.freepik.com/)
 
@@ -33,7 +33,7 @@ Freepik tops the list for its versatility, I use it a lot in everyday life both 
 
 ## [two. pexels](https://www.pexels.com/)
 
-[![pexels](/wp-content/uploads/2020/03/image-1-1024x501.png)](https://www.pexels.com/)
+[![pexels](./2020-03-image-1.png)](https://www.pexels.com/)
 
 [pexels](https://www.pexels.com/)
 
@@ -41,7 +41,7 @@ Pexels provides high quality and completely free photos, licensed under the Crea
 
 ## [3\. unsplash](http://unsplash.com/)
 
-[![unsplash](/wp-content/uploads/2020/03/image-2-1024x501.png)](http://unsplash.com/)
+[![unsplash](./2020-03-image-2.png)](http://unsplash.com/)
 
 [unsplash](http://unsplash.com/)
 
@@ -49,7 +49,7 @@ Unsplash offers a large collection of free high resolution photos and has become
 
 ## [4\. pixabay](https://pixabay.com/)
 
-[![pixabay](/wp-content/uploads/2020/03/image-3-1024x501.png)](https://pixabay.com/)
+[![pixabay](./2020-03-image-3.png)](https://pixabay.com/)
 
 [pixabay](https://pixabay.com/)
 
@@ -57,7 +57,7 @@ Pixabay offers a large collection of free photos, vectors and art illustrations.
 
 ## [5\. Seal](https://focastock.com/)
 
-[![Seal](/wp-content/uploads/2020/03/image-4-1024x501.png)](https://focastock.com/)
+[![Seal](./2020-03-image-4.png)](https://focastock.com/)
 
 [Seal](https://focastock.com/)
 
@@ -65,7 +65,7 @@ Foca is a collection of high resolution photos provided by Jeffrey Betts. Jeffre
 
 ## [6\. Picjumbo](http://picjumbo.com/)
 
-[![Picjumbo](/wp-content/uploads/2020/03/image-5-1024x501.png)](http://picjumbo.com/)
+[![Picjumbo](./2020-03-image-5.png)](http://picjumbo.com/)
 
 [Picjumbo](http://picjumbo.com/)
 
@@ -73,7 +73,7 @@ Picjumbo is a collection of totally free photos for your commercial and personal
 
 ## [7\. New Old Stock](http://nos.twnsnd.co/)
 
-[![New Old Stock](/wp-content/uploads/2020/03/image-6-1024x501.jpg)](http://nos.twnsnd.co/)
+[![New Old Stock](./2020-03-image-6.jpg)](http://nos.twnsnd.co/)
 
 [New Old Stock](http://nos.twnsnd.co/)
 
@@ -81,7 +81,7 @@ If you're looking for that old photo for an article or even that work of yours a
 
 ## [8\. ISO Republic](https://isorepublic.com/)
 
-![ISO Republic](/wp-content/uploads/2020/03/image-6-1024x501.png)
+![ISO Republic](./2020-03-image-6.png)
 
 [ISO Republic](https://isorepublic.com/)
 

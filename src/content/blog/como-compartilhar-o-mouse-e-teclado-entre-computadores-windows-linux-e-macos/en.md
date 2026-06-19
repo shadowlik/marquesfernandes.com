@@ -43,11 +43,11 @@ The first computer that we are going to configure should be the one that we want
 
 Download the latest version of `.exe` of the Barrier in [github.com/debauchee/barrier/releases](https://github.com/debauchee/barrier/releases) , and double-click the downloaded file. Windows will likely display a message similar to this:
 
-![Installing the Barrier](/wp-content/uploads/2020/07/barrier-1.jpg)
+![Installing the Barrier](./2020-07-barrier-1.jpg)
 
 click in *More information* and *run anyway* , then just accept the terms and conditions and proceed by clicking on *next* to complete the installation.
 
-![Setting up the primary](/wp-content/uploads/2020/07/image-33.png)
+![Setting up the primary](./2020-07-image-33.png)
 
 Now find your Barrier shortcut on your computer and run the program. Select the first option *"Server"* to set up as the main computer. Write down the IP of your computer within your network, we will use it to configure the secondary computer, in our case it is the IP next to the number in bold, we will use the *192.168.0.43* .
 
@@ -62,17 +62,17 @@ $ sudo apt-get install -y barrier
 
 Now open the application and follow the installation process. When done, open the program, select the mode *"Client"* and deselect the *"Auto config".* In the field *server IP* add the IP number copied from the previous step. Also note the *screen name* , we will use it to set the screen position on our main computer.
 
-![Barrier Configuring Secondary](/wp-content/uploads/2020/07/image-35.jpg)
+![Barrier Configuring Secondary](./2020-07-image-35.jpg)
 
 ## Setting Screen Position
 
 Now that we have the program running on both computers, we need to configure and authorize on the main computer the position of the secondary computer we want to control. Open the program again and click the button *configure server* , make sure Barrier is not running, otherwise you won't be able to edit the settings.
 
-![Barrier Added Computer](/wp-content/uploads/2020/07/image-36.jpg)
+![Barrier Added Computer](./2020-07-image-36.jpg)
 
 Click on the computer to add a new secondary computer. add in *screen name* the name we wrote down in the previous step and click OK.
 
-![Barrier Secondary Configuration](/wp-content/uploads/2020/07/image-38.png)
+![Barrier Secondary Configuration](./2020-07-image-38.png)
 
 In this case we set the position of our secondary computer to the left of our primary computer, it means that when we drag the mouse to the extreme left of the main computer, it will change control to the secondary computer. Let's test our configuration, click on *Start* on the primary computer and on *To apply* on secondary, if everything goes as expected, you should be able to control both computers from a single mouse and keyboard. You can even add a third computer, for example an Apple computer with MacOS, to configure it just follow the same steps and choose its position relative to your primary computer.
 

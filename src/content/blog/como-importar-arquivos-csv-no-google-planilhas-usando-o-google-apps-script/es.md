@@ -31,11 +31,11 @@ Encontrará todo*s los scripts de este tutorial en la [hoja de cálculo de](http
 
 Para acceder a los scripts de Google Apps, cree una hoja de cálculo en blanco o cop[ie la hoja de ejemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing); Haga clic e*n Herramientas > Editor de script*s:
 
-![Hojas de cálculo de Google](/wp-content/uploads/2020/01/image-1024x509.png)
+![Hojas de cálculo de Google](./2020-01-image.png)
 
 Se abrirá una nueva pestaña con el editor de texto de Google Apps Script:
 
-![Editor de texto de google Apps Script](/wp-content/uploads/2020/01/image-5-1024x521.png)
+![Editor de texto de google Apps Script](./2020-01-image-5.png)
 
 ## Creación de scripts
 
@@ -45,15 +45,15 @@ Podemos importar fácilmente archivos CSV en Hojas de cálculo de Google utiliza
 
 Para todos los ejemplos siguientes, al ejecutar los scripts necesitamos autorizar a Google Apps Scripts a acceder a algunas funciones de las API de Google.
 
-![Autorización de scripts de Google Apps - 1](/wp-content/uploads/2020/01/image-2.png)
+![Autorización de scripts de Google Apps - 1](./2020-01-image-2.png)
 
 Probablemente, debido a que su script aún no está homologado, aparecerá la siguiente pantalla:
 
-![Autorización de scripts de Google Apps - 2](/wp-content/uploads/2020/01/image-3.png)
+![Autorización de scripts de Google Apps - 2](./2020-01-image-3.png)
 
 Haga clic *en Mostrar pro*yec*to de acceso av*anzado y continúe autorizando:
 
-![Autorización de scripts de Google Apps - 3](/wp-content/uploads/2020/01/image-4.png)
+![Autorización de scripts de Google Apps - 3](./2020-01-image-4.png)
 
 ### Importación del archivo CSV desde un archivo adjunto de correo electrónico en Gmail
 

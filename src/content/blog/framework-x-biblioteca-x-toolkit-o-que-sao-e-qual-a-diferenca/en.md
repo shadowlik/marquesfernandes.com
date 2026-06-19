@@ -36,7 +36,7 @@ The most important difference, and indeed the defining difference between a libr
 
 Okay, but what does this mean? Well, that means when you call a library, you're in the control, but in a Framework, the control is flipped: The Framework calls you. *Also called the Hollywood Principle: Don't Call Us, We'll Call You.* I drew a sketch to try to better illustrate this difference:
 
-![Framework x Library x Toolkit - What are they and what's the difference?](/wp-content/uploads/2020/03/frameworkvsbibliotecavstoolkit.jpg)
+![Framework x Library x Toolkit - What are they and what's the difference?](./2020-03-frameworkvsbibliotecavstoolkit.jpg)
 
 So we can conclude that basically, all the control flow is already in the Framework and there are just some predefined blank "screens" that you can fill with your code and with your project's business rule, already a library, on the other hand, it's "just" a collection of functionality that you can call.
 

@@ -26,7 +26,7 @@ Enter your WordPress admin panel and change to the desired format, in this artic
 
 `/%postname%/`
 
-![Setting up permanent links in Wordpress](/wp-content/uploads/2020/02/image-7-1024x501.png)
+![Setting up permanent links in Wordpress](./2020-02-image-7.png)
 
 ## Redirecting old links using mod\_rewrite in .htaccess
 

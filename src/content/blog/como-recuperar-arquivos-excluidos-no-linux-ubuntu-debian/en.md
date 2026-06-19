@@ -36,7 +36,7 @@ If you are in EFI mode and/or the partition your deleted file was on is **ext3**
 
 If you are not sure what the partition type is, use the command `df -Th` to list all partitions and their disk drive types:
 
-![Screenshot 1](/wp-content/uploads/2020/01/image-31.png)
+![Screenshot 1](./2020-01-image-31.png)
 
 df -Th
 
@@ -44,7 +44,7 @@ df -Th
 
 I'll explain our example: I have a pendrive with three files, and I accidentally deleted it with the command `rm curriculum.txt` my precious resume, I spent hours writing, oh heavens! When we delete it from the command line, our file doesn't automatically go to the trash, so it looks like it's gone for good.
 
-![Screenshot 2](/wp-content/uploads/2020/01/image-20.png)
+![Screenshot 2](./2020-01-image-20.png)
 
 Our example scenario
 
@@ -62,7 +62,7 @@ Now run TestDisk on the terminal with the command:
 
 `sudo testdisk`
 
-![Screenshot 3](/wp-content/uploads/2020/01/image-12.png)
+![Screenshot 3](./2020-01-image-12.png)
 
 ### 1.3 - Creating a log file
 
@@ -72,25 +72,25 @@ You are probably using a higher version of 7.0, so many of the recommended comma
 
 ### 1.4 - Selecting your disk
 
-![Screenshot 4](/wp-content/uploads/2020/01/image-21.png)
+![Screenshot 4](./2020-01-image-21.png)
 
 In this step you will see a listing of your disks. Select the partition where your file was, if you don't know which one it is, continue following the tool's recommendations, in my case it's Kingston's pendrive disk. *Do not forget to select the option in the navigation menu* `proceeded` .
 
 ### 1.5 - Selecting the partition type
 
-![Screenshot 5](/wp-content/uploads/2020/01/image-23.png)
+![Screenshot 5](./2020-01-image-23.png)
 
 Now let's follow the same advice as in step **4** and trust TestDisk's suggestion.
 
 ### 1.6 - Selecting the utility
 
-![Screenshot 6](/wp-content/uploads/2020/01/image-24.png)
+![Screenshot 6](./2020-01-image-24.png)
 
 At this stage we will need to analyze it a little better. In case you haven't noticed, this tool is not just for recovering deleted files, but a powerful disk utility. But if you take a hard look at the description of the options, you'll see that what we want to do is in `Advanced` .
 
 ### 1.7 - Selecting the partition
 
-![Screenshot 7](/wp-content/uploads/2020/01/image-26.png)
+![Screenshot 7](./2020-01-image-26.png)
 
 Now we need to select the partition where our file is located, probably the correct partition will be the partition with the highest number of sectors. From the navigation menu select `Undelete` .
 
@@ -98,13 +98,13 @@ Now we need to select the partition where our file is located, probably the corr
 
 We found our file folder, and look who's there in red! Our deleted file lives!
 
-![Screenshot 8](/wp-content/uploads/2020/01/image-29.png)
+![Screenshot 8](./2020-01-image-29.png)
 
 Don't mind the difference in the prints, I had to redo the steps and ended up needing to delete the previous TestDrive log file
 
 ### 1.9 - Recovering the deleted file
 
-![Screenshot 9](/wp-content/uploads/2020/01/image-30.png)
+![Screenshot 9](./2020-01-image-30.png)
 
 Now to recover our files we need to select our file and press " **ç** ". Then you will need to choose which directory you want to recover the file to and if everything works out a message like the following should appear: "Copy done! 1 ok, 0 failed".
 
@@ -118,23 +118,23 @@ The process may take a little longer depending on the amount of deleted files yo
 
 Let's say I deleted a file called **curriculum.doc** .
 
-![Screenshot 10](/wp-content/uploads/2020/01/image-32.png)
+![Screenshot 10](./2020-01-image-32.png)
 
 ### 2.1 - Running Photorec
 
-![Screenshot 11](/wp-content/uploads/2020/01/image-33-1024x576.png)
+![Screenshot 11](./2020-01-image-33.png)
 
 run the command `sudo photorec` on your terminal to start the recovery program.
 
 ### 2.2 - Selecting file types
 
-![Screenshot 12](/wp-content/uploads/2020/01/image-35-1024x576.png)
+![Screenshot 12](./2020-01-image-35.png)
 
 Select the type of files we want to recover, the more specific it is, the less time it will take to recover our file. click the button **"s"** to deselect all options and look for the extension of your file, in our case **.doc** . Once you have selected all the extensions you want, click **"B"** to save the new configuration and then click enter on the quit option to return to the main menu.
 
 ### 2.3 - Selecting the partition
 
-![Screenshot 13](/wp-content/uploads/2020/01/image-36-1024x576.png)
+![Screenshot 13](./2020-01-image-36.png)
 
 Select the partition, and with Search selected press enter.
 
@@ -142,19 +142,19 @@ In this step, we need to select the type of our partition, select it according t
 
 ### 2.4 - Selecting the search mode
 
-![Screenshot 14](/wp-content/uploads/2020/01/image-37-1024x576.png)
+![Screenshot 14](./2020-01-image-37.png)
 
 Select the free option for a faster search only in deallocated memory spaces, or if you prefer, search the entire partition.
 
 ### 2.5 - Selecting the destination folder
 
-![Screenshot 15](/wp-content/uploads/2020/01/image-39-1024x576.png)
+![Screenshot 15](./2020-01-image-39.png)
 
 Now we need to select which folder we want our recovered files to be sent to, I recommend that you create a folder on a different disk than the one you are trying to recover. I created a folder called Recovery on the main drive to upload the recovered files. Navigate until you find the desired destination and then press the "c" key to start the recovery.
 
 ### 2.6 - Performing file recovery
 
-![Screenshot 16](/wp-content/uploads/2020/01/image-40-1024x576.png)
+![Screenshot 16](./2020-01-image-40.png)
 
 Photoreco's search process tends to take longer than TestDrive's because it scans the entire partition looking for all deleted files with the extensions we've selected to search for, you can follow the process and check in real time if any files have already been retrieved to the folder selected in the last step.
 

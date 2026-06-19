@@ -53,12 +53,12 @@ Ahora, si estás en Windows, la forma menos complicada de crear el archivo **.t*
 1.  Seleccione todos los archivos y carpetas que desee en su archivo **.tar**
 2.  Haga clic en el primer icono de la barra superior "Añadir"
 
-![7zip](/wp-content/uploads/2019/12/image-3.jpg)
+![7zip](./2019-12-image-3.jpg)
 
 3.  En "Formato de archivo comprimido" seleccione **tar**
 4.  Haga clic en Aceptar
 
-![7zip](/wp-content/uploads/2019/12/image-4.jpg)
+![7zip](./2019-12-image-4.jpg)
 
 En Windows 7-Zip no le permite realizar la generación y com**pre**sión de archivos ta**r co**n gzip en un paso, por lo que necesitamos un paso adicional.
 
@@ -66,4 +66,4 @@ En Windows 7-Zip no le permite realizar la generación y com**pre**sión de arch
 5.  En "Formato de archivo comprimido" seleccione **gzip**
 6.  Haga clic en Aceptar
 
-![7zip](/wp-content/uploads/2019/12/image-5.jpg)
+![7zip](./2019-12-image-5.jpg)

@@ -21,7 +21,7 @@ El desarrollo de back-end es el desarrollo del lado del servidor. Es el términ
 
 Para comprender mejor el concepto de backend, necesitamos analizar el otro extremo de un sistema web, el [fronten](http://marquesfernandes.com/tecnologia/o-que-e-um-desenvolvedor-frontend-e-o-que-ele-faz/)d.
 
-![Flujo web simple](/wp-content/uploads/2020/08/Servidor-e1597608701874-1024x379.jpg)
+![Flujo web simple](./2020-08-Servidor-e1597608701874.jpg)
 
 Flujo web simple
 
@@ -35,25 +35,25 @@ Hay casos de de[sarrolladores full-stack,](http://marquesfernandes.com/tecnologi
 
 Hay varios lenguajes de programación específicos del backend, y constantemente se crean nuevos lenguajes y se lanzan nuevas versiones. Es un sector muy dinámico que requiere una actualización constante. Dentro de los principales idiomas podemos mencionar:
 
-![NodeJS](/wp-content/uploads/2020/08/1_mp91A9RzagntGGjBnwu4Yw-1024x576.jpg)
+![NodeJS](./2020-08-1_mp91A9RzagntGGjBnwu4Yw.jpg)
 
 ### [NodeJS](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/)
 
 El entorno [**de**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/) nodo tiene todo lo necesario para ejecutar scripts javascript, donde hasta entonces \* solo era posible en navegadores. Le permite usar javascript como lenguaje de backend y usa el m*otor javascript V8* desarrollado por Google para Chrome.
 
-![Pitón](/wp-content/uploads/2020/08/kwi4bvgzths31-1-1024x576.jpg)
+![Pitón](./2020-08-kwi4bvgzths31-1.jpg)
 
 ### [Pitón](http://marquesfernandes.com/desenvolvimento/o-que-e-python-e-pra-que-serve/)
 
 [Python](http://marquesfernandes.com/desenvolvimento/o-que-e-python-e-pra-que-serve/) es un lenguaje de programación interpretado de propósito general, muy popular y que se puede utilizar para desarrollar una amplia variedad de aplicaciones. Tiene estructuras de datos de alto nivel, módulos, excepciones, tipificación dinámica, enlaces dinámicos y muchos recursos.
 
-![PHP](/wp-content/uploads/2020/08/learn-php.jpg)
+![PHP](./2020-08-learn-php.jpg)
 
 ### [PHP](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/)
 
 **[PHP](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/)** (acrónimo recursivo de “PHP: *p**r**epro**c**esador de hipertexto”)* es un lenguaje de código abierto interpretado, utilizado principalmente en el desarrollo del lado del servidor (backend) de aplicaciones web.
 
-![Java](/wp-content/uploads/2020/08/banner-java.jpg)
+![Java](./2020-08-banner-java.jpg)
 
 ### [Java](https://rockcontent.com/br/blog/o-que-e-java/)
 

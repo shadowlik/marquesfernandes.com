@@ -24,7 +24,7 @@ WSL is a feature available in Windows 10 upon enablement, it's been around since
 
 WSL allows you to install many popular Linux distributions on your machine, it creates an isolated file structure independent of the main system but it also allows you to access files from your Windows installation.
 
-![Windows Store - Linux](/wp-content/uploads/2020/06/image-10-1-1024x560.jpg)
+![Windows Store - Linux](./2020-06-image-10-1.jpg)
 
 Microsoft's documentation is very didactic and teaches you how to enable and configure WSL on your machine, [check here](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) .
 
@@ -52,27 +52,27 @@ So if you're in a folder that looks like `/mnt/c/` , you're accessing the files 
 
 To configure your VS Code to support WSL, just install the extension **[Remote WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)** , developed by Microsfot itself, it makes all the magic happen. It allows you to open files directly from the Linux system, and it already integrates your terminal with the Linux terminal.
 
-![Remote - WSL](/wp-content/uploads/2020/06/image-5-1024x560.jpg)
+![Remote - WSL](./2020-06-image-5.jpg)
 
 Remote - WSL
 
 Once installed and configured, you will need to install the VS Code extensions into the subsystem. Don't worry, it's quite easy, the Remote - WSL extension already enables an option to reinstall your extensions:
 
-![Install VS Code extension into WSL](/wp-content/uploads/2020/06/image-10-1024x560.jpg)
+![Install VS Code extension into WSL](./2020-06-image-10.jpg)
 
 ### Docker and WSL 2
 
 Configuring Docker to use the WSL engine is very simple too, just go to its settings and find the option to enable its use.
 
-![Docker WSL 2](/wp-content/uploads/2020/06/image-6-1024x560.jpg)
+![Docker WSL 2](./2020-06-image-6.jpg)
 
 Once enabled, you will need to enable integration with the installed distro:
 
-![Docker WSL 2](/wp-content/uploads/2020/06/image-7-1024x560.jpg)
+![Docker WSL 2](./2020-06-image-7.jpg)
 
 If everything goes as expected, you can now use Docker directly from your command line in WSL:
 
-![VS Code, Docker and WSL 2](/wp-content/uploads/2020/06/image-9-1024x560.jpg)
+![VS Code, Docker and WSL 2](./2020-06-image-9.jpg)
 
 ### Optimizing WSL 2
 

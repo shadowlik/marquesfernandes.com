@@ -21,7 +21,7 @@ Esa es una pregunta que a menudo recibo de personas que están empezando o pensa
 
 Durante mi búsqueda de otras fuentes y opiniones, me encontré con un diagrama de flujo muy interesante que ayuda a decidir qué idioma elegir. Tiene puntos de partida y preguntas basadas exactamente en cuestiones personales, que pueden interferir con su decisión. Desafortunadamente está en inglés, voy a tratar de traducir al portugués pronto.
 
-[![](/wp-content/uploads/2020/07/which-programming-language-should-i-learn-first-infographic-927x1024.png)](/wp-content/uploads/2020/07/which-programming-language-should-i-learn-first-infographic.png)
+[![](./2020-07-which-programming-language-should-i-learn-first-infographic.png)](./2020-07-which-programming-language-should-i-learn-first-infographic.png)
 
 Créditos: [carlcheo](http://carlcheo.com/startcoding)
 
@@ -31,7 +31,7 @@ Bueno, no más estancamiento, vamos a la lista de lenguajes de programación que
 
 ### 1\. [Javascript](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/), [HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/) y [CSS](http://marquesfernandes.com/o-que-e-css-e-para-que-serve/)
 
-[![Javascript](/wp-content/uploads/2020/07/image-15.jpg)](https://www.javascript.com/)
+[![Javascript](./2020-07-image-15.jpg)](https://www.javascript.com/)
 
 -   *Popularidad (PYPL): **#3***
 -   *Popularidad (SO): **#1***
@@ -46,7 +46,7 @@ http://marquesfernandes.com/como-e-onde-aprender-a-programar-javascript-cursos-e
 
 ### 2\. [Python](https://www.python.org/)
 
-[![Python](/wp-content/uploads/2020/07/image-14.jpg)](https://www.python.org/)
+[![Python](./2020-07-image-14.jpg)](https://www.python.org/)
 
 -   *Popularidad (PYPL): **#**1*
 -   *Popularidad (SO): **#**4*
@@ -63,7 +63,7 @@ Tiene mucho mercado laboral, y con la creciente demanda de científicos de datos
 
 ### 3\. [Java](https://www.java.com/en/download/)
 
-[![Java](/wp-content/uploads/2020/07/image-15-2-1024x494.jpg)](https://www.java.com/en/download/)
+[![Java](./2020-07-image-15-2.jpg)](https://www.java.com/en/download/)
 
 -   *Popularidad (PYPL): **#**2*
 -   *Popularidad (SO): **#**5*
@@ -76,7 +76,7 @@ En Brasil hay una demanda descabellada para los desarrolladores de Java, las emp
 
 ### 4\. [Php](http://marquesfernandes.com/o-que-e-php-e-para-que-serve/)
 
-[![Php](/wp-content/uploads/2020/07/image-15-1-1024x494.jpg)](https://www.php.net/)
+[![Php](./2020-07-image-15-1.jpg)](https://www.php.net/)
 
 -   *Popularidad (PYPL): **#**6*
 -   *Popularidad (SO): **#**8*
@@ -91,7 +91,7 @@ http://marquesfernandes.com/como-e-onde-aprender-a-programar-php-cursos-e-tutori
 
 ### 5\. [veloz](https://swift.org/)
 
-[![veloz](/wp-content/uploads/2020/07/image-15-3-1024x494.jpg)](https://swift.org/)
+[![veloz](./2020-07-image-15-3.jpg)](https://swift.org/)
 
 -   *Popularidad (PYPL): **#**9*
 -   *Popularidad (SO): **#**16*

@@ -58,19 +58,19 @@ Em resumo, o Linux é descendente do Unix, a sua base foi projetada para se comp
 
 Existem duas maneiras de acessar seu terminal no Ubuntu: Digitando *Terminal* no campo de busca de aplicativos ou pelo atalho de teclado `ctrl + alt + t`.
 
-![Busca de Aplicativos](/wp-content/uploads/2020/03/image-17.jpg)
+![Busca de Aplicativos](./2020-03-image-17.jpg)
 
 Busca de Aplicativos
 
 Uma janela parecida com a abaixo aparecerá:
 
-![Linha de Comando - Terminal](/wp-content/uploads/2020/03/image-18.jpg)
+![Linha de Comando - Terminal](./2020-03-image-18.jpg)
 
 Linha de Comando - Terminal
 
 Vamos começar com alguns conceitos básicos do terminal, primeiro precisamos entender o que significa os textos que já aparecem na tela.
 
-![Entendendo o Terminal](/wp-content/uploads/2020/03/image-19.png)
+![Entendendo o Terminal](./2020-03-image-19.png)
 
 Entendendo o Terminal
 
@@ -85,7 +85,7 @@ usuario@computador:local$
 
 Vamos agora experimentar o nosso primeiro comando, o `pwd`, do inglês  '**p**rint **w**orking **d**irectory', ele exibirá o caminho completo para qual pasta estamos referenciado ao executar os comandos, digite o comando em seu terminal e pressione *enter*.
 
-![Usando o comando pwd](/wp-content/uploads/2020/03/image-20.png)
+![Usando o comando pwd](./2020-03-image-20.png)
 
 Usando o comando pwd
 
@@ -99,25 +99,25 @@ Diferente do Windows, onde convencionalmente a raiz de todos os programas fica l
 
 Agora vamos navegar para a raiz de nosso computador e voltar para a nossa pasta raiz do usuário, para isso usaremos o comando **cd**, do inglês '**c**hange **d**irectory', para mudar de basta. Digite o comando `cd /` e pressione enter.
 
-![Usando o comando cd](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.26-11_01_43.png)
+![Usando o comando cd](./2020-03-screenshot-nimbus-capture-2020.03.26-11_01_43.png)
 
 Usando o comando cd
 
 Podemos observar que conseguimos navegar para **/**, note que na última linha já podemos ver o **/** depois dos dois pontos. Agora vamos listar todas as pastas que temos nesse diretório com o comando `ls`. Digite ls e pressione enter.
 
-![Usando o comando ls](/wp-content/uploads/2020/03/image-21.jpg)
+![Usando o comando ls](./2020-03-image-21.jpg)
 
 Usando o comando ls
 
 A convenção de pastas pode variar por distribuição linux, estamos interessados na pasta `/home`, queremos navegar até ela, para isso vamos repetir os passos anteriores, agora executando o comando `cd home` e em seguida `ls` para listar o conteúdo da pasta.
 
-![Navegando para a pasta raíz ](/wp-content/uploads/2020/03/image-22.jpg)
+![Navegando para a pasta raíz ](./2020-03-image-22.jpg)
 
 Navegando para a pasta raíz
 
 Aqui notamos que existe apenas uma pasta dentro da pasta /home, isso porque existe apenas um usuário criado em meu computador, se você tiver mais de um usuário, as pastas raízes deles estarão ai. Repita novamente a sequência de comandos, `cd shadowlik` (no caso o nome da pasta de seu usuário) e `ls`.
 
-![Navegando para a pasta do usuário](/wp-content/uploads/2020/03/image-23.jpg)
+![Navegando para a pasta do usuário](./2020-03-image-23.jpg)
 
 Navegando para a pasta do usuário
 
@@ -133,7 +133,7 @@ Antes de seguir vamos aprender a limpar nosso terminal, como já executamos algu
 
 Agora vamos aprender como criar uma pasta em nossa home (~), para isso usaremos o comando `mkdir`, do inglês '**m**a**k**e **dir**ectory (criar pasta)', vamos criar uma pasta chamada Tutorial, digite `mkdir Tutorial` e na sequência use o comando ls para validar se nosso diretório foi criado.
 
-![Criando a pasta Tutorial](/wp-content/uploads/2020/03/image-24.jpg)
+![Criando a pasta Tutorial](./2020-03-image-24.jpg)
 
 Criando a pasta Tutorial
 
@@ -143,13 +143,13 @@ Agora vamos criar um arquivo de texto simples, vamos aprender dois modos de faze
 
 Com o comando touch podemos criar um arquivo de texto vazio, para isso digite `touch texto.txt` e `ls` para verificar a criação.
 
-![Criando um arquivo com o comando Touch](/wp-content/uploads/2020/03/image-25.png)
+![Criando um arquivo com o comando Touch](./2020-03-image-25.png)
 
 Criando um arquivo com o comando Touch
 
 Agora usaremos o comando echo para criar um arquivo de texto com conteúdo, para isso digite `echo "Olá mundo!" > texto2.txt`. Para validar o conteúdo desse arquivo usaremos o comando `cat`, ele retornará para nós todo o conteúdo dentro do arquivo, digite `cat texto2.txt`.
 
-![Criando um arquivo com o comando echo](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.26-11_25_40.jpg)
+![Criando um arquivo com o comando echo](./2020-03-screenshot-nimbus-capture-2020.03.26-11_25_40.jpg)
 
 Criando um arquivo com o comando echo
 
@@ -157,7 +157,7 @@ Criando um arquivo com o comando echo
 
 No Linux não existe uma maneira de renomear arquivos, não entrarei em detalhes técnicos do porque, o que podemos fazer é mover esse arquivo com um novo nome e conseguiremos o comportamento semelhante desejado. Para isso usaremos o comando `mv`, do inglês '**m**o**v**e', digite `mv texto2.txt olamundo.txt` e use o comando `cat olamundo.txt` pra validar a execução.
 
-![Movendo arquivos](/wp-content/uploads/2020/03/image-26.jpg)
+![Movendo arquivos](./2020-03-image-26.jpg)
 
 Movendo arquivos
 
@@ -167,13 +167,13 @@ O primeiro argumento é a localização do arquivo e o segundo a localização f
 
 Agora que já aprendemos a criar pastas e arquivos, vamos aprender a deletar-los. Para deletar pastas vazias você pode usar o comando `rmdir`, do inglês '**r**e**m**ove **d**irectory', mas esse comando só é possível se a pasta estiver vazia. Já para remover arquivos e pastas com conteúdo, usamos o comando `rm`, para deletar arquivos é muito simples, use o comando `rm olamundo.txt` e `ls` para validar a execução.
 
-![Removendo arquivos](/wp-content/uploads/2020/03/image-27.jpg)
+![Removendo arquivos](./2020-03-image-27.jpg)
 
 Removendo arquivos
 
 Agora vamos voltar para a nossa pasta raiz do usuário para remover a pasta Tutorial que criamos anteriormente, para isso digite `cd ..` para voltar uma pasta, e use o comando `rm -r` Tutorial, esse comando indica que queremos remover, forçadamente e recursivamente (-r), a pasta e qualquer conteúdo dentro.
 
-![Removendo pastas](/wp-content/uploads/2020/03/image-28.jpg)
+![Removendo pastas](./2020-03-image-28.jpg)
 
 Removendo pastas
 
@@ -187,7 +187,7 @@ Até agora executamos um comando por vez, mas é possível encadear uma sequênc
 
 cd ~ && mkdir Textos && echo "Ola mundo" > Textos/mundo.txt && cat Textos/mundo.txt
 
-![Executando comandos encadeado!](/wp-content/uploads/2020/03/image-29.png)
+![Executando comandos encadeado!](./2020-03-image-29.png)
 
 Executando comandos encadeados
 
@@ -201,7 +201,7 @@ Podemos usar qualquer comando com privilégios de root, pra isso precisamos apen
 
 Vamos fazer um teste para ver como as permissões funcionam na prática, vamos tentar criar um comando na raiz do nosso sistema, que por padrão requer privilégios root para qualquer operação de escrita, o resultado esperado é um erro de privilégio.
 
-![Executando comandos sem privilégios](/wp-content/uploads/2020/03/image-34.png)
+![Executando comandos sem privilégios](./2020-03-image-34.png)
 
 Executando comandos sem privilégios
 
@@ -209,19 +209,19 @@ Executando comandos sem privilégios
 
 A instalação de qualquer aplicação pelo gerenciador de pacotes do Ubuntu requer privilégios root, usaremos esse comando como exemplo. Vamos instalar um programinha simples, semelhante ao gerenciador de tarefas do Windows, o *htop*. Digite o comando `sudo apt-get install htop` e pressione enter, a senha será necessária.
 
-![Instalando aplicação htop](/wp-content/uploads/2020/03/image-30.png)
+![Instalando aplicação htop](./2020-03-image-30.png)
 
 Instalando aplicação htop
 
 Por segurança no linux, quando você digite sua senha, nada aparece, nem mesmo os \*\*\*\*\*\*, por isso é importante que você digite sua senha com calma e pressione enter. Três tentativas erradas cancelarão o seu comando.
 
-![Instalando aplicação htop - parte 2](/wp-content/uploads/2020/03/image-32.jpg)
+![Instalando aplicação htop - parte 2](./2020-03-image-32.jpg)
 
 Instalando aplicação htop - parte 2
 
 Se tudo ocorrer conforme o esperado, teremos instalado com sucesso o programa *htop*, agora você pode abrir o gerenciador de tarefas do linux, ver recursos como memória, processamento e serviços abertos com um simples comando, digite `htop` e pressione enter.
 
-![Usando a aplicação htop](/wp-content/uploads/2020/03/image-33.jpg)
+![Usando a aplicação htop](./2020-03-image-33.jpg)
 
 Usando a aplicação htop
 

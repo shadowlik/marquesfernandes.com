@@ -29,7 +29,7 @@ Thanks to some online tools the process of scanning a domain is very easy, in ju
 
 ### 1\. [DNSdumpster](https://dnsdumpster.com/)
 
-[![DNSdumpster](/wp-content/uploads/2020/06/image-1024x521.png)](https://dnsdumpster.com/)
+[![DNSdumpster](./2020-06-image.png)](https://dnsdumpster.com/)
 
 [DNSdumpster](https://dnsdumpster.com/)
 
@@ -39,7 +39,7 @@ Not just subdomain, but it provides information about DNS server, MX record, TXT
 
 ## two. **[NMMAPPER](https://www.nmmapper.com/sys/tools/subdomainfinder/)**
 
-[![NMMAPPER](/wp-content/uploads/2020/06/image-1-1024x521.png)](https://www.nmmapper.com/sys/tools/subdomainfinder/)
+[![NMMAPPER](./2020-06-image-1.png)](https://www.nmmapper.com/sys/tools/subdomainfinder/)
 
 **[NMMAPPER](https://www.nmmapper.com/sys/tools/subdomainfinder/)**
 
@@ -47,7 +47,7 @@ Not just subdomain, but it provides information about DNS server, MX record, TXT
 
 ## 3\. [Spyse](https://spyse.com/search/subdomain)
 
-[![Spyse](/wp-content/uploads/2020/06/image-2-1024x521.jpg)](https://spyse.com/search/subdomain)
+[![Spyse](./2020-06-image-2.jpg)](https://spyse.com/search/subdomain)
 
 [Spyse](https://spyse.com/search/subdomain)
 
@@ -55,13 +55,13 @@ THE " *Subdomain Finder* " by Spyse is a handcrafted search engine that lets you
 
 ## 4\. **[Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**
 
-[![](/wp-content/uploads/2020/06/image-3-1024x521.png)](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
+[![](./2020-06-image-3.png)](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
 
 Pentest tools search subdomains using various methods such as DNS zone transfer, wordlist based DNS enumeration and public search engine. It has two scanning options, one more intensive and one complete, both of which give you the possibility to export a report in PDF.
 
 ## 5\. **[ImmuniWeb](https://www.htbridge.com/ssl/)**
 
-[![ImmuniWeb](/wp-content/uploads/2020/06/image-4-1024x521.png)](https://www.htbridge.com/ssl/)
+[![ImmuniWeb](./2020-06-image-4.png)](https://www.htbridge.com/ssl/)
 
 **[ImmuniWeb](https://www.htbridge.com/ssl/)**
 

@@ -24,7 +24,7 @@ Que o VSCode virou a [IDE](http://marquesfernandes.com/melhores-editores-de-text
 
 ## 1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-[![GitLens](/wp-content/uploads/2020/07/image-3-1024x494.jpg)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+[![GitLens](./2020-07-image-3.jpg)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 O GitLens extende os recursos do Git do Visual Studio Code. Ele ajuda você a visualizar o autor do código rapidamente através de "anotações de culpa" do Git, a navegar e explorar perfeitamente os repositórios Git, a obter informações valiosas com poderosos comandos de comparação e muito mais.
 
@@ -32,13 +32,13 @@ Essa extensão é excelente pra você descobrir que aquele código que você est
 
 ## 2. [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-[![Prettier](/wp-content/uploads/2020/07/image-6.png)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[![Prettier](./2020-07-image-6.png)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 Prettier é um formatador de código opinativo. Ele impõe um estilo consistente ao analisar seu código e reimprimi-lo com suas próprias regras que levam em consideração o comprimento máximo da linha, agrupando o código quando necessário. Muito útil para formatar aquele JSON gigante que você copiou da internet e está tentando entender.
 
 ## 3. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
-[![Live Share](/wp-content/uploads/2020/07/image-7.jpg)](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+[![Live Share](./2020-07-image-7.jpg)](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 O Visual Studio Live Share permite editar e depurar de forma colaborativa com outras pessoas em tempo real, independentemente das linguagens de programação que você está usando ou dos tipos de aplicativos que você está criando. Ele permite que você compartilhe instantaneamente (e com segurança) seu projeto atual e, conforme necessário, compartilhe sessões de depuração, instâncias de terminal, aplicativos web local, chamadas de voz e muito mais! Os desenvolvedores que ingressam em suas sessões recebem todo o contexto de editor do seu ambiente (por exemplo, serviços de idioma, depuração), o que garante que eles possam começar a colaborar produtivamente imediatamente, sem a necessidade de clonar quaisquer repositórios ou instalar SDKs.
 
@@ -55,25 +55,25 @@ A extensão Remote - SSH permite usar qualquer máquina remota com um servidor S
 
 ## 5. [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-[![Settings Sync](/wp-content/uploads/2020/07/image-9.png)](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+[![Settings Sync](./2020-07-image-9.png)](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 Se você se ve constantemente em novas instalações do VSCode e está cansado de toda vez ter que lembrar e instalar suas extensões, configurações e temas, seus problemas acabaram. Settings Sync permite que você sincronize o estado do seu VSCode entre diversas instâncias.
 
 ## 6\. [Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
-[![Reload](/wp-content/uploads/2020/07/image-10.png)](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
+[![Reload](./2020-07-image-10.png)](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
 Esta extensão eu gostaria muito de não precisar usar, mas constantemente vejo a necessidade de reiniciar o VSCode para pegar algum lint ou autocomplete. Ela adicionará um botão de recarregar o VSCode na barra de status na parte inferior direita. Essa é uma extensão simples, para recarregar rapidamente sua janela, quando você tiver problemas .. ou deseja que o editor entre em vigor.
 
 ## 7\. [Bracket Pair Colorize](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
-[![Bracket Pair Colorize](/wp-content/uploads/2020/07/image-11.png)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+[![Bracket Pair Colorize](./2020-07-image-11.png)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 Essa extensão permite que os colchetes correspondentes sejam identificados com cores. O usuário pode definir quais caracteres combinar e quais cores usar.
 
 ## 8\. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-[![](/wp-content/uploads/2020/07/image-13-1024x461.png)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+[![](./2020-07-image-13.png)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 Se você, como eu, não tem o Inglês como sua primeira língua e se vê constantemente em dúvida se errou algo em seus comentários ou documentações, essa extensão é para você!
 
@@ -81,7 +81,7 @@ Um verificador ortográfico básico que funciona bem com o código camelCase. O 
 
 ## 9\. [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-[![](/wp-content/uploads/2020/07/image-15-4-1024x494.jpg)](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+[![](./2020-07-image-15-4.jpg)](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 Esse plugin tenta substituir as configurações do usuário/espaço de trabalho pelas configurações encontradas no arquivo `.editorconfig`. Basicamente ele permite que você crise um arquivo que pode ser versionado e compartilhado com configurações úteis como espaçamento (tab ou espaço) do projeto, se você quer que renderize os espaços em brancos, e muito mais.
 

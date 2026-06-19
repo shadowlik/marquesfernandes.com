@@ -27,7 +27,7 @@ But let's get down to business, I'll tell you a little about what I did to get 2
 
 ## traffic evolution
 
-![](/wp-content/uploads/2020/03/image-35.png)
+![](./2020-03-image-35.png)
 
 Google Analytics - Traffic Evolution
 
@@ -41,7 +41,7 @@ I have my domain since 2015, and since then it has had some different purposes: 
 
 Developing a quality blog or website takes time, and when we do something for ourselves it seems like it's never perfect, that is, we're never done and that always made me put off my writing idea.
 
-[![https://themeforest.net/](/wp-content/uploads/2020/03/image-36-1024x501.png)](https://themeforest.net/)
+[![https://themeforest.net/](./2020-03-image-36.png)](https://themeforest.net/)
 
 [https://themeforest.net/](https://themeforest.net/)
 
@@ -65,7 +65,7 @@ Encourage your audience to interact with you, in addition to being very rewardin
 
 ## Time - be patient
 
-![Google Webmaster](/wp-content/uploads/2020/03/image-37.png)
+![Google Webmaster](./2020-03-image-37.png)
 
 Google Webmaster
 

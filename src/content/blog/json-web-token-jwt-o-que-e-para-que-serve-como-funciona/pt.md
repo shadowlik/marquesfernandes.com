@@ -45,7 +45,7 @@ O JWT é útil em diversos cenários, porém os dois mais comuns são:
 
 Um JWT consiste em 3 partes:
 
-![](/wp-content/uploads/2019/02/jwt_parts_big.png)
+![](./2019-02-jwt_parts_big.png)
 
 ### Cabeçalho
 
@@ -103,7 +103,7 @@ eyJpZCI6IjEiLCJuYW1lIjoiSGVucmlxdWUiLCJhZG1pbiI6dHJ1ZX0.
 
 Você pode ver o token gerado nesse artigo no site [JWT.io](https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImV4cCI6IjE1MTYyMzkwMjIifQ.eyJpZCI6IjEiLCJuYW1lIjoiSGVucmlxdWUiLCJhZG1pbiI6dHJ1ZX0.3qdEDgz9QMMU4zSIGLuLDEah9o-QVKBe-OsqNcJkto4), nele você consegue também gerar seus tokens e entender de uma maneira fácil e visual o fluxo de geração dos JWTs.
 
-![](/wp-content/uploads/2019/02/image-6.png)
+![](./2019-02-image-6.png)
 
 ## Caso de uso:
 
@@ -111,7 +111,7 @@ Bom, agora que você entendeu o que é, para que serve e como funciona um JWT, v
 
 Como mencionado no começo do texto, o uso mais comum dos JWT é na autenticação de usuários, usaremos uma API REST de exemplo :
 
-![](/wp-content/uploads/2019/02/jwt_flow.jpg)
+![](./2019-02-jwt_flow.jpg)
 
 1.  O usuário envia as informações necessárias para autenticação.
 2.  O servidor valida as informações, gera e retorna o JWT para o usuário.

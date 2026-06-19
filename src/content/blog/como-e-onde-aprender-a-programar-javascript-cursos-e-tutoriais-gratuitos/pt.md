@@ -27,7 +27,7 @@ Por experiência própria, acredito que a melhor maneira para aprender JavaScrip
 
 ## 1\. [Udemy](https://www.udemy.com/courses/search/?price=price-free&q=javascript&sort=relevance&src=ukw)
 
-[![Udemy - Cursos de JavaScript Gratuitos](/wp-content/uploads/2020/04/image-1024x488.jpg)](https://www.udemy.com/courses/search/?price=price-free&q=javascript&sort=relevance&src=ukw)
+[![Udemy - Cursos de JavaScript Gratuitos](./2020-04-image.jpg)](https://www.udemy.com/courses/search/?price=price-free&q=javascript&sort=relevance&src=ukw)
 
 Udemy - Cursos de JavaScript Gratuitos
 
@@ -41,7 +41,7 @@ Para aquelas pessoas que gostam de aprender com vídeo, o [Curso em Vídeo](http
 
 ## 3\. [Rocketseat](https://rocketseat.com.br/starter/curso-gratuito-javascript)
 
-[![Rocketseat - Curso Gratuito de Javascript](/wp-content/uploads/2020/04/image-3-1024x488.png)](https://rocketseat.com.br/starter/curso-gratuito-javascript)
+[![Rocketseat - Curso Gratuito de Javascript](./2020-04-image-3.png)](https://rocketseat.com.br/starter/curso-gratuito-javascript)
 
 Rocketseat - Curso Gratuito de Javascript
 
@@ -49,7 +49,7 @@ A Rocketseat é uma referência na comunidade de desenvolvimento, possuem divers
 
 ## 4\. [Codeacademy](https://www.codecademy.com/learn/introduction-to-javascript)
 
-[![Codeacademy - Introdução ao Javascript](/wp-content/uploads/2020/04/screenshot-www.codecademy.com-2020.04.03-17_27_50-1-1024x488.png)](https://www.codecademy.com/learn/introduction-to-javascript)
+[![Codeacademy - Introdução ao Javascript](./2020-04-screenshot-www.codecademy.com-2020.04.03-17_27_50-1.png)](https://www.codecademy.com/learn/introduction-to-javascript)
 
 Codeacademy - Curso Gratuito de Javascript
 
@@ -57,7 +57,7 @@ O curso de [introdução ao javascript](https://www.codecademy.com/learn/introdu
 
 ## 5\. [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
 
-[![freeCodeCamp - Curso Gratuito de Javascript](/wp-content/uploads/2020/04/image-4-1024x488.png)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
+[![freeCodeCamp - Curso Gratuito de Javascript](./2020-04-image-4.png)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
 
 freeCodeCamp - Curso Gratuito de Javascript
 
@@ -65,7 +65,7 @@ O freeCodeCamp está entre nós desde 2014, oferecendo cursos e conteúdo de qua
 
 ## 6\. [Learn JavaScript](https://www.learn-js.org/)
 
-[![Learn JavaScript](/wp-content/uploads/2020/04/screenshot-www.learn-js.org-2020.04.03-17_52_24-5-1024x488.png)](https://www.learn-js.org/)
+[![Learn JavaScript](./2020-04-screenshot-www.learn-js.org-2020.04.03-17_52_24-5.png)](https://www.learn-js.org/)
 
 Learn JavaScript
 

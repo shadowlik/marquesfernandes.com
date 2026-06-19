@@ -28,7 +28,7 @@ Se esse é o seu caso, você deve com certeza instalar um antivírus no seu Word
 
 ## 1\. [All In One WP Security & Firewall (Gratuito)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 
-[![](/wp-content/uploads/2020/08/banner-772x250-2.png)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
+[![](./2020-08-banner-772x250-2.png)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 
 Um plugin de segurança de wordpress abrangente, fácil de usar, estável e bem suportado.
 
@@ -58,7 +58,7 @@ Alguns dos muitos recursos disponíveis neste plugin são:
 
 ## 2. [Wordfence Security – Firewall & Malware Scan (Gratuito e Pago)](https://wordpress.org/plugins/wordfence/) 
 
-[![Wordfence Security – Firewall & Malware Scan ](/wp-content/uploads/2020/08/banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
+[![Wordfence Security – Firewall & Malware Scan ](./2020-08-banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
 
 -   Instalações Ativas: **3+ milhões**
 -   Classificação: ⭐⭐⭐⭐⭐(3573)
@@ -78,7 +78,7 @@ Wordfence conta com uma versão gratuita de seu plugin, que já é suficiente pa
 
 ## 3\. [iThemes Security (Gratuito e Pago)](https://wordpress.org/plugins/better-wp-security/)
 
-[![iThemes Security](/wp-content/uploads/2020/08/banner-772x250-1-1.jpg)](https://wordpress.org/plugins/better-wp-security/)
+[![iThemes Security](./2020-08-banner-772x250-1-1.jpg)](https://wordpress.org/plugins/better-wp-security/)
 
 A segurança do ithemes é o plug-in de segurança do wordpress nº 1.
 
@@ -112,7 +112,7 @@ Além disso, oferece diversos outros recursos como:
 
 ## 4\. [Cerber Security, Anti-spam & Malware Scan (Gratuito)](https://wordpress.org/plugins/wp-cerber/)
 
-[![Cerber Security, Anti-spam & Malware Scan](/wp-content/uploads/2020/08/banner-772x250-2-1.jpg)](https://wordpress.org/plugins/wp-cerber/)
+[![Cerber Security, Anti-spam & Malware Scan](./2020-08-banner-772x250-2-1.jpg)](https://wordpress.org/plugins/wp-cerber/)
 
 Defende o WordPress contra ataques de hackers, spam, trojans e malware. 
 
@@ -134,7 +134,7 @@ Esse plugin impede ataques de força bruta limitando o número de tentativas de 
 
 ## 5\. [Jetpack por Wordpress (Freemium)](https://wordpress.org/plugins/jetpack/)
 
-[![](/wp-content/uploads/2020/08/banner-772x250-3-1.jpg)](https://wordpress.org/plugins/jetpack/)
+[![](./2020-08-banner-772x250-3-1.jpg)](https://wordpress.org/plugins/jetpack/)
 
 Segurança, desempenho e gerenciamento de sites: a melhor maneira de usar o WordPress é com o Jetpack.
 

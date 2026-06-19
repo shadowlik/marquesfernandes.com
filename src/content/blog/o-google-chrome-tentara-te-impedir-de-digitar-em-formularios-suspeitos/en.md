@@ -20,7 +20,7 @@ You've probably already noticed the little closed padlock icon in your browser n
 
 The initial idea is that you get some big, flashy notices, according to [the official Google blog post](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html) , it will look like this:
 
-![Unsafe Form Notice](/wp-content/uploads/2020/08/Screen-Shot-2020-08-13-at-4.34.37-PM.png)
+![Unsafe Form Notice](./2020-08-Screen-Shot-2020-08-13-at-4.34.37-PM.png)
 
 And if you still try to submit your personal information while ignoring Google's warning, it will try to give you one more chance to think hard about what you're doing:
 

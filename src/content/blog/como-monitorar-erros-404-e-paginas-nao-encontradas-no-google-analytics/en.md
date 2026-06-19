@@ -38,11 +38,11 @@ The first report we're going to learn how to create monitors the internal links 
 5.  Add a filter that **delete** the value **(entrance)** to the dimension **Previous Page Path** . This filter ensures that only 404 errors caused by an internal link appear.
 6.  Add a filter to the **page title** that identifies your pages not found.
 
-![Custom report to find 404 errors caused by INTERNAL links](/wp-content/uploads/2020/02/image-1-1024x496.png)
+![Custom report to find 404 errors caused by INTERNAL links](./2020-02-image-1.png)
 
 Now save your report and see the result:
 
-![](/wp-content/uploads/2020/02/image-2-1024x496.png)
+![](./2020-02-image-2.png)
 
 ## Custom report to find 404 errors caused by EXTERNAL links
 
@@ -55,8 +55,8 @@ Now let's learn how to monitor 404 errors coming from external links. External l
 5.  Add a filter that **include** the value **(entrance)** to the dimension **Previous Page Path** . This filter ensures that only 404 errors caused by an internal link appear.
 6.  Add a filter to the **page title** that identifies your pages not found.
 
-![Custom report to find 404 errors caused by EXTERNAL links](/wp-content/uploads/2020/02/image-5-1024x496.png)
+![Custom report to find 404 errors caused by EXTERNAL links](./2020-02-image-5.png)
 
 If all goes well, you will now have two reports to help you identify and correct these errors. Monitor these reports whenever possible, don't let a simple fixable mistake affect your SEO!
 
-![](/wp-content/uploads/2020/02/image-6-1024x496.png)
+![](./2020-02-image-6.png)

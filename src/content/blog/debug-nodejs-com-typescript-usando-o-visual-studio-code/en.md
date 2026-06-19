@@ -17,7 +17,7 @@ updated: 2021-12-12T11:15:34.000Z
 
 When we're in the development process, we spend a lot of our time "debugging" the code and trying to figure out why it doesn't work or worse, why it works... The debug step is very important and can be very time consuming, so if we optimize this bug hunting, we optimize delivery time as well as quality.
 
-![Only half of programming is coding. The other 90% is debugging](/wp-content/uploads/2020/01/591b0f2b-56af-4179-8bc0-d7f575bf4ed0.jpeg)
+![Only half of programming is coding. The other 90% is debugging](./2020-01-591b0f2b-56af-4179-8bc0-d7f575bf4ed0.jpeg)
 
 Visual Studio Code supports the TypeScript debugger through its native JavaScript debugger.
 
@@ -69,6 +69,6 @@ The launch.json file contains all the debugger settings for the project, creates
 
 ## Testing our new setup
 
-![](/wp-content/uploads/2020/01/image-6-1024x548.png)
+![](./2020-01-image-6.png)
 
 Now that we've configured all the necessary configuration, we can start debugging our application. Click on the ▶️ button on the debug tab or via the shortcut **F5** . If everything is correct, the compilation process will take place and the debugger will pause on the selected line.

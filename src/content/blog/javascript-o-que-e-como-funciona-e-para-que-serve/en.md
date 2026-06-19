@@ -29,7 +29,7 @@ The name is similar and causes a lot of confusion but, **JavaScript** It is NOT 
 
 The internet was very different from how we know it today, there was a time when pages were just static, boring and lifeless sites. In its early days, the *World Wide Web* it was just a large cluster of tabbed pages written in HTML, with links and eye-catching images. Over the years, and the popularization of the internet, the needs and functionalities became more and more complicated and required a more advanced way of creating pages that interacted better with users.
 
-[![Spacejam Site](/wp-content/uploads/2020/01/SPACE-1024x576.jpg)](https://www.spacejam.com/)
+[![Spacejam Site](./2020-01-SPACE.jpg)](https://www.spacejam.com/)
 
 One of the most famous sites of the 90's and a [example still alive](https://www.spacejam.com/) of what the root internet was like.
 
@@ -88,7 +88,7 @@ See the Pen<a href='https://codepen.io/necolas/pen/KrBQmd'> React Native Calcula
 
 Its wide portability also allows the programming of [embedded devices](http://marquesfernandes.com/internet-das-coisas/) . Libraries like the [Johnny-Five](http://johnny-five.io/) allow you to develop for boards [Arduino](http://johnny-five.io/#arduino) , [Tessel 2](http://johnny-five.io/#tessel) , [Raspberry Pi](http://johnny-five.io/#raspberrypi) , [Intel Edison](http://johnny-five.io/#edison) , [Particle Photon](http://johnny-five.io/#spark) , [and much more...](http://johnny-five.io/platform-support/) using JavaScript, the language is compiled to each device's native language.
 
-![](/wp-content/uploads/2020/02/led-scene-0.gif)
+![](./2020-02-led-scene-0.gif)
 
 var five = require("johnny-five");
 var board = new five.Board();

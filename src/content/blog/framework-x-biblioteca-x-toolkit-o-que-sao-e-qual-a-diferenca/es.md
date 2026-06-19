@@ -37,7 +37,7 @@ La diferencia más importante y, de hecho, la diferencia definitoria entre una b
 
 Ta, ¿qué más significa esto? Bueno, eso significa que cuando se llama a una biblioteca, está en control, pero en un marco de trabajo, el control se invierte: el marco de trabajo le llama. *También llamado el Principio de Hollywood: no nos llames, te llamaremos.* Dibujé un boceto para tratar de ejemplificar mejor esta diferencia:
 
-![Framework x Library x Toolkit - ¿Qué son y cuál es la diferencia?](/wp-content/uploads/2020/03/frameworkvsbibliotecavstoolkit.jpg)
+![Framework x Library x Toolkit - ¿Qué son y cuál es la diferencia?](./2020-03-frameworkvsbibliotecavstoolkit.jpg)
 
 Podemos concluir entonces que básicamente, todo el flujo de control ya está en el marco de trabajo y sólo hay unas pocas "pantallas" en blanco predefinidas que puede rellenar con su código y con la regla de negocio de su proyecto, ya que una biblioteca, por otro lado, es "sólo" una colección de características que puede llamar.
 

@@ -23,7 +23,7 @@ Essa é uma linguagem excelente para quem quer começar no mundo de desenvolvime
 
 ## 1\. [Udemy](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.969388&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-php-7-online%2F)
 
-[![udemy](/wp-content/uploads/2020/07/image-21-2.jpg)](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.969388&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-php-7-online%2F)
+[![udemy](./2020-07-image-21-2.jpg)](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.969388&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-php-7-online%2F)
 
 A [Udemy](https://www.udemy.com/courses/search/?price=price-free&q=javascript&sort=relevance&src=ukw) é uma das plataformas de cursos mais populares atualmente, possui cursos em diversas categorias, pagos e gratuitos. O interessante é que seus cursos são feitos por qualquer um que tenha disposição, é um marketplace de cursos, com excelentes professores. Você pode escolher qualquer um dos cursos gratuitos de PHP neste [link](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.969388&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-php-7-online%2F) e começar hoje mesmo a estudar. Estão disponíveis também cursos pagos muito bons:
 
@@ -39,13 +39,13 @@ Para aquelas pessoas que gostam de aprender com vídeo, o [Curso em Vídeo](htt
 
 ## 3\. [DEVMEDIA](https://www.devmedia.com.br/curso/introducao-ao-php/2171)
 
-[![devmedia](/wp-content/uploads/2020/07/image-22.jpg)](https://www.devmedia.com.br/curso/introducao-ao-php/2171)
+[![devmedia](./2020-07-image-22.jpg)](https://www.devmedia.com.br/curso/introducao-ao-php/2171)
 
 Neste curso você irá aprender o básico desta linguagem através de um exemplo prático. Será desenvolvida uma aplicação para o cálculo de consumo de combustível por um automóvel, trabalhando conceitos importantes a respeito da sintaxe do PHP.
 
 ## 4\. [Alura](https://www.alura.com.br/busca?query=php)
 
-[![alura](/wp-content/uploads/2020/07/image-22.png)](https://www.alura.com.br/busca?query=php)
+[![alura](./2020-07-image-22.png)](https://www.alura.com.br/busca?query=php)
 
   
 A **Alura** nasceu da [Caelum](https://www.caelum.com.br/), uma renomada escola de tecnologia e inovação. Os fundadores, Paulo Silveira e Guilherme Silveira, perceberam que muitos alunos e alunas não tinham acesso ao nosso conteúdo por questões de distância e horário, e outros se adequavam a diferentes ritmos de aula. A plataforma online nasce em 2011 e, com o sucesso do projeto, criamos uma marca própria em junho de 2013, a Alura. Hoje possui um arsenal de cursos, incluindo cursos básicos e de formação de PHP e muito mais.

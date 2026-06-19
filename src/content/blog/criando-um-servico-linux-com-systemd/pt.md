@@ -41,7 +41,7 @@ http.createServer(function (req, res) {
 
 Vamos testar, no navegador entre em `http://localhost:9999`.
 
-![](/wp-content/uploads/2020/07/image-2.png)
+![](./2020-07-image-2.png)
 
 Agora que validamos que nosso programa funciona, vamos fazer com que ele rode sempre, se por algum motivo ele parar de funcionar deve ser restartado e caso a máquina seja reiniciada o serviço precisa iniciar também.
 

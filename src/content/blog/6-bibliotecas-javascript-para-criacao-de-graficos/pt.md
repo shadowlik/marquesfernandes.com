@@ -23,7 +23,7 @@ Procurando por bibliotecas para renderizar gráficos e visualizações? Separei 
 
 ## **[Data-Driven Documents – D3.js](https://d3js.org/)**
 
-[![](/wp-content/uploads/2019/06/image-1024x525.png)](https://d3js.org/)
+[![](./2019-06-image.png)](https://d3js.org/)
 
 [D3.js](https://d3js.org/)
 
@@ -37,7 +37,7 @@ D3.js é provavelmente uma das bibliotecas mais famosas da atualidade, utilizada
 
 ## **[Google Charts](https://developers.google.com/chart/)**
 
-[![](/wp-content/uploads/2019/06/image-1-1024x525.png)](https://developers.google.com/chart/)
+[![](./2019-06-image-1.png)](https://developers.google.com/chart/)
 
 Google Charts
 
@@ -47,7 +47,7 @@ Altamente customizáveis, os gráficos são representados usando HTML5 ou SVG qu
 
 ## **[Chart.js](https://www.chartjs.org/)**
 
-[![](/wp-content/uploads/2019/06/image-4-1024x525.png)](https://www.chartjs.org/)
+[![](./2019-06-image-4.png)](https://www.chartjs.org/)
 
 [Chart.js](https://www.chartjs.org/)
 
@@ -55,7 +55,7 @@ Chart.js é amado por sua simplicidade e objetividade, possuí uma ampla seleç�
 
 ## **[Chartist.js](https://gionkunz.github.io/chartist-js/)**
 
-[![](/wp-content/uploads/2019/06/image-3-1024x525.png)](https://gionkunz.github.io/chartist-js/)
+[![](./2019-06-image-3.png)](https://gionkunz.github.io/chartist-js/)
 
 [Chartist.js](https://gionkunz.github.io/chartist-js/)
 
@@ -63,7 +63,7 @@ Similar ao Chart.js, oferece belos gráficos responsivos. Renderizados em SVG, p
 
 ## **[HighCharts JS](https://www.highcharts.com/)**
 
-[![](/wp-content/uploads/2019/06/image-5-1024x525.png)](https://www.highcharts.com/)
+[![](./2019-06-image-5.png)](https://www.highcharts.com/)
 
 Highcharts
 
@@ -71,7 +71,7 @@ Uma das bibliotecas mais famosas para construir gráficos, extremamente flexíve
 
 ##  **[FusionCharts](https://www.fusioncharts.com/)**
 
-[![](/wp-content/uploads/2019/06/image-6-1024x525.png)](https://www.fusioncharts.com/)
+[![](./2019-06-image-6.png)](https://www.fusioncharts.com/)
 
 [FusionCharts](https://www.fusioncharts.com/)
 

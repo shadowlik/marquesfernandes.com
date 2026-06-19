@@ -76,7 +76,7 @@ for($i=0; $i -lt $oldbackups.count; $i++){
 
 To create the schedule in Windows you can use the Task Scheduler.
 
-![Task Scheduler](/wp-content/uploads/2020/03/image-1.jpg)
+![Task Scheduler](./2020-03-image-1.jpg)
 
 ## Creating Daily MySQL Backups on Linux
 

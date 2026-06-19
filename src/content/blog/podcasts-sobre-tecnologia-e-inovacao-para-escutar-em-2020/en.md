@@ -120,7 +120,7 @@ Naruhodo! is the podcast for those who are hungry to learn. Science, common sens
 
 ## [FIAP Coffee](https://www.fiap.com.br/fiapx/podcast)
 
-[![](/wp-content/uploads/2020/01/image-41-1024x501.png)](https://www.fiap.com.br/fiapx/podcast)
+[![](./2020-01-image-41.png)](https://www.fiap.com.br/fiapx/podcast)
 
 The FIAP Café podcast is a chat in which, every fortnight, a highly specialized professional is invited to talk about the latest news in technology, science, entrepreneurship and innovation.
 

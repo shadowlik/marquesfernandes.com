@@ -27,7 +27,7 @@ Pero vamos al grano, te diré un poco de lo que hice para poder aumentar el trá
 
 ## Evolución del tráfico
 
-![](/wp-content/uploads/2020/03/image-35.png)
+![](./2020-03-image-35.png)
 
 Google Analytics - Evolución del tráfico
 
@@ -41,7 +41,7 @@ He estado en mi dominio desde 2015, y desde entonces he tenido algunos propósit
 
 Desarrollar un blog o sitio web con calidad requiere tiempo, y cuando hacemos algo por nosotros parece que nunca es perfecto, es decir, nunca terminamos y siempre me hizo posponer mi idea de escribir.
 
-[![https://themeforest.net/](/wp-content/uploads/2020/03/image-36-1024x501.png)](https://themeforest.net/)
+[![https://themeforest.net/](./2020-03-image-36.png)](https://themeforest.net/)
 
 [https://themeforest.net/](https://themeforest.net/)
 
@@ -65,7 +65,7 @@ Anime a su audiencia a interactuar con usted, además de ser muy gratificante y 
 
 ## Tiempo - Sea paciente
 
-![Google Webmaster](/wp-content/uploads/2020/03/image-37.png)
+![Google Webmaster](./2020-03-image-37.png)
 
 Google Webmaster
 

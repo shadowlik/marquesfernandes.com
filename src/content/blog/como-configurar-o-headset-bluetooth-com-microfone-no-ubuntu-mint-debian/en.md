@@ -83,6 +83,6 @@ $ sudo service phonesim-enable-modem status
 
 $ pulseaudio -k.
 
-![](/wp-content/uploads/2021/04/image.jpg)
+![](./2021-04-image.jpg)
 
 By now you should be able to see your headset as an input device in the sound setup part. There is a certain instability in this setup, from time to time it may be that your phone is misconfigured or the change of audio profile does not work, when this happens, restart the services as described above and also pulseaudio.

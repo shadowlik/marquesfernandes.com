@@ -30,7 +30,7 @@ Debido a que estos algoritmos de búsqueda están cerrados, no está claro qué 
 
 ## 1\. [Curso SEO completo - De básico a avanzado (](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.855368&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-de-seo-completo-do-basico-ao-avancado%2F)pagado)
 
-![Curso SEO completo - De básico a avanzado](/wp-content/uploads/2020/07/image-23.jpg)
+![Curso SEO completo - De básico a avanzado](./2020-07-image-23.jpg)
 
 **Este curso SEO está indicado para:Qu**  
 ién quiere entender profundamente lo que es SEO y sus aplicaciones  
@@ -47,7 +47,7 @@ gica utilizada en el curso servirá para otras acciones de marketing. Para los a
 
 ## 2\. [Curso SEO Master Free SEO](https://www.seomaster.com.br/curso-tutorial-seo-gratis.html) (Gratis)
 
-[![Curso SEO Master Free SEO](/wp-content/uploads/2020/07/image-24.png)](https://www.seomaster.com.br/curso-tutorial-seo-gratis.html)
+[![Curso SEO Master Free SEO](./2020-07-image-24.png)](https://www.seomaster.com.br/curso-tutorial-seo-gratis.html)
 
 El equipo **de SEO Ma**ster ha desarrollado un **curso detallado de SE**O gratuito para mejorar sus conocimientos e impulsar su sitio hacia los primeros resultados de Google.
 
@@ -57,7 +57,7 @@ El equipo **de SEO Ma**ster ha desarrollado un **curso detallado de SE**O gratui
 
 ## 3\. [Optimización del motor de búsqueda del curso (SEO)](https://university.rockcontent.com/cursos/search-engine-optimization) (de pago)
 
-[![Curso de optimización de motores de búsqueda (SEO)](/wp-content/uploads/2020/07/image-25.jpg)](https://university.rockcontent.com/cursos/search-engine-optimization)
+[![Curso de optimización de motores de búsqueda (SEO)](./2020-07-image-25.jpg)](https://university.rockcontent.com/cursos/search-engine-optimization)
 
 Search Engine Optimization (SEO) es un conjunto de técnicas aplicadas interna y externamente a un sitio web para que se posicione mejor en los resultados de búsqueda y sea encontrado por el público adecuado en el momento adecuado, ofreciendo la mejor respuesta posible. En una estrategia de marketing digital, es importante preocuparse por el SEO para aumentar el tráfico orgánico a su sitio, generar clientes potenciales, aumentar la visibilidad de la marca y tener un mejor posicionamiento en el mercado. Las empresas que adoptan buenas prácticas SEO pueden obtener hasta 13 veces más visitantes y 5 veces más clientes en comparación con los competidores que no utilizan esta función.
 
@@ -70,7 +70,7 @@ Search Engine Optimization (SEO) es un conjunto de técnicas aplicadas interna y
 
 ## 4\. [CURSO BASICO SEO - GRATIS ONLI](https://www.mirago.com.br/online/curso-seo-gratuito-online/)NE (Gratis)
 
-[![CURSO BASIC SEO - GRATIS ONLINE](/wp-content/uploads/2020/07/image-26.jpg)](https://www.mirago.com.br/online/curso-seo-gratuito-online/)
+[![CURSO BASIC SEO - GRATIS ONLINE](./2020-07-image-26.jpg)](https://www.mirago.com.br/online/curso-seo-gratuito-online/)
 
 E**l curso Free Online SEO está** diseñado para todas las personas que quieran iniciarse en el mundo del [SEO (Search Engine Optimization)](https://www.mirago.com.br/aula/seo/). Este es un curso básico para principiantes.
 
@@ -78,8 +78,8 @@ En este curso aprenderás los conceptos básicos del SEO, así como entenderás 
 
 ## 5\. [Fundamentos del marketing digital por Goog](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)le (Gratis)
 
-[![Fundamentos del marketing digital por Google](/wp-content/uploads/2020/07/image-27.jpg)](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)
+[![Fundamentos del marketing digital por Google](./2020-07-image-27.jpg)](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)
 
 Curso no totalmente centrado en SEO pero tiene un módulo muy completo. Distribuida por la propia Google en su plataforma de cursos online Ateliá Digital, cuenta con módulos dedicados a la parte de SEO y visibilidad en Internet, sin duda vale la pena echar un vistazo.
 
-![Módulos dedicados a la parte seo y visibilidad en Internet](/wp-content/uploads/2020/07/image-28.png)
+![Módulos dedicados a la parte seo y visibilidad en Internet](./2020-07-image-28.png)

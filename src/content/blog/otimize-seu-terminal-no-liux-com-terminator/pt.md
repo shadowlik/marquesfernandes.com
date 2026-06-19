@@ -33,15 +33,15 @@ Se você está cansado do seu terminal ralé no linux; Cansado de ficar dando al
 -   **Temas:** Vários temas e combinações disponíveis pela comunidade.
 -   **E muito mais...**
 
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-58-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-58-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-58.png)](./2019-03-Screenshot-from-2019-03-19-00-30-58.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-35-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-35-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-35.png)](./2019-03-Screenshot-from-2019-03-19-00-30-35.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-09-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-09-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-09.png)](./2019-03-Screenshot-from-2019-03-19-00-30-09.png)
     
--   [![](/wp-content/uploads/2019/03/terminator-2-1024x517.png)](/wp-content/uploads/2019/03/terminator-2-1024x517.png)
+-   [![](./2019-03-terminator-2.png)](./2019-03-terminator-2.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-38-41-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-38-41-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-38-41.png)](./2019-03-Screenshot-from-2019-03-19-00-38-41.png)
     
 
 ## Instalando o Terminator
@@ -64,7 +64,7 @@ $ sudo yum install terminator
 
 ## Instalando temas
 
-![Preferências Terminator](/wp-content/uploads/2019/03/image.png)
+![Preferências Terminator](./2019-03-image.png)
 
 Você pode instalar ou criar o seu próprio tema no Terminator. Acesse o [link](https://github.com/mbadolato/iTerm2-Color-Schemes) e escolha o tema que você mais gostar, abra o arquivo ".config" do tema desejado e copie seu conteúdo. Depois disso clique com o botão direito do mouse no Terminator, navegue até preferências e crie um novo perfil para gerar um novo arquivo de tema, vá até ~/.config/terminator/ e edite o arquivo referente ao novo perfil criado e cole o conteúdo do tema no final.
 

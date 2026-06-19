@@ -24,7 +24,7 @@ If that's the case for you, you should definitely install an antivirus on your W
 
 ## 1\. [All In One WP Security & Firewall (Free)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 
-[![](/wp-content/uploads/2020/08/banner-772x250-2.png)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
+[![](./2020-08-banner-772x250-2.png)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 
 A comprehensive, easy to use, stable and well supported wordpress security plugin.
 
@@ -54,7 +54,7 @@ Some of the many features available in this plugin are:
 
 ## two. [Wordfence Security – Firewall & Malware Scan (Free and Paid)](https://wordpress.org/plugins/wordfence/)
 
-[![Wordfence Security – Firewall & Malware Scan ](/wp-content/uploads/2020/08/banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
+[![Wordfence Security – Firewall & Malware Scan ](./2020-08-banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
 
 -   Active Installations: **3+ million**
 -   Rating: ⭐⭐⭐⭐⭐(3573)
@@ -74,7 +74,7 @@ Wordfence has a free version of its plugin, which is enough for most cases, but 
 
 ## 3\. [iThemes Security (Free and Paid)](https://wordpress.org/plugins/better-wp-security/)
 
-[![iThemes Security](/wp-content/uploads/2020/08/banner-772x250-1-1.jpg)](https://wordpress.org/plugins/better-wp-security/)
+[![iThemes Security](./2020-08-banner-772x250-1-1.jpg)](https://wordpress.org/plugins/better-wp-security/)
 
 itthemes security is wordpress security plug-in #1.
 
@@ -108,7 +108,7 @@ In addition, it offers several other features such as:
 
 ## 4\. [Cerber Security, Anti-spam & Malware Scan (Free)](https://wordpress.org/plugins/wp-cerber/)
 
-[![Cerber Security, Anti-spam & Malware Scan](/wp-content/uploads/2020/08/banner-772x250-2-1.jpg)](https://wordpress.org/plugins/wp-cerber/)
+[![Cerber Security, Anti-spam & Malware Scan](./2020-08-banner-772x250-2-1.jpg)](https://wordpress.org/plugins/wp-cerber/)
 
 Defends WordPress against hacker attacks, spam, trojans and malware. 
 
@@ -130,7 +130,7 @@ This plugin prevents brute force attacks by limiting the number of login attempt
 
 ## 5\. [Jetpack by Wordpress (Freemium)](https://wordpress.org/plugins/jetpack/)
 
-[![](/wp-content/uploads/2020/08/banner-772x250-3-1.jpg)](https://wordpress.org/plugins/jetpack/)
+[![](./2020-08-banner-772x250-3-1.jpg)](https://wordpress.org/plugins/jetpack/)
 
 Website security, performance and management: The best way to use WordPress is with Jetpack.
 

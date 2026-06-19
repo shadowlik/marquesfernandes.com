@@ -42,7 +42,7 @@ Imagine that you developed a Rest API that returns the contents of a file on dis
 
 ## [NPM](http://npmjs.com)
 
-![](/wp-content/uploads/2019/03/npm-1024x398.png)
+![](./2019-03-npm.png)
 
 Another wonderful part of **node** is in your community: **NPM** is the package manager ("dependencies") of the **NodeJS** , here you will find the most varied solutions written by the community. You will probably run into situations/problems when developing that some good soul has already passed and published a package **NPM** to make your life easier. This entire ecosystem makes developing applications on Node fast and efficient!
 

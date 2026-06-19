@@ -41,7 +41,7 @@ A diferença mais importante e, de fato, a diferença definidora entre uma bibli
 
 Ta, mais o que isto significa? Bem, isso significa que quando você chama uma biblioteca, você está no controle, mas em um Framework, o controle é invertido: O Framework chama você. *Também chamado de Princípio de Hollywood: não ligue para nós, nós ligaremos para você.* Desenhei um esboço pra tentar exemplificar melhor essa diferença:
 
-![Framework x Biblioteca x Toolkit - O que são e qual a diferença?](/wp-content/uploads/2020/03/frameworkvsbibliotecavstoolkit.jpg)
+![Framework x Biblioteca x Toolkit - O que são e qual a diferença?](./2020-03-frameworkvsbibliotecavstoolkit.jpg)
 
 Podemos concluir então que basicamente, todo o fluxo de controle já está no Framework e há apenas algumas "telas" em branco predefinidas que você pode preencher com seu código e com a regra de negócio de seu projeto, já uma biblioteca, por outro lado, é "apenas" uma coleção de funcionalidades que você pode chamar.
 

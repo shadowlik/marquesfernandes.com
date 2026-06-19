@@ -42,7 +42,7 @@ Another point to choose your DNS that has become a frequent concern is the **ano
 -   **DNS** **primary:** *1.1.1.1*
 -   **Secondary DNS:** *1.0.0.1*
 
-![](/wp-content/uploads/2020/03/image-16.png)
+![](./2020-03-image-16.png)
 
 I put the [cloudflare](https://1.1.1.1/) first on the list because it's the DNS I use and recommend. Cloudflare is a highly regarded infrastructure company and today provides services to millions of websites around the world. They created their public DNS solution called WARP, and according to the company's own benchmarks, its speed surpasses those of its competitors. In addition to focusing on performance, WARP encrypts your entire connection to your server, in order to preserve your anonymity and possible scams on the internet.
 

@@ -23,7 +23,7 @@ Entonces, ¿qué esperar de 2020 para Web Design? Una cosa interesante que podem
 
 ## 1\. Modo Oscuro
 
-![Modo oscuro de WhatsApp](/wp-content/uploads/2020/03/English_DarkMode_iPhone-1024x728.jpg)
+![Modo oscuro de WhatsApp](./2020-03-English_DarkMode_iPhone.jpg)
 
 Los diseños de modo oscuro se ven ultramodernos, fáciles de ver y resaltan colores y elementos de diseño. Bien conocido por los desarrolladores, el modo "hacker" ha atraído a más y más usuarios.
 
@@ -31,19 +31,19 @@ Esa es una tendencia que va más allá de la belleza, hay principios prácticos 
 
 ## 2\. Sombras suaves y elementos flotantes
 
-![](https://i0.wp.com/marquesfernandes.com/wp-content/uploads/2020/03/web-design-trends-2020-11.jpg?ssl=1)
+![](https://i0.wp.com/marquesfernandes.com./2020-03-web-design-trends-2020-11.jpg)
 
-![](https://i1.wp.com/marquesfernandes.com/wp-content/uploads/2020/03/dribelekk.jpg?ssl=1)
+![](https://i1.wp.com/marquesfernandes.com./2020-03-dribelekk.jpg)
 
 Después de un poco de la ola [de Material Design de Goo](http://marquesfernandes.com/sites-para-inspiracao-usando-material-design/)gle, la apuesta por elementos flotantes con sombras suaves está sin duda garantizada. Esta tendencia trae las páginas web, sin exagerar, un poco de profundidad y sensación 3D.
 
 ## 3\. Ilustraciones personalizadas
 
--   ![](/wp-content/uploads/2020/03/web-design-trends-2020-06.jpg)
+-   ![](./2020-03-web-design-trends-2020-06.jpg)
     
--   ![](/wp-content/uploads/2020/03/web-design-trends-2020-05.jpg)
+-   ![](./2020-03-web-design-trends-2020-05.jpg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-lifestrategy.com_.br-2020.03.21-21_38_45-1024x501.png)
+-   ![](./2020-03-screenshot-lifestrategy.com_.br-2020.03.21-21_38_45.png)
     
 
 Hoy en día, el objeto visual no existe sólo para dar color a sus páginas, puede y debe utilizarlas para crear una identidad y qué mensaje desea transmitir a su audiencia.
@@ -52,24 +52,24 @@ Ciertamente, poner una ilustración en el lugar correcto puede hacer una gran di
 
 ## 4\. Marcos sólidos
 
--   ![](/wp-content/uploads/2020/03/screenshot-converse.com_.br-2020.03.21-22_02_40-1024x501.jpg)
+-   ![](./2020-03-screenshot-converse.com_.br-2020.03.21-22_02_40.jpg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.nike_.com_.br-2020.03.21-22_01_25-1024x501.png)
+-   ![](./2020-03-screenshot-www.nike_.com_.br-2020.03.21-22_01_25.png)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.oakley.com-2020.03.21-22_05_28-1024x501.jpg)
+-   ![](./2020-03-screenshot-www.oakley.com-2020.03.21-22_05_28.jpg)
     
 
 Recordando un poco el marco de un marco, o incluso esa camiseta fresca con una simple fotografía impresa en el pecho, enmarcar se ha convertido en una tendencia creciente. Puede encontrar esta plantilla en muchos sitios web y especialmente en tiendas virtuales. Su estructura limpia y organizada separa bien los contenidos y favorece el enfoque en lo que es importante!
 
 ## 5\. Colores vibrantes y luminosos
 
--   ![](/wp-content/uploads/2020/03/screenshot-nubank.com_.br-2020.03.21-22_09_14-1024x501.jpg)
+-   ![](./2020-03-screenshot-nubank.com_.br-2020.03.21-22_09_14.jpg)
     
--   ![](/wp-content/uploads/2020/03/attachment_112301902-e1573816708542.jpeg)
+-   ![](./2020-03-attachment_112301902-e1573816708542.jpeg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.bancointer.com_.br-2020.03.21-22_10_40-1024x501.jpg)
+-   ![](./2020-03-screenshot-www.bancointer.com_.br-2020.03.21-22_10_40.jpg)
     
--   ![](/wp-content/uploads/2020/03/Screen-Shot-2019-11-12-at-8.46.03-PM-e1573609778854.jpg)
+-   ![](./2020-03-Screen-Shot-2019-11-12-at-8.46.03-PM-e1573609778854.jpg)
     
 
 Una tendencia que necesita ser utilizada con mucho cuidado, la línea es tenue entre pegajoso y llamativo. El uso de los antelesos y colores luminosos desarrolla un aspecto moderno y atrevido, si se utiliza de la manera correcta puede deleitar a su audiencia.

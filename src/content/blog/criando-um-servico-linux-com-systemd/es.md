@@ -37,7 +37,7 @@ http.createServer(function (req, res)
 
 Vamos a probar, en el navegador escrib`a http://localhost:999`9.
 
-![](/wp-content/uploads/2020/07/image-2.png)
+![](./2020-07-image-2.png)
 
 Ahora que hemos validado que nuestro programa funciona, haremos que siempre se ejecute, si por alguna razón deja de funcionar debe reiniciarse y si se reinicia la máquina el servicio también debe iniciarse.
 

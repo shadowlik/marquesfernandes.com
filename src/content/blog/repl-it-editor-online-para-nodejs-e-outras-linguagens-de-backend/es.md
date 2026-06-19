@@ -19,7 +19,7 @@ updated: 2021-12-12T11:24:06.000Z
 
 Este post no está patrocinado, por desgracia, pero he utilizado una gran cantidad de una herramienta y vi que muchos desarrolladores no conocen esta herramienta todavía! Probablemente muchos de ustedes deben conocer [Codepen](https://codepen.io/) o J[SFiddle,](https://jsfiddle.net/) pero hoy vine a hablar de un servicio que va más allá de HTML, CSS y JS.
 
-![](/wp-content/uploads/2019/09/image-13-1024x504.png)
+![](./2019-09-image-13.png)
 
 ## Insertar
 

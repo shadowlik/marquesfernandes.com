@@ -47,25 +47,25 @@ Para el servidor con IP pública vamos a utilizar Google Cloud Platform porque n
 
 Primero necesitas crear una cuenta en [PCG](https://cloud.google.com/) . Después de crear la cuenta, crearemos una máquina virtual que se ajuste al nivel gratuito, que en este caso sería una *`e2-micro`* en cualquiera de las regiones: `nosotros-oeste1; us-central1; us-east1` .
 
-![Acceso al menú Compute Engine > Instancias de VM](/wp-content/uploads/2022/12/image-6-1024x574.png)
+![Acceso al menú Compute Engine > Instancias de VM](./2022-12-image-6.png)
 
 Acceso al menú Compute Engine > Instancias de VM
 
 Primero, debemos acceder a Compute Engine > Instancias de VM desde el menú lateral.
 
-![Habilitación de la API de Compute Engine](/wp-content/uploads/2022/12/image-1-1024x673.png)
+![Habilitación de la API de Compute Engine](./2022-12-image-1.png)
 
 Habilitación de la API de Compute Engine
 
 Si es la primera vez que accede al servicio Compute Engine de Google, se le pedirá que habilite la API, simplemente haga clic en `Habilitar` y espera a que termine la activación.
 
-![Crear instancia de máquina virtual](/wp-content/uploads/2022/12/image-7-1024x195.png)
+![Crear instancia de máquina virtual](./2022-12-image-7.png)
 
 Crear instancia de máquina virtual
 
 Haga clic en el `Crear instancia` para comenzar a configurar nuestra nueva máquina virtual en GCP.
 
-![Configurando nuestra nueva VM](/wp-content/uploads/2022/12/image-8-1024x574.png)
+![Configurando nuestra nueva VM](./2022-12-image-8.png)
 
 Configurando nuestra nueva VM
 
@@ -73,7 +73,7 @@ Ahora configuremos nuestra máquina virtual con la configuración que se aplica 
 
 Por defecto la máquina se creará con el sistema operativo [Debian](https://wiki.debian.org/pt_BR/DebianIntroduction) y un disco persistente de 10 GB, procedamos con esta configuración predeterminada para nuestro tutorial.
 
-![](/wp-content/uploads/2022/12/image-10-1024x300.png)
+![](./2022-12-image-10.png)
 
 Habilitación de los protocolos HTTP y HTTPS
 
@@ -81,7 +81,7 @@ Necesitamos agregar una última configuración, bajando la página encontrarás 
 
 Ahora haga clic en Crear y espere a que se cree la máquina virtual.
 
-![máquina virtual GCP](/wp-content/uploads/2022/12/image-11-1024x215.png)
+![máquina virtual GCP](./2022-12-image-11.png)
 
 Copie la IP pública de la máquina
 
@@ -95,13 +95,13 @@ Necesitaremos configurar dos dominios, el primer dominio se referirá al panel a
 
 Ambos apuntarán al mismo lugar, la IP pública de nuestro servidor creado en el paso anterior, por lo que nuestra configuración para el primer dominio será del tipo `EL` y del segundo usaremos un `CNOMBRE` a la primera, de esa manera si necesitamos cambiar la configuración en el futuro, solo necesitamos cambiarla en un lugar.
 
-![Creando el primer dominio](/wp-content/uploads/2022/12/image-12-1024x274.png)
+![Creando el primer dominio](./2022-12-image-12.png)
 
 Creando el primer dominio
 
 Cree el primer dominio seleccionando el tipo A, ingrese la IP del servidor copiada en el paso anterior y no olvide deshabilitar el proxy de Cloudflare.
 
-![](/wp-content/uploads/2022/12/image-13-1024x273.png)
+![](./2022-12-image-13.png)
 
 Creación del dominio comodín
 
@@ -111,13 +111,13 @@ Ahora necesitamos crear nuestro dominio comodín, para eso usaremos el `*` antes
 
 Ahora que tenemos nuestros dominios configurados, finalmente podemos comenzar a configurar el aburrido proxy en nuestro servidor, para eso accederemos al SSH de nuestra máquina virtual. Vuelva a la lista de máquinas virtuales en Google Cloud y seleccione la máquina creada, haga clic en el botón SSH y se abrirá una nueva ventana con nuestro terminal.
 
-![](/wp-content/uploads/2022/12/image-14-1024x574.png)
+![](./2022-12-image-14.png)
 
 Acceder a SSH desde la máquina virtual
 
 Espere a que se transfieran las claves SSH y debería cargarse una ventana similar a esta:
 
-![Terminal SSH de máquina virtual](/wp-content/uploads/2022/12/image-15-1024x166.png)
+![Terminal SSH de máquina virtual](./2022-12-image-15.png)
 
 Terminal SSH de máquina virtual
 
@@ -133,13 +133,13 @@ Dentro de la carpeta creada ejecuta:
 
 curl -LO https://github.com/boringproxy/boringproxy/releases/latest/download/boringproxy-linux-x86\_64 chmod +x boredproxy-linux-x86\_64 sudo setcap cap\_net\_bind\_service=+ep boredproxy-linux-x86\_64
 
-![](/wp-content/uploads/2022/12/image-16-1024x267.png)
+![](./2022-12-image-16.png)
 
 Si tiene la intención de usar túneles para servicios de reenvío, como una base de datos, que usan el protocolo TCP y no HTTP, debemos editar la configuración de sshd para permitir el reenvío de puertos TCP.
 
 Editemos el archivo `/etc/ssh/sshd_config` e intercambiar `GatewayPorts no` por `GatewayPorts especificado por el cliente` . Puedes usar tu editor favorito, en mi caso, `nano /etc/ssh/sshd_config` .
 
-![](/wp-content/uploads/2022/12/image-17-1024x574.png)
+![](./2022-12-image-17.png)
 
 ### Iniciando boreproxy en el servidor
 
@@ -149,15 +149,15 @@ Muy bien, ahora podemos [empieza a aburrir al proxy](https://boringproxy.io/usag
 
 Se solicitará su correo electrónico, esta información se utiliza para generar los certificados HTTPS necesarios utilizando el [Vamos a cifrar](https://letsencrypt.org/pt-br/) . Si todo es correcto, debería ver el mensaje `Certificado obtenido con éxito...`
 
-![](/wp-content/uploads/2022/12/image-18-1024x264.png)
+![](./2022-12-image-18.png)
 
 Usa el comando `ctrl + c` para cancelar el servicio, ahora usa el comando `ls` para enumerar los archivos en la carpeta, tenga en cuenta que se creó un archivo llamado boredproxy\_db.json, es una mini base de datos de configuraciones de boredproxy. Usa el comando `gato aburridoproxy_db.json` para ver el contenido del archivo y obtener el token de acceso, guárdelo en un lugar seguro.
 
-![](/wp-content/uploads/2022/12/image-19-1024x523.png)
+![](./2022-12-image-19.png)
 
 Ejecute el comando de nuevo `./boringproxy-linux-x86_64 servidor -admin-dominio aburridoproxy.marquesfernandes.com` para comenzar a aburrirproxy y acceder al dominio de administración desde su navegador, en nuestro caso, `aburridoproxy.marquesfernandes.com` . Si todo se ha configurado correctamente, debería aparecer una pantalla solicitando el token de administrador, inserte el token y acceda al panel de administración. Mantenga abierta la ventana de terminal de la máquina virtual y el servicio en ejecución para los siguientes pasos.
 
-![panel de administración de proxy aburrido](/wp-content/uploads/2022/12/Screenshot-2022-12-12-at-11.33.35-1024x267.png)
+![panel de administración de proxy aburrido](./2022-12-Screenshot-2022-12-12-at-11.33.35.png)
 
 panel de administración de proxy aburrido
 
@@ -171,7 +171,7 @@ usemos el [crear-reaccionar-app](https://create-react-app.dev/docs/getting-start
 
 npx create-react-app my-app cd my-app npm start
 
-![aplicación de reacción de trabajo](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-14.40.27.png)
+![aplicación de reacción de trabajo](./2022-12-Screenshot-2022-12-13-at-14.40.27.png)
 
 aplicación de reacción de trabajo
 
@@ -183,7 +183,7 @@ Para cargar la base de datos, debe tener Docker instalado y [ejecuta el siguient
 
 docker run --name my-postgres -e POSTGRES\_PASSWORD=123456 -p 5432:5432 postgres
 
-![Ejecutando Postgres en Docker](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-14.52.56.png)
+![Ejecutando Postgres en Docker](./2022-12-Screenshot-2022-12-13-at-14.52.56.png)
 
 Ejecutando Postgres en Docker
 
@@ -195,7 +195,7 @@ Ahora que ya tenemos algunas aplicaciones corriendo, podemos crear la configurac
 
 ### agregando un cliente
 
-![Creando un cliente en boredproxy](/wp-content/uploads/2022/12/image-20-1024x255.png)
+![Creando un cliente en boredproxy](./2022-12-image-20.png)
 
 Creando un cliente en boredproxy
 
@@ -218,7 +218,7 @@ El panel de túneles le permite crear y eliminar túneles.Proporciona una forma 
 -   **Proteger con contraseña**  
     Habilite para establecer el nombre de usuario y la contraseña para la autenticación básica HTTP
 
-![Agregar túnel a la aplicación React](/wp-content/uploads/2022/12/image-21-1024x538.png)
+![Agregar túnel a la aplicación React](./2022-12-image-21.png)
 
 Agregar túnel a la aplicación React
 
@@ -230,7 +230,7 @@ Ahora vamos a crear nuestro primer túnel, se conectará a nuestra aplicación R
 -   **Puerto del cliente** : 3000 (puerto de nuestra aplicación de reacción)
 -   **Terminación TLS** : Cliente HTTPS
 
-![Agregar el túnel a la base de datos](/wp-content/uploads/2022/12/image-22-1024x541.png)
+![Agregar el túnel a la base de datos](./2022-12-image-22.png)
 
 Agregar el túnel a la base de datos
 
@@ -240,7 +240,7 @@ También vamos a crear un túnel para nuestra base de datos, seguiremos los mism
 -   **Terminación TLS** : Servidor HTTPS
 -   **Permitir TCP externo** : Sí
 
-![Listado de túneles Boringproxy](/wp-content/uploads/2022/12/image-23-1024x292.png)
+![Listado de túneles Boringproxy](./2022-12-image-23.png)
 
 Listado de túneles Boringproxy
 
@@ -254,11 +254,11 @@ Ahora necesitamos iniciar el servicio para conectarnos a nuestro servidor, para 
 
 ./boringproxy-dawrin-x86\_64 cliente  -servidor boreproxy.marquesfernandes.com -user admin -token <token\_copied\_from\_server> -client-name admin
 
-![cliente proxy aburrido](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-15.16.34.png)
+![cliente proxy aburrido](./2022-12-Screenshot-2022-12-13-at-15.16.34.png)
 
 Los túneles se sincronizarán, se emitirán los certificados necesarios para el lado del cliente y, si todo sale como se espera, sus aplicaciones ya estarán disponibles en Internet. En un navegador, acceda a la URL configurada para React y vea la magia y pruébela también con su base de datos.
 
-![Aplicación React accesible a través de Proxy](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-15.16.57-1024x484.png)
+![Aplicación React accesible a través de Proxy](./2022-12-Screenshot-2022-12-13-at-15.16.57.png)
 
 Aplicación React accesible a través de Proxy
 

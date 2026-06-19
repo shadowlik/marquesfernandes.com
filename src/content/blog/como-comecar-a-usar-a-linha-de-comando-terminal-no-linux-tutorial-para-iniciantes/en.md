@@ -51,19 +51,19 @@ In short, Linux is a descendant of Unix, its base was designed to behave in a si
 
 There are two ways to access your terminal in Ubuntu: Typing *Terminal* in the application search field or by keyboard shortcut `ctrl + alt + t` .
 
-![Application Search](/wp-content/uploads/2020/03/image-17.jpg)
+![Application Search](./2020-03-image-17.jpg)
 
 Application Search
 
 A window similar to the one below will appear:
 
-![Command Line - Terminal](/wp-content/uploads/2020/03/image-18.jpg)
+![Command Line - Terminal](./2020-03-image-18.jpg)
 
 Command Line - Terminal
 
 Let's start with some basic terminal concepts, first we need to understand what the texts that already appear on the screen mean.
 
-![Understanding the Terminal](/wp-content/uploads/2020/03/image-19.png)
+![Understanding the Terminal](./2020-03-image-19.png)
 
 Understanding the Terminal
 
@@ -78,7 +78,7 @@ user@computer:location$
 
 Let's now try our first command, the `pwd` , from English ' **P** rint **w** orking **d** irectory', it will display the full path to which folder we are referenced when executing the commands, type the command in your terminal and press *enter* .
 
-![Using the pwd command](/wp-content/uploads/2020/03/image-20.png)
+![Using the pwd command](./2020-03-image-20.png)
 
 Using the pwd command
 
@@ -92,25 +92,25 @@ Unlike Windows, where conventionally the root of all programs is located in `ç:
 
 Now let's navigate to the root of our computer and go back to our user root folder, for that we'll use the command **CD** , from English ' **ç** hange **d** irectory', to change suffices. enter the command `CD /` and press enter.
 
-![Using the cd command](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.26-11_01_43.png)
+![Using the cd command](./2020-03-screenshot-nimbus-capture-2020.03.26-11_01_43.png)
 
 Using the cd command
 
 We can see that we can navigate to **/** , note that in the last line we can already see the **/** after the colon. Now let's list all the folders we have in that directory with the command `ls` . Type ls and press enter.
 
-![Using the ls command](/wp-content/uploads/2020/03/image-21.jpg)
+![Using the ls command](./2020-03-image-21.jpg)
 
 Using the ls command
 
 Folder convention may vary by linux distribution, we are interested in folder `/home` , we want to navigate to it, for that we'll repeat the previous steps, now executing the command `home cd` and then `ls` to list the contents of the folder.
 
-![Navigating to the root folder ](/wp-content/uploads/2020/03/image-22.jpg)
+![Navigating to the root folder ](./2020-03-image-22.jpg)
 
 Navigating to the root folder
 
 Here we notice that there is only one folder inside the /home folder, because there is only one user created on my computer, if you have more than one user, their root folders will be there. Repeat the sequence of commands again, `shadowlike cd` (in this case the name of your user's folder) and `ls` .
 
-![Navigating to User Folder](/wp-content/uploads/2020/03/image-23.jpg)
+![Navigating to User Folder](./2020-03-image-23.jpg)
 
 Navigating to User Folder
 
@@ -126,7 +126,7 @@ Before moving on, let's learn how to clean our terminal, as we've already execut
 
 Now let's learn how to create a folder in our home (~), for that we'll use the command `mkdir` , from English ' **m** The **k** and **right** ectory (create folder)', let's create a folder called Tutorial, type `mkdir Tutorial` and then use the ls command to validate that our directory was created.
 
-![Creating the Tutorial Folder](/wp-content/uploads/2020/03/image-24.jpg)
+![Creating the Tutorial Folder](./2020-03-image-24.jpg)
 
 Creating the Tutorial Folder
 
@@ -136,13 +136,13 @@ Now let's create a simple text file, let's learn two ways to do this, using the 
 
 With the touch command we can create an empty text file, for that type `touch text.txt` and `ls` to verify the creation.
 
-![Creating a file with the Touch command](/wp-content/uploads/2020/03/image-25.png)
+![Creating a file with the Touch command](./2020-03-image-25.png)
 
 Creating a file with the Touch command
 
 Now we will use the echo command to create a text file with content, for that type `echo "Hello world!" >text2.txt` . To validate the content of this file we will use the command `cat` , it will return to us all the content inside the file, type `cat text2.txt` .
 
-![Creating a file with the echo command](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.26-11_25_40.jpg)
+![Creating a file with the echo command](./2020-03-screenshot-nimbus-capture-2020.03.26-11_25_40.jpg)
 
 Creating a file with the echo command
 
@@ -150,7 +150,7 @@ Creating a file with the echo command
 
 On Linux there is no way to rename files, I won't go into the technical details of why, what we can do is move this file with a new name and we will get the similar behavior we want. For this we will use the command `mv` , from English ' **m** The **v** and', type `mv text2.txt olamundo.txt` and use the command `cat olamundo.txt` to validate the execution.
 
-![moving files](/wp-content/uploads/2020/03/image-26.jpg)
+![moving files](./2020-03-image-26.jpg)
 
 moving files
 
@@ -160,13 +160,13 @@ The first argument is the location of the file and the second the final location
 
 Now that we've learned how to create folders and files, let's learn how to delete them. To delete empty folders you can use the command `rmdir` , from English ' **r** and **m** hello **d** irectory', but this command is only possible if the folder is empty. To remove files and folders with content, we use the command `rm` , to delete files is very simple, use the command `rm helloworld.txt` and `ls` to validate the execution.
 
-![removing files](/wp-content/uploads/2020/03/image-27.jpg)
+![removing files](./2020-03-image-27.jpg)
 
 removing files
 
 Now let's go back to our user root folder to remove the Tutorial folder we created earlier, for that type `CD ..` to go back a folder, and use the command `rm -r` Tutorial, this command indicates that we want to forcibly and recursively remove (-r) the folder and any content inside.
 
-![Removing folders](/wp-content/uploads/2020/03/image-28.jpg)
+![Removing folders](./2020-03-image-28.jpg)
 
 Removing folders
 
@@ -180,7 +180,7 @@ So far we've run one command at a time, but it's possible to chain together a se
 
 cd ~ && mkdir Texts && echo "Hello world" > Texts/mundo.txt && cat Texts/mundo.txt
 
-![Running commands chained!](/wp-content/uploads/2020/03/image-29.png)
+![Running commands chained!](./2020-03-image-29.png)
 
 Executing Chained Commands
 
@@ -194,7 +194,7 @@ We can use any command with root privileges, for that we just need to type `sudo
 
 Let's do a test to see how permissions work in practice, let's try to create a command in the root of our system, which by default requires root privileges for any write operation, the expected result is a privilege error.
 
-![Running commands without privileges](/wp-content/uploads/2020/03/image-34.png)
+![Running commands without privileges](./2020-03-image-34.png)
 
 Running commands without privileges
 
@@ -202,19 +202,19 @@ Running commands without privileges
 
 Installing any application via the Ubuntu package manager requires root privileges, we will use this command as an example. Let's install a simple program, similar to the Windows task manager, the *htop* . enter the command `sudo apt-get install htop` and press enter, the password will be required.
 
-![Installing htop application](/wp-content/uploads/2020/03/image-30.png)
+![Installing htop application](./2020-03-image-30.png)
 
 Installing htop application
 
 For linux security, when you type your password, nothing appears, not even the \*\*\*\*\*\*, so it is important that you type your password calmly and press enter. Three wrong attempts will cancel your command.
 
-![Installing htop application - part 2](/wp-content/uploads/2020/03/image-32.jpg)
+![Installing htop application - part 2](./2020-03-image-32.jpg)
 
 Installing htop application - part 2
 
 If everything goes as expected, we will have successfully installed the program. *htop* , now you can open the linux task manager, see resources like memory, processing and open services with a simple command, type `htop` and press enter.
 
-![Using htop application](/wp-content/uploads/2020/03/image-33.jpg)
+![Using htop application](./2020-03-image-33.jpg)
 
 Using htop application
 

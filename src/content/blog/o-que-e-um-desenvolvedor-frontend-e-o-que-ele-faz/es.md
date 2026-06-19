@@ -21,7 +21,7 @@ El frontend trabaja en conjunto con el backend, responsable de enviar la informa
 
 Consulte la siguiente ilustración para comprender mejor la relación entre las dos capas:
 
-![Flujo web simple](/wp-content/uploads/2020/08/Servidor-e1597608701874-1024x379.jpg)
+![Flujo web simple](./2020-08-Servidor-e1597608701874.jpg)
 
 Flujo web simple
 
@@ -55,19 +55,19 @@ Como se explicó anteriormente, el desarrollo de frontend gira en torno a 3 tecn
 
 El proceso de desarrollo en el frontend ha experimentado una mejora exponencial, hoy en día es posible programar fácilmente aplicaciones web complejas y organizadas gracias al desarrollo de nuevos frameworks. Vea a continuación los marcos principales y populares de la actualidad.
 
-![](/wp-content/uploads/2020/08/wp2465923-1024x576.jpg)
+![](./2020-08-wp2465923.jpg)
 
 ### ReactJS
 
 **Reac**t (también conocido como **React.j**s o **ReactJS**) es una biblioteca de JavaScript de código abierto para crear interfaces de usuario o componentes de UI. Lo mantiene Facebook y una comunidad de desarrolladores y empresas individuales. React se puede utilizar como base para desarrollar aplicaciones móviles o de una sola página. 
 
-![](/wp-content/uploads/2020/08/6017da3ed8f203fe979b16dae1ad2259-1024x576.png)
+![](./2020-08-6017da3ed8f203fe979b16dae1ad2259.png)
 
 ### VueJS
 
 Vue (pronunciado / vjuː /, como v**ista**) es una **estructura progresiva** para construir interfaces de usuario. A diferencia de otras estructuras monolíticas, Vue fue diseñado desde el principio para ser adoptado de forma incremental. La biblioteca central se centra solo en la capa de visualización y es fácil de seleccionar e integrar con otras bibliotecas o proyectos existentes.
 
-![](/wp-content/uploads/2020/08/wp5722157-1024x576.png)
+![](./2020-08-wp5722157.png)
 
 ### AngularJS
 

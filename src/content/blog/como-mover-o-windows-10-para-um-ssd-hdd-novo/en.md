@@ -31,13 +31,13 @@ The migration process can take a good few minutes, so to facilitate and speed up
 
 The first step is to do a disk cleanup, you can access this program by typing " **Disc Cleanning** " in the start menu. Select the files to be deleted and press OK. This step may take a few minutes depending on the number of files to be deleted.
 
-![Disc Cleanning](/wp-content/uploads/2020/09/image-1.png)
+![Disc Cleanning](./2020-09-image-1.png)
 
 ### 2.2. Uninstall Unused Programs
 
 Access the control panel by typing " **Control panel** " in your home menu and look for the option " **Uninstall a Program** ".
 
-![](/wp-content/uploads/2020/09/image-2-1-1024x560.jpg)
+![](./2020-09-image-2-1.jpg)
 
 On this screen you will find all the programs installed on your computer, check the list and uninstall any programs you no longer use.
 
@@ -49,25 +49,25 @@ Browse through your folders, especially folders from *Documents* , *Images* and 
 
 Windows 10 doesn't offer a native, simple way to clone and swap your operating system to a new hard drive. For that we will need to download and install the program. [EaseUS](https://www.easeus.com/backup-software/tb-free.html) .
 
-![](/wp-content/uploads/2020/09/image-3-1024x650.png)
+![](./2020-09-image-3.png)
 
 ## 4\. Select Source Disk
 
 The first step is to select the source disk, that is, the disk where Windows 10 is installed. Remembering that the size occupied by the source disk must be less than or equal to the available size of the new disk. Click on the side menu to enter the cloning tool and select the entire disk that contains your operating system installation, click next.
 
-![Select Source Disk](/wp-content/uploads/2020/09/image-5.png)
+![Select Source Disk](./2020-09-image-5.png)
 
 ## 5\. Select Destination Disk
 
 Now we need to select the destination disk, the disk to which we want to move the Windows 10 installation.
 
-![Select Destination Disk](/wp-content/uploads/2020/09/image-7.png)
+![Select Destination Disk](./2020-09-image-7.png)
 
 ### 5.1. Migrating to SSD
 
 If you are migrating the installation to an SSD type disk, it is recommended that you click "Advanced Options" and select the "Optimize for SSD" option.
 
-![Migrating to SSD](/wp-content/uploads/2020/09/image-9.png)
+![Migrating to SSD](./2020-09-image-9.png)
 
 Click next and start the hard disk cloning process, remembering that this will delete all files from the destination disk. This step may take a few minutes, it will all depend on your computer's speed and the amount of files to be migrated to the new disk.
 

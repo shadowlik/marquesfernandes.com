@@ -24,7 +24,7 @@ Separeis os top sites de torrent que funcionam e que contém uma ampla seleção
 
 ## 1\. [RARBG](https://rarbgproxied.org/torrents.php) - Torrents no Geral
 
-[![RARBG](/wp-content/uploads/2020/08/image-17-1024x487.jpg)](https://rarbgproxied.org/torrents.php)
+[![RARBG](./2020-08-image-17.jpg)](https://rarbgproxied.org/torrents.php)
 
 O **[RARBG](https://rarbgproxied.org/torrents.php)** é o meu site favorito, ele existe desde 2008 e construiu uma reputação por conter torrents de alta qualidade**,** fácil de usar e é um dos, se não o portal de torrent mais atualizado disponível. Diferente de outros sites, o público geral não pode fazer upload para ele, em vez disso, todos os remetentes são verificados previamente por moderadores.
 
@@ -37,7 +37,7 @@ O site possuí diversos pontos positivos:
 
 ## 2\. [YIFI](https://yts.mx/) - Torrents de Filmes
 
-[![YIFI](/wp-content/uploads/2020/08/image-17-1-1024x487.jpg)](https://yts.mx/)
+[![YIFI](./2020-08-image-17-1.jpg)](https://yts.mx/)
 
 **YIFY Torrents** ou **YTS** é um grupo muito famoso na comunidade dos torrents, eles fornecem filmes em alta qualidade desde que eu lembro de utilizar esse meio de baixar arquivos. Os lançamentos do YIFY ganharam muita popularidade por sua qualidade de vídeo e distribuição em um tamanho pequeno de arquivo, o que atraiu muitos usuários.
 
@@ -47,7 +47,7 @@ O site original do YIFY/YTS foi fechado pela [MPAA](https://pt.wikipedia.org/wi
 
 ## 3\. [The Pirate Bay](https://thepiratebay10.org/) - Torrents no Geral
 
-![The Pirate Bay](/wp-content/uploads/2020/08/image-17-2-1024x487.jpg)
+![The Pirate Bay](./2020-08-image-17-2.jpg)
 
 O [Pirate Bay](https://thepiratebay10.org/), TPB para os íntimos, tem uma história longa e difícil, inclusive existe um documentário contando toda a saga que esse site e os seus criadores já passaram: [TPB AFK](https://pt.wikipedia.org/wiki/TPB_AFK). Atualmente ele continua sendo o favorito do público e segue mais forte que nunca, possui milhões de torrents disponíveis em várias categorias e uma interface extremamente simples que é excelente para iniciantes nesse mundo do torrent.
 
@@ -57,7 +57,7 @@ O TPB segue na mira das autoridades governamentais e o site é proibido em quase
 
 ## 4\. **[1337x](https://www.1337x.tw/)**
 
-[![1337x](/wp-content/uploads/2020/08/image-18-1024x487.jpg)](https://www.1337x.tw/)
+[![1337x](./2020-08-image-18.jpg)](https://www.1337x.tw/)
 
 O [1337x](https://www.1337x.tw/) é atualmente um dos rastreadores de torrents mais populares do mundo, a ponto de o Google ocultar os resultados em seu mecanimos de pesquisa. Ele pode ajudá-lo a encontrar um torrent mesmo que não saiba o que está procurando, graças à sua interface simples e organizada**.** Seguindo a mesma linha do RARBG, ele possui uma moderação muito eficaz e ativa em sua plataforma, filtrando e garantido a qualidade dos torrents disponíveis nele.
 
@@ -65,7 +65,7 @@ Como o terceiro site de torrents mais popular do mundo e um dos mais antigos ain
 
 ## 5\. [Kickass Torrents](https://newkatcr.co/)
 
-[![Kickass Torrents](/wp-content/uploads/2020/08/image-18-1024x487.png)](https://newkatcr.co/)
+[![Kickass Torrents](./2020-08-image-18.png)](https://newkatcr.co/)
 
 O [Kickass Torrents](https://newkatcr.co/), também conhecido como [KATCR.CO](https://newkatcr.co/), possui uma enorme biblioteca de torrents e uma comunidade igualmente grande**,** conta com uma ampla seleção de filmes e seriados. Isso significa que você provavelmente poderá encontrar todo o conteúdo que deseja e baixar nesse portal rapidamente.
 

@@ -20,13 +20,13 @@ Have you ever had two or more tabs open with sound? Whether it's listening to mu
 
 ## Master Volume To Control Tab Volume in Google Chrome
 
-![Master Volume](/wp-content/uploads/2020/08/image-19.jpg)
+![Master Volume](./2020-08-image-19.jpg)
 
 You can easily and securely download the *Master Volume* on the Chrome Web Store. Once downloaded and installed, you can access and control the volume of each tab simply by clicking on the extension icon.
 
 If the icon is not visible you need to click on the puzzle icon and select to make it visible in extension shortcuts:
 
-![ Google Chrome Extension](/wp-content/uploads/2020/08/image-20.jpg)
+![ Google Chrome Extension](./2020-08-image-20.jpg)
 
 ### Adjust volume in Chrome tabs separately
 

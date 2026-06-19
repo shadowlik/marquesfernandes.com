@@ -38,7 +38,7 @@ APIs are typically categorized by their level of access:
 -   **Partners:** Only partners have access to APIs. For example, Nubank only allows certain companies to use their APIs to connect with their applications. This allows for control and curation by the company providing the API, giving them more control of who is accessing their resources.
 -   **Public:** Public APIs are made available for public use, anyone can have access. For example, Microsoft releases the [Windows APIs](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list) so that any developer can develop an application for their operating system, or LinkedIn that provides a [public API](https://developer.linkedin.com/docs/rest-api#) for any user to connect with your application.
 
-![How an API works](/wp-content/uploads/2020/04/como-api-funciona.jpg)
+![How an API works](./2020-04-como-api-funciona.jpg)
 
 ## web APIs
 

@@ -31,19 +31,19 @@ Si eres nuevo en el mundo Linux, la instalación por línea de comandos puede se
 
 Primero ve a h[ttps://www.google.com/chrome](https://www.google.com/chrome/)/ para acceder a la página de descarga de Chrome.
 
-![Chrome Paso 1](/wp-content/uploads/2020/08/image-6-1024x574.jpg)
+![Chrome Paso 1](./2020-08-image-6.jpg)
 
 Haga clic en descargar, asegúrese de que ubuntu instalado es de 64 bits, si es la última versión de Ubuntu es seguro que es de 64 bits.
 
-![Paso 2 Chrome](/wp-content/uploads/2020/08/image-7-1024x577.jpg)
+![Paso 2 Chrome](./2020-08-image-7.jpg)
 
 Elija la opción DEB para Ubuntu/Debian.
 
-![Chrome Paso 3](/wp-content/uploads/2020/08/image-8-1024x580.jpg)
+![Chrome Paso 3](./2020-08-image-8.jpg)
 
 Guarde el archivo localmente, abrir directamente con Ubuntu Store puede no funcionar.
 
-![Chrome Paso 4](/wp-content/uploads/2020/08/image-9-1024x580.jpg)
+![Chrome Paso 4](./2020-08-image-9.jpg)
 
 Abra el archivo y siga los pasos de instalación! ¡Es tan simple como eso! Ahora ya tienes Google Chrome instalado en tu Ubuntu.
 

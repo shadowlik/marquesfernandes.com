@@ -82,7 +82,7 @@ O arquivo deve ser salvo com a extensão `.ps1` (PowerShell).
 
 Para criar o agendamento no Windows você pode utilizar o Agendador de Tarefas.
 
-![Agendador de Tarefas](/wp-content/uploads/2020/03/image-1.jpg)
+![Agendador de Tarefas](./2020-03-image-1.jpg)
 
 ## Criando Backups do MySQL Diariamente no Linux
 

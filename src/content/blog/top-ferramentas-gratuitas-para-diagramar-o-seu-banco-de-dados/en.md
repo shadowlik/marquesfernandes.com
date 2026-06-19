@@ -30,24 +30,24 @@ The good news is that there are great tools to help with this task, I have put t
 
 ## 1\. [dbdiagram.io](https://dbdiagram.io/home?utm_source=marquesfernandes&utm_medium=blog_post)
 
-[![dbdiagram.io](/wp-content/uploads/2020/05/dbdiagram-demo.0791273.gif)](https://dbdiagram.io/home?utm_source=marquesfernandes&utm_medium=blog_post)
+[![dbdiagram.io](./2020-05-dbdiagram-demo.0791273.gif)](https://dbdiagram.io/home?utm_source=marquesfernandes&utm_medium=blog_post)
 
 [dbdiagram.io](https://dbdiagram.io/home?utm_source=marquesfernandes&utm_medium=blog_post) is an online tool that easily allows for quick prototyping of entities and relationships. I put it in first place as it is my go-to tool on a daily basis when I need to structure a relationship. It has github integration, which allows you to easily version your work.
 
 ## two. [diagrams.net (draw.io)](https://www.diagrams.net?utm_source=marquesfernandes&utm_medium=blog_post)
 
-[![diagrams.net (draw.io)](/wp-content/uploads/2020/05/image-14-1024x502.png)](https://www.diagrams.net?utm_source=marquesfernandes&utm_medium=blog_post)
+[![diagrams.net (draw.io)](./2020-05-image-14.png)](https://www.diagrams.net?utm_source=marquesfernandes&utm_medium=blog_post)
 
 [diagrams.net](https://www.diagrams.net?utm_source=marquesfernandes&utm_medium=blog_post) is an excellent tool for designing your database and the relationship between entities. It has integration with OneDrive and Google Drive to automatically save your projects. As it is a more complete tool, you can in addition to diagram your database, draw flowcharts, organization charts and much more.
 
 ## 3\. [Lucidchart](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post)
 
-[![Lucidchart](/wp-content/uploads/2020/05/image-15-1024x502.png)](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post)
+[![Lucidchart](./2020-05-image-15.png)](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post)
 
 [Lucidchart](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post) follows the same line as diagrams.net, a complete and versatile tool that allows database diagramming, entity relationships, etc. There is a limitation of 100 basic templates in the free plan, but for simple projects this shouldn't be a hindrance.
 
 ## 4\. [MySQL Workbench](https://www.mysql.com/products/workbench?utm_source=marquesfernandes&utm_medium=blog_post)
 
-[![MySQL Workbench](/wp-content/uploads/2020/05/image-16-1024x538.png)](https://www.mysql.com/products/workbench?utm_source=marquesfernandes&utm_medium=blog_post)
+[![MySQL Workbench](./2020-05-image-16.png)](https://www.mysql.com/products/workbench?utm_source=marquesfernandes&utm_medium=blog_post)
 
 [MySQL Workbench](https://www.mysql.com/products/workbench?utm_source=marquesfernandes&utm_medium=blog_post) is a tool developed by Oracle focused on administering and building a database in MySQL, however, its diagramming tool is very practical and complete, and can be used to diagram entities and especially SQL databases, making it a powerful offline alternative .

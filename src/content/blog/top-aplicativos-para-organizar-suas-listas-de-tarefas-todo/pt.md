@@ -29,7 +29,7 @@ Escolher o aplicativo certo para você é uma tarefa bem pessoal, mas não preci
 
 ## #1 [Todoist](https://todoist.com/)
 
-[![Todoist Painel de Controle](/wp-content/uploads/2019/12/image-7-1024x496.png)](https://todoist.com/)
+[![Todoist Painel de Controle](./2019-12-image-7.png)](https://todoist.com/)
 
 [Todoist](https://todoist.com/) tem uma interface bastante minimalista, mas ainda possui muitas funcionalidades avançadas e inclusive recomendação baseada em IA. Ele é o meu aplicativo do dia-a-dia, conta com uma integração eficaz com o calendário da google, ele é simples e eficaz, cumprindo bem o seu papel de organizar as suas tarefas.
 
@@ -43,7 +43,7 @@ Todoist é flexível o suficiente para se adaptar à maioria dos fluxos de traba
 
 ## #2 [Microsoft To-Do](https://todo.microsoft.com/pt-br)
 
-[![Microsoft Todo Painel de Controle](/wp-content/uploads/2019/12/image-6-1024x496.png)](https://todo.microsoft.com/pt-br)
+[![Microsoft Todo Painel de Controle](./2019-12-image-6.png)](https://todo.microsoft.com/pt-br)
 
 Em 2015, a Microsoft comprou o Wunderlist e colocou essa equipe para trabalhar em um novo aplicativo de lista de tarefas. O [Microsoft To-Do](https://todo.microsoft.com/pt-br) é o resultado disso, e você pode encontrar o DNA do Wunderlist (algumas funcionalidades ainda estão faltando) ao longo do projeto. A interface principal é limpa e amigável, a adição de tarefas é rápida, mas há muita flexibilidade abaixo da superfície.
 
@@ -57,7 +57,7 @@ Eu particularmente gostei bastante das funcionalidades integradas e do novo visu
 
 ## #3 [Google](https://support.google.com/tasks/answer/7675772?co=GENIE.Platform%3DDesktop&hl=pt) [Tasks](https://gsuite.google.com/learning-center/products/apps/keep-track-of-tasks/)
 
-[![Google Tasks Painel de Controle](/wp-content/uploads/2019/12/image-11-1024x496.jpg)](https://gsuite.google.com/learning-center/products/apps/keep-track-of-tasks/)
+[![Google Tasks Painel de Controle](./2019-12-image-11.jpg)](https://gsuite.google.com/learning-center/products/apps/keep-track-of-tasks/)
 
 O Google Tasks é uma ótima solução, se você deseja um aplicativo simples e sem frescuras que funcione perfeitamente dentro do ecossistema do Google (especialmente o Gmail e o Google Agenda). Mas não espere muitos recursos avançados, é uma ferramenta simples.
 
@@ -69,7 +69,7 @@ Se você é o tipo de pessoa que está sempre com o Gmail aberto, é bem prováv
 
 ## #4 [Any.do](https://www.any.do/)
 
-[![Any.do Painel de Controle](/wp-content/uploads/2019/12/image-10-1024x496.png)](https://www.any.do/)
+[![Any.do Painel de Controle](./2019-12-image-10.png)](https://www.any.do/)
 
 O [Any.do](https://www.any.do/) oferece um aplicativo amigável que facilita a adição de tarefas, a organização em listas e a data de vencimento da tarefa. Mas o que realmente se destaque no Any.do é o recurso diário "Planeje meu dia", que obriga a agendar quando você realizará várias tarefas, para que se lembre de realmente fazer as coisas. O Any.do também conta com integração aos calendários do Google e do Outlook, permitindo que você veja seus compromissos e tarefas em um só lugar.
 
@@ -79,7 +79,7 @@ O [Any.do](https://www.any.do/) oferece um aplicativo amigável que facilita a a
 
 ## #5 [Trello](https://trello.com/)
 
-[![Trello Painel de Controle](/wp-content/uploads/2019/12/image-8-1024x496.jpg)](https://trello.com/)
+[![Trello Painel de Controle](./2019-12-image-8.jpg)](https://trello.com/)
 
 [Trello](https://trello.com/b/AwYSWOyt/ultimate-to-do-list) é uma excelente ferramenta para quem gosta de Kanban, podendo ser adaptada para um board de lista de tarefas como [nesse exemplo](https://trello.com/b/AwYSWOyt/ultimate-to-do-list). Embora não seja feito especificamente para ser um aplicativo de tarefas, se você está acostumado a trabalhar nesse modelo poderá ser algo muito útil, existem inúmeros plugins de integrações com os mais diversos serviços, fazendo dele uma ferramenta bem versátil.
 
@@ -89,7 +89,7 @@ Navegador | [Mac](https://itunes.apple.com/app/trello/id1278508951?ls=1&mt=12) |
 
 ## #6 [Asana](https://asana.com/pt)
 
-[![Asana Painel de Controle](/wp-content/uploads/2019/12/image-9-1024x496.png)](https://asana.com/pt)
+[![Asana Painel de Controle](./2019-12-image-9.png)](https://asana.com/pt)
 
 O [Asana](https://asana.com/pt) segue a linha do Trello, sendo uma ferramenta feita basicamente para gerenciar projetos, mas com um pouco de imaginação e ajuste se torna uma ferramenta útil para organizar suas tarefas.
 

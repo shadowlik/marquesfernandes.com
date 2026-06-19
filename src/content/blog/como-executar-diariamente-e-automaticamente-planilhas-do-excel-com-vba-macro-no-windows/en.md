@@ -86,13 +86,13 @@ Now we need to replace some information:
 
 Let's save this file with the extension **.vbs** : In Notepad when saving in the filename field type something like: **excelautomatico.vbs** and in file type select: **All files** . Good thing all the paths are correct and save this file somewhere safe where no one can accidentally remove it. Make a note of the saved file path as we will need it later!
 
-[![](/wp-content/uploads/2019/09/image.jpg)](/wp-content/uploads/2019/09/image.jpg)
+[![](./2019-09-image.jpg)](./2019-09-image.jpg)
 
 ## Creating the schedule with Task Scheduler
 
 To find the program just type in the start menu search **scheduler task** . 
 
-[![](/wp-content/uploads/2019/09/image-1.jpg)](/wp-content/uploads/2019/09/image-1.jpg)
+[![](./2019-09-image-1.jpg)](./2019-09-image-1.jpg)
 
 To create a new task just click on the button on the right side: **Create Task...**
 

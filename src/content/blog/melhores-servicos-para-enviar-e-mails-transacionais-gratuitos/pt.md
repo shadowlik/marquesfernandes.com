@@ -41,7 +41,7 @@ Escolher um serviço que atenda sua demanda é muito importante, como essa funci
 
 ## 1\. [Amazon SES](https://aws.amazon.com/pt/ses/)
 
-[![Amazon SES](/wp-content/uploads/2020/05/image-8-1024x525.png)](https://aws.amazon.com/pt/ses/)
+[![Amazon SES](./2020-05-image-8.png)](https://aws.amazon.com/pt/ses/)
 
 A Amazon Web Services possui diversos serviços cloud, dentre eles o **Amazon SES** para envio de e-mails transacionais. Contando com toda a estrutura e confiabilidade da AWS, possui preços bem acessíveis. É uma solução robusta para quem possui uma certa experiência técnica, o serviço não oferece estatísticas por si, é preciso conectar com o outro serviço, o [AWS SNS](https://aws.amazon.com/pt/sns/), para conseguir acompanhar as métricas de seus envios.
 
@@ -49,7 +49,7 @@ A Amazon Web Services possui diversos serviços cloud, dentre eles o **Amazon SE
 
 ## 2\. [SendGrid](https://sendgrid.com/)
 
-[![SendGrid](/wp-content/uploads/2020/05/image-10-1024x525.png)](https://sendgrid.com/)
+[![SendGrid](./2020-05-image-10.png)](https://sendgrid.com/)
 
 **SendGrid** é um dos serviços mais populares, possui mais de 80 mil usuários pagantes e enviam mais de 60 bilhões de e-mails por mês. Possui uma interface robusta para acompanhar, monitorar e analisar seus envios, bem como uma API muito bem documentada para integrar com sua aplicação.
 
@@ -62,7 +62,7 @@ A Amazon Web Services possui diversos serviços cloud, dentre eles o **Amazon SE
 
 ## 3\. [Mailgun](https://www.mailgun.com/)
 
-[![Mailgun](/wp-content/uploads/2020/05/image-9-1024x525.png)](https://www.mailgun.com/)
+[![Mailgun](./2020-05-image-9.png)](https://www.mailgun.com/)
 
 **Mailgun** é uma solução completa para todo o escossistema de emails, desde envios até validações. Possui uma interface bem amigável, estatísticas completas e é uma ferramenta consolidada no mercado.
 
@@ -77,7 +77,7 @@ Embora não seja uma solução 100% gratuita, oferece um plano de graça pelos p
 
 ## 4\. [Mailjet](https://www.mailjet.com/)
 
-[![Mailjet](/wp-content/uploads/2020/05/image-12-1024x525.jpg)](https://www.mailjet.com/)
+[![Mailjet](./2020-05-image-12.jpg)](https://www.mailjet.com/)
 
 **Mailjet** é outro serviço consolidado no mercado, atendendo grandes empresas como a Microsoft e MIT. Sua plataforma é extremamente amigável, com estatísticas avançadas e APIs bem documentas para integrar com a sua aplicação.
 
@@ -92,7 +92,7 @@ Embora não seja uma solução 100% gratuita, oferece um plano de graça pelos p
 
 ## 5\. [SendinBlue](https://pt.sendinblue.com/)
 
-[![SendinBlue](/wp-content/uploads/2020/05/image-13-1024x525.jpg)](https://pt.sendinblue.com/)
+[![SendinBlue](./2020-05-image-13.jpg)](https://pt.sendinblue.com/)
 
 **SendinBlue** é um serviço focado em marketing, possui uma plataforma extremamente amigável.
 

@@ -33,29 +33,29 @@ Tanto el número de especies procesadas y analizadas, como el número de imágen
 
 ### 1\. Toma o envía una foto de la planta en cuestión.
 
-![PlantNet enviar foto](/wp-content/uploads/2020/11/Screenshot_20201116-141917-512x1024.jpg)
+![PlantNet enviar foto](./2020-11-Screenshot_20201116-141917.jpg)
 
 Lo primero que debes hacer es enviar una foto de la planta, flor o fruto que deseas identificar. Puede tomar una foto directamente desde la aplicación o cargar una imagen desde su galería.
 
 ## dos. Seleccione a qué parte de la planta corresponde la foto
 
-![Órgano selecto de PlantNet](/wp-content/uploads/2020/11/Screenshot_20201116-145531-512x1024.jpg)
+![Órgano selecto de PlantNet](./2020-11-Screenshot_20201116-145531.jpg)
 
 Ahora necesitas informar qué parte de la foto está en evidencia en la foto, esto ayuda al algoritmo a poder identificar mejor y cruzar con las fotos en su base de datos. Espera, normalmente el proceso de envío es muy rápido.
 
 ## 3\. Identificar las posibles especies de plantas
 
-![PlantNet identificar planta](/wp-content/uploads/2020/11/Screenshot_20201116-141803-1-512x1024.jpg)
+![PlantNet identificar planta](./2020-11-Screenshot_20201116-141803-1.jpg)
 
 Una vez identificado, se enumerarán todas las posibles coincidencias para su planta, ahora tendremos que evaluar los resultados para identificar qué planta es de hecho.
 
 La aplicación facilita mucho esta tarea, puedes ver en cada posible especie correspondiente, fotos de otros usuarios de la flor, hoja o fruto. En la misma pestaña es posible acceder a la página de la especie en cuestión en Wikipedia, y ver un mapa con ocurrencias de otros usuarios, lo que facilita identificar si se trata de una planta típica de tu región.
 
--   ![](/wp-content/uploads/2020/11/Screenshot_20201116-141809-512x1024.jpg)
+-   ![](./2020-11-Screenshot_20201116-141809.jpg)
     
--   ![](/wp-content/uploads/2020/11/Screenshot_20201116-141851-512x1024.jpg)
+-   ![](./2020-11-Screenshot_20201116-141851.jpg)
     
--   ![](/wp-content/uploads/2020/11/Screenshot_20201116-141816-512x1024.jpg)
+-   ![](./2020-11-Screenshot_20201116-141816.jpg)
     
 
 ## 4\. Validar el resultado encontrado
@@ -64,8 +64,8 @@ Ahora tienes la opción de validar el resultado encontrado, si estás seguro de 
 
 PlantNet está disponible en la versión web, iOS y Android:
 
-[![](/wp-content/uploads/2020/11/identifyEN.png)](https://identify.plantnet-project.org/)
+[![](./2020-11-identifyEN.png)](https://identify.plantnet-project.org/)
 
-[![](/wp-content/uploads/2020/11/Get_it_on_Google_play.svg-2-300x88-1.png)](https://play.google.com/store/apps/details?id=org.plantnet)
+[![](./2020-11-Get_it_on_Google_play.svg-2-300x88-1.png)](https://play.google.com/store/apps/details?id=org.plantnet)
 
-[![](/wp-content/uploads/2020/11/Download_on_the_App_Store_Badge.svg_-300x89-1.png)](https://apps.apple.com/fr/app/plantnet/id600547573)
+[![](./2020-11-Download_on_the_App_Store_Badge.svg_-300x89-1.png)](https://apps.apple.com/fr/app/plantnet/id600547573)

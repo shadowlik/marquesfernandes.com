@@ -27,7 +27,7 @@ Entonces, ¿qué características e información realmente importan cuando se tr
 
 ## 1\. Antenas - ¿Una, dos o treinta antenas?
 
-![Qué significan las especificaciones de su router y para qué sirve](/wp-content/uploads/2020/02/tp_link_archer_c5400x_gaming_roteador_ac5400_tri_band_giga_10693_1_20200110094425.webp)
+![Qué significan las especificaciones de su router y para qué sirve](./2020-02-tp_link_archer_c5400x_gaming_roteador_ac5400_tri_band_giga_10693_1_20200110094425.webp)
 
 ¡Dios mío, cuántas antenas! ¿Es un router o una nave espacial?
 
@@ -41,7 +41,7 @@ Compruebe también la potencia de las antenas integradas en su router, buscar la
 
 ## 2\. Bandas, canales de frecuencia - ¿Single, Dual o Tri-band?
 
-![Alcance y frecuencia de los estándares IEEE 802.11.](/wp-content/uploads/2020/02/RF_Essentials_Fig1.gif)
+![Alcance y frecuencia de los estándares IEEE 802.11.](./2020-02-RF_Essentials_Fig1.gif)
 
 [Alcance y frecuencia de los estándares IEEE 802.11.](https://www.gta.ufrj.br/grad/15_1/802.11ah/ieee80211ah.html)
 

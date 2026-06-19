@@ -21,7 +21,7 @@ Fortunately, there are several websites available online, where you can download
 
 ## **[OpenSubtitles](https://www.opensubtitles.org/pb/search/subs)**
 
-[![OpenSubtitles](/wp-content/uploads/2020/11/image-1-1024x487.png)](https://www.opensubtitles.org/pb/search/subs)
+[![OpenSubtitles](./2020-11-image-1.png)](https://www.opensubtitles.org/pb/search/subs)
 
 With one of the largest collections of film and series subtitles on the internet (more than five million, according to the site itself), the [OpenSubtitles](https://www.opensubtitles.org/pb/search/subs) it's probably the first site you want to turn to if you're looking for quality subtitles.
 
@@ -33,7 +33,7 @@ The site doesn't just include movie subtitles you can also join the community fo
 
 ## [Addicted](https://www.addic7ed.com/)
 
-[![Addicted](/wp-content/uploads/2020/11/image-3-1024x487.png)](https://www.addic7ed.com/)
+[![Addicted](./2020-11-image-3.png)](https://www.addic7ed.com/)
 
 [Addicted](https://www.addic7ed.com/) (which means from English, addicted) is intended to be the catalog that provides subtitles for movie addicts. Like OpenSubtitles, it is one of the main sites to download subtitles for movies and TV shows, and it also has several languages on its platform.
 
@@ -43,7 +43,7 @@ The site also offers a schedule showing upcoming releases of your favorite TV sh
 
 ## [Podnapisi](https://www.podnapisi.net/)
 
-[![Podnapisi](/wp-content/uploads/2020/11/image-5-1024x487.png)](https://www.podnapisi.net/)
+[![Podnapisi](./2020-11-image-5.png)](https://www.podnapisi.net/)
 
 [Podnapisi](https://www.podnapisi.net/) is one of the cleanest and simplest to use!The site has over 2 million downloadable subtitles, with over 58,000 movies and over 6,000 TV series available.
 
@@ -51,13 +51,13 @@ Like other major subtitle sites, Podnapisi allows you to search using an advance
 
 ## [popcorn.tv](https://pipocas.tv/login)
 
-[![popcorn.tv](/wp-content/uploads/2020/11/image-6-5-1024x487.jpg)](https://pipocas.tv/login)
+[![popcorn.tv](./2020-11-image-6-5.jpg)](https://pipocas.tv/login)
 
 [popcorn.tv](https://pipocas.tv/login) it was a pleasant surprise in my search, It has a very nice interface, but with lots of advertisements. You need to register on the site to access the subtitles. It has a very complete collection, a simple but effective search. You can see other users' ratings on the caption if you need to check the forum and even submit a request for a caption request.
 
 ## [YIFY subtitles](https://yts-subs.com/)
 
-[![YIFY](/wp-content/uploads/2020/11/image-6-1-1024x487.jpg)](https://yts-subs.com/)
+[![YIFY](./2020-11-image-6-1.jpg)](https://yts-subs.com/)
 
 With the name of the well-known piracy group and their releases in mind, [*YIFY Subtitles*](https://yts-subs.com/) is another easy-to-use site for downloading subtitles.Unlike some of the other major sites, YIFY Subtitles only offers downloadable movie subtitles.
 
@@ -65,6 +65,6 @@ Don't let the link to the piracy group put you off - YIFY subtitles are safe and
 
 ## [TVsubtitles.net](http://www.tvsubtitles.net/)
 
-[![TVsubtitles.net](/wp-content/uploads/2020/11/image-6-3-1024x487.jpg)](http://www.tvsubtitles.net/)
+[![TVsubtitles.net](./2020-11-image-6-3.jpg)](http://www.tvsubtitles.net/)
 
 [TVsubtitles.net](http://www.tvsubtitles.net/) it is not a strong site for Portuguese subtitles, but it does have some, it can be an option as a last resort.

@@ -31,7 +31,7 @@ Now let's list all available WSL installations, in my case I'm looking for Ubunt
 
 lxrunoffline list
 
-![WSL](/wp-content/uploads/2020/07/image-39.png)
+![WSL](./2020-07-image-39.png)
 
 ## Moving Ubuntu 20.04 WSL Installation to Another Disk
 

@@ -35,11 +35,11 @@ Você encontra t*odos os scripts deste tutorial na [planilha de exemplo](https:/
 
 Para acessar o Google Apps Scripts, crie uma planilha em branco ou copie a [planilha de exemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing); Clique em *Ferramentas > Editor de script*:
 
-![Google Planilhas](/wp-content/uploads/2020/01/image-1024x509.png)
+![Google Planilhas](./2020-01-image.png)
 
 Uma nova aba com o editor de texto do Google Apps Script abrirá:
 
-![Editor de texto do Google Apps Script](/wp-content/uploads/2020/01/image-5-1024x521.png)
+![Editor de texto do Google Apps Script](./2020-01-image-5.png)
 
 ## Criando os Scripts
 
@@ -49,15 +49,15 @@ Podemos facilmente importar arquivos CSV nas Planilhas do Google usando a funç�
 
 Pra todos os exemplos abaixo, ao executar os scripts precisamos autorizar o Google Apps Scripts para acessar as algumas funcionalidades das APIs do Google.
 
-![Google Apps Scripts Autorização - 1](/wp-content/uploads/2020/01/image-2.png)
+![Google Apps Scripts Autorização - 1](./2020-01-image-2.png)
 
 Provavelmente, por seu script não ser ainda homologado, a tela abaixo aparecerá:
 
-![Google Apps Scripts Autorização - 2](/wp-content/uploads/2020/01/image-3.png)
+![Google Apps Scripts Autorização - 2](./2020-01-image-3.png)
 
 Clique em *Mostrar Avançado* > *Acessar Projeto* e continue para a autorização:
 
-![Google Apps Scripts Autorização - 3](/wp-content/uploads/2020/01/image-4.png)
+![Google Apps Scripts Autorização - 3](./2020-01-image-4.png)
 
 ### Importando o arquivo CSV de um anexo de email no Gmail
 

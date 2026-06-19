@@ -23,7 +23,7 @@ If your browser feels slower than usual, don't despair, there are some helpful t
 
 It may seem obvious, but we often blame the poor browser for a bad connection. Take a speed test on a site like [speedtest.net](https://www.speedtest.net/) . It's possible that you'll spot the problem right away, get tested especially if you're on a public connection, like an airport or restaurant. And if your connection is really slow ( ~curse the net / of course~ ), make sure you or someone on your network isn't downloading or watching a video.
 
-[![https://www.speedtest.net/](/wp-content/uploads/2020/01/image-7.png)](https://www.speedtest.net/)
+[![https://www.speedtest.net/](./2020-01-image-7.png)](https://www.speedtest.net/)
 
 ## 2 - Check your open tabs
 
@@ -43,13 +43,13 @@ One more obvious but super important tip, not only for its speed but also for it
 
 If you have Google Chrome extensions installed, now is the time to check, confirm the extensions you use frequently and disable the ones you don't use, also see if any extensions are draining your computer's resources, via the shortcut `Shift + ESC` open Google Chrome's task manager and see the processor and memory consumption of your tabs and extensions.
 
-![Google Task Manager](/wp-content/uploads/2020/01/image-8-1024x548.png)
+![Google Task Manager](./2020-01-image-8.png)
 
 ## 5 - Clear temporary data
 
 Google Chrome saves several files in order to improve the user experience, but in some cases these files can overload and hamper your browser performance, so clean click on the three dots in the upper right corner, **More tools** > **Clean navigation data** . Clear all data from images and files, I don't recommend selecting the other options, earnings are low and you will lose all your history and will have to log in to all the sites you use.
 
-![Clean navigation data](/wp-content/uploads/2020/01/image-9.png)
+![Clean navigation data](./2020-01-image-9.png)
 
 ## 6 - Scan with your anti-virus
 
@@ -59,7 +59,7 @@ Malware can often be compromising your computer's performance, consequently slow
 
 Google Chrome has some hidden features, they can change, disappear or even generate unexpected behavior in your browser, so only change things here if you need a lot and are sure of what you are doing.
 
-![](/wp-content/uploads/2020/01/image-10.png)
+![](./2020-01-image-10.png)
 
 -   Experimental Screen Features - This allows Chrome to use opaque screens to increase load times and increase performance.  
     [chrome://flags/#enable-experimental-canvas-features](chrome://flags/#enable-experimental-canvas-features)
@@ -82,4 +82,4 @@ Google Chrome has some hidden features, they can change, disappear or even gener
 
 Sometimes your computer just doesn't have the capacity and just an upgrade can save your patience. More and more we demand from our browser, more complex pages, 8k videos, multi tabs for multi tasking... Resource-poor computers may simply not be able to handle so much workload, so maybe it's time to do one. [upgrade or buy a new](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook) .
 
-[![Slow computer](/wp-content/uploads/2020/01/iStock_000027871442_Medium-1-1024x671.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)
+[![Slow computer](./2020-01-iStock_000027871442_Medium-1.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)

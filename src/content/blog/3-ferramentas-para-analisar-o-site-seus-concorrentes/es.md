@@ -24,7 +24,7 @@ Echa un vistazo a algunas herramientas que utilizo para analizar a mis competido
 
 ## **[Similar Web](https://www.similarweb.com/pt)**
 
-[![SimilarWeb](/wp-content/uploads/2019/11/image-10-1024x503.jpg)](https://www.similarweb.com/pt)
+[![SimilarWeb](./2019-11-image-10.jpg)](https://www.similarweb.com/pt)
 
 [SimilarWeb](https://www.similarweb.com/pt) es una excelente herramienta para analizar cuánto tráfico están generando sus competidores.
 
@@ -40,13 +40,13 @@ El servicio es gratuito, pero la cantidad de información termina siendo limitad
 
 ## **[Alexa](https://www.alexa.com/)**
 
-[![Alexa](/wp-content/uploads/2019/11/image-11-1024x503.png)](https://www.alexa.com/)
+[![Alexa](./2019-11-image-11.png)](https://www.alexa.com/)
 
 [Alexa](https://www.alexa.com/) es una herramienta de dinosaurios de Internet, está entre nosotros durante mucho tiempo generando análisis y clasificaciones de sitios ya que me conozco por programador. No tan informativo como SimilarWeb, ofrece sólo unas pocas estimaciones aproximadas, pero su clasificación de sitios es una de las más fiables en Internet.
 
 ## [SEMRush](https://pt.semrush.com/)
 
-[![SEMRush](/wp-content/uploads/2019/11/image-12-1024x503.png)](https://pt.semrush.com/)
+[![SEMRush](./2019-11-image-12.png)](https://pt.semrush.com/)
 
 [SEMrush](https://pt.semrush.com/) es una herramienta versátil para analizar a tus competidores y con una interfaz muy intuitiva, excelente para monitorear a tus competidores.
 

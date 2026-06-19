@@ -29,7 +29,7 @@ As these search algorithms are closed, it's not clear what metrics they consider
 
 ## 1\. [Complete SEO Course - From Basic to Advanced](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.855368&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-de-seo-completo-do-basico-ao-avancado%2F) (Paid out)
 
-![Complete SEO Course - From Basic to Advanced](/wp-content/uploads/2020/07/image-23.jpg)
+![Complete SEO Course - From Basic to Advanced](./2020-07-image-23.jpg)
 
 **This SEO course is suitable for:**  
 Who wants to deeply understand what SEO is and its applications.  
@@ -46,7 +46,7 @@ The logic used in the course will be used for other marketing actions. For, the 
 
 ## two. [SEO Master Free SEO Course](https://www.seomaster.com.br/curso-tutorial-seo-gratis.html) (Free)
 
-[![SEO Master Free SEO Course](/wp-content/uploads/2020/07/image-24.png)](https://www.seomaster.com.br/curso-tutorial-seo-gratis.html)
+[![SEO Master Free SEO Course](./2020-07-image-24.png)](https://www.seomaster.com.br/curso-tutorial-seo-gratis.html)
 
 The team **SEO Master** elaborated a detailed **free seo course** to improve your knowledge and propel your site towards top Google results.
 
@@ -56,7 +56,7 @@ The team **SEO Master** elaborated a detailed **free seo course** to improve you
 
 ## 3\. [Search Engine Optimization (SEO) Course](https://university.rockcontent.com/cursos/search-engine-optimization) (Paid out)
 
-[![Search Engine Optimization (SEO) Course](/wp-content/uploads/2020/07/image-25.jpg)](https://university.rockcontent.com/cursos/search-engine-optimization)
+[![Search Engine Optimization (SEO) Course](./2020-07-image-25.jpg)](https://university.rockcontent.com/cursos/search-engine-optimization)
 
 Search Engine Optimization (SEO) is a set of techniques applied internally and externally to a website so that it is better positioned in search results and is found by the right audience, at the right time, offering the best possible response. In a digital marketing strategy, it is important to be concerned with SEO to increase your website's organic traffic, generate leads, increase brand visibility and have a better position in the market. Companies that adopt good SEO practices can get up to 13 times more visitors and 5 times more customers compared to competitors that do not use this feature.
 
@@ -69,7 +69,7 @@ Search Engine Optimization (SEO) is a set of techniques applied internally and e
 
 ## 4\. [BASIC SEO COURSE - FREE ONLINE](https://www.mirago.com.br/online/curso-seo-gratuito-online/) (Free)
 
-[![BASIC SEO COURSE - FREE ONLINE](/wp-content/uploads/2020/07/image-26.jpg)](https://www.mirago.com.br/online/curso-seo-gratuito-online/)
+[![BASIC SEO COURSE - FREE ONLINE](./2020-07-image-26.jpg)](https://www.mirago.com.br/online/curso-seo-gratuito-online/)
 
 THE **Free Online SEO Course** has been developed for all people who want to get started in the world of [SEO (Search Engine Optimization)](https://www.mirago.com.br/aula/seo/) . This is a basic course for beginners.
 
@@ -77,8 +77,8 @@ In this course you will learn the basics of SEO, as well as understand how the m
 
 ## 5\. [Digital Marketing Fundamentals by Google](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing) (Free)
 
-[![Digital Marketing Fundamentals by Google](/wp-content/uploads/2020/07/image-27.jpg)](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)
+[![Digital Marketing Fundamentals by Google](./2020-07-image-27.jpg)](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)
 
 Course not entirely focused on SEO but has a very comprehensive module. Distributed by Google itself on its Ateliê Digital online course platform, it has modules dedicated to SEO and internet visibility, it's definitely worth checking it out.
 
-![Modules dedicated to SEO and internet visibility](/wp-content/uploads/2020/07/image-28.png)
+![Modules dedicated to SEO and internet visibility](./2020-07-image-28.png)

@@ -29,7 +29,7 @@ Entre no painel administrativo do seu Wordpress e troque para o formato desejado
 
 `/%postname%/`
 
-![Configurando os links permanentes no Wordpress](/wp-content/uploads/2020/02/image-7-1024x501.png)
+![Configurando os links permanentes no Wordpress](./2020-02-image-7.png)
 
 ## Redirecionando os links antigos usando o mod\_rewrite no .htaccess
 

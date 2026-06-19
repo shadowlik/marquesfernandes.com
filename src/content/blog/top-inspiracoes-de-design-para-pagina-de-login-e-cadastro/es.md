@@ -24,7 +24,7 @@ Las páginas de inicio de sesión no tienen que ser extremadamente elaboradas pa
 
 ### Medio, Nuevo
 
-[![medium.com](/wp-content/uploads/2020/08/image-1024x487.jpg)](https://medium.com/)
+[![medium.com](./2020-08-image.jpg)](https://medium.com/)
 
 [Medio, Nuevo](https://medium.com/)
 
@@ -32,7 +32,7 @@ Medium es una plataforma de publicación de texto y artículos en todo el mundo,
 
 ### Dev.to
 
-[![Comunidad DEV](/wp-content/uploads/2020/08/screenshot-dev.to-2020.08.01-23_08_02-1024x487.png)](http://dev.to/)
+[![Comunidad DEV](./2020-08-screenshot-dev.to-2020.08.01-23_08_02.png)](http://dev.to/)
 
 [Dev.to](http://dev.to/)
 
@@ -40,7 +40,7 @@ DEV Community es una plataforma para la publicación de artículos enfocados al 
 
 ### Nubank, South Bank
 
-[![Nubank, South Bank](/wp-content/uploads/2020/08/download-2-1024x487.png)](https://app.nubank.com.br/#/login)
+[![Nubank, South Bank](./2020-08-download-2.png)](https://app.nubank.com.br/#/login)
 
 [Nubank, South Bank](https://app.nubank.com.br/#/login)
 
@@ -52,7 +52,7 @@ Entreteniendo y deleitando a sus usuarios en la página de inicio de sesión y r
 
 ### Exploración de ilustración de página de inicio de sesión por Aliffajar
 
-[![Exploración de ilustración de página de inicio de sesión por Aliffajar](/wp-content/uploads/2020/08/ezgif-7-756edc50b5a1.gif)](https://dribbble.com/shots/5401591-Login-Page-Illustration-Exploration-for-Movie-Website)
+[![Exploración de ilustración de página de inicio de sesión por Aliffajar](./2020-08-ezgif-7-756edc50b5a1.gif)](https://dribbble.com/shots/5401591-Login-Page-Illustration-Exploration-for-Movie-Website)
 
 [Exploración de ilustración de página de inicio de sesión por Aliffajar](https://dribbble.com/shots/5401591-Login-Page-Illustration-Exploration-for-Movie-Website)
 
@@ -60,7 +60,7 @@ Un diseño realizado por Aliffajar, desarrollado para una plataforma de cine/ví
 
 ### Página de inicio de sesión de Dipnet de Roman Bystrytskyi
 
-[![Página de inicio de sesión de Dipnet de Roman Bystrytskyi ](/wp-content/uploads/2020/08/ezgif-7-4be6dc24def6.gif)](https://dribbble.com/shots/3829284-Dipnet-login-page)
+[![Página de inicio de sesión de Dipnet de Roman Bystrytskyi ](./2020-08-ezgif-7-4be6dc24def6.gif)](https://dribbble.com/shots/3829284-Dipnet-login-page)
 
 [Página de inicio de sesión de Dipnet de Roman Bystrytskyi](https://dribbble.com/shots/3829284-Dipnet-login-page)
 
@@ -72,7 +72,7 @@ El uso de ilustraciones es muy común al diseñar una página de inicio de sesi�
 
 ### Dribbble, Nuevo
 
-[![dribbble.com](/wp-content/uploads/2020/08/image-1-1024x487.jpg)](https://dribbble.com/session/new)
+[![dribbble.com](./2020-08-image-1.jpg)](https://dribbble.com/session/new)
 
 [Dribbble, Nuevo](https://dribbble.com/session/new)
 
@@ -80,7 +80,7 @@ Dribbble es una comunidad para compartir contenido artístico, ampliamente utili
 
 ### Headspace
 
-[![Headspace](/wp-content/uploads/2020/08/image-1-1024x487.png)](https://www.headspace.com/pt/login)
+[![Headspace](./2020-08-image-1.png)](https://www.headspace.com/pt/login)
 
 [Headspace](https://www.headspace.com/pt/login)
 
@@ -88,7 +88,7 @@ Headspace es una aplicación para la meditación guiada, toda su identidad visua
 
 ### Formulario de inicio de sesión múltiple de Mahisa Dyan Diptya
 
-[![Formulario de inicio de sesión múltiple de Mahisa Dyan Diptya](/wp-content/uploads/2020/08/multiple_login_.jpg)](https://dribbble.com/shots/3330825-Multiple-Login-Form)
+[![Formulario de inicio de sesión múltiple de Mahisa Dyan Diptya](./2020-08-multiple_login_.jpg)](https://dribbble.com/shots/3330825-Multiple-Login-Form)
 
 [Formulario de inicio de sesión múltiple de Mahisa Dyan Diptya](https://dribbble.com/shots/3330825-Multiple-Login-Form)
 
@@ -96,6 +96,6 @@ Cuando tienes una plataforma que sirve a diferentes tipos de usuarios, la págin
 
 ## Interfaz de usuario de inicio de sesión de DStudio™
 
-[![Interfaz de usuario de inicio de sesión de DStudio™](/wp-content/uploads/2020/08/0e8c29afe8286855941a2f3d6e3452e1-1024x768.jpg)](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)
+[![Interfaz de usuario de inicio de sesión de DStudio™](./2020-08-0e8c29afe8286855941a2f3d6e3452e1.jpg)](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)
 
 [Interfaz de usuario](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media) [de](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media) [inicio de sesión de DStudio™](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)

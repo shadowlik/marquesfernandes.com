@@ -59,7 +59,7 @@ Um arquivo PHP também pode conter tags como HTML e [JavaScript](http://marquesf
 
 O PHP é responsável por fazer toda a lógica para, por exemplo, renderizar uma página web. Ele cuida de consultar os bancos de dados, fazer qualquer cálculo e retornar o HTML pronto para que o navegador possa exibir para o usuário.
 
-![](/wp-content/uploads/2020/04/fluxo-php-1.jpg)
+![](./2020-04-fluxo-php-1.jpg)
 
 Sem entrar em questões muito técnicas, mas para uma aplicação web funcionar você precisa de um servidor web configurado para executar os arquivos PHP. Ele é o responsável por encontrar qual script correto a ser executado quando você acessa uma página como, por exemplo, [http://marquesfernandes.com](http://marquesfernandes.com). Os servidores web mais populares e utilizados são o [Apache](https://www.apache.org/) e [Nginx](https://www.nginx.com/).
 

@@ -37,7 +37,7 @@ Si está en modo EFI y/o la partición donde estaba el archivo eliminado es ext3
 
 Si no está seguro de qué tipo de partición es, utilice el comando `df -Th` para enumerar todas las particiones y sus tipos desde sus unidades de disco:
 
-![Captura de pantalla 1](/wp-content/uploads/2020/01/image-31.png)
+![Captura de pantalla 1](./2020-01-image-31.png)
 
 df -th
 
@@ -45,7 +45,7 @@ df -th
 
 Voy a explicar nuestro ejemplo: Tengo una memoria USB con tres archivos, y sin querer voy a eliminar con el comando rm c`urriculum.txt mi pr`ecioso currículum, me tomó horas escribiendo, ¡Oh cielos! Cuando eliminamos por la línea de comandos, nuestro archivo no va automáticamente a la papelera de reciclaje, por lo que tendremos la impresión de que se ha ido para siempre.
 
-![Captura de pantalla 2](/wp-content/uploads/2020/01/image-20.png)
+![Captura de pantalla 2](./2020-01-image-20.png)
 
 Nuestro escenario de ejemplo
 
@@ -63,7 +63,7 @@ Ahora ejecute TestDisk en el terminal con el comando:
 
 `testdisk sudo`
 
-![Captura de pantalla 3](/wp-content/uploads/2020/01/image-12.png)
+![Captura de pantalla 3](./2020-01-image-12.png)
 
 ### 1.3 - Creación de un archivo de registro
 
@@ -73,25 +73,25 @@ Probablemente esté usando una versión superior de 7.0, por lo que muchos de lo
 
 ### 1.4 - Selección del disco
 
-![Captura de pantalla 4](/wp-content/uploads/2020/01/image-21.png)
+![Captura de pantalla 4](./2020-01-image-21.png)
 
 En este paso verá una lista de sus discos. Seleccione la partición donde estaba su archivo, si no sabe lo que sigue siguiendo las recomendaciones de la herramienta, en mi caso es el disco de la memoria USB de Kingston. *No olvide seleccionar la opción Continuar en el menú de na*`vegació`n.
 
 ### 1.5 - Selección del tipo de partición
 
-![Captura de pantalla 5](/wp-content/uploads/2020/01/image-23.png)
+![Captura de pantalla 5](./2020-01-image-23.png)
 
 Ahora sigamos los mismos consejos que el paso 4 y confíemos en la sugerencia de TestDisk.
 
 ### 1.6 - Selección de la utilidad
 
-![Captura de pantalla 6](/wp-content/uploads/2020/01/image-24.png)
+![Captura de pantalla 6](./2020-01-image-24.png)
 
 En esta etapa tendremos que ver un poco mejor. En caso de que no lo hayas notado, esta herramienta no es sólo para recuperar archivos eliminados, sino una poderosa utilidad para discos. Pero si echas un vistazo a la descripción de las opciones, verás que lo que queremos hacer está en `Avanzad`o.
 
 ### 1.7 - Selección de la partición
 
-![Captura de pantalla 7](/wp-content/uploads/2020/01/image-26.png)
+![Captura de pantalla 7](./2020-01-image-26.png)
 
 Ahora tenemos que seleccionar la partición donde se encuentra nuestro archivo, probablemente la partición correcta, será la partición con el mayor número de sectores. En el menú de navegación, seleccione `Recupera`r.
 
@@ -99,13 +99,13 @@ Ahora tenemos que seleccionar la partición donde se encuentra nuestro archivo, 
 
 Encontramos la carpeta en nuestro archivo, y mira quién está allí en rojo! ¡Nuestro archivo eliminado vive!
 
-![Captura de pantalla 8](/wp-content/uploads/2020/01/image-29.png)
+![Captura de pantalla 8](./2020-01-image-29.png)
 
 No me importa la diferencia de impresiones, tuve que rehacer los pasos y terminé necesitando eliminar el archivo de registro anterior de TestDrive
 
 ### 1.9 - Recuperación de archivos eliminados
 
-![Captura de pantalla 9](/wp-content/uploads/2020/01/image-30.png)
+![Captura de pantalla 9](./2020-01-image-30.png)
 
 Ahora para recuperar nuestros archivos necesitamos seleccionar nuestro archivo y presionar la tecla **"**c". Entonces usted tendrá que elegir para qué dirección desea recuperar el archivo y si todo va bien un mensaje como el siguiente debe aparecer: "Copiar hecho! 1 ok, 0 falló."
 
@@ -119,23 +119,23 @@ El proceso puede tardar un poco más dependiendo de cuántos archivos eliminados
 
 Supongamos que borré un archivo llamado c**urriculum.doc**.
 
-![Captura de pantalla 10](/wp-content/uploads/2020/01/image-32.png)
+![Captura de pantalla 10](./2020-01-image-32.png)
 
 ### 2.1 - Ejecución de Photorec
 
-![Captura de pantalla 11](/wp-content/uploads/2020/01/image-33-1024x576.png)
+![Captura de pantalla 11](./2020-01-image-33.png)
 
 Ejecute el comando `photorec sud`o en su terminal para iniciar el programa de recuperación.
 
 ### 2.2 - Selección de tipos de archivo
 
-![Captura de pantalla 12](/wp-content/uploads/2020/01/image-35-1024x576.png)
+![Captura de pantalla 12](./2020-01-image-35.png)
 
 Selecciona el tipo de archivos que queremos recuperar, cuanto más específico sea, menos tiempo tardará en recuperar nuestro archivo. Haga clic en la **tec**la "s" para descelebrar todas las opciones y busque la extensión de su archivo, en nuestro caso **.do**c. Después de seleccionar todas las extensiones deseadas, haga clic en **"b**" para guardar la nueva configuración y, a continuación, haga clic en enter en la opción de salir para volver al menú principal.
 
 ### 2.3 - Selección de la partición
 
-![Captura de pantalla 13](/wp-content/uploads/2020/01/image-36-1024x576.png)
+![Captura de pantalla 13](./2020-01-image-36.png)
 
 Seleccione la partición y, con la opción Buscar seleccionada, pulse Intro.
 
@@ -143,19 +143,19 @@ En este paso, tenemos que seleccionar qué tipo de partición, seleccionar segú
 
 ### 2.4 - Selección del modo de búsqueda
 
-![Captura de pantalla 14](/wp-content/uploads/2020/01/image-37-1024x576.png)
+![Captura de pantalla 14](./2020-01-image-37.png)
 
 Seleccione la opción gratuita para una búsqueda más rápida solo en los espacios de memoria desasignados, o si lo prefiere, busque en toda la partición.
 
 ### 2.5 - Selección de la carpeta de destino
 
-![Captura de pantalla 15](/wp-content/uploads/2020/01/image-39-1024x576.png)
+![Captura de pantalla 15](./2020-01-image-39.png)
 
 Ahora tenemos que seleccionar a qué carpeta queremos que se envíen nuestros archivos recuperados, le recomiendo que cree una carpeta en un disco diferente de lo que está tratando de recuperar. He creado una carpeta llamada Recuperación en el disco principal para enviar los archivos recuperados. Navegue hasta que encuentre el destino deseado y luego presione la tecla "c" para iniciar la recuperación.
 
 ### 2.6 - Realización de la recuperación de archivos
 
-![Captura de pantalla 16](/wp-content/uploads/2020/01/image-40-1024x576.png)
+![Captura de pantalla 16](./2020-01-image-40.png)
 
 El proceso de búsqueda de Photoreco suele llevar más tiempo que TestDrive porque escanea toda la partición en busca de todos los archivos eliminados con las extensiones que seleccionamos para buscar, puede seguir el proceso y en tiempo real comprobar si algún archivo ya se ha recuperado en la carpeta seleccionada en el último paso.
 

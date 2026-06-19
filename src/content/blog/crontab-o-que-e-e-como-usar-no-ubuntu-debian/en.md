@@ -36,7 +36,7 @@ The cron syntax consists of a group of 5 variables separated by space: `* * * * 
 
 ## [Schedule guru](https://crontab.guru/)
 
-[![](/wp-content/uploads/2020/03/image-12-1024x463.png)](https://crontab.guru/)
+[![](./2020-03-image-12.png)](https://crontab.guru/)
 
 A site I use a lot to validate my crons: [Schedule guru](https://crontab.guru/) . On this site you can visually see how your cron crashes behave, it is very important to be careful when creating complex crons as this can lead to catastrophic results if configured wrong!
 
@@ -48,13 +48,13 @@ $crontab -e
 
 If this is your first time running the command, you will need to enter which text editor you want to use:
 
-![crontab -e](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-18_55_25.png)
+![crontab -e](./2020-03-screenshot-nimbus-capture-2020.03.20-18_55_25.png)
 
 Choose the default editor for your Crotab
 
 I like the nano editor so I selected option 1. Then you will have a text file with some comments explaining how to use it, we can proceed to the end of the file, where we will create our schedule.
 
-![crontab -e](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-19_02_50.png)
+![crontab -e](./2020-03-screenshot-nimbus-capture-2020.03.20-19_02_50.png)
 
 Crotab file comments
 
@@ -62,12 +62,12 @@ Let's add the following line to the end of the file:
 
 \* \* \* \* echo "It worked" >> ~/cron.log
 
-![crontab -e](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-19_08_46.png)
+![crontab -e](./2020-03-screenshot-nimbus-capture-2020.03.20-19_08_46.png)
 
 Basically this schedule will run every minute by adding a line to the cron.log file located in our home folder. To save your cron use the shortcut Ctrl + O to save and close the file, now your schedule is in effect! To check if it is working correctly, let's use the following command:
 
 $ tail -f ~/cron.log
 
-![tail -f ~/cron.log](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-19_10_33.png)
+![tail -f ~/cron.log](./2020-03-screenshot-nimbus-capture-2020.03.20-19_10_33.png)
 
 If everything goes as expected, after a few minutes you will see a few lines with our text: "It worked". This example is very simple, you can execute any command accepted in the terminal via Crontab.

@@ -25,7 +25,7 @@ Encontrar sites para assistir series e filmes em HD pode não ser uma tarefa fá
 
 ## [AZMovies](https://azm.to/)
 
-![AZMovies](/wp-content/uploads/2020/08/screenshot-azm.to-2020.08.10-17_11_51-1024x487.jpg)
+![AZMovies](./2020-08-screenshot-azm.to-2020.08.10-17_11_51.jpg)
 
 AZMovies é outro site de streaming popular e de longa data desta lista. Uma excelente coleção de filmes está disponível em grandes qualidades de streaming, incluindo 1080p e 720p.
 
@@ -33,7 +33,7 @@ O slogan do site diz “Assista aqui seus filmes favoritos sem limites, basta es
 
 ## [Popcornflix](https://www.popcornflix.com/pages/discover/d/movies)
 
-![Popcornflix](/wp-content/uploads/2020/08/screenshot-www.popcornflix.com-2020.08.10-17_20_17-1024x487.jpg)
+![Popcornflix](./2020-08-screenshot-www.popcornflix.com-2020.08.10-17_20_17.jpg)
 
 Popcornflix é outro ótimo lugar para assistir filmes online grátis. Atuzliado constantemente com novos filmes da Screen Media Ventures.
 
@@ -43,7 +43,7 @@ Nenhuma conta é necessária no Popcornflix, basta clicar em **Play** no film
 
 ## [Vudu](https://www.vudu.com/content/movies/uxrow/Movies/5777)
 
-![Vudu](/wp-content/uploads/2020/08/screenshot-www.vudu_.com-2020.08.10-17_28_30-1024x487.jpg)
+![Vudu](./2020-08-screenshot-www.vudu_.com-2020.08.10-17_28_30.jpg)
 
 O Vudu pode não ser sua primeira escolha ao procurar sites gratuitos para streaming de filmes, mas existem *milhares*  de filmes aqui que você pode assistir agora. Tudo que você precisa fazer é aguentar alguns comerciais. Algumas das mais novas adições deste site incluem *Slow Burn, Facing Ali, King Arthur, Frailty, Gordy* e *Tamara.*
 
@@ -51,7 +51,7 @@ Uma coisa excelente sobre os filmes do Vudu é que alguns deles estão em 1080p,
 
 ## [Tubi](https://tubitv.com/)
 
-![Tubi](/wp-content/uploads/2020/08/screenshot-tubitv.com-2020.08.10-17_26_06-1024x487.jpg)
+![Tubi](./2020-08-screenshot-tubitv.com-2020.08.10-17_26_06.jpg)
 
 Tubi se tornou um site muito popular para streaming de filmes e programas de TV gratuitos, sem a necessidade de assinatura. Tubi fornece milhares de filmes e séries de TV gratuitos, mas, como muitos outros nesta lista, é compatível com anúncios.
 
@@ -63,19 +63,19 @@ Existem dezenas de gêneros que você pode escolher no Tubi, incluindo os regula
 
 ## [Stremio Web (Alpha)](https://app.strem.io/#/)
 
-![Stremio Web (Alpha)](/wp-content/uploads/2020/08/screenshot-app.strem_.io-2020.08.10-17_32_59-1024x487.jpg)
+![Stremio Web (Alpha)](./2020-08-screenshot-app.strem_.io-2020.08.10-17_32_59.jpg)
 
 [Stremio](https://app.strem.io/#/) é uma plataforma muito conhecida para assistir vídeos por [to](http://marquesfernandes.com/tecnologia/como-faco-para-baixar-um-torrent/)[rrent](http://marquesfernandes.com/tecnologia/como-faco-para-baixar-um-torrent/). Possuí uma biblioteca extremamente completa, se o filme existe no formato torrent você consegue assistir por lá. Atualmente estão trabalhando em uma versão de navegador alfa, possuí diversos bugs para assistir, mas com certeza vale a pena conferir.
 
 ## [SuperFlix](https://www.superflix.net/)
 
-[![SuperFlix](/wp-content/uploads/2020/11/image-7-1024x487.jpg)](https://www.superflix.net/)
+[![SuperFlix](./2020-11-image-7.jpg)](https://www.superflix.net/)
 
 [SuperFlix](https://www.superflix.net/) chegou até mim através dos comentários, não conhecia a plataforma e me surpreendi com a disponibilidade de filmes. A quantidade de propagandas é algo que incomoda bastante, de vez em quando, cliques pelo site abrem um popup para outro site de propaganda, mas nada de novidade em sites desse tipo. Conta com bastantes opções legendadas e dublados de filmes e séries. Com uma interface agradável e seu amplo catálogo, é uma boa opção para quem busca assistir séries e filmes gratuitamente online.
 
 ## [MegaFilmes](https://megafilmes.org/)
 
-![Mega Filmes](/wp-content/uploads/2021/01/image-1024x505.jpg)
+![Mega Filmes](./2021-01-image.jpg)
 
 O [MegaFilmes](https://megafilmes.org/) é um site simples, totalmente em português e funcional. Todo o conteúdo é disponibilizado tanto legendado como dublado. Mas, se prepare, a quantidade de propagandas é irriante, você chega a precisar dar 5 cliques para conseguir acessar um link. Além de filmes, o site conta também com programas de televisão e séries.
 

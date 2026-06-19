@@ -24,13 +24,13 @@ Você já esteve com duas ou mais abas abertas com som? Seja escutando música, 
 
 ## Volume Master Para Controlar o Volume das Abas no Google Chrome
 
-![Volume Master](/wp-content/uploads/2020/08/image-19.jpg)
+![Volume Master](./2020-08-image-19.jpg)
 
 Você pode baixar facilmente e seguramente o *Volume Master* na Chrome Web Store. Depois de baixado e instalado, você pode acessar e controlar o volume de cada aba simplesmente clicando no ícone da extensão.
 
 Se o ícone não estiver visível você precisa clicar no ícone de quebra cabeça e selecionar para deixar ele visível nos atalhos de extensões:
 
-![ Extensão Google Chrome](/wp-content/uploads/2020/08/image-20.jpg)
+![ Extensão Google Chrome](./2020-08-image-20.jpg)
 
 ### Ajuste o volume nas guias do Chrome separadamente
 

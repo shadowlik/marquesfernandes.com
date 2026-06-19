@@ -42,7 +42,7 @@ Imagine que ha desarrollado una API Rest que devuelve el contenido de un archivo
 
 ## [Npm](http://npmjs.com)
 
-![](/wp-content/uploads/2019/03/npm-1024x398.png)
+![](./2019-03-npm.png)
 
 Otra parte maravillosa del **nod**o está en su comunidad: **NPM** es el administrador de paquetes ("dependencias") **de No**deJS, aquí encontrará las más variadas soluciones escritas por la comunidad. Probablemente te encontrarás con situaciones/problemas al desarrollar que alguna buena alma ha pasado y publicado un paquete NPM **pa**ra hacer tu vida más fácil. ¡Todo este ecosistema hace que el desarrollo de aplicaciones en Node sea rápido y eficiente!
 

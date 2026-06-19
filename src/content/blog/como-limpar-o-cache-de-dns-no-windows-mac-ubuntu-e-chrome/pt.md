@@ -68,4 +68,4 @@ Insira a senha root e aguarde a seguinte resposta: *\[ ok \] Restarting networki
 
 Abra o navegador Google Chrome, digite **chrome://net-internals/#dns** na barra de navegação e pressione o botão **Clear host cache**:
 
-![](/wp-content/uploads/2019/07/image.png)
+![](./2019-07-image.png)

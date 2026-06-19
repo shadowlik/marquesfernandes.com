@@ -24,7 +24,7 @@ This command is probably the simplest and will do most basic analysis. It has a 
 
 $df -H
 
-![](/wp-content/uploads/2019/11/image-13.png)
+![](./2019-11-image-13.png)
 
 But what if the number of discs is too large? As in the case of the image above, we have disks created by the Ubuntu snaps applications ( */dev/loopXY* ) and we want to focus only on the main partition ( */dev/sda6* ):
 
@@ -32,7 +32,7 @@ $ df -H /dev/sda6
 
 The result will now be limited to that disk:
 
-![](/wp-content/uploads/2019/11/image-14.jpg)
+![](./2019-11-image-14.jpg)
 
 ## [du](https://linux.die.net/man/1/du)
 
@@ -40,7 +40,7 @@ Now that you know how to identify how much free space you have or not, it is ver
 
 $ du -sh /home/shadowlik/Downloads
 
-![](/wp-content/uploads/2019/11/image-15.jpg)
+![](./2019-11-image-15.jpg)
 
 \* *We don't need to pass the full path to the command, we can only pass the path referring to the folder we are running in, in the case of the image above we could execute **du -sh Downloads/** .*
 
@@ -48,7 +48,7 @@ We saw above that the folder *Downloads* is weighing approximately 19 gigabytes,
 
 ~$ du -sh Downloads/\*
 
-![](/wp-content/uploads/2019/12/image.jpg)
+![](./2019-12-image.jpg)
 
 Screenshots are different because I formatted my computer while finishing this article.  
 \* File names have been erased for safety.

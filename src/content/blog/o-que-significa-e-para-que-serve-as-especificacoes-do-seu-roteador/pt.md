@@ -31,7 +31,7 @@ Então, quais recursos e informações realmente importam quando se trata sobre 
 
 ## 1\. Antenas - Uma, duas ou trinta antenas?
 
-![O que significa e para que serve as especificações do seu roteador](/wp-content/uploads/2020/02/tp_link_archer_c5400x_gaming_roteador_ac5400_tri_band_giga_10693_1_20200110094425.webp)
+![O que significa e para que serve as especificações do seu roteador](./2020-02-tp_link_archer_c5400x_gaming_roteador_ac5400_tri_band_giga_10693_1_20200110094425.webp)
 
 Meu Deus, quantas antenas! Isso é um roteador ou uma nave espacial?
 
@@ -45,7 +45,7 @@ Confira também a potência das antenas embarcadas no seu roteador, procure as m
 
 ## 2\. Bandas, canais de frequências - Single, Dual ou Tri-band?
 
-![Alcance e frequência dos padrões IEEE 802.11.](/wp-content/uploads/2020/02/RF_Essentials_Fig1.gif)
+![Alcance e frequência dos padrões IEEE 802.11.](./2020-02-RF_Essentials_Fig1.gif)
 
 [Alcance e frequência dos padrões IEEE 802.11.](https://www.gta.ufrj.br/grad/15_1/802.11ah/ieee80211ah.html)
 

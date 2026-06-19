@@ -26,15 +26,15 @@ Si usted está cansado de su chusma terminal en linux; Cansado de dar alt + pest
 -   **Temas:** Varios temas y combinaciones disponibles por la comunidad.
 -   **Y mucho más...**
 
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-58-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-58-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-58.png)](./2019-03-Screenshot-from-2019-03-19-00-30-58.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-35-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-35-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-35.png)](./2019-03-Screenshot-from-2019-03-19-00-30-35.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-09-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-09-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-09.png)](./2019-03-Screenshot-from-2019-03-19-00-30-09.png)
     
--   [![](/wp-content/uploads/2019/03/terminator-2-1024x517.png)](/wp-content/uploads/2019/03/terminator-2-1024x517.png)
+-   [![](./2019-03-terminator-2.png)](./2019-03-terminator-2.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-38-41-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-38-41-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-38-41.png)](./2019-03-Screenshot-from-2019-03-19-00-38-41.png)
     
 
 ## Instalación de Terminator
@@ -57,7 +57,7 @@ terminador de instalación yum de $sudo
 
 ## Instalación de temas
 
-![Preferencias de Terminator](/wp-content/uploads/2019/03/image.png)
+![Preferencias de Terminator](./2019-03-image.png)
 
 Puede instalar o crear su propio tema en Terminator. Ve al en[lace](https://github.com/mbadolato/iTerm2-Color-Schemes) y elige el tema que más te guste, abre el archivo ".config" del tema deseado y copia tu contenido. Después de eso, haga clic con el botón derecho en Terminator, navegue a las preferencias y cree un nuevo perfil para generar un nuevo archivo de tema, vaya a .config/terminator/ y edite el archivo para el nuevo perfil creado y pegue el contenido del tema al final.
 

@@ -23,7 +23,7 @@ Separei os 5 melhores sites que uso quando preciso encontrar aquele vídeo em al
 
 ## 1. [Pixabay](https://pixabay.com/)
 
-[![Pixabay](/wp-content/uploads/2020/03/image-7-1024x501.png)](https://pixabay.com/)
+[![Pixabay](./2020-03-image-7.png)](https://pixabay.com/)
 
 [Pixabay](https://pixabay.com/)
 
@@ -31,7 +31,7 @@ O Pixabay oferece mais de 1,2 milhão de imagens e vídeos, todos lançados sob 
 
 ## 2. [Pexels](https://videos.pexels.com/)
 
-[![Pexels](/wp-content/uploads/2020/03/image-8-1024x501.png)](https://videos.pexels.com/)
+[![Pexels](./2020-03-image-8.png)](https://videos.pexels.com/)
 
 [Pexels](https://videos.pexels.com/)
 
@@ -41,7 +41,7 @@ A coleção deles também está sob a licença CC0, para que você possa editar 
 
 ## 3. [Videvo](https://www.videvo.net/)
 
-[![Videvo](/wp-content/uploads/2020/03/image-9-1024x501.png)](https://www.videvo.net/)
+[![Videvo](./2020-03-image-9.png)](https://www.videvo.net/)
 
 [Videvo](https://www.videvo.net/)
 
@@ -53,7 +53,7 @@ Os licenciados sob o Creative Commons 3.0 podem ser usados em qualquer projeto, 
 
 ## 4. [Life of Vids](http://www.lifeofvids.com/)
 
-[![Life of Vids](/wp-content/uploads/2020/03/image-10-1024x501.png)](http://www.lifeofvids.com/)
+[![Life of Vids](./2020-03-image-10.png)](http://www.lifeofvids.com/)
 
 [Life of Vids](http://www.lifeofvids.com/)
 
@@ -61,7 +61,7 @@ O Life of Vids é uma coleção de vídeos, clipes e loops gratuitos da [Leeroy]
 
 ## 5. [Splitshire](https://www.splitshire.com/category/video-2/)
 
-[![Splitshire](/wp-content/uploads/2020/03/image-11-1024x501.png)](https://www.splitshire.com/category/video-2/)
+[![Splitshire](./2020-03-image-11.png)](https://www.splitshire.com/category/video-2/)
 
 [Splitshire](https://www.splitshire.com/category/video-2/)
 

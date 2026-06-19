@@ -29,17 +29,17 @@ Download and install the [PUTTY](https://www.ssh.com/ssh/putty/#sec-PuTTY-downlo
 
 open the program **PUTTYgen** and click the generate button ( *Generate* ).
 
-![](/wp-content/uploads/2019/11/download.jpg)
+![](./2019-11-download.jpg)
 
 A progress bar will appear asking you to move the mouse to generate randomness. Move your mouse over the gray area of the program, wait for the progress bar to fill completely and then your keys will be generated.
 
-![](/wp-content/uploads/2019/11/download-1.jpg)
+![](./2019-11-download-1.jpg)
 
 After generating the keys, new fields will appear below. In the field **Key comment** enter the desired user.
 
 Copy the public key and save the private key in a safe place on your computer.
 
-![](/wp-content/uploads/2019/11/download-2.jpg)
+![](./2019-11-download-2.jpg)
 
 ## Adding the public key to your Google Cloud instance
 
@@ -47,11 +47,11 @@ Sign in to your Google Cloud account and navigate to **Compute Engine > VM Insta
 
 Select the instance you want to access, click edit and scroll down until you find the session **SSH keys** .
 
-![](/wp-content/uploads/2019/11/image-6.png)
+![](./2019-11-image-6.png)
 
 Paste the public key you copied earlier into the " **Enter all key data"** , once that is done, you will see on the left the user you entered when creating the key.
 
-![](/wp-content/uploads/2019/11/image-7.png)
+![](./2019-11-image-7.png)
 
 Now update the instance by clicking on **To save** .
 
@@ -59,13 +59,13 @@ Now update the instance by clicking on **To save** .
 
 open the **FileZilla** and navigate to **Edit > Settings** .
 
-![](/wp-content/uploads/2019/11/image-9.png)
+![](./2019-11-image-9.png)
 
 In the left side menu navigate to **Connection > FTP > SFTP** .
 
 click in **add key file** and select the private key you saved.
 
-![](/wp-content/uploads/2019/11/image-8.png)
+![](./2019-11-image-8.png)
 
 click in **OK** to save the settings.
 

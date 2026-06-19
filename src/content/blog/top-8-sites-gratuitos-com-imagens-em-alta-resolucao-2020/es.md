@@ -26,7 +26,7 @@ En el pasado había un cierto prejuicio con el uso de famosas fotos **[de stock 
 
 ## [1\. Freepik, Año Nuevo](https://br.freepik.com/)
 
-[![Freepik, Año Nuevo](/wp-content/uploads/2020/03/image-1024x501.png)](https://br.freepik.com/)
+[![Freepik, Año Nuevo](./2020-03-image.png)](https://br.freepik.com/)
 
 [Freepik, Año Nuevo](https://br.freepik.com/)
 
@@ -34,7 +34,7 @@ Freepik entra en la parte superior de la lista por su versatilidad, utilizar muc
 
 ## [2\. Pexels, Año Nuevo](https://www.pexels.com/)
 
-[![Pexels, Año Nuevo](/wp-content/uploads/2020/03/image-1-1024x501.png)](https://www.pexels.com/)
+[![Pexels, Año Nuevo](./2020-03-image-1.png)](https://www.pexels.com/)
 
 [Pexels, Año Nuevo](https://www.pexels.com/)
 
@@ -42,7 +42,7 @@ Pexels ofrece fotos de alta calidad y completamente gratuitas bajo licencia Crea
 
 ## [3\. Unsplash, Año Nuevo](http://unsplash.com/)
 
-[![Unsplash, Año Nuevo](/wp-content/uploads/2020/03/image-2-1024x501.png)](http://unsplash.com/)
+[![Unsplash, Año Nuevo](./2020-03-image-2.png)](http://unsplash.com/)
 
 [Unsplash, Año Nuevo](http://unsplash.com/)
 
@@ -50,7 +50,7 @@ Unsplash ofrece una gran colección de fotos gratuitas de alta resolución y se 
 
 ## [4\. Pixabay](https://pixabay.com/)
 
-[![Pixabay](/wp-content/uploads/2020/03/image-3-1024x501.png)](https://pixabay.com/)
+[![Pixabay](./2020-03-image-3.png)](https://pixabay.com/)
 
 [Pixabay](https://pixabay.com/)
 
@@ -58,7 +58,7 @@ Pixabay ofrece una gran colección de fotos, vectores e ilustraciones de arte gr
 
 ## [5\. Sello](https://focastock.com/)
 
-[![Sello](/wp-content/uploads/2020/03/image-4-1024x501.png)](https://focastock.com/)
+[![Sello](./2020-03-image-4.png)](https://focastock.com/)
 
 [Sello](https://focastock.com/)
 
@@ -66,7 +66,7 @@ Foca es una colección de fotos de alta resolución proporcionadas por Jeffrey B
 
 ## [6\. Picjumbo, Año Nuevo](http://picjumbo.com/)
 
-[![Picjumbo, Año Nuevo](/wp-content/uploads/2020/03/image-5-1024x501.png)](http://picjumbo.com/)
+[![Picjumbo, Año Nuevo](./2020-03-image-5.png)](http://picjumbo.com/)
 
 [Picjumbo, Año Nuevo](http://picjumbo.com/)
 
@@ -74,7 +74,7 @@ Picjumbo es una colección de fotos completamente gratuitas para su trabajo come
 
 ## [7\. Nuevo stock antiguo](http://nos.twnsnd.co/)
 
-[![Nuevo stock antiguo](/wp-content/uploads/2020/03/image-6-1024x501.jpg)](http://nos.twnsnd.co/)
+[![Nuevo stock antiguo](./2020-03-image-6.jpg)](http://nos.twnsnd.co/)
 
 [Nuevo stock antiguo](http://nos.twnsnd.co/)
 
@@ -82,7 +82,7 @@ Si usted está buscando esa foto antigua para algún artículo o incluso para es
 
 ## [8\. República ISO](https://isorepublic.com/)
 
-![República ISO](/wp-content/uploads/2020/03/image-6-1024x501.png)
+![República ISO](./2020-03-image-6.png)
 
 [República ISO](https://isorepublic.com/)
 

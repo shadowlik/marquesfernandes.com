@@ -76,7 +76,7 @@ for($i-0; $i -lt $oldbackups.count; $i++)
 
 Para crear la programación en Windows puede usar el Programador de tareas.
 
-![Programador de tareas](/wp-content/uploads/2020/03/image-1.jpg)
+![Programador de tareas](./2020-03-image-1.jpg)
 
 ## Creación de copias de seguridad de MySQL diariamente en Linux
 

@@ -26,7 +26,7 @@ Ao mesmo tempo, muitas músicas "royalty-free" são muito usadas por diversos cr
 
 ## 1\. **[Incompetech.com](https://incompetech.com/)**
 
-![Incompetech](/wp-content/uploads/2020/05/image-3-1024x525.jpg)
+![Incompetech](./2020-05-image-3.jpg)
 
 **[Incompetech](https://incompetech.com/)**
 
@@ -36,7 +36,7 @@ Se você navegar por um tempinho na plataforma provavelmente vai se deparar com 
 
 ## 2\. [Youtube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1)
 
-![Youtube Audio Library (Biblioteca de Audio do Youtube)](/wp-content/uploads/2020/05/image-4-1024x514.png)
+![Youtube Audio Library (Biblioteca de Audio do Youtube)](./2020-05-image-4.png)
 
 [Youtube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1)
 
@@ -44,7 +44,7 @@ O **Youtube Audio Library** é um serviço do Youtube conhecido por poucos. Cont
 
 ## 3\. [FMA - Free Music Archive](https://freemusicarchive.org/)
 
-![FMA - Free Music Archive](/wp-content/uploads/2020/05/image-5-1024x514.png)
+![FMA - Free Music Archive](./2020-05-image-5.png)
 
 [FMA - Free Music Archive](https://freemusicarchive.org/)
 
@@ -52,13 +52,13 @@ O **Youtube Audio Library** é um serviço do Youtube conhecido por poucos. Cont
 
 ## 4\. [Purple Planet](https://www.purple-planet.com/)
 
-[![Purple Planet](/wp-content/uploads/2020/05/image-7-1024x514.jpg)](https://www.purple-planet.com/)
+[![Purple Planet](./2020-05-image-7.jpg)](https://www.purple-planet.com/)
 
 **Purple Planet** é um site mantido por Geoff Harvey and Chris Martyn na Inglaterra. Eles cuidam desde a composição, produção e gravação das músicas. Além de gratuitas, as músicas são de qualidade, e segundo eles, utilizam preferencialmente instrumentos reais para dar uma sensação de natural.
 
 ## 5\. [Musopen](https://musopen.org/)
 
-![Musopen](/wp-content/uploads/2020/05/image-6-1024x514.jpg)
+![Musopen](./2020-05-image-6.jpg)
 
 [Musopen](https://musopen.org/)
 

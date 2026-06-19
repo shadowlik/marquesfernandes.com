@@ -32,7 +32,7 @@ En los servidores normalmente encontrará aplicaciones que proporcionan datos y 
 
 Los servidores suelen tener sistemas operativos específicos, normalmente sin una interfaz gráfica, ya que centran toda la potencia computacional en ejecutar la aplicación que hospedan. Se accede a ellos por la famosa línea de comandos, bien conocido por los laicos como la herramienta de los piratas informáticos.
 
-![](/wp-content/uploads/2020/08/image-5-1024x560.png)
+![](./2020-08-image-5.png)
 
 La mayoría de los servidores utilizan Linux como su sistema operativo, por ejempl[o Ubuntu Serve](https://ubuntu.com/download/server)r y [CentO](https://www.centos.org/)S, pero algunas aplicaciones necesitan ser rotadas en el sistema operativo de microsoft, por lo que hay una versión de Windows dedicada al servidor, [Windows Serve](https://www.microsoft.com/pt-br/windows-server)r.
 

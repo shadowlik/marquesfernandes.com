@@ -32,7 +32,7 @@ Graças algumas ferramentas online o processo de varredura de um domínio é mui
 
 ### 1\. [DNSdumpster](https://dnsdumpster.com/)
 
-[![DNSdumpster](/wp-content/uploads/2020/06/image-1024x521.png)](https://dnsdumpster.com/)
+[![DNSdumpster](./2020-06-image.png)](https://dnsdumpster.com/)
 
 [DNSdumpster](https://dnsdumpster.com/)
 
@@ -42,7 +42,7 @@ Não apenas subdomínio, mas fornece informações sobre servidor DNS, registro 
 
 ## 2\. **[NMMAPPER](https://www.nmmapper.com/sys/tools/subdomainfinder/)**
 
-[![NMMAPPER](/wp-content/uploads/2020/06/image-1-1024x521.png)](https://www.nmmapper.com/sys/tools/subdomainfinder/)
+[![NMMAPPER](./2020-06-image-1.png)](https://www.nmmapper.com/sys/tools/subdomainfinder/)
 
 **[NMMAPPER](https://www.nmmapper.com/sys/tools/subdomainfinder/)**
 
@@ -50,7 +50,7 @@ Não apenas subdomínio, mas fornece informações sobre servidor DNS, registro 
 
 ## 3\. [Spyse](https://spyse.com/search/subdomain)
 
-[![Spyse](/wp-content/uploads/2020/06/image-2-1024x521.jpg)](https://spyse.com/search/subdomain)
+[![Spyse](./2020-06-image-2.jpg)](https://spyse.com/search/subdomain)
 
 [Spyse](https://spyse.com/search/subdomain)
 
@@ -58,13 +58,13 @@ O "*Subdomain Finder*" da Spyse é um mecanismo de pesquisa artesanal que permit
 
 ## 4\. **[Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**
 
-[![](/wp-content/uploads/2020/06/image-3-1024x521.png)](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
+[![](./2020-06-image-3.png)](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
 
 As ferramentas da Pentest pesquisam subdomínios utilizando vários métodos, como transferência de zona DNS, enumeração DNS baseada em lista de palavras e mecanismo de pesquisa público. Possui duas opções de varredura, uma mais leva e uma completa, ambas te dão a possibilidade de exportar um relatório em PDF.
 
 ## 5\. **[ImmuniWeb](https://www.htbridge.com/ssl/)**
 
-[![ImmuniWeb](/wp-content/uploads/2020/06/image-4-1024x521.png)](https://www.htbridge.com/ssl/)
+[![ImmuniWeb](./2020-06-image-4.png)](https://www.htbridge.com/ssl/)
 
 **[ImmuniWeb](https://www.htbridge.com/ssl/)**
 

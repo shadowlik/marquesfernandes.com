@@ -26,15 +26,15 @@ If you're tired of your scum terminal on linux; Tired of having to use alt + tab
 -   **Subjects:** Various themes and combinations available from the community.
 -   **And much more...**
 
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-58-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-58-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-58.png)](./2019-03-Screenshot-from-2019-03-19-00-30-58.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-35-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-35-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-35.png)](./2019-03-Screenshot-from-2019-03-19-00-30-35.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-09-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-30-09-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-30-09.png)](./2019-03-Screenshot-from-2019-03-19-00-30-09.png)
     
--   [![](/wp-content/uploads/2019/03/terminator-2-1024x517.png)](/wp-content/uploads/2019/03/terminator-2-1024x517.png)
+-   [![](./2019-03-terminator-2.png)](./2019-03-terminator-2.png)
     
--   [![](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-38-41-1024x576.png)](/wp-content/uploads/2019/03/Screenshot-from-2019-03-19-00-38-41-1024x576.png)
+-   [![](./2019-03-Screenshot-from-2019-03-19-00-38-41.png)](./2019-03-Screenshot-from-2019-03-19-00-38-41.png)
     
 
 ## Installing Terminator
@@ -57,7 +57,7 @@ $ sudo yum install terminator
 
 ## installing themes
 
-![Terminator Preferences](/wp-content/uploads/2019/03/image.png)
+![Terminator Preferences](./2019-03-image.png)
 
 You can install or create your own theme in Terminator. Access the [link](https://github.com/mbadolato/iTerm2-Color-Schemes) and choose the theme you like the most, open the ".config" file of the desired theme and copy its content. After that right click on Terminator, navigate to preferences and create a new profile to generate a new theme file, go to ~/.config/terminator/ and edit the file referring to the new profile created and paste the theme content at the end.
 

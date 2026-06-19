@@ -24,7 +24,7 @@ Si ese es tu caso, seguro que deberías instalar un antivirus en tu WordPress, y
 
 ## 1\. [Todo en uno WP Security & Firewall (Gratis)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 
-[![](/wp-content/uploads/2020/08/banner-772x250-2.png)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
+[![](./2020-08-banner-772x250-2.png)](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)
 
 Un complemento de seguridad de wordpress completo, fácil de usar, estable y bien compatible.
 
@@ -54,7 +54,7 @@ Algunas de las muchas funciones disponibles en este complemento son:
 
 ## 2. [Wordfence Security: escaneo de firewall y malware (gratuito y de pag](https://wordpress.org/plugins/wordfence/)o)
 
-[![Seguridad de Wordfence: escaneo de firewall y malware ](/wp-content/uploads/2020/08/banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
+[![Seguridad de Wordfence: escaneo de firewall y malware ](./2020-08-banner-772x250-1.jpg)](https://wordpress.org/plugins/wordfence/)
 
 -   Instalaciones activas: más **de 3 millones**
 -   Valoración: ⭐⭐⭐⭐⭐ (3573)
@@ -74,7 +74,7 @@ Wordfence tiene una versión gratuita de su complemento, que es suficiente para 
 
 ## 3\. [Seguridad de iThemes (gratis y de pago)](https://wordpress.org/plugins/better-wp-security/)
 
-[![Seguridad de iThemes](/wp-content/uploads/2020/08/banner-772x250-1-1.jpg)](https://wordpress.org/plugins/better-wp-security/)
+[![Seguridad de iThemes](./2020-08-banner-772x250-1-1.jpg)](https://wordpress.org/plugins/better-wp-security/)
 
 La seguridad de Ithemes es el complemento de seguridad número uno de WordPress.
 
@@ -108,7 +108,7 @@ Además, ofrece varias otras características como:
 
 ## 4\. [Cerber Security, Anti-spam & Malware Scan (gratis)](https://wordpress.org/plugins/wp-cerber/)
 
-[![Cerber Security, Anti-spam & Malware Scan](/wp-content/uploads/2020/08/banner-772x250-2-1.jpg)](https://wordpress.org/plugins/wp-cerber/)
+[![Cerber Security, Anti-spam & Malware Scan](./2020-08-banner-772x250-2-1.jpg)](https://wordpress.org/plugins/wp-cerber/)
 
 Defiende WordPress contra ataques de hackers, spam, troyanos y malware. 
 
@@ -130,7 +130,7 @@ Este complemento evita los ataques de fuerza bruta al limitar la cantidad de int
 
 ## 5\. [Jetpack de Wordpress (Freemium)](https://wordpress.org/plugins/jetpack/)
 
-[![](/wp-content/uploads/2020/08/banner-772x250-3-1.jpg)](https://wordpress.org/plugins/jetpack/)
+[![](./2020-08-banner-772x250-3-1.jpg)](https://wordpress.org/plugins/jetpack/)
 
 Seguridad, rendimiento y gestión de sitios web: la mejor forma de utilizar WordPress es con Jetpack.
 

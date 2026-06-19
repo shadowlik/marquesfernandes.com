@@ -17,38 +17,38 @@ updated: 2021-12-12T11:14:44.000Z
 
 ## [Google Keyword Planner](https://ads.google.com/home/tools/keyword-planner/) , [Analytics](https://analytics.google.com/analytics/web/) and [Search Console](https://search.google.com/search-console/about)
 
-[![Google Keyword Planner](/wp-content/uploads/2019/04/image-2-1024x521.png)](https://ads.google.com/home/tools/keyword-planner/)
+[![Google Keyword Planner](./2019-04-image-2.png)](https://ads.google.com/home/tools/keyword-planner/)
 
-[![Google Analytics](/wp-content/uploads/2019/04/image-1-1024x521.png)](https://analytics.google.com/analytics/web/)
+[![Google Analytics](./2019-04-image-1.png)](https://analytics.google.com/analytics/web/)
 
-[![Google Search Console](/wp-content/uploads/2019/04/image-1024x521.png)](https://search.google.com/search-console/about)
+[![Google Search Console](./2019-04-image.png)](https://search.google.com/search-console/about)
 
 ## [SEO Web Page Analyzer](http://www.seowebpageanalyzer.com/)
 
-[![SEO Web Page Analyzer﻿](/wp-content/uploads/2019/04/image-10-1024x525.png)](http://www.seowebpageanalyzer.com/)
+[![SEO Web Page Analyzer﻿](./2019-04-image-10.png)](http://www.seowebpageanalyzer.com/)
 
   
 
 ## [sitechecker](https://sitechecker.pro/)
 
-[![Sitechecker﻿](/wp-content/uploads/2019/04/image-4-1024x525.png)](https://sitechecker.pro/)
+[![Sitechecker﻿](./2019-04-image-4.png)](https://sitechecker.pro/)
 
 ## [GTMetrix](https://gtmetrix.com/)
 
-[![GTMetrix](/wp-content/uploads/2019/04/image-5-1024x525.png)](https://gtmetrix.com/)
+[![GTMetrix](./2019-04-image-5.png)](https://gtmetrix.com/)
 
 ## [Site Analyzer](https://www.site-analyzer.com/en/dashboard)
 
-[![Site Analyzer﻿](/wp-content/uploads/2019/04/image-6-1024x525.png)](https://www.site-analyzer.com/en/dashboard)
+[![Site Analyzer﻿](./2019-04-image-6.png)](https://www.site-analyzer.com/en/dashboard)
 
 ## [SEO Hero](http://www.seo-hero.tech/)
 
-[![SEO Hero﻿](/wp-content/uploads/2019/04/image-9-1024x525.png)](http://www.seo-hero.tech/)
+[![SEO Hero﻿](./2019-04-image-9.png)](http://www.seo-hero.tech/)
 
 ## [Pingdom Tools](https://tools.pingdom.com)
 
-[![Pingdom Tools﻿](/wp-content/uploads/2019/04/image-7-1024x525.png)](https://tools.pingdom.com/)
+[![Pingdom Tools﻿](./2019-04-image-7.png)](https://tools.pingdom.com/)
 
 ## [Yoast SEO](https://yoast.com/)
 
-[![Yoast SEO﻿](/wp-content/uploads/2019/04/image-8-1024x441.png)](https://yoast.com/)
+[![Yoast SEO﻿](./2019-04-image-8.png)](https://yoast.com/)

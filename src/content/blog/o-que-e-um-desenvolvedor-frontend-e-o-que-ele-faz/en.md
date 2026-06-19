@@ -21,7 +21,7 @@ The frontend works together with the backend, responsible for sending the necess
 
 See the illustration below to better understand the relationship between the two layers:
 
-![Simple Web Flow](/wp-content/uploads/2020/08/Servidor-e1597608701874-1024x379.jpg)
+![Simple Web Flow](./2020-08-Servidor-e1597608701874.jpg)
 
 Simple Web Flow
 
@@ -55,19 +55,19 @@ As explained above, frontend development revolves around 3 main technologies.
 
 The frontend development process has undergone an exponential improvement, today it is possible to easily program complex and organized web applications thanks to the development of new frameworks. See below for the main and popular frameworks today.
 
-![](/wp-content/uploads/2020/08/wp2465923-1024x576.jpg)
+![](./2020-08-wp2465923.jpg)
 
 ### ReactJS
 
 **react** (also known as **React.js** or **ReactJS** ) is an open source JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as the basis for developing single-page or mobile apps. 
 
-![](/wp-content/uploads/2020/08/6017da3ed8f203fe979b16dae1ad2259-1024x576.png)
+![](./2020-08-6017da3ed8f203fe979b16dae1ad2259.png)
 
 ### VueJS
 
 Vue (pronounced / vjuː /, like **view** ) is **progressive structure** to build user interfaces. Unlike other monolithic structures, Vue was designed from the ground up to be adopted incrementally. The core library focuses only on the visualization layer and is easy to select and integrate with other libraries or existing projects.
 
-![](/wp-content/uploads/2020/08/wp5722157-1024x576.png)
+![](./2020-08-wp5722157.png)
 
 ### AngularJS
 

@@ -31,25 +31,25 @@ Esse artigo espera que você saiba conceitos básicos de Excel e VBA, bem como [
 
 Primeiro vamos criar uma planilha em branco com macro habilitada, dentro dela criarei uma aba chamada `resultados`.
 
-![Planilha Excel](/wp-content/uploads/2020/07/image-15.png)
+![Planilha Excel](./2020-07-image-15.png)
 
 ## Criando a macro para consultar a API
 
 Pelo atalho `alt + f11` vamos abrir o editor de macros do Excel, e criar um módulo chamado `listaPokemons`.
 
-![Macro VBA](/wp-content/uploads/2020/07/image-16-1024x560.png)
+![Macro VBA](./2020-07-image-16.png)
 
 ### Importando a biblioteca VBA-JSON
 
 Como a API que vamos consultar retorna um [JSON](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/) como resposta, vamos precisar importar a biblioteca [VBA JSON](https://github.com/VBA-tools/VBA-JSON), ela cuidará de todo trabalho chato de traduzir o JSON e retornar como uma matriz e objeto. A instalação é bem simples, basta [baixar a última versão aqui](https://github.com/VBA-tools/VBA-JSON/releases) e no editor de macros ir em `Arquivo > Importar Arquivo > JsonConverter.bas`.
 
-![Importar VBA JSON](/wp-content/uploads/2020/07/importarjsonvba-1024x706.jpg)
+![Importar VBA JSON](./2020-07-importarjsonvba.jpg)
 
 ### Habilitando o Microsoft Scripting Runtime
 
 Precisamos também habilitar o Microsoft Scripting Runtime, para isso basta navegar em `Ferramentas > Referências` e procurar e habilitar na lista o `Microsoft Scripting Runtime`.
 
-![Excel API Rest Microsoft Scripting Runtime](/wp-content/uploads/2020/07/image-17-1024x560.png)
+![Excel API Rest Microsoft Scripting Runtime](./2020-07-image-17.png)
 
 ## Criando a macro VBA para consultar a API REST
 
@@ -224,7 +224,7 @@ Next
 
 Se tudo ocorrer conforme esperado, ao pressionar `f5` para rodar a nossa macro, na sua planilha você deverá ver o seguinte resultado:
 
-![Excel API Rest](/wp-content/uploads/2020/07/image-18-1024x560.jpg)
+![Excel API Rest](./2020-07-image-18.jpg)
 
 ## Conclusão
 

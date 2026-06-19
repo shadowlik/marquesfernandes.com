@@ -94,13 +94,13 @@ Agora precisamos substituir algumas informações: 
 
 Vamos salvar esse arquivo com a extensão **.vbs**: No Bloco de notas na hora de salvar no campo nome do arquivo digite algo parecido com: **excelautomatico.vbs** e em tipo de arquivo selecione: **Todos os arquivos**. De uma boa se todos os caminhos estão corretos e salve esse arquivo em algum lugar seguro onde ninguém possa acidentalmente remover. Anote o caminho do arquivo salvo pois precisaremos para depois!
 
-[![](/wp-content/uploads/2019/09/image.jpg)](/wp-content/uploads/2019/09/image.jpg)
+[![](./2019-09-image.jpg)](./2019-09-image.jpg)
 
 ## Criando o agendamento com o Agendador de Tarefas
 
 Para encontrar o programa basta digitar na busca do menu iniciar **Agendador de Tarefas**. 
 
-[![](/wp-content/uploads/2019/09/image-1.jpg)](/wp-content/uploads/2019/09/image-1.jpg)
+[![](./2019-09-image-1.jpg)](./2019-09-image-1.jpg)
 
 Para criar uma nova tarefa basta clicar no botão no lado direito: **Criar Tarefa...**
 

@@ -28,7 +28,7 @@ Então chega de enrolação e vamos aprender a transferir a programação de ani
 
 ## 1\. Instalar a extensão Birthday Calendar Extractor
 
-[![Transfira a programação de aniversários do Facebook para o Google Agenda](/wp-content/uploads/2020/11/birthday-calendar-1-1024x610.jpg)](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt)
+[![Transfira a programação de aniversários do Facebook para o Google Agenda](./2020-11-birthday-calendar-1.jpg)](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt)
 
 Instale a extensão ' [Birthday Calendar Extractor for Facebook](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt) ' diretamente da Chrome Webstore.
 
@@ -36,7 +36,7 @@ Instale a extensão ' [Birthday Calendar Extractor for Facebook](https://chro
 
 Agora visite [Facebook.com](https://facebook.com/) e quando estiver lá, clique no ícone Extrator de Calendário de Aniversário nos atalhos de extensão superior direito. Importante ressaltar que caso o seu facebook esteja com o idioma de exibição em português, será necessário trocar para um dos idiomas compatíveis com a extensão, como o inglês.
 
-![Transfira a programação de aniversários do Facebook para o Google Agenda - Extensão do Chrome](/wp-content/uploads/2020/11/facebook-birthdays-print-1-1024x576.jpg)
+![Transfira a programação de aniversários do Facebook para o Google Agenda - Extensão do Chrome](./2020-11-facebook-birthdays-print-1.jpg)
 
 Clique em 'Generate Google Calendar - ICS' e o download do arquivo será feito em alguns segundos. O ICS é um formato de calendário universal usado pelo Microsoft Outlook, Google Calendar e Apple Calendar. Importante: Não altere nada nesse arquivo.
 
@@ -44,7 +44,7 @@ Clique em 'Generate Google Calendar - ICS' e o download do arquivo será feito e
 
 Vá até a sua página do Google Agenda. Pressione o ícone de roda dentada > configurações > Importar / Exportar e você estará na página de [importação](https://calendar.google.com/calendar/u/0/r/settings/export?pli=1) do Google Agenda.
 
-![Importar o arquivo de aniversários para Google Agenda](/wp-content/uploads/2020/11/image-22-1024x487.png)
+![Importar o arquivo de aniversários para Google Agenda](./2020-11-image-22.png)
 
 Escolha o arquivo do local de download (onde quer que esteja em seu PC) e clique no botão importar. Eu recomendo que você crie um calendário específico para isso, será mais fácil de organizar as datas, e se deseja exibir ou não os aniversários depois.
 

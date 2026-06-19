@@ -34,7 +34,7 @@ As funcionalidades básicas desejadas para um serviço de hospedagem de podcasts
 
 ## 1\. [Buzzsprout](https://www.buzzsprout.com/)
 
-[![Buzzsprout](/wp-content/uploads/2020/05/image-1024x525.jpg)](https://www.buzzsprout.com/)
+[![Buzzsprout](./2020-05-image.jpg)](https://www.buzzsprout.com/)
 
 [Buzzsprout](https://www.buzzsprout.com/)
 
@@ -50,7 +50,7 @@ A plataforma atende mais de 100mil usuários desde seu lançamento em 2009, e co
 
 ## 2\. [PodBean](https://www.podbean.com/)
 
-[![PodBean](/wp-content/uploads/2020/05/image-1-1024x525.jpg)](https://www.podbean.com/)
+[![PodBean](./2020-05-image-1.jpg)](https://www.podbean.com/)
 
 [PodBean](https://www.podbean.com/)
 
@@ -64,7 +64,7 @@ A plataforma atende mais de 100mil usuários desde seu lançamento em 2009, e co
 
 ## 3\. [Spreaker](https://www.spreaker.com/)
 
-[![](/wp-content/uploads/2020/05/image-2-1024x525.jpg)](https://www.spreaker.com/)
+[![](./2020-05-image-2.jpg)](https://www.spreaker.com/)
 
 [Spreaker](https://www.spreaker.com/)
 

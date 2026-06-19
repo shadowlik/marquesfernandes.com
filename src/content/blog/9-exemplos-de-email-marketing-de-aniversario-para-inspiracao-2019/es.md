@@ -27,15 +27,15 @@ El uso de gifs aporta un tono alegre y relajado a tu correo electrónico, pero t
 
 ### [Amor](https://www.amedigital.com/)
 
-![Aniversario de AME Email Marketing](/wp-content/uploads/2019/11/email_ame_2019.gif)
+![Aniversario de AME Email Marketing](./2019-11-email_ame_2019.gif)
 
 ### [Currículo](https://www.curriculum.com.br/)
 
-![Aniversario de Marketing por Correo Electrónico del Currículo](/wp-content/uploads/2019/11/curriculum.gif)
+![Aniversario de Marketing por Correo Electrónico del Currículo](./2019-11-curriculum.gif)
 
 ## [Inversiones Pi](https://www.vemprapi.com.br/)
 
-![Aniversario de PI Investments Email Marketing](/wp-content/uploads/2019/11/email_pi.gif)
+![Aniversario de PI Investments Email Marketing](./2019-11-email_pi.gif)
 
 ## Limpio, simple y objetivo!
 
@@ -43,15 +43,15 @@ Esa vieja historia menos es más que nunca se pierde.
 
 ### [Monetus, Año Nuevo](https://monetus.com.br/)
 
-![Aniversario de Monetus Email Marketing](/wp-content/uploads/2019/11/image.png)
+![Aniversario de Monetus Email Marketing](./2019-11-image.png)
 
 ### [InterBanote](https://www.bancointer.com.br/)
 
-![Aniversario de Marketing Inter-Email del Banco](/wp-content/uploads/2019/11/image-1.png)
+![Aniversario de Marketing Inter-Email del Banco](./2019-11-image-1.png)
 
 ### [Rico](http://rico.com.vc)
 
-![Aniversario de Rico Email Marketing](/wp-content/uploads/2019/11/image-2.jpg)
+![Aniversario de Rico Email Marketing](./2019-11-image-2.jpg)
 
 ## Diseño audaz
 
@@ -59,12 +59,12 @@ Invertir un poco de tiempo en su diseño muestra afecto y preocupación por el c
 
 ### [Submarino](https://www.submarino.com.br/)
 
-![Aniversario de marketing por correo electrónico submarino](/wp-content/uploads/2019/11/image-3.jpg)
+![Aniversario de marketing por correo electrónico submarino](./2019-11-image-3.jpg)
 
 ### [Movida Seminovos](https://www.movidaseminovos.com.br/)
 
-![Se movieron Seminovos Email Marketing Aniversario](/wp-content/uploads/2019/11/image-4.jpg)
+![Se movieron Seminovos Email Marketing Aniversario](./2019-11-image-4.jpg)
 
 ### [Envío en línea](https://www.remessaonline.com.br/)
 
-![Aniversario de Marketing por Correo Electrónico de Envío En Línea](/wp-content/uploads/2019/11/image-5.png)
+![Aniversario de Marketing por Correo Electrónico de Envío En Línea](./2019-11-image-5.png)

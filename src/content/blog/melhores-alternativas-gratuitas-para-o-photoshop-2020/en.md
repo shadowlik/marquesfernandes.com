@@ -26,7 +26,7 @@ Adobe Photoshop is one of the best programs available for design, its price howe
 
 ## 1\. [Gimp](https://www.gimp.org/downloads/)
 
-[![Gimp](/wp-content/uploads/2020/07/2.10-update-ui.jpg)](https://www.gimp.org/downloads/)
+[![Gimp](./2020-07-2.10-update-ui.jpg)](https://www.gimp.org/downloads/)
 
 [GIMP](https://www.gimp.org/downloads/) , (short for GNU Image Manipulation Program), is an excellent alternative to Photoshop for those who need advanced image editing features but are on a tight budget.
 
@@ -36,13 +36,13 @@ Like GIMP it is also possible to get support for PSD import, although not all la
 
 ## two. [inkscape](https://inkscape.org/release/inkscape-1.0/)
 
-[![inkscape](/wp-content/uploads/2020/07/Voronoi-and-dulaney-1024x693.png)](https://inkscape.org/release/inkscape-1.0/)
+[![inkscape](./2020-07-Voronoi-and-dulaney.png)](https://inkscape.org/release/inkscape-1.0/)
 
 THE [inkscape](https://inkscape.org/release/inkscape-1.0/) would be more of a replacement for Illustrator than Photoshop, it is more aimed at graphic designers who want to work with vectors. Still, you can use it to make basic image adjustments just like you would in Photoshop, such as cutting, pasting, resizing, and editing. It's also a great tool for converting photographs into vector images!
 
 ## 3\. [Krita](https://krita.org/en/download/krita-desktop/)
 
-[![](/wp-content/uploads/2020/07/krita-ui-40-2.png)](https://krita.org/en/download/krita-desktop/)
+[![](./2020-07-krita-ui-40-2.png)](https://krita.org/en/download/krita-desktop/)
 
 Krita is a perfect free Photoshop alternative, especially for photographers who need a little more flexibility in their edits.
 
@@ -54,7 +54,7 @@ It is highly extensible, you can easily import brush packs and textures from oth
 
 ## 4\. [pixlr x](https://pixlr.com/br/x/)
 
-[![](/wp-content/uploads/2020/07/image-29.png)](https://pixlr.com/br/x/)
+[![](./2020-07-image-29.png)](https://pixlr.com/br/x/)
 
 [pixlr x](https://pixlr.com/x/) is the latest version of Pixlr editor. It comes with much more advanced features and improvements and aims to become one of the best free Photoshop alternatives on the market.
 
@@ -64,7 +64,7 @@ Pixlr x is a fully online photo editor, which means you can use it with any oper
 
 ## 5\. [Sumopaint](https://www.sumopaint.com/)
 
-![Sumopaint](/wp-content/uploads/2020/07/sumopaint.jpg)
+![Sumopaint](./2020-07-sumopaint.jpg)
 
 THE [Sumopaint](https://www.sumopaint.com/home/) is an excellent free alternative to Photoshop, both in design (very similar) and in functionality.
 

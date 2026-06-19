@@ -40,13 +40,13 @@ A maneira como o GC sabe que os objetos não estão mais em uso é que nenhum ou
 
 Análise o diagrama abaixo, ele vai dar uma visão de como a memória fica quando objetos são referenciados nela (estão "vivos") e quando não tem mais referência (são "lixo").
 
-![](/wp-content/uploads/2020/03/nodememoria.jpg)
+![](./2020-03-nodememoria.jpg)
 
 ### Memória Depois do Coletor Funcionar
 
 Após o coletor funcionar, as memórias inalcançáveis são deletas liberando espaço na memória.
 
-![](/wp-content/uploads/2020/03/nodememoriav2.jpg)
+![](./2020-03-nodememoriav2.jpg)
 
 O intervalo de duração em que o coletor executa varia por aplicação, ele mantém uma metodologia inteligente para saber com qual frequência ele precisa limpar a memória. Ele possui uma
 

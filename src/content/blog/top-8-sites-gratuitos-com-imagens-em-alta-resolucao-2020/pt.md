@@ -30,7 +30,7 @@ Antigamente existia um certo preconceito com o uso das famosas **[stock photos](
 
 ## [1\. Freepik](https://br.freepik.com/)
 
-[![Freepik](/wp-content/uploads/2020/03/image-1024x501.png)](https://br.freepik.com/)
+[![Freepik](./2020-03-image.png)](https://br.freepik.com/)
 
 [Freepik](https://br.freepik.com/)
 
@@ -38,7 +38,7 @@ O Freepik entra no topo da lista por sua versatilidade, uso muito no dia a dia t
 
 ## [2\. Pexels](https://www.pexels.com/)
 
-[![Pexels](/wp-content/uploads/2020/03/image-1-1024x501.png)](https://www.pexels.com/)
+[![Pexels](./2020-03-image-1.png)](https://www.pexels.com/)
 
 [Pexels](https://www.pexels.com/)
 
@@ -46,7 +46,7 @@ A Pexels fornece fotos de alta qualidade e completamente gratuitas, licenciadas 
 
 ## [3\. Unsplash](http://unsplash.com/)
 
-[![Unsplash](/wp-content/uploads/2020/03/image-2-1024x501.png)](http://unsplash.com/)
+[![Unsplash](./2020-03-image-2.png)](http://unsplash.com/)
 
 [Unsplash](http://unsplash.com/)
 
@@ -54,7 +54,7 @@ O Unsplash oferece uma grande coleção de fotos gratuitas de alta resolução e
 
 ## [4\. Pixabay](https://pixabay.com/)
 
-[![Pixabay](/wp-content/uploads/2020/03/image-3-1024x501.png)](https://pixabay.com/)
+[![Pixabay](./2020-03-image-3.png)](https://pixabay.com/)
 
 [Pixabay](https://pixabay.com/)
 
@@ -62,7 +62,7 @@ O Pixabay oferece uma grande coleção de fotos, vetores e ilustrações de arte
 
 ## [5\. Foca](https://focastock.com/)
 
-[![Foca](/wp-content/uploads/2020/03/image-4-1024x501.png)](https://focastock.com/)
+[![Foca](./2020-03-image-4.png)](https://focastock.com/)
 
 [Foca](https://focastock.com/)
 
@@ -70,7 +70,7 @@ O Foca é uma coleção de fotos de alta resolução fornecidas por Jeffrey Bett
 
 ## [6\. Picjumbo](http://picjumbo.com/)
 
-[![Picjumbo](/wp-content/uploads/2020/03/image-5-1024x501.png)](http://picjumbo.com/)
+[![Picjumbo](./2020-03-image-5.png)](http://picjumbo.com/)
 
 [Picjumbo](http://picjumbo.com/)
 
@@ -78,7 +78,7 @@ O Picjumbo é uma coleção de fotos totalmente gratuitas para seus trabalhos co
 
 ## [7\. New Old Stock](http://nos.twnsnd.co/)
 
-[![New Old Stock](/wp-content/uploads/2020/03/image-6-1024x501.jpg)](http://nos.twnsnd.co/)
+[![New Old Stock](./2020-03-image-6.jpg)](http://nos.twnsnd.co/)
 
 [New Old Stock](http://nos.twnsnd.co/)
 
@@ -86,7 +86,7 @@ Se você está procurando aquela foto antiga pra algum artigo ou até mesmo para
 
 ## [8\. ISO Republic](https://isorepublic.com/)
 
-![ISO Republic](/wp-content/uploads/2020/03/image-6-1024x501.png)
+![ISO Republic](./2020-03-image-6.png)
 
 [ISO Republic](https://isorepublic.com/)
 
@@ -94,7 +94,7 @@ A ISO Republic oferece uma ampla variedade de fotos; eles adicionam novas imagen
 
 ## 9\. [PIKWIZARD](https://pikwizard.com/)
 
-![PIKWIZARD](/wp-content/uploads/2021/01/image-1-1024x487.jpg)
+![PIKWIZARD](./2021-01-image-1.jpg)
 
 [PIKWIZARD](https://pikwizard.com/)
 

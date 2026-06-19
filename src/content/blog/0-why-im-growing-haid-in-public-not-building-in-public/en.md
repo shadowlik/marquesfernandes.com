@@ -37,7 +37,7 @@ I'd already scratched a similar itch before: I built [apuama.com](https://apuama
 
 And since I love a side project: let's do this.
 
-![](/wp-content/uploads/2026/04/image-471x1024.png)
+![](./2026-04-image.png)
 
 ## The First Instinct: Just Build
 
@@ -85,7 +85,7 @@ The few posts that weren't immediately banned got… interesting reactions.
 
 A lot of hate comments. People being harsh for no apparent reason, even when you come with the best intentions. But I get it, this was the internet I always knew existed… I'd just never been on the receiving end before. I'm a private person. I don't like overexposure. So this was new territory.
 
-![](/wp-content/uploads/2026/04/image-1.png)
+![](./2026-04-image-1.png)
 
 I got that a lot. And damn, it got under my skin. I've been building software professionally for over 15 years. I've shipped products used by thousands of people at real companies, long before GPT existed. And now, because it's 2026, everything a solo developer puts out gets dismissed as AI-generated garbage?
 
@@ -133,7 +133,7 @@ The point of HAID is not just to aggregate data, but to help answer a better que
 
 Once I landed on that, things started clicking into place.
 
-![](/wp-content/uploads/2026/04/image-2-471x1024.png)
+![](./2026-04-image-2.png)
 
 ## Now the Hard Part Starts
 

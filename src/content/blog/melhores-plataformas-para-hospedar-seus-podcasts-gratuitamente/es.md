@@ -31,7 +31,7 @@ Las características básicas que desea para un servicio de alojamiento de podca
 
 ## 1\. [Buzzsprout, Nueva A.](https://www.buzzsprout.com/)
 
-[![Buzzsprout, Nueva A.](/wp-content/uploads/2020/05/image-1024x525.jpg)](https://www.buzzsprout.com/)
+[![Buzzsprout, Nueva A.](./2020-05-image.jpg)](https://www.buzzsprout.com/)
 
 \-ERR:REF-NOT-FOUND-Buzzsprout, Nueva A.
 
@@ -47,7 +47,7 @@ La plataforma ha atendido a más de 100.000 usuarios desde su lanzamiento en 200
 
 ## 2\. [PodBean, Año Nuevo](https://www.podbean.com/)
 
-[![PodBean, Año Nuevo](/wp-content/uploads/2020/05/image-1-1024x525.jpg)](https://www.podbean.com/)
+[![PodBean, Año Nuevo](./2020-05-image-1.jpg)](https://www.podbean.com/)
 
 \-ERR:REF-NOT-FOUND-PodBean, Año Nuevo
 
@@ -61,7 +61,7 @@ La plataforma ha atendido a más de 100.000 usuarios desde su lanzamiento en 200
 
 ## 3\. [Spreaker, Año Nuevo](https://www.spreaker.com/)
 
-[![](/wp-content/uploads/2020/05/image-2-1024x525.jpg)](https://www.spreaker.com/)
+[![](./2020-05-image-2.jpg)](https://www.spreaker.com/)
 
 \-ERR:REF-NOT-FOUND-Spreaker, Año Nuevo
 

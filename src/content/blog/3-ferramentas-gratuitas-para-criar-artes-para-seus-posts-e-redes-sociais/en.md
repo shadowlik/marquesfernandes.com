@@ -35,7 +35,7 @@ Snappa is my "go-to" tool, it has a very user-friendly creation interface, dozen
 
 ## [canvas](https://www.canva.com/)
 
-![](/wp-content/uploads/2019/02/image-14-1024x502.png)
+![](./2019-02-image-14.png)
 
 [https://www.canva.com/](https://www.canva.com/)
 
@@ -43,7 +43,7 @@ Canva is an excellent alternative when you exceed your limit of 5 Snappa downloa
 
 ## [stencil](https://getstencil.com/app)
 
-![](/wp-content/uploads/2019/02/image-15-1024x496.png)
+![](./2019-02-image-15.png)
 
 [https://getstencil.com/app](https://getstencil.com/app)
 

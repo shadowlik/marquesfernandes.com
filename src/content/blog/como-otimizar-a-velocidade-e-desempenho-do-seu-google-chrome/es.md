@@ -23,7 +23,7 @@ Si su navegador se ve más lento de lo normal, no se desespere, hay algunos cons
 
 Puede parecer obvio, pero a menudo culpamos al pobre navegador por una mala conexión. Realice una prueba de velocidad en un sitio como [speedtest.ne](https://www.speedtest.net/)t. Puede identificar el problema de inmediato, probarlo especialmente si está en una conexión pública, como un aeropuerto o un restaurante. Y si tu conexión es realmente lenta (j~ura la red/claro)~, asegúrate de que tú o alguien de tu red no esté descargando algo o viendo un video.
 
-[![https://www.speedtest.net/](/wp-content/uploads/2020/01/image-7.png)](https://www.speedtest.net/)
+[![https://www.speedtest.net/](./2020-01-image-7.png)](https://www.speedtest.net/)
 
 ## 2 - Compruebe sus pestañas abiertas
 
@@ -43,13 +43,13 @@ Otro consejo obvio pero súper importante, no sólo para la velocidad, sino tamb
 
 Si tienes extensiones de Google Chrome instaladas, ahora es el momento de comprobar, confirmar las extensiones que usas con frecuencia y desactivar las que no se utilizan, también ver si alguna extensión está agotando recursos de tu ordenador, a través del acceso di`recto Shift` \+ ESC abrir el administrador de tareas de Chrome, y ver el procesador y el consumo de memoria de sus pestañas y extensiones.
 
-![Administrador de tareas de Google](/wp-content/uploads/2020/01/image-8-1024x548.png)
+![Administrador de tareas de Google](./2020-01-image-8.png)
 
 ## 5 - Borrar datos temporales
 
 Google Chrome guarda varios archivos con el fin de mejorar la experiencia del usuario, pero en algunos casos estos archivos pueden sobrecargar e interrumpir el rendimiento del navegador, para borrar haga clic en los tres puntos en la esquina superior derecha**, Más herramienta**s > **Borrar datos de navegació**n. Borra todos los datos de imágenes y archivos, no te recomendamos seleccionar las otras opciones, las ganancias son pocas y perderás todo tu historial y tendrás que iniciar sesión en todos los sitios que uses.
 
-![Borrar datos de navegación](/wp-content/uploads/2020/01/image-9.png)
+![Borrar datos de navegación](./2020-01-image-9.png)
 
 ## 6 - Analiza tu antivirus
 
@@ -59,7 +59,7 @@ A menudo Malwares pueden estar poniendo en peligro el rendimiento de su ordenado
 
 Google Chrome tiene algunas características ocultas, pueden cambiar, desaparecer o incluso generar un comportamiento inesperado en su navegador, así que sólo cambiar las cosas aquí si lo necesita mucho y está seguro de lo que está haciendo.
 
-![](/wp-content/uploads/2020/01/image-10.png)
+![](./2020-01-image-10.png)
 
 -   Características experimentales de la pantalla - Esto permite a Chrome utilizar pantallas opacas para ampliar los tiempos de carga y aumentar el rendimi  
     [ento.chrome://flags/#enable-experimental-canvas-features](chrome://flags/#enable-experimental-canvas-features)
@@ -82,4 +82,4 @@ Google Chrome tiene algunas características ocultas, pueden cambiar, desaparece
 
 A veces, el equipo simplemente no tiene la capacidad y sólo una actualización puede ahorrar su paciencia. Demandamos cada vez más de nuestro navegador, páginas más complejas, vídeos 8k, múltiples pestañas para multitarea... Es posible que los equipos con pocos recursos simplemente no puedan manejar tanta carga de trabajo, así que tal vez sea el momento de actu[alizar o comprar uno nuevo](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook).
 
-[![Slow Computer](/wp-content/uploads/2020/01/iStock_000027871442_Medium-1-1024x671.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)
+[![Slow Computer](./2020-01-iStock_000027871442_Medium-1.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)

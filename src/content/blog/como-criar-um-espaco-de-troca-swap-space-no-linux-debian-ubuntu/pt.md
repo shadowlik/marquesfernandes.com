@@ -28,7 +28,7 @@ Se você deseja melhorar o desempenho da sua instalação Debian/Ubuntu, a cria�
 
 Se você já utiliza as versões mais recentes do Ubuntu, é muito provável que esse espaço já tenha sido criado automaticamente durante a instalação do sistema operacional. Podemos conferir com o utilitário **htop** para visualizar facilmente se existe um espaço de troca, quantidade espaço alocado livre e usado:
 
-![htop - Swap Space](/wp-content/uploads/2019/12/image-12.png)
+![htop - Swap Space](./2019-12-image-12.png)
 
 Em uma busca na internet encontrei a seguinte dica: ***O tamanho de seu espaço virtual deve ser igual ao dobro da memória RAM de seu computador ou 32 MB, o que for maior. Mas não deve ser maior que 2048 MB (ou 2 GB).***
 

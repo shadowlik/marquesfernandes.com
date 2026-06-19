@@ -46,7 +46,7 @@ Este proyecto de IoT propone un sistema de riego automatizado que puede analizar
 
 ## 4\. Monitoreo de nivel de basura - Arduino
 
-![4\. Monitoreo de nivel de basura - Arduino](/wp-content/uploads/2020/03/image-13-1024x543.jpg)
+![4\. Monitoreo de nivel de basura - Arduino](./2020-03-image-13.jpg)
 
 Este proyecto de IoT utiliza un sensor ultrasónico para detectar el nivel de basura en cada papelera de reciclaje y enviar estos datos al programa principal. Una página del explorador muestra el nivel de elementos no utilizados en cada papelera de reciclaje.
 

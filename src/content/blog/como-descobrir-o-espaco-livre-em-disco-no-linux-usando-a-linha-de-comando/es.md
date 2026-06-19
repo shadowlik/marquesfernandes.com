@@ -24,7 +24,7 @@ Este comando es probablemente el más simple y servirá a los análisis más bá
 
 $df -H
 
-![](/wp-content/uploads/2019/11/image-13.png)
+![](./2019-11-image-13.png)
 
 Pero, ¿qué pasa si la cantidad de discos es demasiado grande? Como en el caso de la imagen anterior, tenemos discos creados por ubuntu snaps aplicaciones *(/dev/loopX*Y) y queremos centrarnos sólo en la partición principal *(/dev/sda*6):
 
@@ -32,7 +32,7 @@ $df -H/dev/sda6
 
 El resultado ahora se limitará a ese disco:
 
-![](/wp-content/uploads/2019/11/image-14.jpg)
+![](./2019-11-image-14.jpg)
 
 ## [Du](https://linux.die.net/man/1/du)
 
@@ -40,7 +40,7 @@ Ahora que sabes cómo identificar cuánto espacio libre te queda o no, es muy pr
 
 $du-sh /home/shadowlik/Downloads
 
-![](/wp-content/uploads/2019/11/image-15.jpg)
+![](./2019-11-image-15.jpg)
 
 \* *No necesitamos pasar la ruta completa al comando, podemos pasar sólo la ruta de referencia de la carpeta en la que nos estamos ejecutando, en caso de que la imagen de arriba podríamos ejecuta**r descargas du-sh** /.*
 
@@ -48,7 +48,7 @@ Hemos visto anteriorment*e que la* carpeta Descargas pesa aproximadamente 19 gig
 
 $du -sh Descargas/\*
 
-![](/wp-content/uploads/2019/12/image.jpg)
+![](./2019-12-image.jpg)
 
 Las capturas de pantalla son diferentes porque formateé mi computadora mientras terminaba este artículo.  
 \* Los nombres de archivo se han desenfocado por seguridad.

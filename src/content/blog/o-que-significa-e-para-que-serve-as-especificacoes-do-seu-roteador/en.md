@@ -27,7 +27,7 @@ So what features and information really matter when it comes to router performan
 
 ## 1\. Antennas - One, two or thirty antennas?
 
-![What does your router's specs mean and what it is for](/wp-content/uploads/2020/02/tp_link_archer_c5400x_gaming_roteador_ac5400_tri_band_giga_10693_1_20200110094425.webp)
+![What does your router's specs mean and what it is for](./2020-02-tp_link_archer_c5400x_gaming_roteador_ac5400_tri_band_giga_10693_1_20200110094425.webp)
 
 My God, how many antennas! Is this a router or a spaceship?
 
@@ -41,7 +41,7 @@ Also check the power of the antennas embedded in your router, look for the dBi m
 
 ## two. Bands, frequency channels - Single, Dual or Tri-band?
 
-![Range and frequency of IEEE 802.11 standards.](/wp-content/uploads/2020/02/RF_Essentials_Fig1.gif)
+![Range and frequency of IEEE 802.11 standards.](./2020-02-RF_Essentials_Fig1.gif)
 
 [Range and frequency of IEEE 802.11 standards.](https://www.gta.ufrj.br/grad/15_1/802.11ah/ieee80211ah.html)
 

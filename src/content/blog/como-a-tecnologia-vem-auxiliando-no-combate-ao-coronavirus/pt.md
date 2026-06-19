@@ -26,7 +26,7 @@ Podemos notar o quanto a tecnologia vem ajudado na luta contra o Coronavírus, m
 
 ## 1\. [Aplicativo Cornavirus SUS](https://www.gov.br/pt-br/apps/coronavirus-sus)
 
-[![](/wp-content/uploads/2020/04/image-9.jpg)](https://www.gov.br/pt-br/apps/coronavirus-sus)
+[![](./2020-04-image-9.jpg)](https://www.gov.br/pt-br/apps/coronavirus-sus)
 
 O Ministério da Saúde, em uma resposta muito rápida, lançou um aplicativo chamado [Coronavírus – SUS](https://www.gov.br/pt-br/apps/coronavirus-sus). O app apresenta desde descrições de sintomas, dicas de prevenção, quais são as formas de transmissão e um mapa com as unidades de saúde gratuitas disponíveis mais próximas da sua localização.
 
@@ -36,7 +36,7 @@ Algo louvável e surpreendente vindo do setor público, que normalmente é muito
 
 ## 2\. [Johns Hopkins University](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
-[![](/wp-content/uploads/2020/04/image-8-1024x481.png)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+[![](./2020-04-image-8.png)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
 [Painel de Monitoramento do Centro de Sistemas para Ciências e Engenharia](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
@@ -44,7 +44,7 @@ O [Centro de Sistemas para Ciências e Engenharia (CSSE)](https://systems.jhu.ed
 
 ## 3\. Inteligência Artificial
 
-![](/wp-content/uploads/2020/04/rock-n-roll-monkey-R4WCbazrD1g-unsplash-1024x575.jpg)
+![](./2020-04-rock-n-roll-monkey-R4WCbazrD1g-unsplash.jpg)
 
 ### 3.1 Monitoramento e detecção preventiva
 
@@ -60,7 +60,7 @@ A empresa americana de inteligência artificial [Infervision](https://www.wired
 
 ## 4\. Telemedicina
 
-![](/wp-content/uploads/2020/04/national-cancer-institute-cQ8FfVNvbew-unsplash-1024x683.jpg)
+![](./2020-04-national-cancer-institute-cQ8FfVNvbew-unsplash.jpg)
 
 O Conselho Federal de Medicina (CFM) autorizou em 19 de março o [uso da telemedicina](https://pebmed.com.br/tecnologias-que-ampliaram-o-acesso-a-tratamentos-e-diagnosticos-no-brasil-telemedicina/) durante a **[pandemia da COVID-19](http://marquesfernandes.com/?p=8003&preview=1&_ppp=97c26d0e74)**.
 
