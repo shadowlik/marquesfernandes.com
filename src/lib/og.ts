@@ -47,8 +47,11 @@ export function formatOgDate(date: Date, lang: Lang): string {
   return `${get('day')} ${get('month')} ${get('year')}`.toUpperCase().replace(/\./g, '');
 }
 
-/** Trim a title so it fits the card; adds an ellipsis when cut. */
-export function truncateTitle(text: string, max = 84): string {
+/**
+ * Trim a title so it fits the card; adds an ellipsis when cut. The cap keeps
+ * the title within 4 lines at 68px/900px so it never collides with the meta line.
+ */
+export function truncateTitle(text: string, max = 70): string {
   if (text.length <= max) return text;
   return `${text.slice(0, max - 1).trimEnd()}…`;
 }
