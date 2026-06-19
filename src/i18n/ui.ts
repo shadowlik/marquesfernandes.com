@@ -28,7 +28,8 @@ export const ui = {
     'post.writtenBy': 'Escrito por:',
     'post.postedOn': 'Publicado em:',
     'post.tags': 'Tags:',
-    'post.machineTranslated': 'Esta tradução foi gerada automaticamente e está pendente de revisão.',
+    'post.machineTranslated':
+      'Esta tradução foi gerada automaticamente e está pendente de revisão.',
     'home.role': 'Software Engineer',
     'home.ctaTagline': 'Dados de fitness que entendem sua vida, não apenas seu corpo.',
     'home.latestPosts': 'Últimos Posts',
@@ -66,7 +67,8 @@ export const ui = {
     'post.writtenBy': 'Escrito por:',
     'post.postedOn': 'Publicado el:',
     'post.tags': 'Etiquetas:',
-    'post.machineTranslated': 'Esta traducción se generó automáticamente y está pendiente de revisión.',
+    'post.machineTranslated':
+      'Esta traducción se generó automáticamente y está pendiente de revisión.',
     'home.role': 'Software Engineer',
     'home.ctaTagline': 'Datos de fitness que entienden tu vida, no solo tu cuerpo.',
     'home.latestPosts': 'Últimas Entradas',

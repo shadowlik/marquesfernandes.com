@@ -1,22 +1,96 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import dog from '@/assets/404.png';
 ---
 
 <BaseLayout lang="pt" title="404 — MF.">
   <section class="container notfound">
-    <p class="eyebrow">404</p>
-    <h1>Página não encontrada</h1>
-    <p>A página que você procura não existe ou foi movida.</p>
-    <p><a href="/">← Voltar ao início</a></p>
+    <Image
+      class="dog"
+      src={dog}
+      alt="Um cachorro confuso na frente de um laptop com Error 404"
+      widths={[360, 540]}
+      sizes="(max-width: 540px) 80vw, 380px"
+      loading="eager"
+    />
+    <p class="code">404</p>
+    <h1 data-i18n="pt">Você parece perdido.<br />O cachorro também.</h1>
+    <h1 data-i18n="en" hidden>You seem lost.<br />So does the dog.</h1>
+    <h1 data-i18n="es" hidden>Pareces perdido.<br />El perro también.</h1>
+    <a class="home" href="/">← Voltar ao início</a>
   </section>
 </BaseLayout>
 
+<script is:inline>
+  // The 404 is one static page served for every locale, so pick the language
+  // from the URL the visitor actually hit (nginx keeps the original path).
+  (() => {
+    const p = location.pathname;
+    const lang = p.startsWith('/en/') ? 'en' : p.startsWith('/es/') ? 'es' : 'pt';
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      el.hidden = el.getAttribute('data-i18n') !== lang;
+    });
+    const home = document.querySelector('.home');
+    const labels = { pt: '← Voltar ao início', en: '← Back to home', es: '← Volver al inicio' };
+    home.textContent = labels[lang];
+    home.setAttribute('href', lang === 'pt' ? '/' : '/' + lang + '/');
+  })();
+</script>
+
 <style>
   .notfound {
-    padding-block: 5rem;
-    min-height: 40vh;
+    text-align: center;
+    padding-block: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dog {
+    width: min(380px, 80vw);
+    height: auto;
+    border-radius: 16px;
+  }
+  .code {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: clamp(3rem, 12vw, 5rem);
+    letter-spacing: var(--tracking-tight);
+    color: var(--color-accent);
+    margin: 1.5rem 0 0;
+    line-height: 1;
   }
   .notfound h1 {
-    margin: 0.25rem 0 1rem;
+    margin: 0.5rem 0 2rem;
+    max-width: 24ch;
+  }
+  /* Brand-fill button matching the home CTA. */
+  .home {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border: 2px solid var(--color-accent);
+    color: var(--color-heading);
+    font-family: var(--font-heading);
+    font-weight: 600;
+  }
+  .home::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+  .home:hover {
+    color: var(--color-on-dark);
+    text-decoration: none;
+  }
+  .home:hover::before {
+    transform: scaleX(1);
   }
 </style>
