@@ -12,6 +12,8 @@ interface Props {
   author?: string;
   date: Date;
   tags?: string[];
+  /** Show a 'machine-translated, pending review' note. */
+  needsReview?: boolean;
   /** Optional featured image for the hero background. */
   cover?: ImageMetadata;
   /** Per-language equivalents for hreflang + the language switcher. */
@@ -25,6 +27,7 @@ const {
   author = 'Henrique Marques Fernandes',
   date,
   tags = [],
+  needsReview = false,
   cover,
   alternates,
 } = Astro.props;
@@ -63,6 +66,7 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
       }
     </aside>
     <div class="content">
+      {needsReview && <p class="review-note">{t('post.machineTranslated')}</p>}
       <slot />
     </div>
   </div>
@@ -121,6 +125,14 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
   }
   .content {
     max-width: var(--measure);
+  }
+  .review-note {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    margin: 0 0 1.75rem;
+    background: #fff5f7;
+    border-left: 3px solid var(--color-accent);
+    color: var(--color-heading);
   }
   .content :global(h2),
   .content :global(h3) {
