@@ -36,10 +36,13 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
   </section>
 
   <section class="apuama">
-    <div class="container">
-      <h2><a href="https://apuama.com" rel="noopener">apuama.com</a></h2>
-      <p>{t('home.apuamaTagline')}</p>
-      <a class="btn" href="https://apuama.com" rel="noopener">apuama.com →</a>
+    <div class="container apuama-inner">
+      <div>
+        <span class="brand-dash"></span>
+        <h2><a href="https://haid.app" rel="noopener">haid.app</a></h2>
+        <p>{t('home.apuamaTagline')}</p>
+      </div>
+      <a class="btn" href="https://haid.app" rel="noopener">{t('home.exploreNow')}</a>
     </div>
   </section>
 
@@ -94,7 +97,7 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
   }
   .hero h1 {
     color: var(--color-on-dark);
-    font-size: clamp(2.5rem, 8vw, 6rem);
+    font-size: clamp(2.5rem, 8vw, 4rem);
     margin: 0;
   }
 
@@ -112,19 +115,19 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
   .about-name {
     font-size: clamp(1.75rem, 4vw, 2.75rem);
     margin: 0 0 1.5rem;
-    position: relative;
-    display: inline-block;
   }
   .about-name::after {
     content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0.1em;
-    height: 0.18em;
-    width: 100%;
+    display: block;
+    margin-top: 0.75rem;
+    height: 3px;
+    width: 80px;
     background: var(--color-accent);
-    z-index: -1;
-    opacity: 0.9;
+  }
+  @media (max-width: 720px) {
+    .about-name::after {
+      display: none;
+    }
   }
   .bio {
     max-width: var(--measure);
@@ -138,11 +141,42 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
     width: auto;
   }
 
-  /* apuama CTA */
+  /* haid.app CTA */
   .apuama {
+    position: relative;
     background: var(--color-ink);
     color: var(--color-on-dark);
-    padding-block: 5rem;
+    padding-block: 6rem;
+    overflow: hidden;
+  }
+  /* branded vertical accent lines, centered top & bottom */
+  .apuama::before,
+  .apuama::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 90px;
+    background: var(--color-accent);
+  }
+  .apuama::before {
+    top: 0;
+  }
+  .apuama::after {
+    bottom: 0;
+  }
+  .apuama-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .brand-dash {
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--color-accent);
+    margin-bottom: 2rem;
   }
   .apuama h2 {
     margin: 0 0 1rem;
@@ -157,22 +191,47 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
   }
   .apuama p {
     max-width: 40ch;
-    margin: 0 0 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--color-accent);
   }
+  /* Button with a brand-color fill that wipes in from the left on hover. */
   .btn {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
     display: inline-block;
-    padding: 0.85rem 1.75rem;
+    flex-shrink: 0;
+    padding: 1rem 2.5rem;
     border: 2px solid var(--color-accent);
     color: var(--color-on-dark);
     font-family: var(--font-heading);
-    font-weight: 700;
-    transition:
-      background 0.2s ease,
-      color 0.2s ease;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+  .btn:hover::before {
+    transform: scaleX(1);
   }
   .btn:hover {
-    background: var(--color-accent);
     text-decoration: none;
+  }
+  @media (max-width: 720px) {
+    .apuama-inner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 
   /* Latest posts */

@@ -33,6 +33,11 @@ export const ui = {
       'The all-in-one platform to discover and register for endurance events worldwide',
     'home.latestPosts': 'Últimos Posts',
     'home.latestLabel': 'Leia minhas reflexões',
+    'home.exploreNow': 'Explorar agora',
+    'footer.letsTalk': 'Vamos conversar',
+    'footer.blurb':
+      'Vamos conversar! Adoraria saber sobre sua próxima ideia ou projeto, fique à vontade para entrar em contato a qualquer momento.',
+    'footer.tagline': 'Este blog funciona com cafeína e trocadilhos ruins.',
   },
   en: {
     'nav.home': 'Home',
@@ -47,6 +52,11 @@ export const ui = {
       'The all-in-one platform to discover and register for endurance events worldwide',
     'home.latestPosts': 'Latest Posts',
     'home.latestLabel': 'Check out some of my thinking',
+    'home.exploreNow': 'Explore Now',
+    'footer.letsTalk': "Let's Talk",
+    'footer.blurb':
+      "Let's talk! I'd love to hear about your next idea or project, feel free to reach out anytime.",
+    'footer.tagline': 'This blog runs on caffeine and bad puns.',
   },
   es: {
     'nav.home': 'Inicio',
@@ -61,6 +71,11 @@ export const ui = {
       'The all-in-one platform to discover and register for endurance events worldwide',
     'home.latestPosts': 'Últimas Entradas',
     'home.latestLabel': 'Conoce algunas de mis ideas',
+    'home.exploreNow': 'Explorar ahora',
+    'footer.letsTalk': 'Hablemos',
+    'footer.blurb':
+      '¡Hablemos! Me encantaría saber sobre tu próxima idea o proyecto, no dudes en contactarme en cualquier momento.',
+    'footer.tagline': 'Este blog funciona con cafeína y malos chistes.',
   },
 } as const satisfies Record<Lang, Record<string, string>>;
 
