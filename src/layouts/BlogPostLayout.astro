@@ -18,6 +18,12 @@ interface Props {
   cover?: ImageMetadata;
   /** Per-language equivalents for hreflang + the language switcher. */
   alternates?: { lang: Lang; path: string }[];
+  /** Primary category slug (becomes article:section). */
+  category?: string;
+  /** Last-updated date (becomes article:modified_time). */
+  updated?: Date;
+  /** Root-relative path to this article's OG card. */
+  ogImage?: string;
 }
 
 const {
@@ -30,6 +36,9 @@ const {
   needsReview = false,
   cover,
   alternates,
+  category,
+  updated,
+  ogImage,
 } = Astro.props;
 const t = useTranslations(lang);
 const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
@@ -39,7 +48,18 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
 }).format(date);
 ---
 
-<BaseLayout title={title} description={description} lang={lang} alternates={alternates}>
+<BaseLayout
+  title={title}
+  description={description}
+  lang={lang}
+  alternates={alternates}
+  ogType="article"
+  ogImage={ogImage}
+  publishedTime={date}
+  modifiedTime={updated}
+  section={category}
+  articleTags={tags}
+>
   <header class:list={['post-hero', { 'has-cover': cover }]}>
     {
       cover && (

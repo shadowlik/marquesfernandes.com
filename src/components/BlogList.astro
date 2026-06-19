@@ -10,11 +10,13 @@ interface Props {
   lang: Lang;
   heading: string;
   page: Page<CollectionEntry<'blog'>>;
+  /** Root-relative path to this listing's OG card. */
+  ogImage?: string;
 }
-const { lang, heading, page } = Astro.props;
+const { lang, heading, page, ogImage } = Astro.props;
 ---
 
-<BaseLayout lang={lang} title={`${heading} — MF.`}>
+<BaseLayout lang={lang} title={`${heading} — MF.`} ogImage={ogImage}>
   <section class="container listing">
     <h1>{heading}</h1>
     <div class="grid">
