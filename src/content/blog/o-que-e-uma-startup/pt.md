@@ -16,6 +16,7 @@ tags:
   - venture-capital
   - nubank
 wpId: 7610
+cover: ./2020-03-o-que-e-uma-startup.jpg
 canonicalPath: /self/o-que-e-uma-startup/
 needsReview: false
 updated: 2020-08-09T17:06:34.000Z

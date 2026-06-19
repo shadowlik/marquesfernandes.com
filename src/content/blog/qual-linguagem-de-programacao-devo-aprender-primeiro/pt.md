@@ -10,6 +10,7 @@ slug: qual-linguagem-de-programacao-devo-aprender-primeiro
 category: desenvolvimento
 tags: []
 wpId: 8471
+cover: ./2020-07-kelly-sikkema-YK0HPwWDJ1I-unsplash.jpg
 canonicalPath: /desenvolvimento/qual-linguagem-de-programacao-devo-aprender-primeiro/
 needsReview: false
 updated: 2020-07-12T10:41:39.000Z

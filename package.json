@@ -25,7 +25,8 @@
     "test:watch": "vitest",
     "migrate:extract": "tsx scripts/migrate/extract.ts",
     "migrate:images": "tsx scripts/migrate/images.ts",
-    "astro": "astro"
+    "astro": "astro",
+    "migrate:covers": "tsx scripts/migrate/covers.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.3",

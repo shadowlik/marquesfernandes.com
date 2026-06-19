@@ -16,6 +16,7 @@ tags:
   - touchicon
   - icon
 wpId: 8824
+cover: ./2020-08-pexels-pixabay-267350.jpg
 canonicalPath: /design/geradores-de-favicon-e-touch-icons-2020/
 needsReview: false
 updated: 2020-08-01T21:57:47.000Z

@@ -14,6 +14,7 @@ tags:
   - twitter
   - hacker
 wpId: 9843
+cover: ./2020-08-stefan-stefancik-Ue2-23uBwNw-unsplash.jpg
 canonicalPath: /noticias/o-ataque-que-chacoalhou-o-twitter-esta-agora-atingindo-diversas-empresas/
 needsReview: false
 updated: 2020-08-18T15:02:09.000Z

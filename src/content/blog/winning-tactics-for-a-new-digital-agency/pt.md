@@ -12,6 +12,7 @@ tags:
   - digital
   - ux-design
 wpId: 114
+cover: ./2019-01-05-min.jpg
 canonicalPath: /tecnologia/winning-tactics-for-a-new-digital-agency/
 needsReview: false
 ---

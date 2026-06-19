@@ -15,6 +15,7 @@ tags:
   - linux
   - unix
 wpId: 6441
+cover: ./2019-12-mask-man-gesture-silence-wallpaper-preview.jpg
 canonicalPath: /tecnologia/a-regra-do-silencio-silencio-e-ouro-linux/
 needsReview: false
 updated: 2020-08-09T17:07:36.000Z

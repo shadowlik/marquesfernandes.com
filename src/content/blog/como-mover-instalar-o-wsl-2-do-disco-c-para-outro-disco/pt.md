@@ -15,6 +15,7 @@ tags:
   - wsl2
   - lxrunoffline
 wpId: 8882
+cover: ./2020-06-windows_and_linux.jpg
 canonicalPath: /tecnologia/como-mover-instalar-o-wsl-2-do-disco-c-para-outro-disco/
 needsReview: false
 updated: 2021-10-18T13:44:26.000Z

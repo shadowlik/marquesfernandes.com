@@ -14,6 +14,7 @@ tags:
   - plano-de-negocios
   - lean
 wpId: 9588
+cover: ./2020-08-adeolu-eletu-E7RLgUjjazc-unsplash.jpg
 canonicalPath: /self/o-que-e-um-plano-de-negocios-business-plan/
 needsReview: false
 updated: 2020-08-15T12:43:21.000Z

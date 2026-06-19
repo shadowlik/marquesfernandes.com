@@ -15,6 +15,7 @@ tags:
   - bdd
   - tdd
 wpId: 7947
+cover: ./2020-04-man-wearing-black-and-white-stripe-shirt-looking-at-white-212286.jpg
 canonicalPath: /tecnologia/teste-unitario-tdd-e-bdd-qual-a-diferenca/
 needsReview: false
 updated: 2020-08-09T17:04:47.000Z

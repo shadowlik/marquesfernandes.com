@@ -15,6 +15,7 @@ tags:
   - security
   - csp
 wpId: 5663
+cover: ./2019-03-Chrome-920x518.jpg
 canonicalPath: /tecnologia/aprenda-a-verificar-se-suas-extensoes-do-chrome-estao-seguras/
 needsReview: false
 updated: 2020-08-09T17:09:15.000Z

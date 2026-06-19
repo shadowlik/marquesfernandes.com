@@ -59,6 +59,7 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
             excerpt={p.data.description}
             date={p.data.date}
             lang={lang}
+            cover={p.data.cover}
           />
         ))
       }

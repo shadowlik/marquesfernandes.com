@@ -18,6 +18,7 @@ tags:
   - telegram
   - hipster
 wpId: 5965
+cover: ./2019-07-159-1.png
 canonicalPath: /self/podcast-ou-um-tapa-na-cara-seguranca-da-informacao-muito-alem-do-telegram-hipster/
 needsReview: false
 updated: 2019-07-31T10:55:15.000Z

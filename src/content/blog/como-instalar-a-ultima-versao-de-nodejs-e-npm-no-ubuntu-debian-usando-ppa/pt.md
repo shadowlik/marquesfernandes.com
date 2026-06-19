@@ -16,6 +16,7 @@ tags:
   - nodejs
   - npm
 wpId: 6984
+cover: ./2020-01-EaGZh7-scaled.jpg
 canonicalPath: /desenvolvimento/como-instalar-a-ultima-versao-de-nodejs-e-npm-no-ubuntu-debian-usando-ppa/
 needsReview: false
 updated: 2020-01-07T23:18:23.000Z

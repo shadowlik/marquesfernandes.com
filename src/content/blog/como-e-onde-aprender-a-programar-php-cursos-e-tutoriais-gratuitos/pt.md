@@ -12,6 +12,7 @@ tags:
   - cursos
   - php
 wpId: 8106
+cover: ./2020-04-Untitled-Design.jpg
 canonicalPath: /tecnologia/como-e-onde-aprender-a-programar-php-cursos-e-tutoriais-gratuitos/
 needsReview: false
 updated: 2020-08-09T16:59:07.000Z

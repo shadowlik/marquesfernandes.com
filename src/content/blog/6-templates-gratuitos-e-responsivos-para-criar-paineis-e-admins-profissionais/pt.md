@@ -16,6 +16,7 @@ tags:
   - admin
   - painel
 wpId: 5695
+cover: ./2019-03-screenshot-adminlte.io-2019.03.07-13-22-06.png
 canonicalPath: /design/6-templates-gratuitos-e-responsivos-para-criar-paineis-e-admins-profissionais/
 needsReview: false
 updated: 2019-03-07T13:19:34.000Z

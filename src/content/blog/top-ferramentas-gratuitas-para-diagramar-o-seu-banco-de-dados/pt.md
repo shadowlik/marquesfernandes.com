@@ -12,6 +12,7 @@ tags:
   - tools
   - database
 wpId: 8244
+cover: ./2020-05-white-graphing-paper-164686.jpg
 canonicalPath: /tecnologia/top-ferramentas-gratuitas-para-diagramar-o-seu-banco-de-dados/
 needsReview: false
 updated: 2020-08-09T17:04:03.000Z

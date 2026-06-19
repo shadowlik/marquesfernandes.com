@@ -8,6 +8,7 @@ slug: o-poder-do-habito
 category: self
 tags: []
 wpId: 4767
+cover: ./2019-02-download-2.jpeg
 canonicalPath: /self/o-poder-do-habito/
 needsReview: false
 ---

@@ -11,6 +11,7 @@ slug: o-google-chrome-tentara-te-impedir-de-digitar-em-formularios-suspeitos
 category: noticias
 tags: []
 wpId: 9800
+cover: ./2020-08-VQZ1CxV.png
 canonicalPath: /noticias/o-google-chrome-tentara-te-impedir-de-digitar-em-formularios-suspeitos/
 needsReview: false
 updated: 2020-08-17T20:04:38.000Z

@@ -13,6 +13,7 @@ tags:
   - facebook
   - download
 wpId: 11093
+cover: ./2021-01-wp2638362-fb-wallpaper.jpg
 canonicalPath: /tecnologia/como-baixar-todas-suas-fotos-marcadas-no-facebook/
 needsReview: false
 updated: 2021-01-05T19:09:14.000Z

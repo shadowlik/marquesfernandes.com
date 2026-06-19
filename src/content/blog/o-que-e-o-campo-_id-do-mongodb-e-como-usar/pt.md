@@ -16,6 +16,7 @@ tags:
   - objectid
   - bson
 wpId: 6323
+cover: ./2019-11-logo-gray-1024x512-993867aa92.png
 canonicalPath: /desenvolvimento/o-que-e-o-campo-_id-do-mongodb-e-como-usar/
 needsReview: false
 updated: 2020-03-21T19:58:35.000Z

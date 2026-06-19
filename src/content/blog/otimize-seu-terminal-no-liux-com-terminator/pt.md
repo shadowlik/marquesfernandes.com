@@ -18,6 +18,7 @@ tags:
   - centos
   - rhel
 wpId: 5762
+cover: ./2019-03-terminator.png
 canonicalPath: /desenvolvimento/otimize-seu-terminal-no-liux-com-terminator/
 needsReview: false
 updated: 2019-03-19T08:21:55.000Z

@@ -15,6 +15,7 @@ tags:
   - typescript
   - debug
 wpId: 7002
+cover: ./2020-01-591b0f2b-56af-4179-8bc0-d7f575bf4ed0-1.jpeg
 canonicalPath: /desenvolvimento/debug-nodejs-com-typescript-usando-o-visual-studio-code/
 needsReview: false
 updated: 2020-01-19T21:45:05.000Z

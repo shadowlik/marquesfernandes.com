@@ -16,6 +16,7 @@ tags:
   - uri
   - web
 wpId: 11296
+cover: ./2021-02-richy-great-MAYEkmn7G6E-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-codificacao-de-url-e-como-funciona/
 needsReview: false
 updated: 2021-02-20T20:55:05.000Z

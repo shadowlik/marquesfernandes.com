@@ -13,6 +13,7 @@ tags:
   - coronavirus
   - inteligencia-artificial
 wpId: 8003
+cover: ./2020-04-dimitri-karastelev-0hO1QgI1H8g-unsplash.jpg
 canonicalPath: /tecnologia/como-a-tecnologia-vem-auxiliando-no-combate-ao-coronavirus/
 needsReview: false
 updated: 2020-08-09T17:04:46.000Z

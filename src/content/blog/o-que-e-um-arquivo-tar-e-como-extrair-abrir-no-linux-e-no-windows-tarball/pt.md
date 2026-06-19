@@ -16,6 +16,7 @@ tags:
   - gzip
   - 7zip
 wpId: 6572
+cover: ./2019-12-screenshot-trello-attachments.s3.amazonaws.com-2019.12.05-11_37_49.jpg
 canonicalPath: /tecnologia/o-que-e-um-arquivo-tar-e-como-extrair-abrir-no-linux-e-no-windows-tarball/
 needsReview: false
 updated: 2020-08-09T17:07:36.000Z

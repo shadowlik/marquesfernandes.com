@@ -12,6 +12,7 @@ tags:
   - html
   - html5
 wpId: 8115
+cover: ./2020-04-florian-olivo-4hbJ-eymZ1o-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-html-e-para-que-serve/
 needsReview: false
 updated: 2020-09-08T12:05:11.000Z

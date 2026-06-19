@@ -17,6 +17,7 @@ tags:
   - swift
   - ios
 wpId: 8136
+cover: ./2020-04-1071027-gorgerous-think-different-apple-wallpaper-1920x1200-1.jpg
 canonicalPath: /tecnologia/o-que-e-a-linguagem-swift-e-para-que-serve-desenvolvendo-aplicativos-ios/
 needsReview: false
 updated: 2020-08-09T16:59:07.000Z

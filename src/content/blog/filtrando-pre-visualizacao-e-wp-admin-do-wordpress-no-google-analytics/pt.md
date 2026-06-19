@@ -13,6 +13,7 @@ tags:
   - google-analytics
   - analytics
 wpId: 6647
+cover: ./2019-12-Check-Out-the-Advanced-Features-of-New-Google-Analytics-Home-Screen.png
 canonicalPath: /self/filtrando-pre-visualizacao-e-wp-admin-do-wordpress-no-google-analytics/
 needsReview: false
 updated: 2019-12-09T00:02:09.000Z

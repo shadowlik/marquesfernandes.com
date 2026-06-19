@@ -16,6 +16,7 @@ tags:
   - protocol
   - http-http3
 wpId: 10739
+cover: ./2020-11-pexels-pixabay-159304.jpg
 canonicalPath: /tecnologia/o-que-e-http-3-e-qual-a-diferenca/
 needsReview: false
 updated: 2020-11-16T15:09:17.000Z

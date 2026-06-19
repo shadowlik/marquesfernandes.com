@@ -16,6 +16,7 @@ tags:
   - arquitetura
   - monolitica
 wpId: 8254
+cover: ./2020-05-computer-computer-keyboard-contemporary-display-257881-scaled.jpg
 canonicalPath: /tecnologia/o-que-e-um-sistema-aplicacao-monolito-monolitica/
 needsReview: false
 updated: 2020-08-09T17:04:02.000Z

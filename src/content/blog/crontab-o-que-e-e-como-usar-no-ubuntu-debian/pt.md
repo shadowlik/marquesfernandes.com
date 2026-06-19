@@ -17,6 +17,7 @@ tags:
   - cron
   - task-scheduler
 wpId: 7707
+cover: ./2020-03-crontab.jpg
 canonicalPath: /desenvolvimento/crontab-o-que-e-e-como-usar-no-ubuntu-debian/
 needsReview: false
 updated: 2020-03-20T18:28:31.000Z

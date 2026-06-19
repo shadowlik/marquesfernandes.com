@@ -16,6 +16,7 @@ tags:
   - spreadsheets
   - google-apps-script
 wpId: 6942
+cover: ./2020-01-google-sheets-agora-esta-plugado.jpg
 canonicalPath: /tecnologia/como-importar-arquivos-csv-no-google-planilhas-usando-o-google-apps-script/
 needsReview: false
 updated: 2020-08-09T17:07:35.000Z

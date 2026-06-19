@@ -15,6 +15,7 @@ tags:
   - npm
   - v8engine
 wpId: 5673
+cover: ./2019-03-nodejs.png
 canonicalPath: /tecnologia/afinal-o-que-e-nodejs/
 needsReview: false
 updated: 2020-08-16T14:52:44.000Z

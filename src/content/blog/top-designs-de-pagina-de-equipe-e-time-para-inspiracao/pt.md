@@ -17,6 +17,7 @@ tags:
   - time
   - team
 wpId: 8306
+cover: ./2020-05-josh-calabrese-Ev1XqeVL2wI-unsplash-scaled.jpg
 canonicalPath: /design/top-designs-de-pagina-de-equipe-e-time-para-inspiracao/
 needsReview: false
 updated: 2020-05-12T19:46:21.000Z

@@ -13,6 +13,7 @@ tags:
   - posts
   - plugins
 wpId: 6507
+cover: ./2019-12-Wordpress.jpg
 canonicalPath: /self/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress/
 needsReview: false
 updated: 2020-08-09T17:07:36.000Z

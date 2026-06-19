@@ -12,6 +12,7 @@ tags:
   - digital
   - ux-design
 wpId: 141
+cover: ./2019-01-02-min.jpg
 canonicalPath: /tecnologia/how-to-become-a-best-sale-marketer-in-a-year/
 needsReview: false
 ---

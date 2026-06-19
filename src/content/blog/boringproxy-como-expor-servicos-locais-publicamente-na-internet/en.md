@@ -10,6 +10,7 @@ slug: boringproxy-how-to-expose-local-services-publicly-on-internet
 category: technology
 tags: []
 wpId: 12857
+cover: ./2022-12-boringproxy.jpg
 canonicalPath: /en/technology/boringproxy-how-to-expose-local-services-publicly-on-internet/
 needsReview: false
 updated: 2023-01-02T10:03:38.000Z

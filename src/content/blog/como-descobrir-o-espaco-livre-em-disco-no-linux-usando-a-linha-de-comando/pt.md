@@ -16,6 +16,7 @@ tags:
   - debian
   - cli
 wpId: 6368
+cover: ./2019-11-cropped-1920-1080-691239.jpg
 canonicalPath: /desenvolvimento/como-descobrir-o-espaco-livre-em-disco-no-linux-usando-a-linha-de-comando/
 needsReview: false
 updated: 2019-12-03T22:45:17.000Z

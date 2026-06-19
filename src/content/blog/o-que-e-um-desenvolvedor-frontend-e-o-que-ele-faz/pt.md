@@ -16,6 +16,7 @@ tags:
   - fullstack
   - css
 wpId: 9690
+cover: ./2020-08-ferenc-almasi-c8h0n7fSTqs-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-um-desenvolvedor-frontend-e-o-que-ele-faz/
 needsReview: false
 updated: 2020-08-16T18:16:02.000Z

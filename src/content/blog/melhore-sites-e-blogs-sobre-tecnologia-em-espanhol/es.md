@@ -10,6 +10,7 @@ slug: los-mejores-blogs-y-sitios-de-tecnologia-en-espanol
 category: tecnologia-es
 tags: []
 wpId: 9526
+cover: ./2020-08-1983-steal-my-_-_-art-wFVhhGbFH6Y-unsplash.jpg
 canonicalPath: /es/tecnologia-es/los-mejores-blogs-y-sitios-de-tecnologia-en-espanol/
 needsReview: false
 updated: 2020-08-10T11:36:18.000Z

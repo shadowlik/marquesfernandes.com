@@ -16,6 +16,7 @@ tags:
   - ssd
   - hd
 wpId: 10130
+cover: ./2020-09-tadas-sar-T01GZhBSyMQ-unsplash.jpg
 canonicalPath: /tecnologia/como-mover-o-windows-10-para-um-ssd-hdd-novo/
 needsReview: false
 updated: 2020-09-04T15:45:26.000Z

@@ -19,6 +19,7 @@ tags:
   - cartao-de-credito
   - credit-card
 wpId: 4864
+cover: ./2015-09-images_credit-cards_1x.png
 canonicalPath: /design/12-pacotes-de-icones-de-cartao-de-credito-para-sua-loja-virtual/
 needsReview: false
 updated: 2020-03-22T16:53:42.000Z

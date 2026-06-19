@@ -14,6 +14,7 @@ tags:
   - nodejs
   - v8engine
 wpId: 7807
+cover: ./2020-03-nodejs-garbage-collector.jpg
 canonicalPath: /tecnologia/entendendo-como-o-nodejs-gerencia-a-memoria-garbage-collector/
 needsReview: false
 updated: 2020-08-09T17:04:48.000Z

@@ -13,6 +13,7 @@ category: tecnologia
 tags:
   - quiz
 wpId: 9761
+cover: ./2020-08-ferenc-almasi-c8h0n7fSTqs-unsplash.jpg
 canonicalPath: /tecnologia/qual-e-a-linguagem-de-programacao-ideal-para-voce/
 needsReview: false
 updated: 2020-08-17T09:02:21.000Z

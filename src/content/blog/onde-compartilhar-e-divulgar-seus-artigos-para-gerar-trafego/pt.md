@@ -14,6 +14,7 @@ tags:
   - analytics
   - blog
 wpId: 6672
+cover: ./2019-12-blog.jpg
 canonicalPath: /self/onde-compartilhar-e-divulgar-seus-artigos-para-gerar-trafego/
 needsReview: false
 updated: 2019-12-30T14:28:51.000Z

@@ -17,6 +17,7 @@ tags:
   - materialdesign
   - googlematerial
 wpId: 6041
+cover: ./2019-09-mio-design_assets_1s5VSyMeF8H3v3VozcZOEfrmXBq9OqWk3_dark-mode-large-2x1-scaled.png
 canonicalPath: /design/sites-para-inspiracao-usando-material-design/
 needsReview: false
 updated: 2019-10-21T21:56:47.000Z

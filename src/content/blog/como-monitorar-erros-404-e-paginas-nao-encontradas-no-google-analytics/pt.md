@@ -13,6 +13,7 @@ tags:
   - google-analytics
   - error404
 wpId: 7304
+cover: ./2020-02-download.png
 canonicalPath: /tecnologia/como-monitorar-erros-404-e-paginas-nao-encontradas-no-google-analytics/
 needsReview: false
 updated: 2020-08-09T17:06:37.000Z

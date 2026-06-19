@@ -18,6 +18,7 @@ tags:
   - api
   - microsoft
 wpId: 7558
+cover: ./2020-03-Untitled-Design.jpg
 canonicalPath: /desenvolvimento/como-usar-o-excel-vba-para-consultar-apis-rest-json/
 needsReview: false
 updated: 2020-07-11T13:19:43.000Z

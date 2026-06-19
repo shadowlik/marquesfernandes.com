@@ -14,6 +14,7 @@ tags:
   - css
   - css3
 wpId: 8119
+cover: ./2020-04-pankaj-patel-6JVlSdgMacE-unsplash.jpg
 canonicalPath: /desenvolvimento/o-que-e-css-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:05:08.000Z

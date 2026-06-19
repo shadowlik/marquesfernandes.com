@@ -10,6 +10,7 @@ slug: instagram-comeca-a-juntar-os-bate-papos-com-o-facebook-messenger
 category: noticias
 tags: []
 wpId: 9645
+cover: ./2020-08-luke-van-zyl-Fs1hfkNOGsQ-unsplash-1.jpg
 canonicalPath: /noticias/instagram-comeca-a-juntar-os-bate-papos-com-o-facebook-messenger/
 needsReview: false
 updated: 2020-08-15T17:35:27.000Z

@@ -13,6 +13,7 @@ tags:
   - prototipagem
   - replit
 wpId: 6083
+cover: ./2019-09-download.png
 canonicalPath: /desenvolvimento/repl-it-editor-online-para-nodejs-e-outras-linguagens-de-backend/
 needsReview: false
 updated: 2020-08-09T17:06:37.000Z

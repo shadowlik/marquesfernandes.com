@@ -15,6 +15,7 @@ slug: top-6-sites-para-encontrar-gerar-criar-e-compartilhar-memes
 category: self
 tags: []
 wpId: 12616
+cover: ./2022-08-794272.jpeg
 canonicalPath: /self/top-6-sites-para-encontrar-gerar-criar-e-compartilhar-memes/
 needsReview: false
 updated: 2022-08-19T09:10:59.000Z

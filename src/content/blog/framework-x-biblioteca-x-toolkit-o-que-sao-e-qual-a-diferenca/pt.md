@@ -14,6 +14,7 @@ tags:
   - library
   - toolkit
 wpId: 7550
+cover: ./2020-03-maxresdefault.jpg
 canonicalPath: /tecnologia/framework-x-biblioteca-x-toolkit-o-que-sao-e-qual-a-diferenca/
 needsReview: false
 updated: 2020-08-09T17:06:35.000Z

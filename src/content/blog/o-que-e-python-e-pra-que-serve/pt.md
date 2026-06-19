@@ -14,6 +14,7 @@ tags:
   - python
   - pypi
 wpId: 9662
+cover: ./2020-08-kwi4bvgzths31.jpg
 canonicalPath: /desenvolvimento/o-que-e-python-e-pra-que-serve/
 needsReview: false
 updated: 2020-08-16T00:24:08.000Z

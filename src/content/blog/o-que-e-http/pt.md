@@ -15,6 +15,7 @@ tags:
   - http2
   - https
 wpId: 6133
+cover: ./2019-10-Untitled-Design.jpg
 canonicalPath: /tecnologia/o-que-e-http/
 needsReview: false
 updated: 2020-09-04T15:46:59.000Z

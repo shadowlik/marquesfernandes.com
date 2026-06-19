@@ -14,6 +14,7 @@ tags:
   - sql
   - google-planilhas
 wpId: 7422
+cover: ./2020-02-design-desk-display-eyewear-313690-1.jpg
 canonicalPath: /desenvolvimento/como-integrar-e-consultar-banco-de-dados-sql-com-o-google-planilhas/
 needsReview: false
 updated: 2020-08-09T17:05:00.000Z

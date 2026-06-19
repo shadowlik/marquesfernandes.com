@@ -18,6 +18,7 @@ tags:
   - dominios
   - macos
 wpId: 5901
+cover: ./2019-07-domains-scaled.jpg
 canonicalPath: /self/como-limpar-o-cache-de-dns-no-windows-mac-ubuntu-e-chrome/
 needsReview: false
 updated: 2020-08-09T17:08:47.000Z

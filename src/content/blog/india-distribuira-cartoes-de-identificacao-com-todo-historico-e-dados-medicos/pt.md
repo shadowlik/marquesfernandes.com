@@ -12,6 +12,7 @@ slug: india-distribuira-cartoes-de-identificacao-com-todo-historico-e-dados-medi
 category: noticias
 tags: []
 wpId: 9655
+cover: ./2020-08-naveed-ahmed-9Dt4WutvwDs-unsplash.jpg
 canonicalPath: /noticias/india-distribuira-cartoes-de-identificacao-com-todo-historico-e-dados-medicos/
 needsReview: false
 updated: 2020-08-15T21:28:44.000Z

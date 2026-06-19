@@ -14,6 +14,7 @@ tags:
   - yml
   - markup
 wpId: 7687
+cover: ./2020-03-stencil.hd-tv.jpg
 canonicalPath: /tecnologia/arquivo-yaml-o-que-e-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:04:47.000Z

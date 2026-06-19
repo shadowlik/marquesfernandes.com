@@ -16,6 +16,7 @@ tags:
   - aplicativos
   - app
 wpId: 6593
+cover: ./2019-12-pen-calendar-to-do-checklist-3243.jpg
 canonicalPath: /self/top-aplicativos-para-organizar-suas-listas-de-tarefas-todo/
 needsReview: false
 updated: 2020-03-23T17:22:34.000Z

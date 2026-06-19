@@ -18,6 +18,7 @@ tags:
   - mouse
   - teclado
 wpId: 8828
+cover: ./2020-07-marko-hankkila-TxCL6AWWtMo-unsplash.jpg
 canonicalPath: /tecnologia/como-compartilhar-o-mouse-e-teclado-entre-computadores-windows-linux-e-macos/
 needsReview: false
 updated: 2020-08-09T16:59:07.000Z

@@ -16,6 +16,7 @@ tags:
   - raspberrypi
   - diy
 wpId: 7608
+cover: ./2020-03-image-13.jpg
 canonicalPath: /iot/top-projetos-iot-amadores-com-arduino-raspberry-pi-2020/
 needsReview: false
 updated: 2020-11-16T14:42:30.000Z

@@ -17,6 +17,7 @@ tags:
   - artegrafica
   - graficos
 wpId: 5627
+cover: ./2019-02-maxresdefault.jpg
 canonicalPath: /design/3-ferramentas-gratuitas-para-criar-artes-para-seus-posts-e-redes-sociais/
 needsReview: false
 updated: 2019-02-25T18:35:41.000Z

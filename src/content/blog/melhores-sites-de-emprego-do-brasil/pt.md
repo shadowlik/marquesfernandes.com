@@ -20,6 +20,7 @@ tags:
   - rh
   - recrutamento
 wpId: 10633
+cover: ./2020-11-pexels-pixabay-327540.jpg
 canonicalPath: /self/melhores-sites-de-emprego-do-brasil/
 needsReview: false
 updated: 2020-11-14T21:32:45.000Z

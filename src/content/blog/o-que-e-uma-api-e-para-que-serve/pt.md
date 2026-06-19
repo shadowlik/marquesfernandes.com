@@ -15,6 +15,7 @@ tags:
   - http
   - api
 wpId: 8094
+cover: ./2020-04-blake-connally-IKUYGCFmfw4-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-uma-api-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:04:46.000Z

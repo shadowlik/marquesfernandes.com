@@ -19,6 +19,7 @@ tags:
   - digitalocean
   - webmin
 wpId: 5825
+cover: ./2019-04-criando_sua_propria_hospedagem.jpg
 canonicalPath: /desenvolvimento/criando-sua-propria-hospedagem-cloud-com-digitalocean-virtualmin-e-cloudflare/
 needsReview: false
 updated: 2020-08-09T17:06:35.000Z

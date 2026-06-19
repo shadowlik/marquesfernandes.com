@@ -15,6 +15,7 @@ tags:
   - bash
   - ubuntu
 wpId: 4748
+cover: ./2019-02-Screenshot-from-2019-02-12-20-56-11.png
 canonicalPath: /tecnologia/simplifique-sua-vida-no-linux-ssh-config/
 needsReview: false
 updated: 2020-08-09T17:09:16.000Z

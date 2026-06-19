@@ -16,6 +16,7 @@ tags:
   - https
   - protocol
 wpId: 10104
+cover: ./2020-09-erik-mclean-sxiSod0tyYQ-unsplash.jpg
 canonicalPath: /desenvolvimento/lista-completa-de-codigos-http/
 needsReview: false
 updated: 2020-09-04T15:46:16.000Z

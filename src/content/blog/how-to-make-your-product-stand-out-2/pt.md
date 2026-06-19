@@ -12,6 +12,7 @@ tags:
   - digital
   - ux-design
 wpId: 13241
+cover: ./2019-01-06-min.jpg
 canonicalPath: /tecnologia/how-to-make-your-product-stand-out-2/
 needsReview: false
 ---

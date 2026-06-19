@@ -22,6 +22,7 @@ tags:
   - nat444
   - nicbr
 wpId: 5688
+cover: ./2019-03-maxresdefault.jpg
 canonicalPath: /tecnologia/o-que-e-cgnat-double-nat/
 needsReview: false
 updated: 2020-08-09T17:09:15.000Z

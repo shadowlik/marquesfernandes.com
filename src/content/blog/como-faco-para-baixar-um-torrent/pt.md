@@ -14,6 +14,7 @@ tags:
   - torrente
   - p2p
 wpId: 9053
+cover: ./2020-08-sergey-semin-Oa7QSM3Stpc-unsplash-1.jpg
 canonicalPath: /tecnologia/como-faco-para-baixar-um-torrent/
 needsReview: false
 updated: 2020-08-09T16:59:05.000Z

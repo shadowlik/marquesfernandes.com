@@ -12,6 +12,7 @@ tags:
   - digital
   - ux-design
 wpId: 138
+cover: ./2019-01-05-min.jpg
 canonicalPath: /tecnologia/how-to-drive-your-customer-experience/
 needsReview: false
 ---

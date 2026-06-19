@@ -14,6 +14,7 @@ tags:
   - mysql
   - backup
 wpId: 7823
+cover: ./2020-03-2134480.jpg
 canonicalPath: /desenvolvimento/mysql-criando-rotinas-de-backups-no-windows-e-linux/
 needsReview: false
 updated: 2020-12-28T08:39:49.000Z

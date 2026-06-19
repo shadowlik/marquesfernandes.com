@@ -15,6 +15,7 @@ tags:
   - wordpress
   - antivirus
 wpId: 9812
+cover: ./2020-08-michael-geiger-JJPqavJBy_k-unsplash-1.jpg
 canonicalPath: /tecnologia/melhores-plugins-de-antivirus-para-wordpress-em-2020-gratis-e-pagos/
 needsReview: false
 updated: 2020-08-18T10:05:51.000Z

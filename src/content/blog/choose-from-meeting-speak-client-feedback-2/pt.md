@@ -12,6 +12,7 @@ tags:
   - marketing
   - digital
 wpId: 13243
+cover: ./2019-01-03-min-1-1.jpg
 canonicalPath: /tecnologia/choose-from-meeting-speak-client-feedback-2/
 needsReview: false
 ---

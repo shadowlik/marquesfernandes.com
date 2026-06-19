@@ -10,6 +10,7 @@ slug: 8-spotify-playlists-for-programming-and-focus-for-2022
 category: technology
 tags: []
 wpId: 12408
+cover: ./2022-03-pexels-anna-shvets-3986984.jpeg
 canonicalPath: /en/technology/8-spotify-playlists-for-programming-and-focus-for-2022/
 needsReview: false
 updated: 2022-03-29T06:55:41.000Z

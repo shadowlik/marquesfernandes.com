@@ -14,6 +14,7 @@ tags:
   - keywords
   - tools
 wpId: 5713
+cover: ./2019-03-8_ferramentas_seo_gratuitas.jpg
 canonicalPath: /tecnologia/8-ferramentas-seo-gratuitas/
 needsReview: false
 updated: 2020-08-09T17:08:47.000Z

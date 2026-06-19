@@ -17,6 +17,7 @@ tags:
   - v8engine
   - js
 wpId: 7047
+cover: ./2020-01-1555172.jpg
 canonicalPath: /desenvolvimento/javascript-o-que-e-como-funciona-e-para-que-serve/
 needsReview: false
 updated: 2020-08-15T22:30:47.000Z

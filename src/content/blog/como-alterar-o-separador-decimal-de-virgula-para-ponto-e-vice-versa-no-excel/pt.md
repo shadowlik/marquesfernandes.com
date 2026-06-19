@@ -18,6 +18,7 @@ tags:
   - excel
   - decimal
 wpId: 10797
+cover: ./2020-11-08164615279285.jpg
 canonicalPath: /tecnologia/como-alterar-o-separador-decimal-de-virgula-para-ponto-e-vice-versa-no-excel/
 needsReview: false
 updated: 2020-11-24T16:33:22.000Z

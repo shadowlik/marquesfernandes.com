@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { type Lang } from '@/i18n/ui';
 import { useTranslations } from '@/i18n/utils';
@@ -11,8 +13,8 @@ interface Props {
   author?: string;
   date: Date;
   tags?: string[];
-  /** Optional featured-image URL for the hero background. */
-  cover?: string;
+  /** Optional featured image for the hero background. */
+  cover?: ImageMetadata;
   /** Per-language equivalents for hreflang + the language switcher. */
   alternates?: { lang: Lang; path: string }[];
 }
@@ -35,11 +37,15 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
   month: 'long',
   year: 'numeric',
 }).format(date);
-const heroStyle = cover ? `background-image: url('${cover}')` : undefined;
 ---
 
 <BaseLayout title={title} description={description} lang={lang} alternates={alternates}>
-  <header class:list={['post-hero', { 'has-cover': cover }]} style={heroStyle}>
+  <header class:list={['post-hero', { 'has-cover': cover }]}>
+    {
+      cover && (
+        <Image class="hero-bg" src={cover} alt="" widths={[768, 1280, 1920]} loading="eager" />
+      )
+    }
     <div class="container hero-inner">
       {categoryLabel && <p class="hero-cat">{categoryLabel}</p>}
       <h1>{title}</h1>
@@ -70,17 +76,23 @@ const heroStyle = cover ? `background-image: url('${cover}')` : undefined;
   .post-hero {
     background: var(--color-ink);
     color: var(--color-on-dark);
-    background-size: cover;
-    background-position: center;
     padding-block: var(--hero-pad);
     text-align: center;
     position: relative;
+    overflow: hidden;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .post-hero.has-cover::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.6);
   }
   .hero-inner {
     position: relative;

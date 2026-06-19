@@ -11,6 +11,7 @@ slug: como-deletar-arquivos-usando-padrao-de-busca-no-windows
 category: tecnologia
 tags: []
 wpId: 10462
+cover: ./2020-10-0_jFevMGtzteMy746R.jpg
 canonicalPath: /tecnologia/como-deletar-arquivos-usando-padrao-de-busca-no-windows/
 needsReview: false
 updated: 2020-10-16T18:19:27.000Z

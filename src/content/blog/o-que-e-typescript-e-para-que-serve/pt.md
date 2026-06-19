@@ -15,6 +15,7 @@ tags:
   - typescript
   - microsoft
 wpId: 8422
+cover: ./2020-07-93bee0cf-42f7-4660-a261-99da9f3ca6b6.jpg
 canonicalPath: /tecnologia/o-que-e-typescript-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:04:02.000Z

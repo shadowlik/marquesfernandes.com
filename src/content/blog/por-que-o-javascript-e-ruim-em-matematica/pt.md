@@ -13,6 +13,7 @@ tags:
   - phyton
   - matematica
 wpId: 7785
+cover: ./2020-03-javascript_matematica.jpg
 canonicalPath: /desenvolvimento/por-que-o-javascript-e-ruim-em-matematica/
 needsReview: false
 updated: 2020-03-22T12:31:26.000Z

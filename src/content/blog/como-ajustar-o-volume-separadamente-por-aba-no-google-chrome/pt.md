@@ -15,6 +15,7 @@ tags:
   - google-chrome
   - extensao
 wpId: 9985
+cover: ./2020-08-39329949-google-chrome-wallpapers.png
 canonicalPath: /tecnologia/como-ajustar-o-volume-separadamente-por-aba-no-google-chrome/
 needsReview: false
 updated: 2020-08-19T22:48:03.000Z

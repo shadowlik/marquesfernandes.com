@@ -13,6 +13,7 @@ tags:
   - cli
   - rabbitmq
 wpId: 6188
+cover: ./2019-10-images-1-1.png
 canonicalPath: /desenvolvimento/criar-usuario-por-linha-de-comando-no-rabbitmq/
 needsReview: false
 updated: 2019-10-09T12:48:49.000Z

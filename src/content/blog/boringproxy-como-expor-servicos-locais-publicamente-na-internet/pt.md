@@ -15,6 +15,7 @@ tags:
   - proxy
   - boringproxy
 wpId: 12761
+cover: ./2022-12-boringproxy.jpg
 canonicalPath: /tecnologia/boringproxy-como-expor-servicos-locais-publicamente-na-internet/
 needsReview: false
 updated: 2023-01-02T09:57:01.000Z

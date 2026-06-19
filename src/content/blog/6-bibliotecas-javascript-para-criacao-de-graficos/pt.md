@@ -14,6 +14,7 @@ tags:
   - graphics
   - bibliotecas
 wpId: 5843
+cover: ./2019-06-graficos.png
 canonicalPath: /desenvolvimento/6-bibliotecas-javascript-para-criacao-de-graficos/
 needsReview: false
 updated: 2020-08-09T17:08:47.000Z

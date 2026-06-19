@@ -12,6 +12,7 @@ category: desenvolvimento
 tags:
   - wordpress
 wpId: 9834
+cover: ./2020-08-wordpress-logo-wallpaper-background-62786-64777-hd-wallpapers.png
 canonicalPath: /desenvolvimento/como-alterar-a-estrutura-da-url-no-wordpress-e-redirecionar-os-links-antigos/
 needsReview: false
 updated: 2020-08-18T11:03:33.000Z

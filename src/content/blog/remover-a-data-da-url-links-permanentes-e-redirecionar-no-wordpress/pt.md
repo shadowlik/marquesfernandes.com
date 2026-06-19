@@ -14,6 +14,7 @@ tags:
   - wordpress
   - apache
 wpId: 7323
+cover: ./2020-02-morning-coffee1-scaled.jpg
 canonicalPath: /tecnologia/remover-a-data-da-url-links-permanentes-e-redirecionar-no-wordpress/
 needsReview: false
 updated: 2020-08-09T17:06:37.000Z

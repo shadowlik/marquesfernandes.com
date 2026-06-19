@@ -14,6 +14,7 @@ tags:
   - raspberrypi
   - internetdascoisas
 wpId: 6172
+cover: ./2019-10-iot_internet_of_things_lifestyle_connected_appliances_by_elenabs_gettyimages-1018211724_2400x1600-100788445-large.jpg
 canonicalPath: /iot/internet-das-coisas/
 needsReview: false
 updated: 2019-10-08T15:52:35.000Z

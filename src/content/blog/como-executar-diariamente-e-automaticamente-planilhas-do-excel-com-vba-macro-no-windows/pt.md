@@ -19,6 +19,7 @@ tags:
   - agendador
   - cscript
 wpId: 6012
+cover: ./2019-08-beginneradvVBA.png
 canonicalPath: /desenvolvimento/como-executar-diariamente-e-automaticamente-planilhas-do-excel-com-vba-macro-no-windows/
 needsReview: false
 updated: 2019-09-25T17:35:24.000Z

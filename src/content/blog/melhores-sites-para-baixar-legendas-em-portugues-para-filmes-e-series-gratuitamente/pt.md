@@ -14,6 +14,7 @@ tags:
   - filmes
   - series
 wpId: 10564
+cover: ./2020-11-pexels-martin-lopez-1117132.jpg
 canonicalPath: /tecnologia/melhores-sites-para-baixar-legendas-em-portugues-para-filmes-e-series-gratuitamente/
 needsReview: false
 updated: 2020-11-14T19:58:05.000Z

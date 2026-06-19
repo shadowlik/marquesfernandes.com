@@ -16,6 +16,7 @@ tags:
   - ux
   - design-grafico
 wpId: 10812
+cover: ./2020-11-alice-dietrich-FwF_fKj5tBo-unsplash.jpg
 canonicalPath: /design/melhores-sites-e-blogs-de-design-que-voce-deve-acompanhar/
 needsReview: false
 updated: 2020-12-03T21:26:46.000Z

@@ -15,6 +15,7 @@ tags:
   - banco-de-imagens
   - top-list
 wpId: 7573
+cover: ./2020-03-alexander-popov-iQqqo2zpmTI-unsplash-scaled.jpg
 canonicalPath: /design/top-8-sites-gratuitos-com-imagens-em-alta-resolucao-2020/
 needsReview: false
 updated: 2021-01-07T10:32:42.000Z

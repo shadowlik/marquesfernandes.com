@@ -20,6 +20,7 @@ tags:
   - mobaxterm
   - cmd
 wpId: 6000
+cover: ./2019-09-5644d8da2aa81102a630bba7c2bea3e0.jpg
 canonicalPath: /desenvolvimento/melhores-emuladores-de-terminal-para-windows/
 needsReview: false
 updated: 2020-08-09T17:08:46.000Z

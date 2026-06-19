@@ -13,6 +13,7 @@ tags:
   - facebook
   - app-store
 wpId: 9730
+cover: ./2020-08-tim-bennett-OwvRB-M3GwE-unsplash.jpg
 canonicalPath: /noticias/facebook-se-opoe-as-taxas-da-app-store-da-apple/
 needsReview: false
 updated: 2020-08-16T18:35:18.000Z

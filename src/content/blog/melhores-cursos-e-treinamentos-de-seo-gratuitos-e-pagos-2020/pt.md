@@ -11,6 +11,7 @@ slug: melhores-cursos-e-treinamentos-de-seo-gratuitos-e-pagos-2020
 category: tecnologia
 tags: []
 wpId: 8558
+cover: ./2020-07-rajeshwar-bachu-K4txLik7pnY-unsplash.jpg
 canonicalPath: /tecnologia/melhores-cursos-e-treinamentos-de-seo-gratuitos-e-pagos-2020/
 needsReview: false
 updated: 2020-08-09T16:59:07.000Z

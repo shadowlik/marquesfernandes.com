@@ -16,6 +16,7 @@ tags:
   - email-marketing
   - marketing-digital
 wpId: 10751
+cover: ./2020-11-4528065-scaled.jpg
 canonicalPath: /tecnologia/melhores-ferramentas-de-e-mail-marketing/
 needsReview: false
 ---

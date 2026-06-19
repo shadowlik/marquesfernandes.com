@@ -15,6 +15,7 @@ tags:
   - touchicon
   - icons
 wpId: 5724
+cover: ./2019-03-references-3840x2160-icons-dark-neon-hd-4k-10903-scaled.png
 canonicalPath: /design/tudo-sobre-favicons-e-touch-icons/
 needsReview: false
 updated: 2019-10-21T21:52:18.000Z

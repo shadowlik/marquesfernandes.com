@@ -15,6 +15,7 @@ tags:
   - node
   - nodejs
 wpId: 8268
+cover: ./2020-05-jon-moore-bBavss4ZQcA-unsplash.jpg
 canonicalPath: /tecnologia/criptografando-e-armazenando-senhas-com-nodejs-melhores-praticas/
 needsReview: false
 updated: 2021-08-15T17:42:25.000Z
