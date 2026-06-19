@@ -1,0 +1,45 @@
+---
+import { languages, defaultLang, type Lang } from '@/i18n/ui';
+import { getLangFromUrl } from '@/i18n/utils';
+
+const current = getLangFromUrl(Astro.url);
+
+// Strip the current locale prefix to get the path shared across languages.
+// Placeholder behaviour for the scaffold: switch to each locale's home.
+// Issue #9 replaces this with the post's real translated equivalent.
+function homeFor(lang: Lang): string {
+  return lang === defaultLang ? '/' : `/${lang}/`;
+}
+---
+
+<nav class="lang-switcher" aria-label="Language">
+  <ul>
+    {
+      (Object.keys(languages) as Lang[]).map((lang) => (
+        <li>
+          <a
+            href={homeFor(lang)}
+            aria-current={lang === current ? 'true' : undefined}
+            hreflang={lang}
+          >
+            {languages[lang]}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .lang-switcher ul {
+    display: flex;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .lang-switcher a[aria-current='true'] {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+</style>

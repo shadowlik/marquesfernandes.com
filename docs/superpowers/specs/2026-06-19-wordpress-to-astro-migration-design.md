@@ -48,16 +48,16 @@ WordPress DB ──(one-time extract script)──> Markdown/MDX + frontmatter (
 
 ### Stack decisions (all confirmed with user)
 
-| Concern        | Decision |
-|----------------|----------|
-| Framework      | **Astro** (static output, built-in i18n, content collections, image optimization, MDX, RSS, sitemap) |
-| Authoring      | **Git + Markdown/MDX.** New post = create folder + write `pt.md` (+ optional en/es), push. |
-| Translations   | **AI-translate the 21 gaps PT→EN/ES**, flagged `needsReview: true`; user proofreads post-launch. |
-| Comments       | **Giscus** (GitHub Discussions) for new comments; **548 historical comments archived to JSON, rendered read-only** per post. No backend. |
-| URLs / SEO     | **Preserve exactly** — PT at root, EN/ES prefixed, category in path, slugs from DB. Generated 301 map for edge cases. |
-| Scope          | **All 166 articles + 7 portfolio + curated pages.** |
-| Hosting        | **Dokploy** (self-hosted). Docker image, deploy via Dokploy API. |
-| CI/CD          | Mirror `~/Projects/apuama/haid/.github/workflows/web-main.yml`. |
+| Concern      | Decision                                                                                                                                 |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Framework    | **Astro** (static output, built-in i18n, content collections, image optimization, MDX, RSS, sitemap)                                     |
+| Authoring    | **Git + Markdown/MDX.** New post = create folder + write `pt.md` (+ optional en/es), push.                                               |
+| Translations | **AI-translate the 21 gaps PT→EN/ES**, flagged `needsReview: true`; user proofreads post-launch.                                         |
+| Comments     | **Giscus** (GitHub Discussions) for new comments; **548 historical comments archived to JSON, rendered read-only** per post. No backend. |
+| URLs / SEO   | **Preserve exactly** — PT at root, EN/ES prefixed, category in path, slugs from DB. Generated 301 map for edge cases.                    |
+| Scope        | **All 166 articles + 7 portfolio + curated pages.**                                                                                      |
+| Hosting      | **Dokploy** (self-hosted). Docker image, deploy via Dokploy API.                                                                         |
+| CI/CD        | Mirror `~/Projects/apuama/haid/.github/workflows/web-main.yml`.                                                                          |
 
 ## Components
 
@@ -80,6 +80,7 @@ src/data/redirects.json                 # generated old→new 301 map
 ```
 
 **Frontmatter schema** (Astro content collection, type-checked):
+
 ```yaml
 title: string
 description: string
@@ -114,6 +115,7 @@ is self-contained: its three language files + colocated images.
 ### 3. Migration pipeline (one-time, idempotent script)
 
 A Node/TypeScript script (`scripts/migrate/`) that:
+
 1. Connects to the WP DB (read-only).
 2. Selects all published `post` + `portfolio` + curated `page` records, joined
    to their `language` and `post_translations` groups.
@@ -147,13 +149,16 @@ review" note for flagged posts. Clearing the flag is a one-line frontmatter edit
 ### 6. Deployment
 
 **Dockerfile** (multi-stage, leaner than HAID's since output is static):
+
 ```
 FROM node:24-alpine AS build  → install deps, astro build → /app/dist
 FROM nginx:alpine AS runtime  → COPY dist/ + nginx.conf (gzip, cache headers, 301 map)
 ```
+
 No Node runtime in the final image; nginx serves static files.
 
 **CI** — `.github/workflows/deploy.yml`, adapted from `web-main.yml`:
+
 - Path-filtered push to `main`.
 - buildx build + push to `registry.marquesfernandes.com/marquesfernandes/site:{sha,latest}`.
 - `curl` Dokploy `application.deploy` with `DOKPLOY_*` secrets.
@@ -190,4 +195,7 @@ No Node runtime in the final image; nginx serves static files.
   permalink — must replicate WP's primary-category logic (Yoast primary term /
   first category) to match historical URLs exactly.
 - **Comment threading/PII:** render only already-public fields; exclude emails/IPs.
+
+```
+
 ```

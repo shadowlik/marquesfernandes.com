@@ -1,0 +1,80 @@
+---
+import { type Lang } from '@/i18n/ui';
+import { useTranslations, getLangFromUrl, localizedPath } from '@/i18n/utils';
+import LanguageSwitcher from '@/components/LanguageSwitcher.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Override the detected locale (e.g. when rendering a fixed-language page). */
+  lang?: Lang;
+}
+
+const { title, description } = Astro.props;
+const lang: Lang = Astro.props.lang ?? getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const htmlLang = lang === 'pt' ? 'pt-BR' : lang;
+---
+
+<!doctype html>
+<html lang={htmlLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={localizedPath('', lang)}>MF.</a>
+      <nav class="primary" aria-label="Primary">
+        <a href={localizedPath('blog', lang)}>{t('nav.blog')}</a>
+        <a href={localizedPath('portfolio', lang)}>{t('nav.portfolio')}</a>
+      </nav>
+      <LanguageSwitcher />
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p>MF. — {t('site.tagline')}</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  :global(:root) {
+    --max-width: 42rem;
+  }
+  :global(body) {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  .site-header,
+  main,
+  .site-footer {
+    max-width: var(--max-width);
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  .site-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-block: 1rem;
+  }
+  .brand {
+    font-weight: 800;
+    text-decoration: none;
+  }
+  .primary {
+    display: flex;
+    gap: 1rem;
+    margin-right: auto;
+  }
+</style>
