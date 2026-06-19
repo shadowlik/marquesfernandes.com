@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { postsForLang, postsForCategory, categoryArchives } from './blog';
+import { postsForLang, postsForCategory, categoryArchives, stripCategoryPath } from './blog';
 import type { Lang } from '@/i18n/ui';
 
 function p(lang: Lang, category: string, dateISO: string, draft = false) {
@@ -29,6 +29,21 @@ describe('postsForCategory', () => {
     const r = postsForCategory(posts, 'pt', 'tecnologia');
     expect(r).toHaveLength(2);
     expect(r.every((e) => e.data.category === 'tecnologia')).toBe(true);
+  });
+});
+
+describe('stripCategoryPath', () => {
+  it('drops the category segment from a default-language path', () => {
+    expect(stripCategoryPath('/tecnologia/boringproxy-expor-servicos/')).toBe(
+      '/boringproxy-expor-servicos/',
+    );
+  });
+
+  it('keeps the locale prefix for en/es', () => {
+    expect(stripCategoryPath('/en/technology/boringproxy-expose-services/')).toBe(
+      '/en/boringproxy-expose-services/',
+    );
+    expect(stripCategoryPath('/es/tecnologia-es/aburridoproxy/')).toBe('/es/aburridoproxy/');
   });
 });
 

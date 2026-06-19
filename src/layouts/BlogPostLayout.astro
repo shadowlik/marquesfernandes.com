@@ -9,7 +9,6 @@ interface Props {
   title: string;
   description?: string;
   lang: Lang;
-  category?: string;
   author?: string;
   date: Date;
   tags?: string[];
@@ -23,14 +22,12 @@ const {
   title,
   description,
   lang,
-  category,
   author = 'Henrique Marques Fernandes',
   date,
   tags = [],
   cover,
   alternates,
 } = Astro.props;
-const categoryLabel = category?.replace(/-/g, ' ');
 const t = useTranslations(lang);
 const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
   day: '2-digit',
@@ -47,7 +44,6 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
       )
     }
     <div class="container hero-inner">
-      {categoryLabel && <p class="hero-cat">{categoryLabel}</p>}
       <h1>{title}</h1>
     </div>
   </header>
@@ -102,14 +98,6 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
   .hero-inner {
     position: relative;
     z-index: 2;
-  }
-  .hero-cat {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 0.875rem;
-    letter-spacing: 0.05em;
-    margin: 0 0 1rem;
-    color: var(--color-on-dark);
   }
   .post-hero h1 {
     color: var(--color-on-dark);

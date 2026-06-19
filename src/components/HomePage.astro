@@ -5,7 +5,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PostCard from '@/components/PostCard.astro';
 import { type Lang } from '@/i18n/ui';
 import { useTranslations } from '@/i18n/utils';
-import { postsForLang } from '@/lib/blog';
+import { postsForLang, stripCategoryPath } from '@/lib/blog';
 import portrait from '@/assets/home/4-Henrique-Marques-Fernandes-HeadshotPro.png';
 import signature from '@/assets/home/c6487c0e-1b5b-45a6-8e31-577b23f5d148_removalai_preview.png';
 
@@ -53,9 +53,8 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
       {
         latest.map((p) => (
           <PostCard
-            href={p.data.canonicalPath ?? '#'}
+            href={p.data.canonicalPath ? stripCategoryPath(p.data.canonicalPath) : '#'}
             title={p.data.title}
-            category={p.data.category?.replace(/-/g, ' ')}
             excerpt={p.data.description}
             date={p.data.date}
             lang={lang}

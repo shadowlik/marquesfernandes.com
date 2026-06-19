@@ -26,7 +26,8 @@
     "migrate:extract": "tsx scripts/migrate/extract.ts",
     "migrate:images": "tsx scripts/migrate/images.ts",
     "astro": "astro",
-    "migrate:covers": "tsx scripts/migrate/covers.ts"
+    "migrate:covers": "tsx scripts/migrate/covers.ts",
+    "migrate:redirects": "tsx scripts/migrate/redirects.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.3",

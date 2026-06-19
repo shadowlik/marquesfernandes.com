@@ -3,17 +3,24 @@ import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '@/layouts/BlogPostLayout.astro';
 import { getAlternates } from '@/lib/translations';
+import { stripCategoryPath } from '@/lib/blog';
 
 /**
- * Renders every blog post at its exact historical URL (`canonicalPath`), e.g.
- * `/tecnologia/<slug>/` (pt), `/en/technology/<slug>/`, `/es/tecnologia-es/<slug>/`.
- * The rest param captures the full multi-segment path.
+ * Renders every blog post at its category-less URL — `/<slug>/` (pt),
+ * `/en/<slug>/`, `/es/<slug>/`. The old category paths 301 to these via the
+ * generated redirect map (see astro.config). The rest param captures the slug.
  */
 export const getStaticPaths = (async () => {
   const posts = (await getCollection('blog')).filter((p) => !p.data.draft && p.data.canonicalPath);
   return posts.map((entry) => ({
-    params: { path: entry.data.canonicalPath!.replace(/^\/+|\/+$/g, '') },
-    props: { entry, alternates: getAlternates(entry, posts) },
+    params: { path: stripCategoryPath(entry.data.canonicalPath!).replace(/^\/+|\/+$/g, '') },
+    props: {
+      entry,
+      alternates: getAlternates(entry, posts).map((a) => ({
+        lang: a.lang,
+        path: stripCategoryPath(a.path),
+      })),
+    },
   }));
 }) satisfies GetStaticPaths;
 
@@ -26,7 +33,6 @@ const d = entry.data;
   title={d.title}
   description={d.description}
   lang={d.lang}
-  category={d.category}
   date={d.date}
   tags={d.tags}
   cover={d.cover}
