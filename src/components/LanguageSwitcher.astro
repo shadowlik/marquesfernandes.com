@@ -2,26 +2,30 @@
 import { languages, defaultLang, type Lang } from '@/i18n/ui';
 import { getLangFromUrl } from '@/i18n/utils';
 
+interface Props {
+  /** Per-language equivalents of the current page (e.g. a post's siblings). */
+  alternates?: { lang: Lang; path: string }[];
+}
+const { alternates } = Astro.props;
 const current = getLangFromUrl(Astro.url);
 
-// Strip the current locale prefix to get the path shared across languages.
-// Placeholder behaviour for the scaffold: switch to each locale's home.
-// Issue #9 replaces this with the post's real translated equivalent.
 function homeFor(lang: Lang): string {
   return lang === defaultLang ? '/' : `/${lang}/`;
 }
+
+// With alternates (post pages), show only available translations linking to the
+// equivalent page; otherwise show all locales linking to their home.
+const items: { lang: Lang; href: string }[] = alternates
+  ? alternates.map((a) => ({ lang: a.lang, href: a.path }))
+  : (Object.keys(languages) as Lang[]).map((lang) => ({ lang, href: homeFor(lang) }));
 ---
 
 <nav class="lang-switcher" aria-label="Language">
   <ul>
     {
-      (Object.keys(languages) as Lang[]).map((lang) => (
+      items.map(({ lang, href }) => (
         <li>
-          <a
-            href={homeFor(lang)}
-            aria-current={lang === current ? 'true' : undefined}
-            hreflang={lang}
-          >
+          <a href={href} aria-current={lang === current ? 'true' : undefined} hreflang={lang}>
             {languages[lang]}
           </a>
         </li>

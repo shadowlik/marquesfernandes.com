@@ -13,6 +13,8 @@ interface Props {
   tags?: string[];
   /** Optional featured-image URL for the hero background. */
   cover?: string;
+  /** Per-language equivalents for hreflang + the language switcher. */
+  alternates?: { lang: Lang; path: string }[];
 }
 
 const {
@@ -24,7 +26,9 @@ const {
   date,
   tags = [],
   cover,
+  alternates,
 } = Astro.props;
+const categoryLabel = category?.replace(/-/g, ' ');
 const t = useTranslations(lang);
 const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
   day: '2-digit',
@@ -34,10 +38,10 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
 const heroStyle = cover ? `background-image: url('${cover}')` : undefined;
 ---
 
-<BaseLayout title={title} description={description} lang={lang}>
+<BaseLayout title={title} description={description} lang={lang} alternates={alternates}>
   <header class:list={['post-hero', { 'has-cover': cover }]} style={heroStyle}>
     <div class="container hero-inner">
-      {category && <p class="hero-cat">{category}</p>}
+      {categoryLabel && <p class="hero-cat">{categoryLabel}</p>}
       <h1>{title}</h1>
     </div>
   </header>

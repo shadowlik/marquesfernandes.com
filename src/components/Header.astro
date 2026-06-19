@@ -5,8 +5,10 @@ import LanguageSwitcher from '@/components/LanguageSwitcher.astro';
 
 interface Props {
   lang: Lang;
+  /** Per-language equivalents of the current page, for the switcher. */
+  alternates?: { lang: Lang; path: string }[];
 }
-const { lang } = Astro.props;
+const { lang, alternates } = Astro.props;
 const t = useTranslations(lang);
 ---
 
@@ -17,7 +19,7 @@ const t = useTranslations(lang);
       <a href={localizedPath('blog', lang)}>{t('nav.blog')}</a>
       <a href={localizedPath('portfolio', lang)}>{t('nav.portfolio')}</a>
     </nav>
-    <LanguageSwitcher />
+    <LanguageSwitcher alternates={alternates} />
   </div>
 </header>
 

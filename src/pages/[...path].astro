@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import BlogPostLayout from '@/layouts/BlogPostLayout.astro';
+import { getAlternates } from '@/lib/translations';
+
+/**
+ * Renders every blog post at its exact historical URL (`canonicalPath`), e.g.
+ * `/tecnologia/<slug>/` (pt), `/en/technology/<slug>/`, `/es/tecnologia-es/<slug>/`.
+ * The rest param captures the full multi-segment path.
+ */
+export const getStaticPaths = (async () => {
+  const posts = (await getCollection('blog')).filter((p) => !p.data.draft && p.data.canonicalPath);
+  return posts.map((entry) => ({
+    params: { path: entry.data.canonicalPath!.replace(/^\/+|\/+$/g, '') },
+    props: { entry, alternates: getAlternates(entry, posts) },
+  }));
+}) satisfies GetStaticPaths;
+
+const { entry, alternates } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<BlogPostLayout
+  title={d.title}
+  description={d.description}
+  lang={d.lang}
+  category={d.category}
+  date={d.date}
+  tags={d.tags}
+  alternates={alternates}
+>
+  <Content />
+</BlogPostLayout>
