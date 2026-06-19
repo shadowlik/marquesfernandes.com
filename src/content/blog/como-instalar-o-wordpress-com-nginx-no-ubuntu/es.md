@@ -34,174 +34,174 @@ Vayamos a la parte técnica, accedamos por ssh a la máquina que va a configurar
 
 En primer lugar, actualice las referencias del paquete del sistema.
 
-$sudo actualización adecuada
+$ sudo apt update
 
 Ahora actualice los programas a la versión más reciente (este paso es opcional pero recomendado).
 
-$sudo actualización de apartamentos
+$ sudo apt upgrade
 
 ### 2\. Instalación de Nginx
 
 Vamos a instalar Nginx directamente desde el repositorio de Ubuntu.
 
-$sudo apt install nginx
+$ sudo apt install nginx
 
 Este paso puede tardar un tiempo, se instalará y configurará Nginx en su máquina, al final comprobar si el servicio se está ejecutando.
 
-$sudo estado systemctl nginx
+$ sudo systemctl status nginx
 
 ### 3\. Configuración del cortafuegos
 
 Si está en cualquier equipo que tenga UFW habilitado, ejecute el siguiente comando para agregar Nginx como de confianza.
 
-$ sudo ufw permitir 'Nginx Full'
+$ sudo ufw allow 'Nginx Full'
 
 ### 4\. Instalación y configuración de la base de datos MySQL
 
 Nuestra instalación de Wordpress necesitará una base de datos, puede ser tanto MariaDB como MySQL, en este tutorial vamos a utilizar la última opción.
 
-$sudo instalar mysql-server
+$ sudo apt install mysql-server
 
 Asegúrese de que la instalación se realizó correctamente.
 
-$sudo estado de systemctl mysql
+$ sudo systemctl status mysql
 
 Ahora tenemos que introducir por línea de comandos en MySQL para crear la base de datos y el usuario para Wordpress.
 
 $ mysql -u root -p
 
-Con el siguiente comando crearemos una base de datos llamad`a wordpre`ss con charset utf8mb4.
+Con el siguiente comando crearemos una base de datos llamada `wordpress` con charset utf8mb4.
 
 mysql> CREATE DATABASE wordpress CHARACTER SET utf8mb4 COLLATE utf8mb4\_general\_ci;
 
-Ahora necesitamos crear un usuario y darle permiso para acceder a nuestra base de datos recién creada. Cambie `su usuari`o al nombre de usuario deseado y You`rSS tam`bién, recuerde utilizar una contraseña segura.
+Ahora necesitamos crear un usuario y darle permiso para acceder a nuestra base de datos recién creada. Cambie `SuUsuario` al nombre de usuario deseado y `SuContrasena` también, recuerde utilizar una contraseña segura.
 
-mysql> GRANT ALL ON wordpress.\* A YourUser 'localhost' IDENTIFICADO POR 'YourSword';
+mysql> GRANT ALL ON wordpress.\* TO SuUsuario @'localhost' IDENTIFIED BY 'SuContrasena';
 
 Renueve los privilegios de MySQL y salga de la línea de comandos.
 
-privilegios de vaciado;
+mysql> FLUSH PRIVILEGES;
 mysql> EXIT;
 
 Ahora vamos a ejecutar una comprobación de seguridad de MySQL, este paso es opcional pero muy recomendable.
 
-$sudo mysql\_secure\_installation
+$ sudo mysql\_secure\_installation
 
 ### 5\. Instalación de PHP 7.4
 
 Primero ejecute los siguientes comandos para actualizar el sistema y agregar y configurar php ppa en su servidor.
 
-$sudo apt install software-properties-common
+$ sudo apt install software-properties-common
  
 $ sudo add-apt-repository ppa:ondrej/php
  
-$sudo actualización adecuada
+$ sudo apt update
 
 Ahora vamos a instalar PHP 7.4 y todos los plugins necesarios para WordPress.
 
-$sudo apt instalar php7.4-fpm php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-i php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl unzip -y
+$ sudo apt install php7.4-fpm php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl unzip -y
 
 Asegúrese de que la instalación se ha realizado correctamente.
 
-$php-fpm7.4 -v
+$ php-fpm7.4 -v
 
 Puede cambiar algunos ajustes importantes, como el tamaño máximo de carga y el tiempo de ejecución de PHP.
 
 sudo nano /etc/php/7.4/fpm/php.ini
 
-file\_uploads - Activado
-allow\_url\_fopen - Activado
-upload\_max\_filesize 100M 
-post\_max\_size 64 millones de euros 
-memory\_limit 256 millones de euros 
-max\_execution\_time 360 
-max\_input\_vars 3000 
-max\_input\_time 1000
+file\_uploads = On
+allow\_url\_fopen = On
+upload\_max\_filesize = 100M 
+post\_max\_size = 64M 
+memory\_limit = 256M 
+max\_execution\_time = 360 
+max\_input\_vars = 3000 
+max\_input\_time = 1000
 
 ### 6\. Instalación de WordPress
 
 Primero vamos a crear la carpeta donde estará nuestra instalación de WordPress.
 
-$sudo mkdir -p/var/www/html/yourite.com
+$ sudo mkdir -p /var/www/html/seusite.com
 
 Navegue a la carpeta y descargue la última versión de WordPress.
 
-$cd/var/www/html/seusite.com && wget https://wordpress.org/latest.tar.gz
+$ cd /var/www/html/seusite.com && wget https://wordpress.org/latest.tar.gz
 
 Ahora tenemos que extraer y mover los archivos a la raíz de la carpeta deseada.
 
-$ tar xf latest.tar.gz && mv wordpress/\* .. /
+$ tar xf latest.tar.gz && mv wordpress/\* ../
 
 Ahora agrega los permisos necesarios para que el servidor web pueda acceder a los archivos de instalación.
 
-$sudo chown -R www-data: /var/www/html/yourite.com
+$ sudo chown -R www-data: /var/www/html/seusite.com
 
 ### 7\. Configuración de Nginx para WordPress
 
-Ahora necesitamos configurar Nginx para reconocer nuestro dominio y la instalación de WordPress. Para ello crearemos un archivo en la carpeta `/etc/nginx/sites-disponible c`on el nombre de nuestro dominio. Con tu editor favorito, nano en mi caso, crea el archivo.
+Ahora necesitamos configurar Nginx para reconocer nuestro dominio y la instalación de WordPress. Para ello crearemos un archivo en la carpeta `/etc/nginx/sites-available` con el nombre de nuestro dominio. Con tu editor favorito, nano en mi caso, crea el archivo.
 
-$sudo nano /etc/nginx/sites-disponible
+$ sudo nano /etc/nginx/sites-available
 
 Copie y pegue el siguiente contenido.
 
-servidor
+server{
  
-        escuchar 80;
-        escuchar\[::\] :80;
+        listen 80;
+        listen \[::\]:80;
         server\_name seusite.com www.seusite.com;
  
-        root /var/www/yoursite.com;
-        index.php;
+        root /var/www/seusite.com;
+        index index.php;
          
-        • Archivos de registro
-        access\_log /var/log/nginx/yourite.com.access.log;
-        error\_log /var/log/nginx/yourite.com.error.log;
-        • Creamos la configuración para el Favicon básico
-        ubicación á /favicon.ico ?
-           try\_files @empty /favicon.ico;
-           access\_log apagado;
-           log\_not\_found apagado;
-           expira máx. ;
+        # Archivos de Log
+        access\_log /var/log/nginx/seusite.com.access.log;
+        error\_log /var/log/nginx/seusite.com.error.log;
+        # Creamos la configuración para el Favicon básico
+        location = /favicon.ico {
+           try\_files /favicon.ico @empty;
+           access\_log off;
+           log\_not\_found off;
+           expires max;
         }
-        • Configuración de robots.txt para motores de búsqueda
-        ubicación : /robots.txt ?
-           permitir todo;
-           log\_not\_found apagado;
-           access\_log apagado;
+        # Configuración para el robots.txt para los buscadores
+        location = /robots.txt {
+           allow all;
+           log\_not\_found off;
+           access\_log off;
            try\_files $uri /index.php?$args;
         }
-        • Configuración para realizar la instalación de wordpress
-        ubicación / ?
+        # Configuración para ejecutar la instalación de WordPress
+        location / {
            try\_files $uri $uri/ /index.php?$args;
         }
-        • Incluimos la configuración de FastCGI
-        ubicación : .php$
-                incluir fragmentos/fastcgi-php.conf;
+        # Incluimos la configuración de FastCGI
+        location ~ \\.php$ {
+                include snippets/fastcgi-php.conf;
                 fastcgi\_pass unix:/var/run/php/php7.4-fpm.sock;
         }
-        • Hemos añadido una configuración de caché para archivos de imagen, css y javascript
-        ubicación.\* . (js-css-png-jpg-jpeg-gif-ico-svg)$
-                 expira máx. ;
-                log\_not\_found apagado;
+        # Añadimos una configuración de caché para los archivos de imagen, css y javascript
+        location ~\* \\.(js|css|png|jpg|jpeg|gif|ico|svg)$ {
+                 expires max;
+                log\_not\_found off;
         }
  
 }
 
 Ahora crea un acceso directo (enlace simbólico) a este archivo recién creado nuestro.
 
-$sudo ln -s /etc/nginx/sites-available/yoursite.com/etc/nginx/sites-enabled/
+$ sudo ln -s /etc/nginx/sites-available/seusite.com /etc/nginx/sites-enabled/
 
 Ahora reinicie Nginx para que se aplique la nueva configuración del sitio.
 
-$ sudo systemctl reinicio nginx
+$ sudo systemctl restart nginx
 
 ## 8\. Instalar Let's Encrypt y Generar el certificado SSL
 
 En este paso ya necesita haber configurado la señal de su dominio a su servidor, necesitaremos que el servidor ya sea accesible por Internet público. Instalar y configurar [Certbot](https://certbot.eff.org/), generará y configurará automáticamente el certificado en la instalación de Nginx.
 
-$sudo add-apt-repository ppa:certbot/certbot
+$ sudo add-apt-repository ppa:certbot/certbot
  
-$sudo apt install python-certbot-nginx
+$ sudo apt install python-certbot-nginx
  
 $ sudo certbot --nginx -d seusite.com -d www.seusite.com
 
@@ -209,6 +209,6 @@ Aparecerá un breve cuestionario, aceptará los términos y responderá a todas 
 
 ### 9\. Configuración de WordPress
 
-Si todo salió bien, ahora puedes acceder a la instalación de WordPress en tu navegador escribiendo tu dominio en el caso de este tutorial **`https://seusite.co`**m. Ahora es muy simple, sólo tienes que seguir y responder al cuestionario de instalación de WordPress, informar a la base de datos, usuario y contraseña que configuramos en el paso 4.
+Si todo salió bien, ahora puedes acceder a la instalación de WordPress en tu navegador escribiendo tu dominio en el caso de este tutorial **`https://seusite.com`**. Ahora es muy simple, sólo tienes que seguir y responder al cuestionario de instalación de WordPress, informar a la base de datos, usuario y contraseña que configuramos en el paso 4.
 
 Ahora solo tienes que aprovechar tu nueva y optimizada instalación de WordPress. Una vez configurado, utilice [plugins de caché](http://marquesfernandes.com/melhores-plugins-de-cache-para-wordpress-gratuitos-2020/) que tengan compatibilidad de configuración con Nginx para optimizar aún más la velocidad de su sitio.

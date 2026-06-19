@@ -34,7 +34,7 @@ Todos los requisitos previos ya vienen instalados de forma predeterminada en Win
 
 -   Programador de tareas (Programador de tareas de Windows)
 -   Bloc de notas (o algún editor de texto neutro)
--   CScript **(C:-Windows-System32-cscript.exe)**
+-   CScript **(C:\\Windows\\System32\\cscript.exe)**
 
 ## Creación del archivo VBS
 
@@ -42,41 +42,41 @@ El archivo que hará que toda la magia suceda será un script de Visual Basic Sc
 
 Abra el *Bloc de notas* y copie el contenido siguiente:
 
-'Ruta completa a la hoja de trabajo de Excel 
-PathQuix ? "C:-Usuarios-henrique-Documentos-nome\_da\_planilha.xlsm" 
+'Ruta completa a la hoja de cálculo de Excel 
+CaminhoArquivoExcel = "C:\\Users\\henrique\\Documents\\nome\_da\_planilha.xlsm" 
  
 'Alcance y nombre completo de la macro para ejecutar 
-PathMacro á "Module1.NameMacro" 
+CaminhoMacro = "Module1.NomeDaMacro" 
 
-"Creamos una instancia de Excel 
-Establecer ExcelApp á CreateObject("Excel.Application") 
+'Creamos una instancia de Excel 
+Set ExcelApp = CreateObject("Excel.Application") 
 
-"¿Desea que esta instancia sea visible? 
-ExcelApp.Visible - Verdadero 'o "Falso" 
+'¿Desea que esta instancia sea visible? 
+ExcelApp.Visible = True  'o "False" 
 
 'Impide que Excel muestre alertas
-ExcelApp.DisplayAlerts - Falso 
+ExcelApp.DisplayAlerts = False 
 
 'Abrimos el archivo excel 
-Conjunto de wb: ExcelApp.Workbooks.Open(PathArchiveExcel) 
+Set wb = ExcelApp.Workbooks.Open(CaminhoArquivoExcel) 
 
-«Ejecutamos la macro 
-ExcelApp.Run PathMacro
+'Ejecutamos la macro 
+ExcelApp.Run CaminhoMacro
 
 'Guardamos el archivo de Excel después de ejecutar la macro 
-Wb. Ahorro, Año Nuevo 
+wb.Save 
 
-'Estamos de vuelta con el parámetro alerts para evitar problemas con otras hojas de trabajo 
-ExcelApp.DisplayAlerts - Verdadero 
+'Volvemos con el parámetro de alertas para evitar problemas con otras hojas de cálculo 
+ExcelApp.DisplayAlerts = True 
  
 'Cerramos el archivo de Excel 
-Wb. Cierre, Año Nuevo 
+wb.Close 
 
 'Cerramos la instancia de Excel 
 ExcelApp.Quit 
   
-'Alerta para advertirle cuando la hoja de cálculo se ejecuta correctamente 
-MsgBox "Su hoja de cálculo se ejecutó correctamente en:" & TimeValue(Now), vbInformation 
+'Alerta para avisar cuando la hoja de cálculo se ejecute correctamente 
+MsgBox "Su hoja de cálculo se ejecutó automáticamente con éxito a las:" & TimeValue(Now), vbInformation 
 
 Ahora necesitamos reemplazar alguna información:
 
@@ -121,11 +121,11 @@ Puede crear más de una regla para cada programación.
 
 En **la pestaña Acciones** vamos a trazar los acciones que se deben realizar. Para ejecutar el script creado al principio del tutorial necesitamos usar un programa nativo de Windows llamado **CScript** que nos permita ejecutar nuestro archivo **.vbs**: 
 
-En el campo "Programa/script" agregue: **"C:-Windows-System32-cscript.exe"** 
+En el campo "Programa/script" agregue: **"C:\\Windows\\System32\\cscript.exe"** 
 
 Ahora vamos a mover como argumento a **CScript** qué archivo queremos que se ejecute. Pegue la ruta completa del archivo **.vbs** que creamos al principio: 
 
-En el campo "Agregar argumentos (opcional)" cambiar los valores y añadir algo como: "C:**\-Usu****arios****\-****henrique****\-****excelautomatico****.vbs"** 
+En el campo "Agregar argumentos (opcional)" cambiar los valores y añadir algo como: **"C:\\****Users****\\****henrique****\\****excelautomatico****.vbs"** 
 
 **Ambos valores deben estar entre comillas.** 
 

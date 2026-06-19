@@ -29,46 +29,46 @@ No voy a entrar en una gran cantidad de datos técnicos sobre el historial de My
 
 Aprenderemos a crear un script completo en Windows, para ello es necesario haber instalado previamente MySQL y tener los datos de usuario legibles en la base de datos para ser copiados y usaremos [7zip](https://www.7-zip.org/) para comprimir nuestros archivos.
 
-Primero vamos a crear el archivo que contendrá nuestras credenciales de acceso bancario: `config.cn`f.
+Primero vamos a crear el archivo que contendrá nuestras credenciales de acceso bancario: `config.cnf`.
 
-• Configuración de usuario
+\# Configuración de usuario
 \[mysqldump\]
- user-root
- contraseña-contraseña
+ user=root
+ password=senha
 
 Y ahora el archivo que realizará todo el proceso de copia de seguridad.
 
 #Set-ExecutionPolicy -ExecutionPolicy Bypass 
-$mysqlpath de la ruta de acceso a la instalación de MySQL" en "C:"Archivos de programa, MySQL Server 5.5-bin" - Ruta de acceso a la instalación de MySQL
-$backuppath de la ruta de acceso para almacenar copias de seguridad para almacenar copias de seguridad
-$7zippath - "C:-Archivos de programa (x86)-7-Zip" - Ruta de acceso a la instalación de 7zip
-$config : "C:-config.cnf" - Ruta de acceso al archivo con credenciales
-$database "blog" - Nombre de nuestra base de datos
-$errorLog : "C:-error\_dump.log" - Ruta de acceso a nuestro archivo de registro
-$days 7 días para guardar los archivos de copia de seguridad
-$date - Fecha de obtención 
-$timestamp " + $date.día + $date.month + $date.year + "\_" + $date.hour + $date.minute 
-$backupfile á $backuppath + $database + "\_" + $timestamp +".sql" 
-$backupzip - $backuppath + $database + "\_" + $timestamp +".zip" 
+$mysqlpath = "C:\\Program Files\\MySQL\\MySQL Server 5.5\\bin"  # Ruta de acceso a la instalación de MySQL
+$backuppath = "C:\\backups\\"  # Ruta para almacenar las copias de seguridad
+$7zippath = "C:\\Program Files (x86)\\7-Zip"  # Ruta de acceso a la instalación de 7zip
+$config = "C:\\config.cnf"  # Ruta de acceso al archivo con las credenciales
+$database = "blog" # Nombre de nuestra base de datos
+$errorLog = "C:\\error\_dump.log"  # Ruta de acceso a nuestro archivo de registro
+$days = 7 # Días para guardar los archivos de copia de seguridad
+$date = Get-Date 
+$timestamp = " " + $date.day + $date.month + $date.year + "\_" + $date.hour + $date.minute 
+$backupfile = $backuppath + $database + "\_" + $timestamp +".sql" 
+$backupzip = $backuppath + $database + "\_" + $timestamp +".zip" 
  
-• Inicia el proceso de copia de seguridad 
-$mysqlpath CD 
-.-mysqldump.exe --defaults-extra-file-$config --log-error-$errorLog --result-file-$backupfile --databases $database /c 
+# Inicia el proceso de copia de seguridad 
+CD $mysqlpath 
+.\\mysqldump.exe --defaults-extra-file=$config --log-error=$errorLog  --result-file=$backupfile  --databases $database /c 
 
-• Inicia el proceso de compactación con 7zip  
+# Inicia el proceso de compactación con 7zip  
 CD $7zippath 
-.-7z.exe a -tzip $backupzip $backupfile 
+.\\7z.exe a -tzip $backupzip $backupfile 
  
-• Elimina el archivo sin procesar
+# Elimina el archivo sin procesar
 Del $backupfile 
 
-• Elimina los archivos antiguos
-$backuppath de CD 
-$oldbackups gci \*.zip\* 
+# Elimina los archivos antiguos
+CD $backuppath 
+$oldbackups = gci \*.zip\* 
  
-for($i-0; $i -lt $oldbackups.count; $i++) 
-    si ($oldbackups\[$i\]. CreationTime -lt $date. AddDays(-$days)) 
-        $oldbackups de la\[$i\] casa de la casa de los Quita-Item -Confirm:$false 
+for($i=0; $i -lt $oldbackups.count; $i++){ 
+    if ($oldbackups\[$i\].CreationTime -lt $date.AddDays(-$days)){ 
+        $oldbackups\[$i\] | Remove-Item -Confirm:$false 
     } 
 }
 
@@ -82,44 +82,44 @@ Para crear la programación en Windows puede usar el Programador de tareas.
 
 Ahora aprenderemos a crear un script completo en Linux, para ello es necesario haber instalado previamente MySQL y tener los datos de usuario legibles en la base de datos para ser copiados. También usaremos [bzip2](https://www.sourceware.org/bzip2/) para comprimir nuestros archivos, si no desea utilizar esta funcionalidad, comente las líneas 28 y 29.
 
-!/bin/bash
+#!/bin/bash
 
-DB\_NAME''dbname' - Nombre de la base de datos
-DB\_USER'dbuser' - Usuario del banco
-DB\_PASS 'dbpass' - Contraseña del banco
-DB\_PARAM'--add-drop-table --add-locks --extended-insert --single-transaction -quick https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html'
+DB\_NAME='dbname' # Nombre de la base de datos
+DB\_USER='dbuser' # Usuario del banco
+DB\_PASS='dbpass' # Contraseña del banco
+DB\_PARAM='--add-drop-table --add-locks --extended-insert --single-transaction -quick' # Parámetros para la copia de seguridad https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
-MYSQLDUMP/usr/bin/mysqldump - Ruta de acceso a mysqldump binario
-BACKUP\_DIR/backup/mysql: Ruta de acceso para guardar copias de seguridad
-DIAS 7 - ¿Cuántos días de copias de seguridad desea mantener
+MYSQLDUMP=/usr/bin/mysqldump # Ruta de acceso al binario de mysqldump
+BACKUP\_DIR=/backup/mysql # Ruta de acceso para guardar las copias de seguridad
+DIAS=7 # Cuántos días de copias de seguridad desea mantener
 
-FECHA 'fecha +%Y-%m-%d'
-BACKUP\_NAME-mysql-$DATE.sql
-BACKUP\_TAR-mysql-$DATE.tar
-BACKUP\_BZ2-mysql-$DATE.tar.bz2
+DATE=\`date +%Y-%m-%d\`
+BACKUP\_NAME=mysql-$DATE.sql
+BACKUP\_TAR=mysql-$DATE.tar
+BACKUP\_BZ2=mysql-$DATE.tar.bz2
 
 echo "Inicio del proceso de copia de seguridad..."
 
-#Gerando archivo sql
-echo "Generación de copia de seguridad de base de datos $DB\_NAME en $BACKUP\_DIR/$BACKUP\_NAME"
+#Generando archivo sql
+echo "Generando copia de seguridad de la base de datos $DB\_NAME en $BACKUP\_DIR/$BACKUP\_NAME"
 $MYSQLDUMP $DB\_NAME $DB\_PARAM -u $DB\_USER -p$DB\_PASS > $BACKUP\_DIR/$BACKUP\_NAME
 
-• Comprimir el archivo en alquitrán
-echo "Consolidando archivo en alquitrán..."
+# Comprimiendo el archivo en tar
+echo "Consolidando archivo en tar ..."
 tar -cf $BACKUP\_DIR/$BACKUP\_TAR -C $BACKUP\_DIR $BACKUP\_NAME
 
-• Comprimir el archivo con bzip2
-echo " -- Comprimir archivo en bzip2 ..."
-$BACKUP\_DIR/$BACKUP\_BZ2 $BACKUP
+# Comprimiendo el archivo con bzip2
+echo "  -- Comprimiendo archivo en bzip2 ..."
+bzip2 $BACKUP\_DIR/$BACKUP\_BZ2
 
-• Excluyendo archivos sin procesar
-echo " -- Excluyendo archivos innecesarios ..."
+# Excluyendo archivos sin procesar
+echo "  -- Excluyendo archivos innecesarios ..."
 rm -rf $BACKUP\_DIR/$BACKUP\_NAME
 
-• Eliminación de archivos antiguos
-find /backup/mysql -name "\*.tar.bz2" -type f -mtime +$DIAS -exec rm -f á;
+# Excluyendo los archivos más antiguos
+find /backup/mysql -name "\*.tar.bz2" -type f -mtime +$DIAS -exec rm -f {} \\;
 
-Guarde el archivo como mysql\_backup.sh; Conceda permiso de ejecución con el comando chm`od +x mysql_backup.sh; Aho`ra ejecute el archivo de copia de seguridad co`n ./mysql_backup.s`h.
+Guarde el archivo como mysql\_backup.sh; Conceda permiso de ejecución con el comando `chmod +x mysql_backup.sh`; Ahora ejecute el archivo de copia de seguridad con `./mysql_backup.sh`.
 
 ### Crontab - Creación de la programación
 
@@ -127,8 +127,8 @@ Para crear la rutina que ejecuta nuestra copia de seguridad diaria en Linux, usa
 
 Abra su Crontab:
 
-$crontab -e
+$ crontab -e
 
 Ahora vamos a crear una programación que se ejecuta todos los días a las 00hs, así que agregue la siguiente línea al final del archivo:
 
-0 0 \* \* \* sh /mysql\_backup.sh
+0 0 \* \* \*  sh ~/mysql\_backup.sh

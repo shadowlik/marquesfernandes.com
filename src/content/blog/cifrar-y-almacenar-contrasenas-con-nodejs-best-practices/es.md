@@ -49,61 +49,71 @@ En resumen, la práctica de esta técnica será:
 3.  Cifrar la combinación de la contraseña introducida y la sal
 4.  Compare este hash almacenado con el hash guardado en el banco
 
-En este artículo no cubriremos el proceso completo, para la parte de cifrado usaremos la biblioteca [Criptográfica nativa](https://nodejs.org/api/crypto.html) y para la parte del banco simularemos con el `console.lo`g.
+En este artículo no cubriremos el proceso completo, para la parte de cifrado usaremos la biblioteca [Criptográfica nativa](https://nodejs.org/api/crypto.html) y para la parte del banco simularemos con el `console.log`.
 
 ## Vamos al código
 
 Primero tenemos que importar el módulo criptográfico
 
-var crypto - require('crypto');
+```js
+var crypto = require('crypto');
+```
 
 ### Función para generar Sal
 
 Para generar la sal vamos a utilizar una función del propio módulo criptográfico que ya genera una cadena aleatoria, vamos a utilizar una cadena con 16 caracteres como nuestra sal.
 
-la función generateSalt()
-    return crypto.randomBytes(Math.ceil(length/2))
-            .toString('hex')
-            .slice(0.16); 
+```js
+var generateSalt = function (length) {
+    return crypto.randomBytes(Math.ceil(length / 2))
+        .toString('hex')
+        .slice(0, length);
 };
+```
 
 ### Función para cifrar la contraseña con sal
 
 Ahora haremos la función responsable de unir una sal y una contraseña, devolviendo un objeto con el hash cifrado generado y la sal. Usaremos el algoritmo de cifrado [sha512](https://emn178.github.io/online-tools/sha512.html).
 
-función sha512 (contraseña, sal)
-    var hash á crypto.createHmac('sha512', sal); Algoritmo Crypto sha512
-    hash.update (contraseña);
-    var hash á hash.digest('hex');
-    retorno ?
-        Sal
-        Hash
+```js
+var sha512 = function (password, salt) {
+    var hash = crypto.createHmac('sha512', salt); // Algoritmo Crypto sha512
+    hash.update(password);
+    var value = hash.digest('hex');
+    return {
+        salt: salt,
+        hash: value
     };
 };
+```
 
 ### Función para generar un nuevo hash de contraseña
 
 Vamos a crear el gora una función que genera una nueva contraseña para el usuario, se puede utilizar en el registro o actualización de contraseña.
 
-función generateSword (contraseña)
-    var sal á gerarSalt(16); Vamos a generar la sal
-    var passwordESalt á sha512 (contraseña, sal); Tomamos la contraseña y la sal
-    Desde aquí se puede devolver la contraseña o ya guardar en el banco la sal y la contraseña
-    console.log('Hash password: ' + passwordESalt.hash);
-    console.log('Salt: ' + passwordESalt.salt);
+```js
+function saltHashPassword(userpassword) {
+    var salt = generateSalt(16); // Vamos a generar la sal
+    var passwordData = sha512(userpassword, salt); // Tomamos la contraseña y la sal
+    // Desde aquí se puede devolver la contraseña o guardar en el banco la sal y la contraseña
+    console.log('Hash password: ' + passwordData.hash);
+    console.log('Salt: ' + passwordData.salt);
 }
 
 saltHashPassword('123456');
 saltHashPassword('ABC123');
+```
 
 ### Validar contraseña (inicio de sesión)
 
 Ahora que hemos guardado un hash de contraseña y sal en el banco, necesitamos un rol para autenticar a ese usuario en nuestra aplicación:
 
-inicio de sesión de la función (passwordDoLogin, saltNoBanco, hashNoBanco)
-   var passwordESalt á sha512(passwordDoLogin, saltNoBanco)
-   devolver hashNoBanco á senhaESalt.hash;
+```js
+function login(passwordEntered, salt, hash) {
+    var passwordData = sha512(passwordEntered, salt);
+    return hash === passwordData.hash;
 }
+```
 
 ## Conclusión
 

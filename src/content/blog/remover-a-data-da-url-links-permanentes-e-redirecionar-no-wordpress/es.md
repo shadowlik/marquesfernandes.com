@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:24:05.000Z
 ---
 
-Si tienes un blog de [Wordpress](https://br.wordpress.org/), probablemente hayas notado que tu URL viene en formato /y`ear/month/day/url-do-pos`t. Este formato crea vínculos más largos, y este marcado de fecha puede ser perjudicial para su sitio, muchos usuarios miran el vínculo y seleccionan el sitio con el contenido más reciente, por lo que incluso si mantiene sus publicaciones actualizadas, esto puede tener un impacto en el alcance de sus artículos.
+Si tienes un blog de [Wordpress](https://br.wordpress.org/), probablemente hayas notado que tu URL viene en formato `/year/month/day/url-do-post`. Este formato crea vínculos más largos, y este marcado de fecha puede ser perjudicial para su sitio, muchos usuarios miran el vínculo y seleccionan el sitio con el contenido más reciente, por lo que incluso si mantiene sus publicaciones actualizadas, esto puede tener un impacto en el alcance de sus artículos.
 
 En este artículo aprenderemos cómo configurar Wordpress para usar un formato de URL más simple y redirigir las publicaciones ya indexadas o compartidas al nuevo formato usando `.htaccess`.
 
@@ -33,18 +33,19 @@ Entra en el panel administrativo de tu Wordpress y cambia al formato deseado, en
 
 Ahora vamos a agregar una pequeña configuración en nuestro **.htaccess** (Se encuentra en la raíz de su instalación de Wordpress).
 
-`RewriteRule ([0-9]+)/[0-9](+)/[0-9](+)/(.*)$ /$4[R=301,NC,L]`
+`RewriteRule ^([0-9]+)/([0-9]+)/([0-9]+)/(.*)$ /$4 [R=301,NC,L]`
 
 Su archivo debe tener este aspecto:
 
 <IfModule mod\_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteRule (\[0-9\]+)/\[0-9\](+)/(.\*)$ /$3\[R=301,NC,L\]
-RewriteRule á index-.php$ -\[L\]
-RewriteCond %-REQUEST\_FILENAME!-f
-RewriteCond %-REQUEST\_FILENAME!-d
-RewriteRule . /index.php\[L\]
+RewriteRule ^(\[0-9\]+)/(\[0-9\]+)/(.\*)$ /$3 \[R=301,NC,L\]
+RewriteRule ^index\\.php$ - \[L\]
+RewriteCond %{REQUEST\_FILENAME} !-f
+RewriteCond %{REQUEST\_FILENAME} !-d
+RewriteRule . /index.php \[L\]
+</IfModule>
 
 **Consejo:** Si utiliza alguna extensión de optimización, rendimiento o redirección SEO en Wordpress, lo más probable es que su archivo sea mucho más grande que el del ejemplo anterior, recuerde colocar la línea justo al principio del archivo para que la redirección funcione.
 

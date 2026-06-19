@@ -56,30 +56,30 @@ Dim i As Long
 Dim ws As Worksheet
 Dim objHTTP As Object
 
-«Seleccionamos nuestra hoja de cálculo de resultados
-Set ws - Hojas de trabajo ("resultados")
+'Seleccionamos nuestra hoja de cálculo de resultados
+Set ws = Worksheets("resultados")
 
-"Creamos nuestro objeto de la requistación y enviamos
-Set objHTTP á CreateObject("WinHttp.WinHttp.5.1")
-URL: "https://pokeapi.co/api/v2/pokemon"
+'Creamos nuestro objeto de solicitud y lo enviamos
+Set objHTTP = CreateObject("WinHttp.WinHttpRequest.5.1")
+URL = "https://pokeapi.co/api/v2/pokemon"
 objHTTP.Open "GET", URL, False
 objHTTP.Send
-strResult á objHTTP.responseText
-json - strResult
+strResult = objHTTP.responseText
+json = strResult
 
-Set objectJson á JsonConverter.ParseJson(json)
+Set objetoJson = JsonConverter.ParseJson(json)
 
-«Creamos las celdas de encabezado
-Ws. Células(1, 1) - "nombre"
-Ws. Células(1, 2) - "enlace"
+'Creamos las celdas de encabezado
+ws.Cells(1, 1) = "nombre"
+ws.Cells(1, 2) = "enlace"
 
-«En bucle la propiedad results de la respuesta de la API
-i 2 'Vamos a iniciar el contador en la línea 2
-Para cada pokemon In objectJson("results")
-    Ws. Células(i, 1) - pokemon("name")
-    Ws. Cells(i, 2) á pokemon("url")
-    i i + 1
-Siguiente
+'Hacemos un bucle en la propiedad results de la respuesta de la API
+i = 2 'Comenzaremos el contador en la línea 2
+For Each pokemon In objetoJson("results")
+    ws.Cells(i, 1) = pokemon("name")
+    ws.Cells(i, 2) = pokemon("url")
+    i = i + 1
+Next
 
 End Sub
 
@@ -90,39 +90,39 @@ Dim jsonObject As Object, item As Object
 Dim i As Long
 Dim ws As Worksheet
 Dim xmlhttp As Object
-Set xmlhttp á CreateObject("MSXML2.serverXMLHTTP")
+Set xmlhttp = CreateObject("MSXML2.serverXMLHTTP")
 Dim objHTTP As Object
 
 A continuación seleccionamos la hoja de cálculo que queremos mostrar los resultados de la consulta de API, en nues`tro caso Hojas de trabajo` ("resultados") y luego creamos un objeto que nos permitirá realizar la solicitud para la `API https://pokeapi.co/api/v2/pokemo`n. Tomaremos la respuesta y la pondremos en la var`iabl`e json, por ahora no es más que un texto.
 
-«Seleccionamos nuestra hoja de cálculo de resultados
-Set ws - Hojas de trabajo ("resultados")
+'Seleccionamos nuestra hoja de cálculo de resultados
+Set ws = Worksheets("resultados")
 
-"Creamos nuestro objeto de la requistación y enviamos
-Set objHTTP á CreateObject("WinHttp.WinHttp.5.1")
-URL: "https://pokeapi.co/api/v2/pokemon"
+'Creamos nuestro objeto de solicitud y lo enviamos
+Set objHTTP = CreateObject("WinHttp.WinHttpRequest.5.1")
+URL = "https://pokeapi.co/api/v2/pokemon"
 objHTTP.Open "GET", URL, False
 objHTTP.Send
-strResult á objHTTP.responseText
-json - strResult
+strResult = objHTTP.responseText
+json = strResult
 
 Aquí ocurre la magia, la función Pars`eJson de` la biblioteca VBA JSON convierte el texto de nuestra variable `jso`n en un objeto accesible en nuestro script. Ahora podemos acceder a todas las propiedades mediante programación en nuestro código.
 
-Set objectJson á JsonConverter.ParseJson(json)
+Set objetoJson = JsonConverter.ParseJson(json)
 
 Ahora que tenemos el resultado de nuestra API accesible, creamos en la primera fila de la hoja de trabajo el encabezado que contiene las columnas de **nombre** y **vínculo**.
 
-«Creamos las celdas de encabezado
-Ws. Células(1, 1) - "nombre"
-Ws. Células(1, 2) - "enlace"
+'Creamos las celdas de encabezado
+ws.Cells(1, 1) = "nombre"
+ws.Cells(1, 2) = "enlace"
 
 Ahora, antes de analizar el script, necesitamos comprender el resultado de la API. Si abre el enlace [](https://pokeapi.co/api/v2/pokemon)[https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon) en su navegador verá el siguiente resultado:
 
 {
   "count": 964,
   "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
-  "anterior": nulo,
-  "resultados": \[
+  "previous": null,
+  "results": \[
     {
       "name": "bulbasaur",
       "url": "https://pokeapi.co/api/v2/pokemon/1/"
@@ -148,7 +148,7 @@ Ahora, antes de analizar el script, necesitamos comprender el resultado de la AP
       "url": "https://pokeapi.co/api/v2/pokemon/6/"
     },
     {
-      "name": "Squirtle",
+      "name": "squirtle",
       "url": "https://pokeapi.co/api/v2/pokemon/7/"
     },
     {
@@ -168,7 +168,7 @@ Ahora, antes de analizar el script, necesitamos comprender el resultado de la AP
       "url": "https://pokeapi.co/api/v2/pokemon/11/"
     },
     {
-      "name": "libre de mantequilla",
+      "name": "butterfree",
       "url": "https://pokeapi.co/api/v2/pokemon/12/"
     },
     {
@@ -208,13 +208,13 @@ Ahora, antes de analizar el script, necesitamos comprender el resultado de la AP
 
 Estamos interesados en los property`results`, una matriz que contiene una lista de pokemons con sus respectivos nombres y enlaces a más detalles. Accederemos a esta matriz `en json object ("re`sults") y loop para mostrar cada pokemon resultado en una nueva fila en nuestra tabla.
 
-«En bucle la propiedad results de la respuesta de la API
-i 2 'Vamos a iniciar el contador en la línea 2
-Para cada pokemon In objectJson("results")
-    Ws. Células(i, 1) - pokemon("name")
-    Ws. Cells(i, 2) á pokemon("url")
-    i i + 1
-Siguiente
+'Hacemos un bucle en la propiedad results de la respuesta de la API
+i = 2 'Comenzaremos el contador en la línea 2
+For Each pokemon In objetoJson("results")
+    ws.Cells(i, 1) = pokemon("name")
+    ws.Cells(i, 2) = pokemon("url")
+    i = i + 1
+Next
 
 Si todo sucede como se esperaba, al presionar f5 `pa`ra rotar nuestra macro, en su hoja de cálculo debería ver el siguiente resultado:
 

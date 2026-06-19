@@ -50,55 +50,65 @@ Neste artigo não cobriremos o processo completo. Para a parte de criptografia u
 
 Primeiro precisamos importar o módulo cripto
 
-var crypto - require('crypto');
+```js
+var crypto = require('crypto');
+```
 
 ### Função para gerar o Sal
 
 Para gerar o sal vamos utilizar uma função do próprio módulo cripto que já gera uma string aleatória; vamos utilizar uma string com 16 caracteres como nosso sal.
 
-a função generateSalt()
-    return crypto.randomBytes(Math.ceil(length/2))
-            .toString('hex')
-            .slice(0.16); 
+```js
+var generateSalt = function (length) {
+    return crypto.randomBytes(Math.ceil(length / 2))
+        .toString('hex')
+        .slice(0, length);
 };
+```
 
 ### Função para criptografar a senha com o sal
 
 Agora faremos a função responsável por unir um sal e uma senha, retornando um objeto com o hash criptografado gerado e o sal. Usaremos o algoritmo de criptografia [sha512](https://emn178.github.io/online-tools/sha512.html).
 
-função sha512 (senha, sal)
-    var hash á crypto.createHmac('sha512', sal); Algoritmo Crypto sha512
-    hash.update (senha);
-    var hash á hash.digest('hex');
-    retorno ?
-        Sal
-        Hash
+```js
+var sha512 = function (password, salt) {
+    var hash = crypto.createHmac('sha512', salt); // Algoritmo Crypto sha512
+    hash.update(password);
+    var value = hash.digest('hex');
+    return {
+        salt: salt,
+        hash: value
     };
 };
+```
 
 ### Função para gerar um novo hash de senha
 
 Vamos criar agora uma função que gera uma nova senha para o usuário, que pode ser usada no registro ou na atualização de senha.
 
-função generateSword (senha)
-    var sal á gerarSalt(16); Vamos gerar o sal
-    var passwordESalt á sha512 (senha, sal); Pegamos a senha e o sal
-    A partir daqui é possível retornar a senha ou já salvar no banco o sal e a senha
-    console.log('Hash password: ' + passwordESalt.hash);
-    console.log('Salt: ' + passwordESalt.salt);
+```js
+function saltHashPassword(userpassword) {
+    var salt = generateSalt(16); // Vamos gerar o sal
+    var passwordData = sha512(userpassword, salt); // Pegamos a senha e o sal
+    // A partir daqui é possível retornar a senha ou salvar no banco o sal e a senha
+    console.log('Hash password: ' + passwordData.hash);
+    console.log('Salt: ' + passwordData.salt);
 }
 
 saltHashPassword('123456');
 saltHashPassword('ABC123');
+```
 
 ### Validar senha (login)
 
 Agora que salvamos um hash de senha e sal no banco, precisamos de uma função para autenticar esse usuário em nossa aplicação:
 
-login da função (passwordDoLogin, saltNoBanco, hashNoBanco)
-   var passwordESalt á sha512(passwordDoLogin, saltNoBanco)
-   retornar hashNoBanco á senhaESalt.hash;
+```js
+function login(passwordEntered, salt, hash) {
+    var passwordData = sha512(passwordEntered, salt);
+    return hash === passwordData.hash;
 }
+```
 
 ## Conclusão
 

@@ -26,44 +26,44 @@ El paquete de instalación de node siempre está disponible en la versión LTS y
 
 En la última actualización de este artículo NodeJS está en la versión 12 LTS y 13 actual, para instalar la última versión disponible:
 
-$sudo apt-get install curl
-$ curl -sL https://deb.nodesource.com/setup\_13.x ? sudo -Y bash -
+$ sudo apt-get install curl
+$ curl -sL https://deb.nodesource.com/setup\_13.x | sudo -E bash -
 
 Si desea instalar la última **versión** de **LTS**:
 
-$sudo apt-get install curl
-$ curl -sL https://deb.nodesource.com/setup\_12.x ? sudo -Y bash -
+$ sudo apt-get install curl
+$ curl -sL https://deb.nodesource.com/setup\_12.x | sudo -E bash -
 
 ## Instalación de NodeJS
 
 Ahora que hemos agregado el PPA, vamos a ejecutar el comando para instalar NodeJS y también su administrador de dependencias, Node Package Manager (NPM). Usaremos el comando `apt-get update` para actualizar la información de nuestros paquetes y `apt-get install` para iniciar el proceso de instalación:
 
-$sudo actualización apt-get
-$sudo apt-get install nodejs
+$ sudo apt-get update
+$ sudo apt-get install nodejs
 
 ## Comprobación de node.js y versión NPM
 
 La instalación puede tardar un tiempo dependiendo de su conexión a Internet, si todo sucede como se esperaba, una vez completada la instalación tenemos que verificar que las versiones instaladas de NodeJS y NPM son correctas. Para obtener más información sobre las versiones disponibles, consulte el [sitio web oficial](https://nodejs.org/download/).
 
-$node -v 
+$ node -v 
 
-• Resultado esperado
+# Resultado esperado
 v13.3.0
 
 También marque la versión [NPM](https://npmjs.com/):
 
-$npm -v 
+$ npm -v 
 
-• Resultado esperado
+# Resultado esperado
 6.13.1
 
 ## Ejecutar un javascript simple
 
 Podemos probar si nuestro nodo funciona correctamente ejecutando un script simple directamente desde nuestro terminal:
 
-$ nodo -e "para (deje i á 0; Yo< 10; i++) { console.log(i) }"
+$ node -e "for (let i = 0; i < 10; i++) { console.log(i) }"
 
-• Resultado esperado
+# Resultado esperado
 0
 1
 2

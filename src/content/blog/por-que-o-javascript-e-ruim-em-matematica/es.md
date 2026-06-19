@@ -47,15 +47,15 @@ Ahora que ha entendido el problema, aunque el error de precisión es bajo, puede
 
 Hay algunas soluciones propuestas, algunas más restringidas indican que la mejor manera es multiplicar a enteros antes de hacer las matemáticas:
 
-const myMoney 600.90 \* 100;
-const precoDaMsality á 200.30 \* 100;
-Const TotalMones - PrecoDa MonthlyIty \* 3;
+const meuDinheiro = 600.90 \* 100;
+const precoDaMensalidade = 200.30 \* 100;
+const totalDeMensalidades = precoDaMensalidade \* 3;
 
-Salidas: true
-console.log (myMoney >- TotalDeMmensalities);
+// Salidas: true
+console.log(meuDinheiro >= totalDeMensalidades);
 
-Salidas: 60090
-console.log (totalMones);
+// Salidas: 60090
+console.log(totalDeMensalidades);
 
 Y otras soluciones utilizan la transformación y el cálculo basados en cadenas, lo que puede ser útil, pero viene con el costo del rendimiento.
 
