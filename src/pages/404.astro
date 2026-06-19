@@ -1,0 +1,22 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout lang="pt" title="404 — MF.">
+  <section class="container notfound">
+    <p class="eyebrow">404</p>
+    <h1>Página não encontrada</h1>
+    <p>A página que você procura não existe ou foi movida.</p>
+    <p><a href="/">← Voltar ao início</a></p>
+  </section>
+</BaseLayout>
+
+<style>
+  .notfound {
+    padding-block: 5rem;
+    min-height: 40vh;
+  }
+  .notfound h1 {
+    margin: 0.25rem 0 1rem;
+  }
+</style>
