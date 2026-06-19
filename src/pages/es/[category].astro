@@ -1,0 +1,18 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BlogList from '@/components/BlogList.astro';
+import { postsForCategory, categoryArchives } from '@/lib/blog';
+
+export const getStaticPaths = (async () => {
+  const all = await getCollection('blog');
+  return categoryArchives(all)
+    .filter((a) => a.lang === 'es')
+    .map((a) => ({ params: { category: a.category }, props: { category: a.category } }));
+}) satisfies GetStaticPaths;
+
+const { category } = Astro.props;
+const posts = postsForCategory(await getCollection('blog'), 'es', category);
+---
+
+<BlogList lang="es" heading={category.replace(/-/g, ' ')} posts={posts} />

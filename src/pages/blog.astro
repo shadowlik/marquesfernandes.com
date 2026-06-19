@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import BlogList from '@/components/BlogList.astro';
+import { postsForLang } from '@/lib/blog';
+import { useTranslations } from '@/i18n/utils';
+
+const posts = postsForLang(await getCollection('blog'), 'pt');
+const t = useTranslations('pt');
+---
+
+<BlogList lang="pt" heading={t('nav.blog')} posts={posts} />
