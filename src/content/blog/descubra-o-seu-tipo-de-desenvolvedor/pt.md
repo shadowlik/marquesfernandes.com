@@ -13,6 +13,7 @@ category: tecnologia
 tags:
   - quiz
 wpId: 9773
+cover: ./2020-08-a9oohz46oizx.jpg
 canonicalPath: /tecnologia/descubra-o-seu-tipo-de-desenvolvedor/
 needsReview: false
 updated: 2020-08-17T09:02:23.000Z

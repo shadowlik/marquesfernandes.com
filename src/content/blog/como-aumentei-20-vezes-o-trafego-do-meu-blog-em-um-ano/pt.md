@@ -13,6 +13,7 @@ tags:
   - google-analytics
   - blog
 wpId: 7899
+cover: ./2020-03-patrick-fore-0gkw_9fy0eQ-unsplash.jpg
 canonicalPath: /self/como-aumentei-20-vezes-o-trafego-do-meu-blog-em-um-ano/
 needsReview: false
 updated: 2020-03-29T21:15:05.000Z

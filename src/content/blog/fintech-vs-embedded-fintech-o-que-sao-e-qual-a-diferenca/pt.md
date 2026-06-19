@@ -16,6 +16,7 @@ tags:
   - fintech
   - startup
 wpId: 7598
+cover: ./2020-03-adobestock_235711851-990x556.jpeg.jpg
 canonicalPath: /tecnologia/fintech-vs-embedded-fintech-o-que-sao-e-qual-a-diferenca/
 needsReview: false
 updated: 2020-08-09T17:06:34.000Z

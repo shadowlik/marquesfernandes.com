@@ -16,6 +16,7 @@ tags:
   - sdd
   - drive
 wpId: 8437
+cover: ./2020-07-denny-muller-1qL31aacAPA-unsplash.jpg
 canonicalPath: /desenvolvimento/como-descobrir-se-o-linux-esta-em-disco-rigido-ou-ssd/
 needsReview: false
 updated: 2020-07-10T20:52:54.000Z

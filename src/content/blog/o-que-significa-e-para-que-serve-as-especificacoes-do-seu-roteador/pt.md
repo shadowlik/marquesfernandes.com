@@ -15,6 +15,7 @@ tags:
   - wifi
   - 802-11
 wpId: 7480
+cover: ./2020-02-roteador-tp-link-archer-c5400x-gamer-router-tri-band-c5400-D_NQ_NP_776667-MLB31090089893_062019-O.jpg
 canonicalPath: /self/o-que-significa-e-para-que-serve-as-especificacoes-do-seu-roteador/
 needsReview: false
 updated: 2020-08-09T17:06:36.000Z

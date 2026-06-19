@@ -12,6 +12,7 @@ tags:
   - ssh-tunnel
   - autossh
 wpId: 5685
+cover: ./2019-03-ssh_port_fow.png
 canonicalPath: /desenvolvimento/tunel-encaminhamento-de-portas-com-ssh-ubuntu-debian/
 needsReview: false
 updated: 2020-03-21T19:26:24.000Z

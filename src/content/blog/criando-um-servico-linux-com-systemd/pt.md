@@ -15,6 +15,7 @@ tags:
   - systemd
   - services
 wpId: 8429
+cover: ./2020-07-sai-kiran-anagani-Tjbk79TARiE-unsplash.jpg
 canonicalPath: /desenvolvimento/criando-um-servico-linux-com-systemd/
 needsReview: false
 updated: 2020-07-10T20:36:18.000Z

@@ -14,6 +14,7 @@ tags:
   - bitcoin
   - criptomoeda
 wpId: 7994
+cover: ./2020-04-blockchain-na-logistica-e-transporte-1.jpg
 canonicalPath: /tecnologia/o-que-e-blockchain-para-que-serve-e-como-funciona/
 needsReview: false
 updated: 2020-08-09T17:04:02.000Z

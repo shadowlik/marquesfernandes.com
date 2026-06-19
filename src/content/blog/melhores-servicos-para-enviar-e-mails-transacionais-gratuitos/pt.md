@@ -16,6 +16,7 @@ tags:
   - transacional
   - servicos
 wpId: 8221
+cover: ./2020-05-black-and-gray-digital-device-193003-scaled.jpg
 canonicalPath: /self/melhores-servicos-para-enviar-e-mails-transacionais-gratuitos/
 needsReview: false
 updated: 2020-08-09T17:05:30.000Z

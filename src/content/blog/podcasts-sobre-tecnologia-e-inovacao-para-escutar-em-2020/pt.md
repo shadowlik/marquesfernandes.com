@@ -15,6 +15,7 @@ tags:
   - spotify
   - hipsterpontotech
 wpId: 7239
+cover: ./2020-01-Z8WA6s-scaled.jpg
 canonicalPath: /self/podcasts-sobre-tecnologia-e-inovacao-para-escutar-em-2020/
 needsReview: false
 updated: 2020-08-09T17:06:37.000Z

@@ -14,6 +14,7 @@ tags:
   - podcasts
   - plataformas
 wpId: 8173
+cover: ./2020-05-austin-distel-VCFxt2yT1eQ-unsplash-scaled.jpg
 canonicalPath: /self/melhores-plataformas-para-hospedar-seus-podcasts-gratuitamente/
 needsReview: false
 updated: 2020-05-05T18:58:47.000Z

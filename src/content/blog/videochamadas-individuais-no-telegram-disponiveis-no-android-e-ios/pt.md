@@ -11,6 +11,7 @@ category: noticias
 tags:
   - telegram
 wpId: 9638
+cover: ./2020-08-jonas-lee-o6elTKWZ5bI-unsplash.jpg
 canonicalPath: /noticias/videochamadas-individuais-no-telegram-disponiveis-no-android-e-ios/
 needsReview: false
 ---

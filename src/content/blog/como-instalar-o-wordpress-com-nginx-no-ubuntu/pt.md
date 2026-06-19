@@ -14,6 +14,7 @@ tags:
   - php
   - nginx
 wpId: 8878
+cover: ./2020-08-fikret-tozak-Zk-Ydz2IAs-unsplash.jpg
 canonicalPath: /tecnologia/como-instalar-o-wordpress-com-nginx-no-ubuntu/
 needsReview: false
 updated: 2020-08-09T16:59:06.000Z

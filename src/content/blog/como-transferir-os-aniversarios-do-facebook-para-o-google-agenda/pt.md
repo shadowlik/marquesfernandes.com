@@ -15,6 +15,7 @@ tags:
   - facebook
   - google-agenda
 wpId: 10770
+cover: ./2020-11-pexels-cottonbro-4114731.jpg
 canonicalPath: /tecnologia/como-transferir-os-aniversarios-do-facebook-para-o-google-agenda/
 needsReview: false
 updated: 2020-11-20T19:11:16.000Z

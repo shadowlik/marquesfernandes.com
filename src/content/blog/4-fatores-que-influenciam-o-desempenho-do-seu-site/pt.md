@@ -15,6 +15,7 @@ tags:
   - speed
   - otimizacao
 wpId: 4955
+cover: ./2015-09-images_4_fatores_que_influenciam_o_desempenho_do_site.png
 canonicalPath: /tecnologia/4-fatores-que-influenciam-o-desempenho-do-seu-site/
 needsReview: false
 updated: 2020-08-09T17:09:16.000Z

@@ -15,6 +15,7 @@ tags:
   - docker
   - conteineres
 wpId: 7984
+cover: ./2020-04-95-958543_create-production-docker-images-docker-cloud-2.png
 canonicalPath: /tecnologia/conteineres-e-docker-o-que-e-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:04:46.000Z

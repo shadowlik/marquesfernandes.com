@@ -15,6 +15,7 @@ tags:
   - case-insensitive
   - case-sensitive
 wpId: 4782
+cover: ./2019-02-Screenshot-from-2019-02-16-14-13-37.png
 canonicalPath: /desenvolvimento/fazendo-o-terminal-tab-auto-complete-case-insensitive-no-ubuntu/
 needsReview: false
 updated: 2019-02-24T00:07:48.000Z

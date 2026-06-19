@@ -13,6 +13,7 @@ tags:
   - stock-video
   - videos
 wpId: 7670
+cover: ./2020-03-jakob-owens-CiUR8zISX60-unsplash.jpg
 canonicalPath: /design/top-5-sites-de-banco-de-videos-gratuitos-free-stock-videos/
 needsReview: false
 updated: 2020-03-19T23:03:03.000Z

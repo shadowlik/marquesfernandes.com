@@ -16,6 +16,7 @@ tags:
   - inspiracao
   - awwwards
 wpId: 5611
+cover: ./2019-02-image-9.png
 canonicalPath: /design/7-portfolios-para-se-inspirar-em-2019/
 needsReview: false
 updated: 2020-03-23T17:20:23.000Z

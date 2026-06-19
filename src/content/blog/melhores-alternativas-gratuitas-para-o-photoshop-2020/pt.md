@@ -15,6 +15,7 @@ tags:
   - gimp
   - inkscape
 wpId: 8801
+cover: ./2020-07-cO8wMie.jpg
 canonicalPath: /design/melhores-alternativas-gratuitas-para-o-photoshop-2020/
 needsReview: false
 updated: 2020-07-14T14:27:27.000Z

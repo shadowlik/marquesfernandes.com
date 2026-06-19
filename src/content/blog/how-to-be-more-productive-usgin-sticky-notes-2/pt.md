@@ -12,6 +12,7 @@ tags:
   - digital
   - ux-design
 wpId: 13245
+cover: ./2019-01-05-min-2.jpg
 canonicalPath: /tecnologia/how-to-be-more-productive-usgin-sticky-notes-2/
 needsReview: false
 ---

@@ -13,6 +13,7 @@ tags:
   - torrent
   - utorrent
 wpId: 9070
+cover: ./2020-08-pexels-mateusz-dach-3660228.jpg
 canonicalPath: /tecnologia/melhores-sites-para-torrents-em-2020/
 needsReview: false
 updated: 2020-08-09T16:59:05.000Z

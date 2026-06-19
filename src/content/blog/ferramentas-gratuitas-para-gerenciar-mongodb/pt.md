@@ -18,6 +18,7 @@ tags:
   - robo3t
   - robomongo
 wpId: 5989
+cover: ./2019-10-1_0lgunvVYa8gZ_sfMHflyvw.jpeg
 canonicalPath: /desenvolvimento/ferramentas-gratuitas-para-gerenciar-mongodb/
 needsReview: false
 updated: 2019-12-30T13:44:45.000Z

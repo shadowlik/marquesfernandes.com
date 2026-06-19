@@ -16,6 +16,7 @@ tags:
   - openssh
   - servidor
 wpId: 5224
+cover: ./2019-02-connect-to-ssh.png
 canonicalPath: /desenvolvimento/convertendo-arquivos-ppk-para-pem-no-linux-ubuntu-debian/
 needsReview: false
 updated: 2019-02-24T00:07:37.000Z

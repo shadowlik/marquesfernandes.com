@@ -15,6 +15,7 @@ tags:
   - sudo
   - root
 wpId: 5607
+cover: ./2019-02-Untitled-Design.jpg
 canonicalPath: /desenvolvimento/como-criar-um-usuario-sudo-no-linux-debian-ubuntu/
 needsReview: false
 updated: 2020-08-09T18:53:27.000Z

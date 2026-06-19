@@ -17,6 +17,7 @@ tags:
   - debian
   - swap
 wpId: 6337
+cover: ./2019-11-ubuntu_desktop_blue-wallpaper-1920x1080.jpg
 canonicalPath: /tecnologia/como-criar-um-espaco-de-troca-swap-space-no-linux-debian-ubuntu/
 needsReview: false
 updated: 2020-08-09T17:07:36.000Z

@@ -13,6 +13,7 @@ tags:
   - business-plan
   - plano-de-negocios
 wpId: 9604
+cover: ./2020-08-glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg
 canonicalPath: /self/modelos-e-exemplos-de-plano-de-negocios-gratuitos-business-plan/
 needsReview: false
 updated: 2020-08-15T16:22:33.000Z

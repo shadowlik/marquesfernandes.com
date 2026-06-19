@@ -10,6 +10,7 @@ slug: o-que-e-base64-para-que-serve-e-como-funciona
 category: self
 tags: []
 wpId: 7418
+cover: ./2020-02-base64-wallpaper.jpg
 canonicalPath: /self/o-que-e-base64-para-que-serve-e-como-funciona/
 needsReview: false
 updated: 2020-10-09T10:34:18.000Z

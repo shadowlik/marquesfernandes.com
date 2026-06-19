@@ -14,6 +14,7 @@ tags:
   - onepage
   - frontend
 wpId: 4734
+cover: ./2019-02-full-page-javascript.jpg
 canonicalPath: /desenvolvimento/5-plugins-para-criar-one-page-sites/
 needsReview: false
 updated: 2019-02-12T18:35:13.000Z

@@ -13,6 +13,7 @@ tags:
   - responsivo
   - mobile-first
 wpId: 4707
+cover: ./2019-02-00e7056ec788d5b42162a6c13dbba43c_XL.jpg
 canonicalPath: /design/o-que-e-design-responsivo/
 needsReview: false
 updated: 2019-02-12T14:07:49.000Z

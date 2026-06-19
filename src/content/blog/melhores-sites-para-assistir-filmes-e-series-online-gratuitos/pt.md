@@ -14,6 +14,7 @@ tags:
   - filmes
   - series
 wpId: 9531
+cover: ./2020-08-jeshoots-com-PpYOQgsZDM4-unsplash.jpg
 canonicalPath: /tecnologia/melhores-sites-para-assistir-filmes-e-series-online-gratuitos/
 needsReview: false
 updated: 2021-01-05T19:51:40.000Z

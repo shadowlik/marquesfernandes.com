@@ -16,6 +16,7 @@ tags:
   - debian
   - testdisk
 wpId: 7163
+cover: ./2020-01-linux_arquivos_deletado.jpg
 canonicalPath: /tecnologia/como-recuperar-arquivos-excluidos-no-linux-ubuntu-debian/
 needsReview: false
 updated: 2020-08-09T17:06:37.000Z

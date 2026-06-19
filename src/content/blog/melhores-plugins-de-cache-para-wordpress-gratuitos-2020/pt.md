@@ -13,6 +13,7 @@ tags:
   - wordpress
   - plugins
 wpId: 8849
+cover: ./2020-07-chuttersnap-gts_Eh4g1lk-unsplash.jpg
 canonicalPath: /tecnologia/melhores-plugins-de-cache-para-wordpress-gratuitos-2020/
 needsReview: false
 updated: 2020-08-09T16:59:07.000Z

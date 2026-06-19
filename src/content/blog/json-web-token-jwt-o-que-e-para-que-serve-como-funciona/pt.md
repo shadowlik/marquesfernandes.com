@@ -20,6 +20,7 @@ tags:
   - bearer
   - authorization
 wpId: 5517
+cover: ./2019-02-JWT-1.jpg
 canonicalPath: /tecnologia/json-web-token-jwt-o-que-e-para-que-serve-como-funciona/
 needsReview: false
 updated: 2020-08-09T17:09:16.000Z

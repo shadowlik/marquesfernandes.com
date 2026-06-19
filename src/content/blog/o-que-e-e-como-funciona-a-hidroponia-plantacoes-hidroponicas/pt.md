@@ -14,6 +14,7 @@ tags:
   - hidroponia
   - plantas
 wpId: 9013
+cover: ./2020-08-pexels-jatuphon-buraphon-348689-scaled.jpg
 canonicalPath: /tecnologia/o-que-e-e-como-funciona-a-hidroponia-plantacoes-hidroponicas/
 needsReview: false
 updated: 2020-08-09T16:59:06.000Z

@@ -11,6 +11,7 @@ slug: como-encontrar-facilmente-eventos-de-corrida-natacao-ciclismo-e-triatlhon-
 category: tecnologia
 tags: []
 wpId: 13001
+cover: ./2023-05-jeremy-lapak-CVvFVQ_-oUg-unsplash-scaled.jpg
 canonicalPath: /tecnologia/como-encontrar-facilmente-eventos-de-corrida-natacao-ciclismo-e-triatlhon-no-mundo-todo/
 needsReview: false
 updated: 2023-05-08T12:32:28.000Z

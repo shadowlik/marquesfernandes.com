@@ -14,6 +14,7 @@ tags:
   - openapi
   - swagger
 wpId: 7591
+cover: ./2020-03-viktor-talashuk-05HLFQu8bFw-unsplash-scaled.jpg
 canonicalPath: /desenvolvimento/como-converter-colecoes-do-postman-para-openapi-swagger/
 needsReview: false
 updated: 2020-03-13T22:25:48.000Z

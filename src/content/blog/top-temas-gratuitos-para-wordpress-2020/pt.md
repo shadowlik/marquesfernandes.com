@@ -14,6 +14,7 @@ tags:
   - temas
   - wordpress
 wpId: 8281
+cover: ./2020-05-qZSoBb.jpg
 canonicalPath: /design/top-temas-gratuitos-para-wordpress-2020/
 needsReview: false
 updated: 2020-08-09T17:05:24.000Z

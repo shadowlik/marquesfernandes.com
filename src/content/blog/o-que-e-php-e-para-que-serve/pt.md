@@ -13,6 +13,7 @@ tags:
   - linguagem
   - backend
 wpId: 8111
+cover: ./2020-04-php-wallpaper.jpg
 canonicalPath: /tecnologia/o-que-e-php-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:04:03.000Z

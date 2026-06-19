@@ -14,6 +14,7 @@ tags:
   - internet-explorer
   - edge
 wpId: 9737
+cover: ./2020-08-RE4qPpA.jpg
 canonicalPath: /noticias/internet-explorer-completa-25-anos-uma-historia-de-amor-e-odio/
 needsReview: false
 updated: 2020-08-16T19:23:39.000Z

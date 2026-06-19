@@ -10,6 +10,7 @@ slug: 0-why-im-growing-haid-in-public-not-building-in-public
 category: desenvolvimento
 tags: []
 wpId: 13487
+cover: ./2026-04-IMG_9164.png
 canonicalPath: /desenvolvimento/0-why-im-growing-haid-in-public-not-building-in-public/
 needsReview: false
 updated: 2026-04-05T11:03:35.000Z

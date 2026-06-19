@@ -17,6 +17,7 @@ tags:
   - data
   - loop
 wpId: 5933
+cover: ./2019-07-Calendar-Background.jpg
 canonicalPath: /desenvolvimento/pegando-os-meses-entre-duas-datas-com-javascript/
 needsReview: false
 updated: 2019-07-27T11:37:28.000Z

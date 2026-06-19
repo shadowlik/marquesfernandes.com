@@ -12,6 +12,7 @@ tags:
   - javascript
   - cursos
 wpId: 7952
+cover: ./2020-04-image-3.png
 canonicalPath: /tecnologia/como-e-onde-aprender-a-programar-javascript-cursos-e-tutoriais-gratuitos/
 needsReview: false
 updated: 2020-08-09T17:04:47.000Z

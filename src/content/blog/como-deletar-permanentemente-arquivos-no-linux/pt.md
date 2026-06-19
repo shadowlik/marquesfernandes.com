@@ -16,6 +16,7 @@ tags:
   - shred
   - wipe
 wpId: 7337
+cover: ./2020-02-thumb-1920-78016.jpg
 canonicalPath: /self/como-deletar-permanentemente-arquivos-no-linux/
 needsReview: false
 updated: 2020-08-09T17:06:36.000Z

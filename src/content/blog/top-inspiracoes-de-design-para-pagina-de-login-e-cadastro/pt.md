@@ -13,6 +13,7 @@ tags:
   - authorization
   - login
 wpId: 8888
+cover: ./2020-08-pexels-energepiccom-174938.jpg
 canonicalPath: /design/top-inspiracoes-de-design-para-pagina-de-login-e-cadastro/
 needsReview: false
 updated: 2020-08-01T21:37:12.000Z

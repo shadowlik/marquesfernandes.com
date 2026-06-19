@@ -12,6 +12,7 @@ tags:
   - error404
   - error
 wpId: 10162
+cover: ./2020-09-image-10-1.jpg
 canonicalPath: /design/exemplos-paginas-404-criativas-nao-encontrado/
 needsReview: false
 updated: 2020-09-04T16:58:40.000Z

@@ -10,6 +10,7 @@ slug: melhores-sites-para-anunciar-e-buscar-imoveis-alugar-ou-comprar
 category: tecnologia
 tags: []
 wpId: 10444
+cover: ./2020-10-pexels-kaique-rocha-97906.jpg
 canonicalPath: /tecnologia/melhores-sites-para-anunciar-e-buscar-imoveis-alugar-ou-comprar/
 needsReview: false
 updated: 2020-10-16T17:55:52.000Z

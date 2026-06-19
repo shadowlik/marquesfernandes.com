@@ -16,6 +16,7 @@ tags:
   - icons
   - mint
 wpId: 11400
+cover: ./2021-04-best-icon-themes-vimix-1-e1617485106733.jpg
 canonicalPath: /tecnologia/melhores-temas-de-icones-para-ubuntu-e-linux-mint-debian/
 needsReview: false
 updated: 2021-04-03T16:28:08.000Z

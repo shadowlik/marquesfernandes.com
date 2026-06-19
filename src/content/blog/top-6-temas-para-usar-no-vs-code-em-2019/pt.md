@@ -16,6 +16,7 @@ tags:
   - temas
   - top
 wpId: 5746
+cover: ./2019-03-1_RE9cIEhdepqU4KjA_rSfKQ.png
 canonicalPath: /desenvolvimento/top-6-temas-para-usar-no-vs-code-em-2019/
 needsReview: false
 updated: 2020-02-14T01:06:16.000Z

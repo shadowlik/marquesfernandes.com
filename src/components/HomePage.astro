@@ -1,0 +1,255 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PostCard from '@/components/PostCard.astro';
+import { type Lang } from '@/i18n/ui';
+import { useTranslations } from '@/i18n/utils';
+import { postsForLang, stripCategoryPath } from '@/lib/blog';
+import portrait from '@/assets/home/4-Henrique-Marques-Fernandes-HeadshotPro.png';
+import signature from '@/assets/home/c6487c0e-1b5b-45a6-8e31-577b23f5d148_removalai_preview.png';
+
+interface Props {
+  lang: Lang;
+  /** Bio paragraphs as HTML (per language, includes the HAID link). */
+  bioHtml: string;
+}
+const { lang, bioHtml } = Astro.props;
+const t = useTranslations(lang);
+const name = 'Henrique Marques Fernandes';
+const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
+---
+
+<BaseLayout lang={lang} title={`${name} — MF.`} description={t('site.tagline')} overlayHeader>
+  <section class="hero">
+    <Image class="hero-bg" src={portrait} alt={name} widths={[768, 1280, 1920]} loading="eager" />
+    <div class="hero-inner container">
+      <h1>{name}</h1>
+    </div>
+  </section>
+
+  <section class="about container">
+    <p class="role">{t('home.role')}</p>
+    <h2 class="about-name">{name}.</h2>
+    <div class="bio" set:html={bioHtml} />
+    <Image class="signature" src={signature} alt="" loading="lazy" />
+  </section>
+
+  <section class="cta">
+    <div class="container cta-inner">
+      <div>
+        <span class="brand-dash"></span>
+        <h2><a href="https://haid.app" rel="noopener">haid.app</a></h2>
+        <p>{t('home.ctaTagline')}</p>
+      </div>
+      <a class="btn" href="https://haid.app" rel="noopener">{t('home.exploreNow')}</a>
+    </div>
+  </section>
+
+  <section class="latest container">
+    <p class="role">{t('home.latestLabel')}</p>
+    <h2>{t('home.latestPosts')}</h2>
+    <div class="grid">
+      {
+        latest.map((p) => (
+          <PostCard
+            href={p.data.canonicalPath ? stripCategoryPath(p.data.canonicalPath) : '#'}
+            title={p.data.title}
+            excerpt={p.data.description}
+            date={p.data.date}
+            lang={lang}
+            cover={p.data.cover}
+          />
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* Hero — full viewport, portrait behind, name centered. */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: var(--color-ink);
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+  .hero h1 {
+    color: var(--color-on-dark);
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    margin: 0;
+  }
+
+  /* About */
+  .about {
+    padding-block: 5rem 4rem;
+  }
+  .role {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-accent);
+    letter-spacing: 0.03em;
+    margin: 0 0 0.5rem;
+  }
+  .about-name {
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    margin: 0 0 1.5rem;
+  }
+  .about-name::after {
+    content: '';
+    display: block;
+    margin-top: 0.75rem;
+    height: 3px;
+    width: 80px;
+    background: var(--color-accent);
+  }
+  @media (max-width: 720px) {
+    .about-name::after {
+      display: none;
+    }
+  }
+  .bio {
+    max-width: var(--measure);
+  }
+  .bio :global(a) {
+    font-weight: 700;
+  }
+  .signature {
+    margin-top: 1.5rem;
+    height: 80px;
+    width: auto;
+  }
+
+  /* haid.app CTA */
+  .cta {
+    position: relative;
+    background: var(--color-ink);
+    color: var(--color-on-dark);
+    padding-block: 6rem;
+    overflow: hidden;
+  }
+  /* branded vertical accent lines, centered top & bottom */
+  .cta::before,
+  .cta::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 90px;
+    background: var(--color-accent);
+  }
+  .cta::before {
+    top: 0;
+  }
+  .cta::after {
+    bottom: 0;
+  }
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .brand-dash {
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: var(--color-accent);
+    margin-bottom: 2rem;
+  }
+  .cta h2 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+  .cta h2 a {
+    color: var(--color-on-dark);
+  }
+  .cta h2 a:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .cta p {
+    max-width: 40ch;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--color-accent);
+  }
+  /* Button with a brand-color fill that wipes in from the left on hover. */
+  .btn {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--color-accent);
+    color: var(--color-on-dark);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+  .btn:hover::before {
+    transform: scaleX(1);
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  @media (max-width: 720px) {
+    .cta-inner {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  /* Latest posts */
+  .latest {
+    padding-block: 4rem;
+  }
+  .latest > h2 {
+    margin: 0 0 2rem;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem 3rem;
+  }
+  @media (max-width: 720px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

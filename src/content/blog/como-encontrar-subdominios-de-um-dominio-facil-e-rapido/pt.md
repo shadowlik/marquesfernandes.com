@@ -13,6 +13,7 @@ tags:
   - dominios
   - seguranca
 wpId: 8356
+cover: ./2020-06-white-switch-hub-turned-on-159304.jpg
 canonicalPath: /tecnologia/como-encontrar-subdominios-de-um-dominio-facil-e-rapido/
 needsReview: false
 updated: 2020-08-09T17:04:02.000Z

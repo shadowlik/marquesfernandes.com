@@ -12,6 +12,7 @@ tags:
   - marketing
   - digital
 wpId: 139
+cover: ./2019-01-about_03.jpg
 canonicalPath: /tecnologia/six-cover-letter-greetings-for-every-situation/
 needsReview: false
 ---

@@ -10,6 +10,7 @@ slug: aburridoproxy-como-exponer-servicios-locales-publicamente-en-internet
 category: tecnologia-es
 tags: []
 wpId: 12858
+cover: ./2022-12-boringproxy.jpg
 canonicalPath: /es/tecnologia-es/aburridoproxy-como-exponer-servicios-locales-publicamente-en-internet/
 needsReview: false
 updated: 2023-01-02T10:03:15.000Z

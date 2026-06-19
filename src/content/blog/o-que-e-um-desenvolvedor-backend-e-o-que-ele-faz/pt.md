@@ -16,6 +16,7 @@ tags:
   - python
   - java
 wpId: 9688
+cover: ./2020-08-maximilian-weisbecker-1td5Iq5IvNc-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-um-desenvolvedor-backend-e-o-que-ele-faz/
 needsReview: false
 updated: 2020-08-16T18:16:42.000Z

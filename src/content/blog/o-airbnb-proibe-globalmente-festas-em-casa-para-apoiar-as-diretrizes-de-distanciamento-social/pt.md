@@ -15,6 +15,7 @@ tags:
   - covid-16
   - airbnb
 wpId: 10000
+cover: ./2020-08-pexels-cottonbro-5077048.jpg
 canonicalPath: /noticias/o-airbnb-proibe-globalmente-festas-em-casa-para-apoiar-as-diretrizes-de-distanciamento-social/
 needsReview: false
 updated: 2020-08-20T12:36:16.000Z

@@ -15,6 +15,7 @@ tags:
   - stock-audio
   - musica
 wpId: 8190
+cover: ./2020-05-malte-wingen-PDX_a_82obo-unsplash-2.jpg
 canonicalPath: /self/top-sites-de-musica-gratuita-para-seus-podcasts-e-videos/
 needsReview: false
 updated: 2020-05-05T19:31:43.000Z

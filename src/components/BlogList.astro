@@ -1,15 +1,17 @@
 ---
+import type { Page } from 'astro';
 import type { CollectionEntry } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PostCard from '@/components/PostCard.astro';
 import { type Lang } from '@/i18n/ui';
+import { stripCategoryPath } from '@/lib/blog';
 
 interface Props {
   lang: Lang;
   heading: string;
-  posts: CollectionEntry<'blog'>[];
+  page: Page<CollectionEntry<'blog'>>;
 }
-const { lang, heading, posts } = Astro.props;
+const { lang, heading, page } = Astro.props;
 ---
 
 <BaseLayout lang={lang} title={`${heading} — MF.`}>
@@ -17,18 +19,34 @@ const { lang, heading, posts } = Astro.props;
     <h1>{heading}</h1>
     <div class="grid">
       {
-        posts.map((p) => (
+        page.data.map((p) => (
           <PostCard
-            href={p.data.canonicalPath ?? '#'}
+            href={p.data.canonicalPath ? stripCategoryPath(p.data.canonicalPath) : '#'}
             title={p.data.title}
-            category={p.data.category?.replace(/-/g, ' ')}
             excerpt={p.data.description}
             date={p.data.date}
             lang={lang}
+            cover={p.data.cover}
           />
         ))
       }
     </div>
+
+    {
+      page.lastPage > 1 && (
+        <nav class="pagination" aria-label="Pagination">
+          <a class="page-link" href={page.url.prev} class:list={{ disabled: !page.url.prev }}>
+            ← {lang === 'pt' ? 'Anterior' : lang === 'es' ? 'Anterior' : 'Previous'}
+          </a>
+          <span class="page-count">
+            {page.currentPage} / {page.lastPage}
+          </span>
+          <a class="page-link" href={page.url.next} class:list={{ disabled: !page.url.next }}>
+            {lang === 'pt' ? 'Próxima' : lang === 'es' ? 'Siguiente' : 'Next'} →
+          </a>
+        </nav>
+      )
+    }
   </section>
 </BaseLayout>
 
@@ -46,6 +64,31 @@ const { lang, heading, posts } = Astro.props;
   }
   .grid > :global(.card) {
     border-bottom: 1px solid var(--color-rule);
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .page-link {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-heading);
+  }
+  .page-link:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .page-link.disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  .page-count {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-text);
   }
   @media (max-width: 720px) {
     .grid {

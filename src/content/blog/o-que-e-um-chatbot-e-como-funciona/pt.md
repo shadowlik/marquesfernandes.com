@@ -15,6 +15,7 @@ tags:
   - duotalk
   - patrocinado
 wpId: 7644
+cover: ./2020-03-rock-n-roll-monkey-R4WCbazrD1g-unsplash-1.jpg
 canonicalPath: /tecnologia/o-que-e-um-chatbot-e-como-funciona/
 needsReview: false
 updated: 2020-08-09T17:06:34.000Z

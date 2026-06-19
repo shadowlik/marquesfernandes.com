@@ -12,6 +12,7 @@ tags:
   - linux
   - ubuntu
 wpId: 10295
+cover: ./2020-09-Linux-Wallpaper-42.jpg
 canonicalPath: /tecnologia/como-trocar-a-senha-de-um-usuario-no-linux-ubuntu/
 needsReview: false
 updated: 2020-09-23T23:06:20.000Z

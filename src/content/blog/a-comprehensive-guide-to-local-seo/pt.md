@@ -12,6 +12,7 @@ tags:
   - marketing
   - digital
 wpId: 140
+cover: ./2019-01-05-min.jpg
 canonicalPath: /tecnologia/a-comprehensive-guide-to-local-seo/
 needsReview: false
 ---

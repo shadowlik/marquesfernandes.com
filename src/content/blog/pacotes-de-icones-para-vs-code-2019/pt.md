@@ -15,6 +15,7 @@ tags:
   - visual-studio-code
   - pacote
 wpId: 6107
+cover: ./2019-10-image.png
 canonicalPath: /desenvolvimento/pacotes-de-icones-para-vs-code-2019/
 needsReview: false
 updated: 2020-08-09T17:08:47.000Z

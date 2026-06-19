@@ -10,6 +10,7 @@ slug: 5-razoes-para-o-seu-negocio-ter-um-site-institucional-para-ontem
 category: self
 tags: []
 wpId: 4847
+cover: ./2015-09-images_5_motivos_para_voce_criar_um_site_institucional_para_o_seu_negocio-scaled.png
 canonicalPath: /self/5-razoes-para-o-seu-negocio-ter-um-site-institucional-para-ontem/
 needsReview: false
 updated: 2019-02-17T16:21:34.000Z

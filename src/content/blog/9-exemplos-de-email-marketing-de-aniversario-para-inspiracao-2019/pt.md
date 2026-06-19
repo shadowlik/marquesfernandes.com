@@ -13,6 +13,7 @@ tags:
   - email
   - marketing
 wpId: 6248
+cover: ./2019-11-screenshot-mail.google.com-2019.11.06-17_45_28.jpg
 canonicalPath: /design/9-exemplos-de-email-marketing-de-aniversario-para-inspiracao-2019/
 needsReview: false
 updated: 2019-12-30T13:36:29.000Z

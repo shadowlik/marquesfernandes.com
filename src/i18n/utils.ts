@@ -20,13 +20,16 @@ export function useTranslations(lang: Lang) {
 }
 
 /**
- * Build a locale-aware absolute path.
+ * Build a locale-aware absolute path with a trailing slash (the site uses
+ * `trailingSlash: 'always'`, so internal links must match to avoid 404/301).
  *
- * `localizedPath('blog', 'pt')` -> `/blog`
- * `localizedPath('blog', 'en')` -> `/en/blog`
+ * `localizedPath('blog', 'pt')` -> `/blog/`
+ * `localizedPath('blog', 'en')` -> `/en/blog/`
+ * `localizedPath('', 'en')`     -> `/en/`
  */
 export function localizedPath(path: string, lang: Lang): string {
-  const clean = path.replace(/^\/+/, '');
+  const clean = path.replace(/^\/+|\/+$/g, '');
   const prefix = lang === defaultLang ? '' : `/${lang}`;
-  return clean ? `${prefix}/${clean}` : prefix || '/';
+  const full = clean ? `${prefix}/${clean}` : prefix;
+  return full ? `${full}/` : '/';
 }

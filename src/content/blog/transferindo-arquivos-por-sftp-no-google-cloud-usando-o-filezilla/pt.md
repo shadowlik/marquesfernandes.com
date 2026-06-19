@@ -14,6 +14,7 @@ tags:
   - filezilla
   - sftp
 wpId: 6351
+cover: ./2019-11-conheca-o-google-cloud-platform.png
 canonicalPath: /tecnologia/transferindo-arquivos-por-sftp-no-google-cloud-usando-o-filezilla/
 needsReview: false
 updated: 2020-08-09T17:07:37.000Z

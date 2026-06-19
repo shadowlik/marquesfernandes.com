@@ -19,6 +19,7 @@ tags:
   - ofono
   - pulseaudio
 wpId: 11380
+cover: ./2021-04-pexels-parag-deshmukh-577769.jpg
 canonicalPath: /tecnologia/como-configurar-o-headset-bluetooth-com-microfone-no-ubuntu-mint-debian/
 needsReview: false
 updated: 2021-12-10T08:19:46.000Z

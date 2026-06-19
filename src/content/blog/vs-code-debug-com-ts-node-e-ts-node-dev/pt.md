@@ -14,6 +14,7 @@ tags:
   - typescript
   - debug
 wpId: 8161
+cover: ./2020-04-vscode-logo.png
 canonicalPath: /desenvolvimento/vs-code-debug-com-ts-node-e-ts-node-dev/
 needsReview: false
 updated: 2020-04-25T00:31:31.000Z

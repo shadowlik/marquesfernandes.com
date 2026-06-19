@@ -13,6 +13,7 @@ tags:
   - google-chrome
   - navegador
 wpId: 7025
+cover: ./2020-01-04153353069046-1.jpg
 canonicalPath: /tecnologia/como-otimizar-a-velocidade-e-desempenho-do-seu-google-chrome/
 needsReview: false
 updated: 2020-08-09T17:07:35.000Z

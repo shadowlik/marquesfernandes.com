@@ -16,6 +16,7 @@ tags:
   - cloud
   - server
 wpId: 8960
+cover: ./2020-08-taylor-vick-M5tzZtFCOfs-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-um-servidor-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T16:59:06.000Z

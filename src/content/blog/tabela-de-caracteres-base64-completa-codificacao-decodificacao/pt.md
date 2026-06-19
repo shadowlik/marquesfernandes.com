@@ -14,6 +14,7 @@ tags:
   - base64
   - deconding
 wpId: 7444
+cover: ./2020-02-base64-wallpaper.jpg
 canonicalPath: /tecnologia/tabela-de-caracteres-base64-completa-codificacao-decodificacao/
 needsReview: false
 updated: 2020-08-09T17:06:36.000Z

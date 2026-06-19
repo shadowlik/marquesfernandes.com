@@ -10,6 +10,7 @@ slug: melhore-sites-e-blogs-sobre-tecnologia-em-espanhol
 category: tecnologia
 tags: []
 wpId: 9508
+cover: ./2020-08-1983-steal-my-_-_-art-wFVhhGbFH6Y-unsplash.jpg
 canonicalPath: /tecnologia/melhore-sites-e-blogs-sobre-tecnologia-em-espanhol/
 needsReview: false
 updated: 2020-08-10T11:07:01.000Z

@@ -11,6 +11,7 @@ slug: 3-ferramentas-para-analisar-o-site-seus-concorrentes
 category: tecnologia
 tags: []
 wpId: 6365
+cover: ./2019-11-Marketing-Analytics-Geek-844x422.png
 canonicalPath: /tecnologia/3-ferramentas-para-analisar-o-site-seus-concorrentes/
 needsReview: false
 updated: 2020-08-09T17:07:37.000Z

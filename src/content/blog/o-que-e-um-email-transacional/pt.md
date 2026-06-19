@@ -15,6 +15,7 @@ tags:
   - email
   - emails
 wpId: 8205
+cover: ./2020-05-adi-goldstein-Hli3R6LKibo-unsplash.jpg
 canonicalPath: /self/o-que-e-um-email-transacional/
 needsReview: false
 updated: 2020-05-05T19:53:46.000Z

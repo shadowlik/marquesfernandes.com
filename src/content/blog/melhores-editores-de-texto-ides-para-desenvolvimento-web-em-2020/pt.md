@@ -18,6 +18,7 @@ tags:
   - brackets
   - opensource
 wpId: 6831
+cover: ./2019-12-1_s9pTH7fpkN2SUCHSGG-HXQ.jpeg
 canonicalPath: /desenvolvimento/melhores-editores-de-texto-ides-para-desenvolvimento-web-em-2020/
 needsReview: false
 updated: 2020-08-09T17:07:35.000Z

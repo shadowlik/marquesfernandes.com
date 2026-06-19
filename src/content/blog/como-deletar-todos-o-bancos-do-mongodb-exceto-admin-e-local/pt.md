@@ -11,6 +11,7 @@ tags:
   - mongodb
   - mongoshell
 wpId: 6341
+cover: ./2019-11-mongodb.jpg
 canonicalPath: /desenvolvimento/como-deletar-todos-o-bancos-do-mongodb-exceto-admin-e-local/
 needsReview: false
 updated: 2019-12-04T21:32:03.000Z

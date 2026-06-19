@@ -14,6 +14,7 @@ tags:
   - design
   - web-design
 wpId: 7752
+cover: ./2020-03-eftakher-alam-i1VQZsU86ok-unsplash-1.jpg
 canonicalPath: /design/5-tendencias-de-web-design-para-2020/
 needsReview: false
 updated: 2020-03-21T21:16:56.000Z

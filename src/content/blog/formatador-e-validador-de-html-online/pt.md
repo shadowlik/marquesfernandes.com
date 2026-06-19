@@ -17,6 +17,7 @@ tags:
   - online
   - linter
 wpId: 5871
+cover: ./2019-07-html-1.jpg
 canonicalPath: /ferramentas/formatador-e-validador-de-html-online/
 needsReview: false
 updated: 2019-07-21T21:54:43.000Z

@@ -12,6 +12,7 @@ category: self
 tags:
   - rg
 wpId: 11394
+cover: ./2021-04-RG-novo-940x530-1.jpg
 canonicalPath: /self/como-saber-e-validar-o-digito-verificador-do-rg-registro-geral/
 needsReview: false
 updated: 2021-04-03T16:05:11.000Z

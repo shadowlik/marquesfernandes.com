@@ -13,6 +13,7 @@ tags:
   - outsourcing
   - agencia
 wpId: 4961
+cover: ./2019-02-download.png
 canonicalPath: /self/5-motivos-para-considerar-o-outsourcing-de-desenvolvimento-web-na-sua-agencia/
 needsReview: false
 updated: 2020-08-09T17:09:16.000Z

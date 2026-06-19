@@ -16,6 +16,7 @@ tags:
   - cli
   - history
 wpId: 6932
+cover: ./2020-01-HC51T4t.png
 canonicalPath: /desenvolvimento/como-ver-o-historico-de-comandos-no-terminal-linux-usando-o-comando-history/
 needsReview: false
 updated: 2020-01-07T08:39:40.000Z

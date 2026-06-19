@@ -14,6 +14,7 @@ tags:
   - playlist
   - foco
 wpId: 12396
+cover: ./2022-03-pexels-anna-shvets-3986984.jpeg
 canonicalPath: /tecnologia/8-playlists-do-spotify-para-programacao-e-foco-para-2022/
 needsReview: false
 updated: 2022-03-29T06:45:51.000Z

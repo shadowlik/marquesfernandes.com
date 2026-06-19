@@ -15,6 +15,7 @@ tags:
   - old-logos
   - brands
 wpId: 5046
+cover: ./2016-07-images_logo-walmart-antes-depois.jpg
 canonicalPath: /design/38-logos-famosos-antes-e-depois/
 needsReview: false
 ---

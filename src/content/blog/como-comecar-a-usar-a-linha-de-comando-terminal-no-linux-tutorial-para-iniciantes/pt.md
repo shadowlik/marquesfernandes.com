@@ -18,6 +18,7 @@ tags:
   - shell
   - prompot
 wpId: 7855
+cover: ./2020-03-arget-zvHhKiVuR9M-unsplash.jpg
 canonicalPath: /self/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/
 needsReview: false
 updated: 2020-08-09T17:06:29.000Z

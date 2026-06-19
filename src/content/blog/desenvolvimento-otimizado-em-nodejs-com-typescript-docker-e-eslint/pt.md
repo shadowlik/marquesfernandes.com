@@ -15,6 +15,7 @@ tags:
   - eslint
   - docker
 wpId: 6690
+cover: ./2019-12-node-typescript-eslint-docker.jpg
 canonicalPath: /desenvolvimento/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/
 needsReview: false
 updated: 2019-12-11T18:42:16.000Z

@@ -17,6 +17,7 @@ tags:
   - hostnamectl
   - version
 wpId: 5846
+cover: ./2019-06-graficos.jpg
 canonicalPath: /desenvolvimento/como-descobrir-o-nome-e-versao-da-distribuicao-linux-pela-linha-de-comando/
 needsReview: false
 updated: 2019-06-18T19:43:37.000Z

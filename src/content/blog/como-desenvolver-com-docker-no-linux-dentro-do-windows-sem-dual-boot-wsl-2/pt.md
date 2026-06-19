@@ -18,6 +18,7 @@ tags:
   - wsl
   - wsl2
 wpId: 8382
+cover: ./2020-06-windows_and_linux.jpg
 canonicalPath: /desenvolvimento/como-desenvolver-com-docker-no-linux-dentro-do-windows-sem-dual-boot-wsl-2/
 needsReview: false
 updated: 2021-10-06T09:32:34.000Z

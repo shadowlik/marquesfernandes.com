@@ -15,6 +15,7 @@ tags:
   - database
   - query
 wpId: 5946
+cover: ./2019-07-ly7k6a4so4gac3ewtcml.jpeg
 canonicalPath: /desenvolvimento/encontrando-registros-duplicados-no-mongodb/
 needsReview: false
 updated: 2019-07-28T17:46:38.000Z

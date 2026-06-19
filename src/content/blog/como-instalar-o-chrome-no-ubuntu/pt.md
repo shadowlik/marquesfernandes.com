@@ -17,6 +17,7 @@ tags:
   - chrome
   - google-chrome
 wpId: 8968
+cover: ./2020-08-google-chrome-brauzer-google-chrome.jpg
 canonicalPath: /tecnologia/como-instalar-o-chrome-no-ubuntu/
 needsReview: false
 updated: 2020-08-09T16:59:06.000Z

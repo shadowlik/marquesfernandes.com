@@ -9,6 +9,7 @@ slug: top-5-fontes-do-google-otimizadas-para-leitura
 category: design
 tags: []
 wpId: 5251
+cover: ./2019-02-fonts-wallpaper.jpg
 canonicalPath: /design/top-5-fontes-do-google-otimizadas-para-leitura/
 needsReview: false
 updated: 2019-02-24T00:06:40.000Z

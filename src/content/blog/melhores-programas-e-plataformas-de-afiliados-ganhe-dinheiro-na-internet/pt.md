@@ -15,6 +15,7 @@ tags:
   - afiliados
   - affiliate
 wpId: 8508
+cover: ./2020-07-sharon-mccutcheon-8a5eJ1-mmQ-unsplash.jpg
 canonicalPath: /tecnologia/melhores-programas-e-plataformas-de-afiliados-ganhe-dinheiro-na-internet/
 needsReview: false
 updated: 2020-08-09T16:59:08.000Z

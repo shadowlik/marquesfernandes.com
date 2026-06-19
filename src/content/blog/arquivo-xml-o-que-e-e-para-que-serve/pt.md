@@ -12,6 +12,7 @@ tags:
   - markup
   - xml
 wpId: 7693
+cover: ./2020-03-xml.jpg
 canonicalPath: /tecnologia/arquivo-xml-o-que-e-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:04:48.000Z

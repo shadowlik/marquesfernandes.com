@@ -12,6 +12,7 @@ tags:
   - fullstack
   - desenvolvedor
 wpId: 8370
+cover: ./2020-06-joshua-coleman-fXls-tVemno-unsplash.jpg
 canonicalPath: /tecnologia/o-que-e-e-o-que-faz-um-desenvolvedor-full-stack/
 needsReview: false
 updated: 2020-10-19T16:25:18.000Z

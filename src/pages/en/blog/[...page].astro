@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection } from 'astro:content';
+import BlogList from '@/components/BlogList.astro';
+import { postsForLang } from '@/lib/blog';
+import { useTranslations } from '@/i18n/utils';
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const posts = postsForLang(await getCollection('blog'), 'en');
+  return paginate(posts, { pageSize: 14 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const t = useTranslations('en');
+---
+
+<BlogList lang="en" heading={t('nav.blog')} page={page} />

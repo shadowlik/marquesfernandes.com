@@ -14,6 +14,7 @@ tags:
   - encoding
   - decoding
 wpId: 7435
+cover: ./2020-02-table-ascii.jpg
 canonicalPath: /desenvolvimento/codigo-ascii-tabela-ascii-completa/
 needsReview: false
 updated: 2020-08-09T03:37:29.000Z

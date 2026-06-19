@@ -7,16 +7,22 @@ interface Props {
   lang: Lang;
   /** Per-language equivalents of the current page, for the switcher. */
   alternates?: { lang: Lang; path: string }[];
+  /** Float a transparent header over a full-bleed hero (homepage). */
+  overlay?: boolean;
 }
-const { lang, alternates } = Astro.props;
+const { lang, alternates, overlay = false } = Astro.props;
 const t = useTranslations(lang);
+
+const onBlog = /\/blog\/?$/.test(Astro.url.pathname);
 ---
 
-<header class="site-header">
+<header class:list={['site-header', { overlay }]}>
   <div class="container bar">
     <a class="brand" href={localizedPath('', lang)}>MF.</a>
     <nav class="primary" aria-label="Primary">
-      <a href={localizedPath('blog', lang)}>{t('nav.blog')}</a>
+      <a href={localizedPath('blog', lang)} aria-current={onBlog ? 'page' : undefined}>
+        {t('nav.blog')}
+      </a>
     </nav>
     <LanguageSwitcher alternates={alternates} />
   </div>
@@ -26,6 +32,12 @@ const t = useTranslations(lang);
   .site-header {
     background: var(--color-ink);
     color: var(--color-on-dark);
+  }
+  .site-header.overlay {
+    position: absolute;
+    inset: 0 0 auto 0;
+    background: transparent;
+    z-index: 10;
   }
   .bar {
     display: flex;
@@ -39,8 +51,10 @@ const t = useTranslations(lang);
     font-size: 2.25rem;
     letter-spacing: var(--tracking-tight);
     color: var(--color-on-dark);
+    transition: color 0.2s ease;
   }
   .brand:hover {
+    color: var(--color-accent);
     text-decoration: none;
   }
   .primary {
@@ -49,8 +63,25 @@ const t = useTranslations(lang);
     margin-left: auto;
   }
   .primary a {
+    position: relative;
     font-family: var(--font-heading);
     font-weight: 700;
     color: var(--color-on-dark);
+    text-decoration: none;
+  }
+  /* Underline that animates from 0 -> 100% on hover and stays for the active link. */
+  .primary a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 2px;
+    width: 0;
+    background: var(--color-accent);
+    transition: width 0.25s ease;
+  }
+  .primary a:hover::after,
+  .primary a[aria-current='page']::after {
+    width: 30%;
   }
 </style>

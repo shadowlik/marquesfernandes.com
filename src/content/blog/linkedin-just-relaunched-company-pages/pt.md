@@ -12,6 +12,7 @@ tags:
   - digital
   - ux-design
 wpId: 142
+cover: ./2019-01-05-min.jpg
 canonicalPath: /tecnologia/linkedin-just-relaunched-company-pages/
 needsReview: false
 ---

@@ -15,6 +15,7 @@ tags:
   - json
   - rest
 wpId: 7561
+cover: ./2020-03-json-wallpaper.jpg
 canonicalPath: /tecnologia/o-que-e-json-e-para-que-serve/
 needsReview: false
 updated: 2020-08-09T17:06:35.000Z

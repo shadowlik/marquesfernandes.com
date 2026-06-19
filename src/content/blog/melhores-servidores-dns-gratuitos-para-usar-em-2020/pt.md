@@ -14,6 +14,7 @@ tags:
   - internet
   - cloud
 wpId: 7844
+cover: ./2020-03-gdA82C.jpg
 canonicalPath: /tecnologia/melhores-servidores-dns-gratuitos-para-usar-em-2020/
 needsReview: false
 updated: 2020-08-09T17:04:47.000Z

@@ -16,6 +16,7 @@ tags:
   - hidroponia
   - plantas
 wpId: 10705
+cover: ./2020-11-pexels-cottonbro-4503273.jpg
 canonicalPath: /self/como-descobrir-qual-a-especie-de-planta-por-foto/
 needsReview: false
 updated: 2020-11-16T14:17:21.000Z

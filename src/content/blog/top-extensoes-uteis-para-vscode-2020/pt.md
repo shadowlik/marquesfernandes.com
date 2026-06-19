@@ -15,6 +15,7 @@ tags:
   - vscode
   - ide
 wpId: 8448
+cover: ./2020-07-technology-visual-studio-code-hd-wallpaper-preview.jpg
 canonicalPath: /tecnologia/top-extensoes-uteis-para-vscode-2020/
 needsReview: false
 updated: 2020-08-09T16:59:08.000Z

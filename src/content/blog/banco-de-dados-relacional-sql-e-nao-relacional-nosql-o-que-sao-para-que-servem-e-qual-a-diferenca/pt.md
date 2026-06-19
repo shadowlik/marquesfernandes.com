@@ -17,6 +17,7 @@ tags:
   - mysql
   - sql
 wpId: 7921
+cover: ./2020-03-bandwidth-close-up-computer-connection-1148820.jpg
 canonicalPath: /tecnologia/banco-de-dados-relacional-sql-e-nao-relacional-nosql-o-que-sao-para-que-servem-e-qual-a-diferenca/
 needsReview: false
 updated: 2020-08-09T17:04:47.000Z

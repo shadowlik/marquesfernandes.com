@@ -16,6 +16,7 @@ tags:
   - github
   - vtex
 wpId: 6070
+cover: ./2019-09-2018.02_seo-structured-data-updates-2018_hero_1920x1080.png
 canonicalPath: /desenvolvimento/5-exemplos-de-excelentes-documentacoes-rest/
 needsReview: false
 updated: 2019-11-18T23:10:31.000Z
