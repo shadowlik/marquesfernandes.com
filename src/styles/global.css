@@ -1,0 +1,104 @@
+/* Self-hosted fonts (no external CDN). */
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/600.css';
+@import '@fontsource/poppins/700.css';
+@import '@fontsource/roboto-condensed/400.css';
+@import '@fontsource/roboto-condensed/600.css';
+@import '@fontsource/roboto-condensed/700.css';
+
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-heading);
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  letter-spacing: var(--tracking-tight);
+}
+h2 {
+  font-size: 1.65rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  background: #f6f6f6;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+code {
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+}
+:not(pre) > code {
+  background: #f6f6f6;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-heading);
+}
+
+/* Shared layout helpers */
+.container {
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--space-pad);
+}
+
+/* UPPERCASE pink label (categories, meta labels). */
+.eyebrow {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+}

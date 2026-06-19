@@ -1,0 +1,53 @@
+---
+/**
+ * Blog index card: UPPERCASE pink category -> Poppins-bold title -> excerpt -> date.
+ * Matches the gentium card content styling (grid treatment handled by the listing).
+ */
+interface Props {
+  href: string;
+  title: string;
+  category?: string;
+  excerpt?: string;
+  date: Date;
+  lang: string;
+}
+const { href, title, category, excerpt, date, lang } = Astro.props;
+const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
+  day: '2-digit',
+  month: '2-digit',
+  year: 'numeric',
+}).format(date);
+---
+
+<article class="card">
+  {category && <p class="eyebrow">{category}</p>}
+  <h2 class="title"><a href={href}>{title}</a></h2>
+  {excerpt && <p class="excerpt">{excerpt}</p>}
+  <p class="date">{formatted}</p>
+</article>
+
+<style>
+  .card {
+    padding-block: 1rem;
+  }
+  .title {
+    font-size: 1.6rem;
+    margin: 0.4rem 0 0.6rem;
+    letter-spacing: var(--tracking-tight);
+  }
+  .title a {
+    color: var(--color-heading);
+  }
+  .title a:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .excerpt {
+    margin: 0 0 0.75rem;
+  }
+  .date {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text);
+  }
+</style>

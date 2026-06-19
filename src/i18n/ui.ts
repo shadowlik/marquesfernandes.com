@@ -26,6 +26,9 @@ export const ui = {
     'nav.portfolio': 'Portfólio',
     'site.tagline': 'Tecnologia, desenvolvimento e design',
     'lang.label': 'Idioma',
+    'post.writtenBy': 'Escrito por:',
+    'post.postedOn': 'Publicado em:',
+    'post.tags': 'Tags:',
   },
   en: {
     'nav.home': 'Home',
@@ -33,6 +36,9 @@ export const ui = {
     'nav.portfolio': 'Portfolio',
     'site.tagline': 'Technology, development and design',
     'lang.label': 'Language',
+    'post.writtenBy': 'Written by:',
+    'post.postedOn': 'Posted on:',
+    'post.tags': 'Tags:',
   },
   es: {
     'nav.home': 'Inicio',
@@ -40,6 +46,9 @@ export const ui = {
     'nav.portfolio': 'Portafolio',
     'site.tagline': 'Tecnología, desarrollo y diseño',
     'lang.label': 'Idioma',
+    'post.writtenBy': 'Escrito por:',
+    'post.postedOn': 'Publicado el:',
+    'post.tags': 'Etiquetas:',
   },
 } as const satisfies Record<Lang, Record<string, string>>;
 
