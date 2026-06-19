@@ -1,22 +1,87 @@
 ---
+import { Image } from 'astro:assets';
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import dog from '@/assets/404.png';
 ---
 
 <BaseLayout lang="pt" title="404 — MF.">
   <section class="container notfound">
-    <p class="eyebrow">404</p>
-    <h1>Página não encontrada</h1>
-    <p>A página que você procura não existe ou foi movida.</p>
-    <p><a href="/">← Voltar ao início</a></p>
+    <Image
+      class="dog"
+      src={dog}
+      alt="Um cachorro confuso na frente de um laptop com Error 404"
+      widths={[360, 540]}
+      sizes="(max-width: 540px) 80vw, 380px"
+      loading="eager"
+    />
+    <p class="code">404</p>
+    <h1>Você parece perdido. O cachorro também.</h1>
+    <p class="msg" lang="en">You seem lost. So does the dog.</p>
+    <p class="msg" lang="es">Pareces perdido. El perro también.</p>
+    <a class="home" href="/">← Voltar ao início</a>
   </section>
 </BaseLayout>
 
 <style>
   .notfound {
-    padding-block: 5rem;
-    min-height: 40vh;
+    text-align: center;
+    padding-block: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dog {
+    width: min(380px, 80vw);
+    height: auto;
+    border-radius: 16px;
+  }
+  .code {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: clamp(3rem, 12vw, 5rem);
+    letter-spacing: var(--tracking-tight);
+    color: var(--color-accent);
+    margin: 1.5rem 0 0;
+    line-height: 1;
   }
   .notfound h1 {
-    margin: 0.25rem 0 1rem;
+    margin: 0.5rem 0 0.75rem;
+  }
+  .msg {
+    max-width: 42ch;
+    margin: 0.1rem 0;
+    color: var(--color-text);
+  }
+  .msg:last-of-type {
+    margin-bottom: 2rem;
+  }
+  /* Brand-fill button matching the home CTA. */
+  .home {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border: 2px solid var(--color-accent);
+    color: var(--color-heading);
+    font-family: var(--font-heading);
+    font-weight: 600;
+  }
+  .home::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-accent);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+  .home:hover {
+    color: var(--color-on-dark);
+    text-decoration: none;
+  }
+  .home:hover::before {
+    transform: scaleX(1);
   }
 </style>
