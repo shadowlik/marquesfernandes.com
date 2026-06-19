@@ -25,6 +25,6 @@ for(let index in dbs)
     }
 }
 
-Este código elimina de forma segura todos los bancos manteniendo solo los bancos: Loca**l y A**dmi**n, con**servando todos los usuarios y los accesos creados anteriormente.
+Este código elimina de forma segura todos los bancos manteniendo solo los bancos: **Local** y **Admin**, conservando todos los usuarios y los accesos creados anteriormente.
 
 Como se podía ver hacer scripts usando el [shell mongo](https://docs.mongodb.com/manual/mongo/) es bastante simple y potente.

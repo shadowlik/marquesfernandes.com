@@ -40,7 +40,7 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://blackrockdigital.github.io/startbootstrap-sb-admin/](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
 
-**SB Admi**n es para aquellos que buscan un panel más simple, tanto visualmente como en su uso.
+**SB Admin** es para aquellos que buscan un panel más simple, tanto visualmente como en su uso.
 
 ## [Light Bootstrap](https://demos.creative-tim.com/light-bootstrap-dashboard/)
 
@@ -48,7 +48,7 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://demos.creative-tim.com/light-bootstrap-dashboard/](https://demos.creative-tim.com/light-bootstrap-dashboard/)  
 
-**Light Bootstrap e**s también una plantilla muy simple, fue desarrollado en la parte superior de [Bootstrap 4](http://getbootstrap.com).
+**Light Bootstrap** es también una plantilla muy simple, fue desarrollado en la parte superior de [Bootstrap 4](http://getbootstrap.com).
 
 ## [Matrix Admin](https://wrappixel.com/templates/matrix-admin/)
 

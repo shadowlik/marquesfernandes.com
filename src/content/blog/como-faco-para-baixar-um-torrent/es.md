@@ -16,7 +16,7 @@ updated: 2021-12-12T11:22:55.000Z
 
 Mucha gente tiene miedo cuando digo que he descargado tal cosa por torrent, mucha gente cree que es algo extremadamente complicado de hacer, vine a desmitificar los Torrents. En este tutorial aprenderás lo que es un torrente y cómo descargar torrents de todo tipo, películas, seriales, programas y más.
 
-*Descargo de responsabilidad: Este artículo no fomenta el uso de la piratería y sólo tiene como objetivo enseñar cómo utilizar y descargar programas por Torren*t.
+*Descargo de responsabilidad: Este artículo no fomenta el uso de la piratería y sólo tiene como objetivo enseñar cómo utilizar y descargar programas por Torrent*.
 
 ## ¿Qué es un Torrent?
 
@@ -48,7 +48,7 @@ Después de que se supere este paso, nos enfrentaremos a la casa del sitio y un 
 
 ![RARBG Inicio](./2020-08-image-15.jpg)
 
-Después de buscar el archivo deseado, ya sea una película, un serial o un programa, ordene los resultados por columna de semb`radores`.
+Después de buscar el archivo deseado, ya sea una película, un serial o un programa, ordene los resultados por columna de `sembradores`.
 
 ![RARBG](./2020-08-image-15-1.jpg)
 
@@ -58,7 +58,7 @@ Estas dos columnas son importantes, cuantos más Seeders tenga un archivo torren
 
 Bien ahora que ha elegido el archivo adecuado, haga clic en el enlace para ir a la página torrent. En el ejemplo anterior camuflaje la información, de nuevo, no fomento el uso de contenido pirateado, este artículo es sólo hehehehe hehehe. Ahora tenemos dos opciones para descargar, podemos hacer clic en el enlace de descarga torrent y descargar el archivo y abrirlo con nuestro gestor de torrents uTorrent o podemos hacer clic en el imán, este enlace se llama Magnet Link, es un acceso directo que se abrirá directamente a su aplicación torrent y empezar a descargar.
 
-Elija un método y descargue el archivo `.torrent,` después de abrir este archivo verá una ventana que contiene el nombre del archivo que va a descargar, que los archivos que contiene, por lo general viene un archivo de texto con información del autor del torrente y el archivo deseado. Seleccione la ubicación que desea guardar y haga clic en Aceptar.
+Elija un método y descargue el archivo `.torrent`, después de abrir este archivo verá una ventana que contiene el nombre del archivo que va a descargar, que los archivos que contiene, por lo general viene un archivo de texto con información del autor del torrente y el archivo deseado. Seleccione la ubicación que desea guardar y haga clic en Aceptar.
 
 ![uTorrent Open Torrent](./2020-08-image-15.jpg)
 

@@ -75,7 +75,7 @@ A engine V8 do NodeJS divide o heap em vários espaços diferentes para um geren
 -   **Espaço do ponteiro antigo:** contém a maioria dos objetos que podem ter ponteiros para outros objetos. A maioria dos objetos é movida para cá depois de sobreviver no novo espaço depois de um determinado tempo.
 -   **Espaço de dados antigo:** contém objetos que contêm apenas dados mortos (sem ponteiros para outros objetos). Strings, números e matrizes são movidos para cá depois de sobreviver em um novo espaço por um tempo.
 -   **Espaço de objeto grande:** contém objetos que são maiores que os limites de tamanho de outros espaços. Cada objeto obtém sua própria região de memória mmap. Objetos grandes nunca são movidos pelo coletor de lixo.
--   E**spaço** **de** **Código:** objetos de código, que contêm instruções JIT, são alocados aqui. Este é o único espaço com memória executável (seu código está aqui)
+-   **Espaço de Código:** objetos de código, que contêm instruções JIT, são alocados aqui. Este é o único espaço com memória executável (seu código está aqui)
 -   **Espaço de célula, espaço de célula de propriedade e espaço de mapa:** Contém Células, PropertyCells e Mapas, respectivamente. Cada espaço contém objetos que têm o mesmo tamanho e são restritos em ponteiros, o que simplifica a coleção.
 
 ## Funcionamento mais detalhado

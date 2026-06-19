@@ -11,11 +11,11 @@ needsReview: true
 canonicalPath: /criptografar-e-armazenar-senhas-com-nodejs-boas-praticas/
 ---
 
-Em aplicações que controlam a autenticação de usuários, armazenar senhas em texto puro não deve ser uma opção. Você é responsável por garantir a segurança desses dados, por isso deve sempre criptografar todas as senhas e nunca armazenar as senhas em texto puro. Neste artigo vamos aprender como criptografar senhas utilizando a técnica d**e sal.** Usarei exemplos em JavaScript puro e ES5.
+Em aplicações que controlam a autenticação de usuários, armazenar senhas em texto puro não deve ser uma opção. Você é responsável por garantir a segurança desses dados, por isso deve sempre criptografar todas as senhas e nunca armazenar as senhas em texto puro. Neste artigo vamos aprender como criptografar senhas utilizando a **técnica de sal.** Usarei exemplos em JavaScript puro e ES5.
 
 ## O que é a técnica do sal?
 
-A técnic**a do** sal (salt em inglês) consiste em pegar a senha do usuário e criptografá-la junto com um conjunto de texto aleatório único, armazenando o resultado no banco, tanto a senha criptografada quanto o texto utilizado como sal.
+A **técnica do** sal (salt em inglês) consiste em pegar a senha do usuário e criptografá-la junto com um conjunto de texto aleatório único, armazenando o resultado no banco, tanto a senha criptografada quanto o texto utilizado como sal.
 
 ## Por que usar a técnica do sal?
 
@@ -23,7 +23,7 @@ A criptografia de uma senha é sempre a mesma para aquela senha, e ainda que a c
 
 ## E a técnica de sal e pimenta?
 
-Existem outras técnicas para armazenar senhas de forma segura. Uma variante **d**o sal **é o sal e pi**menta, que consiste em armazenar o sal único por usuário e combiná-lo com a piment**a (pep**per), que é basicamente uma chave no texto gerada a nível de aplicação e compartilhada por todas as senhas. Muitos argumentam que ter essa camada de segurança a nível de aplicação evita que possíveis falhas de acesso ao seu banco comprometam as senhas, já que os atacantes também teriam acesso ao sal. O problema dessa técnica é a manutenção, pois é necessário armazenar de forma segura esse texto, e em caso de qualquer brecha com a pim**enta** todas as senhas se tornarão inválidas.
+Existem outras técnicas para armazenar senhas de forma segura. Uma variante **do sal é o sal e pimenta**, que consiste em armazenar o sal único por usuário e combiná-lo com a **pimenta (pepper)**, que é basicamente uma chave no texto gerada a nível de aplicação e compartilhada por todas as senhas. Muitos argumentam que ter essa camada de segurança a nível de aplicação evita que possíveis falhas de acesso ao seu banco comprometam as senhas, já que os atacantes também teriam acesso ao sal. O problema dessa técnica é a manutenção, pois é necessário armazenar de forma segura esse texto, e em caso de qualquer brecha com a **pimenta** todas as senhas se tornarão inválidas.
 
 ## Etapas do processo
 

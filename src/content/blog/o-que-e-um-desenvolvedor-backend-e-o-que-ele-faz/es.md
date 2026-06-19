@@ -39,7 +39,7 @@ Hay varios lenguajes de programación específicos del backend, y constantemente
 
 ### [NodeJS](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/)
 
-El entorno [**nodo**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/) tiene todo lo necesario para ejecutar scripts javascript, donde hasta entonces \* solo era posible en navegadores. Le permite usar javascript como lenguaje de backend y usa el m*otor javascript V8* desarrollado por Google para Chrome.
+El entorno [**nodo**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/) tiene todo lo necesario para ejecutar scripts javascript, donde hasta entonces \* solo era posible en navegadores. Le permite usar javascript como lenguaje de backend y usa el *motor javascript V8* desarrollado por Google para Chrome.
 
 ![Pitón](./2020-08-kwi4bvgzths31-1.jpg)
 
@@ -51,13 +51,13 @@ El entorno [**nodo**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-node
 
 ### [PHP](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/)
 
-**[PHP](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/)** (acrónimo recursivo de “PHP: *p**r**epro**c**esador de hipertexto”)* es un lenguaje de código abierto interpretado, utilizado principalmente en el desarrollo del lado del servidor (backend) de aplicaciones web.
+**[PHP](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/)** (acrónimo recursivo de *“**P**HP: **p**reprocesador de **h**ipertexto”*) es un lenguaje de código abierto interpretado, utilizado principalmente en el desarrollo del lado del servidor (backend) de aplicaciones web.
 
 ![Java](./2020-08-banner-java.jpg)
 
 ### [Java](https://rockcontent.com/br/blog/o-que-e-java/)
 
-**[Java](https://rockcontent.com/br/blog/o-que-e-java/) es u**n **tipo de lenguaje de programación crea**do y comercializado por Sun Microsystems desde 1995. Se define como un lenguaje orientado a objetos,  
+**[Java](https://rockcontent.com/br/blog/o-que-e-java/) es un** **tipo de lenguaje de programación creado** y comercializado por Sun Microsystems desde 1995. Se define como un lenguaje orientado a objetos,  
 su intención es permitir a los desarrolladores escribir el programa una sola vez y ejecutarlo desde cualquier dispositivo.
 
 ## Responsabilidades de un desarrollador backend
@@ -78,4 +78,4 @@ Las responsabilidades de un desarrollador back-end pueden incluir trabajar con:
 
 ## ¿Cuánto gana un desarrollador de backend?
 
-El área de tecnología se caracteriza por tener un entorno laboral y remunerativo muy atractivo. El salario de un desarrollador de backend puede variar ampliamente, tanto por empresa como por región. Según los sitios de trabajo, el salario promedio del [desarrollador backend en Brasil](https://neuvoo.com.br/salario/?job=Desenvolvedor+Back+End) es de R **$ 4.200**. Los desarrolladores más experimentados pueden ganar más de R $ 10**.000, si**n mencionar los beneficios completos que brindan las empresas de tecnología.
+El área de tecnología se caracteriza por tener un entorno laboral y remunerativo muy atractivo. El salario de un desarrollador de backend puede variar ampliamente, tanto por empresa como por región. Según los sitios de trabajo, el salario promedio del [desarrollador backend en Brasil](https://neuvoo.com.br/salario/?job=Desenvolvedor+Back+End) es de **R $ 4.200**. Los desarrolladores más experimentados pueden ganar más de **R $ 10.000**, sin mencionar los beneficios completos que brindan las empresas de tecnología.

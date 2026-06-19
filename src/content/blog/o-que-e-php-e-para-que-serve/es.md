@@ -15,9 +15,9 @@ needsReview: false
 updated: 2021-12-12T11:23:31.000Z
 ---
 
-**PH**P (un acrónimo recursivo de ***"**PHP**:** Hyperte**x**t Preproces*sor") es un lenguaje interpretado de código abierto, utilizado principalmente en el desarrollo de backend de aplicaciones web.
+**PHP** (un acrónimo recursivo de *"**P**HP: **H**ypertext **P**reprocessor"*) es un lenguaje interpretado de código abierto, utilizado principalmente en el desarrollo de backend de aplicaciones web.
 
-Creado por [Rasmus Lerdorf](https://pt.wikipedia.org/wiki/Rasmus_Lerdorf) en 1995, PHP tiene el desarrollo y documentación mantenido por [The PHP Group](https://www.php.net/). PHP se distribuye en código abierto y se licencia bajo la *Licencia PH*P.
+Creado por [Rasmus Lerdorf](https://pt.wikipedia.org/wiki/Rasmus_Lerdorf) en 1995, PHP tiene el desarrollo y documentación mantenido por [The PHP Group](https://www.php.net/). PHP se distribuye en código abierto y se licencia bajo la *Licencia PHP*.
 
 Estimar que entre 60% y 80% de Internet está alimentado por aplicaciones desarrolladas en PHP. Gracias a la popularidad de aplicaciones de código abierto como [Wordpress](http://wordpress.com/) y [Magento](https://magento.com/), PHP sigue siendo un lenguaje extremadamente popular, por lo que será durante bastante tiempo.
 
@@ -67,15 +67,15 @@ A continuación se muestra un ejemplo de código PHP simple que realiza un bucle
 
 PHP es un lenguaje excelente para el desarrollo de aplicaciones web, podemos mencionar algunas características importantes:
 
--   **Velocidad y robustez:** Con más de 25 años en el mercado, PHP ha sido y es ampliamente probado y mejorado diariamente. Tiene muchos tutoriales y cursos, así como una comunidad muy activa.
--   **Orientación de obje**tos: PHP es un lenguaje altamente optimizado para el desarrollo orientado a objetos.
+-   **Velocidad y robustez**: Con más de 25 años en el mercado, PHP ha sido y es ampliamente probado y mejorado diariamente. Tiene muchos tutoriales y cursos, así como una comunidad muy activa.
+-   **Orientación de objetos**: PHP es un lenguaje altamente optimizado para el desarrollo orientado a objetos.
 -   **Portabilidad:** independencia de la plataforma: escriba una vez, ejecute en cualquier lugar (o en cualquier servidor web que admita).
--   **Mecanografía diná**mica: PHP es un lenguaje débilmente tipado, lo que permite un desarrollo rápido y práctico.
--   **Código abiert**o: No tienes que pagar nada para desarrollar o usar PHP.
+-   **Mecanografía dinámica:** PHP es un lenguaje débilmente tipado, lo que permite un desarrollo rápido y práctico.
+-   **Código abierto:** No tienes que pagar nada para desarrollar o usar PHP.
 
 ## Extensiones de un archivo PHP
 
-Un archivo PHP se guarda con la ext**ensi**ón ".php", hay algunas variaciones antiguas que puede encontrar en aplicaciones heredadas:
+Un archivo PHP se guarda con la extensión "**.php**", hay algunas variaciones antiguas que puede encontrar en aplicaciones heredadas:
 
 -   .phtml
 -   .php3

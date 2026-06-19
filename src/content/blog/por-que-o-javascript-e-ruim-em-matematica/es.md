@@ -25,7 +25,7 @@ Ahora para probar mi punto, veamos el mismo ejemplo en Phyton:
 
 Bueno, bueno, ¿quién sabía que no lo era?
 
-## El problem**a: Punto flo**tante y redondeo
+## El problema: **Punto flotante** y redondeo
 
 Para tratar de evitar confusiones, como el concepto de punto flotante no es algo muy fácil de entender, vamos a tratar de explicar superficialmente el concepto, pero si quieres profundizar y entender en la raíz, te recomiendo leer este [artículo en inglés](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html).
 
@@ -67,7 +67,7 @@ Entienda que otros lenguajes, como C, Java, Phyton y muchos otros, también util
 
 La diferencia es que otros idiomas a menudo tienen otros tipos de tiendas de números que puede usar para evitar estos problemas. Por ejemplo, C- tiene un tipo nativo de decimal que se debe usar para tareas como los cálculos monetarios.
 
-Lo que siempre tenemos que entender es que cada aplicación tiene un enfoque y cada idioma tiene sus ventajas, si tienes una aplicación que no hará cuentas extensas y que el coste operativo no tendrá impacto, ve con Javascript, pero si este no es el caso, busca un lenguaje que satisfaga las necesidades de tu proyecto. Mi consejo es: **no tener amor por el lenguaje o los códigos, sino en la resolución de problema**s.
+Lo que siempre tenemos que entender es que cada aplicación tiene un enfoque y cada idioma tiene sus ventajas, si tienes una aplicación que no hará cuentas extensas y que el coste operativo no tendrá impacto, ve con Javascript, pero si este no es el caso, busca un lenguaje que satisfaga las necesidades de tu proyecto. Mi consejo es: **no tener amor por el lenguaje o los códigos, sino en la resolución de problemas**.
 
 **Referencias:**
 

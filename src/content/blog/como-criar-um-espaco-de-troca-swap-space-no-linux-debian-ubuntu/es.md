@@ -24,7 +24,7 @@ Si ya utilizas las últimas versiones de Ubuntu, es muy probable que este espaci
 
 ![htop - Intercambio espacial](./2019-12-image-12.png)
 
-En una búsqueda en Internet encontré el siguiente con***sejo: El tamaño de su espacio virtual debe ser igual al doble de la RAM de su ordenador o 32 MB, lo que sea más grande. Pero no debe ser mayor que 2048 MB (o 2 GB).***
+En una búsqueda en Internet encontré el siguiente consejo: ***El tamaño de su espacio virtual debe ser igual al doble de la RAM de su ordenador o 32 MB, lo que sea más grande. Pero no debe ser mayor que 2048 MB (o 2 GB).***
 
 ## Antes de empezar
 
@@ -46,11 +46,11 @@ Recuerde que su usuario necesita tener permisos de root, para esto [vea aquí c�
 
 $ sudo fallocate -l 2G /swapfile
 
-Sólo los usuari**os s**udo deben tener permiso para cambiar el archivo, para ello cambiaremos sus permisos:
+Sólo los usuarios **sudo** deben tener permiso para cambiar el archivo, para ello cambiaremos sus permisos:
 
 $ sudo chmod 600 /swapfile
 
-Ahora vamos a usar el comando mksw**ap par**a configurar el marcador de posición como un espacio de intercambio virtual:
+Ahora vamos a usar el comando **mkswap** para configurar el marcador de posición como un espacio de intercambio virtual:
 
 $ sudo mkswap /swapfile
 
@@ -62,7 +62,7 @@ Tenemos que hacer este cambio permanente, de lo contrario en el próximo inicio 
 
 $sudo echo "/swapfile swap defaults 0 0" >> /etc/fstab
 
-Verificamos que nuestro espacio de trading está activo con el comando **swapo**n:
+Verificamos que nuestro espacio de trading está activo con el comando **swapon**:
 
 $ sudo swapon --show
 
@@ -72,7 +72,7 @@ TAMAÑO DE TIPO DE NOMBRE UTILIZADO PRIO
 
 ## Ajuste del swappiness
 
-La capacidad de intercamb**io, swappin**ess en inglés, es una propiedad que define cuánto utilizará el sistema el espacio de intercambio. Swappiness puede tener un valor entre 0 y 100. Cuanto menor sea el valor, el sistema intentará evitar el uso de espacio, mayor será el uso de este espacio de forma más agresiva.
+La capacidad de intercambio, **swappiness** en inglés, es una propiedad que define cuánto utilizará el sistema el espacio de intercambio. Swappiness puede tener un valor entre 0 y 100. Cuanto menor sea el valor, el sistema intentará evitar el uso de espacio, mayor será el uso de este espacio de forma más agresiva.
 
 El valor predeterminado de swappiness es 60. Usted puede marcar el valor configurado en su sistema con el comando:
 
@@ -97,7 +97,7 @@ Primero desactivamos de forma segura el archivo Swap de nuestro sistema:
 
 $ sudo swapoff -v /swapfile
 
-Elimine el cambio que hicimos en el ar**chivo /etc/**fstab para evitar alertas y problemas de inicio, luego eliminaremos el marcador de posición para no ocupar la memoria sin necesidad:
+Elimine el cambio que hicimos en el archivo **/etc/fstab** para evitar alertas y problemas de inicio, luego eliminaremos el marcador de posición para no ocupar la memoria sin necesidad:
 
 $ sudo rm /swapfile
 

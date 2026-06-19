@@ -31,7 +31,7 @@ La especificación **OpenAPI** es un formato de descripción de API para las API
 -   Métodos de autenticación de la API de REST
 -   Información de contacto, licencia, términos de uso y otra información.
 
-Bueno, ahora que entendemos lo que es cada herramienta/servicio y lo hace podemos entender dónde aplicar cada una. Op**enAPI s**e ha convertido en un estándar de la comunidad para compartir la documentación de las API RESTful, pero realmente me gusta la herramient**a de Po**stman para desarrollar y probar API en el día a día, pero la funcionalidad para el tiempo y el intercambio de documentación de Postman se paga, lo que hace que sea inviable para su uso en pequeños proyectos o empresas con un presupuesto restringido, pero al mismo tiempo mantener dos bases de documentación es muy laborioso y puede ser inviable dependiendo de la número de puntos finales.
+Bueno, ahora que entendemos lo que es cada herramienta/servicio y lo hace podemos entender dónde aplicar cada una. **OpenAPI** se ha convertido en un estándar de la comunidad para compartir la documentación de las API RESTful, pero realmente me gusta la herramienta de **Postman** para desarrollar y probar API en el día a día, pero la funcionalidad para el tiempo y el intercambio de documentación de Postman se paga, lo que hace que sea inviable para su uso en pequeños proyectos o empresas con un presupuesto restringido, pero al mismo tiempo mantener dos bases de documentación es muy laborioso y puede ser inviable dependiendo de la número de puntos finales.
 
 ## ¡La solución!
 

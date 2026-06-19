@@ -110,7 +110,7 @@ Aquí ocurre la magia, la función Pars`eJson de` la biblioteca VBA JSON convier
 
 Set objectJson á JsonConverter.ParseJson(json)
 
-Ahora que tenemos el resultado de nuestra API accesible, creamos en la primera fila de la hoja de trabajo el encabezado que contiene las columnas de no**mbre** y v**íncul**o.
+Ahora que tenemos el resultado de nuestra API accesible, creamos en la primera fila de la hoja de trabajo el encabezado que contiene las columnas de **nombre** y **vínculo**.
 
 «Creamos las celdas de encabezado
 Ws. Células(1, 1) - "nombre"

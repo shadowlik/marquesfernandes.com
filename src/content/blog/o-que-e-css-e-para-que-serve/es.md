@@ -14,7 +14,7 @@ needsReview: false
 updated: 2021-12-12T11:23:26.000Z
 ---
 
-**H**ojas de e**s**tilo **e**n casca**da** (CSS) es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas web (**[HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**).
+**H**ojas de **e**stilo **e**n **c**ascada (**CSS**) es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas web (**[HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**).
 
 Si ya sabes lo [que es HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/), entendido que es el esqueleto de todas las páginas en Internet, podemos pensar en css como piel o incluso ropa, es responsable de aplicar todas las personalizaciones visuales como, tamaño de fuente y color, color de fondo, y más. Las reglas presentes para la personalización se establecen en cascada, jerárquicamente, para cada etiqueta secundaria y etiquetas. Por ejemplo:
 
@@ -31,20 +31,20 @@ La primera regla anterior aplica una personalización en la página, dejando su 
 
 ## Sintaxis CSS
 
-Hay reglas predefinidas para aplicar las reglas en el documento HTML, que están separadas por se**lector** y d**eclaración**.
+Hay reglas predefinidas para aplicar las reglas en el documento HTML, que están separadas por **selector** y **declaración**.
 
-**.add-red-**c**olor: rojo;**
+**.add-red-color**: **rojo;**
 
 Un selector es un conjunto de propiedades (también predefinidas) y valores. Los selectores se pueden aplicar a lo siguiente:
 
 -   En todos los [elementos](https://en.wikipedia.org/wiki/HTML_element) de un tipo específico por su etiqueta, por ejemplo, h1.
 -   Elementos especificados por algún atributo, en particular:
-    -   *id*: Un identificador único dentro del documento `(<h1 id=**"identificado**r"></h1`\>)
+    -   *id*: Un identificador único dentro del documento (`<h1 id="**identificador**"></h1>`)
     -   *clase*: identificador que puede existir en varios elementos (`<h1 class="**classe**"></h1>`)
 
 Los selectores por clase e id distinguen mayúsculas de minúsculas, deben comenzar con letras y pueden incluir caracteres alfanuméricos, guiones y guiones bajos. Una clase se puede aplicar a cualquier número de instancias de cualquier elemento. Un identificador solo se puede aplicar a un único elemento.
 
-También hay pse*udo-clases, se* utilizan en selectores CSS para permitir el formato basado en información o interacciones que no están explícitamente contenidas en HTML. Un ejemplo de una pseudo-clase ampliamente utilizada es aquella que identifica el contenido solo cuando el usuario pasa el cursor sobre el elemento, normalmente esta clase se utiliza para informar y cambiar de color, por ejemplo, un [vínculo](#). Las pseudoclases se separan e identifican por : o `::`.
+También hay *pseudo-clases*, se utilizan en selectores CSS para permitir el formato basado en información o interacciones que no están explícitamente contenidas en HTML. Un ejemplo de una pseudo-clase ampliamente utilizada es aquella que identifica el contenido solo cuando el usuario pasa el cursor sobre el elemento, normalmente esta clase se utiliza para informar y cambiar de color, por ejemplo, un [vínculo](#). Las pseudoclases se separan e identifican por : o `::`.
 
 ## Lista de selectores CSS
 
@@ -99,7 +99,7 @@ Hay dos maneras de usar CSS dentro de su archivo HTML.
 
 Puede utilizar las reglas directamente en las etiquetas html:
 
-<h1 **style="color: re**d;">Texto con color rojo</h1>
+<h1 **style="color: red;"**>Texto con color rojo</h1>
 
 Puede crear una etiqueta de estilo (<style>) no seu documento e centralizar todas as regras:
 
@@ -126,7 +126,7 @@ CSS 1
 
 La primera especificación CSS que se convertirá en una recomendación oficial de W3C es el nivel 1 de CSS, publicado el 17 de diciembre de 1996.
 
--   Propiedades de texto como fuente y énfasis **(negrit**a, *cursiv*a, ~subrayado~, ...)
+-   Propiedades de texto como fuente y énfasis (**negrita**, *cursiva*, ~subrayado~, ...)
 -   Color del texto, fondos y otros elementos
 -   Atributos de texto, como el espaciado entre palabras, letras y líneas de texto
 -   Alineación de texto, imágenes, tablas y otros elementos

@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:24:32.000Z
 ---
 
-No me considero una persona con mal gusto, pero cuando se trata de crear artes termino tardando mucho tiempo en alcanzar un resultado aceptable. A medida que más y más vida se apresura, y las ideas para los mensajes aumentan, decidí buscar herramientas que me ayudaran en este proceso. Fue entonces cuando me encontré con 3 grandes herramientas, amable y lo mejor de tod**o: GRATIS**!
+No me considero una persona con mal gusto, pero cuando se trata de crear artes termino tardando mucho tiempo en alcanzar un resultado aceptable. A medida que más y más vida se apresura, y las ideas para los mensajes aumentan, decidí buscar herramientas que me ayudaran en este proceso. Fue entonces cuando me encontré con 3 grandes herramientas, amable y lo mejor de todo: **GRATIS**!
 
 ## [Snappa](https://snappa.com/app)
 
@@ -27,9 +27,9 @@ No me considero una persona con mal gusto, pero cuando se trata de crear artes t
 Snappa es mi herramienta "ir a", tiene una interfaz de creación muy fácil de usar, docenas de formatos y plantillas de arte, todo para ayudarle a dar ese impulso inicial en su creatividad! Su cuenta gratuita le permite:  
 
 -   **1** Usuario
--   **Más de 6**00.000 FOTOS y gráficos HD
--   **Más de 5**.000 plantillas
--   5 Descargas al mes
+-   **Más de 600.000** FOTOS y gráficos HD
+-   **Más de 5.000** plantillas
+-   **5** Descargas al mes
 -   **2** Redes sociales
 
 *Para ser claro: No me pagaron para anunciar la herramienta, realmente me gusta ...*

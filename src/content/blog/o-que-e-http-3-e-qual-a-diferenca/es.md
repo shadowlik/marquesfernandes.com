@@ -24,15 +24,15 @@ Algunos sitios ya han comenzado a utilizar la nueva versión del protocolo, como
 
 ## ¿Qué es HTTP?
 
-**El Protocolo de transferenci**a de **hipe**rtexto o HTTP para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, video y otros archivos multimedia.
+**El Protocolo de transferencia de hipertexto** o **HTTP** para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, video y otros archivos multimedia.
 
-Cuando escribe un sitio web en su navegador, detrás de escena está enviando una solicitu**d HTT**P solicitando la página deseada a un servidor web. Piense en los protocolos de Internet como reglas de tráfico, son necesarios para que todos los automóviles (datos) lleguen a su destino (cliente).
+Cuando escribe un sitio web en su navegador, detrás de escena está enviando una solicitud **HTTP** solicitando la página deseada a un servidor web. Piense en los protocolos de Internet como reglas de tráfico, son necesarios para que todos los automóviles (datos) lleguen a su destino (cliente).
 
-El protocol**o HTT**P se desarrolló junto con el lenguaje de marcado [HTML](https://pt.wikipedia.org/wiki/HTML) para crear la primera experiencia interactiva en navegadores web. ¡Hasta el día de hoy, el protocolo sigue siendo el principal medio de comunicación en Internet! Puede consultar con más detalle qué es HTTP y su historial en este [artículo](http://marquesfernandes.com/tecnologia/o-que-e-http/).
+El protocolo **HTTP** se desarrolló junto con el lenguaje de marcado [HTML](https://pt.wikipedia.org/wiki/HTML) para crear la primera experiencia interactiva en navegadores web. ¡Hasta el día de hoy, el protocolo sigue siendo el principal medio de comunicación en Internet! Puede consultar con más detalle qué es HTTP y su historial en este [artículo](http://marquesfernandes.com/tecnologia/o-que-e-http/).
 
 ## ¿Qué hay de nuevo en HTTP3?
 
-La nueva especificación promete una experiencia web más rápida, mejor y más segura.HTTP 3 tiene como objetivo simplificar el apretón de manos de TCP (es un apretón de manos d*e 3* v*ías, hola; hola de nuevo; ok, me tienes mi hol*a).En resumen, las conexiones se establecen más rápidamente utilizando el [protocolo QUIC](https://pt.wikipedia.org/wiki/QUIC), que también es relativamente nuevo.
+La nueva especificación promete una experiencia web más rápida, mejor y más segura.HTTP 3 tiene como objetivo simplificar el apretón de manos de TCP (es un apretón de manos de 3 vías, *hola*; *hola de nuevo; ok, me tienes mi hola*).En resumen, las conexiones se establecen más rápidamente utilizando el [protocolo QUIC](https://pt.wikipedia.org/wiki/QUIC), que también es relativamente nuevo.
 
 Este establecimiento de conexión mejorado promete una mejor migración de conexión que se produce principalmente entre conexiones wi-fi y redes móviles.
 

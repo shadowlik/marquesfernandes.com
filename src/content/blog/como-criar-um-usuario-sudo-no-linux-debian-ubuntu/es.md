@@ -33,12 +33,12 @@ A continuación, tendrá que establecer una contraseña, ya que es un usuario qu
 
 $ sudo usermod -aG sudo nomedousuario
 
-**3.** Ahora vamos a probar el nuevo usuario creado y sus poderes como **sud**o.
+**3.** Ahora vamos a probar el nuevo usuario creado y sus poderes como **sudo**.
 
 $ su - nomedo tercero
 namedo usuario$ sudo ls -ls /root
 
-Deberá introducir la contraseña la primera vez que utilice el comando s**udo** cada vez que inicie una nueva sesión de terminal.
+Deberá introducir la contraseña la primera vez que utilice el comando **sudo** cada vez que inicie una nueva sesión de terminal.
 
 ## Extra: Quitar un usuario
 

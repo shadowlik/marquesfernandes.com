@@ -20,7 +20,7 @@ updated: 2021-12-12T11:23:41.000Z
 
 Si recientemente has escuchado el término JSON y no tienes idea de lo que es, no te preocupes, no es una enfermedad y es muy fácil de entender.
 
-JSON, es un acrónimo de J*avaScript Object Notation, un* formato de datos de transferencia ligero, compacto, de estándar abierto e independiente que se utiliza para el intercambio de datos entre sistemas. Aunque el nombre puede ser sugerente, JSON no solo lo utiliza el lenguaje JavaScript, hoy en día se ha convertido en el formato estándar de comunicación en aplicaciones web.
+JSON, es un acrónimo de *JavaScript Object Notation*, un formato de datos de transferencia ligero, compacto, de estándar abierto e independiente que se utiliza para el intercambio de datos entre sistemas. Aunque el nombre puede ser sugerente, JSON no solo lo utiliza el lenguaje JavaScript, hoy en día se ha convertido en el formato estándar de comunicación en aplicaciones web.
 
 En pocas palabras, el formato JSON proporciona una colección de datos legibles a los que se puede acceder de forma lógica y coherente.
 
@@ -32,9 +32,9 @@ JSON surgió de la necesidad de un protocolo de comunicación entre el servidor 
 
 ## Estructura JSON
 
-Un archivo JSON es un conjunto desordenado de pares nombre/valor. Un JSON comienza con el valor `de` la tecla y termina con `el` valor de la dirección y, a continuación, se forma por *pares d*e "nam*e": "val*ue". A cada nombre le siguen: dos puntos y los pares nombre/valor están separados por comas.
+Un archivo JSON es un conjunto desordenado de pares nombre/valor. Un JSON comienza con el valor `de` la tecla y termina con `el` valor de la dirección y, a continuación, se forma por pares de "*name*": "*value*". A cada nombre le siguen: dos puntos y los pares nombre/valor están separados por comas.
 
-*Nam*e puede ser cualquier texto que identifique los datos *y el* valor puede ser un texto, `núme`ro`, obje`to`, matr`iz`, tru`e/`false o null det`ermi`nado`s. Puede consultar más información en [json.org.](https://www.json.org/json-en.html)
+*Name* puede ser cualquier texto que identifique los datos y el *valor* puede ser un texto, `núme`ro`, obje`to`, matr`iz`, tru`e/`false o null det`ermi`nado`s. Puede consultar más información en [json.org.](https://www.json.org/json-en.html)
 
 Separé un ejemplo que cubre la mayoría de los usos y tipos de datos que se pueden encontrar en un JSON:
 

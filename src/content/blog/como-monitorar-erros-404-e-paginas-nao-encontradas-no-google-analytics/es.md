@@ -22,8 +22,8 @@ En este artículo aprenderemos a supervisar los errores 404 de su sitio por part
 
 Primero tenemos que averiguar si nuestras 404 páginas están configuradas correctamente:
 
--   Su página 404 siempre debe cargarse en la misma URL que presentó el err**or,** NO DEBEMOS redirigir a una página personalizada (Ejemplo: /404/)
--   Que una página no existe en su sitio, debe devolver el código de estado HT**TP 404 (No encontrad**o), no el código 200 (Ok) y ningún código de redirección, leer el punto anterior.
+-   Su página 404 siempre debe cargarse en la misma URL que presentó el error, **NO** DEBEMOS redirigir a una página personalizada (Ejemplo: /404/)
+-   Que una página no existe en su sitio, debe devolver el código de estado **HTTP 404 (No encontrado)**, no el código 200 (Ok) y ningún código de redirección, leer el punto anterior.
 -   **Para facilitar la supervisión:** Padrónice el título de esta página, preferiblemente con títulos que identifiquen fácilmente el error, como "Página no encontrada" o "404".
 
 Podemos usar como ejemplo esta página: [http://marquesfernandes.com/esta-pagina-nao-existe](http://marquesfernandes.com/esta-pagina-nao-existe).
@@ -32,12 +32,12 @@ Podemos usar como ejemplo esta página: [http://marquesfernandes.com/esta-pagina
 
 El primer informe aprenderemos a crear monitores de enlaces internos que están causando 404 errores en su sitio. Los enlaces internos son enlaces que apuntan de una página a otra dentro de su sitio. Como teóricamente tenemos control total sobre estos enlaces, podremos actuar para organizarlos más rápidamente. Los enlaces rotos son malos para el rendimiento SEO y para la experiencia del usuario.
 
-1.  En el panel de Analytics, vaya a Per**sonalización > Informes personalizados > + Nuevo informe personalizado**.
-2.  Selecciona el tipo **de tabla fij**a.
+1.  En el panel de Analytics, vaya a **Personalización > Informes personalizados > + Nuevo informe personalizado**.
+2.  Selecciona el tipo **de tabla fija**.
 3.  Selecciona las dimensiones **de página; Ruta de la página anterior; Título de la página.**
-4.  Selecciona la mét**rica Vistas de página única**.
-5.  Agregue un filtro que **excluy**a el val**or (entrad**a) de la dimensi**ón Ruta de página anterior**. Este filtro se asegura de que solo aparezcan 404 errores causados por un vínculo interno.
-6.  Agregue un filtro al títu**lo de la página** que identifique las páginas no descubiertas.
+4.  Selecciona la métrica **Vistas de página única**.
+5.  Agregue un filtro que **excluya** el valor **(entrada)** de la dimensión **Ruta de página anterior**. Este filtro se asegura de que solo aparezcan 404 errores causados por un vínculo interno.
+6.  Agregue un filtro al **título de la página** que identifique las páginas no descubiertas.
 
 ![Informe personalizado para encontrar 404 errores causados por enlaces INTERNOS](./2020-02-image-1.png)
 
@@ -49,12 +49,12 @@ Ahora guarde el informe y vea el resultado:
 
 Ahora vamos a aprender cómo monitorear los errores 404 procedentes de enlaces externos. Los enlaces externos son enlaces que conducen a alguna página de su sitio en un sitio que no sea el suyo. Normalmente no tiene control directo sobre estos vínculos, pero tan pronto como se encuentre puede advertir fácilmente al administrador del sitio para corregir.
 
-1.  En el panel de Analytics, vaya a Per**sonalización > Informes personalizados > + Nuevo informe personalizado**.
-2.  Selecciona el tipo **de tabla fij**a.
-3.  Selecciona las dimension**es de página; Referente completo; Título de la página.**
-4.  Selecciona la mét**rica Vistas de página única**.
-5.  Agregue un filtro que **incluy**a el val**or (entrad**a) de la dimensi**ón Ruta de página anterior**. Este filtro se asegura de que solo aparezcan 404 errores causados por un vínculo interno.
-6.  Agregue un filtro al títu**lo de la página** que identifique las páginas no descubiertas.
+1.  En el panel de Analytics, vaya a **Personalización > Informes personalizados > + Nuevo informe personalizado**.
+2.  Selecciona el tipo **de tabla fija**.
+3.  Selecciona las dimensiones **de página; Referente completo; Título de la página.**
+4.  Selecciona la métrica **Vistas de página única**.
+5.  Agregue un filtro que **incluya** el valor **(entrada)** de la dimensión **Ruta de página anterior**. Este filtro se asegura de que solo aparezcan 404 errores causados por un vínculo interno.
+6.  Agregue un filtro al **título de la página** que identifique las páginas no descubiertas.
 
 ![Informe personalizado para encontrar 404 errores causados por enlaces EXTERNOS](./2020-02-image-5.png)
 

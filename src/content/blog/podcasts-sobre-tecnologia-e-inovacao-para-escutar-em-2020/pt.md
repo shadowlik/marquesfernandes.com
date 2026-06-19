@@ -25,7 +25,7 @@ Os Podcasts vem ganhando muita popularidade nos últimos tempos e tomando conta 
 
 Eu tenho uma certa dificuldade para encontrar novos conteúdos, mesmo no [Spotify](https://open.spotify.com/user/12142144766?si=3pJxPV5oTj-Ox5eueBglDw), e por isso separei uma lista com todos os canais que costumo escutar, desde os mais técnicos focados em desenvolvimento e inovação, até conteúdos de desenvolvimento pessoal e do mundo corporativo. Se você gosta de se manter antenado nas novidades do mercado não perca essa lista!
 
-*Manterei esta lista atualizada e colocarei aos poucos minha opinião sobre todos os canais listados. Lembrando que estou sempre buscando novos conteúdos então, por favor, deixe sua sugestão nos comentário*s!
+*Manterei esta lista atualizada e colocarei aos poucos minha opinião sobre todos os canais listados. Lembrando que estou sempre buscando novos conteúdos então, por favor, deixe sua sugestão nos comentários!*
 
 **Confira também:** [Top aplicativos para organizar suas listas de tarefas – ToDo](http://marquesfernandes.com/2020/01/26/top-aplicativos-para-organizar-suas-listas-de-tarefas-todo)
 

@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:23:33.000Z
 ---
 
-Es probable que te encuentres con un archivo con la extensió`n .ya`ml o `.ym`l, y te estás preguntando cuál es ese tipo de archivo. YAML es un acrónimo recursivo en in*glés y signifi*ca Ain't Markup Language. Según el sitio web oficial: Y*AML es una serialización de datos estándar y amigable para el ser humano para todos los lenguajes de programación.*
+Es probable que te encuentres con un archivo con la extensión `.yaml` o `.yml`, y te estás preguntando cuál es ese tipo de archivo. YAML es un acrónimo recursivo en inglés y significa *Ain't Markup Language*. Según el sitio web oficial: *YAML es una serialización de datos estándar y amigable para el ser humano para todos los lenguajes de programación.*
 
 Al reunir algunas otras definiciones que podemos encontrar en Internet, podemos concluir que YAML es un patrón de datos jerárquico y legible que se puede utilizar junto con todos los lenguajes de programación, y normalmente se utiliza para almacenar archivos de configuración.
 

@@ -51,7 +51,7 @@ Abra el archivo y siga los pasos de instalación! ¡Es tan simple como eso! Ahor
 
 Si eres un usuario ya acostumbrado al mundo Linux, probablemente prefieras hacer cosas por la línea de comandos. Aunque no es tan simple como instalar otras aplicaciones, el uso de sólo apt-get instalar chrome no funcionará.
 
-Para instalar Google Chrome desde el terminal, necesitamos descargar el archivo DE*B m*ediante el comando `wge`t:
+Para instalar Google Chrome desde el terminal, necesitamos descargar el archivo *DEB* mediante el comando `wget`:
 
 $wget https://dl.google.com/linux/direct/google-chrome-stable\_current\_amd64.deb
 

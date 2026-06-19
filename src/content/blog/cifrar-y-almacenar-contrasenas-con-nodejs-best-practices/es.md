@@ -16,11 +16,11 @@ canonicalPath: /es/tecnologia-es/cifrar-y-almacenar-contrasenas-con-nodejs-best-
 needsReview: false
 ---
 
-En las aplicaciones que controlan la autenticación de usuarios, almacenar contraseñas en texto sin formato no debe ser una opción. Usted es responsable de garantizar y garantizar la seguridad de estos datos, por lo que siempre debe cifrar todas las contraseñas y nunca almacenar las contraseñas sin procesar en texto. En este artículo vamos a aprender cómo cifrar contraseñas utilizando la técnica d**e sal.** Usaré ejemplos en JavaScript puro y ES5.
+En las aplicaciones que controlan la autenticación de usuarios, almacenar contraseñas en texto sin formato no debe ser una opción. Usted es responsable de garantizar y garantizar la seguridad de estos datos, por lo que siempre debe cifrar todas las contraseñas y nunca almacenar las contraseñas sin procesar en texto. En este artículo vamos a aprender cómo cifrar contraseñas utilizando la **técnica de sal.** Usaré ejemplos en JavaScript puro y ES5.
 
 ## ¿Qué es la técnica de la sal?
 
-La técnic**a de** sal (sal en portugués) es tomar la contraseña del usuario y cifrar junto con un conjunto de texto aleatorio único y almacenar el resultado en el banco, tanto la contraseña cifrada como el texto utilizado como sal.
+La **técnica de** sal (sal en portugués) es tomar la contraseña del usuario y cifrar junto con un conjunto de texto aleatorio único y almacenar el resultado en el banco, tanto la contraseña cifrada como el texto utilizado como sal.
 
 ## ¿Por qué usar la técnica de sal?
 
@@ -28,7 +28,7 @@ El cifrado de una contraseña es el mismo siempre para esa contraseña, aunque e
 
 ## ¿Y la técnica de sal y pimienta?
 
-Existen otras técnicas para almacenar contraseñas de forma segura, una variante **de l**a sal **es una sal y pi**mienta, que consiste en almacenar la única sal por usuario, combinar con pimient**a (pep**per), que es básicamente una clave en el texto generado a nivel de aplicación y compartida por todas las contraseñas. Muchos argumentan que tener esta capa de seguridad a nivel de aplicación evita que los posibles agujeros de acceso a su banco comprometan las contraseñas, ya que los atacantes también tendrán acceso a la sal. El problema de esta técnica es el mantenimiento, ya que es necesario almacenar de forma segura este texto, y en caso de cualquier brecha con pim**ienta** todas las contraseñas no serán válidas.
+Existen otras técnicas para almacenar contraseñas de forma segura, una variante **de la sal es una sal y pimienta**, que consiste en almacenar la única sal por usuario, combinar con **pimienta (pepper)**, que es básicamente una clave en el texto generado a nivel de aplicación y compartida por todas las contraseñas. Muchos argumentan que tener esta capa de seguridad a nivel de aplicación evita que los posibles agujeros de acceso a su banco comprometan las contraseñas, ya que los atacantes también tendrán acceso a la sal. El problema de esta técnica es el mantenimiento, ya que es necesario almacenar de forma segura este texto, y en caso de cualquier brecha con **pimienta** todas las contraseñas no serán válidas.
 
 ## Pasos del proceso
 

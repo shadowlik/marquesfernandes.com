@@ -23,7 +23,7 @@ Si tiene una base de datos MySQL, lo más probable es que ya haya necesitado o n
 
 ## ¿Qué es MySQL?
 
-No voy a entrar en una gran cantidad de datos técnicos sobre el historial de MySQL, se puede comprobar este [enlace](https://www.hostinger.com.br/tutoriais/o-que-e-mysql/), pero brevemente MySQL es un sistema de gestión de bases de datos (DBMS), que utiliza el lenguaje SQL - Lenguaje de consulta estructurado, de Ingl*és Structured Query Languag*e. Actualmente es mantenido por [Oracle Corporation](https://www.oracle.com/br/corporate/) y distribuido bajo dos licencias: [GPL](https://pt.wikipedia.org/wiki/GNU_General_Public_License) y [Commercial License](http://www.mysql.com/company/legal/licensing/commercial-license.html).
+No voy a entrar en una gran cantidad de datos técnicos sobre el historial de MySQL, se puede comprobar este [enlace](https://www.hostinger.com.br/tutoriais/o-que-e-mysql/), pero brevemente MySQL es un sistema de gestión de bases de datos (DBMS), que utiliza el lenguaje SQL - Lenguaje de consulta estructurado, de Inglés *Structured Query Language*. Actualmente es mantenido por [Oracle Corporation](https://www.oracle.com/br/corporate/) y distribuido bajo dos licencias: [GPL](https://pt.wikipedia.org/wiki/GNU_General_Public_License) y [Commercial License](http://www.mysql.com/company/legal/licensing/commercial-license.html).
 
 ## Creación de copias de seguridad de MySQL diariamente en Windows
 

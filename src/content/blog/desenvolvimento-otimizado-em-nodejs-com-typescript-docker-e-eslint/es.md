@@ -94,7 +94,7 @@ Cree el archiv`o tsconfig.j`son con la configuración del compilador Typescript:
   }
 }
 
-En *el dest*ino vamos a utilizar la versión 2020 de ECMAScript, puede cambiar la versión de acuerdo con las necesidades de su proyecto.
+En *el destino* vamos a utilizar la versión 2020 de ECMAScript, puede cambiar la versión de acuerdo con las necesidades de su proyecto.
 
 ### ESLint y Más Bonito
 
@@ -145,7 +145,7 @@ Si está utilizando VS Code con la configuración de inicio del artículo, estos
 
 ## Desarrollar en Typescript sin compilar todo el tiempo
 
-Si ya has desarrollado con Typescript, probablemente te hayas molestado con todo el proceso de compilación y reinicio de tu aplicación. Hay varias maneras de configurar su entorno para compilar sus archivos .ts y reini***cia***r su aplicación, aquí nos centraremos en la configuración que me sentí más productiva, utilizando lib **ts-node-de**v. Esta biblioteca compila Typescript pero comparte esta compilación entre reiniciar la aplicación, lo que significa que podremos tener una recarga automática sin tener que esperar a todo el proceso de compilación. Lib ts-node-dev es una mezcla de otras dos bibliotecas, [node-dev](https://github.com/fgnass/node-dev) con [ts-node](https://github.com/TypeStrong/ts-node).
+Si ya has desarrollado con Typescript, probablemente te hayas molestado con todo el proceso de compilación y reinicio de tu aplicación. Hay varias maneras de configurar su entorno para compilar sus archivos ***.ts*** y reiniciar su aplicación, aquí nos centraremos en la configuración que me sentí más productiva, utilizando lib **ts-node-dev**. Esta biblioteca compila Typescript pero comparte esta compilación entre reiniciar la aplicación, lo que significa que podremos tener una recarga automática sin tener que esperar a todo el proceso de compilación. Lib ts-node-dev es una mezcla de otras dos bibliotecas, [node-dev](https://github.com/fgnass/node-dev) con [ts-node](https://github.com/TypeStrong/ts-node).
 
 Vamos a crear el s`cri`pt dev que se usará durante el desarrollo:
 
@@ -157,7 +157,7 @@ Vamos a crear el s`cri`pt dev que se usará durante el desarrollo:
 }
 ...
 
--   `--inspect` Define el puerto en el que e*l depurad*or estará escuchando.
+-   `--inspect` Define el puerto en el que el *depurador* estará escuchando.
 -   `--respawn` Continúa observando los archivos por cambios incluso si el proceso principal muere.
 -   `--transpileOnly` Deshabilita la comprobación de escritura y la salida de los archivos de definición, promoviendo una transpilación más rápida.
 
@@ -300,8 +300,8 @@ Cmd\[ "node", "build/index.js" \]
 
 Las diferencias entre el a`rchivo Dockerf`ile.dev y `dockerfil`e son:
 
-1.  Definimos la variable de entorno `NODE_ENV` para `la producci`ón, esto evitará que se instalen las dependenci***as enumeradas en*** devDepend`encies en nu`estro package.json.
-2.  Para buenas prácticas no usaremos alias *de sc*ript npm para i`nic`iar nuestra aplicación, esto reduce el número de procesos iniciados y obliga a que las señales de terminación sigterm y SIGINT sean recibidas directamente por el proceso Node en lugar de ser interceptadas por npm: [Docker Node - Good Practices](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#cmd).
+1.  Definimos la variable de entorno `NODE_ENV` para `la producci`ón, esto evitará que se instalen las dependencias enumeradas en ***devDependencies*** en nuestro `package.json`.
+2.  Para buenas prácticas no usaremos *alias* de script npm para iniciar nuestra aplicación, esto reduce el número de procesos iniciados y obliga a que las señales de terminación sigterm y SIGINT sean recibidas directamente por el proceso Node en lugar de ser interceptadas por npm: [Docker Node - Good Practices](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#cmd).
 
 ## Conclusión
 

@@ -30,13 +30,13 @@ El proceso de migración puede tardar unos buenos minutos, por lo que para facil
 
 ### 2.1. Limpieza de disco
 
-El primer paso es hacer una limpieza del disco, puede acceder a este programa escribiendo "Liberador de e**spacio en disco"** en el menú de inicio. Seleccione los archivos que desea eliminar y presione OK. Este paso puede tardar varios minutos dependiendo de la cantidad de archivos que se eliminarán.
+El primer paso es hacer una limpieza del disco, puede acceder a este programa escribiendo "**Liberador de espacio en disco**" en el menú de inicio. Seleccione los archivos que desea eliminar y presione OK. Este paso puede tardar varios minutos dependiendo de la cantidad de archivos que se eliminarán.
 
 ![Limpieza de disco](./2020-09-image-1.png)
 
 ### 2.2. Desinstalar programas no utilizados
 
-Acceda al panel de control escribiendo **"Panel de control"** en su menú de inicio y busque la opción **"Desinstalar un program**a".
+Acceda al panel de control escribiendo **"Panel de control"** en su menú de inicio y busque la opción **"Desinstalar un programa"**.
 
 ![](./2020-09-image-2-1.jpg)
 
@@ -44,7 +44,7 @@ En esta pantalla encontrarás todos los programas instalados en tu computadora, 
 
 ### 2.3. Limpieza manual
 
-Navegue por sus carpetas, especialmente las carpetas *Documento*s, *Imágen*es *y Descar*gas y elimine todos los archivos que ya no necesitará. Muchos usuarios olvidan limpiar la carpeta de *Descargas*, lo que puede llevar a que se descarguen varios archivos innecesariamente que sobrecarguen el almacenamiento de su computadora.
+Navegue por sus carpetas, especialmente las carpetas *Documentos*, *Imágenes* y *Descargas* y elimine todos los archivos que ya no necesitará. Muchos usuarios olvidan limpiar la carpeta de *Descargas*, lo que puede llevar a que se descarguen varios archivos innecesariamente que sobrecarguen el almacenamiento de su computadora.
 
 ## 3\. Instalar el programa de migración
 

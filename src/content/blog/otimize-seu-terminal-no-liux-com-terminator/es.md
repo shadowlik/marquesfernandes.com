@@ -18,11 +18,11 @@ updated: 2021-12-12T11:24:17.000Z
 
 Si usted está cansado de su chusma terminal en linux; Cansado de dar alt + pestaña entre los terminales en el mismo proyecto; Cansado de perderse al intentar pegar un comando; Conozca **[Terminator](https://terminator-gtk3.readthedocs.io/en/latest/),** un [emulador de terminal](https://en.wikipedia.org/wiki/Terminal_emulator) más robusto, organizado y personalizable:
 
--   **Múltiples pestaña**s: Múltiples pestañas de terminal en la misma ventana.
--   **Cuadrícula de termina**les: Divida una pestaña en varios terminales, horizontal y vertical.
--   **Registros automáticos: g**uarde los registros de sesión automáticamente por parte de los usuarios.
--   **Arrastrar y so**ltar: Arrastra y suelta texto, URLs y comandos directamente en el terminal.
--   **Examinar**: Busque y resalte textos mediante expresiones Regex.
+-   **Múltiples pestañas:** Múltiples pestañas de terminal en la misma ventana.
+-   **Cuadrícula de terminales:** Divida una pestaña en varios terminales, horizontal y vertical.
+-   **Registros automáticos:** guarde los registros de sesión automáticamente por parte de los usuarios.
+-   **Arrastrar y soltar:** Arrastra y suelta texto, URLs y comandos directamente en el terminal.
+-   **Examinar:** Busque y resalte textos mediante expresiones Regex.
 -   **Temas:** Varios temas y combinaciones disponibles por la comunidad.
 -   **Y mucho más...**
 
@@ -70,8 +70,8 @@ Una lista de los accesos directos predeterminados y más utilizados en Terminato
 -   `**Ctrl+Mayús+E**` : Divide la pestaña en terminales verticales.
 -   `**Ctrl+Mayús+W**` : Cierra el terminal activo.
 -   `**Ctrl+Mayús+T**` : Abre una nueva pestaña.
--   `**Mayús+Ctrl+s :**` Muestra/oculta la barra de desplazamiento.
--   `**Ctrl+Mayús**`+f : Busca texto en el terminal activo.
+-   `**Mayús+Ctrl+s**` : Muestra/oculta la barra de desplazamiento.
+-   `**Ctrl+Mayús+f**` : Busca texto en el terminal activo.
 -   `**Ctrl+Mayús+R**` : Borra el terminal activo.
 -   `**Super+g**` : Agrupa todos los terminales en una sola pestaña.
 -   `**Ctrl+Mayús+q**` : Sale del terminador, cerrando todas las pestañas.

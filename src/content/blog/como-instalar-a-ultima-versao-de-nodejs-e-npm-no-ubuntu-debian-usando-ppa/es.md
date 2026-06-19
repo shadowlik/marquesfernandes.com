@@ -29,14 +29,14 @@ En la última actualización de este artículo NodeJS está en la versión 12 LT
 $sudo apt-get install curl
 $ curl -sL https://deb.nodesource.com/setup\_13.x ? sudo -Y bash -
 
-Si desea instalar la última vers**ión de** **LTS**:
+Si desea instalar la última **versión** de **LTS**:
 
 $sudo apt-get install curl
 $ curl -sL https://deb.nodesource.com/setup\_12.x ? sudo -Y bash -
 
 ## Instalación de NodeJS
 
-Ahora que hemos agregado el PPA, vamos a ejecutar el comando para instalar NodeJS y también su administrador de dependencias, Node Package Manager (NPM). Usaremos el comando `apt-get update` para actualizar la información de nuestros paquetes `y apt-get instal`l para iniciar el proceso de instalación:
+Ahora que hemos agregado el PPA, vamos a ejecutar el comando para instalar NodeJS y también su administrador de dependencias, Node Package Manager (NPM). Usaremos el comando `apt-get update` para actualizar la información de nuestros paquetes y `apt-get install` para iniciar el proceso de instalación:
 
 $sudo actualización apt-get
 $sudo apt-get install nodejs

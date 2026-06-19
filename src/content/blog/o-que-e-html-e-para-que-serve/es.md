@@ -14,9 +14,9 @@ needsReview: false
 updated: 2021-12-12T11:23:29.000Z
 ---
 
-**HT**ML es un ac**rónimo de Hype**rText Markup Language. Es el lenguaje de marcado predeterminado para crear páginas web.
+**HTML** es un acrónimo de **HyperText Markup Language**. Es el lenguaje de marcado predeterminado para crear páginas web.
 
-**HTML** no es un lenguaje de programación, aunque muchas personas lo confunden, es un lenguaje de marcado que define estructuralmente un contenido. H**TML** consta de una serie de elementos predefinidos, denominados etiquetas, que se utilizan para separar, organizar y mostrar contenido según lo programado. Las etiquetas le permiten crear un hipervínculo; una imagen; un título; aumentar o disminuir la fuente y más.
+**HTML** no es un lenguaje de programación, aunque muchas personas lo confunden, es un lenguaje de marcado que define estructuralmente un contenido. **HTML** consta de una serie de elementos predefinidos, denominados etiquetas, que se utilizan para separar, organizar y mostrar contenido según lo programado. Las etiquetas le permiten crear un hipervínculo; una imagen; un título; aumentar o disminuir la fuente y más.
 
 ## Breve historia de HTML
 
@@ -41,7 +41,7 @@ Las primeras especificaciones formales del lenguaje surgieron en la década de 1
 
 ## Marco HTML
 
-A continuación podemos ver una estructura básica d**e HTML**5:
+A continuación podemos ver una estructura básica de **HTML5**:
 
 <!doctype html>
 
@@ -58,18 +58,18 @@ A continuación podemos ver una estructura básica d**e HTML**5:
 
 ### Etiquetas HTML
 
-Como mencionamos anteriormente, la estructura HTML se basa en etiquetas predefinidas. Puede crear, aunque no muy común, sus propias etiquetas HTML. Las etiquetas se dividen básicam**ente en: nivel de bloque** y **nivel en línea**.
+Como mencionamos anteriormente, la estructura HTML se basa en etiquetas predefinidas. Puede crear, aunque no muy común, sus propias etiquetas HTML. Las etiquetas se dividen básicamente en: **nivel de bloque** y **nivel en línea**.
 
-1.  Las etiquetas **de nivel de bl**oque a menudo ocupan todo el espacio disponible y "saltan" una línea. Los títulos (H1, H2, ...) son un buen ejemplo de etiquetas de bloque.
-2.  Las etiquetas **en lí**nea solo ocupan espacio según sea necesario y normalmente no inician una nueva línea en el documento. Por lo general, sirven para enfatizar algún contenido dentro del documento. Como las etiquetas de enlace (<a> <a/> ) y negrita (<strong> <strong/> ).</strong> </a>
+1.  Las etiquetas **de nivel de bloque** a menudo ocupan todo el espacio disponible y "saltan" una línea. Los títulos (H1, H2, ...) son un buen ejemplo de etiquetas de bloque.
+2.  Las etiquetas **en línea** solo ocupan espacio según sea necesario y normalmente no inician una nueva línea en el documento. Por lo general, sirven para enfatizar algún contenido dentro del documento. Como las etiquetas de enlace (<a> <a/> ) y negrita (<strong> <strong/> ).</strong> </a>
 
 #### Etiquetas a nivel de bloque
 
-Hay tres etiquetas de nivel de bloque que cada documento HTML debe tener:<html>,<head**\>Y<body**\>.<**/body><**/hea**d></htm**l>
+Hay tres etiquetas de nivel de bloque que cada documento HTML debe tener:**<html>**,**<head\>**Y**<body\>**.</body></head></html>
 
--   La eti**queta<html></h**tml>es el elemento de nivel más alto que implica todas las páginas HTML.
--   La eti**queta<head></he**ad>contiene información meta, como el título de la página, la descripción, etc.
--   La eti**queta<body></bo**dy>incluye todo el contenido que aparece en la página.
+-   La etiqueta**<html></html>**es el elemento de nivel más alto que implica todas las páginas HTML.
+-   La etiqueta**<head></head>**contiene información meta, como el título de la página, la descripción, etc.
+-   La etiqueta**<body></body>**incluye todo el contenido que aparece en la página.
 
 <html>
   <head></head>
@@ -79,10 +79,10 @@ Hay tres etiquetas de nivel de bloque que cada documento HTML debe tener:<html>,
     <!-- CONTEÚDO DA PÁGINA -->
   
 
--   Las etiquetas de título tienen 6 niveles. Van desde<h1><***/h1>el<h6***\></***h6>, don***de h1 es el título de nivel más alto, normalmente el título de la página, y h6 es el nivel más bajo.
--   Los párrafos están delimitados ***por<p***\>.
--   Las divisiones son secciones de contenido más grandes que normalmente contienen varios encabezados, párrafos y otros elementos más pequeños. Podemos marcarlos usando la etiq***ueta<div></d***iv>o **<section></section>** .
--   También hay etiquetas para listas, se pueden ordenar **<ol></ol**\> o no <ul></ul> **ordenar**. Las posiciones individuales de una lista deben estar entre lo**s<li></li**\>. Por ejemplo, esto es lo que una lista básica desordenada se ve como en HTML:
+-   Las etiquetas de título tienen 6 niveles. Van desde***<h1></h1>***el***<h6\></h6>***, donde h1 es el título de nivel más alto, normalmente el título de la página, y h6 es el nivel más bajo.
+-   Los párrafos están delimitados por ***<p\>***.
+-   Las divisiones son secciones de contenido más grandes que normalmente contienen varios encabezados, párrafos y otros elementos más pequeños. Podemos marcarlos usando la etiqueta***<div></div>***o **<section></section>** .
+-   También hay etiquetas para listas, se pueden ordenar **<ol></ol\>** o no **<ul></ul>** ordenar. Las posiciones individuales de una lista deben estar entre los**<li></li\>**. Por ejemplo, esto es lo que una lista básica desordenada se ve como en HTML:
 
 <ul>
     <li>Lista del punto 1</li>
@@ -91,13 +91,13 @@ Hay tres etiquetas de nivel de bloque que cada documento HTML debe tener:<html>,
 
 #### Etiquetas en línea
 
-Muchas etiquetas en línea se utilizan para dar formato al texto. Por ejemplo, una etique**ta <strong></strong**\> representaría un elemento en negrita, mientras que las eti**quetas m**ostrarían <i></i> cursiva.
+Muchas etiquetas en línea se utilizan para dar formato al texto. Por ejemplo, una etiqueta **<strong></strong\>** representaría un elemento en negrita, mientras que las etiquetas mostrarían **<i></i>** cursiva.
 
-Los hipervínculos también son elementos en línea que requieren etiquetas y atributo`s hr`ef para indicar el destino del vínculo:
+Los hipervínculos también son elementos en línea que requieren etiquetas y atributos `href` para indicar el destino del vínculo:
 
 <a href="http://marquesfernandes.com.br">¡Enlace a mi blog!</a>
 
-Las imágenes también son elementos en línea. Puede agregar uno sin etiqueta de cierre. Pero también necesitará utilizar el atribut`o s`rc para especificar la ruta de la imagen, por ejemplo:
+Las imágenes también son elementos en línea. Puede agregar uno sin etiqueta de cierre. Pero también necesitará utilizar el atributo `src` para especificar la ruta de la imagen, por ejemplo:
 
 <img src="/images/example.jpg" alt="Example image">
 

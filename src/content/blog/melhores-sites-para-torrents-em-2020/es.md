@@ -24,9 +24,9 @@ Separe los principales sitios torrent que funcionan y que contiene una amplia se
 
 [![RARBG](./2020-08-image-17.jpg)](https://rarbgproxied.org/torrents.php)
 
-El **[RARBG](https://rarbgproxied.org/torrents.php)** es mi sitio favorito, ha existido desde 2008 y ha construido una reputación por contener torrentes de alta cali**da**d, fácil de usar y es uno de, si no el portal torrent más actualizado disponible. A diferencia de otros sitios, el público en general no puede cargar en él, en su lugar todos los remitentes son verificados previamente por los moderadores.
+El **[RARBG](https://rarbgproxied.org/torrents.php)** es mi sitio favorito, ha existido desde 2008 y ha construido una reputación por contener torrentes de alta calidad**,** fácil de usar y es uno de, si no el portal torrent más actualizado disponible. A diferencia de otros sitios, el público en general no puede cargar en él, en su lugar todos los remitentes son verificados previamente por los moderadores.
 
-Desafortunadamente, debido a que es tan bueno, significa que está constantemente bajo el radar de las autoridades, como resultado, la RARBG está bloqueada en muchos país**e**s, incluyendo Bulgaria, Dinamarca, Portugal y el Reino Unido.
+Desafortunadamente, debido a que es tan bueno, significa que está constantemente bajo el radar de las autoridades, como resultado, la RARBG está bloqueada en muchos países**,** incluyendo Bulgaria, Dinamarca, Portugal y el Reino Unido.
 
 El sitio tiene varios puntos positivos:
 
@@ -37,7 +37,7 @@ El sitio tiene varios puntos positivos:
 
 [![YIFI, Año Nuevo](./2020-08-image-17-1.jpg)](https://yts.mx/)
 
-**YIFY Torrents** o Y**TS** es un grupo muy famoso en la comunidad de torrents, que proporcionan películas en alta calidad ya que recuerdo haber usado este medio para descargar archivos. Las versiones de YIFY han ganado mucha popularidad por su calidad de vídeo y distribución en un pequeño tamaño de archivo, lo que ha atraído a muchos usuarios.
+**YIFY Torrents** o **YTS** es un grupo muy famoso en la comunidad de torrents, que proporcionan películas en alta calidad ya que recuerdo haber usado este medio para descargar archivos. Las versiones de YIFY han ganado mucha popularidad por su calidad de vídeo y distribución en un pequeño tamaño de archivo, lo que ha atraído a muchos usuarios.
 
 El sitio original de YIFY/YTS fue cerrado por la [MPAA](https://pt.wikipedia.org/wiki/Motion_Picture_Association_of_America) en 2015, sin embargo, un sitio que imita la marca YIFY /YTS todavía existe y proporciona fácilmente todas las *versiones* de torrents.
 
@@ -65,6 +65,6 @@ Como el tercer sitio torrent más popular en el mundo y uno de los más antiguos
 
 [![Kickass Torrents](./2020-08-image-18.png)](https://newkatcr.co/)
 
-[Kickass Torrents](https://newkatcr.co/), también conocido como [KATCR.CO](https://newkatcr.co/), cuenta con una enorme biblioteca de torrents y una comunidad igualmente grand**e,** con una amplia selección de películas y seriales. Esto significa que probablemente puede encontrar todo el contenido que desea y descargarlo de ese portal rápidamente.
+[Kickass Torrents](https://newkatcr.co/), también conocido como [KATCR.CO](https://newkatcr.co/), cuenta con una enorme biblioteca de torrents y una comunidad igualmente grande**,** con una amplia selección de películas y seriales. Esto significa que probablemente puede encontrar todo el contenido que desea y descargarlo de ese portal rápidamente.
 
 Kickass Torrents tiene algunos molestos anuncios y ventanas emergentes que necesita para pasar un poco de tiempo cerrando. Al igual que ThePirateBay, KickassTorrents está bloqueado en muchos países, incluyendo los Estados Unidos, Reino Unido y Australia.

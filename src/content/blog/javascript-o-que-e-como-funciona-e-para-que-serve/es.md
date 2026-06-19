@@ -18,17 +18,17 @@ needsReview: false
 updated: 2021-12-12T11:23:44.000Z
 ---
 
-**JavaScript, o** JS **p**ara los íntimos, es uno de los lenguajes de programación más populares y utilizados en el mundo. Es un lenguaje interpretado, de alto nivel y multiparadigma (orientado a objetos, funcional, imperativo y prototipo). Con él, es posible desarrollar a partir de páginas dinámicas, aplicaciones para smartphones, sistemas complejos e incluso videojuegos.
+**JavaScript,** o **JS** para los íntimos, es uno de los lenguajes de programación más populares y utilizados en el mundo. Es un lenguaje interpretado, de alto nivel y multiparadigma (orientado a objetos, funcional, imperativo y prototipo). Con él, es posible desarrollar a partir de páginas dinámicas, aplicaciones para smartphones, sistemas complejos e incluso videojuegos.
 
 Hoy vamos a aprender más acerca de lo que es JavaScript, cómo funciona y dónde podemos utilizar ese lenguaje.
 
 ## Descargo de responsabilidad: JavaScript no es Java
 
-El nombre es similar y causa mucha confusión, per**o JavaScrip**t NO es Java. Hay una breve relación en la creación del lenguaje, pero se detiene allí. Lo explicaré mejor en el siguiente párrafo.
+El nombre es similar y causa mucha confusión, pero **JavaScript** NO es Java. Hay una breve relación en la creación del lenguaje, pero se detiene allí. Lo explicaré mejor en el siguiente párrafo.
 
 ## Breve historia de JavaScript
 
-Internet era muy diferente de cómo lo conocemos hoy en día, hubo un tiempo en que las páginas eran simplemente sitios web estáticos, aburridos y sin vida. En sus primeros días, *la World Wide* Web era sólo un gran grupo de páginas tabuladas escritas en HTML, con enlaces e imágenes llamativas. Con los años, y la popularización de Internet, las necesidades y funcionalidades se volvieron cada vez más complicadas y requerían una forma más avanzada de crear páginas que interactuaran mejor con los usuarios.
+Internet era muy diferente de cómo lo conocemos hoy en día, hubo un tiempo en que las páginas eran simplemente sitios web estáticos, aburridos y sin vida. En sus primeros días, la *World Wide Web* era sólo un gran grupo de páginas tabuladas escritas en HTML, con enlaces e imágenes llamativas. Con los años, y la popularización de Internet, las necesidades y funcionalidades se volvieron cada vez más complicadas y requerían una forma más avanzada de crear páginas que interactuaran mejor con los usuarios.
 
 [![Sitio web de Spacejam](./2020-01-SPACE.jpg)](https://www.spacejam.com/)
 
@@ -42,9 +42,9 @@ Durante un tiempo, la lucha por el espacio de otras tecnologías web mantuvo Jav
 
 > Las computadoras no entienden JavaScript, los entornos sí.
 
-JavaScript es un lenguaje interpretado y nocompilado para el código de máquina, es decir, JavaScript no convierte mucho de 1 y 0, por lo que "los ordenadores no entienden javascript". Para que esto suceda, el lenguaje neces*ita un* motor y un entorno de *tiempo de ejec*ución para que funcione.
+JavaScript es un lenguaje interpretado y nocompilado para el código de máquina, es decir, JavaScript no convierte mucho de 1 y 0, por lo que "los ordenadores no entienden javascript". Para que esto suceda, el lenguaje necesita un *motor* y un *entorno de tiempo de ejecución* para que funcione.
 
-Un motor J*avaScr*ipt es un programa "C++ escrito" (no todos los motores son, por ejemplo), que es un lenguaje compilado que el equipo puede entender y ejecutar, por lo que el motor pasa a través de todo el código JavaScript y lo convierte en algo que el procesador del equipo puede entender y ejecutar - código de máquina. Este motor funciona dentro de un contexto, que constituye nuestr*o entorno de tiempo de* ejecución, como en el caso del navegador Chrome y NodeJS, ambos utilizan el mismo motor pero tienen algunos contextos y funcionalidades diferentes. Tenemos algunos motores famosos, el mencionado [V8](https://v8.dev/) funciona en Chrome, Opera y Node y fue desarrollado por Google, ya Firefox se embarca en el motor [SpiderMonkey](https://developer.mozilla.org/pt-BR/docs/Mozilla/Projects/SpiderMonkey) desarrollado por Mozilla.
+Un *motor* JavaScript es un programa "C++ escrito" (no todos los motores son, por ejemplo), que es un lenguaje compilado que el equipo puede entender y ejecutar, por lo que el motor pasa a través de todo el código JavaScript y lo convierte en algo que el procesador del equipo puede entender y ejecutar - código de máquina. Este motor funciona dentro de un contexto, que constituye nuestro *entorno de tiempo de ejecución*, como en el caso del navegador Chrome y NodeJS, ambos utilizan el mismo motor pero tienen algunos contextos y funcionalidades diferentes. Tenemos algunos motores famosos, el mencionado [V8](https://v8.dev/) funciona en Chrome, Opera y Node y fue desarrollado por Google, ya Firefox se embarca en el motor [SpiderMonkey](https://developer.mozilla.org/pt-BR/docs/Mozilla/Projects/SpiderMonkey) desarrollado por Mozilla.
 
 Y todo este contexto hace de JavaScript un lenguaje de alto nivel, el motor es responsable de toda la abstracción y el problema de comunicarse con la máquina, haciendo el desarrollo más fácil y optimizado.
 

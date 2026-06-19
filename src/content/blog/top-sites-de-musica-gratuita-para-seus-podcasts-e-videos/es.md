@@ -36,7 +36,7 @@ Si navegas por un tiempo en la plataforma probablemente te encontrarás con much
 
 \-ERR:REF-NOT-FOUND-Biblioteca de audio de Youtube
 
-Yo**utube Audio Library es** un servicio de Youtube conocido por unos pocos. Cuenta con una amplia selección de canciones para uso directo y gratuito en la creación de sus contenidos.
+**Youtube Audio Library** es un servicio de Youtube conocido por unos pocos. Cuenta con una amplia selección de canciones para uso directo y gratuito en la creación de sus contenidos.
 
 ## 3\. [FMA - Free Music Archive](https://freemusicarchive.org/)
 

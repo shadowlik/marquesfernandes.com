@@ -33,7 +33,7 @@ Ahora que estás más tranquilo, vamos a la parte buena, no necesitas ser un hac
 
 ## 0 - Descubrir el tipo de partición
 
-Si está en modo EFI y/o la partición donde estaba el archivo eliminado es ext3 o **ext4,** siga [**el paso 1.1**](#Instalando-o-TestDisk) y, a continuación, vaya a **[Recuperación de archivos eliminados con Photorec](#photorec)**.
+Si está en modo EFI y/o la partición donde estaba el archivo eliminado es **ext3** o **ext4**, siga [**el paso 1.1**](#Instalando-o-TestDisk) y, a continuación, vaya a **[Recuperación de archivos eliminados con Photorec](#photorec)**.
 
 Si no está seguro de qué tipo de partición es, utilice el comando `df -Th` para enumerar todas las particiones y sus tipos desde sus unidades de disco:
 
@@ -75,7 +75,7 @@ Probablemente esté usando una versión superior de 7.0, por lo que muchos de lo
 
 ![Captura de pantalla 4](./2020-01-image-21.png)
 
-En este paso verá una lista de sus discos. Seleccione la partición donde estaba su archivo, si no sabe lo que sigue siguiendo las recomendaciones de la herramienta, en mi caso es el disco de la memoria USB de Kingston. *No olvide seleccionar la opción Continuar en el menú de na*`vegació`n.
+En este paso verá una lista de sus discos. Seleccione la partición donde estaba su archivo, si no sabe lo que sigue siguiendo las recomendaciones de la herramienta, en mi caso es el disco de la memoria USB de Kingston. *No olvide seleccionar la opción Continuar en el menú de navegación.*
 
 ### 1.5 - Selección del tipo de partición
 
@@ -107,7 +107,7 @@ No me importa la diferencia de impresiones, tuve que rehacer los pasos y termin�
 
 ![Captura de pantalla 9](./2020-01-image-30.png)
 
-Ahora para recuperar nuestros archivos necesitamos seleccionar nuestro archivo y presionar la tecla **"**c". Entonces usted tendrá que elegir para qué dirección desea recuperar el archivo y si todo va bien un mensaje como el siguiente debe aparecer: "Copiar hecho! 1 ok, 0 falló."
+Ahora para recuperar nuestros archivos necesitamos seleccionar nuestro archivo y presionar la tecla "**c**". Entonces usted tendrá que elegir para qué dirección desea recuperar el archivo y si todo va bien un mensaje como el siguiente debe aparecer: "Copiar hecho! 1 ok, 0 falló."
 
 ¡Listo! Si ha realizado todos los pasos y recibió el mensaje de éxito, su archivo estará seguro. Asegúrese de que su contenido sigue intacto, si algo salió mal, repita todos los pasos. Y si usted hizo todos los pasos, tal vez el tipo de su partición no se puede restaurar utilizando TestDisk, ext4 por ejemplo, pero no se preocupe... Podemos utilizar otra herramienta que se instala junto con el paquete TestDisk, Photorec!
 
@@ -117,7 +117,7 @@ Desafortunadamente los pasos anteriores no son posibles para algunos tipos de pa
 
 El proceso puede tardar un poco más dependiendo de cuántos archivos eliminados tiene en el disco que son de la misma medida en que desea recuperar.
 
-Supongamos que borré un archivo llamado c**urriculum.doc**.
+Supongamos que borré un archivo llamado **curriculum.doc**.
 
 ![Captura de pantalla 10](./2020-01-image-32.png)
 
@@ -131,7 +131,7 @@ Ejecute el comando `photorec sud`o en su terminal para iniciar el programa de re
 
 ![Captura de pantalla 12](./2020-01-image-35.png)
 
-Selecciona el tipo de archivos que queremos recuperar, cuanto más específico sea, menos tiempo tardará en recuperar nuestro archivo. Haga clic en la **tec**la "s" para descelebrar todas las opciones y busque la extensión de su archivo, en nuestro caso **.do**c. Después de seleccionar todas las extensiones deseadas, haga clic en **"b**" para guardar la nueva configuración y, a continuación, haga clic en enter en la opción de salir para volver al menú principal.
+Selecciona el tipo de archivos que queremos recuperar, cuanto más específico sea, menos tiempo tardará en recuperar nuestro archivo. Haga clic en la tecla **"s"** para descelebrar todas las opciones y busque la extensión de su archivo, en nuestro caso **.doc**. Después de seleccionar todas las extensiones deseadas, haga clic en **"b"** para guardar la nueva configuración y, a continuación, haga clic en enter en la opción de salir para volver al menú principal.
 
 ### 2.3 - Selección de la partición
 

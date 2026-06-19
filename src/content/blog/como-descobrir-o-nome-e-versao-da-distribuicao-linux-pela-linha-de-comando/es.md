@@ -18,7 +18,7 @@ updated: 2021-12-12T11:24:16.000Z
 
 Probablemente en algún momento de tu vida te enfrentarás a un terminal linux desconocido donde no tienes idea de cuál es la distribución, y mucho menos la versión... Pero entonces, ¿cómo averé qué distribución/versión estoy ejecutando?
 
-**TL;D**R - Puede utilizar uno de los siguientes métodos:
+**TL;DR** - Puede utilizar uno de los siguientes métodos:
 
 1.  gato /etc/\*-liberación
 2.  lsb\_release -a
@@ -91,6 +91,6 @@ Ejemplo del resultado:
 
 Linux \*\*\*\*\*\* 5.0.0-16-genérico #17-Ubuntu SMP Wed Mayo 15 10:52:21 UTC 2019 x86\_64 x86\_64 x86\_64 GNU/Linux
 
-1.  **Linux - N**ombre del núcleo
+1.  **Linux -** Nombre del núcleo
 2.  **5.0.0-16 -** Versión del núcleo
 3.  **x86\_64** \- Versión de arquitectura (64 bits)

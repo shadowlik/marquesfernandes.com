@@ -71,4 +71,4 @@ El archivo launch.json contiene toda la configuración de los depuradores del pr
 
 ![](./2020-01-image-6.png)
 
-Ahora que hemos configurado toda la configuración necesaria, podemos empezar a depurar nuestra aplicación. Haga clic en el botón ▶️ de la ficha De depuración o en el acceso direct**o F**5\. Si todo es correcto, se producirá el proceso de compilación y el depurador se detiene en la fila seleccionada.
+Ahora que hemos configurado toda la configuración necesaria, podemos empezar a depurar nuestra aplicación. Haga clic en el botón ▶️ de la ficha De depuración o en el acceso directo **F5**\. Si todo es correcto, se producirá el proceso de compilación y el depurador se detiene en la fila seleccionada.

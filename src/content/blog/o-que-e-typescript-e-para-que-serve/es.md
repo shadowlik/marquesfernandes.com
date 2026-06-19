@@ -20,7 +20,7 @@ updated: 2021-12-12T11:23:26.000Z
 
 Fue considerado por el público como el 4o idioma más querido, según una encuesta realizada por el desbordamiento de la pila en 2018, y se encuentra entre los 15 idiomas más populares, según una encuesta realizada por [RedMonk](https://redmonk.com/).
 
-El código TypeScript se guarda en un archivo con la extensió**n `.t`**s y se compila en JavaScript mediante su compilador.
+El código TypeScript se guarda en un archivo con la extensión **`.ts`** y se compila en JavaScript mediante su compilador.
 
 ## **Historial de TypeScript**
 
@@ -32,11 +32,11 @@ Cualquier persona que ha tratado de desarrollar y estructurar una aplicación gr
 
 Dado que es un lenguaje con tipo, las características importantes como autocompletar en el IDE han estado disponibles, coherencia de código y predicción de errores inesperada también. Además, podemos enumerar algunas otras ventajas tangentes:
 
--   Es **similar a** JavaS**cript y ut**iliza la misma sintaxis y semántica.  
+-   Es **similar a** **JavaScript** y utiliza la misma sintaxis y semántica.  
 -   Al igual que otros lenguajes con tipo, como C- y Java, ayuda a los desarrolladores de back-end a migrar a NodeJs más fácilmente e incluso escribir código front-end.
 -   Puede llamar al código de tipo de texto desde un código JavaScript existente. Además, funciona con código JavaScript puro y bibliotecas sin problemas. 
--   El archivo definition, *con extensión .d.ts,* proporciona compatibilidad con bibliotecas JavaScript existentes co**mo Jquery, D3.**js, etc. Por lo tanto, el código TypeScript puede agregar bibliotecas de JavaScript mediante definiciones de tipos para aprovechar las ventajas de la comprobación de tipos, la autocompletar de código y la documentación en bibliotecas JavaScript de tipo dinámico existentes.   [bibliotecas JavaScript](https://www.edureka.co/blog/javascript-libraries/)
--   Incluye característica**s** ES6 **y** ES7 que se pueden ejecutar en motores JavaScript ES5 como [Node.js](http://marquesfernandes.com/afinal-o-que-e-nodejs/).
+-   El archivo definition, *con extensión .d.ts,* proporciona compatibilidad con bibliotecas JavaScript existentes como **Jquery, D3.js**, etc. Por lo tanto, el código TypeScript puede agregar bibliotecas de JavaScript mediante definiciones de tipos para aprovechar las ventajas de la comprobación de tipos, la autocompletar de código y la documentación en bibliotecas JavaScript de tipo dinámico existentes.   [bibliotecas JavaScript](https://www.edureka.co/blog/javascript-libraries/)
+-   Incluye **características** ES6 **y** ES7 que se pueden ejecutar en motores JavaScript ES5 como [Node.js](http://marquesfernandes.com/afinal-o-que-e-nodejs/).
 
 **Referencias:**  
 [https://blog.rocketseat.com.br/typescript-vantagens-mitos-conceitos/](https://blog.rocketseat.com.br/typescript-vantagens-mitos-conceitos/)  

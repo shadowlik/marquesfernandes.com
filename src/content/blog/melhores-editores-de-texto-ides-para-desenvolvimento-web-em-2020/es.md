@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:24:08.000Z
 ---
 
-La creación de sus líneas de código se puede hacer sin ninguna herramienta específica. Teóricamente todo lo que necesitas es un editor de texto simple, masass probablemente esto no será muy productivo, especialmente cuando hablamos de desarrollo web. Un bue**n e**ntorno de desarrollo integrado (IDE) tiene como objetivo mejorar su productividad, ayudar a minimizar los errores (autocompletar, pelusas, etc.), facilitar el proceso de depuración y mucho más.
+La creación de sus líneas de código se puede hacer sin ninguna herramienta específica. Teóricamente todo lo que necesitas es un editor de texto simple, masass probablemente esto no será muy productivo, especialmente cuando hablamos de desarrollo web. Un buen entorno de desarrollo integrado (**IDE**) tiene como objetivo mejorar su productividad, ayudar a minimizar los errores (autocompletar, pelusas, etc.), facilitar el proceso de depuración y mucho más.
 
 *Desprotejo: [**desarrollo optimizado de NodeJS con Typescript, Docker y ESlint**](http://marquesfernandes.com/2019/12/11/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint)*
 
@@ -80,7 +80,7 @@ Debido al intenso apoyo de la comunidad y el diseño flexible, este editor de te
 
 NetBeans es un editor consolidado, existe ya que me conozco como programador, muy popular principalmente entre los desarrolladores de Java.
 
-Además del inglés, también está disponible en varios otros idiomas, como japonés, chino simplificado, ruso y **portugués de Brasi**l.
+Además del inglés, también está disponible en varios otros idiomas, como japonés, chino simplificado, ruso y **portugués de Brasil**.
 
 NetBeans está disponible para Mac OS, Windows y Linux.
 

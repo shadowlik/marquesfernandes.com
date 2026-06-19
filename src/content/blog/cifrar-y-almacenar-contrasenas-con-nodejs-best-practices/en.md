@@ -23,7 +23,7 @@ The encryption of a password is always the same for that password, and even thou
 
 ## What about the salt and pepper technique?
 
-There are other techniques for storing passwords securely. One variant **of** salt **is salt and pe**pper, which consists of storing the unique salt per user and combining it with a peppe**r (pep**per), which is basically a key in the text generated at the application level and shared by all passwords. Many argue that having this layer of security at the application level prevents possible access breaches to your database from compromising the passwords, since the attackers would also have access to the salt. The problem with this technique is maintenance, since you need to securely store this text, and in the event of any breach with the pep**per** all passwords would become invalid.
+There are other techniques for storing passwords securely. One variant **of** salt **is salt and pepper**, which consists of storing the unique salt per user and combining it with a **pepper** (pepper), which is basically a key in the text generated at the application level and shared by all passwords. Many argue that having this layer of security at the application level prevents possible access breaches to your database from compromising the passwords, since the attackers would also have access to the salt. The problem with this technique is maintenance, since you need to securely store this text, and in the event of any breach with the **pepper** all passwords would become invalid.
 
 ## Steps of the process
 

@@ -52,7 +52,7 @@ La gran mayoría de las buenas herramientas de marketing por correo electrónico
 
 ![SendinBlue](./2020-12-image-1-1.jpg)
 
-La usabilidad de [SendinBlue](https://pt.sendinblue.com/) es *m*uy intuitiva, pero el proceso de configuración de la cuenta y la primera campaña toman un tiempo.
+La usabilidad de [SendinBlue](https://pt.sendinblue.com/) es *muy* intuitiva, pero el proceso de configuración de la cuenta y la primera campaña toman un tiempo.
 
 ### 4\. [ConvertKit](https://convertkit.com/)
 

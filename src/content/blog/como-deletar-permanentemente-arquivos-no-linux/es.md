@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:23:45.000Z
 ---
 
-En la mayoría de los casos, la forma en que eliminamos un archivo de nuestros equipos, ya sea por la clave Del, la papelera de reciclaje `o` el comando rm, en realidad no eliminan el archivo del disco duro de forma permanente y segura (o de cualquier otro medio de almacenamiento).
+En la mayoría de los casos, la forma en que eliminamos un archivo de nuestros equipos, ya sea por la clave Del, la papelera de reciclaje o el comando `rm`, en realidad no eliminan el archivo del disco duro de forma permanente y segura (o de cualquier otro medio de almacenamiento).
 
 Si usamos los métodos anteriores, suponiendo que queremos eliminar un archivo con contenido confidencial, un archivo con usuarios y contraseñas, por ejemplo, todavía es posible que alguien malintencionado pueda [recuperar esos archivos](http://marquesfernandes.com/como-recuperar-arquivos-excluidos-no-linux-ubuntu-debian/).
 
@@ -24,18 +24,18 @@ Vamos a aprender algunas maneras de eliminar archivos de forma segura de nuestro
 
 ## 1\. Triturar - Sobrescribir el archivo para ocultar su contenido
 
-El comando `shre`d utiliza el método de sobrescritura del archivo para ocultar su contenido y también tiene la opción de eliminar posteriormente.
+El comando `shred` utiliza el método de sobrescritura del archivo para ocultar su contenido y también tiene la opción de eliminar posteriormente.
 
 Esta herramienta ya está instalada de forma predeterminada en la mayoría de las distribuciones de Linux.
 
 $ shred -zvu -n 5 passwordsbancarias.txt
 
--   `-`z-añadir ceros al final para ocultar
+-   `-z`- añadir ceros al final para ocultar
 -   `-v` - permite la visualización del progreso del comando
 -   `-u`\- elimina los archivos después de sobrescribir
 -   `-n` - número de veces para sobrescribir el archivo (predeterminado: 3)
 
-**Conse**jo: Nunca escriba sus contraseñas en un archivo de texto. Desafortunadamente, es una práctica muy común pero totalmente insegura de almacenar dicha información.
+**Consejo:** Nunca escriba sus contraseñas en un archivo de texto. Desafortunadamente, es una práctica muy común pero totalmente insegura de almacenar dicha información.
 
 ![Triturar - Sobrescribir el archivo para ocultar su contenido](./2020-02-image-8.png)
 

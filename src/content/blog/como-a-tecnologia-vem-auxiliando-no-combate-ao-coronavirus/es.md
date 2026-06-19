@@ -63,9 +63,9 @@ El Consejo Federal de Medicina (CFM) autorizó el 19 de marzo el [uso de la tele
 
 La telemedicina debe utilizarse en las siguientes formas:
 
--   **Orientación**: Los profesionales llevan a cabo la orientación y derivación de pacientes de forma aislada a distancia.
--   **Monitoreo: Mo**nitoreo del progreso del paciente.
--   **Interconsulta:** Intercambio de información y opiniones entre médicos, para asistencia diagnóstica o terapéutica.
+-   **Orientación:** Los profesionales llevan a cabo la orientación y derivación de pacientes de forma aislada a distancia.
+-   **Monitoreo:** Monitoreo del progreso del paciente.
+-   **Interconsulta**: Intercambio de información y opiniones entre médicos, para asistencia diagnóstica o terapéutica.
 
 ## 5\. Aplicación para monitorear pacientes con Coronavirus
 
@@ -109,7 +109,7 @@ Microsoft lanzó Microsoft Teams de forma gratuita durante los próximos seis me
 
 ### 6.7 Slack
 
-Sl**ack e**stá poniendo su versión de pago a disposición de las empresas que han estado trabajando directamente para combatir el coronavirus.
+**Slack** está poniendo su versión de pago a disposición de las empresas que han estado trabajando directamente para combatir el coronavirus.
 
 ## Conclusión
 

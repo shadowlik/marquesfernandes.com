@@ -31,19 +31,19 @@ Como se explicó anteriormente, el desarrollo de frontend gira en torno a 3 tecn
 
 ### [HTML](http://marquesfernandes.com/tecnologia/o-que-e-html-e-para-que-serve/)
 
-> **HTML** no es un lenguaje de programación, aunque mucha gente lo confunde, es un lenguaje de marcado que define estructuralmente el contenido. H**TML** consta de una serie de elementos predefinidos, llamados etiquetas, que se utilizan para separar, organizar y mostrar el contenido según lo programado. Las etiquetas le permiten crear un hipervínculo; una imagen; un título; aumentar o disminuir la fuente y más.
+> **HTML** no es un lenguaje de programación, aunque mucha gente lo confunde, es un lenguaje de marcado que define estructuralmente el contenido. **HTML** consta de una serie de elementos predefinidos, llamados etiquetas, que se utilizan para separar, organizar y mostrar el contenido según lo programado. Las etiquetas le permiten crear un hipervínculo; una imagen; un título; aumentar o disminuir la fuente y más.
 > 
 > [Que es HTML - Marques Fernandes](http://marquesfernandes.com/tecnologia/o-que-e-html-e-para-que-serve/)
 
 ### [CSS](http://marquesfernandes.com/tecnologia/o-que-e-css-e-para-que-serve/)
 
-> **C**ascading **S**tyle **S**heets (C**SS)** es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas en Internet (**[HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**). Podemos pensar en CSS como la piel o incluso la ropa, es responsable de aplicar todas las personalizaciones visuales como el tamaño y el color de la fuente, el color de fondo y mucho más. 
+> **C**ascading **S**tyle **S**heets (**CSS**) es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas en Internet (**[HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**). Podemos pensar en CSS como la piel o incluso la ropa, es responsable de aplicar todas las personalizaciones visuales como el tamaño y el color de la fuente, el color de fondo y mucho más. 
 > 
 > [Que es CSS - Marques Fernandes](http://marquesfernandes.com/tecnologia/o-que-e-css-e-para-que-serve/)
 
 ### [JavaScript](http://marquesfernandes.com/desenvolvimento/javascript-o-que-e-como-funciona-e-para-que-serve/)
 
-> **JavaScript,** o J**S** para iniciados, es uno de los lenguajes de programación más populares y utilizados del mundo. Es un lenguaje interpretado, de alto nivel y multi-paradigma (orientado a objetos, funcional, imperativo y prototipos). Con él es posible desarrollar desde páginas dinámicas, aplicaciones para smartphones, sistemas complejos e incluso juegos electrónicos.
+> **JavaScript,** o **JS** para iniciados, es uno de los lenguajes de programación más populares y utilizados del mundo. Es un lenguaje interpretado, de alto nivel y multi-paradigma (orientado a objetos, funcional, imperativo y prototipos). Con él es posible desarrollar desde páginas dinámicas, aplicaciones para smartphones, sistemas complejos e incluso juegos electrónicos.
 > 
 > [Que es JavaScript - Marques Fernandes](http://marquesfernandes.com/desenvolvimento/javascript-o-que-e-como-funciona-e-para-que-serve/)
 
@@ -59,13 +59,13 @@ El proceso de desarrollo en el frontend ha experimentado una mejora exponencial,
 
 ### ReactJS
 
-**Reac**t (también conocido como **React.j**s o **ReactJS**) es una biblioteca de JavaScript de código abierto para crear interfaces de usuario o componentes de UI. Lo mantiene Facebook y una comunidad de desarrolladores y empresas individuales. React se puede utilizar como base para desarrollar aplicaciones móviles o de una sola página. 
+**React** (también conocido como **React.js** o **ReactJS**) es una biblioteca de JavaScript de código abierto para crear interfaces de usuario o componentes de UI. Lo mantiene Facebook y una comunidad de desarrolladores y empresas individuales. React se puede utilizar como base para desarrollar aplicaciones móviles o de una sola página. 
 
 ![](./2020-08-6017da3ed8f203fe979b16dae1ad2259.png)
 
 ### VueJS
 
-Vue (pronunciado / vjuː /, como v**ista**) es una **estructura progresiva** para construir interfaces de usuario. A diferencia de otras estructuras monolíticas, Vue fue diseñado desde el principio para ser adoptado de forma incremental. La biblioteca central se centra solo en la capa de visualización y es fácil de seleccionar e integrar con otras bibliotecas o proyectos existentes.
+Vue (pronunciado / vjuː /, como **vista**) es una **estructura progresiva** para construir interfaces de usuario. A diferencia de otras estructuras monolíticas, Vue fue diseñado desde el principio para ser adoptado de forma incremental. La biblioteca central se centra solo en la capa de visualización y es fácil de seleccionar e integrar con otras bibliotecas o proyectos existentes.
 
 ![](./2020-08-wp5722157.png)
 

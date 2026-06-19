@@ -19,13 +19,13 @@ needsReview: false
 updated: 2021-12-12T11:23:40.000Z
 ---
 
-La palabra **Fintec**h nunca se ha escuchado tanto como en los últimos tiempos, gracias a empresas como [Nubank](http://nubank.com.br/), [Creditas](https://www.creditas.com/) y tantos otros que han ido revolucionando el mercado financiero, han hecho que el término sea cada vez más común en nuestro vocabulario, y ahora tenemos [OpenBanking](https://openbankingbrasil.com.br/), un nuevo movimiento que fomentará cada vez más el surgimiento de estas empresas. Pero, ¿sabe lo que hacen y cuál es la diferencia para una empresa que se llama Fintech?
+La palabra **Fintech** nunca se ha escuchado tanto como en los últimos tiempos, gracias a empresas como [Nubank](http://nubank.com.br/), [Creditas](https://www.creditas.com/) y tantos otros que han ido revolucionando el mercado financiero, han hecho que el término sea cada vez más común en nuestro vocabulario, y ahora tenemos [OpenBanking](https://openbankingbrasil.com.br/), un nuevo movimiento que fomentará cada vez más el surgimiento de estas empresas. Pero, ¿sabe lo que hacen y cuál es la diferencia para una empresa que se llama Fintech?
 
-Otro término que se hará cada vez más popular es Embed**ded Fintech, exp**licaremos la diferencia de este concepto más adelante.
+Otro término que se hará cada vez más popular es **Embedded Fintech**, explicaremos la diferencia de este concepto más adelante.
 
 ## ¿Qué es fintech y qué hace una Fintech?
 
-**Finte**ch es un t*érmino que surg*ió de la unión de las palabras financieras (financieras) y tecnológicas. Las fintechs son principalmente un concepto para empresas nuevas e innovadoras que trabajan para innovar y optimizar los servicios existentes del mercado financiero.
+**Fintech** es un término que surgió de la unión de las palabras financieras (financieras) y tecnológicas. Las fintechs son principalmente un concepto para empresas nuevas e innovadoras que trabajan para innovar y optimizar los servicios existentes del mercado financiero.
 
 Estas empresas tienen costes operativos mucho más bajos en comparación con las instituciones tradicionales del sector y también ya existen procesos operativos menores o nulos, lo que les permite utilizar tecnología de punta para optimizar sus procesos, lo que en consecuencia abarata los servicios ofrecidos.
 
@@ -33,7 +33,7 @@ En esencia, fintech se utiliza para ayudar a las empresas, propietarios de negoc
 
 ## ¿Qué es y cuál es la diferencia de una Fintech integrada?
 
-**Embedded Fintech** (en portugués: *Fintech Embedded)*, corresponde a la creación de una Fintech dentro o por una empresa que no tiene como su principal modelo de negocio la oferta de servicios financieros, podemos utilizar como ejemplo Apple / Google, que han creado servicios de pago incrustados en su plataforma.
+**Embedded Fintech** (en portugués: *Fintech Embedded*), corresponde a la creación de una Fintech dentro o por una empresa que no tiene como su principal modelo de negocio la oferta de servicios financieros, podemos utilizar como ejemplo Apple / Google, que han creado servicios de pago incrustados en su plataforma.
 
 Un movimiento interesante es que las empresas tradicionales del mercado financiero han invertido cada vez más en este modelo de negocio, ya que tienen procesos y servicios funcionando durante mucho tiempo y con un gran número de clientes, el cambio a un modelo más moderno y tecnológico a veces no es posible, al menos no a corto plazo, por lo que una solución es crear una nueva empresa / plataforma para no perder mercado, que es cada vez más exigente. Un ejemplo de este escenario es la creación de la empresa [Iti](https://iti.itau/), un servicio de pago del Itaú.
 

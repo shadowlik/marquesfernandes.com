@@ -20,10 +20,10 @@ Probablemente ya has oído hablar de **[NodeJS](https://nodejs.org)** y que de a
 
 ***También echa un vistazo: [](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*** *[Javascript - ¿Qué es, cómo funciona y para qué servidor?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
 
-Probablemente escuchará a los desarrolladores que se refieren solo a N**ode** y no a **NodeJS.**
+Probablemente escuchará a los desarrolladores que se refieren solo a **Node** y no a **NodeJS.**
 
-El entorno **de n**odo tiene todo lo que necesita para ejecutar scripts en javascript, donde hasta entonces\* era posible sólo en los navegadores. Le permite utilizar javascript como lenguaje backend y utiliza el moto*r javascript V8 desa*rrollado por Google para Chrome, por lo que si utiliza ese navegador está utilizando la misma máquina de ejecución javascript que el nodo.\* **Nod**e  
-*JS **ha ex**istido durante 9 años.*
+El entorno **nodo** tiene todo lo que necesita para ejecutar scripts en javascript, donde hasta entonces\* era posible sólo en los navegadores. Le permite utilizar javascript como lenguaje backend y utiliza el *motor javascript V8* desarrollado por Google para Chrome, por lo que si utiliza ese navegador está utilizando la misma máquina de ejecución javascript que el **nodo**.  
+*\* **NodeJS** ha existido durante 9 años.*
 
 ## Motor V8
 
@@ -36,16 +36,16 @@ El propósito de V8 es acelerar el rendimiento de una aplicación mediante la co
 
 E/S significa "entrada" y "salida". Esto significa que cualquier tarea es una llamada HTTP hasta que lea un archivo en el disco.
 
-Esto es muy importante porque el n**odo** es de un solo subproceso (consume sólo un procesador), no es 100% cierto, pero vamos a simplificar y dejar silencio por ahora, por lo que si tiene alguna función de bloqueo todo el código se verá comprometido y probablemente lento:
+Esto es muy importante porque el **nodo** es de un solo subproceso (consume sólo un procesador), no es 100% cierto, pero vamos a simplificar y dejar silencio por ahora, por lo que si tiene alguna función de bloqueo todo el código se verá comprometido y probablemente lento:
 
-Imagine que ha desarrollado una API Rest que devuelve el contenido de un archivo de disco de su servidor, si desarrolla de forma blocante, supongamos que su archivo es pesado y tarda 1 minuto en leerse, cualquier siguiente llamada tendrá que esperar a que la primera llamada sea leída para que se responda e inicie el turno de su lectura. Usando el modelo sin bloqueo el nodo **"pon**e en cola" estas llamadas, comienza a procesarlas en paralelo y responde tan pronto como sea posible.
+Imagine que ha desarrollado una API Rest que devuelve el contenido de un archivo de disco de su servidor, si desarrolla de forma blocante, supongamos que su archivo es pesado y tarda 1 minuto en leerse, cualquier siguiente llamada tendrá que esperar a que la primera llamada sea leída para que se responda e inicie el turno de su lectura. Usando el modelo sin bloqueo el **nodo** "pone en cola" estas llamadas, comienza a procesarlas en paralelo y responde tan pronto como sea posible.
 
 ## [Npm](http://npmjs.com)
 
 ![](./2019-03-npm.png)
 
-Otra parte maravillosa del **nod**o está en su comunidad: **NPM** es el administrador de paquetes ("dependencias") **de No**deJS, aquí encontrará las más variadas soluciones escritas por la comunidad. Probablemente te encontrarás con situaciones/problemas al desarrollar que alguna buena alma ha pasado y publicado un paquete NPM **pa**ra hacer tu vida más fácil. ¡Todo este ecosistema hace que el desarrollo de aplicaciones en Node sea rápido y eficiente!
+Otra parte maravillosa del **nodo** está en su comunidad: **NPM** es el administrador de paquetes ("dependencias") de **NodeJS**, aquí encontrará las más variadas soluciones escritas por la comunidad. Probablemente te encontrarás con situaciones/problemas al desarrollar que alguna buena alma ha pasado y publicado un paquete **NPM** para hacer tu vida más fácil. ¡Todo este ecosistema hace que el desarrollo de aplicaciones en Node sea rápido y eficiente!
 
 ## Próximos pasos
 
-Bueno, ahora que ya sabes lo que es N**odeJS** recomiendas que de una xeretada en la documentación oficial es muy fácil, intuitivo y tiene buenos tutoriales para escribir tu primera aplicación en el nodo: [https://nodejs.org](https://nodejs.org)
+Bueno, ahora que ya sabes lo que es **NodeJS** recomiendas que de una xeretada en la documentación oficial es muy fácil, intuitivo y tiene buenos tutoriales para escribir tu primera aplicación en el nodo: [https://nodejs.org](https://nodejs.org)

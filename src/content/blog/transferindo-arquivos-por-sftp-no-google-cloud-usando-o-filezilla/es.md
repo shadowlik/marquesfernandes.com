@@ -27,7 +27,7 @@ Descarga e instala [PUTTY](https://www.ssh.com/ssh/putty/#sec-PuTTY-downloads) y
 
 ## Generación de claves públicas y privadas con PUTTYgen
 
-Abra el program**a PUTTYg**en y haga clic en el botó*n Genera*r.
+Abra el programa **PUTTYgen** y haga clic en el botón *Generar*.
 
 ![](./2019-11-download.jpg)
 
@@ -35,7 +35,7 @@ Aparecerá una barra de progreso pidiéndole que mueva el ratón para generar al
 
 ![](./2019-11-download-1.jpg)
 
-Después de generar las claves, aparecerán nuevos campos justo debajo. En el camp**o Comentario c**lave, escriba el usuario deseado.
+Después de generar las claves, aparecerán nuevos campos justo debajo. En el campo **Comentario clave**, escriba el usuario deseado.
 
 Copie la clave pública y guarde la clave privada en un lugar seguro del equipo.
 
@@ -43,36 +43,36 @@ Copie la clave pública y guarde la clave privada en un lugar seguro del equipo.
 
 ## Adición de la clave pública a la instancia en Google Cloud
 
-Inicie sesión en su cuenta de Google Cloud y vaya **a Compute Engine > Vm Instance**s.
+Inicie sesión en su cuenta de Google Cloud y vaya a **Compute Engine > Vm Instances**.
 
-Seleccione la instancia a la que desea acceder, haga clic en editar y vaya hacia abajo hasta que encuentre la sesión **de claves SS**H.
+Seleccione la instancia a la que desea acceder, haga clic en editar y vaya hacia abajo hasta que encuentre la sesión de **claves SSH**.
 
 ![](./2019-11-image-6.png)
 
-Pegue la clave pública que copió anteriormente en el campo **"Introducir todos los datos c**lave", para que vea el usuario que ha especificado al crear la clave izquierda.
+Pegue la clave pública que copió anteriormente en el campo "**Introducir todos los datos clave"**, para que vea el usuario que ha especificado al crear la clave izquierda.
 
 ![](./2019-11-image-7.png)
 
-Ahora actualice la instancia haciendo clic en **Guarda**r.
+Ahora actualice la instancia haciendo clic en **Guardar**.
 
 ## Configuración de la autenticación de clave pública en FileZilla
 
-Abra F**ileZill**a y vaya a Ed**itar > Configuración**.
+Abra **FileZilla** y vaya a **Editar > Configuración**.
 
 ![](./2019-11-image-9.png)
 
-En el menú del lado izquierdo vaya a **Conexión > FTP > SFT**P.
+En el menú del lado izquierdo vaya a **Conexión > FTP > SFTP**.
 
-Haga clic **en Agregar archivo de c**lave y seleccione la clave privada que guardó.
+Haga clic en **Agregar archivo de clave** y seleccione la clave privada que guardó.
 
 ![](./2019-11-image-8.png)
 
-Haga clic en **A**ceptar para guardar la configuración.
+Haga clic en **Aceptar** para guardar la configuración.
 
 ## Establecimiento de una conexión segura (SFTP) con su instancia
 
 Para conectarse a la instancia en Google Cloud, necesita la dirección IP y el usuario que crea la clave pública/privada.
 
-En la ventana FileZilla, en el campo host, escrib**a sftp://ipdainstanci**a. En el camp**o Usuari**o, introduzca el usuario y haga clic en Conexión rápida.
+En la ventana FileZilla, en el campo host, escriba **sftp://ipdainstancia**. En el campo **Usuario**, introduzca el usuario y haga clic en Conexión rápida.
 
 Una vez hecho esto, podrá acceder y transferir archivos a su instancia.

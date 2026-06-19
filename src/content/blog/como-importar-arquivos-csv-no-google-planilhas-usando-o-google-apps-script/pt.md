@@ -28,7 +28,7 @@ Se você utiliza o Excel da Microsoft, provavelmente está acostumado a utilizar
 
 O [Apps Script é](https://developers.google.com/apps-script) uma plataforma de script desenvolvida pela Google para o desenvolvimento de aplicativos leves na plataforma G Suite. É baseado em JavaScript 1.6, mas também inclui algumas funcionalidades do 1.7, 1.8 e um subconjunto da API do ECMAScript 5. Os projetos do [Apps Script](https://developers.google.com/apps-script) são executados na infraestrutura cloud da Google. De acordo com a própria *Google*, o Apps Script "fornece maneiras fáceis de automatizar tarefas nos produtos e serviços de terceiros". O Apps Script também está disponível para o Google Docs e Apresentações.
 
-Você encontra t*odos os scripts deste tutorial na [planilha de exemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing)*, faça uma cópia em seu drive para conseguir visualizar os scripts e editar a planilha.
+Você encontra *todos os scripts deste tutorial na [planilha de exemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing)*, faça uma cópia em seu drive para conseguir visualizar os scripts e editar a planilha.
 
 ***Confira também**: [Transferindo arquivos por SFTP no Google Cloud usando o FileZilla](http://marquesfernandes.com/2019/11/19/transferindo-arquivos-por-sftp-no-google-cloud-usando-o-filezilla)*
 

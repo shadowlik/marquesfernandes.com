@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:22:52.000Z
 ---
 
-**El Protocolo de transferenci**a de **hipe**rtexto o HTTP para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, video y otros archivos multimedia. Cuando escribe un sitio web en su navegador, detrás de escena está enviando una solicitu**d HTT**P solicitando la página deseada a un servidor web. Piense en los protocolos de Internet como reglas de tráfico, son necesarios para que todos los automóviles (datos) lleguen a su destino (cliente). [Obtenga más información sobre HTTP](http://marquesfernandes.com/tecnologia/o-que-e-http/).
+**El Protocolo de transferencia de hipertexto** o **HTTP** para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, video y otros archivos multimedia. Cuando escribe un sitio web en su navegador, detrás de escena está enviando una solicitud **HTTP** solicitando la página deseada a un servidor web. Piense en los protocolos de Internet como reglas de tráfico, son necesarios para que todos los automóviles (datos) lleguen a su destino (cliente). [Obtenga más información sobre HTTP](http://marquesfernandes.com/tecnologia/o-que-e-http/).
 
 La siguiente es una lista de códigos de respuesta HTTP. Los códigos (códigos) se utilizan para informar al cliente del estado (estado) de sus solicitudes, con el fin de estandarizar y facilitar la comunicación entre ellos. El primer dígito de cada código de estado indica a cuál de las cinco clases de respuesta pertenece.
 
@@ -77,13 +77,13 @@ La clase de estado 4XX está destinada a advertir de un posible error en la soli
 | 408 | Solicitar tiempo de espera (tiempo de espera) | Algunos servidores envían esta respuesta a través de una conexión inactiva, incluso sin ninguna solicitud previa del cliente. Esto significa que el servidor desea finalizar esta conexión no utilizada. |
 | 409 | Conflicto general | Esta respuesta se envía cuando una solicitud entra en conflicto con el estado actual del servidor. |
 | 410 | Eliminado (ido) | Esta respuesta se envía cuando el contenido solicitado se ha eliminado definitivamente del servidor, sin dirección de reenvío. |
-| 411 | Longitud requerida | El servidor rechazó la solicitud porque el c`ampo de encabez`ado Content-Length no está definido y el servidor lo requiere. |
+| 411 | Longitud requerida | El servidor rechazó la solicitud porque el campo de encabezado `Content-Length` no está definido y el servidor lo requiere. |
 | 412 | Condición previa Falló | El cliente ha indicado condiciones previas en sus encabezados que el servidor no cumple. |
 | 413 | Solicitud muy grande | La solicitud es mayor de lo que el servidor desea o puede procesar. |
 | 414 | URI de solicitud demasiado larga | El URI solicitado por el cliente es más largo de lo que el servidor está dispuesto a interpretar. |
 | 415 | Tipo de papel no admitido | El formato multimedia de los datos solicitados no es compatible con el servidor, por lo que el servidor está rechazando la solicitud. |
-| 416 | Rango insatisfactorio | No se puede cumplir el rango `espec`ificado por Rango en el campo de encabezado de la solicitud. Es posible que el rango esté fuera del tamaño de los datos del URI de destino. |
-| 417 | Error de expectativa | Este código de respuesta significa que el servidor no puede cumplir `con la` expectativa indicada por Expect en el campo del encabezado de la solicitud. |
+| 416 | Rango insatisfactorio | No se puede cumplir el rango especificado por `Rango` en el campo de encabezado de la solicitud. Es posible que el rango esté fuera del tamaño de los datos del URI de destino. |
+| 417 | Error de expectativa | Este código de respuesta significa que el servidor no puede cumplir con la expectativa indicada por `Expect` en el campo del encabezado de la solicitud. |
 | 418 | Soy una tetera | Este código se definió en 1998 como uno de los juegos tradicionales del 1 de abril y no se espera que lo implementen servidores HTTP reales. |
 | 422 | Entidad no procesable | La solicitud estaba bien formada, pero no se pudo seguir debido a errores semánticos. |
 | 423 | Cerrado | El recurso al que se accede está bloqueado. |

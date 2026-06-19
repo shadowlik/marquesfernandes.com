@@ -31,7 +31,7 @@ Entra en el panel administrativo de tu Wordpress y cambia al formato deseado, en
 
 ## Redirección de enlaces antiguos mediante mod\_rewrite en .htaccess
 
-Ahora vamos a agregar una pequeña configuración en nues**tro .htac**cess (Se encuentra en la raíz de su instalación de Wordpress).
+Ahora vamos a agregar una pequeña configuración en nuestro **.htaccess** (Se encuentra en la raíz de su instalación de Wordpress).
 
 `RewriteRule ([0-9]+)/[0-9](+)/[0-9](+)/(.*)$ /$4[R=301,NC,L]`
 
@@ -46,6 +46,6 @@ RewriteCond %-REQUEST\_FILENAME!-f
 RewriteCond %-REQUEST\_FILENAME!-d
 RewriteRule . /index.php\[L\]
 
-**Conse**jo: Si utiliza alguna extensión de optimización, rendimiento o redirección SEO en Wordpress, lo más probable es que su archivo sea mucho más grande que el del ejemplo anterior, recuerde colocar la línea justo al principio del archivo para que la redirección funcione.
+**Consejo:** Si utiliza alguna extensión de optimización, rendimiento o redirección SEO en Wordpress, lo más probable es que su archivo sea mucho más grande que el del ejemplo anterior, recuerde colocar la línea justo al principio del archivo para que la redirección funcione.
 
 Pruebe algunas URL antiguas y vea si su redirección funciona correctamente, para supervisar posibles errores de 404 compruebe el artículo: [Cómo supervisar 404 errores y páginas que no se encuentran en Google Analytics](http://marquesfernandes.com/como-monitorar-erros-404-e-paginas-nao-encontradas-no-google-analytics/)

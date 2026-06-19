@@ -21,9 +21,9 @@ Si utiliza Microsoft Excel, probablemente esté acostumbrado a usar e importar d
 
 ## ¿Qué es Google Apps Script?
 
-[Apps Script](https://developers.google.com/apps-script) es una plataforma de scripting desarrollada por Google para el desarrollo de aplicaciones ligeras en la plataforma G Suite. Se basa en JavaScript 1.6, pero también incluye algunas características de 1.7, 1.8 y un subconjunto de la API de ECMAScript 5. Los proyectos de [Apps Script](https://developers.google.com/apps-script) se ejecutan en la infraestructura en la nube de Google. Según el propio Google*, Apps* Script "proporciona formas sencillas de automatizar tareas en productos y servicios de terceros". Apps Script también está disponible para Google Docs y Slides.
+[Apps Script](https://developers.google.com/apps-script) es una plataforma de scripting desarrollada por Google para el desarrollo de aplicaciones ligeras en la plataforma G Suite. Se basa en JavaScript 1.6, pero también incluye algunas características de 1.7, 1.8 y un subconjunto de la API de ECMAScript 5. Los proyectos de [Apps Script](https://developers.google.com/apps-script) se ejecutan en la infraestructura en la nube de Google. Según el propio *Google*, Apps Script "proporciona formas sencillas de automatizar tareas en productos y servicios de terceros". Apps Script también está disponible para Google Docs y Slides.
 
-Encontrará todo*s los scripts de este tutorial en la [hoja de cálculo de ejemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing)*, haga una copia en su unidad para poder ver los scripts y editar la hoja de cálculo.
+Encontrará *todos los scripts de este tutorial en la [hoja de cálculo de ejemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing)*, haga una copia en su unidad para poder ver los scripts y editar la hoja de cálculo.
 
 ***También echa un vistazo**: [Transferencia de archivos por SFTP en Google Cloud usando FileZilla](http://marquesfernandes.com/2019/11/19/transferindo-arquivos-por-sftp-no-google-cloud-usando-o-filezilla)*
 
@@ -51,7 +51,7 @@ Probablemente, debido a que su script aún no está homologado, aparecerá la si
 
 ![Autorización de scripts de Google Apps - 2](./2020-01-image-3.png)
 
-Haga clic *en Mostrar pro*yec*to de acceso av*anzado y continúe autorizando:
+Haga clic en *Mostrar proyecto* de *acceso avanzado* y continúe autorizando:
 
 ![Autorización de scripts de Google Apps - 3](./2020-01-image-4.png)
 
@@ -105,4 +105,4 @@ función importCSVDaWeb()
 
 }
 
-Recuerde que el servici*o UrlFetchA*pp solo realiza solicitudes HTTP y aún no es posible conectarse a servidores FTP.
+Recuerde que el servicio *UrlFetchApp* solo realiza solicitudes HTTP y aún no es posible conectarse a servidores FTP.

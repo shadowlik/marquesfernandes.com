@@ -65,4 +65,4 @@ Life of Vids es una colección de vídeos, clips y loops gratuitos de [Leeroy](h
 
 Splitshire fue creado por el diseñador web Daniel Nanescu, quería ofrecer sus fotos y videos de forma gratuita para uso personal y comercial.
 
-Los videos son básicamente imágenes de drones en hermosas escenas al aire libre, y puedes descargarlos haciendo clic en el título debajo de cada video. Puedes usarlos de forma gratuita en todos tus canales de redes sociales, pero no puedes venderlos ni usarlos en proyectos co**n contenido inapropiado como violencia, racismo o discriminación.**
+Los videos son básicamente imágenes de drones en hermosas escenas al aire libre, y puedes descargarlos haciendo clic en el título debajo de cada video. Puedes usarlos de forma gratuita en todos tus canales de redes sociales, pero no puedes venderlos ni usarlos en proyectos con **contenido inapropiado como violencia, racismo o discriminación.**

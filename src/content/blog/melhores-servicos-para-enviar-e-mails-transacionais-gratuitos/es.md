@@ -40,9 +40,9 @@ Elegir un servicio que satisfaga su demanda es muy importante, ya que esta funci
 
 [![Amazon SES](./2020-05-image-8.png)](https://aws.amazon.com/pt/ses/)
 
-Amazon Web Services tiene varios servicios en la nube, incluido Amazon SE**S para envi**ar correos electrónicos transaccionales. Confiando en toda la estructura y fiabilidad de AWS, tiene precios muy asequibles. Es una solución sólida para aquellos que tienen una cierta experiencia técnica, el servicio no ofrece estadísticas para usted, necesita conectarse con el otro servicio, [AWS SNS](https://aws.amazon.com/pt/sns/), para poder realizar un seguimiento de sus métricas de envío.
+Amazon Web Services tiene varios servicios en la nube, incluido **Amazon SES** para enviar correos electrónicos transaccionales. Confiando en toda la estructura y fiabilidad de AWS, tiene precios muy asequibles. Es una solución sólida para aquellos que tienen una cierta experiencia técnica, el servicio no ofrece estadísticas para usted, necesita conectarse con el otro servicio, [AWS SNS](https://aws.amazon.com/pt/sns/), para poder realizar un seguimiento de sus métricas de envío.
 
-**Plan gratuito: 62.0**00 correos electrónicos al mes.
+**Plan gratuito:** 62.000 correos electrónicos al mes.
 
 ## 2\. [SendGrid](https://sendgrid.com/)
 

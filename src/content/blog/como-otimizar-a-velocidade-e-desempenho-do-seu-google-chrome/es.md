@@ -47,7 +47,7 @@ Si tienes extensiones de Google Chrome instaladas, ahora es el momento de compro
 
 ## 5 - Borrar datos temporales
 
-Google Chrome guarda varios archivos con el fin de mejorar la experiencia del usuario, pero en algunos casos estos archivos pueden sobrecargar e interrumpir el rendimiento del navegador, para borrar haga clic en los tres puntos en la esquina superior derecha**, Más herramienta**s > **Borrar datos de navegació**n. Borra todos los datos de imágenes y archivos, no te recomendamos seleccionar las otras opciones, las ganancias son pocas y perderás todo tu historial y tendrás que iniciar sesión en todos los sitios que uses.
+Google Chrome guarda varios archivos con el fin de mejorar la experiencia del usuario, pero en algunos casos estos archivos pueden sobrecargar e interrumpir el rendimiento del navegador, para borrar haga clic en los tres puntos en la esquina superior derecha, **Más herramientas** > **Borrar datos de navegación**. Borra todos los datos de imágenes y archivos, no te recomendamos seleccionar las otras opciones, las ganancias son pocas y perderás todo tu historial y tendrás que iniciar sesión en todos los sitios que uses.
 
 ![Borrar datos de navegación](./2020-01-image-9.png)
 

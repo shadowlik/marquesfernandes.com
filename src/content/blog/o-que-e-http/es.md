@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:24:13.000Z
 ---
 
-**Protocolo de transferencia d**e hi**perte**xto o HTTP para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, vídeo y otros archivos multimedia.
+**Protocolo de transferencia de hipertexto** o **HTTP** para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, vídeo y otros archivos multimedia.
 
 ## ¿Uh?
 
@@ -35,7 +35,7 @@ El protocolo fue redactado en 1989 por [Sir Tim Berners Lee](https://pt.wikipedi
 
 ## ¿Cómo funciona?
 
-La comunicación entre clientes y servidores se realiza básicamente a través d**e solicitud**es **y respuest**as a un recurso det**erminad**o.
+La comunicación entre clientes y servidores se realiza básicamente a través de **solicitudes** y **respuestas** a un **recurso** determinado.
 
 ### Recursos
 
@@ -43,9 +43,9 @@ Una característica HTTP no es más que una parte de la URL, cuando escribimos e
 
 ### Métodos
 
-Para interactuar con estos recurso**s, HT**TP utiliza métodos de solicitud predefinidos que indican al servidor qué tarea debe realizar en el recurso deseado:
+Para interactuar con estos recursos, **HTTP** utiliza métodos de solicitud predefinidos que indican al servidor qué tarea debe realizar en el recurso deseado:
 
--   **Sol**icitar GET un recurso
+-   Solicitar **GET** un recurso
 -   **POST** añade/crea una función
 -   **PUT** modifica directamente un recurso
 -   **DELETE** elimina una función específica

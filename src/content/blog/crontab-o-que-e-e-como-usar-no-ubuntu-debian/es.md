@@ -22,7 +22,7 @@ Una tarea muy común realizada con Crontab es automatizar copias de seguridad, m
 
 ## Significado de Crontab
 
-No hay una explicación concluyente, pero la respuesta más aceptada es de Ken Thompson (autor de unix cron): El nombre cr*on p*roviene d*e chro*n, el prefijo griego para '*tiemp*o'. Y tabulación tabla de referencias, una tabla que contiene crons: Horario (Tabla de tiempo).
+No hay una explicación concluyente, pero la respuesta más aceptada es de Ken Thompson (autor de unix cron): El nombre *cron* proviene de *chron*, el prefijo griego para '*tiempo*'. Y tabulación tabla de referencias, una tabla que contiene crons: Horario (Tabla de tiempo).
 
 ## Sintaxis de Crontab
 

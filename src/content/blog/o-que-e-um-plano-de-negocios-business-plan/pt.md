@@ -39,9 +39,9 @@ Não existem dois planos de negócios iguais, mas todos eles, normalmente, compa
 
 ## Tipos de Plano de Negócios
 
-Embora não haja planos de negócios certos ou errados, eles podem se enquadrar em algumas categorias diferentes: P**lano de Negócios Tradicional** e **Plano de Negócios Enxuto** (*Lean Business Plan)*.
+Embora não haja planos de negócios certos ou errados, eles podem se enquadrar em algumas categorias diferentes: **Plano de Negócios Tradicional** e **Plano de Negócios Enxuto** (*Lean Business Plan*).
 
-### P**lano de Negócios Tradicional**
+### **Plano de Negócios Tradicional**
 
 O **plano tradicional** é normalmente o mais utilizado, com muito mais detalhes em cada seção. Eles tendem a ser muito mais longos e exigem mais trabalho, mas por isso se tornam mais atrativo para leitores e possíveis investidores.os documentos formais do plano de negócios, são projetados para serem lidos por pessoas de fora para fornecer informações sobre um negócio. Ocasionalmente, esse tipo de plano de negócios também é usado para recrutar, treinar ou absorver funcionários-chave.
 

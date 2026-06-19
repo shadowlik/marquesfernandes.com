@@ -21,7 +21,7 @@ Los podcasts han ido ganando mucha popularidad en los últimos tiempos y asumien
 
 Tengo cierta dificultad para encontrar nuevos contenidos, incluso en [Spotify](https://open.spotify.com/user/12142144766?si=3pJxPV5oTj-Ox5eueBglDw), por lo que separé una lista con todos los canales que suelo escuchar, desde los más técnicos centrados en el desarrollo y la innovación, hasta los contenidos de desarrollo personal y el mundo corporativo. Si te gusta estar al tanto de las noticias del mercado no te pierdas esta lista!
 
-*Mantendré esta lista actualizada y poco a poco pondré mi opinión en todos los canales enumerados. Recordando que siempre estoy buscando nuevo contenido, así que por favor deje su sugerencia en los comentari*os!
+*Mantendré esta lista actualizada y poco a poco pondré mi opinión en todos los canales enumerados. Recordando que siempre estoy buscando nuevo contenido, así que por favor deje su sugerencia en los comentarios*!
 
 **Ver también:** [Principales aplicaciones para organizar sus listas de tareas pendientes – ToDo](http://marquesfernandes.com/2020/01/26/top-aplicativos-para-organizar-suas-listas-de-tarefas-todo)
 
@@ -111,7 +111,7 @@ Podcast presentado por desarrolladores enfocados en programación, noticias e hi
 
 https://open.spotify.com/show/6jYjcj4oQ31J85jGhbiRkK?si=2gcL7Ha7RdGxatndCOHpxw
 
-*Jefe de Labora*torio es el podcast de LuizaLabs, el laboratorio de innovación y tecnología de Magalu.
+*Jefe de Laboratorio* es el podcast de LuizaLabs, el laboratorio de innovación y tecnología de Magalu.
 
 ## [Distrito de Naruhodo](https://open.spotify.com/show/1EAAAOIGupWaGwidmMTTi0)
 

@@ -15,13 +15,13 @@ needsReview: false
 updated: 2021-12-12T11:24:11.000Z
 ---
 
-¿Alguna vez has querido compartir un artículo todavía en desarrollo, el famoso borrador, en [Wordpress](https://wordpress.com/) con alguien? A veces antes de publicar un artículo queremos la opinión y la ayuda de alguien fuera. De forma predeterminada, la única manera de hacerlo en Wordpress sería crear una cuenta para la persona con un acceso mínimo al *edito*r. Esto se convierte en un trabajo innecesario si sólo queremos una opinión rápida. Afortunadamente hay una manera fácil y sencilla de compartir la vista previa de artículos no publicados.
+¿Alguna vez has querido compartir un artículo todavía en desarrollo, el famoso borrador, en [Wordpress](https://wordpress.com/) con alguien? A veces antes de publicar un artículo queremos la opinión y la ayuda de alguien fuera. De forma predeterminada, la única manera de hacerlo en Wordpress sería crear una cuenta para la persona con un acceso mínimo al *editor*. Esto se convierte en un trabajo innecesario si sólo queremos una opinión rápida. Afortunadamente hay una manera fácil y sencilla de compartir la vista previa de artículos no publicados.
 
 #### Instalación y activación del plugin [Public Post Preview](https://wordpress.org/plugins/public-post-preview/)
 
 Para que toda la magia suceda necesitamos instalar y activar el plugin [Public Post Preview](https://wordpress.org/plugins/public-post-preview/) en nuestra instalación de Wordpress. *Echa un vistazo a este artículo sobre [cómo instalar plugins en Wordpress](https://kinsta.com/pt/base-de-conhecimento/como-instalar-plugins-no-wordpress/).*
 
-Después de la activación es necesario navegar y editar la publicación deseada y se dará cuenta de que en *la pestaña* Documento apareció una nueva opción de "Habilitar vista previa pública", para activar la funcionalidad simplemente haga clic y active la casilla de verificación.
+Después de la activación es necesario navegar y editar la publicación deseada y se dará cuenta de que en la pestaña *Documento* apareció una nueva opción de "Habilitar vista previa pública", para activar la funcionalidad simplemente haga clic y active la casilla de verificación.
 
 ![Cómo permitir la vista previa pública de artículos no publicados en Wordpress - Imagen 1](./2019-12-image-1.png)
 

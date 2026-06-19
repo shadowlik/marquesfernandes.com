@@ -27,8 +27,8 @@ Las pruebas unitarias deben aislarse de cualquier dependencia externa, como la b
 Hay una confusión entre las pruebas unitarias y las pruebas automatizadas, no son lo mismo. Hay diferentes tipos de pruebas automatizadas, ver algunos de los principales:
 
 -   **Pruebas unitarias**: Se prueba un único fragmento de código (normalmente un objeto o función), aislado de otras partes.
--   **Pruebas de integració**n: varios componentes se prueban juntos, por ejemplo, probando el código de acceso a la base de datos en una base de datos de prueba o incluso la interacción entre servicios distribuidos.
--   **Pruebas de extremo a extr**emo (E2E): técnica utilizada para probar si el flujo de una aplicación de principio a fin se comporta según lo esperado.
+-   **Pruebas de integración**: varios componentes se prueban juntos, por ejemplo, probando el código de acceso a la base de datos en una base de datos de prueba o incluso la interacción entre servicios distribuidos.
+-   **Pruebas de extremo a extremo** (E2E): técnica utilizada para probar si el flujo de una aplicación de principio a fin se comporta según lo esperado.
 
 Es importante que comprenda estas diferencias por la siguiente razón: Si está escribiendo una prueba unitaria y no está siendo fácil de escribir, es probable que no sea una prueba unitaria. Las pruebas de integración y aceptación, por ejemplo, son más complejas y a menudo son más lentas, así que asegúrese de que está probando unitariamente.
 

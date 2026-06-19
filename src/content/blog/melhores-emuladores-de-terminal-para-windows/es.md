@@ -26,7 +26,7 @@ No se sabe que Windows tenga la mejor interfaz de línea de comandos, trayendo e
 
 [ConEmu](https://conemu.github.io/) es un emulador de terminal bien completo con soporte para múltiples pestañas, ventanas y una variedad de personalizaciones. Tiene una amplia variedad de ajustes y accesos directos. Compatible con casi todas las cáscaras de Windows populares como: cmd.exe, [PuTTY](https://www.putty.org/), [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6), [Git Bash](https://git-scm.com/downloads) y [otros](https://conemu.github.io/en/TableOfContents.html#bash-on-windows)...
 
-Una de las muchas características que me atrae mucho es el "Siemp**re en la parte** superior" que permite que la ventana esté siempre en primer plano.
+Una de las muchas características que me atrae mucho es el "**Siempre en la parte superior**" que permite que la ventana esté siempre en primer plano.
 
 ## [cmder, Nuevo](https://cmder.net/)
 
@@ -44,7 +44,7 @@ Una de las muchas características que me atrae mucho es el "Siemp**re en la par
 
 [MobaXterm](https://mobaxterm.mobatek.net/) es un programa extremadamente completo que le permite gestionar fácilmente herramientas de acceso remoto como SSH, VNC, FTP, ... También tiene comandos unix como bash, ls, cat, sed, grep, ...
 
-Llamada la **"aplicación de red todo en uno**", es un excelente programa para organizar y realizar tareas diarias como el acceso a servidores remotos con SSH e incluso permite la integración del shell con una interfaz FTP gráfica.
+Llamada la "**aplicación de red todo en uno**", es un excelente programa para organizar y realizar tareas diarias como el acceso a servidores remotos con SSH e incluso permite la integración del shell con una interfaz FTP gráfica.
 
 ## [(Nuevo) Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)
 

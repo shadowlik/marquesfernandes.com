@@ -17,21 +17,21 @@ needsReview: false
 updated: 2021-12-12T11:23:40.000Z
 ---
 
-Probablemente ya has oído a alguien usar el término Inic*io en a*lguna conversación. ¡En los últimos años nunca hemos oído esa palabra tanto como antes! El término se ha popularizado debido a la creciente ola de nuevas empresas innovadoras, operaciones, ya he entregado una parte... Pero, ¿realmente sabes lo que define una Startup?
+Probablemente ya has oído a alguien usar el término *Inicio* en alguna conversación. ¡En los últimos años nunca hemos oído esa palabra tanto como antes! El término se ha popularizado debido a la creciente ola de nuevas empresas innovadoras, operaciones, ya he entregado una parte... Pero, ¿realmente sabes lo que define una Startup?
 
 ## Definiciones de inicio
 
 Hay varias definiciones por ahí, y la comunidad parece incapaz de ponerse de acuerdo sobre una definición global, por ejemplo, algunos piensan que una startup puede limitarse entre el tamaño y el tiempo de existencia, mientras que otros piensan que estas limitaciones no son suficientes para diferenciar una Startup de una empresa "tradicional". Separé dos definiciones que, para mí, abarcan brevemente lo que es una Startup:
 
-> Una startup es una empresa que trabaja para r**esolver un problema d**onde la s**olución no es obvia** y el **éxito no está garantizad**o.
+> Una startup es una empresa que trabaja para **resolver un problema** donde la **solución no es obvia** y el **éxito no está garantizado**.
 > 
 > Neil Blumenthal cofundador y co-CEO de Warby Parker
 
-> Una startup es una **institución humana** diseñada para of**recer nuevos productos o servicios en** condiciones de ext**rema incertidumbr**e.
+> Una startup es una **institución humana** diseñada para **ofrecer nuevos productos o servicios** en condiciones de **extrema incertidumbre**.
 > 
 > Eric Ries, autor de The Lean Startup
 
-Así que si juntamos las dos definiciones que tene*mos: una startup es una empresa que trabaja para resolver un problema, donde la solución no es obvia, a través de productos y servicios innovadores, en condiciones de extrema incertidumbre.*
+Así que si juntamos las dos definiciones que tenemos: *una startup es una empresa que trabaja para resolver un problema, donde la solución no es obvia, a través de productos y servicios innovadores, en condiciones de extrema incertidumbre.*
 
 ## Diferencias entre Startup y Company
 
@@ -69,7 +69,7 @@ Los préstamos bancarios también son muy comunes, si por alguna razón Startup 
 
 #### Angel Investors
 
-La inversión Angel es la inversión realizada por personas con capital. Estas personas suelen ser especialistas en este tipo de inversión y buscan un retorno de alta ganancia y alto riesgo en estas empresas, por lo general añaden valor a las empresas con sus conocimientos y/o red de relaciones. Por lo general invierten en las primeras etapas de la empr*esa (dinero* semilla), donde la cantidad requerida no es tan expresiva desde el punto de vista de la inversión, ya hablaremos más sobre esta etapa de inversión.
+La inversión Angel es la inversión realizada por personas con capital. Estas personas suelen ser especialistas en este tipo de inversión y buscan un retorno de alta ganancia y alto riesgo en estas empresas, por lo general añaden valor a las empresas con sus conocimientos y/o red de relaciones. Por lo general invierten en las primeras etapas de la empresa (*dinero semilla*), donde la cantidad requerida no es tan expresiva desde el punto de vista de la inversión, ya hablaremos más sobre esta etapa de inversión.
 
 #### Fondos de Capital Riesgo (VC)
 
@@ -77,9 +77,9 @@ Venture Capital son empresas y personas especializadas en este tipo de inversió
 
 ### Rondas de inversión
 
-Antes de que comience cualquier ronda de financiación, los analistas realizan una evaluación de la empresa, la famosa *"valoració*n" en cuestión. Estas evaluaciones se derivan de una variedad de factores, incluyendo la gestión, la trayectoria comprobada, el tamaño del mercado y el riesgo. Estas valoraciones son importantes para distinguir las rondas de financiación, así como con el nivel de madurez y las perspectivas de crecimiento. Estos factores son importantes porque afectan a los tipos de inversores que probablemente se involucren y a las razones por las que la empresa puede estar buscando nuevo capital. Una vez realizada la valoración, uno tiene una noción de cuánto vale esa empresa en potencial y cuánto y cuánta inversión se necesitará.
+Antes de que comience cualquier ronda de financiación, los analistas realizan una evaluación de la empresa, la famosa "*valoración*" en cuestión. Estas evaluaciones se derivan de una variedad de factores, incluyendo la gestión, la trayectoria comprobada, el tamaño del mercado y el riesgo. Estas valoraciones son importantes para distinguir las rondas de financiación, así como con el nivel de madurez y las perspectivas de crecimiento. Estos factores son importantes porque afectan a los tipos de inversores que probablemente se involucren y a las razones por las que la empresa puede estar buscando nuevo capital. Una vez realizada la valoración, uno tiene una noción de cuánto vale esa empresa en potencial y cuánto y cuánta inversión se necesitará.
 
-#### Financiación de se*millas (Investimento Sement*e)
+#### Financiación de semillas (*Investimento Semente*)
 
 La financiación inicial es la primera etapa "oficial" de financiación de estas empresas. Por lo general, representa el primer dinero oficial de terceros invertido en Startup. Este dinero se recauda generalmente para poner en funcionamiento la empresa y posiblemente conducir a las otras rondas de inversión. Por lo general, los inversores ángeles y algunos fondos de capital riesgo especializados en esta etapa invierten aquí.
 

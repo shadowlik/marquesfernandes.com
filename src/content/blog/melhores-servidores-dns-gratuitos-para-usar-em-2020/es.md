@@ -33,7 +33,7 @@ Algunas empresas ofrecen servicios DNS con complementos para empresas, por ejemp
 
 El servidor DNS almacena en caché las solicitudes frecuentes para que pueda responder rápidamente, sin tener que consultar otras solicitudes desde cero.
 
-Otro punto para elegir su DNS y que se ha convertido en una preocupación frecuente, es el **anonimat**o. A menos que esté conectado por una red privada virtual (VPN), los servidores DNS de su proveedor tienen acceso a todos los dominios solicitados. Su proveedor sabe exactamente dónde navega por Internet y probablemente no le importa, pero puede terminar usando esta información. Por ejemplo, algunos proveedores han encontrado una manera de monetizar tu servicio DNS: cuando llegas a un dominio que no existe, redirigen la solicitud a una página de búsqueda y publicidad precargada, normalmente páginas de ventas de dominio.
+Otro punto para elegir su DNS y que se ha convertido en una preocupación frecuente, es el **anonimato**. A menos que esté conectado por una red privada virtual (VPN), los servidores DNS de su proveedor tienen acceso a todos los dominios solicitados. Su proveedor sabe exactamente dónde navega por Internet y probablemente no le importa, pero puede terminar usando esta información. Por ejemplo, algunos proveedores han encontrado una manera de monetizar tu servicio DNS: cuando llegas a un dominio que no existe, redirigen la solicitud a una página de búsqueda y publicidad precargada, normalmente páginas de ventas de dominio.
 
 ## El mejor DNS para usar en 2020
 
@@ -72,7 +72,7 @@ El [DNS público de Google](https://developers.google.com/speed/public-dns/) es 
 -   **DNS** **principal**: *64.6.64.6*
 -   **DNS secundario:** *64.6.65.6*
 
-El servicio DNS de [Verisign](https://www.verisign.com/en_US/security-services/public-dns/index.xhtml) es gratuito y la compañía destaca las tres características que consideran más important*es: estabilid*ad*, segurid*ad *y privacida*d. El servicio definitivamente sirve a esta cuenta, especialmente si usted busca un servidor DNS seguro y estable, en cuanto al anonimato de la empresa asegura que sus datos nunca serán utilizados o vendidos a terceros, y hasta entonces no se sabe ningún problema al respecto.
+El servicio DNS de [Verisign](https://www.verisign.com/en_US/security-services/public-dns/index.xhtml) es gratuito y la compañía destaca las tres características que consideran más importantes: *estabilidad*, *seguridad* y *privacidad*. El servicio definitivamente sirve a esta cuenta, especialmente si usted busca un servidor DNS seguro y estable, en cuanto al anonimato de la empresa asegura que sus datos nunca serán utilizados o vendidos a terceros, y hasta entonces no se sabe ningún problema al respecto.
 
 Probablemente debido a sus capas de seguridad, su rendimiento termina siendo menor que el de sus competidores, lo que puede no ser tan impactante si su objetivo principal es la seguridad.
 

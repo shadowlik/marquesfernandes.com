@@ -41,7 +41,7 @@ Para aquellos que están migrando desde [Atom,](https://ide.atom.io/) One Dark P
 
 ## [3\. Rainglow, Año Nuevo](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)
 
-Si estás buscando variedad, R**ainglow** es tu elección: Una colección con más de 320 temas de combinación de colores.
+Si estás buscando variedad, **Rainglow** es tu elección: Una colección con más de 320 temas de combinación de colores.
 
 -   ![](./2019-03-earthsong.png)
     

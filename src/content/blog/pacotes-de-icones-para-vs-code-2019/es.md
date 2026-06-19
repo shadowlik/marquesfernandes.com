@@ -21,8 +21,8 @@ updated: 2021-12-12T11:24:14.000Z
 
 ## [Tema del icono del material](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-**Instalacione**s: +2.5 mill  
-**ionStars:** 4.9
+**Instalaciones:** +2.5 mill  
+**Stars:** 4.9
 
 ![Tema del icono del material](./2019-10-image.png)
 
@@ -30,8 +30,8 @@ updated: 2021-12-12T11:24:14.000Z
 
 ## [vscode-iconos](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-**Instalaciones**: +3.7 millo  
-**nesStars:** 4.8
+**Instalaciones:** +3.7 millo  
+**Stars:** 4.8
 
 ![vscode-iconos](./2019-10-screenshot.gif)
 
@@ -39,7 +39,7 @@ vscode-icons es el paquete más descargado, con más de 3,7 millones de descarga
 
 ## [VSCode Grandes Iconos](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
 
-**Instalacione**s: +560,  
+**Instalaciones:** +560,  
 **000Stars:** 4.9
 
 ![ VSCode Grandes Iconos](./2019-10-icons.jpg)
@@ -48,7 +48,7 @@ VSCode Great Icons tiene más de 100 iconos diferentes, en el top 3 paquetes má
 
 ## [Nomo Dark Icon Theme](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark)
 
-**Instalacione**s: +117,  
+**Instalaciones:** +117,  
 **000Stars:** 4.8
 
 ![ Nomo Dark Icon Theme](./2019-10-screenshot-marketplace.visualstudio.com-2019.10.04-19_14_50.png)
@@ -57,8 +57,8 @@ VSCode Great Icons tiene más de 100 iconos diferentes, en el top 3 paquetes má
 
 ## [Tema de icono neutral agudo](https://marketplace.visualstudio.com/items?itemName=keenethics.keen-neutral-icon-theme)
 
-**Instalacion**es: +7,4  
-**00Stars:** 5
+**Instalaciones:** +7,4  
+**Stars:** 5
 
 ![](https://github.com/keenethics/neutral-icon-theme/raw/master/preview.png)
 
