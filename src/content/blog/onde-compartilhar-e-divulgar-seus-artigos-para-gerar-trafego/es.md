@@ -16,9 +16,9 @@ needsReview: false
 updated: 2021-12-12T11:24:08.000Z
 ---
 
-Creo que es una duda muy común en bloggers novatos como yo. He estado tratando de encontrar la mejor manera de difundir mis artículos de una manera saludable y orgánica. Como todavía no tengo un amplio alcance en las redes sociales, dependo mucho de nuestros queridos motores de búsqueda (Google básicamente), he estudiado algunas tácticas SEO y he hecho suficiente investigación y pruebas de los lugares que generan más retorno a mi blog, tanto en el tema del tráfico y la const[rucción de enlace](https://rockcontent.com/blog/link-building/)s.
+Creo que es una duda muy común en bloggers novatos como yo. He estado tratando de encontrar la mejor manera de difundir mis artículos de una manera saludable y orgánica. Como todavía no tengo un amplio alcance en las redes sociales, dependo mucho de nuestros queridos motores de búsqueda (Google básicamente), he estudiado algunas tácticas SEO y he hecho suficiente investigación y pruebas de los lugares que generan más retorno a mi blog, tanto en el tema del tráfico y la [construcción de enlaces](https://rockcontent.com/blog/link-building/).
 
-Voy a compartir con ustedes un tablero de muestra que utilizo e[n Trell](https://trello.com/b/OUj4FMH0/blog-planejamento)o para organizar y recordar todo lo que tengo que hacer al escribir un nuevo artículo, este tablero se está actualizando constantemente, si tiene algún comentario o consejo, por favor no dude en comentar.
+Voy a compartir con ustedes un tablero de muestra que utilizo en [Trello](https://trello.com/b/OUj4FMH0/blog-planejamento) para organizar y recordar todo lo que tengo que hacer al escribir un nuevo artículo, este tablero se está actualizando constantemente, si tiene algún comentario o consejo, por favor no dude en comentar.
 
 [![Blog - Planificación - Trello](./2019-12-image-20.png)](https://trello.com/b/OUj4FMH0/blog-planejamento)
 
@@ -36,7 +36,7 @@ Linkedin es una excelente herramienta para amplificar tu red profesional, y muy 
 
 ### [Facebook](https://www.facebook.com/marquesfernandesblog)
 
-Tener un[a página profesiona](https://www.facebook.com/marquesfernandesblog)l para tu blog es una gran manera de anunciar tus artículos, crear una página y empezar llamando a todos tus amigos a gustar, también aprovechar las promociones de publicaciones patrocinadas para ampliar tu audiencia.
+Tener una [página profesional](https://www.facebook.com/marquesfernandesblog) para tu blog es una gran manera de anunciar tus artículos, crear una página y empezar llamando a todos tus amigos a gustar, también aprovechar las promociones de publicaciones patrocinadas para ampliar tu audiencia.
 
 [![https://www.facebook.com/marquesfernandesblog](./2019-12-image-21.png)](https://www.facebook.com/marquesfernandesblog)
 
@@ -56,7 +56,7 @@ Tener un[a página profesiona](https://www.facebook.com/marquesfernandesblog)l p
 
 ### [Dev.to](https://dev.to/shadowlik)
 
-[Dev.to](https://dev.to/shadowlik) es una red de contenido centrada en el mundo de la tecnología, puedes escribir artículos usando el formato de reducción, pero no te preocupes, puedes configurar fácilmente tu perfil para buscar automáticamente tus artículos a través de tu [feed rs](http://marquesfernandes.com/feed)s.
+[Dev.to](https://dev.to/shadowlik) es una red de contenido centrada en el mundo de la tecnología, puedes escribir artículos usando el formato de reducción, pero no te preocupes, puedes configurar fácilmente tu perfil para buscar automáticamente tus artículos a través de tu [feed rss](http://marquesfernandes.com/feed).
 
 [![https://dev.to/shadowlik](./2019-12-image-25.png)](https://dev.to/shadowlik)
 
@@ -68,7 +68,7 @@ Tumblr es una plataforma de blogs que permite a los usuarios publicar textos, im
 
 ### [Reddit](https://www.reddit.com/user/shadowlik/)
 
-R[eddit](https://www.reddit.com/user/shadowlik/) puede ser una plataforma que vale la pena considerar para compartir contenido, pero debe hacerse de la manera correcta. Los redditors son muy conscientes de que las marcas intentan "spam" subreddits con su propio contenido. A continuación, sus artículos deben ser cuidadosamente elegidos y proporcionar valor real a los usuarios.
+[Reddit](https://www.reddit.com/user/shadowlik/) puede ser una plataforma que vale la pena considerar para compartir contenido, pero debe hacerse de la manera correcta. Los redditors son muy conscientes de que las marcas intentan "spam" subreddits con su propio contenido. A continuación, sus artículos deben ser cuidadosamente elegidos y proporcionar valor real a los usuarios.
 
 [![https://www.reddit.com/user/shadowlik/](./2019-12-image-32.png)](https://www.reddit.com/user/shadowlik/)
 

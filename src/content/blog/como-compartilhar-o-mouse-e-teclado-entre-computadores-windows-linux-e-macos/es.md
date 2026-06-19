@@ -23,13 +23,13 @@ Aquí en mi configuración diaria siempre estoy con dos ordenadores, el principa
 
 ## El software: Barrier - KVM
 
-Barrier es un software que imita la funcionalidad de un [keyer KVM, q](https://pt.wikipedia.org/wiki/Chaveador_KVM)ue permite el uso de un solo teclado, ratón e incluso monitor para controlar varios ordenadores girando físicamente un selector en el dispositivo para cambiar qué máquina se está controlando en ese momento. La barrera hace esto sin la necesidad de un dispositivo físico, a través de software y la comunicación a través de la red interna, para trabajar todos los ordenadores necesitan estar conectados en la misma red. Le permite indicar qué máquina está controlando, por ejemplo, si estaba conectada a dos o más monitores, mover el ratón al borde de la pantalla o usar una tecla para cambiar el enfoque entre los equipos configurados.
+Barrier es un software que imita la funcionalidad de un [keyer KVM](https://pt.wikipedia.org/wiki/Chaveador_KVM), que permite el uso de un solo teclado, ratón e incluso monitor para controlar varios ordenadores girando físicamente un selector en el dispositivo para cambiar qué máquina se está controlando en ese momento. La barrera hace esto sin la necesidad de un dispositivo físico, a través de software y la comunicación a través de la red interna, para trabajar todos los ordenadores necesitan estar conectados en la misma red. Le permite indicar qué máquina está controlando, por ejemplo, si estaba conectada a dos o más monitores, mover el ratón al borde de la pantalla o usar una tecla para cambiar el enfoque entre los equipos configurados.
 
-Lo interesante es que además de ser gratuita, la barrera es el código abi[erto github.com/debauchee/ba](https://github.com/debauchee/barrier)rrier, lo que te permite descargar y modificar tu código fuente si lo necesitas.
+Lo interesante es que además de ser gratuita, la barrera es el código abierto [github.com/debauchee/barrier](https://github.com/debauchee/barrier), lo que te permite descargar y modificar tu código fuente si lo necesitas.
 
 ## Sistemas operativos compatibles
 
-Barrier es compatible con todos los sistemas operativos populares, encontrará las instrucciones para la instalación en cada uno de el[los en github.com/debauchee/b](https://github.com/debauchee/barrier/)arrier y versiones descargables e[n github.com/debauchee/barrier/release](https://github.com/debauchee/barrier/releases)s.
+Barrier es compatible con todos los sistemas operativos populares, encontrará las instrucciones para la instalación en cada uno de ellos en [github.com/debauchee/barrier](https://github.com/debauchee/barrier/) y versiones descargables en [github.com/debauchee/barrier/releases](https://github.com/debauchee/barrier/releases).
 
 -   Windows 7, 8, 8.1 y 10
 -   MacOS/OS X

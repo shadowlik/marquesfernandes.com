@@ -29,7 +29,7 @@ Entonces, ¿cómo se instala Google Chrome en Ubuntu? Hay dos maneras de instal
 
 Si eres nuevo en el mundo Linux, la instalación por línea de comandos puede ser extremadamente complicada, pero no te preocupes, Ubuntu lo sabe y así trata de traerte una experiencia más sencilla.
 
-Primero ve a h[ttps://www.google.com/chrome](https://www.google.com/chrome/)/ para acceder a la página de descarga de Chrome.
+Primero ve a [https://www.google.com/chrome/](https://www.google.com/chrome/) para acceder a la página de descarga de Chrome.
 
 ![Chrome Paso 1](./2020-08-image-6.jpg)
 
@@ -63,4 +63,4 @@ Ahora sólo tienes que buscar Google Chrome en tu lista de aplicaciones y empeza
 
 ## Cómo optimizar Google Chrome
 
-Ahora que tienes tu Google Chrome en funcionamiento, consulta este a[rtículo sob](http://marquesfernandes.com/como-otimizar-a-velocidade-e-desempenho-do-seu-google-chrome/)re cómo optimizar tu navegador y mantener tu rendimiento actualizado.
+Ahora que tienes tu Google Chrome en funcionamiento, consulta este [artículo](http://marquesfernandes.com/como-otimizar-a-velocidade-e-desempenho-do-seu-google-chrome/) sobre cómo optimizar tu navegador y mantener tu rendimiento actualizado.

@@ -57,14 +57,14 @@ Cuando se trata de almacenamiento e intercambio de datos, HTML es un lenguaje in
 
 XML llena este vacío al ser legible tanto por los seres humanos como por los sistemas, y es lo suficientemente flexible como para admitir el intercambio de datos independiente de la plataforma y la arquitectura.
 
-Durante mucho tiempo XML fue el estándar de comunicación entre sistemas, facilitando la integración humana con varios programas, varios protocolos de comunicación web implementan xml como sus medios de comunicación, siendo el más famoso SOAP. Con la creación d[e JS](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/)ON XML ha perdido mucho espacio y se ha vuelto obsoleto en ciertos usos.
+Durante mucho tiempo XML fue el estándar de comunicación entre sistemas, facilitando la integración humana con varios programas, varios protocolos de comunicación web implementan xml como sus medios de comunicación, siendo el más famoso SOAP. Con la creación de [JSON](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/) XML ha perdido mucho espacio y se ha vuelto obsoleto en ciertos usos.
 
 ## Aplicaciones XML
 
 Como hemos visto antes, XML permite una lectura fácil para humanos y máquinas, por lo que su gama de aplicaciones es muy completa:
 
 -   Publicación web: XML le permite crear páginas interactivas, permite al cliente personalizar esas páginas y hace que la creación de aplicaciones de comercio electrónico sea más intuitiva.
--   Búsqueda web y automatización de tareas web: XML define el tipo de información contenida en un documento, facilitando la devolución de resultados útiles al buscar en la web, un ejemplo práctico de los cuales son la[s fuentes RS](https://rockcontent.com/blog/o-que-e-feed-rss/)S.
+-   Búsqueda web y automatización de tareas web: XML define el tipo de información contenida en un documento, facilitando la devolución de resultados útiles al buscar en la web, un ejemplo práctico de los cuales son las [fuentes RSS](https://rockcontent.com/blog/o-que-e-feed-rss/).
 -   Aplicaciones generales: XML proporciona un método estándar para acceder a la información, facilitando el uso, almacenamiento, transmisión y visualización de datos desde aplicaciones y dispositivos de todo tipo.
 -   Aplicaciones de negocio electrónico: las implementaciones XML hacen que el intercambio electrónico de datos (EDI) sea más accesible para el intercambio de información, las transacciones de negocio a negocio y las transacciones entre empresas y consumidores.
 -   Aplicaciones de metadatos: XML facilita la expresión de metadatos en un formato portátil y reutilizable.
@@ -96,6 +96,6 @@ Ahora vamos a un ejemplo más práctico:
 
 ## Cómo crear un archivo XML
 
-Crear un archivo XML es muy simple, puede utilizar edi[tores en línea p](https://codebeautify.org/xmlviewer)ara esto o simplemente un editor de texto simple, lo importante es guardar siempre el archivo con la extensión `.xm`l.
+Crear un archivo XML es muy simple, puede utilizar [editores en línea](https://codebeautify.org/xmlviewer) para esto o simplemente un editor de texto simple, lo importante es guardar siempre el archivo con la extensión `.xm`l.
 
-Si desea obtener más información sobre cómo crear un archivo XML, le den la lectura de la do[cumentación en el sitio web de moz](https://developer.mozilla.org/pt-PT/docs/Web/XML/Introducao_a_XML)illa, es muy didáctico y por lo que no me pareció necesario crear un tutorial para esto.
+Si desea obtener más información sobre cómo crear un archivo XML, le den la lectura de la [documentación en el sitio web de Mozilla](https://developer.mozilla.org/pt-PT/docs/Web/XML/Introducao_a_XML), es muy didáctico y por lo que no me pareció necesario crear un tutorial para esto.

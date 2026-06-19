@@ -15,11 +15,11 @@ needsReview: false
 updated: 2021-12-12T11:22:54.000Z
 ---
 
-El desarrollo de back-end es el desarrollo del lado del servidor. Es el término utilizado para el desarrollo que ocurre detrás de escena, no visto por los usuarios. En otras palabras, los desarrolladores de back-end crean la regla de negocio, la lógica para hacer que un sistema web funcione correctamente y lo hacen mediante el uso de lenguajes de programación específicos del lado del servidor, como [NodeJ](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/)S, [PH](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/)P o [Python](http://marquesfernandes.com/desenvolvimento/o-que-e-python-e-pra-que-serve/).
+El desarrollo de back-end es el desarrollo del lado del servidor. Es el término utilizado para el desarrollo que ocurre detrás de escena, no visto por los usuarios. En otras palabras, los desarrolladores de back-end crean la regla de negocio, la lógica para hacer que un sistema web funcione correctamente y lo hacen mediante el uso de lenguajes de programación específicos del lado del servidor, como [NodeJS](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/), [PHP](http://marquesfernandes.com/tecnologia/o-que-e-php-e-para-que-serve/) o [Python](http://marquesfernandes.com/desenvolvimento/o-que-e-python-e-pra-que-serve/).
 
 * * *
 
-Para comprender mejor el concepto de backend, necesitamos analizar el otro extremo de un sistema web, el [fronten](http://marquesfernandes.com/tecnologia/o-que-e-um-desenvolvedor-frontend-e-o-que-ele-faz/)d.
+Para comprender mejor el concepto de backend, necesitamos analizar el otro extremo de un sistema web, el [frontend](http://marquesfernandes.com/tecnologia/o-que-e-um-desenvolvedor-frontend-e-o-que-ele-faz/).
 
 ![Flujo web simple](./2020-08-Servidor-e1597608701874.jpg)
 
@@ -29,7 +29,7 @@ El dibujo de arriba representa un flujo simple de un sitio web o sistema web, te
 
 La parte cliente, que muestra la información de forma estructurada, la desarrolla el desarrollador frontend mientras que la parte que responde a la información deseada, realizando consultas en la base de datos y aplicando otras reglas de negocio, quien se encarga es el desarrollador backend. La comunicación entre estos dos extremos se suele realizar a través de [API](http://marquesfernandes.com/tecnologia/o-que-e-uma-api-e-para-que-serve/) (protocolos y estándares de comunicación en Internet).
 
-Hay casos de de[sarrolladores full-stack,](http://marquesfernandes.com/tecnologia/o-que-e-e-o-que-faz-um-desenvolvedor-full-stack/) que logran desarrollar en ambos extremos.
+Hay casos de [desarrolladores full-stack](http://marquesfernandes.com/tecnologia/o-que-e-e-o-que-faz-um-desenvolvedor-full-stack/), que logran desarrollar en ambos extremos.
 
 ## Lenguajes de programación populares para backend
 
@@ -39,7 +39,7 @@ Hay varios lenguajes de programación específicos del backend, y constantemente
 
 ### [NodeJS](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/)
 
-El entorno [**de**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/) nodo tiene todo lo necesario para ejecutar scripts javascript, donde hasta entonces \* solo era posible en navegadores. Le permite usar javascript como lenguaje de backend y usa el m*otor javascript V8* desarrollado por Google para Chrome.
+El entorno [**nodo**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/) tiene todo lo necesario para ejecutar scripts javascript, donde hasta entonces \* solo era posible en navegadores. Le permite usar javascript como lenguaje de backend y usa el m*otor javascript V8* desarrollado por Google para Chrome.
 
 ![Pitón](./2020-08-kwi4bvgzths31-1.jpg)
 
@@ -78,4 +78,4 @@ Las responsabilidades de un desarrollador back-end pueden incluir trabajar con:
 
 ## ¿Cuánto gana un desarrollador de backend?
 
-El área de tecnología se caracteriza por tener un entorno laboral y remunerativo muy atractivo. El salario de un desarrollador de backend puede variar ampliamente, tanto por empresa como por región. Según los sitios de trabajo, el salario promedio del des[arrollador backend en Brasil](https://neuvoo.com.br/salario/?job=Desenvolvedor+Back+End) es de R **$ 4.200**. Los desarrolladores más experimentados pueden ganar más de R $ 10**.000, si**n mencionar los beneficios completos que brindan las empresas de tecnología.
+El área de tecnología se caracteriza por tener un entorno laboral y remunerativo muy atractivo. El salario de un desarrollador de backend puede variar ampliamente, tanto por empresa como por región. Según los sitios de trabajo, el salario promedio del [desarrollador backend en Brasil](https://neuvoo.com.br/salario/?job=Desenvolvedor+Back+End) es de R **$ 4.200**. Los desarrolladores más experimentados pueden ganar más de R $ 10**.000, si**n mencionar los beneficios completos que brindan las empresas de tecnología.

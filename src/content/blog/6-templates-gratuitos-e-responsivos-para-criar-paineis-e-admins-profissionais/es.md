@@ -24,7 +24,7 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://adminlte.io/themes/AdminLTE/index2.html](https://adminlte.io/themes/AdminLTE/index2.html)
 
-**AdminLTE** es uno de los más completos en la categoría gratuita, particularmente ya utilizado para algunos proyectos y me gustó mucho. Totalmente responsivo, desarrollado en la parte [**superior de**](https://getbootstrap.com/docs/3.4/) Bootstrap 3 tiene varios componentes y páginas de muestra, su uso y personalización es muy fácil.
+**AdminLTE** es uno de los más completos en la categoría gratuita, particularmente ya utilizado para algunos proyectos y me gustó mucho. Totalmente responsivo, desarrollado en la parte superior de [**Bootstrap 3**](https://getbootstrap.com/docs/3.4/) tiene varios componentes y páginas de muestra, su uso y personalización es muy fácil.
 
 ## [Administración, Año Nuevo](https://colorlib.com//polygon/adminty/default/index.html)
 
@@ -32,7 +32,7 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://colorlib.com//polygon/adminty/default/index.html](https://colorlib.com//polygon/adminty/default/index.html)  
 
-**Adminty** fue desarrollado por la compañía [colorli](https://colorlib.com)b en la parte [superior de](http://getbootstrap.com/) Bootstrap 4, tiene varios componentes y es extremadamente expansivo, usarlo no es tan fácil, pero seguro que vale la pena, tiene un diseño muy agradable y moderno.[](http://getbootstrap.com)
+**Adminty** fue desarrollado por la compañía [colorlib](https://colorlib.com) en la parte superior de [Bootstrap 4](http://getbootstrap.com/), tiene varios componentes y es extremadamente expansivo, usarlo no es tan fácil, pero seguro que vale la pena, tiene un diseño muy agradable y moderno.[](http://getbootstrap.com)
 
 ## [SB Admin](https://blackrockdigital.github.io/startbootstrap-sb-admin/)
 
@@ -48,7 +48,7 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://demos.creative-tim.com/light-bootstrap-dashboard/](https://demos.creative-tim.com/light-bootstrap-dashboard/)  
 
-**Light Bootstrap e**s también una plantilla muy simple, fue desarrollado en la parte superior [de Bootstrap](http://getbootstrap.com) 4.
+**Light Bootstrap e**s también una plantilla muy simple, fue desarrollado en la parte superior de [Bootstrap 4](http://getbootstrap.com).
 
 ## [Matrix Admin](https://wrappixel.com/templates/matrix-admin/)
 
@@ -56,7 +56,7 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://wrappixel.com/templates/matrix-admin/](https://wrappixel.com/templates/matrix-admin/)
 
-**Matrix Admin** es una plantilla moderna y sencilla, su diseño se asemeja un poco con ventanas, fue desarrollado en la parte superior d[e Bootstrap](http://getbootstrap.com) 4.
+**Matrix Admin** es una plantilla moderna y sencilla, su diseño se asemeja un poco con ventanas, fue desarrollado en la parte superior de [Bootstrap 4](http://getbootstrap.com).
 
 ## [AdminBSB](https://gurayyarar.github.io/AdminBSBMaterialDesign/)
 
@@ -64,4 +64,4 @@ updated: 2021-12-12T11:24:17.000Z
 
 [https://gurayyarar.github.io/AdminBSBMaterialDesign/](https://gurayyarar.github.io/AdminBSBMaterialDesign/)
 
-**AdminBSB** fue desarrollado con Bootstrap 3 y Material Design, totalmente responsivo es un tema muy fresco para aquellos que buscan desarrollar una aplicación similar a la de [Googl](https://material.io/design/)e.
+**AdminBSB** fue desarrollado con Bootstrap 3 y Material Design, totalmente responsivo es un tema muy fresco para aquellos que buscan desarrollar una aplicación similar a la de [Google](https://material.io/design/).

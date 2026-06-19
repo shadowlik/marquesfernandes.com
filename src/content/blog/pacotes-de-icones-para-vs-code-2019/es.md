@@ -17,7 +17,7 @@ updated: 2021-12-12T11:24:14.000Z
 
 ¿Cansado de ese tedioso y feo paquete de iconos de su código VS? Echa un vistazo a una lista de los mejores paquetes para personalizar los iconos de archivos y carpetas en su VS Code!
 
-***También echa un v**is[tazo: Top 6 temas para usar en VS Code](http://marquesfernandes.com/2019/03/19/top-6-temas-para-usar-no-vs-code-em-2019)*
+***También echa un vistazo:** [Top 6 temas para usar en VS Code](http://marquesfernandes.com/2019/03/19/top-6-temas-para-usar-no-vs-code-em-2019)*
 
 ## [Tema del icono del material](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
@@ -53,7 +53,7 @@ VSCode Great Icons tiene más de 100 iconos diferentes, en el top 3 paquetes má
 
 ![ Nomo Dark Icon Theme](./2019-10-screenshot-marketplace.visualstudio.com-2019.10.04-19_14_50.png)
 
-[Nomo Dark Icon Them](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark)e no es tan famoso como los otros, pero su estilo de iconos agrada mucho.
+[Nomo Dark Icon Theme](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark) no es tan famoso como los otros, pero su estilo de iconos agrada mucho.
 
 ## [Tema de icono neutral agudo](https://marketplace.visualstudio.com/items?itemName=keenethics.keen-neutral-icon-theme)
 
@@ -62,4 +62,4 @@ VSCode Great Icons tiene más de 100 iconos diferentes, en el top 3 paquetes má
 
 ![](https://github.com/keenethics/neutral-icon-theme/raw/master/preview.png)
 
-[El tema de icono neutro agu](https://marketplace.visualstudio.com/items?itemName=keenethics.keen-neutral-icon-theme)do es un tema de icono minimalista, ideal para aquellos que disfrutan de golpes y objetivos limpios.
+El [tema de icono neutro agudo](https://marketplace.visualstudio.com/items?itemName=keenethics.keen-neutral-icon-theme) es un tema de icono minimalista, ideal para aquellos que disfrutan de golpes y objetivos limpios.

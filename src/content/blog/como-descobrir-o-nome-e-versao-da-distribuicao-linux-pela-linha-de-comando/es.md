@@ -30,7 +30,7 @@ Para averiguar la versión y otra información de su Linux, ejecute el comando c
 
 $ gato /etc/\*-release
 
-Ejemplo de ejecución en mi escritorio co[n Ubunt](https://ubuntu.com/)u:
+Ejemplo de ejecución en mi escritorio con [Ubuntu](https://ubuntu.com/):
 
 DISTRIB\_ID-Ubuntu
 DISTRIB\_RELEASE 19,04

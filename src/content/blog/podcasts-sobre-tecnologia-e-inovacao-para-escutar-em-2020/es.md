@@ -19,11 +19,11 @@ updated: 2021-12-12T11:24:05.000Z
 
 Los podcasts han ido ganando mucha popularidad en los últimos tiempos y asumiendo la rutina diaria de los brasileños. Los podcasts son una evolución de la radio, alineando la tecnología y la practicidad, se han convertido en el medio perfecto para mantenerse atento o incluso para relajarse en varios temas. Durante el tránsito, haciendo ejercicio o incluso trabajando, un océano de contenido a un lado de los auriculares, el podcast es una gran opción para optimizar su tiempo y mantenerse informado.
 
-Tengo cierta dificultad para encontrar nuevos contenidos, incluso en Spot[ify, po](https://open.spotify.com/user/12142144766?si=3pJxPV5oTj-Ox5eueBglDw)r lo que separé una lista con todos los canales que suelo escuchar, desde los más técnicos centrados en el desarrollo y la innovación, hasta los contenidos de desarrollo personal y el mundo corporativo. Si te gusta estar al tanto de las noticias del mercado no te pierdas esta lista!
+Tengo cierta dificultad para encontrar nuevos contenidos, incluso en [Spotify](https://open.spotify.com/user/12142144766?si=3pJxPV5oTj-Ox5eueBglDw), por lo que separé una lista con todos los canales que suelo escuchar, desde los más técnicos centrados en el desarrollo y la innovación, hasta los contenidos de desarrollo personal y el mundo corporativo. Si te gusta estar al tanto de las noticias del mercado no te pierdas esta lista!
 
 *Mantendré esta lista actualizada y poco a poco pondré mi opinión en todos los canales enumerados. Recordando que siempre estoy buscando nuevo contenido, así que por favor deje su sugerencia en los comentari*os!
 
-**Ver también: Princi**[pales aplicaciones para organizar sus listas de tareas pendientes – ToDo](http://marquesfernandes.com/2020/01/26/top-aplicativos-para-organizar-suas-listas-de-tarefas-todo)
+**Ver también:** [Principales aplicaciones para organizar sus listas de tareas pendientes – ToDo](http://marquesfernandes.com/2020/01/26/top-aplicativos-para-organizar-suas-listas-de-tarefas-todo)
 
 Acceso directo :: Resumen
 
@@ -57,7 +57,7 @@ Acceso directo :: Resumen
 
 https://open.spotify.com/show/2p0Vx75OmfsXktyLBuLuSf?si=pZrw5P1WQCK9TmgVa9vqiw
 
-Hipsters Ponto Tech es el podcast donde la gente de [caelum](http://www.caelum.com.br/) y alur[a se](http://www.alura.com.br/) enoje con acaloradas discusiones sobre programación, diseño, ux, gadgets, startups y las últimas modinhas tecnológicas.
+Hipsters Ponto Tech es el podcast donde la gente de [Caelum](http://www.caelum.com.br/) y [Alura](http://www.alura.com.br/) se enoje con acaloradas discusiones sobre programación, diseño, ux, gadgets, startups y las últimas modinhas tecnológicas.
 
 ## [Morning Loop](https://loopmatinal.com)
 

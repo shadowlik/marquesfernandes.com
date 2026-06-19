@@ -21,7 +21,7 @@ Estadísticamente, casi la mitad de la audiencia de tu sitio espera que tu sitio
 
 ## ¿Qué es Cache?
 
-En pocas palabras, el almacenamiento en caché es básicamente una solución simple a un problema complejo: las páginas en WordPress se generan dinámicamente, cuando un usuario entra en el sitio y accede, por ejemplo, algún artículo, se hace una solicitud al servidor para que esa página sea procesada y entregada, luego el lenguaje de [pr](http://marquesfernandes.com/o-que-e-php-e-para-que-serve/)ogramación PHP toma acción y realiza varias consultas en la base de datos para construir la página solicitada y devolverla al usuario.
+En pocas palabras, el almacenamiento en caché es básicamente una solución simple a un problema complejo: las páginas en WordPress se generan dinámicamente, cuando un usuario entra en el sitio y accede, por ejemplo, algún artículo, se hace una solicitud al servidor para que esa página sea procesada y entregada, luego el lenguaje de programación [PHP](http://marquesfernandes.com/o-que-e-php-e-para-que-serve/) toma acción y realiza varias consultas en la base de datos para construir la página solicitada y devolverla al usuario.
 
 A medida que aumenta el número de visitas en el sitio, esto termina sobrecargando el servidor y reduciendo el tiempo de respuesta de la página para el usuario. Ahí es donde la memoria caché entra en juego, ya que la mayoría de las páginas no necesitan tener necesariamente contenido dinámico, crea un archivo de página estático y cada vez que el usuario lo solicita entrega esa página ya creada, lo que reduce drásticamente el tiempo de procesamiento y respuesta. La caché normalmente funciona con un tiempo de expiración, por ejemplo, la página de inicio puede tener un tiempo de expiración de 24 horas, cuando The Cache se asoma, se genera una nueva versión actualizada de la página y se sirve a los usuarios.
 
@@ -49,7 +49,7 @@ Separé una lita con los mejores y más populares plugins de caché para WordPre
 
 > WP-Optimize es un revolucionario plug-in todo en uno que limpia su base de datos, comprime sus imágenes y almacena en caché su sitio. La función de almacenamiento en caché se basa en el motor de almacenamiento en caché más rápido del mundo. Esta herramienta simple, popular y altamente eficaz tiene todo lo que necesita para mantener su sitio web rápido y completamente optimizado!
 
-[WP-Optimiz](https://br.wordpress.org/plugins/wp-optimize/#description)e es el plugin que elegí para mi blog *(no obtengo nada por recomend*ación), después de probar varios plugins, opté por esto por su simplicidad y eficiencia, fácil de configurar, entregó una mejora de rendimiento muy significativa y carga. Ataca optimizando varias partes de su sitio:
+[WP-Optimize](https://br.wordpress.org/plugins/wp-optimize/#description) es el plugin que elegí para mi blog *(no obtengo nada por recomend*ación), después de probar varios plugins, opté por esto por su simplicidad y eficiencia, fácil de configurar, entregó una mejora de rendimiento muy significativa y carga. Ataca optimizando varias partes de su sitio:
 
 1.  **Base de datos**: optimiza la base de datos eliminando tablas innecesarias y comprimiendo/desfragmentando.
 2.  **Compresión de imágene**s: Tiene una herramienta para comprimir tus imágenes, reduciendo su tamaño y aumentando el tiempo de carga de la página.

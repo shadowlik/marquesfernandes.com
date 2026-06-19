@@ -28,7 +28,7 @@ Debido a que estos algoritmos de búsqueda están cerrados, no está claro qué 
 
 ## Cursos para aprender SEO
 
-## 1\. [Curso SEO completo - De básico a avanzado (](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.855368&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-de-seo-completo-do-basico-ao-avancado%2F)pagado)
+## 1\. [Curso SEO completo - De básico a avanzado](https://click.linksynergy.com/link?id=FPuxaVz3TuY&offerid=507388.855368&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fcurso-de-seo-completo-do-basico-ao-avancado%2F) (pagado)
 
 ![Curso SEO completo - De básico a avanzado](./2020-07-image-23.jpg)
 
@@ -68,7 +68,7 @@ Search Engine Optimization (SEO) es un conjunto de técnicas aplicadas interna y
 -   Analice el rendimiento orgánico en los blogs y cree planes de acción de mejora.
 -   Anuncia tu blog en diferentes canales digitales.
 
-## 4\. [CURSO BASICO SEO - GRATIS ONLI](https://www.mirago.com.br/online/curso-seo-gratuito-online/)NE (Gratis)
+## 4\. [CURSO BASICO SEO - GRATIS ONLINE](https://www.mirago.com.br/online/curso-seo-gratuito-online/) (Gratis)
 
 [![CURSO BASIC SEO - GRATIS ONLINE](./2020-07-image-26.jpg)](https://www.mirago.com.br/online/curso-seo-gratuito-online/)
 
@@ -76,7 +76,7 @@ E**l curso Free Online SEO está** diseñado para todas las personas que quieran
 
 En este curso aprenderás los conceptos básicos del SEO, así como entenderás cómo funciona el motor de búsqueda principal: Google. Además, verás cómo planificar tu contenido y tu sitio en función de los conceptos de SEO.
 
-## 5\. [Fundamentos del marketing digital por Goog](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)le (Gratis)
+## 5\. [Fundamentos del marketing digital por Google](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing) (Gratis)
 
 [![Fundamentos del marketing digital por Google](./2020-07-image-27.jpg)](https://learndigital.withgoogle.com/ateliedigital/course/digital-marketing)
 

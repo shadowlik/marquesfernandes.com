@@ -37,7 +37,7 @@ El tema del icono de Papirus está disponible en cuatro variantes:
 
 [![Círculo de Numix](https://user-images.githubusercontent.com/27789806/35548150-3019d536-0543-11e8-818e-a2fa73a4d6d0.png)](https://github.com/numixproject/numix-icon-theme-circle)
 
-Circle es un tema de iconos de Linux del [proyecto Numi](https://numixproject.github.io/)x. El conjunto de iconos de Numix Circle ahora abarca varios miles de iconos de aplicaciones, desde los favoritos de antaño hasta los más nuevos, todos (como era de esperar) colocados en un marco circular.
+Circle es un tema de iconos de Linux del [proyecto Numix](https://numixproject.github.io/). El conjunto de iconos de Numix Circle ahora abarca varios miles de iconos de aplicaciones, desde los favoritos de antaño hasta los más nuevos, todos (como era de esperar) colocados en un marco circular.
 
 ## [3\. Tema de icono de Qogir](https://github.com/vinceliuice/Qogir-theme)
 

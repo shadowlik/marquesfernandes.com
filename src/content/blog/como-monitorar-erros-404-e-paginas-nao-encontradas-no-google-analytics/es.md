@@ -16,9 +16,9 @@ needsReview: false
 updated: 2021-12-12T11:24:05.000Z
 ---
 
-En este artículo aprenderemos a supervisar los errores 404 de su sitio por parte [de Google Analytic](https://analytics.google.com/analytics/web/)s. Si su sitio está configurado correctamente para este tipo de error, Analytics ya puede supervisar automáticamente. Los informes personalizados que aprenderemos a crear le ayudarán a identificar y corregir fácilmente qué páginas están causando este error.
+En este artículo aprenderemos a supervisar los errores 404 de su sitio por parte de [Google Analytics](https://analytics.google.com/analytics/web/). Si su sitio está configurado correctamente para este tipo de error, Analytics ya puede supervisar automáticamente. Los informes personalizados que aprenderemos a crear le ayudarán a identificar y corregir fácilmente qué páginas están causando este error.
 
-**También echa un** v[istazo: Filtrado de vista previa y wp-admin de WordPress en Google Analytics](http://marquesfernandes.com/filtrando-pre-visualizacao-e-wp-admin-do-wordpress-no-google-analytics/)
+**También echa un vistazo:** [Filtrado de vista previa y wp-admin de WordPress en Google Analytics](http://marquesfernandes.com/filtrando-pre-visualizacao-e-wp-admin-do-wordpress-no-google-analytics/)
 
 Primero tenemos que averiguar si nuestras 404 páginas están configuradas correctamente:
 

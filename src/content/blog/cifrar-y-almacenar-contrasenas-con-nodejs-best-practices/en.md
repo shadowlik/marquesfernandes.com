@@ -44,7 +44,7 @@ In summary, the practice of this technique will be:
 3.  Encrypt the combination of the entered password and the salt
 4.  Compare this hash with the hash saved in the database
 
-In this article we will not cover the full process. For the encryption part we will use the native Crypto librar[y, and fo](https://nodejs.org/api/crypto.html)r the database part we will simulate it with `console.lo`g.
+In this article we will not cover the full process. For the encryption part we will use the [native Crypto library](https://nodejs.org/api/crypto.html), and for the database part we will simulate it with `console.log`.
 
 ## Let's get to the code
 

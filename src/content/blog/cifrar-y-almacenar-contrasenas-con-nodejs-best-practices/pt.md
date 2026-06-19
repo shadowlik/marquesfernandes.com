@@ -44,7 +44,7 @@ Em resumo, a prática dessa técnica será:
 3.  Criptografar a combinação da senha digitada e o sal
 4.  Comparar esse hash com o hash salvo no banco
 
-Neste artigo não cobriremos o processo completo. Para a parte de criptografia usaremos a biblioteca Cripto nativ[a e par](https://nodejs.org/api/crypto.html)a a parte do banco simularemos com o `console.lo`g.
+Neste artigo não cobriremos o processo completo. Para a parte de criptografia usaremos a biblioteca [Cripto nativa](https://nodejs.org/api/crypto.html) e para a parte do banco simularemos com o `console.log`.
 
 ## Vamos ao código
 

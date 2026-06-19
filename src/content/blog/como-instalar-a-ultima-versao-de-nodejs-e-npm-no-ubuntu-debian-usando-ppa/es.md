@@ -16,9 +16,9 @@ needsReview: false
 updated: 2021-12-12T11:24:07.000Z
 ---
 
-**[NodeJS](http://marquesfernandes.com/2019/03/05/afinal-o-que-e-nodejs)** es una plataforma basada en el motor de ejecución de JavaScript de Chrome para crear fácilmente aplicaciones de red escalables y rápidas. PP[A de Node es](https://deb.nodesource.com/setup_13.x)tá siendo actualizado y mantenido en su sitio web oficial. Podemos añadir este PPA a nuestro sistema Debian y Ubuntu 19.10, 18.04 LTS, 16.04 LTS (Trusty Tahr) y 14.04 LTS (Xenial Xerus) e instalar Node usando el administrador de paquetes nativo.
+**[NodeJS](http://marquesfernandes.com/2019/03/05/afinal-o-que-e-nodejs)** es una plataforma basada en el motor de ejecución de JavaScript de Chrome para crear fácilmente aplicaciones de red escalables y rápidas. El [PPA de Node](https://deb.nodesource.com/setup_13.x) está siendo actualizado y mantenido en su sitio web oficial. Podemos añadir este PPA a nuestro sistema Debian y Ubuntu 19.10, 18.04 LTS, 16.04 LTS (Trusty Tahr) y 14.04 LTS (Xenial Xerus) e instalar Node usando el administrador de paquetes nativo.
 
-***Echa un vistazo a más** en[: ¿Qué es NodeJS de todos modos?](http://marquesfernandes.com/2019/03/05/afinal-o-que-e-nodejs)*
+***Echa un vistazo a más en:** [¿Qué es NodeJS de todos modos?](http://marquesfernandes.com/2019/03/05/afinal-o-que-e-nodejs)*
 
 ## Añadido NodeJS PPA
 
@@ -43,7 +43,7 @@ $sudo apt-get install nodejs
 
 ## Comprobación de node.js y versión NPM
 
-La instalación puede tardar un tiempo dependiendo de su conexión a Internet, si todo sucede como se esperaba, una vez completada la instalación tenemos que verificar que las versiones instaladas de NodeJS y NPM son correctas. Para obtener más información sobre las versiones disponibles, consulte el si[tio web oficia](https://nodejs.org/download/)l.
+La instalación puede tardar un tiempo dependiendo de su conexión a Internet, si todo sucede como se esperaba, una vez completada la instalación tenemos que verificar que las versiones instaladas de NodeJS y NPM son correctas. Para obtener más información sobre las versiones disponibles, consulte el [sitio web oficial](https://nodejs.org/download/).
 
 $node -v 
 

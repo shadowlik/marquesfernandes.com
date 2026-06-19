@@ -16,9 +16,9 @@ needsReview: false
 updated: 2021-12-12T11:23:41.000Z
 ---
 
-P**[ostman](https://www.postman.com/)** es una gran herramienta para desarrollar y probar API RESTful creadas por otros o probar y desarrollar las que creó usted mismo. Ofrece una interfaz de usuario elegante con la que puede realizar solicitudes JSON, XML e incluso HTML sin necesidad de escribir mucho código solo para probar la funcionalidad de una API.
+**[Postman](https://www.postman.com/)** es una gran herramienta para desarrollar y probar API RESTful creadas por otros o probar y desarrollar las que creó usted mismo. Ofrece una interfaz de usuario elegante con la que puede realizar solicitudes JSON, XML e incluso HTML sin necesidad de escribir mucho código solo para probar la funcionalidad de una API.
 
-Sw[**agger e**](https://swagger.io/docs/specification/about/)s un conjunto de herramientas de código abierto creadas en torno a la especificaci**ón Open**API que pueden ayudarle a diseñar, crear, documentar y consumir API REST. Las principales herramientas de Swagger incluyen:
+[**Swagger**](https://swagger.io/docs/specification/about/) es un conjunto de herramientas de código abierto creadas en torno a la especificación **OpenAPI** que pueden ayudarle a diseñar, crear, documentar y consumir API REST. Las principales herramientas de Swagger incluyen:
 
 -   Swagger Editor - editor en el navegador donde puede escribir las especificaciones OpenAPI.
 -   Swagger UI: representa las especificaciones de OpenAPI como documentación de API interactiva en el explorador.
@@ -37,4 +37,4 @@ Bueno, ahora que entendemos lo que es cada herramienta/servicio y lo hace podemo
 
 La solución que encontré fue centralizar y desarrollar toda la documentación de las API en formato **OpenAPI**, ya que como esta especificación se desarrolla en un archivo YAML o JSON, pudimos versionar estos archivos por proyectos, en el caso de una arquitectura de microservicios esto es extremadamente útil, y como Postman permite la importación de la especificación OpenAPI, es fácil actualizar su versión local.
 
-Bueno, si te gusto comenzó a desarrollar toda tu documentación en Postman y ahora estás buscando una solución fácil y rápida para convertir de Postman a OpenAPI, ten la seguridad de que podemos usar el servi[cio gratuito de APIMatic par](https://apimatic.io/transformer)a realizar esta conversión. Regístrese en el sitio y en pocos minutos tener toda su documentación convertida!
+Bueno, si te gusto comenzó a desarrollar toda tu documentación en Postman y ahora estás buscando una solución fácil y rápida para convertir de Postman a OpenAPI, ten la seguridad de que podemos usar el [servicio gratuito de APIMatic](https://apimatic.io/transformer) para realizar esta conversión. Regístrese en el sitio y en pocos minutos tener toda su documentación convertida!

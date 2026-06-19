@@ -18,7 +18,7 @@ updated: 2021-12-12T11:22:51.000Z
 
 Compró una nueva SSD o HD para su computadora, o tal vez incluso para su computadora portátil, y se pregunta: ¿hay alguna manera fácil de migrar toda la instalación del sistema operativo Windows 10 al nuevo disco? ¡La respuesta es sí!
 
-Hay algunas formas de clonar y migrar a un nuevo disco sin tener que reinstalar nada. En este tutorial realizaremos este proceso utilizando la versión gratuita de [EaseU](https://www.easeus.com/disk-copy/clone-resource/clone-hard-drive.htm)S.
+Hay algunas formas de clonar y migrar a un nuevo disco sin tener que reinstalar nada. En este tutorial realizaremos este proceso utilizando la versión gratuita de [EaseUS](https://www.easeus.com/disk-copy/clone-resource/clone-hard-drive.htm).
 
 ## 1\. Hacer una copia de seguridad
 
@@ -48,7 +48,7 @@ Navegue por sus carpetas, especialmente las carpetas *Documento*s, *Imágen*es *
 
 ## 3\. Instalar el programa de migración
 
-Windows 10 no ofrece una forma nativa y sencilla de clonar y cambiar su sistema operativo a un nuevo disco duro. Para eso necesitaremos descargar e instalar el programa [EaseU](https://www.easeus.com/backup-software/tb-free.html)S.
+Windows 10 no ofrece una forma nativa y sencilla de clonar y cambiar su sistema operativo a un nuevo disco duro. Para eso necesitaremos descargar e instalar el programa [EaseUS](https://www.easeus.com/backup-software/tb-free.html).
 
 ![](./2020-09-image-3.png)
 

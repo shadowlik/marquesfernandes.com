@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:22:54.000Z
 ---
 
-Un desarrollador front-end es responsable del desarrollo front-end de la interfaz gráfica de la aplicación web. Trabajan principalmente con tecnologías H[TML,](http://marquesfernandes.com/tecnologia/o-que-e-html-e-para-que-serve/) C[SS](http://marquesfernandes.com/tecnologia/o-que-e-css-e-para-que-serve/) y [JavaScript](http://marquesfernandes.com/desenvolvimento/javascript-o-que-e-como-funciona-e-para-que-serve/). A diferencia [del back](http://marquesfernandes.com/tecnologia/o-que-e-um-desenvolvedor-backend-e-o-que-ele-faz/)end, que tiene muchos lenguajes de programación diferentes, el dinamismo de la tecnología frotend se encuentra principalmente [en los fra](http://marquesfernandes.com/tecnologia/framework-x-biblioteca-x-toolkit-o-que-sao-e-qual-a-diferenca/)meworks, que son bibliotecas optimizadas para el desarrollo web.
+Un desarrollador front-end es responsable del desarrollo front-end de la interfaz gráfica de la aplicación web. Trabajan principalmente con tecnologías [HTML](http://marquesfernandes.com/tecnologia/o-que-e-html-e-para-que-serve/), [CSS](http://marquesfernandes.com/tecnologia/o-que-e-css-e-para-que-serve/) y [JavaScript](http://marquesfernandes.com/desenvolvimento/javascript-o-que-e-como-funciona-e-para-que-serve/). A diferencia del [backend](http://marquesfernandes.com/tecnologia/o-que-e-um-desenvolvedor-backend-e-o-que-ele-faz/), que tiene muchos lenguajes de programación diferentes, el dinamismo de la tecnología frotend se encuentra principalmente en los [frameworks](http://marquesfernandes.com/tecnologia/framework-x-biblioteca-x-toolkit-o-que-sao-e-qual-a-diferenca/), que son bibliotecas optimizadas para el desarrollo web.
 
 El frontend trabaja en conjunto con el backend, responsable de enviar la información necesaria para que el frontend pueda construir la interfaz gráfica de un sitio web o sistema.
 
@@ -37,7 +37,7 @@ Como se explicó anteriormente, el desarrollo de frontend gira en torno a 3 tecn
 
 ### [CSS](http://marquesfernandes.com/tecnologia/o-que-e-css-e-para-que-serve/)
 
-> **C**ascading **S**tyle **S**heets (C**SS)** es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas en Internet **[(HTM](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**L). Podemos pensar en CSS como la piel o incluso la ropa, es responsable de aplicar todas las personalizaciones visuales como el tamaño y el color de la fuente, el color de fondo y mucho más. 
+> **C**ascading **S**tyle **S**heets (C**SS)** es un lenguaje de diseño diseñado para simplificar la presentación y personalización de páginas en Internet (**[HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/)**). Podemos pensar en CSS como la piel o incluso la ropa, es responsable de aplicar todas las personalizaciones visuales como el tamaño y el color de la fuente, el color de fondo y mucho más. 
 > 
 > [Que es CSS - Marques Fernandes](http://marquesfernandes.com/tecnologia/o-que-e-css-e-para-que-serve/)
 
@@ -88,4 +88,4 @@ Un desarrollador de frontend puede tener varias responsabilidades diferentes, qu
 
 ## ¿Cuánto gana un desarrollador frontend?
 
-El área de tecnología se caracteriza por tener un entorno laboral y remunerativo muy atractivo. El salario de un desarrollador de frontend puede variar ampliamente, tanto por empresa como por región. Según los sitios de trabajo, el salario promedio del des[arrollador frontend en Brasil](https://neuvoo.com.br/salario/?job=Programador+Front+End) es de R **$ 3.000**. Los desarrolladores más experimentados pueden ganar más de R $ 10**.000, si**n mencionar los beneficios completos que brindan las empresas de tecnología.
+El área de tecnología se caracteriza por tener un entorno laboral y remunerativo muy atractivo. El salario de un desarrollador de frontend puede variar ampliamente, tanto por empresa como por región. Según los sitios de trabajo, el salario promedio del [desarrollador frontend en Brasil](https://neuvoo.com.br/salario/?job=Programador+Front+End) es de **R$ 3.000**. Los desarrolladores más experimentados pueden ganar más de **R$ 10.000**, sin mencionar los beneficios completos que brindan las empresas de tecnología.

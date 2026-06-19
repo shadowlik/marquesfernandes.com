@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:24:17.000Z
 ---
 
-Si usted está cansado de su chusma terminal en linux; Cansado de dar alt + pestaña entre los terminales en el mismo proyecto; Cansado de perderse al intentar pegar un comando; Conozc**[a Terminato](https://terminator-gtk3.readthedocs.io/en/latest/)r,** un [emulador de termina](https://en.wikipedia.org/wiki/Terminal_emulator)l más robusto, organizado y personalizable:
+Si usted está cansado de su chusma terminal en linux; Cansado de dar alt + pestaña entre los terminales en el mismo proyecto; Cansado de perderse al intentar pegar un comando; Conozca **[Terminator](https://terminator-gtk3.readthedocs.io/en/latest/),** un [emulador de terminal](https://en.wikipedia.org/wiki/Terminal_emulator) más robusto, organizado y personalizable:
 
 -   **Múltiples pestaña**s: Múltiples pestañas de terminal en la misma ventana.
 -   **Cuadrícula de termina**les: Divida una pestaña en varios terminales, horizontal y vertical.
@@ -59,7 +59,7 @@ terminador de instalación yum de $sudo
 
 ![Preferencias de Terminator](./2019-03-image.png)
 
-Puede instalar o crear su propio tema en Terminator. Ve al en[lace](https://github.com/mbadolato/iTerm2-Color-Schemes) y elige el tema que más te guste, abre el archivo ".config" del tema deseado y copia tu contenido. Después de eso, haga clic con el botón derecho en Terminator, navegue a las preferencias y cree un nuevo perfil para generar un nuevo archivo de tema, vaya a .config/terminator/ y edite el archivo para el nuevo perfil creado y pegue el contenido del tema al final.
+Puede instalar o crear su propio tema en Terminator. Ve al [enlace](https://github.com/mbadolato/iTerm2-Color-Schemes) y elige el tema que más te guste, abre el archivo ".config" del tema deseado y copia tu contenido. Después de eso, haga clic con el botón derecho en Terminator, navegue a las preferencias y cree un nuevo perfil para generar un nuevo archivo de tema, vaya a .config/terminator/ y edite el archivo para el nuevo perfil creado y pegue el contenido del tema al final.
 
 ## Métodos abreviados de teclado
 

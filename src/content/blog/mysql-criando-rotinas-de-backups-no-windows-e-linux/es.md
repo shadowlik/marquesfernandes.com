@@ -23,11 +23,11 @@ Si tiene una base de datos MySQL, lo más probable es que ya haya necesitado o n
 
 ## ¿Qué es MySQL?
 
-No voy a entrar en una gran cantidad de datos técnicos sobre el historial de MySQL, se puede [comp](https://www.hostinger.com.br/tutoriais/o-que-e-mysql/)robar este enlace, pero brevemente MySQL es un sistema de gestión de bases de datos (DBMS), que utiliza el lenguaje SQL - Lenguaje de consulta estructurado, de Ingl*és Structured Query Languag*e. Actualmente es mantenido po[r Oracle Corporatio](https://www.oracle.com/br/corporate/)n y distribuido bajo dos licencias: [GP](https://pt.wikipedia.org/wiki/GNU_General_Public_License)L y [Commercial Licens](http://www.mysql.com/company/legal/licensing/commercial-license.html)e.
+No voy a entrar en una gran cantidad de datos técnicos sobre el historial de MySQL, se puede comprobar este [enlace](https://www.hostinger.com.br/tutoriais/o-que-e-mysql/), pero brevemente MySQL es un sistema de gestión de bases de datos (DBMS), que utiliza el lenguaje SQL - Lenguaje de consulta estructurado, de Ingl*és Structured Query Languag*e. Actualmente es mantenido por [Oracle Corporation](https://www.oracle.com/br/corporate/) y distribuido bajo dos licencias: [GPL](https://pt.wikipedia.org/wiki/GNU_General_Public_License) y [Commercial License](http://www.mysql.com/company/legal/licensing/commercial-license.html).
 
 ## Creación de copias de seguridad de MySQL diariamente en Windows
 
-Aprenderemos a crear un script completo en Windows, para ello es necesario haber instalado previamente MySQL y tener los datos de usuario legibles en la base de datos para ser copiados y usaremos 7zi[p p](https://www.7-zip.org/)ara comprimir nuestros archivos.
+Aprenderemos a crear un script completo en Windows, para ello es necesario haber instalado previamente MySQL y tener los datos de usuario legibles en la base de datos para ser copiados y usaremos [7zip](https://www.7-zip.org/) para comprimir nuestros archivos.
 
 Primero vamos a crear el archivo que contendrá nuestras credenciales de acceso bancario: `config.cn`f.
 
@@ -80,7 +80,7 @@ Para crear la programación en Windows puede usar el Programador de tareas.
 
 ## Creación de copias de seguridad de MySQL diariamente en Linux
 
-Ahora aprenderemos a crear un script completo en Linux, para ello es necesario haber instalado previamente MySQL y tener los datos de usuario legibles en la base de datos para ser copiados. También usaremos bzip[2 par](https://www.sourceware.org/bzip2/)a comprimir nuestros archivos, si no desea utilizar esta funcionalidad, comente las líneas 28 y 29.
+Ahora aprenderemos a crear un script completo en Linux, para ello es necesario haber instalado previamente MySQL y tener los datos de usuario legibles en la base de datos para ser copiados. También usaremos [bzip2](https://www.sourceware.org/bzip2/) para comprimir nuestros archivos, si no desea utilizar esta funcionalidad, comente las líneas 28 y 29.
 
 !/bin/bash
 
@@ -123,7 +123,7 @@ Guarde el archivo como mysql\_backup.sh; Conceda permiso de ejecución con el co
 
 ### Crontab - Creación de la programación
 
-Para crear la rutina que ejecuta nuestra copia de seguridad diaria en Linux, usaremos [Cronta](http://marquesfernandes.com/crontab-o-que-e-e-como-usar-no-ubuntu-debian/)b.
+Para crear la rutina que ejecuta nuestra copia de seguridad diaria en Linux, usaremos [Crontab](http://marquesfernandes.com/crontab-o-que-e-e-como-usar-no-ubuntu-debian/).
 
 Abra su Crontab:
 

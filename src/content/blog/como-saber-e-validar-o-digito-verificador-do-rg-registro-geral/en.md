@@ -26,15 +26,24 @@ To learn the logic behind the check digit generation, we will use a valid and ra
 
 First, let's make a table with 3 lines and 8 columns, we will have the first 8 digits of the ID number on the first line.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 
 Now we need to fill in the second line, it will always obey a logical sequence of numbers for all the calculation of any RG. The sequence is **2,3,4,5,6,7,8 and 9** .
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td>two</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| two | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|  |  |  |  |  |  |  |  |
 
 Now to get the values of the third row we must multiply the numbers of each row by column. For example 3x2, 9x3 and so on.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td>two</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>6</td><td>27</td><td>16</td><td>0</td><td>36</td><td>49</td><td>8</td><td>36</td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| two | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| 6 | 27 | 16 | 0 | 36 | 49 | 8 | 36 |
 
 Now that we have our complete table, we need to add up all the numbers from the third row. In our example we will have: **6 + 27 + 16 + 0 + 36 + 49 + 8 + 36 = 178** .
 

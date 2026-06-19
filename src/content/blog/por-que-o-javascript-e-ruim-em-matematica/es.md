@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:23:36.000Z
 ---
 
-Probablemente haya oído a alguien decir que "Java[script es](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/) malo con las cuentas", y esa declaración no está del todo equivocada. Por ignorancia algunas personas incluso se comparan con otros idiomas, he oído "Utiliza Phyton que ella sabe dar cuenta", tal vez porque es un lenguaje con alta popularidad en el campo de la ciencia de datos muchas personas asumen esto. No defender JS, ni criticar Phyton, sólo que usted entiende que muchos idiomas comparten este mismo problema Javascript.
+Probablemente haya oído a alguien decir que "[Javascript](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/) es malo con las cuentas", y esa declaración no está del todo equivocada. Por ignorancia algunas personas incluso se comparan con otros idiomas, he oído "Utiliza Phyton que ella sabe dar cuenta", tal vez porque es un lenguaje con alta popularidad en el campo de la ciencia de datos muchas personas asumen esto. No defender JS, ni criticar Phyton, sólo que usted entiende que muchos idiomas comparten este mismo problema Javascript.
 
 ## Observación del error en la práctica
 
@@ -27,7 +27,7 @@ Bueno, bueno, ¿quién sabía que no lo era?
 
 ## El problem**a: Punto flo**tante y redondeo
 
-Para tratar de evitar confusiones, como el concepto de punto flotante no es algo muy fácil de entender, vamos a tratar de explicar superficialmente el concepto, pero si quieres profundizar y entender en la raíz, te recomiendo leer este a[rtículo en inglé](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)s.
+Para tratar de evitar confusiones, como el concepto de punto flotante no es algo muy fácil de entender, vamos a tratar de explicar superficialmente el concepto, pero si quieres profundizar y entender en la raíz, te recomiendo leer este [artículo en inglés](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html).
 
 En JavaScript, todos los números son números de punto flotante [IEEE 754.](https://pt.wikipedia.org/wiki/IEEE_754) Debido a la naturaleza binaria de su codificación, algunos números decimales no se pueden representar con una precisión perfecta.
 
@@ -59,7 +59,7 @@ console.log (totalMones);
 
 Y otras soluciones utilizan la transformación y el cálculo basados en cadenas, lo que puede ser útil, pero viene con el costo del rendimiento.
 
-La mejor y más fácil solución para manejar cuentas y puntos flotantes en javascript es mediante el uso de algunas bibliotecas ya probadas y aprobadas por la comunidad, com[o dinero](https://dinerojs.com/)js o [mathj](https://mathjs.org/)s.
+La mejor y más fácil solución para manejar cuentas y puntos flotantes en javascript es mediante el uso de algunas bibliotecas ya probadas y aprobadas por la comunidad, como [dinerojs](https://dinerojs.com/) o [mathjs](https://mathjs.org/).
 
 ## Pero entonces, ¿todos los idiomas tienen este problema?
 

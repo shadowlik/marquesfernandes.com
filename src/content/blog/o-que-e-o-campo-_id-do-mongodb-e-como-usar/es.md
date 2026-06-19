@@ -26,7 +26,7 @@ El campo \_id es un dato de tipo ObjectId y tiene algunas funciones predetermina
 
 -   \_id es la clave principal para todos los elementos de una colección, esto permite que los registros se diferencien de forma predeterminada.
 -   \_id es un campo indexado automáticamente. Las búsquedas que especifican el valor de \_id: se refieren al índice \_id como guía.
--   En términos de arquitectura, de forma predeterminada, el campo \_id es un ObjectID, uno de los ti[pos B](http://bsonspec.org/)SON de mongodb. Los usuarios también pueden reemplazar \_id con algo distinto de un ObjectID, aunque no es muy recomendable.
+-   En términos de arquitectura, de forma predeterminada, el campo \_id es un ObjectID, uno de los tipos [BSON](http://bsonspec.org/) de mongodb. Los usuarios también pueden reemplazar \_id con algo distinto de un ObjectID, aunque no es muy recomendable.
 
 Una de las razones por las que los objectids se generan de la manera mencionada anteriormente es que contiene un comportamiento útil debido a la forma en que funciona el orden. Debido a que contiene una marca de tiempo de 4 bytes (resolución de segundos) y un contador de incrementos, además de algunos identificadores más únicos, como el identificador de la máquina, gracias a esto podemos utilizar el campo \_id para ordenar los documentos en el orden de creación, simplemente ordene el campo \_id. Esto puede ser útil en bases que necesitan ahorrar espacio, y no se requiere ninguna marca de tiempo de creación adicional.
 
@@ -48,6 +48,6 @@ Estos bytes se generan automáticamente y se separan en grupos con funcionalidad
 | 3 bytes | Contador de 3 bytes que comienza con un número aleatorio por colección |
 
 **Referencias**  
-[:https://mongodb.github.io/node-mongodb-native/2.0/tutorials/objecti  
-](https://mongodb.github.io/node-mongodb-native/2.0/tutorials/objectid/)[d/https://mongodb.github.io/mongo-csharp-driver/2.6/apidocs/html/T\_MongoDB\_Bson\_ObjectId.  
-](https://mongodb.github.io/mongo-csharp-driver/2.6/apidocs/html/T_MongoDB_Bson_ObjectId.htm)[htmhttps://www.vividcortex.com/blog/what-is-mongodbs-id-field-and-to-use-it](https://www.vividcortex.com/blog/what-is-mongodbs-id-field-and-how-to-use-it)
+[https://mongodb.github.io/node-mongodb-native/2.0/tutorials/objectid/  
+](https://mongodb.github.io/node-mongodb-native/2.0/tutorials/objectid/)[https://mongodb.github.io/mongo-csharp-driver/2.6/apidocs/html/T\_MongoDB\_Bson\_ObjectId.htm  
+](https://mongodb.github.io/mongo-csharp-driver/2.6/apidocs/html/T_MongoDB_Bson_ObjectId.htm)[https://www.vividcortex.com/blog/what-is-mongodbs-id-field-and-how-to-use-it](https://www.vividcortex.com/blog/what-is-mongodbs-id-field-and-how-to-use-it)

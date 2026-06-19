@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:22:56.000Z
 ---
 
-[**Favic**on](http://marquesfernandes.com/tudo-sobre-favicons-e-touch-icons/)**[, "Icono Favor](http://marquesfernandes.com/tudo-sobre-favicons-e-touch-icons/)**ito", es una imagen utilizada por los navegadores para representar gráficamente una página web. Actualmente los navegadores aceptan varios tipos y tamaños de favicons diferentes, cada uno optimizado para un dispositivo. Generar y cambiar el tamaño de estos iconos puede ser un trabajo aburrido pero, no te preocupes, hay herramientas que facilitan todo este proceso. Separé una lista de las mejores herramientas para ayudarle a generar todos los iconos posibles, y también configurar opciones como el color de fondo en dispositivos móviles.
+[**Favicon**](http://marquesfernandes.com/tudo-sobre-favicons-e-touch-icons/), **[“Icono Favorito”](http://marquesfernandes.com/tudo-sobre-favicons-e-touch-icons/)**, es una imagen utilizada por los navegadores para representar gráficamente una página web. Actualmente los navegadores aceptan varios tipos y tamaños de favicons diferentes, cada uno optimizado para un dispositivo. Generar y cambiar el tamaño de estos iconos puede ser un trabajo aburrido pero, no te preocupes, hay herramientas que facilitan todo este proceso. Separé una lista de las mejores herramientas para ayudarle a generar todos los iconos posibles, y también configurar opciones como el color de fondo en dispositivos móviles.
 
 ## 1\. [Favicon.io](https://favicon.io/)
 
@@ -33,7 +33,7 @@ updated: 2021-12-12T11:22:56.000Z
 
 [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
 
-F[avicon Generator](https://www.favicon-generator.org/) tiene una interfaz muy simple, genera favicons para todas las plataformas y permite la personalización del color del tema móvil. Simple y eficiente.
+[Favicon Generator](https://www.favicon-generator.org/) tiene una interfaz muy simple, genera favicons para todas las plataformas y permite la personalización del color del tema móvil. Simple y eficiente.
 
 ## 3\. [Generador Real Favicon](https://realfavicongenerator.net/)
 
@@ -49,4 +49,4 @@ F[avicon Generator](https://www.favicon-generator.org/) tiene una interfaz muy s
 
 [https://favicomatic.com/](https://favicomatic.com/)
 
-[Favic-o-matic p](https://favicomatic.com/)ermite una amplia personalización de la generación de favicons.
+[Favic-o-matic](https://favicomatic.com/) permite una amplia personalización de la generación de favicons.

@@ -70,4 +70,4 @@ function maybe\_redirect\_404\_old\_permalink () {
 // y se mostrará la página 404
 }
 
-¡Gracias a Ben Lo[baugh, el c](https://ben.lobaugh.net/blog/202980/wordpress-add-category-to-permalink-and-redirect-old-permalinks)reador original de esta solución!
+¡Gracias a [Ben Lobaugh](https://ben.lobaugh.net/blog/202980/wordpress-add-category-to-permalink-and-redirect-old-permalinks), el creador original de esta solución!

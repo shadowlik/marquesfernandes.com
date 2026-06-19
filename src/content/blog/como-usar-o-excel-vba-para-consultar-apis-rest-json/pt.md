@@ -123,7 +123,7 @@ Agora que já temos o resultado da nossa API acessível, criamos na primeira lin
 ws.Cells(1, 1) = "nome"
 ws.Cells(1, 2) = "link"
 
-Agora antes de analisar o script precisamos entender o resultado da API. Se você abrir o link [](https://pokeapi.co/api/v2/pokemon)[https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon) em seu navegador você verá o seguinte resultado:
+Agora antes de analisar o script precisamos entender o resultado da API. Se você abrir o link [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon) em seu navegador você verá o seguinte resultado:
 
 {
   "count": 964,

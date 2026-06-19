@@ -18,10 +18,10 @@ updated: 2021-12-12T11:24:33.000Z
 Recientemente recibí un archivo PPK para conectarme a un servidor de la empresa, como usuario ubuntu tuve que convertir al formato pem que es aceptado por [OpenSSH.](https://www.openssh.com/)
 
 *Glosario:*  
-***PPK (clave privada de P****uTTY): Archivo generado por Pu*[*ttyGENPE*](https://www.putty.org/)***M (Privacy Enhanced Mail):*** *Archivo de certificado codificado en base64*
+***PPK (clave privada de PuTTY):*** *Archivo generado por* [*PuttyGEN*](https://www.putty.org/)***PEM (Privacy Enhanced Mail):*** *Archivo de certificado codificado en base64*
 
   
-**1.** Instale la herramienta de he[rramien](https://www.putty.org/)tas de masilla en su Linux:
+**1.** Instale la herramienta [putty](https://www.putty.org/) tools en su Linux:
 
 $sudo apt-get install putty-tools
 
@@ -34,7 +34,7 @@ $ puttygen henrique.fernandes.ppk -The private-openssh -o myserver.pem
 o : Nombre del archivo convertido*
 
   
-**3.** Por motivos de seguridad cuando nos conectamos [mediante](https://www.openssh.com/) OpenSSH, comprueba que los permisos del archivo de identidad no están abiertos de par en par. A continuación, necesitamos 'cerrar' los permisos del archivo generado:
+**3.** Por motivos de seguridad cuando nos conectamos mediante [OpenSSH](https://www.openssh.com/), comprueba que los permisos del archivo de identidad no están abiertos de par en par. A continuación, necesitamos 'cerrar' los permisos del archivo generado:
 
 $chmod 400 myserver.pem
 

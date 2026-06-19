@@ -17,15 +17,15 @@ updated: 2021-12-12T11:23:31.000Z
 
 **PH**P (un acrónimo recursivo de ***"**PHP**:** Hyperte**x**t Preproces*sor") es un lenguaje interpretado de código abierto, utilizado principalmente en el desarrollo de backend de aplicaciones web.
 
-Creado por [Rasmus Lerdor](https://pt.wikipedia.org/wiki/Rasmus_Lerdorf)f en 1995, PHP tiene el desarrollo y documentación mantenido por [The PHP Group](https://www.php.net/). PHP se distribuye en código abierto y se licencia bajo la *Licencia PH*P.
+Creado por [Rasmus Lerdorf](https://pt.wikipedia.org/wiki/Rasmus_Lerdorf) en 1995, PHP tiene el desarrollo y documentación mantenido por [The PHP Group](https://www.php.net/). PHP se distribuye en código abierto y se licencia bajo la *Licencia PH*P.
 
-Estimar que entre 60% y 80% de Internet está alimentado por aplicaciones desarrolladas en PHP. Gracias a la popularidad de aplicaciones de código abierto como W[ordpress y](http://wordpress.com/) Ma[gento, P](https://magento.com/)HP sigue siendo un lenguaje extremadamente popular, por lo que será durante bastante tiempo.
+Estimar que entre 60% y 80% de Internet está alimentado por aplicaciones desarrolladas en PHP. Gracias a la popularidad de aplicaciones de código abierto como [Wordpress](http://wordpress.com/) y [Magento](https://magento.com/), PHP sigue siendo un lenguaje extremadamente popular, por lo que será durante bastante tiempo.
 
 ## ¿Qué es un lenguaje de scripting?
 
 Antes de entender lo que es PHP, necesitamos entender lo que es un lenguaje de scripting.
 
-Un script es un conjunto de instrucciones de programación que se interpretan en tiempo de ejecución. Los scripts del lado del servidor, como PHP, se interpretan en el servidor, mientras que los scripts de cliente son interpretados por la aplicación cliente, navegador, por ejemplo, como es el caso de [JavaScrip](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)t. Estos lenguajes normalmente dependen de otras aplicaciones para ejecutarse, creando el entorno de ejecución.
+Un script es un conjunto de instrucciones de programación que se interpretan en tiempo de ejecución. Los scripts del lado del servidor, como PHP, se interpretan en el servidor, mientras que los scripts de cliente son interpretados por la aplicación cliente, navegador, por ejemplo, como es el caso de [JavaScript](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/). Estos lenguajes normalmente dependen de otras aplicaciones para ejecutarse, creando el entorno de ejecución.
 
 ## Comprender mejor PHP
 
@@ -35,7 +35,7 @@ El código PHP se puede incrustar en código HTML o se puede utilizar en combina
   echo "Hello Wolrd";
 ?>
 
-Un archivo PHP también puede contener etiquetas como HTML [y JavaScrip](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)t.
+Un archivo PHP también puede contener etiquetas como HTML y [JavaScript](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/).
 
 <!DOCTYPE html>
 <html>
@@ -57,7 +57,7 @@ PHP es responsable de hacer toda la lógica para, por ejemplo, representar una p
 
 ![](./2020-04-fluxo-php-1.jpg)
 
-Sin entrar en problemas muy técnicos, pero para que una aplicación web funcione necesitas un servidor web configurado para ejecutar archivos php. Es responsable de encontrar qué script correcto se ejecutará cuando acceda a una página como https[://marquesfernandes.com](http://marquesfernandes.com). Los servidores web más populares y utilizados son [Apache](https://www.apache.org/) y [Nginx](https://www.nginx.com/).
+Sin entrar en problemas muy técnicos, pero para que una aplicación web funcione necesitas un servidor web configurado para ejecutar archivos php. Es responsable de encontrar qué script correcto se ejecutará cuando acceda a una página como [http://marquesfernandes.com](http://marquesfernandes.com). Los servidores web más populares y utilizados son [Apache](https://www.apache.org/) y [Nginx](https://www.nginx.com/).
 
 ## PHP en la práctica
 

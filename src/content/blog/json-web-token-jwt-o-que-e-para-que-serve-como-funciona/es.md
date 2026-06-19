@@ -20,9 +20,9 @@ updated: 2021-12-12T11:24:32.000Z
 
 ## ¿Qué es un token web JSON?
 
-[JSON Web Token (J](https://jwt.io/)WT) es una convención [abierta](https://tools.ietf.org/html/rfc7519) (RFC 7519) que permite de forma compacta y independiente transmitir información entre dos partes en forma de un objeto [JSON](https://www.json.org/).
+[JSON Web Token (JWT)](https://jwt.io/) es una convención abierta ([RFC 7519](https://tools.ietf.org/html/rfc7519)) que permite de forma compacta y independiente transmitir información entre dos partes en forma de un objeto [JSON](https://www.json.org/).
 
-La información se puede verificar y confiar porque está firmada digitalmente por cifrado mediante una clave secreta (HMAC) o **[med](https://pt.wikipedia.org/wiki/HMAC)**iante claves públicas/privadas mediante [RS](https://pt.wikipedia.org/wiki/RSA_\(sistema_criptogr%C3%A1fico\))A o [ECDSA](https://pt.wikipedia.org/wiki/ECDSA).
+La información se puede verificar y confiar porque está firmada digitalmente por cifrado mediante una clave secreta (**[HMAC](https://pt.wikipedia.org/wiki/HMAC)**) o mediante claves públicas/privadas mediante [RSA](https://pt.wikipedia.org/wiki/RSA_\(sistema_criptogr%C3%A1fico\)) o [ECDSA](https://pt.wikipedia.org/wiki/ECDSA).
 
 En este post nos centraremos en los tokens firmados, ya que es el formulario más utilizado para los JWT.
 
@@ -32,7 +32,7 @@ JWT es útil en una variedad de escenarios, pero los dos más comunes son:
 
 **Autenticación**: el token se usa para comprobar la identidad y los permisos de un usuario. Estos tokens suelen incluir identificadores e información de usuario no confidencial.
 
-**Intercambio de informac**ión: Debido a que es un medio seguro para que dos aplicaciones hablen, gracias a la forma en que los tokens están firmados digitalmente, garantizan la identidad de las partes implicadas y si la información no ha cambiado en medio de la carretera.
+**Intercambio de información:** Debido a que es un medio seguro para que dos aplicaciones hablen, gracias a la forma en que los tokens están firmados digitalmente, garantizan la identidad de las partes implicadas y si la información no ha cambiado en medio de la carretera.
 
 ## ¿Cómo se compone?
 
@@ -94,7 +94,7 @@ ato:eyJhbGciOiJIUZI1NiIsInR5cCI6IkpXVCIsImV4cCI6IjE1MTYYMzkwMjIifQ
 
 ### Depuración
 
-Puede ver el token generado en este artículo en el [sitio](https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImV4cCI6IjE1MTYyMzkwMjIifQ.eyJpZCI6IjEiLCJuYW1lIjoiSGVucmlxdWUiLCJhZG1pbiI6dHJ1ZX0.3qdEDgz9QMMU4zSIGLuLDEah9o-QVKBe-OsqNcJkto4) JWT.io, en él también puede generar sus tokens y comprender de una manera fácil y visual el flujo de generación de JWT.
+Puede ver el token generado en este artículo en el sitio [JWT.io](https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImV4cCI6IjE1MTYyMzkwMjIifQ.eyJpZCI6IjEiLCJuYW1lIjoiSGVucmlxdWUiLCJhZG1pbiI6dHJ1ZX0.3qdEDgz9QMMU4zSIGLuLDEah9o-QVKBe-OsqNcJkto4), en él también puede generar sus tokens y comprender de una manera fácil y visual el flujo de generación de JWT.
 
 ![](./2019-02-image-6.png)
 

@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:24:16.000Z
 ---
 
-## [Planificador de palabras clave](https://ads.google.com/home/tools/keyword-planner/) de [Google, análi](https://analytics.google.com/analytics/web/)sis [y consola de búsqueda](https://search.google.com/search-console/about)
+## [Planificador de palabras clave de Google](https://ads.google.com/home/tools/keyword-planner/), [Analytics](https://analytics.google.com/analytics/web/) y [consola de búsqueda](https://search.google.com/search-console/about)
 
 [![Planificador de palabras clave de Google](./2019-04-image-2.png)](https://ads.google.com/home/tools/keyword-planner/)
 

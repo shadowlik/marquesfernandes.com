@@ -18,7 +18,7 @@ updated: 2021-12-12T11:24:15.000Z
 
 ## ¿Qué es DNS?
 
-DNS, del Sistema de nombres de dominio, actúa como traductor de direcciones IP (192.168.0.1) para dominios (marquesfernandes[.com), como una esp](http://marquesfernandes.com)ecie de oficina de correos que puede transformar un código postal (IP) en una calle (dominio).
+DNS, del Sistema de nombres de dominio, actúa como traductor de direcciones IP (192.168.0.1) para dominios ([marquesfernandes.com](http://marquesfernandes.com)), como una especie de oficina de correos que puede transformar un código postal (IP) en una calle (dominio).
 
 ## ¿Qué es el almacenamiento en caché de DNS?
 

@@ -53,4 +53,4 @@ $du -sh Descargas/\*
 Las capturas de pantalla son diferentes porque formateé mi computadora mientras terminaba este artículo.  
 \* Los nombres de archivo se han desenfocado por seguridad.
 
-Ahora ya sabe cuánto espacio de almacenamiento le queda disponible y cómo encontrar los lugares que podrían estar sobrecargando el disco. También aprender [a descubrir la versión linux y la distribución](http://marquesfernandes.com/2019/06/18/como-descobrir-o-nome-e-versao-da-distribuicao-linux-pela-linha-de-comando) y también par[a crear un usuario sud](http://marquesfernandes.com/2019/04/01/como-criar-um-usuario-sudo-no-linux-debian-ubuntu/)o!
+Ahora ya sabe cuánto espacio de almacenamiento le queda disponible y cómo encontrar los lugares que podrían estar sobrecargando el disco. También aprender [a descubrir la versión linux y la distribución](http://marquesfernandes.com/2019/06/18/como-descobrir-o-nome-e-versao-da-distribuicao-linux-pela-linha-de-comando) y también a [crear un usuario sudo](http://marquesfernandes.com/2019/04/01/como-criar-um-usuario-sudo-no-linux-debian-ubuntu/)!

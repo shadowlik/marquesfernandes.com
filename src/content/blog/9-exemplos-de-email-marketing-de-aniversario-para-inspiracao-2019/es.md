@@ -19,7 +19,7 @@ updated: 2021-12-12T11:24:12.000Z
 
 Este tipo de campaña puede incluso ser un cliché, pero recordar el cumpleaños de tu cliente demuestra que te importa generar una oportunidad para mantener o renovar la comunicación con tu cliente ofreciendo un cupón de descuento, brindis o incluso una simple felicitación ya funciona.
 
-Según un estudio realizado por las campañas de cumple[*años de la Unidad global de servicios de mark*](http://www.experian.com/blogs/marketing-forward/)eting de Experian tiene tasas más altas que los correos electrónicos promocionales en la transacción del 481%, el 342% en la tasa de ingresos y el 179% en un solo clic.
+Según un estudio realizado por la [*Unidad global de servicios de Marketing de Experian*](http://www.experian.com/blogs/marketing-forward/) las campañas de cumpleaños tienen tasas más altas que los correos electrónicos promocionales en la transacción del 481%, el 342% en la tasa de ingresos y el 179% en un solo clic.
 
 ## Gifs y más gifs...
 

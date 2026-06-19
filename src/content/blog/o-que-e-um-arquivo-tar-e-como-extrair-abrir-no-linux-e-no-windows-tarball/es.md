@@ -33,7 +33,7 @@ Archivo .tar.gz
 $ tar -xzvf arquivo.tar.gz #Extrair el contenido de la carpeta actual
 $ tar -xzvf arquivo.tar.gz -C /tmp #Extrair el contenido de la carpeta /tmp
 
-Si usted está en Windows, archivos TAR se pueden abrir con la mayoría de los programas zip/unzip. Dos grandes opciones para este trabajo son los programas [7-Zi](https://www.7-zip.org/)p y [PeaZi](https://www.peazip.org/)p.
+Si usted está en Windows, archivos TAR se pueden abrir con la mayoría de los programas zip/unzip. Dos grandes opciones para este trabajo son los programas [7-Zip](https://www.7-zip.org/) y [PeaZip](https://www.peazip.org/).
 
 ## Cómo crear un archivo .tar
 

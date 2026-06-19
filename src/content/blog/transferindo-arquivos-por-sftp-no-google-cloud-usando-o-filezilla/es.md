@@ -15,11 +15,11 @@ needsReview: false
 updated: 2021-12-12T11:24:12.000Z
 ---
 
-En este artículo le enseñaré cómo utilizar [FileZilla](https://filezilla-project.org/) para conectar y acceder a sus archivos en sus instancias de máquina virtual [en Google Cloud Compute Engin](https://cloud.google.com/compute/)e mediante SFTP media[nte P](https://www.putty.org/)utty para generar las claves SSH [y](http://marquesfernandes.com/2019/02/18/convertendo-arquivos-ppk-para-pem-no-linux-ubuntu-debian/) PPK necesarias.
+En este artículo le enseñaré cómo utilizar [FileZilla](https://filezilla-project.org/) para conectar y acceder a sus archivos en sus instancias de máquina virtual en [Google Cloud Compute Engine](https://cloud.google.com/compute/) mediante SFTP mediante [Putty](https://www.putty.org/) para generar las claves SSH y [PPK](http://marquesfernandes.com/2019/02/18/convertendo-arquivos-ppk-para-pem-no-linux-ubuntu-debian/) necesarias.
 
 ## Descarga de Masilla y FileZilla
 
-Descarga e instal[a PU](https://www.ssh.com/ssh/putty/#sec-PuTTY-downloads)TTY y [FileZill](https://filezilla-project.org/download.php)a en tu ordenador.
+Descarga e instala [PUTTY](https://www.ssh.com/ssh/putty/#sec-PuTTY-downloads) y [FileZilla](https://filezilla-project.org/download.php) en tu ordenador.
 
 *El programa PUTTY es un generador de claves SSH para crear claves privadas y públicas que le permiten cifrar conexiones.*
 

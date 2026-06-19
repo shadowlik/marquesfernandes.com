@@ -22,11 +22,11 @@ Hay algunas herramientas para resolver este trabajo, pero siempre considere el u
 
 Es muy fácil crear un servicio Linux, puede crear un servicio que ejecute cualquier script o programa en cualquier lenguaje de programación, y hacer que el sistema sea persistente y resistente como un servicio en su máquina.
 
-En este artículo vamos a uti[lizar sy](https://pt.wikipedia.org/wiki/Systemd)stemd para gestionar nuestro servicio, está presente en la mayoría de las distribuciones linux como Ubuntu, Debian, OpenSuse...
+En este artículo vamos a utilizar [systemd](https://pt.wikipedia.org/wiki/Systemd) para gestionar nuestro servicio, está presente en la mayoría de las distribuciones linux como Ubuntu, Debian, OpenSuse...
 
 ## Creación del programa
 
-Vamos a crear una aplicación web simple en [NodeJ](http://marquesfernandes.com/afinal-o-que-e-nodejs/)s de ejemplo. Escuchará en el puerto 99`99 y` devolverá la fecha actual.
+Vamos a crear una aplicación web simple en [NodeJs](http://marquesfernandes.com/afinal-o-que-e-nodejs/) de ejemplo. Escuchará en el puerto 99`99 y` devolverá la fecha actual.
 
 const http - require('http');
 

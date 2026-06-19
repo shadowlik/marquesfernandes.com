@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:22:52.000Z
 ---
 
-**El Protocolo de transferenci**a de **hipe**rtexto o HTTP para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, video y otros archivos multimedia. Cuando escribe un sitio web en su navegador, detrás de escena está enviando una solicitu**d HTT**P solicitando la página deseada a un servidor web. Piense en los protocolos de Internet como reglas de tráfico, son necesarios para que todos los automóviles (datos) lleguen a su destino (cliente). [Obtenga más información sobre HTT](http://marquesfernandes.com/tecnologia/o-que-e-http/)P.
+**El Protocolo de transferenci**a de **hipe**rtexto o HTTP para los más íntimos es un conjunto de reglas para transferir datos como archivos de texto, imágenes, audio, video y otros archivos multimedia. Cuando escribe un sitio web en su navegador, detrás de escena está enviando una solicitu**d HTT**P solicitando la página deseada a un servidor web. Piense en los protocolos de Internet como reglas de tráfico, son necesarios para que todos los automóviles (datos) lleguen a su destino (cliente). [Obtenga más información sobre HTTP](http://marquesfernandes.com/tecnologia/o-que-e-http/).
 
 La siguiente es una lista de códigos de respuesta HTTP. Los códigos (códigos) se utilizan para informar al cliente del estado (estado) de sus solicitudes, con el fin de estandarizar y facilitar la comunicación entre ellos. El primer dígito de cada código de estado indica a cuál de las cinco clases de respuesta pertenece.
 

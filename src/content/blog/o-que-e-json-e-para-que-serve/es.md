@@ -26,7 +26,7 @@ En pocas palabras, el formato JSON proporciona una colección de datos legibles 
 
 ## Breve historia de JSON
 
-JSON surgió de la necesidad de un protocolo de comunicación entre el servidor y el navegador en tiempo real, sin [estado y si](http://marquesfernandes.com/json-web-token-jwt-o-que-e-para-que-serve-como-funciona/)n el uso de plug-ins o software de terceros en el navegador, como applets Flash o Java, estos fueron los métodos dominantes utilizados a principios de la década de 2000.
+JSON surgió de la necesidad de un protocolo de comunicación entre el servidor y el navegador en tiempo real, [sin estado](http://marquesfernandes.com/json-web-token-jwt-o-que-e-para-que-serve-como-funciona/) y sin el uso de plug-ins o software de terceros en el navegador, como applets Flash o Java, estos fueron los métodos dominantes utilizados a principios de la década de 2000.
 
 [Douglas Crockford](https://pt.wikipedia.org/wiki/Douglas_Crockford) fue el primero en especificar y popularizar el formato JSON. El acrónimo fue origam en State Software, una compañía fundada por Crockford en marzo de 2001. Durante los últimos 18 años, JSON ha estado reemplazando XML y convirtiéndose en el formato de archivo predeterminado para la transferencia de datos en la web.
 

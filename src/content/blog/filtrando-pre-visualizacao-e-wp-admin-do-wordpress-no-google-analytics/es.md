@@ -21,7 +21,7 @@ Si ejecuta un blog o sitio web en Wordpress, probablemente utilice Google Analyt
 
 Antes de crear cualquier filtro, debemos crear una nueva **vista previa** en la propiedad. Esto genera una copia de seguridad de los datos para crear y probar los filtros; Si algo sale mal y ensuciamos sus datos, todavía tenemos los datos originales y sin procesar de la propiedad. Para crear una nueva visualización:
 
-1.  Inicie s[esión en Analyt](http://analytics.google.com/)ics y haga c**lic en Admin**.
+1.  Inicie sesión en [Analytics](http://analytics.google.com/) y haga clic en **Admin**.
 2.  Asegúrese de que la cuenta y la propiedad correctas están seleccionadas en la lista desplegable superior izquierda.
 3.  En la pestañ**a de vis**ita, haga clic **en Crear visit**a. De un nombre descriptivo, como *"Pruebas de filtr*o."
 
@@ -42,7 +42,7 @@ Crear nuevo filtro
 4.  Seleccione la opción **Elimina**r.
 5.  En **El campo Filtro**, seleccion**e URI de solicitud**.
 6.  En **Tipo de patrón de** filtro, v*ista previa y  
-    verdadero. (Este texto está presente en todas las páginas de vista previa, incluidas la[s vistas previas públicas, s](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress)i está habilitado.)*
+    verdadero. (Este texto está presente en todas las páginas de vista previa, incluidas las [vistas previas públicas](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress), si está habilitado.)*
 
 ![Eliminar páginas de vista previa](./2019-12-image-18.png)
 

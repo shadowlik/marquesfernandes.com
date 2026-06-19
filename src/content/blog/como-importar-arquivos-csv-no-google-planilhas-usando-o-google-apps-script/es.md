@@ -21,15 +21,15 @@ Si utiliza Microsoft Excel, probablemente esté acostumbrado a usar e importar d
 
 ## ¿Qué es Google Apps Script?
 
-Ap[ps Script es](https://developers.google.com/apps-script) una plataforma de scripting desarrollada por Google para el desarrollo de aplicaciones ligeras en la plataforma G Suite. Se basa en JavaScript 1.6, pero también incluye algunas características de 1.7, 1.8 y un subconjunto de la API de ECMAScript 5. Los proyectos de [Apps Script](https://developers.google.com/apps-script) se ejecutan en la infraestructura en la nube de Google. Según el propio Google*, Apps* Script "proporciona formas sencillas de automatizar tareas en productos y servicios de terceros". Apps Script también está disponible para Google Docs y Slides.
+[Apps Script](https://developers.google.com/apps-script) es una plataforma de scripting desarrollada por Google para el desarrollo de aplicaciones ligeras en la plataforma G Suite. Se basa en JavaScript 1.6, pero también incluye algunas características de 1.7, 1.8 y un subconjunto de la API de ECMAScript 5. Los proyectos de [Apps Script](https://developers.google.com/apps-script) se ejecutan en la infraestructura en la nube de Google. Según el propio Google*, Apps* Script "proporciona formas sencillas de automatizar tareas en productos y servicios de terceros". Apps Script también está disponible para Google Docs y Slides.
 
-Encontrará todo*s los scripts de este tutorial en la [hoja de cálculo de](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing)* ejemplo, haga una copia en su unidad para poder ver los scripts y editar la hoja de cálculo.
+Encontrará todo*s los scripts de este tutorial en la [hoja de cálculo de ejemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing)*, haga una copia en su unidad para poder ver los scripts y editar la hoja de cálculo.
 
-***También echa un** vi[stazo: Transferencia de archivos por SFTP en Google Cloud usando FileZilla](http://marquesfernandes.com/2019/11/19/transferindo-arquivos-por-sftp-no-google-cloud-usando-o-filezilla)*
+***También echa un vistazo**: [Transferencia de archivos por SFTP en Google Cloud usando FileZilla](http://marquesfernandes.com/2019/11/19/transferindo-arquivos-por-sftp-no-google-cloud-usando-o-filezilla)*
 
 ## Acceso al script de aplicaciones
 
-Para acceder a los scripts de Google Apps, cree una hoja de cálculo en blanco o cop[ie la hoja de ejemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing); Haga clic e*n Herramientas > Editor de script*s:
+Para acceder a los scripts de Google Apps, cree una hoja de cálculo en blanco o copie la [hoja de ejemplo](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing); Haga clic en *Herramientas > Editor de script*:
 
 ![Hojas de cálculo de Google](./2020-01-image.png)
 
@@ -76,7 +76,7 @@ función importCSVDoGmail()
   } 
 }
 
-En nuestra variable de correos electrónicos realizaremos una búsqueda de filtros en nuestro Gmail para devolver el primer correo electrónico correspondiente, podemos utilizar cualquier operador de búsqueda de Gmail dentro de la `función GmailApp.search ("operator:se`arch"), consulta aqu[í la lista completa de operadore](https://support.google.com/mail/answer/7190?hl=pt-BR)s.
+En nuestra variable de correos electrónicos realizaremos una búsqueda de filtros en nuestro Gmail para devolver el primer correo electrónico correspondiente, podemos utilizar cualquier operador de búsqueda de Gmail dentro de la `función GmailApp.search ("operator:se`arch"), consulta aquí la [lista completa de operadores](https://support.google.com/mail/answer/7190?hl=pt-BR).
 
 ### **Importación del archivo CSV desde Google Drive**
 

@@ -198,4 +198,4 @@ A tabela a seguir é uma referência de caracteres ASCII para sua forma codifica
 | 126 | ~ | %7E |
 | 127 | DEL (apagar) | %7F |
 
-## [](https://www.urlencoder.io/learn/#url-encoding-percent-encoding)
+## [Codificação de URL (Percent-Encoding)](https://www.urlencoder.io/learn/#url-encoding-percent-encoding)

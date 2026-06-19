@@ -42,7 +42,7 @@ Si el proyecto aún no tiene el archivo ts`config.json,` vamos a crear un archiv
     }
   }
 
-Una breve explicación de lo que significan estas opciones, para más opciones ver la [documentación oficia](https://www.typescriptlang.org/docs/handbook/compiler-options.html)l:
+Una breve explicación de lo que significan estas opciones, para más opciones ver la [documentación oficial](https://www.typescriptlang.org/docs/handbook/compiler-options.html):
 
 -   **objetivo**: ¿Qué versión de ECMAScript queremos compilar
 -   **rootDir:** ¿Cuál es la carpeta de nuestros archivos TypeScript

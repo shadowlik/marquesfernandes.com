@@ -40,7 +40,7 @@ Por ser uma linguagem tipada, recursos importantes como autocomplete na IDE se t
 -   É  **semelhante**  ao **JavaScript** e usa a mesma sintaxe e semântica.  
 -   Semelhante a outras linguagens tipadas, como C# e Java, ajuda os desenvolvedores de back-end a migrarem para NodeJs mais facilmente e até escrever código de front-end.
 -   Você pode chamar o código TypeScript a partir de um código JavaScript existente . Além disso, ele funciona com códigos e bibliotecas em JavaScript puro sem problemas. 
--   O arquivo Definition, *com extensão .d.ts*, fornece suporte para bibliotecas JavaScript existentes, como **Jquery, D3.js** , etc. Portanto, o código TypeScript pode adicionar bibliotecas JavaScript usando definições de tipo para aproveitar os benefícios da verificação de tipo, preenchimento automático de código e documentação em bibliotecas JavaScript de tipo dinâmico existentes.  [](https://www.edureka.co/blog/javascript-libraries/) 
+-   O arquivo Definition, *com extensão .d.ts*, fornece suporte para bibliotecas JavaScript existentes, como **Jquery, D3.js** , etc. Portanto, o código TypeScript pode adicionar bibliotecas JavaScript usando definições de tipo para aproveitar os benefícios da verificação de tipo, preenchimento automático de código e documentação em bibliotecas JavaScript de tipo dinâmico existentes.   
 -   Ele inclui recursos de **ES6** e **ES7** que podem ser executados em engines de JavaScript ES5 como [Node.js](http://marquesfernandes.com/afinal-o-que-e-nodejs/).
 
 **Referências:**  

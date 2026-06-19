@@ -14,11 +14,11 @@ needsReview: false
 updated: 2021-12-12T11:24:18.000Z
 ---
 
-Probablemente ya has oído hablar de NodeJ**[S y q](https://nodejs.org)**ue de alguna manera está relacionado con Javascript... Pero después de todo, ¿qué diablos está hacien**do NodeJ**S?
+Probablemente ya has oído hablar de **[NodeJS](https://nodejs.org)** y que de alguna manera está relacionado con Javascript... Pero después de todo, ¿qué diablos está haciendo **NodeJS**?
 
 **NodeJS es un entorno de ejecución Javascript.** Eso es bueno, pero ¿qué significa eso? ¿Cómo funciona?
 
-***También echa un v[i](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)****[stazo: Javascript - ¿Qué es, cómo funciona y para qué servidor?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
+***También echa un vistazo: [](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*** *[Javascript - ¿Qué es, cómo funciona y para qué servidor?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
 
 Probablemente escuchará a los desarrolladores que se refieren solo a N**ode** y no a **NodeJS.**
 
@@ -27,8 +27,8 @@ El entorno **de n**odo tiene todo lo que necesita para ejecutar scripts en javas
 
 ## Motor V8
 
-"**V8** es el nombre [del intérprete de JavaS](https://pt.wikipedia.org/wiki/Interpretador_JavaScript)cript, también llama[do la máquina v](https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual)irtual Javasc*ript (o mot*or), desarrollado po[r Goog](https://pt.wikipedia.org/wiki/Google)le y utilizado en su [navegado](https://pt.wikipedia.org/wiki/Navegador_\(inform%C3%A1tica\))r [Google Chrom](https://pt.wikipedia.org/wiki/Google_Chrome)e. V8 es una herramienta desarrollada en el lenguaje [C++](https://pt.wikipedia.org/wiki/C%2B%2B) y distribuida en el régimen de [código abierto](https://pt.wikipedia.org/wiki/C%C3%B3digo_aberto).  
-El propósito de V8 es acelerar el rendimiento de una aplicación mediante la compilación de código Javascript en el formato de máquina nativa antes de ejecutarlo, lo que le permite ejecutar la velocidad de código binario compilado" [\- Wikipedia.](https://pt.wikipedia.org/wiki/V8_\(JavaScript\))
+"**V8** es el nombre del [intérprete de JavaScript](https://pt.wikipedia.org/wiki/Interpretador_JavaScript), también llamado la [máquina virtual](https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual) Javascript *(o motor)*, desarrollado por [Google](https://pt.wikipedia.org/wiki/Google) y utilizado en su [navegador](https://pt.wikipedia.org/wiki/Navegador_\(inform%C3%A1tica\)) [Google Chrome](https://pt.wikipedia.org/wiki/Google_Chrome). V8 es una herramienta desarrollada en el lenguaje [C++](https://pt.wikipedia.org/wiki/C%2B%2B) y distribuida en el régimen de [código abierto](https://pt.wikipedia.org/wiki/C%C3%B3digo_aberto).  
+El propósito de V8 es acelerar el rendimiento de una aplicación mediante la compilación de código Javascript en el formato de máquina nativa antes de ejecutarlo, lo que le permite ejecutar la velocidad de código binario compilado" \- [Wikipedia.](https://pt.wikipedia.org/wiki/V8_\(JavaScript\))
 
 ## ¿Por qué NodeJS?
 

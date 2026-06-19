@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:23:26.000Z
 ---
 
-**TypeScript** es un superconjunto de JavaScr[ipt con ti](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)po que se compila para JavaScript puro. Sigue el patrón javascript y también es un lenguaje multiparadigma, sin embargo, agrega funcionalidad y sintaxis orientada a objetos, clases y escritura vistos en lenguajes como C- y Java.
+**TypeScript** es un superconjunto de [JavaScript](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/) con tipo que se compila para JavaScript puro. Sigue el patrón javascript y también es un lenguaje multiparadigma, sin embargo, agrega funcionalidad y sintaxis orientada a objetos, clases y escritura vistos en lenguajes como C- y Java.
 
 Fue considerado por el público como el 4o idioma más querido, según una encuesta realizada por el desbordamiento de la pila en 2018, y se encuentra entre los 15 idiomas más populares, según una encuesta realizada por [RedMonk](https://redmonk.com/).
 
@@ -35,7 +35,7 @@ Dado que es un lenguaje con tipo, las características importantes como autocomp
 -   Es **similar a** JavaS**cript y ut**iliza la misma sintaxis y semántica.  
 -   Al igual que otros lenguajes con tipo, como C- y Java, ayuda a los desarrolladores de back-end a migrar a NodeJs más fácilmente e incluso escribir código front-end.
 -   Puede llamar al código de tipo de texto desde un código JavaScript existente. Además, funciona con código JavaScript puro y bibliotecas sin problemas. 
--   El archivo definition, *con extensión .d.ts,* proporciona compatibilidad con bibliotecas JavaScript existentes co**mo Jquery, D3.**js, etc. Por lo tanto, el código TypeScript puede agregar bibliotecas de JavaScript mediante definiciones de tipos para aprovechar las ventajas de la comprobación de tipos, la autocompletar de código y la documentación en bibliotecas JavaScript de tipo dinámico existentes.   [](https://www.edureka.co/blog/javascript-libraries/)
+-   El archivo definition, *con extensión .d.ts,* proporciona compatibilidad con bibliotecas JavaScript existentes co**mo Jquery, D3.**js, etc. Por lo tanto, el código TypeScript puede agregar bibliotecas de JavaScript mediante definiciones de tipos para aprovechar las ventajas de la comprobación de tipos, la autocompletar de código y la documentación en bibliotecas JavaScript de tipo dinámico existentes.   [bibliotecas JavaScript](https://www.edureka.co/blog/javascript-libraries/)
 -   Incluye característica**s** ES6 **y** ES7 que se pueden ejecutar en motores JavaScript ES5 como [Node.js](http://marquesfernandes.com/afinal-o-que-e-nodejs/).
 
 **Referencias:**  

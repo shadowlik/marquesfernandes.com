@@ -18,7 +18,7 @@ updated: 2021-12-12T11:23:45.000Z
 
 En la mayoría de los casos, la forma en que eliminamos un archivo de nuestros equipos, ya sea por la clave Del, la papelera de reciclaje `o` el comando rm, en realidad no eliminan el archivo del disco duro de forma permanente y segura (o de cualquier otro medio de almacenamiento).
 
-Si usamos los métodos anteriores, suponiendo que queremos eliminar un archivo con contenido confidencial, un archivo con usuarios y contraseñas, por ejemplo, todavía es posible que alguien malintencionado pu[eda recuperar esos archivo](http://marquesfernandes.com/como-recuperar-arquivos-excluidos-no-linux-ubuntu-debian/)s.
+Si usamos los métodos anteriores, suponiendo que queremos eliminar un archivo con contenido confidencial, un archivo con usuarios y contraseñas, por ejemplo, todavía es posible que alguien malintencionado pueda [recuperar esos archivos](http://marquesfernandes.com/como-recuperar-arquivos-excluidos-no-linux-ubuntu-debian/).
 
 Vamos a aprender algunas maneras de eliminar archivos de forma segura de nuestro ordenador en Linux.
 

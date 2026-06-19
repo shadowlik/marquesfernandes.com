@@ -23,15 +23,15 @@ updated: 2021-12-12T11:24:13.000Z
 
 Cuando escribe un sitio web en su navegador, está en segundo plano enviando una solicitud **HTTP** solicitando la página deseada a algún servidor web. Piense en los protocolos de Internet como reglas de tráfico, que son necesarios para que todos los coches (datos) lleguen a su destino (cliente).
 
-El protocol**o HTT**P se desarrolló junto con el lenguaje de marcado HT[ML](https://pt.wikipedia.org/wiki/HTML) para crear la primera experiencia interactiva en navegadores web. A día de hoy el protocolo sigue siendo el principal medio de comunicación de Internet!
+El protocolo **HTTP** se desarrolló junto con el lenguaje de marcado [HTML](https://pt.wikipedia.org/wiki/HTML) para crear la primera experiencia interactiva en navegadores web. A día de hoy el protocolo sigue siendo el principal medio de comunicación de Internet!
 
 ## ¿Cuándo y cómo surgió?
 
-El protocolo fue redactado en 1989 por [Sir Tim Berners Lee](https://pt.wikipedia.org/wiki/Tim_Berners-Lee) y ahora está bajo la responsabilidad del [W3](https://www.w3.org/)C.
+El protocolo fue redactado en 1989 por [Sir Tim Berners Lee](https://pt.wikipedia.org/wiki/Tim_Berners-Lee) y ahora está bajo la responsabilidad del [W3C](https://www.w3.org/).
 
--   HTTP/1.1 fue documentado en 1997 en R[FC 2068](https://tools.ietf.org/html/rfc2068)
+-   HTTP/1.1 fue documentado en 1997 en [RFC 2068](https://tools.ietf.org/html/rfc2068)
 -   En 2015 la versión HTTP/2 fue lanzada con numerosas mejoras, como la compatibilidad con TLS y ALPN.
--   El 26 de septiembre de 2019, Cloudflare, Google Chrome y Mozilla Firefox introdujeron la versión HTTP/3 q[ue utiliza](http://cloudflare.com) e[l protocolo U](https://www.google.com/chrome/)DP [en lugar de TCP](https://www.mozilla.org/pt-BR/firefox/new/).
+-   El 26 de septiembre de 2019, [Cloudflare](http://cloudflare.com), [Google Chrome](https://www.google.com/chrome/) y [Mozilla Firefox](https://www.mozilla.org/pt-BR/firefox/new/) introdujeron la versión HTTP/3 que utiliza el protocolo UDP en lugar de TCP.
 
 ## ¿Cómo funciona?
 
@@ -39,7 +39,7 @@ La comunicación entre clientes y servidores se realiza básicamente a través d
 
 ### Recursos
 
-Una característica HTTP no es más que una parte de la URL, cuando escribimos en el nave[gador marquesfernandes.com/category/desig](http://marquesfernandes.com/category/design/)n/ estamos solicitando la característica /category/design/ que se encuentra en el servid[or marquesfernandes.co](http://marquesfernandes.com)m.
+Una característica HTTP no es más que una parte de la URL, cuando escribimos en el navegador [marquesfernandes.com/category/design/](http://marquesfernandes.com/category/design/) estamos solicitando la característica /category/design/ que se encuentra en el servidor [marquesfernandes.com](http://marquesfernandes.com).
 
 ### Métodos
 
@@ -70,7 +70,7 @@ Cuando se realiza una solicitud se espera una respuesta (durd), para esto los se
 
 Una solicitud HTTP normalmente desencadena una serie de otras solicitudes, tenga en cuenta un ejemplo ampliamente utilizado:
 
-1.  El cliente (un explorador) solicita una página para Internet, por ejemplo, www.u[ol.com.br el ex](https://uol.com.br)plorador, a continuación, rea**liza una solicitu**d HTTP de **ti**po GET al servidor.
+1.  El cliente (un explorador) solicita una página para Internet, por ejemplo, [www.uol.com.br](https://uol.com.br) el explorador, a continuación, realiza una solicitud HTTP de tipo GET al servidor.
 2.  El servidor recibe la **solicitud** y realiza cualquier rutina interna vinculada a ella.
 3.  Si todo es correcto, el servidor devuelve una **respuesta** con el contenido HTML de la página y con el código de **estado 200** para el explorador. Y una serie de otras solicitudes pueden suceder:
     1.  El navegador realiza una solicitud para una hoja de estilos. El servidor devuelve un archivo CSS;
@@ -81,4 +81,4 @@ Una solicitud HTTP normalmente desencadena una serie de otras solicitudes, tenga
 
 ## HTTP vs. HTTPS
 
-[HTTPS](https://searchsoftwarequality.techtarget.com/definition/HTTPS) (HTTP sobre SSL o HTTP Secure) es el uso de Secure Sockets Layer [(SS](https://searchsecurity.techtarget.com/definition/Secure-Sockets-Layer-SSL)L) o Transport Layer Security ([TLS](https://searchsecurity.techtarget.com/definition/Transport-Layer-Security-TLS)) como una subcapa de una solicitud HTTP. HTTPS básicamente cifra y descifra las solicitudes de los usuarios, así como las respuestas del servidor. El uso de HTTPS protege contra ataques conocidos que tienen como objetivo interceptar estas solicitudes y secuestrar datos confidenciales, co[mo ma](https://www.kaspersky.com.br/blog/what-is-a-man-in-the-middle-attack/462/)n-in-the-middle (MitM).
+[HTTPS](https://searchsoftwarequality.techtarget.com/definition/HTTPS) (HTTP sobre SSL o HTTP Secure) es el uso de Secure Sockets Layer ([SSL](https://searchsecurity.techtarget.com/definition/Secure-Sockets-Layer-SSL)) o Transport Layer Security ([TLS](https://searchsecurity.techtarget.com/definition/Transport-Layer-Security-TLS)) como una subcapa de una solicitud HTTP. HTTPS básicamente cifra y descifra las solicitudes de los usuarios, así como las respuestas del servidor. El uso de HTTPS protege contra ataques conocidos que tienen como objetivo interceptar estas solicitudes y secuestrar datos confidenciales, como man-in-the-middle ([MitM](https://www.kaspersky.com.br/blog/what-is-a-man-in-the-middle-attack/462/)).

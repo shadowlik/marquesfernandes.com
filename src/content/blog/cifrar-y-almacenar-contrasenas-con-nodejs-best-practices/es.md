@@ -49,7 +49,7 @@ En resumen, la práctica de esta técnica será:
 3.  Cifrar la combinación de la contraseña introducida y la sal
 4.  Compare este hash almacenado con el hash guardado en el banco
 
-En este artículo no cubriremos el proceso completo, para la parte de cifrado usaremos la biblioteca Criptográfica nativ[a y par](https://nodejs.org/api/crypto.html)a la parte del banco simularemos con el archiv`o console.lo`g.
+En este artículo no cubriremos el proceso completo, para la parte de cifrado usaremos la biblioteca [Criptográfica nativa](https://nodejs.org/api/crypto.html) y para la parte del banco simularemos con el `console.lo`g.
 
 ## Vamos al código
 

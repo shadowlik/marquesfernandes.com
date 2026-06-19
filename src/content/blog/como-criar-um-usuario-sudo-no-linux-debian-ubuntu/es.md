@@ -27,7 +27,7 @@ $ sudo usermod -aG sudo nomedousuario
 
 $ sudo adduser nomedousuario
 
-A continuación, tendrá que establecer una contraseña, ya que es un usuario que tendrá permisos de root utilizar una cont[raseña muy segur](https://passwordsgenerator.net)a. A continuación, tendrá que rellenar algunos datos de usuario opcionales, ya que no es necesario que puede dejar vacío.
+A continuación, tendrá que establecer una contraseña, ya que es un usuario que tendrá permisos de root utilizar una [contraseña muy segura](https://passwordsgenerator.net). A continuación, tendrá que rellenar algunos datos de usuario opcionales, ya que no es necesario que puede dejar vacío.
 
 **2.** Ahora vamos a usar el comando usermod para agregar el usuario al grupo sudo.
 

@@ -20,7 +20,7 @@ updated: 2021-12-12T11:22:49.000Z
 
 La elección de una herramienta de marketing por correo electrónico afecta directamente el rendimiento de sus campañas de correo electrónico. Estos servicios de marketing por correo electrónico existen desde hace décadas. Como parte del marketing online, el marketing por correo electrónico sigue siendo la estrategia de marketing más eficaz en la actualidad si se considera el retorno de la inversión (ROI).
 
-Aproximadamente 3.900 millones de personas utilizaron el correo electrónico en todo el mundo en 2019. Según un estudi[o de Statista, se](https://www.statista.com/statistics/255080/number-of-e-mail-users-worldwide/) estima que este número crecerá a 4.480 millones para el año 2024. El ROI del marketing por correo electrónico es de 42 dólares por cada 1 dólar gastado, según la encuesta "State of Email 2020" de [Litmu](https://www.litmus.com/resources/state-of-email/)s.
+Aproximadamente 3.900 millones de personas utilizaron el correo electrónico en todo el mundo en 2019. Según un [estudio de Statista](https://www.statista.com/statistics/255080/number-of-e-mail-users-worldwide/), se estima que este número crecerá a 4.480 millones para el año 2024. El ROI del marketing por correo electrónico es de 42 dólares por cada 1 dólar gastado, según la encuesta "State of Email 2020" de [Litmus](https://www.litmus.com/resources/state-of-email/).
 
 ## **Las mejores herramientas de marketing por correo electrónico**
 
@@ -52,7 +52,7 @@ La gran mayoría de las buenas herramientas de marketing por correo electrónico
 
 ![SendinBlue](./2020-12-image-1-1.jpg)
 
-[La usabi](https://pt.sendinblue.com/)lidad de SendinBlue es *m*uy intuitiva, pero el proceso de configuración de la cuenta y la primera campaña toman un tiempo.
+La usabilidad de [SendinBlue](https://pt.sendinblue.com/) es *m*uy intuitiva, pero el proceso de configuración de la cuenta y la primera campaña toman un tiempo.
 
 ### 4\. [ConvertKit](https://convertkit.com/)
 
@@ -64,13 +64,13 @@ La gran mayoría de las buenas herramientas de marketing por correo electrónico
 
 ![AWeber](./2020-12-image-2-1.jpg)
 
-[AWebe](https://www.aweber.com/)r es una buena alternativa, su interfaz podría ser mejor, pero una vez que te acostumbras al sistema, la navegación es más sencilla.
+[AWeber](https://www.aweber.com/) es una buena alternativa, su interfaz podría ser mejor, pero una vez que te acostumbras al sistema, la navegación es más sencilla.
 
 ### 6\. [Obtener una respuesta](https://br.getresponse.com/)
 
 ![Obtener una respuesta](./2020-12-image-2-2.jpg)
 
-[GetRespons](https://br.getresponse.com/)e tiene su proceso de principio a fin simplificado, es fácil de usar y tiene un montón de opciones en el camino.Sin embargo, la experiencia sería aún mejor con un editor de imágenes integrado.
+[GetResponse](https://br.getresponse.com/) tiene su proceso de principio a fin simplificado, es fácil de usar y tiene un montón de opciones en el camino.Sin embargo, la experiencia sería aún mejor con un editor de imágenes integrado.
 
 ### 7\. [Estación RD](https://www.rdstation.com/)
 

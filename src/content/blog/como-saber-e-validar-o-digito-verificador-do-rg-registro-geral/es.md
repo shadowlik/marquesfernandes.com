@@ -23,15 +23,24 @@ Para aprender la lógica detrás de la generación del dígito verificador utili
 
 Primero vamos a hacer una tabla con 3 filas y 8 columnas; tendremos en la primera fila los 8 primeros dígitos del número del RG.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
 
 Ahora necesitamos rellenar la segunda fila; siempre obedecerá una secuencia lógica de números para el cálculo de cualquier RG. La secuencia es **2, 3, 4, 5, 6, 7, 8 y 9**.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+|  |  |  |  |  |  |  |  |
 
 Ahora, para obtener los valores de la tercera fila debemos multiplicar los números de cada fila por columna. Por ejemplo, 3x2, 9x3 y así sucesivamente.
 
-<table><tbody><tr><td>3</td><td>9</td><td>4</td><td>0</td><td>6</td><td>7</td><td>1</td><td>4</td></tr><tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td>6</td><td>27</td><td>16</td><td>0</td><td>36</td><td>49</td><td>8</td><td>36</td></tr></tbody></table>
+| 3 | 9 | 4 | 0 | 6 | 7 | 1 | 4 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| 6 | 27 | 16 | 0 | 36 | 49 | 8 | 36 |
 
 Ahora que tenemos nuestra tabla completa, necesitamos sumar todos los números obtenidos en la tercera fila. En nuestro ejemplo tendremos: **6 + 27 + 16 + 0 + 36 + 49 + 8 + 36 = 178**.
 

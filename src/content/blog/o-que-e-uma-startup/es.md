@@ -39,7 +39,7 @@ Sólo analizar las dos definiciones anteriores puede no ser suficiente para ente
 
 Si te estás preguntando: ¿Podría una panadería ser una startup? Por supuesto, si de alguna manera alguien encuentra una manera de innovar la forma en que el pan diario llega al consumidor, utilizando tecnología y recursos limitados y ofreciendo un nuevo servicio a un mercado incierto, voi-la, tenemos una Startup.
 
-A diferencia de las empresas ya consolidadas y comúnmente llamadas empresas tradicionales, las Startups comienzan en un escenario con poco o incluso ninguno, buscan su crecimiento a través de una serie de rondas de inversión, hablaremos de ello más adelante. Muchas Startups [pueden pasar años y años sin obtener ga](https://olhardigital.com.br/noticia/nubank-tem-prejuizo-de-r-313-milhoes-em-2019-mas-isso-nao-e-ma-noticia/97307)nancias, y eso está bien, muchos inicialmente apuntan sólo al crecimiento y multiplicador financiero potencial que sólo un mercado sin explotar suele tener.
+A diferencia de las empresas ya consolidadas y comúnmente llamadas empresas tradicionales, las Startups comienzan en un escenario con poco o incluso ninguno, buscan su crecimiento a través de una serie de rondas de inversión, hablaremos de ello más adelante. Muchas Startups [pueden pasar años y años sin obtener ganancias](https://olhardigital.com.br/noticia/nubank-tem-prejuizo-de-r-313-milhoes-em-2019-mas-isso-nao-e-ma-noticia/97307), y eso está bien, muchos inicialmente apuntan sólo al crecimiento y multiplicador financiero potencial que sólo un mercado sin explotar suele tener.
 
 ## Ejemplo: Google
 
@@ -97,6 +97,6 @@ En este momento la empresa ya está bien desarrollada y muchas terminan lanzando
 
 ## Conclusión
 
-Aprendemos lo que es una Startup y cómo se crean y financian, sus productos, así como los modelos de negocio son innovadores y a menudo inspiradores. En Brasil una de las Startups más populares es [Nubank,](https://blog.nubank.com.br/) que cada año atrae a un número relevante de nuevos clientes y no deja de crecer! Para aquellos que no lo saben, Nubank es una Fintech, un tipo de startup especializada, [enseñé lo que estas empresas están aqu](http://marquesfernandes.com/fintech-vs-embedded-fintech-o-que-sao-e-qual-a-diferenca/)í.
+Aprendemos lo que es una Startup y cómo se crean y financian, sus productos, así como los modelos de negocio son innovadores y a menudo inspiradores. En Brasil una de las Startups más populares es [Nubank](https://blog.nubank.com.br/), que cada año atrae a un número relevante de nuevos clientes y no deja de crecer! Para aquellos que no lo saben, Nubank es una Fintech, un tipo de startup especializada, [enseñé lo que estas empresas están aquí](http://marquesfernandes.com/fintech-vs-embedded-fintech-o-que-sao-e-qual-a-diferenca/).
 
 ¿Tiene alguna definición diferente a la que presenté aquí? ¡Dejé tu comentario!

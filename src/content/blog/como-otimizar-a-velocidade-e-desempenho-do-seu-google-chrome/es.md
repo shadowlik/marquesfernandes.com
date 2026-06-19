@@ -15,13 +15,13 @@ needsReview: false
 updated: 2021-12-12T11:24:07.000Z
 ---
 
-Actualmente su navegador es probablemente el programa más importante en su ordenador. Todo lo que hacemos, desde correo electrónico, redes sociales e incluso la edición de documentos sucede en nuestro navegador. Google Chrome es el favorito del mundo y también el brasileño, con la impresionante nota d[e la cuota de merca](https://gs.statcounter.com/browser-market-share/all/brazil)do del 80%, siendo el navegador más utilizado, en su lejana espalda es el navegador Safari de Apple con poco más del 5%.
+Actualmente su navegador es probablemente el programa más importante en su ordenador. Todo lo que hacemos, desde correo electrónico, redes sociales e incluso la edición de documentos sucede en nuestro navegador. Google Chrome es el favorito del mundo y también el brasileño, con la impresionante nota de la [cuota de mercado del 80%](https://gs.statcounter.com/browser-market-share/all/brazil), siendo el navegador más utilizado, en su lejana espalda es el navegador Safari de Apple con poco más del 5%.
 
 Si su navegador se ve más lento de lo normal, no se desespere, hay algunos consejos útiles para mejorar la velocidad de su navegador.
 
 ## 1 - Compruebe la velocidad de su Internet
 
-Puede parecer obvio, pero a menudo culpamos al pobre navegador por una mala conexión. Realice una prueba de velocidad en un sitio como [speedtest.ne](https://www.speedtest.net/)t. Puede identificar el problema de inmediato, probarlo especialmente si está en una conexión pública, como un aeropuerto o un restaurante. Y si tu conexión es realmente lenta (j~ura la red/claro)~, asegúrate de que tú o alguien de tu red no esté descargando algo o viendo un video.
+Puede parecer obvio, pero a menudo culpamos al pobre navegador por una mala conexión. Realice una prueba de velocidad en un sitio como [speedtest.net](https://www.speedtest.net/). Puede identificar el problema de inmediato, probarlo especialmente si está en una conexión pública, como un aeropuerto o un restaurante. Y si tu conexión es realmente lenta (~jura la red/claro~), asegúrate de que tú o alguien de tu red no esté descargando algo o viendo un video.
 
 [![https://www.speedtest.net/](./2020-01-image-7.png)](https://www.speedtest.net/)
 
@@ -41,7 +41,7 @@ Otro consejo obvio pero súper importante, no sólo para la velocidad, sino tamb
 
 ## 4 - Compruebe sus extensiones - Extensiones de Chrome
 
-Si tienes extensiones de Google Chrome instaladas, ahora es el momento de comprobar, confirmar las extensiones que usas con frecuencia y desactivar las que no se utilizan, también ver si alguna extensión está agotando recursos de tu ordenador, a través del acceso di`recto Shift` \+ ESC abrir el administrador de tareas de Chrome, y ver el procesador y el consumo de memoria de sus pestañas y extensiones.
+Si tienes extensiones de Google Chrome instaladas, ahora es el momento de comprobar, confirmar las extensiones que usas con frecuencia y desactivar las que no se utilizan, también ver si alguna extensión está agotando recursos de tu ordenador, a través del acceso directo `Shift + ESC` abrir el administrador de tareas de Chrome, y ver el procesador y el consumo de memoria de sus pestañas y extensiones.
 
 ![Administrador de tareas de Google](./2020-01-image-8.png)
 
@@ -53,7 +53,7 @@ Google Chrome guarda varios archivos con el fin de mejorar la experiencia del us
 
 ## 6 - Analiza tu antivirus
 
-A menudo Malwares pueden estar poniendo en peligro el rendimiento de su ordenador, por lo tanto, ralentizar su navegador. Hacer un buen análisis con su antivirus: Si usted está en Windows puede AVG, su [ver](https://www.avg.com/pt-br/homepage#pc)sión gratuita es muy buena, y si usted está en Linux echa un [vistazo a este tutorial sobre cómo escanear su sistema por malware](http://marquesfernandes.com/2019/12/04/como-escanear-seu-servidor-linux-por-malwares-debian-ubuntu)s.
+A menudo Malwares pueden estar poniendo en peligro el rendimiento de su ordenador, por lo tanto, ralentizar su navegador. Hacer un buen análisis con su antivirus: Si usted está en Windows puede usar el [AVG,](https://www.avg.com/pt-br/homepage#pc) su versión gratuita es muy buena, y si usted está en Linux [echa un vistazo a este tutorial sobre cómo escanear su sistema por malwares](http://marquesfernandes.com/2019/12/04/como-escanear-seu-servidor-linux-por-malwares-debian-ubuntu).
 
 ## 7 - Activar funciones ocultas de Chrome (avanzado)
 
@@ -61,25 +61,25 @@ Google Chrome tiene algunas características ocultas, pueden cambiar, desaparece
 
 ![](./2020-01-image-10.png)
 
--   Características experimentales de la pantalla - Esto permite a Chrome utilizar pantallas opacas para ampliar los tiempos de carga y aumentar el rendimi  
-    [ento.chrome://flags/#enable-experimental-canvas-features](chrome://flags/#enable-experimental-canvas-features)
--   Número de subprocesos de escaneo - Cambiar este número de "Predeterminado" a "4" acelerará la representación de imágen  
-    [es.chrome://flags/#num-raster-threads](chrome://flags/#num-raster-threads)
--   Habilitar el cierre rápido de pestañas/ventanas - Esto ejecutará el controlador JavaScript onload de Chrome, independientemente de gui, para acelerar el cierre de pestañas  
-    [.chrome://flags/#enable-fast-unload](chrome://flags/#enable-fast-unload)
--   Colocación automática de pestañas: si está habilitada, las pestañas se quitan automáticamente de la memoria cuando la memoria del sistema es baja. Las pestañas descartadas siguen siendo visibles en la tira de pestañas y se vuelven a cargar cuando se hace clic en  
-    [clicked.chrome://flags/#automatic-tab-discarding](chrome://flags/#automatic-tab-discarding)
--   Escalado de FontCache: reutilice una fuente almacenada en caché en el representador para adaptarse a diferentes tamaños de fuente para un diseño más rápid  
-    [o.chrome://flags/#enable-font-cache-scaling](chrome://flags/#enable-font-cache-scaling)
--   Optimizar la reproducción de vídeo en segundo plano: desactive las pistas de vídeo cuando se reproduzca vídeo en segundo plano para optimizar el rendimiento  
-    [.chrome://flags/#disable-background-video-track](chrome://flags/#disable-background-video-track)
--   Habilitar el almacenamiento en caché simple para HTTP: la caché simple para HTTP es una nueva memoria caché. Se basa en el sistema de archivos para la asignación de espacio en disc  
-    [o.chrome://flags/#enable-simple-cache-backend](chrome://flags/#enable-simple-cache-backend)
--   Habilitar el modo de almacenamiento en caché V8 - Modo de almacenamiento en caché para el motor javascript V  
-    [8.chrome://flags/#v8-cache-options](chrome://flags/#v8-cache-options)
+-   Características experimentales de la pantalla - Esto permite a Chrome utilizar pantallas opacas para ampliar los tiempos de carga y aumentar el rendimiento.  
+    [chrome://flags/#enable-experimental-canvas-features](chrome://flags/#enable-experimental-canvas-features)
+-   Número de subprocesos de escaneo - Cambiar este número de "Predeterminado" a "4" acelerará la representación de imágenes.  
+    [chrome://flags/#num-raster-threads](chrome://flags/#num-raster-threads)
+-   Habilitar el cierre rápido de pestañas/ventanas - Esto ejecutará el controlador JavaScript onload de Chrome, independientemente de gui, para acelerar el cierre de pestañas.  
+    [chrome://flags/#enable-fast-unload](chrome://flags/#enable-fast-unload)
+-   Colocación automática de pestañas: si está habilitada, las pestañas se quitan automáticamente de la memoria cuando la memoria del sistema es baja. Las pestañas descartadas siguen siendo visibles en la tira de pestañas y se vuelven a cargar cuando se hace clic en ellas.  
+    [chrome://flags/#automatic-tab-discarding](chrome://flags/#automatic-tab-discarding)
+-   Escalado de FontCache: reutilice una fuente almacenada en caché en el representador para adaptarse a diferentes tamaños de fuente para un diseño más rápido.  
+    [chrome://flags/#enable-font-cache-scaling](chrome://flags/#enable-font-cache-scaling)
+-   Optimizar la reproducción de vídeo en segundo plano: desactive las pistas de vídeo cuando se reproduzca vídeo en segundo plano para optimizar el rendimiento.  
+    [chrome://flags/#disable-background-video-track](chrome://flags/#disable-background-video-track)
+-   Habilitar el almacenamiento en caché simple para HTTP: la caché simple para HTTP es una nueva memoria caché. Se basa en el sistema de archivos para la asignación de espacio en disco.  
+    [chrome://flags/#enable-simple-cache-backend](chrome://flags/#enable-simple-cache-backend)
+-   Habilitar el modo de almacenamiento en caché V8 - Modo de almacenamiento en caché para el motor javascript V8.  
+    [chrome://flags/#v8-cache-options](chrome://flags/#v8-cache-options)
 
 ## 8 - Su computadora es lenta
 
-A veces, el equipo simplemente no tiene la capacidad y sólo una actualización puede ahorrar su paciencia. Demandamos cada vez más de nuestro navegador, páginas más complejas, vídeos 8k, múltiples pestañas para multitarea... Es posible que los equipos con pocos recursos simplemente no puedan manejar tanta carga de trabajo, así que tal vez sea el momento de actu[alizar o comprar uno nuevo](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook).
+A veces, el equipo simplemente no tiene la capacidad y sólo una actualización puede ahorrar su paciencia. Demandamos cada vez más de nuestro navegador, páginas más complejas, vídeos 8k, múltiples pestañas para multitarea... Es posible que los equipos con pocos recursos simplemente no puedan manejar tanta carga de trabajo, así que tal vez sea el momento de [actualizar o comprar uno nuevo](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook).
 
 [![Slow Computer](./2020-01-iStock_000027871442_Medium-1.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)

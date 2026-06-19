@@ -37,7 +37,7 @@ Algo encomiable y sorprendente procedente del sector público, que suele estar m
 
 [Panel de Monitoreo del Centro de Sistemas de Ciencia e Ingeniería](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
-El [Centro de Sistemas para la Ciencia y la Ingeniería (CSS](https://systems.jhu.edu/)E) de la Universidad Johns Hopkins se ha convertido en el centro de datos de coronavirus del mundo, han proporcionado un panel para monitorear casos en todo el mundo, separados por países y en algunos casos por estado. Además, utilizan un repositorio en Github [para c](https://github.com/CSSEGISandData/COVID-19)ompartir todos los datos reportados y organizados por el mundo de COVID-19, sirviendo como base para que los investigadores analicen y desarrollen proyecciones.
+El [Centro de Sistemas para la Ciencia y la Ingeniería (CSSE)](https://systems.jhu.edu/) de la Universidad Johns Hopkins se ha convertido en el centro de datos de coronavirus del mundo, han proporcionado un panel para monitorear casos en todo el mundo, separados por países y en algunos casos por estado. Además, utilizan un repositorio en [Github](https://github.com/CSSEGISandData/COVID-19) para compartir todos los datos reportados y organizados por el mundo de COVID-19, sirviendo como base para que los investigadores analicen y desarrollen proyecciones.
 
 ## 3\. Inteligencia Artificial
 
@@ -45,7 +45,7 @@ El [Centro de Sistemas para la Ciencia y la Ingeniería (CSS](https://systems.jh
 
 ### 3.1 Monitoreo y detección preventivos
 
-La compañía canadiens[e BlueD](https://bluedot.global/)ot desarrolla un algoritmo de inteligencia artificial que escanea miles de fuentes, documentos, publicaciones médicas e incluso condiciones climáticas, en busca de información sobre posibles enfermedades y su capacidad para proliferar. Fue esta tecnología la que, en diciembre de 2019, advirtió de la aparición de una nueva enfermedad respiratoria en Wuhan, China. Exactamente 9 días antes de la primera comunicación oficial realizada por la Organización Mundial de la Salud (OMS).
+La compañía canadiense [BlueDot](https://bluedot.global/) desarrolla un algoritmo de inteligencia artificial que escanea miles de fuentes, documentos, publicaciones médicas e incluso condiciones climáticas, en busca de información sobre posibles enfermedades y su capacidad para proliferar. Fue esta tecnología la que, en diciembre de 2019, advirtió de la aparición de una nueva enfermedad respiratoria en Wuhan, China. Exactamente 9 días antes de la primera comunicación oficial realizada por la Organización Mundial de la Salud (OMS).
 
 ### 3.2 Análisis de medicamentos
 
@@ -53,13 +53,13 @@ La carrera por los medicamentos y las vacunas contra el COVID-19 se ha convertid
 
 ### 3.3 Diagnóstico de Coronavirus
 
-La empresa estadounidense de inteligencia artificial I[nfervision ha](https://www.wired.com/story/chinese-hospitals-deploy-ai-help-diagnose-covid-19/) desarrollado una solución que ayuda a detectar y monitorear la enfermedad de manera efectiva. La solución tiene como objetivo mejorar la velocidad del diagnóstico de las tomografías computarizadas. Otra compañía que entró en la luda contra el coronavirus fue Alibaba de China, desarrolló un si[stema de inteligencia artificial](https://thenextweb.com/neural/2020/03/02/alibabas-new-ai-system-can-detect-coronavirus-in-seconds-with-96-accuracy/) que dicen tener una precisión del 96% en el diagnóstico de COVID-19 en cuestión de segundos.
+La empresa estadounidense de inteligencia artificial [Infervision](https://www.wired.com/story/chinese-hospitals-deploy-ai-help-diagnose-covid-19/) ha desarrollado una solución que ayuda a detectar y monitorear la enfermedad de manera efectiva. La solución tiene como objetivo mejorar la velocidad del diagnóstico de las tomografías computarizadas. Otra compañía que entró en la luda contra el coronavirus fue Alibaba de China, desarrolló un [sistema de inteligencia artificial](https://thenextweb.com/neural/2020/03/02/alibabas-new-ai-system-can-detect-coronavirus-in-seconds-with-96-accuracy/) que dicen tener una precisión del 96% en el diagnóstico de COVID-19 en cuestión de segundos.
 
 ## 4\. Telemedicina
 
 ![](./2020-04-national-cancer-institute-cQ8FfVNvbew-unsplash.jpg)
 
-El Consejo Federal de Medicina (CFM) autorizó el 19 de marzo el [uso de la telemedic](https://pebmed.com.br/tecnologias-que-ampliaram-o-acesso-a-tratamentos-e-diagnosticos-no-brasil-telemedicina/)ina durante **[la pandemia COVID-1](http://marquesfernandes.com/?p=8003&preview=1&_ppp=97c26d0e74)**9.
+El Consejo Federal de Medicina (CFM) autorizó el 19 de marzo el [uso de la telemedicina](https://pebmed.com.br/tecnologias-que-ampliaram-o-acesso-a-tratamentos-e-diagnosticos-no-brasil-telemedicina/) durante la **[pandemia COVID-19](http://marquesfernandes.com/?p=8003&preview=1&_ppp=97c26d0e74)**.
 
 La telemedicina debe utilizarse en las siguientes formas:
 
@@ -71,7 +71,7 @@ La telemedicina debe utilizarse en las siguientes formas:
 
 [![Infección por coronavirus-19 Auto-aislador de seguridad aplicación curiosa tapa Q & A 7<Self-Reliance>](https://www.mois.go.kr/cmm/fms/getImage.do?atchFileId=FILE_00092080V5qfHSN&fileSn=0&preView=ok)](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?bbsId=BBSMSTR_000000000205&nttId=76155)
 
-Corea del Sur ha desarrollado un[a aplicaci](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?bbsId=BBSMSTR_000000000205&nttId=76155)ón para vigilar a los pacientes con casos confirmados y en cuarentena. La aplicación, desarrollada por el Ministerio del Interior y Seguridad, permite a aquellos que necesitan pacientes que necesitan ser puestos en cuarentena y no salir de casa poder estar en contacto con los responsables de su caso e informar de su progreso. También utiliza GPS para rastrear su ubicación y asegurarse de que no están rompiendo la cuarentena.
+Corea del Sur ha desarrollado una [aplicación](https://www.mois.go.kr/frt/bbs/type002/commonSelectBoardArticle.do;jsessionid=7bA+UtY0JOIXJytznXoyYNHR.node40?bbsId=BBSMSTR_000000000205&nttId=76155) para vigilar a los pacientes con casos confirmados y en cuarentena. La aplicación, desarrollada por el Ministerio del Interior y Seguridad, permite a aquellos que necesitan pacientes que necesitan ser puestos en cuarentena y no salir de casa poder estar en contacto con los responsables de su caso e informar de su progreso. También utiliza GPS para rastrear su ubicación y asegurarse de que no están rompiendo la cuarentena.
 
 ## 6\. Servicios gratuitos durante la pandemia
 
@@ -79,7 +79,7 @@ Debido a la repentina demanda de servicios y tecnologías para facilitar la ofic
 
 ### 6.1 Adobe Creative Cloud
 
-Adobe ahora ofrece acceso gratuito a las aplicaciones de Adobe Cloud en los ordenadores personales de los alumnos y profesores, pero solo ba[jo petición](https://helpx.adobe.com/enterprise/kb/covid-19-education-labs.html). El acceso estará disponible de forma gratuita hasta el 31 de mayo de 2020.
+Adobe ahora ofrece acceso gratuito a las aplicaciones de Adobe Cloud en los ordenadores personales de los alumnos y profesores, pero solo bajo [petición](https://helpx.adobe.com/enterprise/kb/covid-19-education-labs.html). El acceso estará disponible de forma gratuita hasta el 31 de mayo de 2020.
 
 ### 6.2 Asana
 

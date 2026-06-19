@@ -80,4 +80,4 @@ Hay varios sitios para buscar proyectos de IoT e inspirarse:
 
 ## Proyectos Amateur
 
-Para cualquier tipo de proyectos, recomiendo buscar en el sitio [https://www.instructables.c](https://www.instructables.com/)om/, en él incluso se puede compartir sus propios proyectos!
+Para cualquier tipo de proyectos, recomiendo buscar en el sitio [https://www.instructables.com/](https://www.instructables.com/), en él incluso se puede compartir sus propios proyectos!

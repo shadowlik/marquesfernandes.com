@@ -20,7 +20,7 @@ Mucha gente tiene miedo cuando digo que he descargado tal cosa por torrent, much
 
 ## ¿Qué es un Torrent?
 
-Antes de salir descargando e instalando todo, es necesario entender lo que es el bendito de Torrent y por qué es tan fresco. Pues bien, lo primero que tienes que entender es que un Torrent no es el archivo específico que quieres descargar, es un archivo que contiene información desde donde está el archivo que quieres descargar. Esta información será utilizada por software como uTorre[nt para](https://www.utorrent.com/intl/pt/) la distribución "real" - que esencialmente permite a los usuarios descargar fácilmente archivos torrent a sus ordenadores personales.
+Antes de salir descargando e instalando todo, es necesario entender lo que es el bendito de Torrent y por qué es tan fresco. Pues bien, lo primero que tienes que entender es que un Torrent no es el archivo específico que quieres descargar, es un archivo que contiene información desde donde está el archivo que quieres descargar. Esta información será utilizada por software como [uTorrent](https://www.utorrent.com/intl/pt/) para la distribución "real" - que esencialmente permite a los usuarios descargar fácilmente archivos torrent a sus ordenadores personales.
 
 El torrente funciona con una tecnología peer to peer, básicamente es una red gigante donde todos los que descargan archivos a través de él, también envía estos archivos, cuanta más gente descargue y envíe el archivo mejor será la velocidad de descarga. Imagina que quieres descargar un programa y proporciona la descarga torrent, tan pronto como empiezas a descargar piezas de ese archivo, tu ordenador comienza a enviar las piezas que ya tienes de ese archivo a otras personas que también desean descargar ese archivo. No te preocupes, es un proceso seguro, por lo que pausas la descarga o cierras el ordenador deja de enviar estos archivos.
 
@@ -28,7 +28,7 @@ El torrente en sí es seguro, lo que mucha gente no entiende es que es una maner
 
 ## Cómo descargar un Torrent
 
-Lo primero que necesitas es instalar una aplicación para descargar y gestionar los torrents, te recomiendo y lo usaremos en este tutorial [uTorren](https://www.utorrent.com/intl/pt/)t. Está disponible para todos los sistemas operativos de ordenadores (Windows, Apple MacOS, Linux) y también hay una versión móvil para Android.
+Lo primero que necesitas es instalar una aplicación para descargar y gestionar los torrents, te recomiendo y lo usaremos en este tutorial [uTorrent](https://www.utorrent.com/intl/pt/). Está disponible para todos los sistemas operativos de ordenadores (Windows, Apple MacOS, Linux) y también hay una versión móvil para Android.
 
 [![Utorrent](./2020-08-image-13.jpg)](https://www.utorrent.com/intl/pt/)
 

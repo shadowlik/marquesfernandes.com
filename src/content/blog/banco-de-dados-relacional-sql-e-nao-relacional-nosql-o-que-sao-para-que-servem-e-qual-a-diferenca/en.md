@@ -29,7 +29,10 @@ Each table in a relational database contains one or more data in columns, and ea
 
 We can imagine a relational database like an excel, where the database is a spreadsheet, each tab a table that contains its columns and rows.
 
-<table><tbody><tr><td>id</td><td>Name</td><td>age</td><td>country</td></tr><tr><td>1</td><td>Henrique Marques</td><td>28</td><td>Brazil</td></tr><tr><td>two</td><td>Terry Crews</td><td>65</td><td>USA</td></tr></tbody></table>
+| id | Name | age | country |
+| --- | --- | --- | --- |
+| 1 | Henrique Marques | 28 | Brazil |
+| two | Terry Crews | 65 | USA |
 
 Example of a table in a relational database
 
@@ -72,7 +75,9 @@ There are different types of non-relational databases, they are categorized by t
 
 -   **Key-Value:** They are a more "simple" type of database, where each item contains keys and values. These values can be any data type, a text, a number, a JSON and they can be retrieved by referencing your key, making your query very simple. These databases are great for when you need to store large amounts of data but don't need to run complex queries against them. The most common uses are for caching data. Redis and DynanoDB are probably the most popular banks of this type.
 
-<table><tbody><tr><td>1</td><td>{ "id": 1, "name": "Terry Crews", "age": 65, "parents": "USA" }</td></tr><tr><td>two</td><td>Henrique Marques Fernandes</td></tr></tbody></table>
+| 1 | { "id": 1, "name": "Terry Crews", "age": 65, "parents": "USA" } |
+| --- | --- |
+| two | Henrique Marques Fernandes |
 
 Example of a Redis storage table
 

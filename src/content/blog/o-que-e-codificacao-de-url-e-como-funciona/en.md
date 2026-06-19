@@ -191,4 +191,4 @@ The following table is an ASCII character reference to its corresponding URL enc
 | 126 | ~ | %7E |
 | 127 | DEL (delete) | %7F |
 
-## [](https://www.urlencoder.io/learn/#url-encoding-percent-encoding)
+## [URL Encoding (Percent-Encoding)](https://www.urlencoder.io/learn/#url-encoding-percent-encoding)

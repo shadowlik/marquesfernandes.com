@@ -42,7 +42,7 @@ Aunque es posible, no es muy común tener más de un espacio de intercambio conf
 
 ## Creación del archivo de intercambio
 
-Recuerde que su usuario necesita tener permisos de root, para esto [vea aquí cómo crear un](http://marquesfernandes.com/2019/04/01/como-criar-um-usuario-sudo-no-linux-debian-ubuntu)o. En este tutorial vamos a crear un espacio virtual con 2G, si necesita menos o más espacio, simplemente reemplace el número 2 con la cantidad en GB deseada.
+Recuerde que su usuario necesita tener permisos de root, para esto [vea aquí cómo crear uno](http://marquesfernandes.com/2019/04/01/como-criar-um-usuario-sudo-no-linux-debian-ubuntu). En este tutorial vamos a crear un espacio virtual con 2G, si necesita menos o más espacio, simplemente reemplace el número 2 con la cantidad en GB deseada.
 
 $ sudo fallocate -l 2G /swapfile
 
@@ -101,4 +101,4 @@ Elimine el cambio que hicimos en el ar**chivo /etc/**fstab para evitar alertas y
 
 $ sudo rm /swapfile
 
-Para más detalles técnicos echa un vista[zo: Archlinux - Swap (Portugués)](https://wiki.archlinux.org/index.php/Swap_\(Portugu%C3%AAs\))
+Para más detalles técnicos echa un vistazo: [Archlinux - Swap (Portugués)](https://wiki.archlinux.org/index.php/Swap_\(Portugu%C3%AAs\))

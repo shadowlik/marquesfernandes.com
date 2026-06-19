@@ -24,27 +24,27 @@ Así que si su aplicación está empezando a enviar más de cien correos electr�
 
 ## ¿Qué es un correo electrónico transaccional?
 
-[Los correos electrónicos tra](http://marquesfernandes.com/o-que-e-um-email-transacional/)nsaccionales son un tipo de correo electrónico automatizado entre el remitente y el destinatario. A diferencia de los correos electrónicos promocionales, un correo electrónico transaccional se desencadena a través de eventos, interacciones con un servicio o una plataforma, no con una empresa en sí. Normalmente se preprograman y se activan después de una interacción, como la creación de una cuenta que requiere la verificación del correo electrónico. Usted puede entender un poco mejor el uso de estos correos electrónicos mediante la lectura de es[te pos](http://marquesfernandes.com/o-que-e-um-email-transacional/)t.
+[Los correos electrónicos transaccionales](http://marquesfernandes.com/o-que-e-um-email-transacional/) son un tipo de correo electrónico automatizado entre el remitente y el destinatario. A diferencia de los correos electrónicos promocionales, un correo electrónico transaccional se desencadena a través de eventos, interacciones con un servicio o una plataforma, no con una empresa en sí. Normalmente se preprograman y se activan después de una interacción, como la creación de una cuenta que requiere la verificación del correo electrónico. Usted puede entender un poco mejor el uso de estos correos electrónicos mediante la lectura de este [post](http://marquesfernandes.com/o-que-e-um-email-transacional/).
 
 ## Mejores servicios de correo electrónico transaccional
 
 Elegir un servicio que satisfaga su demanda es muy importante, ya que esta funcionalidad forma parte del núcleo de la aplicación, es crucial que no haya obstáculos que usar y que se alineen con un costo y funcionalidad disponibles en su proyecto.
 
 1.  [Amazon SES](#amazon-ses)
-2.  [SendGrid, Año Nuevo](#sendgrid)
+2.  [SendGrid](#sendgrid)
 3.  [Mailgun, Nuevo](#mailgun)
-4.  [Mailjet, Año Nuevo](#mailjet)
-5.  [SendinBlue, Año Nuevo](#sendiblue)
+4.  [Mailjet](#mailjet)
+5.  [SendinBlue](#sendiblue)
 
-## 1\. -ERR:REF-NOT-FOUND-Amazon SES
+## 1\. [Amazon SES](https://aws.amazon.com/pt/ses/)
 
 [![Amazon SES](./2020-05-image-8.png)](https://aws.amazon.com/pt/ses/)
 
-Amazon Web Services tiene varios servicios en la nube, incluido Amazon SE**S para envi**ar correos electrónicos transaccionales. Confiando en toda la estructura y fiabilidad de AWS, tiene precios muy asequibles. Es una solución sólida para aquellos que tienen una cierta experiencia técnica, el servicio no ofrece estadísticas para usted, necesita conectarse con el otro servicio, A[WS SNS,](https://aws.amazon.com/pt/sns/) para poder realizar un seguimiento de sus métricas de envío.
+Amazon Web Services tiene varios servicios en la nube, incluido Amazon SE**S para envi**ar correos electrónicos transaccionales. Confiando en toda la estructura y fiabilidad de AWS, tiene precios muy asequibles. Es una solución sólida para aquellos que tienen una cierta experiencia técnica, el servicio no ofrece estadísticas para usted, necesita conectarse con el otro servicio, [AWS SNS](https://aws.amazon.com/pt/sns/), para poder realizar un seguimiento de sus métricas de envío.
 
 **Plan gratuito: 62.0**00 correos electrónicos al mes.
 
-## 2\. [SendGrid, Año Nuevo](https://sendgrid.com/)
+## 2\. [SendGrid](https://sendgrid.com/)
 
 [![SendGrid, Año Nuevo](./2020-05-image-10.png)](https://sendgrid.com/)
 
@@ -57,7 +57,7 @@ Amazon Web Services tiene varios servicios en la nube, incluido Amazon SE**S par
 -   Editor de plantillas de correo electrónico
 -   Estadísticas de envío
 
-## 3\. [Mailgun, Nuevo](https://www.mailgun.com/)
+## 3\. [Mailgun](https://www.mailgun.com/)
 
 [![Mailgun, Nuevo](./2020-05-image-9.png)](https://www.mailgun.com/)
 
@@ -72,7 +72,7 @@ Aunque no es una solución 100% gratuita, ofrece un plan gratuito para los prime
 -   Seguimiento y Estadísticas
 -   99.99% SLA de tiempo de actividad
 
-## 4\. [Mailjet, Año Nuevo](https://www.mailjet.com/)
+## 4\. [Mailjet](https://www.mailjet.com/)
 
 [![Mailjet, Año Nuevo](./2020-05-image-12.jpg)](https://www.mailjet.com/)
 
@@ -87,7 +87,7 @@ Aunque no es una solución 100% gratuita, ofrece un plan gratuito para los prime
 -   Editor de Template de Email
 -   Estadísticas Avanzadas
 
-## 5\. [SendinBlue, Año Nuevo](https://pt.sendinblue.com/)
+## 5\. [SendinBlue](https://pt.sendinblue.com/)
 
 [![SendinBlue, Año Nuevo](./2020-05-image-13.jpg)](https://pt.sendinblue.com/)
 

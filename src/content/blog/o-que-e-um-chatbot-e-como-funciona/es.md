@@ -21,13 +21,13 @@ Recientemente, se han desarrollado nuevas herramientas para simplificar la inter
 ## ¿Qué es exactamente un Chatbot?
 
 Un chatbot es un software de inteligencia artificial (IA) que puede simular una conversación (o chat) con un usuario de una manera natural a través de aplicaciones de mensajería, sitios web, aplicaciones móviles, o incluso un teléf  
-ono. ¿Por qué son importantes los chatbots? Un chatbot es probablemente una de las formas más avanzadas y prometedoras de interacción entre humanos y máquinas. Sin embargo, desde un punto de vista tecnológico, un chatbot representa sólo la evolución natural de un sistema de contestador de preguntas que utiliza [el procesamiento del lenguaje natura](https://medium.com/botsbrasil/o-que-%C3%A9-o-processamento-de-linguagem-natural-49ece9371cff)l (NLP). Formular respuestas a preguntas en lenguaje natural es uno de los ejemplos más comunes de procesamiento de lenguaje natural aplicados en sistemas multisa empresa.
+ono. ¿Por qué son importantes los chatbots? Un chatbot es probablemente una de las formas más avanzadas y prometedoras de interacción entre humanos y máquinas. Sin embargo, desde un punto de vista tecnológico, un chatbot representa sólo la evolución natural de un sistema de contestador de preguntas que utiliza el [procesamiento del lenguaje natural](https://medium.com/botsbrasil/o-que-%C3%A9-o-processamento-de-linguagem-natural-49ece9371cff) (NLP). Formular respuestas a preguntas en lenguaje natural es uno de los ejemplos más comunes de procesamiento de lenguaje natural aplicados en sistemas multisa empresa.
 
 ## Breve historia de los Chatbots
 
-El primer bot de chat fue escrito en los Estados Unidos en 1966. Fue implementado por [Joseph Weizenbaum,](https://en.wikipedia.org/wiki/Joseph_Weizenbaum) un científico informático en el Instituto Tecnológico de Massachusetts, y fue nombrado [Eliz](https://en.wikipedia.org/wiki/ELIZA)a.
+El primer bot de chat fue escrito en los Estados Unidos en 1966. Fue implementado por [Joseph Weizenbaum](https://en.wikipedia.org/wiki/Joseph_Weizenbaum), un científico informático en el Instituto Tecnológico de Massachusetts, y fue nombrado [Eliza](https://en.wikipedia.org/wiki/ELIZA).
 
-A principios de la década de 1990, se desarroll[ó la prueba De Tu](https://iaexpert.com.br/index.php/2016/07/19/historico-da-ia-teste-de-turing/)ring, que permite determinar la posibilidad de pensar a través de computadoras. Fue con él que comenzamos a perfeccionar esta herramienta, consta de lo siguiente: Una persona habla con la persona y la computadora, y el objetivo es averiguar quién es su interlocutor - una persona o una máquina.
+A principios de la década de 1990, se desarrolló la [prueba De Turing](https://iaexpert.com.br/index.php/2016/07/19/historico-da-ia-teste-de-turing/), que permite determinar la posibilidad de pensar a través de computadoras. Fue con él que comenzamos a perfeccionar esta herramienta, consta de lo siguiente: Una persona habla con la persona y la computadora, y el objetivo es averiguar quién es su interlocutor - una persona o una máquina.
 
 ## Tipos de Chatbots
 
@@ -68,7 +68,7 @@ Básicamente, un bot tiene como objetivo dos tipos de tareas: dar una respuesta 
 
 ## ¿Cómo desarrollo un Chatbot?
 
-Si no eres programador, te recomiendo que contrates empr[esas especializadas en](https://www.duotalk.io/) este tipo de tecnología, ahora si quieres jugar y tratas de desarrollar hay algunas plataformas que proporcionan el ecosistema para crear tus Chatbots:
+Si no eres programador, te recomiendo que contrates [empresas especializadas](https://www.duotalk.io/) en este tipo de tecnología, ahora si quieres jugar y tratas de desarrollar hay algunas plataformas que proporcionan el ecosistema para crear tus Chatbots:
 
 -   [Chatfuel](https://chatfuel.com/),
 -   [Boop Beep](https://beepboophq.com/),
