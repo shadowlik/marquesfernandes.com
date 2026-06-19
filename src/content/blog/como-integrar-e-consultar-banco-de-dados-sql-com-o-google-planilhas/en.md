@@ -1,0 +1,99 @@
+---
+title: "How to Integrate and Query a SQL Database with Google Sheets"
+description: "Google Apps Script provides access to the JDBC connector, which lets us connect our Google Sheet to a MySQL (up to version 5.7), Microsoft SQL Server, Oracle, or Google Cloud SQL database."
+date: 2020-08-03T16:20:33.000Z
+lang: en
+translationKey: como-integrar-e-consultar-banco-de-dados-sql-com-o-google-planilhas
+slug: how-to-integrate-and-query-a-sql-database-with-google-sheets
+category: desenvolvimento
+tags:
+  - google-apps-script
+  - mysql
+  - sql
+  - google-planilhas
+cover: ./2020-02-design-desk-display-eyewear-313690-1.jpg
+needsReview: true
+canonicalPath: /en/how-to-integrate-and-query-a-sql-database-with-google-sheets/
+---
+
+I started working on a Google Spreadsheet to keep track of my blog posts and some other tracking metrics, and since I hate repetitive work, I soon got tired of copying, pasting, and updating all the information manually. That is when I discovered there is a way to connect my spreadsheet directly to the database of my WordPress installation and run some queries to automatically extract the data I need. All of this is possible through Google Apps Script, a scripting platform developed by Google for building lightweight applications using the JavaScript programming language.
+
+*\* If you are familiar with Excel, Apps Script is the VBA of Google Sheets.*
+
+Google Apps Script provides access to the [JDBC](https://developers.google.com/apps-script/guides/jdbc) connector, which lets us connect our Google Sheet to a MySQL (up to version 5.7), Microsoft SQL Server, Oracle, or Google Cloud SQL database.
+
+Let's learn how to connect to our database, run queries, and display the results in a range of cells in our spreadsheet. If you don't know JavaScript or are not very familiar with code, don't worry: by following the steps in this article you will end up with an easy, generic function to run SQL queries without having to change almost anything.
+
+## Creating the Spreadsheet
+
+Well, the first thing we need to do is create a new spreadsheet and open the Google Apps Script code editor:
+
+![](./2020-08-image-11.png)
+
+We will then have a code editor similar to the one below:
+
+![](./2020-08-image-12.png)
+
+## Creating the Apps Script to Connect to the Database
+
+Now let's copy the [sample code](https://gist.github.com/shadowlik/0ead7e8ace5a5ba9062bb00a368811f5) into our file:
+
+function getPosts() {  
+      /\* 
+       \* Dados de Conexão 
+       \* 
+       \* Altere os dados abaixo com os dados de sua conexão
+       \*/
+      var BANCO = "mysql"; // Conector do banco
+      var HOST = "0.0.0.0"; // IP (0.0.0.0) ou HOST (seudominio.com.br)
+      var PORTA = "3306"; // Porta para conexão
+      var BANCODEDADOS = "wordpress" // Banco de dados desejado
+      var USUARIO = "usuario"; // Usuario
+      var SENHA = "senha"; // Senha
+      var ABA = "posts" // Aba para imprimir os resultados
+     
+      var start = new Date(); // Debug, vamos usar para saber o tempo de execução do script
+  
+      // Google Planilhas       
+      var doc = SpreadsheetApp.getActiveSpreadsheet(); // Retorna a aba ativa 
+      var posts = doc.getSheetByName(ABA); // Selecionamos a aba para limpar os dados
+      posts.clear();  // Limpamos todos os dados
+  
+      var cell = doc.getRange('a1'); // Vamos inserir os dados a partir da primeira célula
+
+      // Criamos a conexão com o banco de dados 
+  var conn = Jdbc.getConnection("jdbc:" + BANCO +"://" + HOST + ":" + PORTA + "/" + BANCODEDADOS,  USUARIO, SENHA);
+      var stmt = conn.createStatement();
+      var rs = stmt.executeQuery("SELECT \* FROM wp\_posts LIMIT 10"); // Executamos a query para buscar em nosso banco de dados
+      
+      var row = 0;
+      var getCount = rs.getMetaData().getColumnCount(); // Contamos quantas colunas a consulta retornou
+      
+      for (var i = 0; i < getCount; i++){  
+         cell.offset(row, i).setValue(rs.getMetaData().getColumnName(i+1)); // Adicionamos os nomes para as colunas
+      }  
+      
+      var row = 1; 
+      while (rs.next()) {
+        for (var col = 0; col < rs.getMetaData().getColumnCount(); col++) { 
+          cell.offset(row, col).setValue(rs.getString(col + 1)); // Adicionamos os dados por linha
+        }
+        row++;
+      }
+      
+      rs.close();
+      stmt.close();
+      conn.close();
+      var end = new Date();
+      Logger.log('Tempo de execução: ' + (end.getTime() - start.getTime())); // Geramos um log de tempo execução
+    } 
+
+Change all the variables indicated at the start of the script to your connection settings. I recommend using the IP in the `HOST` variable, because Google Apps Script has some DNS resolution issues that can cause a false database connection error.
+
+This script basically connects to the database. In the example I used a database from a WordPress installation, where I run a simple select, `SELET * FROM wp_posts LIMIT 10`, which returns 10 posts (rows) from the `wp_posts` table. With the result, we loop to create the headers and populate the rows in the `posts` tab. See the result below:
+
+![](./2020-08-image-10.png)
+
+## Conclusion
+
+This was a simple example of how to connect to your database and run a SQL query. You can change this script and run any SQL query. This integration allows you to create a powerful tool: we can automatically extract and update data from our systems for analysis, report generation, and much more!
