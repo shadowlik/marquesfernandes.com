@@ -46,22 +46,6 @@ const blog = defineCollection({
     }),
 });
 
-const portfolio = defineCollection({
-  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/portfolio' }),
-  schema: ({ image }) =>
-    z.object({
-      ...base,
-      date: z.coerce.date().optional(),
-      category: z.string().optional(),
-      tags: z.array(z.string()).default([]),
-      cover: image().optional(),
-      coverAlt: z.string().optional(),
-      /** External link to the live project, if any. */
-      url: z.string().url().optional(),
-      featured: z.boolean().default(false),
-    }),
-});
-
 const pages = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/pages' }),
   schema: z.object({
@@ -71,4 +55,4 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { blog, portfolio, pages };
+export const collections = { blog, pages };
