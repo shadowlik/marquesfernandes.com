@@ -26,7 +26,7 @@ Afortunadamente, hay varios sitios disponibles en línea, donde puede descargar 
 
 [![OpenSubtitles](./2020-11-image-1.png)](https://www.opensubtitles.org/pb/search/subs)
 
-Con una de las colecciones más grandes de subtítulos de películas y series en Internet (más de cinco millones, según el propio [sitio web), O](https://www.opensubtitles.org/pb/search/subs)penSubtitles es probablemente el primer sitio al que desea acudir si está buscando subtítulos de calidad.
+Con una de las colecciones más grandes de subtítulos de películas y series en Internet (más de cinco millones, según el propio sitio web), [OpenSubtitles](https://www.opensubtitles.org/pb/search/subs) es probablemente el primer sitio al que desea acudir si está buscando subtítulos de calidad.
 
 El sitio es una colección internacional, con más de 50 opciones de idioma diferentes para elegir, lo que le permite buscar en idiomas desde el aragonés hasta el vietnamita, y es el sitio con la mayor colección de subtítulos en portugués en Brasil y, en última instancia, en portugués. de Portugal si es necesario.
 
@@ -48,7 +48,7 @@ El sitio también ofrece un programa que muestra los próximos lanzamientos de s
 
 [![Podnapisi](./2020-11-image-5.png)](https://www.podnapisi.net/)
 
-[¡Podnapisi](https://www.podnapisi.net/) es uno de los más limpios y sencillos de usar!El sitio tiene más de 2 millones de subtítulos descargables, con más de 58,000 películas y más de 6,000 series de televisión disponibles.
+¡[Podnapisi](https://www.podnapisi.net/) es uno de los más limpios y sencillos de usar!El sitio tiene más de 2 millones de subtítulos descargables, con más de 58,000 películas y más de 6,000 series de televisión disponibles.
 
 Al igual que otros sitios importantes de subtítulos, Podnapisi le permite buscar utilizando una herramienta de búsqueda avanzada, con opciones para palabras clave, años, idioma y más.Si tiene problemas, un foro de soporte le permite hacer preguntas y discutir las últimas versiones.
 
@@ -56,13 +56,13 @@ Al igual que otros sitios importantes de subtítulos, Podnapisi le permite busca
 
 [![Popcorn.tv](./2020-11-image-6-5.jpg)](https://pipocas.tv/login)
 
-[Pipocas.](https://pipocas.tv/login)tv fue una grata sorpresa en mi búsqueda, tiene una interfaz muy bonita, pero con muchos anuncios. Necesita registrarse en el sitio web para acceder a los subtítulos. Tiene una colección muy completa, una búsqueda sencilla pero eficaz. Puede ver las calificaciones de otros usuarios para el título si necesita consultar el foro e incluso enviar una solicitud de título.
+[Pipocas.tv](https://pipocas.tv/login) fue una grata sorpresa en mi búsqueda, tiene una interfaz muy bonita, pero con muchos anuncios. Necesita registrarse en el sitio web para acceder a los subtítulos. Tiene una colección muy completa, una búsqueda sencilla pero eficaz. Puede ver las calificaciones de otros usuarios para el título si necesita consultar el foro e incluso enviar una solicitud de título.
 
 ## [YIFY subtítulos](https://yts-subs.com/)
 
 [![YIFY](./2020-11-image-6-1.jpg)](https://yts-subs.com/)
 
-Con el nombre del conocido grupo de piratería y sus lanzamientos en mente, YIFY [*Subtitles es ot*](https://yts-subs.com/)ro sitio web fácil de usar para descargar subtítulos.A diferencia de otros sitios importantes, YIFY Subtitles solo ofrece subtítulos de películas descargables.
+Con el nombre del conocido grupo de piratería y sus lanzamientos en mente, [*YIFY Subtitles*](https://yts-subs.com/) es otro sitio web fácil de usar para descargar subtítulos.A diferencia de otros sitios importantes, YIFY Subtitles solo ofrece subtítulos de películas descargables.
 
 No dejes que el enlace del grupo de piratería te desanime: los subtítulos YIFY son seguros y no pirateados, y ofrecen descargas en varios idiomas.La página de inicio ofrece una lista de películas populares y lanzadas recientemente, junto con categorías que separan las películas por cada idioma.
 

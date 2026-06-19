@@ -17,7 +17,7 @@ updated: 2021-12-12T11:24:33.000Z
 
 ¿Busca fuentes gratuitas y optimizadas para lectura? He seleccionado 5 fuentes principales de Google Fonts para que usted pueda utilizar!
 
-## [Open Sans, NewIes](https://fonts.google.com/specimen/Open+Sans)
+## [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
 Comenzando con el amor de Internet, con casi 30 mil millones de uso semanal, esta fuente se consagró en Internet gracias a su amplia apertura y gran altura en letras minúsculas, proporcionando una agradable experiencia de lectura.
 
@@ -35,7 +35,7 @@ Inspirado en formas geométricas, está diseñado para pantallas grandes pero lo
 
 ## [Roboto](https://fonts.google.com/specimen/Roboto)
 
-Esta fuente fue desarrollada p[or Goo](http://google.com)gle para su sistema operativo móvil, fue lanzado en Android 4.0 "Ice Cream Sandwich". Según su diseñador la fuente es "moderna pero accesible".  
+Esta fuente fue desarrollada por [Google](http://google.com) para su sistema operativo móvil, fue lanzado en Android 4.0 "Ice Cream Sandwich". Según su diseñador la fuente es "moderna pero accesible".  
   
 
 ![Robot de fuente de Google](./2019-02-image-2.png)

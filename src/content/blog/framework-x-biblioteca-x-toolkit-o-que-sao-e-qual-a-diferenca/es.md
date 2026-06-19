@@ -33,7 +33,7 @@ El kit de herramientas es una definición poco utilizada y algo ambigua, lo que 
 
 Ta, describimos en la parte superior lo que cada uno es, pero ¿cuál es la diferencia entre ellos en la práctica?
 
-La diferencia más importante y, de hecho, la diferencia definitoria entre una biblioteca y una estructura es L[a inversión de contro](https://pt.wikipedia.org/wiki/Invers%C3%A3o_de_controle)l.
+La diferencia más importante y, de hecho, la diferencia definitoria entre una biblioteca y una estructura es la [inversión de control](https://pt.wikipedia.org/wiki/Invers%C3%A3o_de_controle).
 
 Ta, ¿qué más significa esto? Bueno, eso significa que cuando se llama a una biblioteca, está en control, pero en un marco de trabajo, el control se invierte: el marco de trabajo le llama. *También llamado el Principio de Hollywood: no nos llames, te llamaremos.* Dibujé un boceto para tratar de ejemplificar mejor esta diferencia:
 

@@ -35,7 +35,7 @@ As a typed language, important features like autocomplete in the IDE became avai
 -   IT'S **similar** to the **JavaScript** and uses the same syntax and semantics.  
 -   Similar to other typed languages like C# and Java, it helps back-end developers migrate to NodeJs more easily and even write front-end code.
 -   You can call TypeScript code from existing JavaScript code. Also, it works with pure JavaScript code and libraries without any problems. 
--   The Definition file, *with .d.ts extension* , provides support for existing JavaScript libraries such as **Jquery, D3.js** , etc. Therefore, TypeScript code can add JavaScript libraries using type definitions to take advantage of the benefits of type checking, code autocompletion, and documentation in existing JavaScript dynamic type libraries.   [](https://www.edureka.co/blog/javascript-libraries/)
+-   The Definition file, *with .d.ts extension* , provides support for existing JavaScript libraries such as **Jquery, D3.js** , etc. Therefore, TypeScript code can add JavaScript libraries using type definitions to take advantage of the benefits of type checking, code autocompletion, and documentation in existing JavaScript dynamic type libraries.   
 -   It includes features of **ES6** and **ES7** that can run in ES5 JavaScript engines like [Node.js](http://marquesfernandes.com/afinal-o-que-e-nodejs/) .
 
 **References:**  

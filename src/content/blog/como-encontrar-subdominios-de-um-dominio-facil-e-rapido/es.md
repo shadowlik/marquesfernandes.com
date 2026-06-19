@@ -52,7 +52,7 @@ No solo subdominio, sino que proporciona información sobre el servidor DNS, el 
 
 [Spyse, Nuevo](https://spyse.com/search/subdomain)
 
-El *"Subdominio Find*er" de Spyse es un motor de búsqueda artesanal que te permite descubrir subdominios de cualquier dominio. Es sólo una de varias herramientas creadas por Spyse y está estrechamente vinculada a todas las demás herramientas que le permiten obtener mucha más información sobre los subdominios.
+El "*Subdominio Finder*" de Spyse es un motor de búsqueda artesanal que te permite descubrir subdominios de cualquier dominio. Es sólo una de varias herramientas creadas por Spyse y está estrechamente vinculada a todas las demás herramientas que le permiten obtener mucha más información sobre los subdominios.
 
 ## 4\. **[Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**
 

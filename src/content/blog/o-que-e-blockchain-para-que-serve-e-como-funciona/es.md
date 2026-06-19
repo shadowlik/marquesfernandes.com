@@ -22,23 +22,23 @@ Con la popularización de criptomonedas como Bitcoin, otra tecnología se está 
 
 En primer lugar, necesitamos entender en qué contexto se creó la cadena de bloques.
 
-La primera cadena de bloques fue conceptualizada por una persona (o grupo de personas) conocida como Satoshi Nakamoto en 2008, nadie sabe con certeza quiénes son o son los verdaderos propietarios de este seudónimo. Nakamoto mejoró el diseño de los conceptos de transacciones de bloques existentes de una manera importante, utiliz[ando un método ya c](https://hashcat.net/hashcat/)onocido para marcar bloques de fecha y hora sin necesidad de que sean firmados por una parte de confianza y presentando un parámetro de dificultad para estabilizar la velocidad a la que se agregan bloques a la cadena. Este diseño fue implementado por Nakamoto como un componente importante de la cripta bitcoin.
+La primera cadena de bloques fue conceptualizada por una persona (o grupo de personas) conocida como Satoshi Nakamoto en 2008, nadie sabe con certeza quiénes son o son los verdaderos propietarios de este seudónimo. Nakamoto mejoró el diseño de los conceptos de transacciones de bloques existentes de una manera importante, utilizando un [método ya conocido](https://hashcat.net/hashcat/) para marcar bloques de fecha y hora sin necesidad de que sean firmados por una parte de confianza y presentando un parámetro de dificultad para estabilizar la velocidad a la que se agregan bloques a la cadena. Este diseño fue implementado por Nakamoto como un componente importante de la cripta bitcoin.
 
-Aunque originalmente se implementó la idea de las criptomonedas, en particular bitco*in, ver*emos que actualmente blockchain tiene varios usos y mucho potencial para modernizar varias burocracias que conocemos.
+Aunque originalmente se implementó la idea de las criptomonedas, en particular *bitcoin*, veremos que actualmente blockchain tiene varios usos y mucho potencial para modernizar varias burocracias que conocemos.
 
 ## Comprender Blockchain
 
-Blockchain es una serie de registros de datos inmutables con registros de fecha y hora, administrados por un grupo de equipos que no tienen control centralizado. Cada bloque (blo*ques)* está protegido y conectado al otro mediante cifrado (c*adena* - cadena).
+Blockchain es una serie de registros de datos inmutables con registros de fecha y hora, administrados por un grupo de equipos que no tienen control centralizado. Cada bloque (*bloques*) está protegido y conectado al otro mediante cifrado (*cadena* - cadena).
 
 La red no tiene una autoridad central, por lo que es un sistema democratizado. Imagínese como un libro compartido e inmutable, toda la información está abierta para que todos los participantes y todos puedan ver y participar en las decisiones.
 
 Blockchain es básicamente una forma ingeniosa pero sencilla de pasar información del punto A al punto A, totalmente automatizada y segura. Imagine el siguiente escenario: Una persona quiere alquilar un apartamento, para ello necesita autenticar su firma y también necesita testigos
 
-Un extremo de la cadena inicia el proceso creando un bloque. Este bloque es validado por miles, tal vez millones de computadoras distribuidas a través de la red. El bloque comprobado se agrega a una cadena, que se almacena en toda la red, y todos los participantes tienen una copia de los datos en su libro, creando no sólo un registro único, sino un registro único con un historial único. Falsificar un solo registro significaría suplantar toda la cadena en todos los casos, y eso es prácticamente imposible. Bi*tcoin, po*r ejemplo, utiliza este modelo para sus transacciones.
+Un extremo de la cadena inicia el proceso creando un bloque. Este bloque es validado por miles, tal vez millones de computadoras distribuidas a través de la red. El bloque comprobado se agrega a una cadena, que se almacena en toda la red, y todos los participantes tienen una copia de los datos en su libro, creando no sólo un registro único, sino un registro único con un historial único. Falsificar un solo registro significaría suplantar toda la cadena en todos los casos, y eso es prácticamente imposible. *Bitcoin,* por ejemplo, utiliza este modelo para sus transacciones.
 
 También podemos pensar en blockchain como una cadena de notarios, donde necesita autenticarse para realizar alguna transacción y necesita a alguien imparcial para validar el proceso, incluyendo blockchain es un excelente candidato para la extinción de los notarios.
 
-¡El canal de YouTube [me perdo](https://www.youtube.com/channel/UC8mDF5mWNGE-Kpfcvnn0bUg)na! creó un video de explicación muy agradable y didáctica, vale la pena echar un vistazo también.
+¡El canal de YouTube [me perdona](https://www.youtube.com/channel/UC8mDF5mWNGE-Kpfcvnn0bUg)! creó un video de explicación muy agradable y didáctica, vale la pena echar un vistazo también.
 
 ## Usos conocidos de Blockchain
 
@@ -71,5 +71,5 @@ Hemos visto que blockchain es una tecnología innovadora y versátil, su uso fac
 **Referencias:**  
 [https://medium.com/swlh/blockchain-for-dummies-d3daf2170068  
 ](https://medium.com/swlh/blockchain-for-dummies-d3daf2170068)[https://blockgeeks.com/guides/what-is-blockchain-technology/  
-](https://blockgeeks.com/guides/what-is-blockchain-technology/)[https://www.fool .com/investing/2018/04/11/20-real-world-uses-for-blockchain-technology.asp  
-](https://www.fool.com/investing/2018/04/11/20-real-world-uses-for-blockchain-technology.aspx)[xhttps://www.investopedia.com/terms/b/blockchain.asp](https://www.investopedia.com/terms/b/blockchain.asp)
+](https://blockgeeks.com/guides/what-is-blockchain-technology/)[https://www.fool.com/investing/2018/04/11/20-real-world-uses-for-blockchain-technology.aspx  
+](https://www.fool.com/investing/2018/04/11/20-real-world-uses-for-blockchain-technology.aspx)[https://www.investopedia.com/terms/b/blockchain.asp](https://www.investopedia.com/terms/b/blockchain.asp)

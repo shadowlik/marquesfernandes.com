@@ -20,13 +20,13 @@ updated: 2021-12-12T11:24:11.000Z
 
 ## [Df](https://linux.die.net/man/1/df)
 
-Este comando es probablemente el más simple y servirá a los análisis más básicos. Tiene una amplia variedad de opciones, pero nos centraremos en los informes más s**imples**: df -H. La opción H significa que desea que el comando vuelva de una manera fácil de leer. El informe mostrará agrupados por discos cuánto espacio está disponible, utilizado, gratuito y el porcentaje de uso.
+Este comando es probablemente el más simple y servirá a los análisis más básicos. Tiene una amplia variedad de opciones, pero nos centraremos en los informes más simples: **df -H.** La opción *H* significa que desea que el comando vuelva de una manera fácil de leer. El informe mostrará agrupados por discos cuánto espacio está disponible, utilizado, gratuito y el porcentaje de uso.
 
 $df -H
 
 ![](./2019-11-image-13.png)
 
-Pero, ¿qué pasa si la cantidad de discos es demasiado grande? Como en el caso de la imagen anterior, tenemos discos creados por ubuntu snaps aplicaciones *(/dev/loopX*Y) y queremos centrarnos sólo en la partición principal *(/dev/sda*6):
+Pero, ¿qué pasa si la cantidad de discos es demasiado grande? Como en el caso de la imagen anterior, tenemos discos creados por ubuntu snaps aplicaciones *(/dev/loopXY)* y queremos centrarnos sólo en la partición principal *(/dev/sda6)*:
 
 $df -H/dev/sda6
 
@@ -36,15 +36,15 @@ El resultado ahora se limitará a ese disco:
 
 ## [Du](https://linux.die.net/man/1/du)
 
-Ahora que sabes cómo identificar cuánto espacio libre te queda o no, es muy probable que quieras averiguar qué carpetas y/o archivos están abarrotando la memoria de tu ordenador y ahí es donde entra en juego otro comando muy útil: The **du** (acrónimo de "**uso de disco**"). Con el coman**do** du puede identificar cuánto utiliza cada carpeta y archivo el almacenamiento. Imaginemos que nuestro almacenamiento se está agotando y queremos saber si el problema está en nuestra carpeta de descargas:
+Ahora que sabes cómo identificar cuánto espacio libre te queda o no, es muy probable que quieras averiguar qué carpetas y/o archivos están abarrotando la memoria de tu ordenador y ahí es donde entra en juego otro comando muy útil: The **du** (acrónimo de **"uso de disco"**). Con el comando **du** puede identificar cuánto utiliza cada carpeta y archivo el almacenamiento. Imaginemos que nuestro almacenamiento se está agotando y queremos saber si el problema está en nuestra carpeta de descargas:
 
 $du-sh /home/shadowlik/Downloads
 
 ![](./2019-11-image-15.jpg)
 
-\* *No necesitamos pasar la ruta completa al comando, podemos pasar sólo la ruta de referencia de la carpeta en la que nos estamos ejecutando, en caso de que la imagen de arriba podríamos ejecuta**r descargas du-sh** /.*
+\* *No necesitamos pasar la ruta completa al comando, podemos pasar sólo la ruta de referencia de la carpeta en la que nos estamos ejecutando, en caso de que la imagen de arriba podríamos ejecutar **descargas du-sh /**.*
 
-Hemos visto anteriorment*e que la* carpeta Descargas pesa aproximadamente 19 gigabytes, ahora averiguaremos qué archivos pesados están en esa carpeta y para ello pasaremos el com**o**dín \* al comando:
+Hemos visto anteriormente que la carpeta *Descargas* pesa aproximadamente 19 gigabytes, ahora averiguaremos qué archivos pesados están en esa carpeta y para ello pasaremos el comodín **\*** al comando:
 
 $du -sh Descargas/\*
 
@@ -53,4 +53,4 @@ $du -sh Descargas/\*
 Las capturas de pantalla son diferentes porque formateé mi computadora mientras terminaba este artículo.  
 \* Los nombres de archivo se han desenfocado por seguridad.
 
-Ahora ya sabe cuánto espacio de almacenamiento le queda disponible y cómo encontrar los lugares que podrían estar sobrecargando el disco. También aprender [a descubrir la versión linux y la distribución](http://marquesfernandes.com/2019/06/18/como-descobrir-o-nome-e-versao-da-distribuicao-linux-pela-linha-de-comando) y también par[a crear un usuario sud](http://marquesfernandes.com/2019/04/01/como-criar-um-usuario-sudo-no-linux-debian-ubuntu/)o!
+Ahora ya sabe cuánto espacio de almacenamiento le queda disponible y cómo encontrar los lugares que podrían estar sobrecargando el disco. También aprender [a descubrir la versión linux y la distribución](http://marquesfernandes.com/2019/06/18/como-descobrir-o-nome-e-versao-da-distribuicao-linux-pela-linha-de-comando) y también a [crear un usuario sudo](http://marquesfernandes.com/2019/04/01/como-criar-um-usuario-sudo-no-linux-debian-ubuntu/)!

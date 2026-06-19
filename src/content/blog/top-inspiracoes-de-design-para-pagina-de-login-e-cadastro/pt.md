@@ -101,4 +101,4 @@ Quando se tem uma plataforma que atende diferentes tipos de usuários, a página
 
 [![Login UI by DStudio™](./2020-08-0e8c29afe8286855941a2f3d6e3452e1.jpg)](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)
 
-[Login UI](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media) [](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)[by DStudio™](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)
+[Login UI](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media) [by DStudio™](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)

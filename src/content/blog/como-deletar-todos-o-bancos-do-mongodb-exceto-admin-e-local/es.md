@@ -15,16 +15,16 @@ updated: 2021-12-12T11:24:12.000Z
 
 A veces sólo tiene que eliminar todos los bancos y empezar de cero! El uso de la cáscara de MongoDB hace esto muy fácil:
 
-const dbs á db.getMongo().getDBNames();
-for(let index in dbs)
-    db á db.getMongo().getDB(dbs\[index\]);
-    const dbName á db.getName();
-    if(\['admin', 'local'\]!. includes(dbName))
-        print('Eliminación del banco $'dbName'');
+const dbs = db.getMongo().getDBNames();
+for(let index in dbs){
+    db = db.getMongo().getDB(dbs\[index\]);
+    const dbName = db.getName();
+    if(!\['admin', 'local'\].includes(dbName)) {
+        print(\`Eliminando el banco ${dbName}\`);
         db.dropDatabase();
     }
 }
 
-Este código elimina de forma segura todos los bancos manteniendo solo los bancos: Loca**l y A**dmi**n, con**servando todos los usuarios y los accesos creados anteriormente.
+Este código elimina de forma segura todos los bancos manteniendo solo los bancos: **Local** y **Admin**, conservando todos los usuarios y los accesos creados anteriormente.
 
-Como se podía ver hacer scripts usando el shel[l mongo es](https://docs.mongodb.com/manual/mongo/) bastante simple y potente.
+Como se podía ver hacer scripts usando el [shell mongo](https://docs.mongodb.com/manual/mongo/) es bastante simple y potente.

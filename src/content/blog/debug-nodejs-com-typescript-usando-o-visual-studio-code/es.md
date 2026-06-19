@@ -34,7 +34,7 @@ Para lograr la depuración en TypeScript necesitamos habilitar los mapas de orig
 Si el proyecto aún no tiene el archivo ts`config.json,` vamos a crear un archivo con la configuración mínima para este tutorial:
 
 {
-    "compilerOptions":
+    "compilerOptions": {
       "target": "ES2020",
       "rootDir": "./src",
       "outDir": "./dist",
@@ -42,7 +42,7 @@ Si el proyecto aún no tiene el archivo ts`config.json,` vamos a crear un archiv
     }
   }
 
-Una breve explicación de lo que significan estas opciones, para más opciones ver la [documentación oficia](https://www.typescriptlang.org/docs/handbook/compiler-options.html)l:
+Una breve explicación de lo que significan estas opciones, para más opciones ver la [documentación oficial](https://www.typescriptlang.org/docs/handbook/compiler-options.html):
 
 -   **objetivo**: ¿Qué versión de ECMAScript queremos compilar
 -   **rootDir:** ¿Cuál es la carpeta de nuestros archivos TypeScript
@@ -55,14 +55,14 @@ El archivo launch.json contiene toda la configuración de los depuradores del pr
 
 {
   "version": "0.2.0",
-  "configuraciones": \[
+  "configurations": \[
     {
-      "type": "nodo",
-      "request": "lanzamiento",
+      "type": "node",
+      "request": "launch",
       "name": "Programa de lanzamiento",
       "preLaunchTask": "tsc: build - tsconfig.json",
-      "program": "$-workspaceFolder/src/main.ts",
-      "outFiles":\["${workspaceFolder}/dist/\*\*/\*.js"\]
+      "program": "${workspaceFolder}/src/main.ts",
+      "outFiles": \["${workspaceFolder}/dist/\*\*/\*.js"\]
     }
   \]
 }
@@ -71,4 +71,4 @@ El archivo launch.json contiene toda la configuración de los depuradores del pr
 
 ![](./2020-01-image-6.png)
 
-Ahora que hemos configurado toda la configuración necesaria, podemos empezar a depurar nuestra aplicación. Haga clic en el botón ▶️ de la ficha De depuración o en el acceso direct**o F**5\. Si todo es correcto, se producirá el proceso de compilación y el depurador se detiene en la fila seleccionada.
+Ahora que hemos configurado toda la configuración necesaria, podemos empezar a depurar nuestra aplicación. Haga clic en el botón ▶️ de la ficha De depuración o en el acceso directo **F5**\. Si todo es correcto, se producirá el proceso de compilación y el depurador se detiene en la fila seleccionada.

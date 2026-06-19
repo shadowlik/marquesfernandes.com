@@ -16,7 +16,7 @@ needsReview: false
 updated: 2021-12-12T11:23:39.000Z
 ---
 
-Después del éxito del artículo [sobre banca de imágenes gra](http://marquesfernandes.com/top-8-sites-gratuitos-com-imagens-em-alta-resolucao-2020/)tis, decidí hacer uno sobre sitios de banca de vídeo! A menudo necesitamos un video para una acción en la red social o incluso para dar ese toque especial en el diseño de algún sitio, pero encontrar videos gratis de calidad que tengan todo lo que necesitamos no es un trabajo fácil... Afortunadamente, tenemos varios sitios que ayudan en esta misión.  
+Después del éxito del artículo sobre [banca de imágenes gratis](http://marquesfernandes.com/top-8-sites-gratuitos-com-imagens-em-alta-resolucao-2020/), decidí hacer uno sobre sitios de banca de vídeo! A menudo necesitamos un video para una acción en la red social o incluso para dar ese toque especial en el diseño de algún sitio, pero encontrar videos gratis de calidad que tengan todo lo que necesitamos no es un trabajo fácil... Afortunadamente, tenemos varios sitios que ayudan en esta misión.  
 Separé los 5 mejores sitios que utilizo cuando necesito encontrar ese video en perfecta alta calidad:
 
 ## 1. [Pixabay](https://pixabay.com/)
@@ -55,7 +55,7 @@ Los licenciatarios bajo Creative Commons 3.0 se pueden utilizar en cualquier pro
 
 \-ERR:REF-NOT-FOUND-Vida de Vids
 
-Life of Vids es una colección de vídeos, clips y loops gratuitos de [Leero](https://www.leeroy.ca/en)y, una agencia de publicidad en Canadá. No hay restricciones de derechos de autor, pero la redistribución en otros sitios está limitada a 10 videos.
+Life of Vids es una colección de vídeos, clips y loops gratuitos de [Leeroy](https://www.leeroy.ca/en), una agencia de publicidad en Canadá. No hay restricciones de derechos de autor, pero la redistribución en otros sitios está limitada a 10 videos.
 
 ## 5. [Splitshire, Año Nuevo](https://www.splitshire.com/category/video-2/)
 
@@ -65,4 +65,4 @@ Life of Vids es una colección de vídeos, clips y loops gratuitos de [Leero](ht
 
 Splitshire fue creado por el diseñador web Daniel Nanescu, quería ofrecer sus fotos y videos de forma gratuita para uso personal y comercial.
 
-Los videos son básicamente imágenes de drones en hermosas escenas al aire libre, y puedes descargarlos haciendo clic en el título debajo de cada video. Puedes usarlos de forma gratuita en todos tus canales de redes sociales, pero no puedes venderlos ni usarlos en proyectos co**n contenido inapropiado como violencia, racismo o discriminación.**
+Los videos son básicamente imágenes de drones en hermosas escenas al aire libre, y puedes descargarlos haciendo clic en el título debajo de cada video. Puedes usarlos de forma gratuita en todos tus canales de redes sociales, pero no puedes venderlos ni usarlos en proyectos con **contenido inapropiado como violencia, racismo o discriminación.**

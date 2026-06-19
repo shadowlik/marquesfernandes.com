@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:23:44.000Z
 ---
 
-El alfabeto Base64 contiene 64 caractere[s ASCII básico](http://marquesfernandes.com/codigo-ascii-tabela-ascii-completa)s que se utilizan para codificar datos. Sí, es cierto, sólo 64 caracteres son suficientes para codificar cualquier dato, de cualquier tamaño.
+El alfabeto Base64 contiene 64 caracteres [ASCII básicos](http://marquesfernandes.com/codigo-ascii-tabela-ascii-completa) que se utilizan para codificar datos. Sí, es cierto, sólo 64 caracteres son suficientes para codificar cualquier dato, de cualquier tamaño.
 
 ## Los caracteres del alfabeto Base64 se pueden agrupar en cuatro grupos:
 
@@ -26,7 +26,7 @@ El alfabeto Base64 contiene 64 caractere[s ASCII básico](http://marquesfernande
 
 La codificación Base64 distingue mayúsculas de minúsculas, por lo que al intentar decodificar, tenga en cuenta que la variación del alfabeto puede cambiar todo su resultado.
 
-La codifica[ción](https://pt.wikipedia.org/wiki/Base64) Base64 se utiliza a menudo cuando es necesario transferir y almacenar datos binarios a un dispositivo designado para trabajar con datos textuales. Esta codificación es ampliamente utilizada por las aplicaciones junto con el lenguaje de marcado XML, lo que permite el almacenamiento de datos binarios en forma de texto.
+La codificación [Base64](https://pt.wikipedia.org/wiki/Base64) se utiliza a menudo cuando es necesario transferir y almacenar datos binarios a un dispositivo designado para trabajar con datos textuales. Esta codificación es ampliamente utilizada por las aplicaciones junto con el lenguaje de marcado XML, lo que permite el almacenamiento de datos binarios en forma de texto.
 
 Echa un vistazo a las tablas completas de los grupos mencionados anteriormente:
 

@@ -16,9 +16,9 @@ needsReview: false
 updated: 2021-12-12T11:22:53.000Z
 ---
 
-Probablemente hayas notado el pequeño icono de candado cerrado en tu navegador junto a la URL. Esto significa que cuando navega de forma segura a t[ravés](http://marquesfernandes.com/tecnologia/o-que-e-http/) de HTTPS, la comunicación entre su navegador y el servidor está encriptada, por lo que terceros no pueden espiar la mayor parte de la información a la que accede. Pero los sitios, incluso con esta función de seguridad, pueden albergar formularios HTTP inseguros que le permiten ingresar sus contraseñas y otros datos personales, pero Google ya está considerando esto y planea abordar, o al menos mitigar este riesgo en Chrome 86, en octubre.
+Probablemente hayas notado el pequeño icono de candado cerrado en tu navegador junto a la URL. Esto significa que cuando navega de forma segura a través de [HTTPS](http://marquesfernandes.com/tecnologia/o-que-e-http/), la comunicación entre su navegador y el servidor está encriptada, por lo que terceros no pueden espiar la mayor parte de la información a la que accede. Pero los sitios, incluso con esta función de seguridad, pueden albergar formularios HTTP inseguros que le permiten ingresar sus contraseñas y otros datos personales, pero Google ya está considerando esto y planea abordar, o al menos mitigar este riesgo en Chrome 86, en octubre.
 
-La idea inicial es que recibas algunos avisos grandes y llamativos, según la pub[licación oficial del blog de Go](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html)ogle, se verá así:
+La idea inicial es que recibas algunos avisos grandes y llamativos, según la [publicación oficial del blog de Google](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html), se verá así:
 
 ![Aviso de formulario inseguro](./2020-08-Screen-Shot-2020-08-13-at-4.34.37-PM.png)
 

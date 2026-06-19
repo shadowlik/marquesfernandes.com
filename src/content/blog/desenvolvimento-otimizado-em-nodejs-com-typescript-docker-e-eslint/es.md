@@ -20,30 +20,30 @@ Este artículo se inspiró en mi propia frustración en la optimización de mi c
 
 Es necesario que usted tenga al menos el conocimiento básico de nodo, tipo de ley y docker, no voy a explicar ninguna tecnología en profundidad, si usted tiene alguna pregunta específica estaré encantado de ayudar en los comentarios.
 
-Al final de este tutorial tendrá un entorno de desarrollo Nod[eJS co](http://marquesfernandes.com/2019/03/05/afinal-o-que-e-nodejs)n Typ[escript,](https://www.npmjs.com/package/typescript) ts[\-node-dev,](https://github.com/whitecolor/ts-node-dev) Do[cker,](https://www.docker.com/) E[Slint](https://eslint.org/) con A[irbnb Style Guide](https://www.npmjs.com/package/eslint-config-airbnb-typescript) y [Prettier](https://prettier.io/).
+Al final de este tutorial tendrá un entorno de desarrollo [NodeJS](http://marquesfernandes.com/2019/03/05/afinal-o-que-e-nodejs) con [Typescript](https://www.npmjs.com/package/typescript), [ts-node-dev](https://github.com/whitecolor/ts-node-dev), [Docker](https://www.docker.com/), [ESlint](https://eslint.org/) con [Airbnb Style Guide](https://www.npmjs.com/package/eslint-config-airbnb-typescript) y [Prettier](https://prettier.io/).
 
-Todos los códigos de este tutorial están disponibles en [GitHu](https://github.com/shadowlik/node-ts-otimizado)b.
+Todos los códigos de este tutorial están disponibles en [GitHub](https://github.com/shadowlik/node-ts-otimizado).
 
-En la primera parte del artículo configuraremos nues[tro IDE de códig](https://code.visualstudio.com/)o de Visual Studio para el desarrollo, no dude en omitir esta parte si usa otro IDE.
+En la primera parte del artículo configuraremos nuestro IDE de [Visual Studio Code](https://code.visualstudio.com/) para el desarrollo, no dude en omitir esta parte si usa otro IDE.
 
 ## Configuración de [VS Code](https://code.visualstudio.com/download)
 
 Primero vamos a crear una carpeta vacía para nuestro proyecto e iniciar vs código en él:
 
-$mkdir node-ts-optimized && code node-ts-optimized/
+$ mkdir node-ts-optimized && code node-ts-optimized/
 
 ### Extensiones útiles de VS Code
 
 Recomiendo instalar las extensiones enumeradas a continuación, aumentarán su productividad:
 
--   [Gramática más reciente de TypeScript y Java](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar)script - Extenso da Microsoft para suporte de Typescript e Javascript
--   [Typescript Hero -](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero) Organiza las importaciones de mecanografiados
+-   [Gramática más reciente de TypeScript y Javascript](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar) - Extenso da Microsoft para suporte de Typescript e Javascript
+-   [Typescript Hero](https://marketplace.visualstudio.com/items?itemName=rbbit.typescript-hero) - Organiza las importaciones de mecanografiados
 -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integración de ESLint directamente en el IDE
--   [Más bella - Formato de códig](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)o - Integración de Más Bella directamente en el IDE
--   [Docker:](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) para autocompletar, resaltado de código y comandos de Docker
--   [Material Icono Tem](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)a - Esto no es necesario, pero me gustan los iconos lindos y quería compartir
+-   [Más bella - Formato de código](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - Integración de Más Bella directamente en el IDE
+-   [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) para autocompletar, resaltado de código y comandos de Docker
+-   [Material Icono Tema](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - Esto no es necesario, pero me gustan los iconos lindos y quería compartir
 
-### Configuración del espa[cio de trabajo](https://code.visualstudio.com/docs/getstarted/settings)
+### Configuración del [espacio de trabajo](https://code.visualstudio.com/docs/getstarted/settings)
 
 Dentro del proyecto, si aún no existe, cree una carpeta `.vsco`de y el archivo s`ettings.json`. Agregue las siguientes propiedades:
 
@@ -51,13 +51,13 @@ Dentro del proyecto, si aún no existe, cree una carpeta `.vsco`de y el archivo 
   "eslint.autoFixOnSave": true,
   "eslint.validate": \[
     "javascript",
-    "idioma": "typescript", "autoFix": true,
+    {"language": "typescript", "autoFix": true },
   \],
   "editor.formatOnSave": true,
   "\[javascript\]":  {
     "editor.formatOnSave": false,
   },
-  "\[typescript\]\[javascript\]":  {
+  "\[typescript\]":  {
     "editor.formatOnSave": false,
   }
 }
@@ -68,7 +68,7 @@ Esto habilita automáticamente el agente automático ESlint y Prettier al guarda
 
 Ahora necesitamos inicializar un proyecto de nodo:
 
-$cd node-ts-optimized && npm init
+$ cd node-ts-optimized && npm init
 
 Dentro del proyecto vamos a crear una carpet`a src`/, es en ella que vamos a poner todos nuestros archivos .ts de fue`nte`s. Disfrutar y crear un archivo vacío con el nombr`e index.t`s, lo usaremos más adelante.
 
@@ -76,9 +76,9 @@ Dentro del proyecto vamos a crear una carpet`a src`/, es en ella que vamos a pon
 
 Ahora necesitamos instalar todas las dependencias que necesitaremos para nuestro entorno de desarrollo:
 
-$npm i --save-dev typescript ts-node-dev 
+$ npm i --save-dev typescript ts-node-dev 
 
-La opció[n --save-d](https://docs.npmjs.com/cli/install)ev instala las dependencias como devDependencies, ya que no serán necesarias ni instaladas en nuestra imagen de Docker de producción.
+La opción [--save-dev](https://docs.npmjs.com/cli/install) instala las dependencias como devDependencies, ya que no serán necesarias ni instaladas en nuestra imagen de Docker de producción.
 
 -   ***typescript***: Lib oficial para compilar nuestros archivos **.ts**
 -   ***ts-node-dev***: habilita REPL para TypeScript, con reinicio automático, que permite que nuestro código TypeScript funcione en tiempo real, sin compilación (piense en nodemon o node-dev, pero para TypeScript).
@@ -86,44 +86,44 @@ La opció[n --save-d](https://docs.npmjs.com/cli/install)ev instala las dependen
 Cree el archiv`o tsconfig.j`son con la configuración del compilador Typescript:
 
 {
-  "compilerOptions":
+  "compilerOptions": {
     "target": "ES2020",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "construir"
+    "outDir": "build"
   }
 }
 
-En *el dest*ino vamos a utilizar la versión 2020 de ECMAScript, puede cambiar la versión de acuerdo con las necesidades de su proyecto.
+En *el destino* vamos a utilizar la versión 2020 de ECMAScript, puede cambiar la versión de acuerdo con las necesidades de su proyecto.
 
 ### ESLint y Más Bonito
 
-Decidí elegir ESLint como el linter para esta configuración por la sencilla razón de que h[ubo el anuncio de la discontinuación del proy](https://github.com/palantir/tslint/issues/4534)ecto TSLint, aunque lo usé y me gustó en otros proyectos, no vale la pena invertir en una dependencia importante, que ya tiene sus días de vida numerados. Instale ESLint y todas sus dependencias localmente:
+Decidí elegir ESLint como el linter para esta configuración por la sencilla razón de que hubo el [anuncio de la discontinuación del proyecto TSLint](https://github.com/palantir/tslint/issues/4534), aunque lo usé y me gustó en otros proyectos, no vale la pena invertir en una dependencia importante, que ya tiene sus días de vida numerados. Instale ESLint y todas sus dependencias localmente:
 
-$npm i --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier eslint-plugin-prettier más bonito
+$ npm i --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb-base eslint-plugin-import eslint-config-prettier eslint-plugin-prettier prettier
 
 En la raíz del proyecto, cree un archivo `.eslintrc.j`s de configuración de ESLint:
 
-module.exports ?
-    analizador: '@typescript-eslint/parser',
-    parserOptions:
-      sourceType: 'módulo',
-      proyecto: './tsconfig.json',
+module.exports = {
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      sourceType: 'module',
+      project: './tsconfig.json',
     },
-    se extiende: \[
-      'airbnb-base', // Añadir reglas de la Guía de Estilo Airbnb
-      'plugin:@typescript-eslint/recommended', // Añade recomendaciones estándar @typescript-eslint/eslint-plugin
-      'prettier/@typescript-eslint', // Añade ajustes más bonitos para evitar conflictos de reglas @typescript-eslint/eslint-plugin
-      'plugin:prettier/recommended', // Añade plugin más bonito
+    extends: \[
+      'airbnb-base', // Añade las reglas de la Guía de Estilo Airbnb
+      'plugin:@typescript-eslint/recommended', // Añade las recomendaciones estándar @typescript-eslint/eslint-plugin
+      'prettier/@typescript-eslint', // Añade las configuraciones de prettier para evitar conflictos de reglas @typescript-eslint/eslint-plugin
+      'plugin:prettier/recommended', // Añade el plugin de prettier
     \],
   }
 
 Ahora cree el archivo `.prettier.js d`e configuración de Prettier.js:
 
-module.exports ?
-  semi: verdadero,
-  trailingComma: 'todos',
-  singleQuote: falso,
+module.exports = {
+  semi: true,
+  trailingComma: 'all',
+  singleQuote: false,
   printWidth: 120,
   tabWidth: 2,
 };
@@ -131,8 +131,8 @@ module.exports ?
 Ahora vamos a agregar un script a nuestro archivo `package.json` para ejecutar pelusas:
 
 ...
-"scripts":
-  "test": "echo "Error: no especificado test" && exit 1",
+"scripts": {
+  "test": "echo \\"Error: no test specified\\" && exit 1",
   "lint": "eslint --fix ./src/\*"
 }
 ...
@@ -145,19 +145,19 @@ Si está utilizando VS Code con la configuración de inicio del artículo, estos
 
 ## Desarrollar en Typescript sin compilar todo el tiempo
 
-Si ya has desarrollado con Typescript, probablemente te hayas molestado con todo el proceso de compilación y reinicio de tu aplicación. Hay varias maneras de configurar su entorno para compilar sus archivos .ts y reini***cia***r su aplicación, aquí nos centraremos en la configuración que me sentí más productiva, utilizando lib **ts-node-de**v. Esta biblioteca compila Typescript pero comparte esta compilación entre reiniciar la aplicación, lo que significa que podremos tener una recarga automática sin tener que esperar a todo el proceso de compilación. Lib ts-node-dev es una mezcla de otras dos bibliotecas, n[ode-dev](https://github.com/fgnass/node-dev) con [ts-node](https://github.com/TypeStrong/ts-node).
+Si ya has desarrollado con Typescript, probablemente te hayas molestado con todo el proceso de compilación y reinicio de tu aplicación. Hay varias maneras de configurar su entorno para compilar sus archivos ***.ts*** y reiniciar su aplicación, aquí nos centraremos en la configuración que me sentí más productiva, utilizando lib **ts-node-dev**. Esta biblioteca compila Typescript pero comparte esta compilación entre reiniciar la aplicación, lo que significa que podremos tener una recarga automática sin tener que esperar a todo el proceso de compilación. Lib ts-node-dev es una mezcla de otras dos bibliotecas, [node-dev](https://github.com/fgnass/node-dev) con [ts-node](https://github.com/TypeStrong/ts-node).
 
 Vamos a crear el s`cri`pt dev que se usará durante el desarrollo:
 
 ...
-"scripts":
-  "test": "echo "Error: no especificado test" && exit 1",
+"scripts": {
+  "test": "echo \\"Error: no test specified\\" && exit 1",
   "lint": "eslint --fix ./src/\*",
-  "dev": "ts-node-dev --inspect-8181 --respawn --transpileOnly src/index.ts"
+  "dev": "ts-node-dev --inspect=8181 --respawn --transpileOnly src/index.ts"
 }
 ...
 
--   `--inspect` Define el puerto en el que e*l depurad*or estará escuchando.
+-   `--inspect` Define el puerto en el que el *depurador* estará escuchando.
 -   `--respawn` Continúa observando los archivos por cambios incluso si el proceso principal muere.
 -   `--transpileOnly` Deshabilita la comprobación de escritura y la salida de los archivos de definición, promoviendo una transpilación más rápida.
 
@@ -165,30 +165,30 @@ Vamos a crear el s`cri`pt dev que se usará durante el desarrollo:
 
 Vamos a añadir un código simple para poder probar nuestra configuración. Instale la dependencia express y su escritura:
 
-$npm i--save express
-$npm instalar --save-dev @types/express @types/node
+$ npm i --save express
+$ npm install --save-dev @types/express @types/node
 
 Ahora abra el archivo `index.ts` y pegue el siguiente código:
 
-importar \* como expresar desde "express";
+import \* as express from "express";
 
-const PORT 8080; Puerto de nuestro servidor web
+const PORT = 8080; // Puerto de nuestro servidor web
 
-const app - express(); Creamos una instancia de
+const app = express(); // Creamos una instancia de express
 
-Se ha añadido una ruta de prueba
-app.get("/hello-world", (req: express. Solicitud, res: express. Respuesta) ?>
-  res.json(?
-    mensaje: "Hola Mundo",
+// Añadimos una ruta de prueba
+app.get("/hello-world", (req: express.Request, res: express.Response) => {
+  res.json({
+    message: "Hello World",
   });
 });
 
-Iniciamos nuestro servidor web
-app.listen(PORT, () ? >
-  console.log('Aplicación de escucha en el puerto $-PORT-');
+// Iniciamos nuestro servidor web
+app.listen(PORT, () => {
+  console.log(\`Aplicación escuchando en el puerto ${PORT}\`);
 });
 
-Ejecute el coma`ndo npm run` dev, abra el explorador y acceda [a http://localhost:8080/hello-world](http://localhost:8080/hello-world)
+Ejecute el comando `npm run dev`, abra el explorador y acceda a [http://localhost:8080/hello-world](http://localhost:8080/hello-world)
 
 ![](./2019-12-image-26.png)
 
@@ -196,33 +196,33 @@ Ejecute el coma`ndo npm run` dev, abra el explorador y acceda [a http://localhos
 
 Para probar si nuestra configuración se realizó correctamente, modifiquemos nuestro código original y agreguemos una nueva ruta:
 
-importar \* como expresar desde "express";
+import \* as express from "express";
 
-const PORT 8080; Puerto de nuestro servidor web
+const PORT = 8080; // Puerto de nuestro servidor web
 
-const app - express(); Creamos una instancia de
+const app = express(); // Creamos una instancia de express
 
-Se ha añadido una ruta de prueba
-app.get("/hello-world", (req: express. Solicitud, res: express. Respuesta) ?>
-  res.json(?
-    mensaje: "Hola Mundo",
+// Añadimos una ruta de prueba
+app.get("/hello-world", (req: express.Request, res: express.Response) => {
+  res.json({
+    message: "Hello World",
   });
 });
 
-Se ha añadido una ruta de prueba con parámetros
-app.get("/hello-world/:name", (req: express. Solicitud, res: express. Respuesta) ?>
-  const - nombre - req.params;
-  res.json(?
-    mensaje: 'Hola $'nombre'!',
+// Añadimos una ruta de prueba con parámetros
+app.get("/hello-world/:nome", (req: express.Request, res: express.Response) => {
+  const { nome } = req.params;
+  res.json({
+    message: \`Olá ${nome}!\`,
   });
 });
 
-Iniciamos nuestro servidor web
-app.listen(PORT, () ? >
-  console.log('Aplicación de escucha en el puerto $-PORT-');
+// Iniciamos nuestro servidor web
+app.listen(PORT, () => {
+  console.log(\`Aplicación escuchando en el puerto ${PORT}\`);
 });
 
-Guarde el archivo y vea cómo sucede la magia, el resultado esperado es que la aplicación identifica nuestra modificación y actualiza el proceso automáticamente. Para validar, vaya a [http://localhost:8080/helo-world/henriqu](http://localhost:8080/helo-world/henrique)e:
+Guarde el archivo y vea cómo sucede la magia, el resultado esperado es que la aplicación identifica nuestra modificación y actualiza el proceso automáticamente. Para validar, vaya a [http://localhost:8080/helo-world/henrique](http://localhost:8080/helo-world/henrique):
 
 ![](./2019-12-image-27.png)
 
@@ -230,34 +230,34 @@ Guarde el archivo y vea cómo sucede la magia, el resultado esperado es que la a
 
 Vamos a crear el archi`vo Dockerfile.`dev que será la configuración de nuestra imagen de desarrollo:
 
-DESDE nodo:12-alpino
+FROM node:12-alpine
 
 WORKDIR /app
 
 ADD package\*.json ./
 
-NPM RUN
+RUN npm i
 
-Ahora necesitamos crear el archivo `docker-compose.ym`l:
+Ahora necesitamos crear el archivo `docker-compose.yml`:
 
-versión: "3.7"
+version: "3.7"
 
-Servicios:
+services:
   node-ts-optimized:
-    Construir:
-      Contexto:.
+    build:
+      context: .
       dockerfile: Dockerfile.dev
-    container\_name: ejemplo-web-server
-    Volúmenes:
+    container\_name: example-web-server
+    volumes:
       - ./src:/app/src
-    Puertos:
+    ports:
       - "8080:8080"
       - "8181:8181"
-    Comando: NPM Run Dev
+    command: npm run dev
 
 Vamos a probar nuestro desarrollo iniciando [docker compose](https://docs.docker.com/compose/):
 
-$docker-componer
+$ docker-compose up
 
 Repita los pasos del último paso y cambie algunos códigos, compruebe el explorador para ver si se ha iniciado la aplicación y si el código se está actualizando.
 
@@ -266,12 +266,12 @@ Repita los pasos del último paso y cambie algunos códigos, compruebe el explor
 A medida que estamos desarrollando dentro de nuestro contenedor, necesitamos tener acceso a la depuración remota del nodo, por lo que liberamos el puerto 8181 en l`a ven`tana acoplable de composición y también en nuestro script `de de`sarr`ollo package.jso`n. Vamos a crear un archivo `launch.json` dentro de nuestra carpet`a .vscod`e y pegar la configuración:
 
 {
-  "type": "nodo",
-  "request": "adjuntar",
+  "type": "node",
+  "request": "attach",
   "name": "Docker ts-node",
   "address": "localhost",
   "port": 8181,
-  "localRoot": "$-workspaceFolder",
+  "localRoot": "${workspaceFolder}",
   "remoteRoot": "/app",
   "protocol": "inspector"
 }
@@ -282,26 +282,26 @@ Ahora podemos arrancar el depurador. Si está en VS Code, presione **F5**.
 
 Finalmente vamos a crear el script de imagen que se implementará en producción, tiene algunas diferencias en la optimización:
 
-DESDE nodo:12-alpino
+FROM node:12-alpine
 
 WORKDIR /home/node/app
 
-Añadir. .
+ADD . .
 
-ENV NODE\_ENV-producción
+ENV NODE\_ENV=production
 
-RUN ci npm
+RUN npm ci
 
-Nodo USUARIO
+USER node
 
-EXPOSICIÓN 8080
+EXPOSE 8080
 
-Cmd\[ "node", "build/index.js" \]
+CMD \[ "node", "build/index.js" \]
 
 Las diferencias entre el a`rchivo Dockerf`ile.dev y `dockerfil`e son:
 
-1.  Definimos la variable de entorno `NODE_ENV` para `la producci`ón, esto evitará que se instalen las dependenci***as enumeradas en*** devDepend`encies en nu`estro package.json.
-2.  Para buenas prácticas no usaremos alias *de sc*ript npm para i`nic`iar nuestra aplicación, esto reduce el número de procesos iniciados y obliga a que las señales de terminación sigterm y SIGINT sean recibidas directamente por el proceso Node en lugar de ser interceptadas por npm: D[ocker Node - Good Practices](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#cmd).
+1.  Definimos la variable de entorno `NODE_ENV` para `la producci`ón, esto evitará que se instalen las dependencias enumeradas en ***devDependencies*** en nuestro `package.json`.
+2.  Para buenas prácticas no usaremos *alias* de script npm para iniciar nuestra aplicación, esto reduce el número de procesos iniciados y obliga a que las señales de terminación sigterm y SIGINT sean recibidas directamente por el proceso Node en lugar de ser interceptadas por npm: [Docker Node - Good Practices](https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#cmd).
 
 ## Conclusión
 

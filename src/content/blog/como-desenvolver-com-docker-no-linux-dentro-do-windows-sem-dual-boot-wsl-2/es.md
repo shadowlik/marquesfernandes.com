@@ -18,7 +18,7 @@ needsReview: false
 updated: 2021-12-12T11:23:27.000Z
 ---
 
-Este es un artículo que he estado esperando ansiosamente durante años para poder escribir, finalmente es posible, de una manera sencilla y optimizada, desarrollar utilizando todas las ventajas de Linux directamente desde Windows. Durante mucho tiempo preferí configurar mi ordenador con arranque dual, usa windows para juegos y otras aplicaciones, [y Ub](http://marquesfernandes.com/?s=ubuntu)untu para trabajar y desarrollar a diario. El entorno Linux aporta algunas ventajas al desarrollo diario, desde un mejor rendimiento con algunas aplicaciones y servicios, Docker, por ejemplo, hasta su potente línea de comandos. Sin embargo, la falta de algunas aplicaciones ampliamente utilizadas y la compatibilidad con los juegos hacen que Windows siga siendo necesario. Hasta que finalmente, en la actualización de Windows de 2004, se agregó WSL2 (Windows Subsytem para Linux), permitiendo ahora una integración más nativa con algunos sistemas en Linux, como [Docker](http://marquesfernandes.com/conteineres-e-docker-o-que-e-e-para-que-serve/).
+Este es un artículo que he estado esperando ansiosamente durante años para poder escribir, finalmente es posible, de una manera sencilla y optimizada, desarrollar utilizando todas las ventajas de Linux directamente desde Windows. Durante mucho tiempo preferí configurar mi ordenador con arranque dual, usa windows para juegos y otras aplicaciones, y [Ubuntu](http://marquesfernandes.com/?s=ubuntu) para trabajar y desarrollar a diario. El entorno Linux aporta algunas ventajas al desarrollo diario, desde un mejor rendimiento con algunas aplicaciones y servicios, Docker, por ejemplo, hasta su potente línea de comandos. Sin embargo, la falta de algunas aplicaciones ampliamente utilizadas y la compatibilidad con los juegos hacen que Windows siga siendo necesario. Hasta que finalmente, en la actualización de Windows de 2004, se agregó WSL2 (Windows Subsytem para Linux), permitiendo ahora una integración más nativa con algunos sistemas en Linux, como [Docker](http://marquesfernandes.com/conteineres-e-docker-o-que-e-e-para-que-serve/).
 
 ## ¿Qué es el subsistema de Windows para Linux (WSL2)?
 
@@ -28,7 +28,7 @@ WSL le permite instalar varias distribuciones de Linux populares en su máquina,
 
 ![Tienda Windows - Linux](./2020-06-image-10-1.jpg)
 
-La documentación de Microsoft es muy didáctica y le enseña cómo habilitar y configurar WSL en su máquina, [consulte aqu](https://docs.microsoft.com/pt-br/windows/wsl/install-win10)í.
+La documentación de Microsoft es muy didáctica y le enseña cómo habilitar y configurar WSL en su máquina, [consulte aquí](https://docs.microsoft.com/pt-br/windows/wsl/install-win10).
 
 ## WSL2 y Docker
 
@@ -40,19 +40,19 @@ Docker Desktop utiliza la característica de asignación de memoria dinámica en
 
 Además, con WSL 2, el tiempo que se tarda en iniciar un demonio de Docker después de un inicio en frío es significativamente más rápido. Se tarda menos de 10 segundos en iniciar el demonio de Docker en comparación con casi un minuto de la versión anterior de Docker Desktop.
 
-Un ejemplo práctico para los desarrolladores de n[odejs y docker, e](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/)s que ya no es necesario utilizar la `marca --legacy-`watch con nodemon, los cambios en los archivos se propagarán con la misma velocidad y compatibilidad, después de todo, se estarán ejecutando en Linux.
+Un ejemplo práctico para los desarrolladores de [nodejs y docker](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/), es que ya no es necesario utilizar la `marca --legacy-`watch con nodemon, los cambios en los archivos se propagarán con la misma velocidad y compatibilidad, después de todo, se estarán ejecutando en Linux.
 
 ## Configuración de VS Code y Docker con WSL2
 
 Voy a explicar el proceso que hice para mi escenario, uso el editor de código VS (busqué y vi que muchos otros identificadores tienen soporte para WSL también), y desarrollo prácticamente todas mis aplicaciones con Docker, aprenderemos a configurarlo para usar WSL también.
 
-Lo primero que tenemos que entender es la forma en que tratamos con los archivos, después de habe[r habilitado WSL e instalado su distribución](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) de Linux preferida, ahora tendrá dos entornos, como si tuviera una máquina virtual con su propio disco. Aunque puede tener acceso a los datos de Windows desde la línea de comandos WSL, este acceso no es nativo, utiliza una sugerencia para compartir estos archivos que afecta al rendimiento, por lo que todo lo que desea desarrollar en Linux para aprovechar las mejoras debe crearse en la estructura de datos directos WSL.
+Lo primero que tenemos que entender es la forma en que tratamos con los archivos, después de haber [habilitado WSL e instalado su distribución](https://docs.microsoft.com/pt-br/windows/wsl/install-win10) de Linux preferida, ahora tendrá dos entornos, como si tuviera una máquina virtual con su propio disco. Aunque puede tener acceso a los datos de Windows desde la línea de comandos WSL, este acceso no es nativo, utiliza una sugerencia para compartir estos archivos que afecta al rendimiento, por lo que todo lo que desea desarrollar en Linux para aprovechar las mejoras debe crearse en la estructura de datos directos WSL.
 
 Así que si estás en una carpeta que se parece a /m`nt/c/, e`stás accediendo a los archivos en Windows, no queremos que se necesite para el desarrollo.
 
 ### VS Code - Extensión WSL
 
-Para configurar su VS Code para que admita WSL, simplemente instale la ext**[ensión WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)** remota, desarrollada por Microsfot, hace que toda la magia suceda. Le permite abrir los archivos directamente desde el sistema Linux, y ya integra su terminal con el terminal Linux.
+Para configurar su VS Code para que admita WSL, simplemente instale la **[extensión WSL remota](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)**, desarrollada por Microsfot, hace que toda la magia suceda. Le permite abrir los archivos directamente desde el sistema Linux, y ya integra su terminal con el terminal Linux.
 
 ![Remoto - WSL](./2020-06-image-5.jpg)
 
@@ -78,7 +78,7 @@ Si todo sucede según lo esperado, ahora puede usar Docker directamente desde la
 
 ### Optimización de WSL 2
 
-Poco después de configurar y comenzar a probar esta nueva configuración, me di cuenta de que el consumo de memoria era absurdo (llegué a 8 GB de Ram) separado sólo para WSL 2. Después de una búsqueda, vi que ya hay un pr[oblema en gith](https://github.com/microsoft/WSL/issues/4166)ub para apoyar el problema, aparentemente WSL 2 guarda muchos archivos de caché. Pero hay una solución simple, limitando la cantidad de memoria que WSL puede consumir:
+Poco después de configurar y comenzar a probar esta nueva configuración, me di cuenta de que el consumo de memoria era absurdo (llegué a 8 GB de Ram) separado sólo para WSL 2. Después de una búsqueda, vi que ya hay un [problema en github](https://github.com/microsoft/WSL/issues/4166) para apoyar el problema, aparentemente WSL 2 guarda muchos archivos de caché. Pero hay una solución simple, limitando la cantidad de memoria que WSL puede consumir:
 
 Sólo tiene que crear un archi`vo en %UserProfile%.wslconfi`g con el siguiente contenido:
 

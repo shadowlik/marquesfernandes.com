@@ -21,48 +21,48 @@ Si ejecuta un blog o sitio web en Wordpress, probablemente utilice Google Analyt
 
 Antes de crear cualquier filtro, debemos crear una nueva **vista previa** en la propiedad. Esto genera una copia de seguridad de los datos para crear y probar los filtros; Si algo sale mal y ensuciamos sus datos, todavía tenemos los datos originales y sin procesar de la propiedad. Para crear una nueva visualización:
 
-1.  Inicie s[esión en Analyt](http://analytics.google.com/)ics y haga c**lic en Admin**.
+1.  Inicie sesión en [Analytics](http://analytics.google.com/) y haga clic en **Admin**.
 2.  Asegúrese de que la cuenta y la propiedad correctas están seleccionadas en la lista desplegable superior izquierda.
-3.  En la pestañ**a de vis**ita, haga clic **en Crear visit**a. De un nombre descriptivo, como *"Pruebas de filtr*o."
+3.  En la pestaña de **visita**, haga clic en **Crear visita**. De un nombre descriptivo, como *"Pruebas de filtro."*
 
 ![Crear nueva vista en la propiedad](./2019-12-image-15.png)
 
 Crear nueva vista en la propiedad
 
-Una vez creado, vuelva a la página Administrador y compruebe que la vi**sita r**ecién creada está seleccionada. Ahora vamos a crear dos filtros para eliminar las páginas de vista previa y wp-admin:
+Una vez creado, vuelva a la página Administrador y compruebe que la **visita** recién creada está seleccionada. Ahora vamos a crear dos filtros para eliminar las páginas de vista previa y wp-admin:
 
-1.  Haga clic e**n Filtros** en la pest**aña Vis**ita y haga clic en el b**otón +Agregar filtr**o.
-2.  Ponga un nombre significativo, como *"Eliminar páginas de vista previa*."
+1.  Haga clic en **Filtros** en la pestaña **Visita** y haga clic en el botón **+Agregar filtro**.
+2.  Ponga un nombre significativo, como *"Eliminar páginas de vista previa."*
 
 ![Crear nuevo filtro](./2019-12-image-17.png)
 
 Crear nuevo filtro
 
-3.  En **Tipo de filtro,** seleccione **Personalizad**o.
-4.  Seleccione la opción **Elimina**r.
-5.  En **El campo Filtro**, seleccion**e URI de solicitud**.
-6.  En **Tipo de patrón de** filtro, v*ista previa y  
-    verdadero. (Este texto está presente en todas las páginas de vista previa, incluidas la[s vistas previas públicas, s](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress)i está habilitado.)*
+3.  En **Tipo de filtro**, seleccione **Personalizado**.
+4.  Seleccione la opción **Eliminar**.
+5.  En **El campo Filtro**, seleccione **URI de solicitud**.
+6.  En **Tipo de patrón de filtro**, *vista previa y  
+    verdadero. (Este texto está presente en todas las páginas de vista previa, incluidas las [vistas previas públicas](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress), si está habilitado.)*
 
 ![Eliminar páginas de vista previa](./2019-12-image-18.png)
 
 Eliminar páginas de vista previa
 
-8.  Haga clic en **Guarda**r.
+8.  Haga clic en **Guardar**.
 
 ## Filtrado de páginas del panel administrativo (/wp-admin)
 
 Para filtrar las páginas del panel administrativo, seguiremos casi todos los mismos pasos antes, excepto la definición del filtro.
 
-1.  Cree un nuevo filtro haciendo clic en el b**otón +Agregar filt**ro (en la misma propiedad de vista).
+1.  Cree un nuevo filtro haciendo clic en el botón **+Agregar filtro** (en la misma propiedad de vista).
 2.  Ponga un nombre significativo como "Eliminar páginas administrativas."
-3.  En **Tipo de filtro, se**leccione Predet**erminad**o.
-4.  Seleccione la opci**ón Elimi**nar**, tráfico al subdirectorio** y q**ué contien**e.
-5.  En **subdirector**io type, */wp-admin/  
+3.  En **Tipo de filtro**, seleccione **Predeterminado**.
+4.  Seleccione la opción **Eliminar**, **tráfico al subdirectorio** y **qué contiene**.
+5.  En **subdirectorio** type, */wp-admin/  
     *(Esta ruta está presente en todas las páginas del panel administrativo).
 
 ![Eliminar páginas administrativas (/wp-admin/)](./2019-12-image-19.png)
 
 Eliminar páginas administrativas (/wp-admin/)
 
-Listo, ahora los datos de su nu**eva** vista creada deben borrarse de los hits y vistas de páginas falsas.
+Listo, ahora los datos de su nueva **vista** creada deben borrarse de los hits y vistas de páginas falsas.

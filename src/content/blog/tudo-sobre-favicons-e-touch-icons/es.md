@@ -41,7 +41,7 @@ La propiedad "rel" significa "relación" y se utiliza para indicar la relación 
 
 ### Tipo, Nuevo
 
-La propiedad "type" indica el [tipo de formato MIM](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)E del archivo al que se hace referencia. Por ejemplo: Para un archivo en el formato ".ico" usamos "image/x-icon", ya en el formato ".png" sería "image/png". Aunque no se recomienda una propiedad obligatoria para admitir exploradores más antiguos (IE9 e IE10).
+La propiedad "type" indica el [tipo de formato MIME](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) del archivo al que se hace referencia. Por ejemplo: Para un archivo en el formato ".ico" usamos "image/x-icon", ya en el formato ".png" sería "image/png". Aunque no se recomienda una propiedad obligatoria para admitir exploradores más antiguos (IE9 e IE10).
 
 <link rel="icon" type="image/png" sizes="" href="">
 
@@ -91,7 +91,22 @@ rel"apple-touch-icon-precomposed" | 76x76 - iPad 2 y iPad mini
 
 Para terminar separé una lista con la mayoría de los tamaños utilizados y por quién:
 
-<table style="background-color: #ffffff; height: 942px;"><tbody><tr style="height: 43px;"><td style="height: 43px; width: 102px;"><strong>Tamaño</strong></td><td style="height: 43px; width: 150px;"><strong>Nombre</strong></td><td style="height: 43px; width: 455px;"><b>Uso</b></td></tr><tr style="height: 43px;"><td style="height: 43px; width: 102px;">32x32</td><td style="height: 43px; width: 150px;">favicon-32.png</td><td style="height: 43px; width: 455px;">Estándar para la mayoría de los navegadores</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">57 x 57</td><td style="height: 65px; width: 150px;">favicon-57.png</td><td style="height: 65px; width: 455px;">Predeterminado para la pantalla de inicio de iOS y iPhone de hasta 3 generaciones</td></tr><tr style="height: 43px;"><td style="height: 43px; width: 102px;">76-76</td><td style="height: 43px; width: 150px;">favicon-76.png</td><td style="height: 43px; width: 455px;">Pantalla de inicio del iPad</td></tr><tr style="height: 43px;"><td style="height: 43px; width: 102px;">96-96</td><td style="height: 43px; width: 150px;">favicon-96.png</td><td style="height: 43px; width: 455px;">GoogleTV</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">120-120</td><td style="height: 65px; width: 150px;">favicon-120.png</td><td style="height: 65px; width: 455px;">retina iPhone</td></tr><tr style="height: 120px;"><td style="height: 120px; width: 102px;">128-128</td><td style="height: 120px; width: 150px;">favicon-128.png</td><td style="height: 120px; width: 455px;">Icono de Chrome Web Store y pantalla de inicio de Windows 8</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">144-144</td><td style="height: 65px; width: 150px;">favicon-144.png</td><td style="height: 65px; width: 455px;">Icono de metro IE10 *</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">152-152</td><td style="height: 65px; width: 150px;">favicon-152.png</td><td style="height: 65px; width: 455px;">Ipad</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">167-167</td><td style="height: 65px; width: 150px;">favicon-167.png</td><td style="height: 65px; width: 455px;">Retina iPad</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">180-180</td><td style="height: 65px; width: 150px;">favicon-180.png</td><td style="height: 65px; width: 455px;">iPhone 6 plus</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">192-192</td><td style="height: 65px; width: 150px;">favicon-192.png</td><td style="height: 65px; width: 455px;">Recomendación de la aplicación web para desarrolladores de Google</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">195-195</td><td style="height: 65px; width: 150px;">favicon-195.png</td><td style="height: 65px; width: 455px;">Opera Speed Dial (Versión 15 y anteriores)</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">196-196</td><td style="height: 65px; width: 150px;">favicon-196.png</td><td style="height: 65px; width: 455px;">Acceso directo a la pantalla de inicio de Chrome en Android</td></tr><tr style="height: 65px;"><td style="height: 65px; width: 102px;">228-228</td><td style="height: 65px; width: 150px;">favicon-228.png</td><td style="height: 65px; width: 455px;">Icono de la costa de la ópera</td></tr></tbody></table>
+| **Tamaño** | **Nombre** | **Uso** |
+| --- | --- | --- |
+| 32x32 | favicon-32.png | Estándar para la mayoría de los navegadores |
+| 57 x 57 | favicon-57.png | Predeterminado para la pantalla de inicio de iOS y iPhone de hasta 3 generaciones |
+| 76-76 | favicon-76.png | Pantalla de inicio del iPad |
+| 96-96 | favicon-96.png | GoogleTV |
+| 120-120 | favicon-120.png | retina iPhone |
+| 128-128 | favicon-128.png | Icono de Chrome Web Store y pantalla de inicio de Windows 8 |
+| 144-144 | favicon-144.png | Icono de metro IE10 \* |
+| 152-152 | favicon-152.png | Ipad |
+| 167-167 | favicon-167.png | Retina iPad |
+| 180-180 | favicon-180.png | iPhone 6 plus |
+| 192-192 | favicon-192.png | Recomendación de la aplicación web para desarrolladores de Google |
+| 195-195 | favicon-195.png | Opera Speed Dial (Versión 15 y anteriores) |
+| 196-196 | favicon-196.png | Acceso directo a la pantalla de inicio de Chrome en Android |
+| 228-228 | favicon-228.png | Icono de la costa de la ópera |
 
 ## Sitios generadores de Favicons
 
@@ -99,6 +114,6 @@ Para hacer nuestras vidas más fáciles hay sitios web que generan todos los tam
 
 -   [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
 -   [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
--   [](https://favicon.io/)[https://favicon.io/](https://favicon.io/)
+-   [https://favicon.io/](https://favicon.io/)
 -   [http://www.genfavicon.com/](http://www.genfavicon.com/pt/)
--   [](https://www.favicon.cc/)[https://www.favicon.cc/](https://www.favicon.cc/)
+-   [https://www.favicon.cc/](https://www.favicon.cc/)

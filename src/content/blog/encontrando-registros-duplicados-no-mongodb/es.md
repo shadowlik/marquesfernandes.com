@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:24:15.000Z
 ---
 
-¿Necesita encontrar registros duplicados en su base de datos M[ongoDB?](https://www.mongodb.com/) En este artículo explicaré cómo encontrar documentos duplicados (registros) utilizando el método agregado.
+¿Necesita encontrar registros duplicados en su base de datos [MongoDB](https://www.mongodb.com/)? En este artículo explicaré cómo encontrar documentos duplicados (registros) utilizando el método agregado.
 
 ## La base de datos
 
@@ -33,13 +33,13 @@ db.list.findOne();
 
 ## Búsqueda de datos duplicados con agregados
 
-Para ello utilizaremos el método a[gregado c](https://docs.mongodb.com/manual/aggregation/)on los operadores $gr[oup y $](https://docs.mongodb.com/manual/reference/operator/aggregation/group/)ma[tch par](https://docs.mongodb.com/manual/reference/operator/aggregation/match/)a agrupar y filtrar nuestro resultado, utilizando como identificador único el campo CPF y agregaremos dos nuevos campos: El campo "idsUnicos" que contiene todos los identificadores duplicados únicos encontrados y el campo "total" sumando el total de documentos duplicados encontrados por CPF:
+Para ello utilizaremos el método [agregado](https://docs.mongodb.com/manual/aggregation/) con los operadores [$group](https://docs.mongodb.com/manual/reference/operator/aggregation/group/) y [$match](https://docs.mongodb.com/manual/reference/operator/aggregation/match/) para agrupar y filtrar nuestro resultado, utilizando como identificador único el campo CPF y agregaremos dos nuevos campos: El campo "idsUnicos" que contiene todos los identificadores duplicados únicos encontrados y el campo "total" sumando el total de documentos duplicados encontrados por CPF:
 
 db.list.aggregate(\[  
-    •$group: .
-        \_id: .cpf: "$cpf",
-        idsUnicos: $addToSet: "$\_id",
-        total: $sum: 1o
+    {$group: {
+        \_id: {cpf: "$cpf"},
+        idsUnicos: {$addToSet: "$\_id"},
+        total: {$sum: 1}
         }
     }
 \]);
@@ -47,14 +47,14 @@ db.list.aggregate(\[
 La consulta anterior devolverá una lista de todos los CPF y sus recuentos. Ahora para buscar y devolver solo cpfs con uno o más registros duplicados, debemos agregar el operador $match para filtrar solo las consultas con más de un registro en el campo total:
 
 db.list.aggregate(\[
-    •$group: .
-        \_id: .cpf: "$cpf",
-        idsUnicos: $addToSet: "$\_id",
-        total: $sum: 1o
+    {$group: {
+        \_id: {cpf: "$cpf"},
+        idsUnicos: {$addToSet: "$\_id"},
+        total: {$sum: 1}
         }
     },
-    •$match: 
-        total: "$gt": 1o
+    {$match: { 
+        total: {"$gt": 1}
         }
     }
 \]);

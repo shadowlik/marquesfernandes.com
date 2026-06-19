@@ -18,7 +18,7 @@ needsReview: false
 updated: 2021-12-12T11:22:55.000Z
 ---
 
-**La hidropon**ía, del agua griega *(hidro*eléctrica) y de *la man*o de obra (ponos), es el nombre dado al sistema de cultivo de plantas sin necesidad de suelo (tierra) como medio de crecimiento. Las plantas están en contacto directo con agua o aire extremadamente húmedo, que contiene el aditivo de nutrientes necesarios para el desarrollo de la planta.
+**La hidroponía**, del agua griega (*hidroeléctrica*) y de la mano de obra (*ponos*), es el nombre dado al sistema de cultivo de plantas sin necesidad de suelo (tierra) como medio de crecimiento. Las plantas están en contacto directo con agua o aire extremadamente húmedo, que contiene el aditivo de nutrientes necesarios para el desarrollo de la planta.
 
 Pero, ¿es posible crear plantas sin tierra? No sólo es posible, sino que las plantas también crecen mucho mejor y más rápido dentro de esta metodología. Muchos de los alimentos que consumimos en nuestra vida diaria ya se cultivan hidropónicamente.
 
@@ -56,7 +56,7 @@ Un sistema hidropónico básicamente necesita la fuente de luz, ya sea natural o
 
 La hidroponía tiene varias ventajas sobre el cultivo del suelo, podemos enumerar algunas de las principales:
 
--   Reduce drásticamente los residuos de agua en comparación con las plantaciones de suelo (ha**sta un 90% menos de uso de agu**a).
+-   Reduce drásticamente los residuos de agua en comparación con las plantaciones de suelo (**hasta un 90% menos de uso de agua**).
 -   Elimina la necesidad de un uso masivo de pesticidas y fertilizantes (mientras que la mayoría de las plagas viven en el suelo), haciendo que el aire, el agua, el suelo y los alimentos sean más limpios.
 -   La capacidad de producir a menor costo que la agricultura tradicional en el suelo.
 -   Capacidad de cultivo en zonas del mundo que no tienen espacio ni suelo fértil.
@@ -70,7 +70,7 @@ Hay varios medios de cultivo hidropónico, vamos a hablar de todos ellos con má
 
 Tipos de Sistemas Hidropónicos
 
-### Sistema de absorción cerrado (si*stemas de Wickin*g)
+### Sistema de absorción cerrado (*sistemas de Wicking*)
 
 ![Sistema de absorción cerrado (sistemas de Wicking)](./2020-08-istock_18_tx.jpg)
 
@@ -84,7 +84,7 @@ La clave del éxito en el sistema de absorción es utilizar un medio de cultivo 
 
 Estos sistemas son buenos para plantas más pequeñas que no consumen mucha agua o nutrientes. Las plantas más grandes pueden tener dificultad para obtener suficiente a través de este sistema.
 
-### Sistem*a NFT (Nutrie*nt Film Technique)
+### Sistema NFT (*Nutrient Film Technique*)
 
 ![Sistema NFT](./2020-08-NFT-hydroponic-system_0.jpg)
 
@@ -100,7 +100,7 @@ Hay varias maneras de diseñar un sistema de técnica de película nutritiva; s
 
 Este sistema consiste en un depósito con agua y nutrientes, una bomba de agua responsable de circular en el sistema, un medio donde las plantas serán suspendidas, generalmente una tubería o una bandeja, donde las plantas suspendidas con raíces expuestas entran en contacto con este pequeño flujo de agua + nutrientes. Las plantas absorben lo que necesitan y luego hay una gota de agua de vuelta en el depósito y que también es responsable de la oxigenación del agua.
 
-### **Sistema *DWC (Cultura* de Aguas Profundas**)
+### **Sistema DWC (Cultura de Aguas Profundas)**
 
 ![Sistema de cultura DeepWater](./2020-08-grow-dwc-hydroponics.jpg)
 
@@ -143,4 +143,4 @@ Un sistema aeropónico es similar a un sistema NFT en el que las raíces se susp
 
 Jardín de verduras DIY
 
-Bueno, aprendimos un poco más sobre la hidroponía y sus ventajas, algunos pueden estar preguntándose ¿qué tiene que ver esto con un blog de tecnología? Bueno, este es el primer artículo de una serie que quiero mostrar de un huerto hidropónico que construí en la casa de mis padres, además de toda la tecnología detrás del cultivo, con la ayu[da de la](http://marquesfernandes.com/category/iot/) automatización logré crear un huerto prácticamente 100% automatizado y decidí compartir esta experiencia contigo.
+Bueno, aprendimos un poco más sobre la hidroponía y sus ventajas, algunos pueden estar preguntándose ¿qué tiene que ver esto con un blog de tecnología? Bueno, este es el primer artículo de una serie que quiero mostrar de un huerto hidropónico que construí en la casa de mis padres, además de toda la tecnología detrás del cultivo, con la ayuda de la [automatización](http://marquesfernandes.com/category/iot/) logré crear un huerto prácticamente 100% automatizado y decidí compartir esta experiencia contigo.

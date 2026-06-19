@@ -61,19 +61,17 @@ var crypto = require('crypto');
 
 To generate the salt we will use a function from the crypto module itself that already generates a random string, we will use a string with 16 characters as our salt.
 
-function generateSalt(){
-    return crypto.randomBytes(Math.ceil(length/2))
-            .toString('hex')
-            .slice(0.16); 
+function gerarSalt(){
+    return  crypto.randomBytes(16).toString('hex');
 };
 
 ### Function to encrypt password with salt
 
 We will now make the function responsible for joining a salt and a password, returning an object with the generated encrypted hash and the salt. We will use the encryption algorithm [sha512](https://emn178.github.io/online-tools/sha512.html) .
 
-function sha512(password, salt){
+function sha512(senha, salt){
     var hash = crypto.createHmac('sha512', salt); // sha512 crypto algorithm
-    hash.update(password);
+    hash.update(senha);
     var hash = hash.digest('hex');
     return {
         salt,
@@ -85,12 +83,12 @@ function sha512(password, salt){
 
 Now let's create a function that generates a new password for the user, it can be used when registering or updating a password.
 
-function generatePassword(password) {
-    var salt = generateSalt(16); // Let's generate the salt
-    var passwordESalt = sha512(password, salt); // We get the password and the salt
-    // From here you can return the password or save the salt and password in the bank
-    console.log('Password Hash: ' +passwordESalt.hash);
-    console.log('Salt: ' + passwordESalt.salt);
+function gerarSenha(senha) {
+    var salt = gerarSalt(16); // Let's generate the salt
+    var senhaESalt = sha512(senha, salt); // We get the password and the salt
+    // From here you can return the password or save the salt and password in the database
+    console.log('Senha Hash: ' + senhaESalt.hash);
+    console.log('Salt: ' + senhaESalt.salt);
 }
 
 saltHashPassword('123456');
@@ -100,9 +98,9 @@ saltHashPassword('ABC123');
 
 Now that we've saved a password hash and salt in the database, we need a function to authenticate this user in our application:
 
-function login(LoginPassword, saltOnBank, hashOnBank) {
-   varESaltpassword = sha512(Loginpassword, saltNoBank)
-   return hashNoBank ===passwordESalt.hash;
+function login(senhaDoLogin, saltNoBanco, hashNoBanco) {
+   var senhaESalt = sha512(senhaDoLogin, saltNoBanco)
+   return hashNoBanco === senhaESalt.hash;
 }
 
 ## Conclusion

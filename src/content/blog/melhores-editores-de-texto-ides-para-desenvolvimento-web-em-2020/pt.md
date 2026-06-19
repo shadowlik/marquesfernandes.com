@@ -38,7 +38,12 @@ Como todo bom projeto de código aberto, uma comunidade ativa por trás faz toda
 
 Podemos analisar também os números em seus repositório, podemos descobrir se o projeto está saudável e sendo atualizado frequentemente olhando as métricas do [GitHub](http://github.com/shadowlik) como estrelas, issues e data do último commit:
 
-<table class=""><tbody><tr><td><strong>Programa</strong></td><td class="has-text-align-center" data-align="center"><strong>Google Trends (0 ~ 100)</strong></td><td class="has-text-align-center" data-align="center"><strong>GitHub Stars</strong></td><td class="has-text-align-center" data-align="center"><strong>GitHub Issues</strong></td></tr><tr><td><a href="https://github.com/microsoft/vscode" target="_blank" rel="noreferrer noopener" aria-label=" VS Code (abre numa nova aba)">VS Code</a></td><td class="has-text-align-center" data-align="center">85</td><td class="has-text-align-center" data-align="center">88.3k</td><td class="has-text-align-center" data-align="center">4,043</td></tr><tr><td><a href="https://github.com/atom/atom" target="_blank" rel="noreferrer noopener" aria-label="Atom (abre numa nova aba)">Atom</a></td><td class="has-text-align-center" data-align="center">25</td><td class="has-text-align-center" data-align="center">50.6k</td><td class="has-text-align-center" data-align="center">454</td></tr><tr><td><a href="https://github.com/apache/netbeans">NetBeans</a></td><td class="has-text-align-center" data-align="center">22</td><td class="has-text-align-center" data-align="center">1.2k</td><td class="has-text-align-center" data-align="center">---</td></tr><tr><td><a href="https://github.com/adobe/brackets" target="_blank" rel="noreferrer noopener" aria-label="Brackets (abre numa nova aba)">Brackets</a></td><td class="has-text-align-center" data-align="center">9</td><td class="has-text-align-center" data-align="center">30.6k</td><td class="has-text-align-center" data-align="center">2,441</td></tr></tbody></table>
+| **Programa** | **Google Trends (0 ~ 100)** | **GitHub Stars** | **GitHub Issues** |
+| --- | --- | --- | --- |
+| [VS Code](https://github.com/microsoft/vscode) | 85 | 88.3k | 4,043 |
+| [Atom](https://github.com/atom/atom) | 25 | 50.6k | 454 |
+| [NetBeans](https://github.com/apache/netbeans) | 22 | 1.2k | \--- |
+| [Brackets](https://github.com/adobe/brackets) | 9 | 30.6k | 2,441 |
 
 Bom, mas números e popularidades não querem dizer nada se você não se adaptar a ferramenta, vamos entrar em mais detalhes e listar as características diferenciais de cada uma:
 

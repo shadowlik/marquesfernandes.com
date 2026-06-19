@@ -17,7 +17,7 @@ needsReview: false
 updated: 2021-12-12T11:23:33.000Z
 ---
 
-Cuando elegimos una base de datos, una de las preguntas y decisiones más importantes es elegir entre una base de datos relacional (SQL) o una **bas**e de datos no relacional **(NoSQ**L). Si bien ambas son excelentes opciones, hay algunas diferencias importantes que debemos tener en cuenta al elegir el banco adecuado para su solicitud.
+Cuando elegimos una base de datos, una de las preguntas y decisiones más importantes es elegir entre una base de datos relacional (**SQL**) o una base de datos no relacional (**NoSQL**). Si bien ambas son excelentes opciones, hay algunas diferencias importantes que debemos tener en cuenta al elegir el banco adecuado para su solicitud.
 
 Este no es un artículo para hablar de cuál es mejor o que es peor, quiero dejar claro que cada banco tiene sus fortalezas y debilidades, y saber que muchas empresas utilizan uno o más tipos de banco juntos.
 
@@ -29,7 +29,10 @@ Cada tabla de una base de datos relacional contiene uno o varios datos en column
 
 Podemos imaginar una base de datos relacional como un excel, donde el banco es una hoja de cálculo, cada pestaña una tabla que contiene sus columnas y filas.
 
-<table><tbody><tr><td>Id</td><td>Nombre</td><td>Edad</td><td>Padres</td></tr><tr><td>1</td><td>Henry Marques</td><td>28</td><td>Brasil</td></tr><tr><td>2</td><td>Terry Crews,[16)</td><td>65</td><td>Utiliza</td></tr></tbody></table>
+| Id | Nombre | Edad | Padres |
+| --- | --- | --- | --- |
+| 1 | Henry Marques | 28 | Brasil |
+| 2 | Terry Crews,\[16) | 65 | Utiliza |
 
 Ejemplo de una tabla en un banco relacional
 
@@ -41,7 +44,7 @@ Ejemplos de bases de datos relacionales:
 
 ### Posibles razones para utilizar un Banco Relacional
 
--   Necesita garantías con AC*ID (*Atomicity, Consistency, Isolation, Durability). ACID reduce las posibles anomalías y protege la integridad de la base de datos. Puede hacerlo porque define exactamente cómo interactúan las transacciones con la base de datos, que no es el caso con las bases de datos NoSQL, que tienen un objetivo principal de flexibilidad y velocidad en lugar de 100% integridad de los datos.
+-   Necesita garantías con *ACID* (Atomicity, Consistency, Isolation, Durability). ACID reduce las posibles anomalías y protege la integridad de la base de datos. Puede hacerlo porque define exactamente cómo interactúan las transacciones con la base de datos, que no es el caso con las bases de datos NoSQL, que tienen un objetivo principal de flexibilidad y velocidad en lugar de 100% integridad de los datos.
 -   Sus datos son estructurados e inmutables.
 
 ## NoSQL - Base de datos no relacional
@@ -56,7 +59,7 @@ Las bases de datos NoSQL surgieron a finales de la década de 2000 a medida que 
 
 Hay varios tipos de base de datos no relacional, que se clasifican por su forma de almacenar datos. Los dos tipos más utilizados de bancos NoSQL son:
 
--   **Document Db: almac**ena los datos en documentos similares a los objetos JS[ON (JavaScript Object Notation)](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/). Normalmente tienen lenguajes de consulta eficaces, estas bases de datos de documentos son ideales para usos generales. Se pueden escalar fácilmente horizontalmente para dar cabida a grandes volúmenes de datos. MongoDB se clasifica constantemente como la base de datos NoSQL más popular en el mundo, y es un ejemplo de una base de datos de documentos. A continuación se muestra un ejemplo de una colección MongoDB:
+-   **Document Db:** almacena los datos en documentos similares a los objetos [JSON (JavaScript Object Notation)](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/). Normalmente tienen lenguajes de consulta eficaces, estas bases de datos de documentos son ideales para usos generales. Se pueden escalar fácilmente horizontalmente para dar cabida a grandes volúmenes de datos. MongoDB se clasifica constantemente como la base de datos NoSQL más popular en el mundo, y es un ejemplo de una base de datos de documentos. A continuación se muestra un ejemplo de una colección MongoDB:
 
 \[{ 
   "\_id": ObjectId("5e6261a1df9bcf90c29726d4"),
@@ -70,9 +73,11 @@ Hay varios tipos de base de datos no relacional, que se clasifican por su forma 
   "parents": "USA"
 }\]
 
--   **Key-Value: s**on un tipo de base de datos más "simple", donde cada elemento contiene claves y valores. Estos valores pueden ser cualquier tipo de datos, un texto, un número, un JSON y se pueden recuperar haciendo referencia a la clave, lo que hace que la consulta sea muy sencilla. Estas bases de datos son ideales para cuando necesita almacenar grandes cantidades de datos, pero no tiene que ejecutar consultas complejas en ellas. Los usos más comunes son para almacenar en caché los datos. Redis y DynanoDB son probablemente los bancos más populares de este tipo.
+-   **Key-Value:** son un tipo de base de datos más "simple", donde cada elemento contiene claves y valores. Estos valores pueden ser cualquier tipo de datos, un texto, un número, un JSON y se pueden recuperar haciendo referencia a la clave, lo que hace que la consulta sea muy sencilla. Estas bases de datos son ideales para cuando necesita almacenar grandes cantidades de datos, pero no tiene que ejecutar consultas complejas en ellas. Los usos más comunes son para almacenar en caché los datos. Redis y DynanoDB son probablemente los bancos más populares de este tipo.
 
-<table><tbody><tr><td>1</td><td>•"id": 1, "name": "Terry Crews", "age": 65, "parents": "USA"</td></tr><tr><td>2</td><td>Henrique Marques Fernandes</td></tr></tbody></table>
+| 1 | •"id": 1, "name": "Terry Crews", "age": 65, "parents": "USA" |
+| --- | --- |
+| 2 | Henrique Marques Fernandes |
 
 Ejemplo de una tabla de almacenamiento de Redis
 
@@ -80,7 +85,7 @@ Ejemplos de bases de datos no relacionales:
 
 -   [Mongodb](https://www.mongodb.com/)
 -   [Couchdb](https://couchdb.apache.org/)
--   [Redis, Año Nuevo](https://redis.io/)
+-   [Redis](https://redis.io/)
 
 ### Posibles razones para utilizar un banco no relacional
 

@@ -23,7 +23,7 @@ En el pasado era necesario, aunque puede ser en algunas situaciones, confiar en 
 
 ## Identificando las especies de plantas por foto con [PlantNet](https://plantnet.org/)
 
-A medida que avanza la tecnología, ahora es posible cruzar imágenes en cuestión de segundos para identificar y comparar características, ¡y eso es exactamente lo que [hace Plan](https://plantnet.org/)tNet! Es posible enviar imágenes e identificar la especie de la planta en cuestión. El proceso es muy simple.
+A medida que avanza la tecnología, ahora es posible cruzar imágenes en cuestión de segundos para identificar y comparar características, ¡y eso es exactamente lo que hace [PlantNet](https://plantnet.org/)! Es posible enviar imágenes e identificar la especie de la planta en cuestión. El proceso es muy simple.
 
 PlantNet es una aplicación para recopilar, anotar y buscar imágenes para ayudar a identificar plantas. Fue desarrollado por un consorcio que involucró a científicos del CIRAD, INRA, INRIA, IRD y la red Tela Botanica, en un proyecto financiado por Agropolis Fondation.
 

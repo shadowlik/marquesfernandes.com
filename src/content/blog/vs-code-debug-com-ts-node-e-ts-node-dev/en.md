@@ -26,7 +26,7 @@ I will explain the settings step by step so that you can identify any possible p
 It must include the `ts-node` or `ts-node-dev` on its premises:
 
 "devDependencies": {
-  "ts-node": "8.90",
+  "ts-node": "8.9.0",
   "ts-node-dev": "1.0.0-pre.44",
 }
 
@@ -70,8 +70,8 @@ Create or modify your `.vscode/launch.json` . Don't forget to set it to the port
 The balcony is here on the property. `sourceMapPathOverrides` , we need to explicitly tell the debugger which path it should take from sourcemap files to files inside the Docker container.
 
 "sourceMapPathOverrides": {  
- "<WORKDIR>/\*": "${workspaceRoot}/\*"  
- }
+  "<WORKDIR>/\*": "${workspaceRoot}/\*"  
+}
 
 There is one [open issue in Typescript repository](https://github.com/Microsoft/vscode-recipes/issues/187) about this problem, for now the solution is to use this setting.
 

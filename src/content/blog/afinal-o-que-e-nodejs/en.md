@@ -18,7 +18,7 @@ You've probably heard about **[NodeJS](https://nodejs.org)** and that it is some
 
 **NodeJS is a Javascript execution environment.** How cool, but what does it mean? How it works?
 
-***Also check:[](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*** *[Javascript - What is it, how does it work and what is it for?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
+***Also check:*** *[Javascript - What is it, how does it work and what is it for?](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/)*
 
 You'll likely hear developers refer to just as **node** and not **NodeJS.**
 

@@ -20,7 +20,7 @@ updated: 2020-09-23T23:06:20.000Z
 
 Você precisa alterar a senha de uma conta de usuário no Linux, talvez para acessar um sftp ou ssh no Ubuntu. Como alterar a senha de um usuário no Ubuntu Linux?
 
-As informações da sua conta Ubuntu Linux são armazenadas em um arquivo com o nome **/etc/passwd**e a senha criptografada em **/etc/shadow**. Felizmente, para sua segurança, não é possível ter acesso a senhas já armazenadas em texto limpo. 
+As informações da sua conta Ubuntu Linux são armazenadas em um arquivo com o nome **/etc/passwd** e a senha criptografada em **/etc/shadow**. Felizmente, para sua segurança, não é possível ter acesso a senhas já armazenadas em texto limpo. 
 
 ## Como Alterar uma Senha de Usuário no Ubuntu
 

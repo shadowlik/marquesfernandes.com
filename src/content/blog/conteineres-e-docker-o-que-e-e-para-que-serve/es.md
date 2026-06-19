@@ -39,7 +39,7 @@ Por el contrario, los contenedores se ejecutan en todo el mismo sistema operativ
 
 ![Máquinas virtuales vs contenedores ](https://blog.netapp.com/wp-content/uploads/2016/03/Screen-Shot-2018-03-20-at-9.24.09-AM-1024x548.png)
 
-Imagen: B[log de Netapp](https://blog.netapp.com/blogs/containers-vs-vms/)
+Imagen: [Blog de Netapp](https://blog.netapp.com/blogs/containers-vs-vms/)
 
 La siguiente tabla muestra algunas de las similitudes y diferencias de estas tecnologías:
 
@@ -64,9 +64,9 @@ Docker Inc. fue fundada por Solomon Hykes y Sebastien Pahl durante el grupo de i
 
 Su popularización tuvo en cuenta la adopción por parte de las grandes empresas y de todo el ecosistema de desarrollo que se creó. Hay varias herramientas de tangente de contenedor disponibles para facilitar el desarrollo y la implementación en entornos de producción. Las principales herramientas y componentes son:
 
-**Registro: el regi**stro de docker es un repositorio que le permite cargar y descargar imágenes de Docker. Estas imágenes pueden ser públicas o privadas, la gran mayoría de las aplicaciones centran sus imágenes en este repositorio.
+**Registro**: el registro de docker es un repositorio que le permite cargar y descargar imágenes de Docker. Estas imágenes pueden ser públicas o privadas, la gran mayoría de las aplicaciones centran sus imágenes en este repositorio.
 
-**Demonio de Docker (dock**erd): es un proceso en segundo plano persistente que administra contenedores de Docker y controla los objetos contenedor.
+**Demonio de Docker (dockerd)**: es un proceso en segundo plano persistente que administra contenedores de Docker y controla los objetos contenedor.
 
 **Docker Compose**: una herramienta para desarrollar y ejecutar varios contenedores. Utiliza archivos YAML para configurar los servicios de aplicación y realiza el proceso de creación e inicialización de todos los contenedores con un solo comando. Esto facilita enormemente el desarrollo, con un solo comando podemos subir nuestra aplicación y cualquier otra dependencia externa, por ejemplo, una base de datos.
 
@@ -76,4 +76,4 @@ Su popularización tuvo en cuenta la adopción por parte de las grandes empresas
 
 Ahora que hemos aprendido qué son los contenedores y qué es Docker, le recomiendo que empiece a estudiar esta tecnología, que la mayoría de las empresas ya utilizan o buscan adaptarse a esta nueva forma de desarrollo. Definitivamente hace la vida más fácil para los desarrolladores, hoy no puedo imaginar el desarrollo sin usar Docker.
 
-**Desprot**e[jo: desarrollo optimizado de NodeJS con Typescript, Docker y ESlint](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/)
+**Desprotejo:** [desarrollo optimizado de NodeJS con Typescript, Docker y ESlint](http://marquesfernandes.com/desenvolvimento-otimizado-em-nodejs-com-typescript-docker-e-eslint/)

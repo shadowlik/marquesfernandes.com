@@ -26,11 +26,11 @@ Así que ya es un desastre y aprenderemos cómo transferir el calendario de cump
 
 [![Transfiere el calendario de cumpleaños de Facebook a Google Calendar](./2020-11-birthday-calendar-1.jpg)](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt)
 
-Instale la extensión ['Birthday Calendar Extractor for Facebook'](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt) directamente desde Chrome Webstore.
+Instale la extensión '[Birthday Calendar Extractor for Facebook](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt)' directamente desde Chrome Webstore.
 
 ## dos. Genere el archivo ICS
 
-Ahora visite F[acebook.com y](https://facebook.com/) cuando esté allí, haga clic en el icono Extractor de calendario de cumpleaños en los accesos directos de la extensión superior derecha. Es importante tener en cuenta que si su Facebook tiene el idioma de visualización en portugués, deberá cambiar a uno de los idiomas compatibles con la extensión, como el inglés.
+Ahora visite [Facebook.com](https://facebook.com/) y cuando esté allí, haga clic en el icono Extractor de calendario de cumpleaños en los accesos directos de la extensión superior derecha. Es importante tener en cuenta que si su Facebook tiene el idioma de visualización en portugués, deberá cambiar a uno de los idiomas compatibles con la extensión, como el inglés.
 
 ![Transferir el calendario de cumpleaños de Facebook a Google Calendar - Extensión de Chrome](./2020-11-facebook-birthdays-print-1.jpg)
 
@@ -38,7 +38,7 @@ Haga clic en 'Generar Google Calendar - ICS' y el archivo se descargará en unos
 
 ## 3\. Importar el archivo de cumpleaños a Google Calendar
 
-Ve a tu página de Google Calendar.Presione el ícono de ajustes> configuración> Importar / Exportar y estará en la página de impo[rtación d](https://calendar.google.com/calendar/u/0/r/settings/export?pli=1)e Google Calendar.
+Ve a tu página de Google Calendar.Presione el ícono de ajustes> configuración> Importar / Exportar y estará en la página de [importación](https://calendar.google.com/calendar/u/0/r/settings/export?pli=1) de Google Calendar.
 
 ![Importar el archivo de cumpleaños a Google Calendar](./2020-11-image-22.png)
 

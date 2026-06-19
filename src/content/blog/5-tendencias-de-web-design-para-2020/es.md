@@ -27,7 +27,7 @@ Entonces, ¿qué esperar de 2020 para Web Design? Una cosa interesante que podem
 
 Los diseños de modo oscuro se ven ultramodernos, fáciles de ver y resaltan colores y elementos de diseño. Bien conocido por los desarrolladores, el modo "hacker" ha atraído a más y más usuarios.
 
-Esa es una tendencia que va más allá de la belleza, hay principios prácticos detrás de ella también. Los temas oscuros son los mejores para las pantallas OLED, ahorran energía y prolongan la vida útil de la pantalla. Y otra cosa que muchas personas no saben es que los fondos oscuros reducen la fatiga ocular y mejoran la visibilidad de otros colores destacados para un diseño verdaderamente dinámico. Veremos más y más empresas que se embarcan en modos oscuros, recientemente tuvimos el caso de [WhatsApp lanzando esta caracterí](https://canaltech.com.br/apps/whatsapp-modo-escuro-como-ativar/)stica a sus usuarios.
+Esa es una tendencia que va más allá de la belleza, hay principios prácticos detrás de ella también. Los temas oscuros son los mejores para las pantallas OLED, ahorran energía y prolongan la vida útil de la pantalla. Y otra cosa que muchas personas no saben es que los fondos oscuros reducen la fatiga ocular y mejoran la visibilidad de otros colores destacados para un diseño verdaderamente dinámico. Veremos más y más empresas que se embarcan en modos oscuros, recientemente tuvimos el caso de [WhatsApp lanzando esta característica](https://canaltech.com.br/apps/whatsapp-modo-escuro-como-ativar/) a sus usuarios.
 
 ## 2\. Sombras suaves y elementos flotantes
 
@@ -35,7 +35,7 @@ Esa es una tendencia que va más allá de la belleza, hay principios prácticos 
 
 ![](https://i1.wp.com/marquesfernandes.com./2020-03-dribelekk.jpg)
 
-Después de un poco de la ola [de Material Design de Goo](http://marquesfernandes.com/sites-para-inspiracao-usando-material-design/)gle, la apuesta por elementos flotantes con sombras suaves está sin duda garantizada. Esta tendencia trae las páginas web, sin exagerar, un poco de profundidad y sensación 3D.
+Después de un poco de la ola del [Material Design de Google](http://marquesfernandes.com/sites-para-inspiracao-usando-material-design/), la apuesta por elementos flotantes con sombras suaves está sin duda garantizada. Esta tendencia trae las páginas web, sin exagerar, un poco de profundidad y sensación 3D.
 
 ## 3\. Ilustraciones personalizadas
 
@@ -48,7 +48,7 @@ Después de un poco de la ola [de Material Design de Goo](http://marquesfernande
 
 Hoy en día, el objeto visual no existe sólo para dar color a sus páginas, puede y debe utilizarlas para crear una identidad y qué mensaje desea transmitir a su audiencia.
 
-Ciertamente, poner una ilustración en el lugar correcto puede hacer una gran diferencia. Pueden dar un tono audaz y moderno, o quieres un tono más sobrio y tradicional, ¡tú decides! Incluso puedes encontrar increíbles ilustraciones en bancos de imágenes gratis como [UnDra](https://undraw.co/illustrations)w y O[peanDoodle.](https://www.opendoodles.com/)
+Ciertamente, poner una ilustración en el lugar correcto puede hacer una gran diferencia. Pueden dar un tono audaz y moderno, o quieres un tono más sobrio y tradicional, ¡tú decides! Incluso puedes encontrar increíbles ilustraciones en bancos de imágenes gratis como [UnDraw](https://undraw.co/illustrations) y [OpeanDoodle.](https://www.opendoodles.com/)
 
 ## 4\. Marcos sólidos
 

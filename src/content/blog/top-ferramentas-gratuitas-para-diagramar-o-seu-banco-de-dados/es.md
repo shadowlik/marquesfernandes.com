@@ -19,7 +19,7 @@ Diseñar su base de datos es uno de los pasos más importantes cuando comienza a
 
 La buena noticia es que hay excelentes herramientas para ayudar en esta tarea, separé una lista para ayudarle a elegir una herramienta de diagramación gratuita.
 
-*También echa un vis[tazo: 4 herramientas gratuitas para administrar MongoDB](http://marquesfernandes.com/ferramentas-gratuitas-para-gerenciar-mongodb/)*
+*También echa un vistazo: [4 herramientas gratuitas para administrar MongoDB](http://marquesfernandes.com/ferramentas-gratuitas-para-gerenciar-mongodb/)*
 
 ## Las mejores herramientas para dibujar/diagramar una base de datos
 
@@ -44,7 +44,7 @@ La buena noticia es que hay excelentes herramientas para ayudar en esta tarea, s
 
 [![Lucidchart, Año Nuevo](./2020-05-image-15.png)](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post)
 
-[Lucidchar](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post)t sigue la misma línea que diagrams.net, una herramienta completa y versátil que permite la diagramación de bases de datos, entitades relación, etc. Hay una limitación de 100 plantillas básicas en el plan gratuito, pero para proyectos simples esto no debería ser un obstáculo.
+[Lucidchart](https://www.lucidchart.com/pages/landing?utm_source=marquesfernandes&utm_medium=blog_post) sigue la misma línea que diagrams.net, una herramienta completa y versátil que permite la diagramación de bases de datos, entitades relación, etc. Hay una limitación de 100 plantillas básicas en el plan gratuito, pero para proyectos simples esto no debería ser un obstáculo.
 
 ## 4\. [MySQL Workbench](https://www.mysql.com/products/workbench?utm_source=marquesfernandes&utm_medium=blog_post)
 

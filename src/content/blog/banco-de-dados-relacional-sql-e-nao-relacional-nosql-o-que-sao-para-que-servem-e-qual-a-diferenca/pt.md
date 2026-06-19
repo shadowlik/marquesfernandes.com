@@ -35,7 +35,10 @@ Cada tabela em um banco de dados relacional contém um ou mais dados em colunas,
 
 Podemos imaginar um banco de dados relacional como um excel, onde o banco é uma planilha, cada aba um tabela que contém suas colunas e linhas.
 
-<table><tbody><tr><td>id</td><td>nome</td><td>idade</td><td>pais</td></tr><tr><td>1</td><td>Henrique Marques</td><td>28</td><td>Brasil</td></tr><tr><td>2</td><td>Terry Crews</td><td>65</td><td>USA</td></tr></tbody></table>
+| id | nome | idade | pais |
+| --- | --- | --- | --- |
+| 1 | Henrique Marques | 28 | Brasil |
+| 2 | Terry Crews | 65 | USA |
 
 Exemplo de uma tabela em um banco relacional
 
@@ -78,7 +81,9 @@ Existem diversos tipos de banco de dados não relacional, eles são categorizada
 
 -   **Chave-Valor:** São um tipo mais "simples" de banco de dados, em que cada item contém chaves e valores. Esses valores podem ser qualquer tipo de dado, um texto, um número, um JSON e eles podem ser recuperados fazendo referência a sua chave, fazendo com que sua consulta seja muito simples. Esses bancos são ótimos para quando você precisa armazenar grandes quantidades de dados, mas não precisa executar consultas complexas neles. Os usos mais comuns são ​​para armazenamento de dados em cache. Redis e DynanoDB são provavelmente os bancos mais populares desse tipo.
 
-<table><tbody><tr><td>1</td><td>{ "id": 1, "nome": "Terry Crews", "idade": 65, "pais": "USA" }</td></tr><tr><td>2</td><td>Henrique Marques Fernandes</td></tr></tbody></table>
+| 1 | { "id": 1, "nome": "Terry Crews", "idade": 65, "pais": "USA" } |
+| --- | --- |
+| 2 | Henrique Marques Fernandes |
 
 Exemplo de uma tabela de armazenamento do Redis
 

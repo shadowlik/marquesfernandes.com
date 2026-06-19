@@ -27,7 +27,7 @@ Créditos: [carlcheo](http://carlcheo.com/startcoding)
 
 ## Qué lenguajes de programación aprender primero
 
-Bueno, no más estancamiento, vamos a la lista de lenguajes de programación que creo que deberías elegir como tu primer idioma. Como referencia, usaré dos encuestas de popularidad de idiomas, PY[PL y](http://pypl.github.io/PYPL.html) St[ack Overflow Insights (OS)](https://insights.stackoverflow.com/survey/2019#most-popular-technologies).
+Bueno, no más estancamiento, vamos a la lista de lenguajes de programación que creo que deberías elegir como tu primer idioma. Como referencia, usaré dos encuestas de popularidad de idiomas, [PYPL](http://pypl.github.io/PYPL.html) y [Stack Overflow Insights (OS)](https://insights.stackoverflow.com/survey/2019#most-popular-technologies).
 
 ### 1\. [Javascript](http://marquesfernandes.com/javascript-o-que-e-como-funciona-e-para-que-serve/), [HTML](http://marquesfernandes.com/o-que-e-html-e-para-que-serve/) y [CSS](http://marquesfernandes.com/o-que-e-css-e-para-que-serve/)
 
@@ -105,7 +105,7 @@ Si quieres ser desarrollador de iOS, tendrás que aprender el idioma de Swift. S
 **Referencias:  
 **[https://medium.com/coding-in-simple-english/which-programming-language-should-i-learn-dddee919edb6](https://medium.com/coding-in-simple-english/which-programming-language-should-i-learn-dddee919edb6)  
 [https://www.freecodecamp.org/news/what-programming-language-should-i-learn-first-19a33b0a467d/](https://www.freecodecamp.org/news/what-programming-language-should-i-learn-first-19a33b0a467d/)  
-[https://towardsdatascience.com/top-10-in-demand -programming-languages-to-learn-in-2020-4462eb7d8d3](https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e)  
-[ehttps://www.fullstackacademy.com/blog/nine-best-programming-languages-to-lear](https://www.fullstackacademy.com/blog/nine-best-programming-languages-to-learn)  
-[nhttps://insights.stackoverflow.com/survey/2019-most-popular-technologie](https://insights.stackoverflow.com/survey/2019#most-popular-technologies)  
-[shttp://pypl.github.io/PYPL.html](http://pypl.github.io/PYPL.html)
+[https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e](https://towardsdatascience.com/top-10-in-demand-programming-languages-to-learn-in-2020-4462eb7d8d3e)  
+[https://www.fullstackacademy.com/blog/nine-best-programming-languages-to-learn](https://www.fullstackacademy.com/blog/nine-best-programming-languages-to-learn)  
+[https://insights.stackoverflow.com/survey/2019#most-popular-technologies](https://insights.stackoverflow.com/survey/2019#most-popular-technologies)  
+[http://pypl.github.io/PYPL.html](http://pypl.github.io/PYPL.html)

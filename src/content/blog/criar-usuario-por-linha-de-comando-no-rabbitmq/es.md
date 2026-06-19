@@ -15,7 +15,7 @@ needsReview: false
 updated: 2021-12-12T11:24:13.000Z
 ---
 
-A continuación se muestra un fragmento rápido de cómo crear un usuario por línea de comandos con privilegios de administrador e[n RabbitM](https://www.rabbitmq.com/)Q.
+A continuación se muestra un fragmento rápido de cómo crear un usuario por línea de comandos con privilegios de administrador en [RabbitMQ](https://www.rabbitmq.com/).
 
 • Creamos un usuario "admin" con la contraseña "password"
 rabbitmqctl add\_user contraseña de administrador

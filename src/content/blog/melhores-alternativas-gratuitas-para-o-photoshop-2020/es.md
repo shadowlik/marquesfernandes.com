@@ -38,7 +38,7 @@ Porque GIMP también puede obtener soporte para importar PSD, aunque no todas la
 
 [![Inkscape](./2020-07-Voronoi-and-dulaney.png)](https://inkscape.org/release/inkscape-1.0/)
 
-I[nkScape](https://inkscape.org/release/inkscape-1.0/) sería más un reemplazo para Illustrator que para Photoshop, está más orientado a diseñadores gráficos que quieren trabajar con vectores. Aún así, puede usarlo para realizar ajustes básicos de imagen en las mismas imágenes que en Photoshop, como recortar, pegar, cambiar el tamaño y editar. También es una gran herramienta para convertir fotos en imágenes vectoriales!
+[InkScape](https://inkscape.org/release/inkscape-1.0/) sería más un reemplazo para Illustrator que para Photoshop, está más orientado a diseñadores gráficos que quieren trabajar con vectores. Aún así, puede usarlo para realizar ajustes básicos de imagen en las mismas imágenes que en Photoshop, como recortar, pegar, cambiar el tamaño y editar. También es una gran herramienta para convertir fotos en imágenes vectoriales!
 
 ## 3\. [Krita](https://krita.org/en/download/krita-desktop/)
 
@@ -46,7 +46,7 @@ I[nkScape](https://inkscape.org/release/inkscape-1.0/) sería más un reemplazo 
 
 Krita es una alternativa perfecta de photoshop gratis, especialmente para los fotógrafos que necesitan un poco más de flexibilidad en su edición.
 
-El proyecto vino de artistas que buscan ofrecer herramientas de edición accesibles para todos, por lo que desarro[llar](https://krita.org/en/download/krita-desktop/)on Krita, centrada en artistas conceptuales, pintores de texturas y mates, ilustradores e incluso creadores de cómics.
+El proyecto vino de artistas que buscan ofrecer herramientas de edición accesibles para todos, por lo que desarrollaron [Krita](https://krita.org/en/download/krita-desktop/), centrada en artistas conceptuales, pintores de texturas y mates, ilustradores e incluso creadores de cómics.
 
 Cuando se trata de colorear sus fotos, puede utilizar la paleta de colores emergente única. Además, aprovecha el sistema de marcado único de Krita para cambiar los pinceles que se muestran. Además, accede a los colores más utilizados y establece todos los ajustes de color con solo unos clics.
 
@@ -56,16 +56,16 @@ Es muy extensible, se puede importar fácilmente paquetes de pinceles y texturas
 
 [![](./2020-07-image-29.png)](https://pixlr.com/br/x/)
 
-[Pixlr](https://pixlr.com/x/) x es la última versión del editor Pixlr. Viene con características y mejoras mucho más avanzadas y busca convertirse en una de las mejores alternativas gratuitas de Photoshop en el mercado.
+[Pixlr x](https://pixlr.com/x/) es la última versión del editor Pixlr. Viene con características y mejoras mucho más avanzadas y busca convertirse en una de las mejores alternativas gratuitas de Photoshop en el mercado.
 
 Desarrollado en HTML5, Pixlr x funciona bien en cualquier navegador moderno (incluidos los dispositivos móviles).
 
 Pixlr x es un editor de fotos totalmente online, lo que significa que puedes usarlo con cualquier sistema operativo. Viene con todos los ajustes básicos que necesita para crear imágenes bien editadas y algunos extras, así, como las herramientas de descongelación y curvas.
 
-## 5\. [Sumopaint, Año Nuevo](https://www.sumopaint.com/)
+## 5\. [Sumopaint](https://www.sumopaint.com/)
 
-![Sumopaint, Año Nuevo](./2020-07-sumopaint.jpg)
+![Sumopaint](./2020-07-sumopaint.jpg)
 
-S[umopaint](https://www.sumopaint.com/home/) es una excelente alternativa gratuita a Photoshop, tanto en diseño (muy similar) como en funcionalidad.
+[Sumopaint](https://www.sumopaint.com/home/) es una excelente alternativa gratuita a Photoshop, tanto en diseño (muy similar) como en funcionalidad.
 
 Puede abrir archivos con extensiones como GIF, JPEG y PNG y guardar proyectos con los mismos formatos, así como el formato SUMO nativo.

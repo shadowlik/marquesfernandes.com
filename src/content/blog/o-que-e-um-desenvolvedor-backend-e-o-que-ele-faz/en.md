@@ -60,7 +60,7 @@ The [**node**](http://marquesfernandes.com/tecnologia/afinal-o-que-e-nodejs/) en
 
 ### [Java](https://rockcontent.com/br/blog/o-que-e-java/)
 
-**[Java](https://rockcontent.com/br/blog/o-que-e-java/) is a** **type of programming language created** and marketed by Sun Microsystems since 1995. It is defined as an object-oriented language.  
+**[Java](https://rockcontent.com/br/blog/o-que-e-java/) is a type of programming language created** and marketed by Sun Microsystems since 1995. It is defined as an object-oriented language.  
 Its intention is to allow developers to write the program just once and run it on any device.
 
 ## Responsibilities of a Backend Developer

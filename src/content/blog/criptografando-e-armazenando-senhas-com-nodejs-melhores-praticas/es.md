@@ -84,9 +84,9 @@ function sha512(senha, salt){
 Vamos a crear ahora una función que genera una nueva contraseña para el usuario. Puede usarse en el registro o en la actualización de contraseña.
 
 function gerarSenha(senha) {
-    var salt = gerarSalt(16); // Vamos gerar o salt
-    var senhaESalt = sha512(senha, salt); // Pegamos a senha e o salt
-    // A partir daqui você pode retornar a senha ou já salvar no banco o salt e a senha
+    var salt = gerarSalt(16); // Vamos a generar el salt
+    var senhaESalt = sha512(senha, salt); // Tomamos la contraseña y el salt
+    // A partir de aquí puedes devolver la contraseña o ya guardar en la base el salt y la contraseña
     console.log('Senha Hash: ' + senhaESalt.hash);
     console.log('Salt: ' + senhaESalt.salt);
 }
