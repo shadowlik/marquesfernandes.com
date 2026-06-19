@@ -6,6 +6,7 @@ import PostCard from '@/components/PostCard.astro';
 import { type Lang } from '@/i18n/ui';
 import { useTranslations } from '@/i18n/utils';
 import { postsForLang, stripCategoryPath } from '@/lib/blog';
+import { ogImagePath, homeOgRoute } from '@/lib/og';
 import portrait from '@/assets/home/4-Henrique-Marques-Fernandes-HeadshotPro.png';
 import signature from '@/assets/home/c6487c0e-1b5b-45a6-8e31-577b23f5d148_removalai_preview.png';
 
@@ -20,7 +21,13 @@ const name = 'Henrique Marques Fernandes';
 const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
 ---
 
-<BaseLayout lang={lang} title={`${name} — MF.`} description={t('site.tagline')} overlayHeader>
+<BaseLayout
+  lang={lang}
+  title={`${name} — MF.`}
+  description={t('site.tagline')}
+  overlayHeader
+  ogImage={ogImagePath(homeOgRoute(lang))}
+>
   <section class="hero">
     <Image class="hero-bg" src={portrait} alt={name} widths={[768, 1280, 1920]} loading="eager" />
     <div class="hero-inner container">

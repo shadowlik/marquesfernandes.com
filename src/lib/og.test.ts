@@ -45,6 +45,6 @@ describe('truncateTitle', () => {
     const long = 'x'.repeat(120);
     const out = truncateTitle(long);
     expect(out.endsWith('…')).toBe(true);
-    expect(out.length).toBeLessThanOrEqual(84);
+    expect(out.length).toBeLessThanOrEqual(70);
   });
 });

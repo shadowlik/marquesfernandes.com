@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '@/layouts/BlogPostLayout.astro';
 import { getAlternates } from '@/lib/translations';
 import { stripCategoryPath } from '@/lib/blog';
+import { ogImagePath, articleOgRoute } from '@/lib/og';
 
 /**
  * Renders every blog post at its category-less URL — `/<slug>/` (pt),
@@ -34,10 +35,13 @@ const d = entry.data;
   description={d.description}
   lang={d.lang}
   date={d.date}
+  updated={d.updated}
   tags={d.tags}
+  category={d.category}
   needsReview={d.needsReview}
   cover={d.cover}
   alternates={alternates}
+  ogImage={ogImagePath(articleOgRoute(d.lang, d.translationKey))}
 >
   <Content />
 </BlogPostLayout>
