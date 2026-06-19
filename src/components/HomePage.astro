@@ -11,7 +11,7 @@ import signature from '@/assets/home/c6487c0e-1b5b-45a6-8e31-577b23f5d148_remova
 
 interface Props {
   lang: Lang;
-  /** Bio paragraphs as HTML (per language, includes the Apuama link). */
+  /** Bio paragraphs as HTML (per language, includes the HAID link). */
   bioHtml: string;
 }
 const { lang, bioHtml } = Astro.props;
@@ -35,12 +35,12 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
     <Image class="signature" src={signature} alt="" loading="lazy" />
   </section>
 
-  <section class="apuama">
-    <div class="container apuama-inner">
+  <section class="cta">
+    <div class="container cta-inner">
       <div>
         <span class="brand-dash"></span>
         <h2><a href="https://haid.app" rel="noopener">haid.app</a></h2>
-        <p>{t('home.apuamaTagline')}</p>
+        <p>{t('home.ctaTagline')}</p>
       </div>
       <a class="btn" href="https://haid.app" rel="noopener">{t('home.exploreNow')}</a>
     </div>
@@ -142,7 +142,7 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
   }
 
   /* haid.app CTA */
-  .apuama {
+  .cta {
     position: relative;
     background: var(--color-ink);
     color: var(--color-on-dark);
@@ -150,8 +150,8 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
     overflow: hidden;
   }
   /* branded vertical accent lines, centered top & bottom */
-  .apuama::before,
-  .apuama::after {
+  .cta::before,
+  .cta::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -159,13 +159,13 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
     height: 90px;
     background: var(--color-accent);
   }
-  .apuama::before {
+  .cta::before {
     top: 0;
   }
-  .apuama::after {
+  .cta::after {
     bottom: 0;
   }
-  .apuama-inner {
+  .cta-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -178,18 +178,18 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
     background: var(--color-accent);
     margin-bottom: 2rem;
   }
-  .apuama h2 {
+  .cta h2 {
     margin: 0 0 1rem;
     font-size: clamp(2rem, 5vw, 3rem);
   }
-  .apuama h2 a {
+  .cta h2 a {
     color: var(--color-on-dark);
   }
-  .apuama h2 a:hover {
+  .cta h2 a:hover {
     color: var(--color-accent);
     text-decoration: none;
   }
-  .apuama p {
+  .cta p {
     max-width: 40ch;
     margin: 0;
     text-transform: uppercase;
@@ -228,7 +228,7 @@ const latest = postsForLang(await getCollection('blog'), lang).slice(0, 4);
     text-decoration: none;
   }
   @media (max-width: 720px) {
-    .apuama-inner {
+    .cta-inner {
       flex-direction: column;
       align-items: flex-start;
     }

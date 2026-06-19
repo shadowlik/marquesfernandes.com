@@ -29,8 +29,7 @@ export const ui = {
     'post.postedOn': 'Publicado em:',
     'post.tags': 'Tags:',
     'home.role': 'Software Engineer',
-    'home.apuamaTagline':
-      'The all-in-one platform to discover and register for endurance events worldwide',
+    'home.ctaTagline': 'Dados de fitness que entendem sua vida, não apenas seu corpo.',
     'home.latestPosts': 'Últimos Posts',
     'home.latestLabel': 'Leia minhas reflexões',
     'home.exploreNow': 'Explorar agora',
@@ -48,8 +47,7 @@ export const ui = {
     'post.postedOn': 'Posted on:',
     'post.tags': 'Tags:',
     'home.role': 'Software Engineer',
-    'home.apuamaTagline':
-      'The all-in-one platform to discover and register for endurance events worldwide',
+    'home.ctaTagline': 'Fitness data that understands your life, not just your body.',
     'home.latestPosts': 'Latest Posts',
     'home.latestLabel': 'Check out some of my thinking',
     'home.exploreNow': 'Explore Now',
@@ -67,8 +65,7 @@ export const ui = {
     'post.postedOn': 'Publicado el:',
     'post.tags': 'Etiquetas:',
     'home.role': 'Software Engineer',
-    'home.apuamaTagline':
-      'The all-in-one platform to discover and register for endurance events worldwide',
+    'home.ctaTagline': 'Datos de fitness que entienden tu vida, no solo tu cuerpo.',
     'home.latestPosts': 'Últimas Entradas',
     'home.latestLabel': 'Conoce algunas de mis ideas',
     'home.exploreNow': 'Explorar ahora',
