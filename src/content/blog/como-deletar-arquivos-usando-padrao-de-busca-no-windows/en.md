@@ -38,4 +38,4 @@ Get-ChildItem $Path -Recurse | Where{$\_.Name -Match "<RegEx>" -and !$\_.PSIsCon
 
 For users who are not used to using the command line, there is the possibility of filtering using the Windows Explorer search and selecting all files filtered for deletion. This way is not the most performative and can take a little more work, as the filter sometimes returns items that we don't necessarily want to delete, in the example below we see the filter by extension `.png` . So, if you are going to use this method, be sure to check before selecting everything and deleting, that all the files listed are really the ones you want to remove.
 
-![](/wp-content/uploads/2020/10/image-1-1024x560.jpg)
+![](./2020-10-image-1.jpg)

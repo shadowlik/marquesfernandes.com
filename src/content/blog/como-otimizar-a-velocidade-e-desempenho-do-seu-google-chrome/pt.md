@@ -26,7 +26,7 @@ Se o seu navegador está parecendo mais lento que o normal, não se desespere, e
 
 Pode parecer óbvio, mas muitas vezes culpamos o pobre navegador por conta de uma conexão ruim. Faça um teste de velocidade em um site como o [speedtest.net](https://www.speedtest.net/). É possível que você identifique o problema logo de cara, faça o teste principalmente se você estiver em um conexão pública, como um aeroporto ou restaurante. E se sua conexão estiver de fato lenta (~xingue a net/claro~), verifique se você ou alguém em sua rede não está baixando algo ou assistindo um vídeo.
 
-[![https://www.speedtest.net/](/wp-content/uploads/2020/01/image-7.png)](https://www.speedtest.net/)
+[![https://www.speedtest.net/](./2020-01-image-7.png)](https://www.speedtest.net/)
 
 ## 2 - Verifique suas abas abertas
 
@@ -46,13 +46,13 @@ Mais uma dica óbvia porém super importante, não só pela velocidade mas tamb�
 
 Se você possuí extensões do Google Chrome instalada, agora é a hora de verificar, confirme as extensões que você usa com frequência e desabilite as que não são usadas, veja também se alguma extensão está drenando recursos de seu computador, pelo atalho `Shift + ESC` abra o gerenciador de tarefas do Google Chrome e veja o consumo de processadores e memória de suas abas e extensões.
 
-![Google Task Manager](/wp-content/uploads/2020/01/image-8-1024x548.png)
+![Google Task Manager](./2020-01-image-8.png)
 
 ## 5 - Limpe os dados temporários
 
 O Google Chrome guarda diversos arquivos com o intuito de melhorar a experiência do usuário, mas em alguns casos esses arquivos podem sobrecarregar e atrapalhar o desempenho do navegador, para limpar clique nos três pontinhos no canto superior direito, **Mais ferramentas** > **Limpar dados de navegação**. Limpe todos os dados de imagens e arquivos, não recomendo selecionar as outras opções, os ganhos são poucos e você perderá todo seu histórico e terá que fazer login em todos os sites que usa.
 
-![Limpar dados de navegação](/wp-content/uploads/2020/01/image-9.png)
+![Limpar dados de navegação](./2020-01-image-9.png)
 
 ## 6 - Faça uma varredura com seu anti-vírus
 
@@ -62,7 +62,7 @@ Muitas vezes Malwares podem estar comprometendo a performance do seu computador,
 
 O Google Chrome possuí algumas funcionalidades escondidas, elas podem mudar, desaparecer ou até mesmo gerar comportamentos inesperados em seu navegador, portanto só altere coisas aqui se precisar muito e estiver seguro do que está fazendo.
 
-![](/wp-content/uploads/2020/01/image-10.png)
+![](./2020-01-image-10.png)
 
 -   Recursos experimentais de tela - Isso permite que o Chrome use telas opacas para ampliar os tempos de carregamento e aumentar o desempenho.  
     [chrome://flags/#enable-experimental-canvas-features](chrome://flags/#enable-experimental-canvas-features)
@@ -85,4 +85,4 @@ O Google Chrome possuí algumas funcionalidades escondidas, elas podem mudar, de
 
 As vezes seu computador simplesmente não tem capacidade e apenas um upgrade pode salvar sua paciência. Cada vez mais demandamos de nosso navegador, páginas mais complexas, vídeos em 8k, multi abas para multi tasking... Computadores com poucos recursos podem simplesmente não conseguir lidar com tanta carga de trabalho e por isso talvez seja a hora de fazer um [upgrade ou comprar um novo](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook).
 
-[![Computador Lento](/wp-content/uploads/2020/01/iStock_000027871442_Medium-1-1024x671.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)
+[![Computador Lento](./2020-01-iStock_000027871442_Medium-1.jpg)](https://click.linksynergy.com/deeplink?id=FPuxaVz3TuY&mid=42758&murl=https%3A%2F%2Fwww.americanas.com.br%2Fcategoria%2Finformatica%2Fnotebook)

@@ -20,7 +20,7 @@ I've picked out the top 5 sites I use when I need to find that perfect high qual
 
 ## 1. [pixabay](https://pixabay.com/)
 
-[![pixabay](/wp-content/uploads/2020/03/image-7-1024x501.png)](https://pixabay.com/)
+[![pixabay](./2020-03-image-7.png)](https://pixabay.com/)
 
 [pixabay](https://pixabay.com/)
 
@@ -28,7 +28,7 @@ Pixabay offers over 1.2 million images and videos, all released under the Creati
 
 ## two. [pexels](https://videos.pexels.com/)
 
-[![pexels](/wp-content/uploads/2020/03/image-8-1024x501.png)](https://videos.pexels.com/)
+[![pexels](./2020-03-image-8.png)](https://videos.pexels.com/)
 
 [pexels](https://videos.pexels.com/)
 
@@ -38,7 +38,7 @@ Their collection is also under CC0 license, so you can edit and use the videos f
 
 ## 3. [videvo](https://www.videvo.net/)
 
-[![videvo](/wp-content/uploads/2020/03/image-9-1024x501.png)](https://www.videvo.net/)
+[![videvo](./2020-03-image-9.png)](https://www.videvo.net/)
 
 [videvo](https://www.videvo.net/)
 
@@ -50,7 +50,7 @@ Creative Commons 3.0 licensees can be used on any project, but credit must be gi
 
 ## 4. [Life of Vids](http://www.lifeofvids.com/)
 
-[![Life of Vids](/wp-content/uploads/2020/03/image-10-1024x501.png)](http://www.lifeofvids.com/)
+[![Life of Vids](./2020-03-image-10.png)](http://www.lifeofvids.com/)
 
 [Life of Vids](http://www.lifeofvids.com/)
 
@@ -58,7 +58,7 @@ Life of Vids is a collection of free videos, clips and loops from [leeroy](https
 
 ## 5. [splitshire](https://www.splitshire.com/category/video-2/)
 
-[![splitshire](/wp-content/uploads/2020/03/image-11-1024x501.png)](https://www.splitshire.com/category/video-2/)
+[![splitshire](./2020-03-image-11.png)](https://www.splitshire.com/category/video-2/)
 
 [splitshire](https://www.splitshire.com/category/video-2/)
 

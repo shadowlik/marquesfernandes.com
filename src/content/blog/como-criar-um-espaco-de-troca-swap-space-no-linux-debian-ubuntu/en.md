@@ -22,7 +22,7 @@ If you want to improve the performance of your Debian/Ubuntu installation, creat
 
 If you are already using the latest versions of Ubuntu, it is very likely that this space was already created automatically during the installation of the operating system. We can check with the utility **htop** to easily see if there is swap space, amount of free and used allocated space:
 
-![htop - Swap Space](/wp-content/uploads/2019/12/image-12.png)
+![htop - Swap Space](./2019-12-image-12.png)
 
 In an internet search I found the following tip: ***The size of your virtual space must be equal to twice your computer's RAM memory or 32 MB, whichever is greater. But it shouldn't be larger than 2048MB (or 2GB).***
 

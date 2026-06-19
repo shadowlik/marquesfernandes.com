@@ -22,7 +22,7 @@ At the same time, many "royalty-free" songs are widely used by many content crea
 
 ## 1\. **[Incompetech.com](https://incompetech.com/)**
 
-![Incompetech](/wp-content/uploads/2020/05/image-3-1024x525.jpg)
+![Incompetech](./2020-05-image-3.jpg)
 
 **[Incompetech](https://incompetech.com/)**
 
@@ -32,7 +32,7 @@ If you browse the platform for a while, you will probably come across many well-
 
 ## two. [Youtube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1)
 
-![Youtube Audio Library](/wp-content/uploads/2020/05/image-4-1024x514.png)
+![Youtube Audio Library](./2020-05-image-4.png)
 
 [Youtube Audio Library](https://www.youtube.com/audiolibrary/music?nv=1)
 
@@ -40,7 +40,7 @@ THE **Youtube Audio Library** is a YouTube service known to few people. It has a
 
 ## 3\. [FMA - Free Music Archive](https://freemusicarchive.org/)
 
-![FMA - Free Music Archive](/wp-content/uploads/2020/05/image-5-1024x514.png)
+![FMA - Free Music Archive](./2020-05-image-5.png)
 
 [FMA - Free Music Archive](https://freemusicarchive.org/)
 
@@ -48,13 +48,13 @@ THE **Youtube Audio Library** is a YouTube service known to few people. It has a
 
 ## 4\. [purple planet](https://www.purple-planet.com/)
 
-[![purple planet](/wp-content/uploads/2020/05/image-7-1024x514.jpg)](https://www.purple-planet.com/)
+[![purple planet](./2020-05-image-7.jpg)](https://www.purple-planet.com/)
 
 **purple planet** is a website maintained by Geoff Harvey and Chris Martyn in England. They take care of the composition, production and recording of songs. In addition to being free, the songs are of quality, and according to them, they preferably use real instruments to give a natural feeling.
 
 ## 5\. [Musopen](https://musopen.org/)
 
-![Musopen](/wp-content/uploads/2020/05/image-6-1024x514.jpg)
+![Musopen](./2020-05-image-6.jpg)
 
 [Musopen](https://musopen.org/)
 

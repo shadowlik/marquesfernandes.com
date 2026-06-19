@@ -21,7 +21,7 @@ Você provavelmente chegou aqui para encontrar uma listagem dos melhores sites e
 
 ## 1\. [ZAP Imóveis](https://www.zapimoveis.com.br/)
 
-![ZAP Imóveis](/wp-content/uploads/2020/10/screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-3-1024x487.jpg)
+![ZAP Imóveis](./2020-10-screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-3.jpg)
 
 O [ZAP](https://www.zapimoveis.com.br/) é um dos portais de imóveis mais conhecidos, ele reúne ofertas qualificadas, fotos, dicas e mapas para quem quer alugar, comprar ou vender. O Grupo ZAP, responsável pelo portal, é dono também do VivaReal, podemos considerar então que eles tem experiência de sobra nesse segmento. Não atuam como uma imobiliária, apenas como um portal de divulgação de imóveis, fazendo o intermédio entre locatário e locador. Para quem busca anunciar imóveis, existe a opção de impulsionar seus anúncios e acelerar o processo.
 
@@ -29,7 +29,7 @@ Podendo ser acessado tanto por aplicativos no celular quando pelo site, conta co
 
 ## 2\. [Viva Real](https://www.vivareal.com.br/)
 
-![Viva Real](/wp-content/uploads/2020/10/screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-2-1024x487.jpg)
+![Viva Real](./2020-10-screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-2.jpg)
 
 [Vivareal](https://www.vivareal.com.br/), como comentado acima, o portal faz parte do Grupo ZAP, mesmo dono do ZAP Imóveis, e seguindo a mesma linha é um dos portais mais famosos e consolidados para anunciar, alugar ou comprar imóveis.
 
@@ -37,7 +37,7 @@ Segundo o portal são mais de 5 milhões de imóveis sendo anunciados nele. Isso
 
 ## 3\. [Imóvelweb](https://www.imovelweb.com.br/)
 
-![Imovelweb](/wp-content/uploads/2020/10/screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-1024x487.jpg)
+![Imovelweb](./2020-10-screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33.jpg)
 
 Atendendo mais de mil cidades mo Brasil e com presença também em países da América Latina, [Imovelweb](https://www.imovelweb.com.br/) é um dos maiores portais de imóveis disponíveis.
 
@@ -45,13 +45,13 @@ Apenas em São Paulo o portal alega anunciar mais de 1 milhão de imóveis. Igua
 
 ## 4\. [QuintoAndar](https://www.quintoandar.com.br/)
 
-![QuintoAndar](/wp-content/uploads/2020/10/screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-1-1024x487.png)
+![QuintoAndar](./2020-10-screenshot-www.zapimoveis.com_.br-2020.10.16-19_05_33-1.png)
 
 [QuintoAndar](https://www.quintoandar.com.br/) é uma startup que vem crescendo cada vez mais, focado na experiência de usuário, conta com uma curadoria de imóveis, garantido sempre fotos e descrições adequadas, diferente de outros portais. Eles atuam diferente de seus competidores, atuando como uma Imobiliária Digital, o locatário consegue alugar sem precisar de um fiador com eles. Seu aplicativo e site são muito intuitivos, ambos possuem a funcionalidade de pesquisar imóveis pelo mapa e com uma gama ampla de filtros. Por contar com todo esse serviço, os anúncios no QuintoAndar tendem a ter valores um pouco mais altos que o normal. E para quem aluga, eles oferecem a comodidade de cuidar de todo o processo e burocracia, conta também com benefícios como seguro de proteção de até 50 mil reais! Ele infelizmente ainda atua em poucas regiões, mas cada vez mais estão expandindo e conquistando o território nacional.
 
 ## 5\. [Mercado Livre](https://imoveis.mercadolivre.com.br/casas/aluguel/)
 
-![Mercado Livre](/wp-content/uploads/2020/10/image-1-1024x487.jpg)
+![Mercado Livre](./2020-10-image-1.jpg)
 
 O [Mercado Livre](https://imoveis.mercadolivre.com.br/casas/aluguel/) é uma empresa que oferece soluções de venda e compra para diversas categorias, consolidado como o maior comércio eletrônico do Brasil, conta com uma área dedica apenas para imóveis.
 
@@ -59,6 +59,6 @@ Para quem deseja anunciar um imóvel para venda ou aluguel, há a possibilidade 
 
 ## 6\. [OLX](https://sp.olx.com.br/sao-paulo-e-regiao/imoveis/aluguel)
 
-![OLX](/wp-content/uploads/2020/10/screenshot-sp.olx_.com_.br-2020.10.16-19_07_49-1024x487.jpg)
+![OLX](./2020-10-screenshot-sp.olx_.com_.br-2020.10.16-19_07_49.jpg)
 
 OLX é um dos portais de classificados mais antigos, consolidado como um lugar para vender e comprar de tudo, conta também com uma área dedica para imóveis. Conta com diversos filtros para facilitar sua busca e diversas informações sobre os imóveis anunciados.

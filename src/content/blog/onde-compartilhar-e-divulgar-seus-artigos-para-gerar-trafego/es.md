@@ -20,7 +20,7 @@ Creo que es una duda muy común en bloggers novatos como yo. He estado tratando 
 
 Voy a compartir con ustedes un tablero de muestra que utilizo e[n Trell](https://trello.com/b/OUj4FMH0/blog-planejamento)o para organizar y recordar todo lo que tengo que hacer al escribir un nuevo artículo, este tablero se está actualizando constantemente, si tiene algún comentario o consejo, por favor no dude en comentar.
 
-[![Blog - Planificación - Trello](/wp-content/uploads/2019/12/image-20-1024x496.png)](https://trello.com/b/OUj4FMH0/blog-planejamento)
+[![Blog - Planificación - Trello](./2019-12-image-20.png)](https://trello.com/b/OUj4FMH0/blog-planejamento)
 
 Blog - Planificación
 
@@ -32,19 +32,19 @@ Las redes enumeradas para la difusión se centran en el nicho de mi blog, despu�
 
 Linkedin es una excelente herramienta para amplificar tu red profesional, y muy buena también para difundir tus artículos con seguidores. Recuerda usar #hashtags relacionados con tu contenido, esto ampliará el alcance de tu publicación.
 
-[![https://www.linkedin.com/in/henriquemf28/](/wp-content/uploads/2019/12/image-22-1024x502.png)](https://www.linkedin.com/in/henriquemf28/)
+[![https://www.linkedin.com/in/henriquemf28/](./2019-12-image-22.png)](https://www.linkedin.com/in/henriquemf28/)
 
 ### [Facebook](https://www.facebook.com/marquesfernandesblog)
 
 Tener un[a página profesiona](https://www.facebook.com/marquesfernandesblog)l para tu blog es una gran manera de anunciar tus artículos, crear una página y empezar llamando a todos tus amigos a gustar, también aprovechar las promociones de publicaciones patrocinadas para ampliar tu audiencia.
 
-[![https://www.facebook.com/marquesfernandesblog](/wp-content/uploads/2019/12/image-21-1024x602.png)](https://www.facebook.com/marquesfernandesblog)
+[![https://www.facebook.com/marquesfernandesblog](./2019-12-image-21.png)](https://www.facebook.com/marquesfernandesblog)
 
 ### [Twitter](https://twitter.com/hmarques28)
 
 [Twitter](https://twitter.com/hmarques28) sigue siendo una de las redes más utilizadas para seguir y consumir noticias y artículos, se necesita una imagen y un texto llamativos para atraer la atención y aumentar su alcance.
 
-[![https://twitter.com/hmarques28](/wp-content/uploads/2019/12/image-23-1024x502.png)](https://twitter.com/hmarques28)
+[![https://twitter.com/hmarques28](./2019-12-image-23.png)](https://twitter.com/hmarques28)
 
 ## Redes de contenido
 
@@ -52,25 +52,25 @@ Tener un[a página profesiona](https://www.facebook.com/marquesfernandesblog)l p
 
 [Medium](https://medium.com/@shadowlik) te permite volver a publicar tus artículos, te recomiendo usar la herramienta de importación, en este modo se añade automáticamente una etiqueta rel-canonical, evitando que Google y otras herramientas marquen tu contenido como duplicado.
 
-[![https://medium.com/@shadowlik](/wp-content/uploads/2019/12/image-24-1024x502.png)](https://medium.com/@shadowlik)
+[![https://medium.com/@shadowlik](./2019-12-image-24.png)](https://medium.com/@shadowlik)
 
 ### [Dev.to](https://dev.to/shadowlik)
 
 [Dev.to](https://dev.to/shadowlik) es una red de contenido centrada en el mundo de la tecnología, puedes escribir artículos usando el formato de reducción, pero no te preocupes, puedes configurar fácilmente tu perfil para buscar automáticamente tus artículos a través de tu [feed rs](http://marquesfernandes.com/feed)s.
 
-[![https://dev.to/shadowlik](/wp-content/uploads/2019/12/image-25-1024x502.png)](https://dev.to/shadowlik)
+[![https://dev.to/shadowlik](./2019-12-image-25.png)](https://dev.to/shadowlik)
 
 ### [Tumblr](https://www.tumblr.com/blog/shadowlik)
 
 Tumblr es una plataforma de blogs que permite a los usuarios publicar textos, imágenes, vídeo, enlaces, citas, audio y "diálogos". La mayoría de los posts realizados en Tumblr son textos cortos, pero la plataforma no es un sistema de microblogging, estando en una categoría intermedia entre los blogs convencionales de formato wordpress o blogger y el microblog de Twitter.
 
-[![https://www.tumblr.com/blog/shadowlik](/wp-content/uploads/2019/12/image-31-1024x525.png)](https://www.tumblr.com/blog/shadowlik)
+[![https://www.tumblr.com/blog/shadowlik](./2019-12-image-31.png)](https://www.tumblr.com/blog/shadowlik)
 
 ### [Reddit](https://www.reddit.com/user/shadowlik/)
 
 R[eddit](https://www.reddit.com/user/shadowlik/) puede ser una plataforma que vale la pena considerar para compartir contenido, pero debe hacerse de la manera correcta. Los redditors son muy conscientes de que las marcas intentan "spam" subreddits con su propio contenido. A continuación, sus artículos deben ser cuidadosamente elegidos y proporcionar valor real a los usuarios.
 
-[![https://www.reddit.com/user/shadowlik/](/wp-content/uploads/2019/12/image-32-1024x525.png)](https://www.reddit.com/user/shadowlik/)
+[![https://www.reddit.com/user/shadowlik/](./2019-12-image-32.png)](https://www.reddit.com/user/shadowlik/)
 
 ## Conclusión
 

@@ -25,48 +25,48 @@ Constantemente passo horas vagando em sites como o [Awwwards](https://www.awwwar
 
 ## [Heller Designstudio](https://heller.tv/work﻿)
 
-![https://heller.tv/work](/wp-content/uploads/2019/02/image-7-1024x496.png)
+![https://heller.tv/work](./2019-02-image-7.png)
 
 [https://heller.tv/work](https://heller.tv/work)
 
 ## [Cyril Conton](http://www.cyrilconton.com/en.html)
 
-![](/wp-content/uploads/2019/02/image-10-1024x502.png)
+![](./2019-02-image-10.png)
 
 [http://www.cyrilconton.com/en.html](http://www.cyrilconton.com/en.html)
 
 ## [Rezo Zero](https://www.rezo-zero.com/)
 
-![](/wp-content/uploads/2019/02/image-8-1024x502.png)
+![](./2019-02-image-8.png)
 
 [https://www.rezo-zero.com/](https://www.rezo-zero.com/)  
 
 ## [Wink Strategies](https://winkstrategies.com)
 
-![](/wp-content/uploads/2019/02/image-13-1024x496.png)
+![](./2019-02-image-13.png)
 
 [https://winkstrategies.com/](https://winkstrategies.com/)
 
 ## [Pixages](http://www.pixages.fun)
 
-![](/wp-content/uploads/2019/02/image-9-1024x502.png)
+![](./2019-02-image-9.png)
 
 [http://www.pixages.](http://www.pixages.fun/)[fun](http://www.pixages.fun/)[/](http://www.pixages.fun/)
 
 ## [John Wong](http://johnwong.io)
 
-![](/wp-content/uploads/2019/02/image-11-1024x502.png)
+![](./2019-02-image-11.png)
 
 [http://johnwong.io/](http://johnwong.io/)
 
 ## [DoubleDouble](https://doubledouble.be)
 
-![](/wp-content/uploads/2019/02/image-12-1024x502.png)
+![](./2019-02-image-12.png)
 
 [https://doubledouble.be/](https://doubledouble.be/)
 
 ## [Damian Siwek](https://www.dwart.krakow.pl/)
 
-[![](/wp-content/uploads/2019/12/image-30-1024x524.png)](https://www.dwart.krakow.pl/)
+[![](./2019-12-image-30.png)](https://www.dwart.krakow.pl/)
 
 [https://www.dwart.krakow.pl/](https://www.dwart.krakow.pl/)

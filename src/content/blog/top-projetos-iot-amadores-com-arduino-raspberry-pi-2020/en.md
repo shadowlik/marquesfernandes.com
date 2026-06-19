@@ -45,7 +45,7 @@ This IoT project proposes an automated irrigation system that can analyze soil m
 
 ## 4\. Recycle Bin Level Monitoring - Arduino
 
-![4\. Recycle Bin Level Monitoring - Arduino](/wp-content/uploads/2020/03/image-13-1024x543.jpg)
+![4\. Recycle Bin Level Monitoring - Arduino](./2020-03-image-13.jpg)
 
 This IoT project uses an ultrasonic sensor to detect the level of trash in each dump and send that data to the main program. A page in the browser shows the trash level in each trash bin.
 

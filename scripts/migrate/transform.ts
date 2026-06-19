@@ -51,6 +51,24 @@ export function extractUploadPaths(html: string): string[] {
   return [...new Set(html.match(UPLOAD_PATH) ?? [])];
 }
 
+const IMAGE_EXTS = new Set(['.jpg', '.jpeg', '.png', '.gif', '.webp', '.avif']);
+
+/** Drop query strings and trailing entity/quote junk from an upload URL. */
+export function cleanUploadUrl(url: string): string {
+  return url.replace(/[?&].*$/, '');
+}
+
+/** Strip WordPress's `-WIDTHxHEIGHT` size suffix to get the original file path. */
+export function toOriginalUploadPath(path: string): string {
+  return path.replace(/-\d+x\d+(\.\w+)$/, '$1');
+}
+
+/** True when the path's extension is a known raster image format. */
+export function isImagePath(path: string): boolean {
+  const ext = path.slice(path.lastIndexOf('.')).toLowerCase();
+  return IMAGE_EXTS.has(ext);
+}
+
 const NAMED_ENTITIES: Record<string, string> = {
   amp: '&',
   lt: '<',

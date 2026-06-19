@@ -25,25 +25,25 @@ Este artículo espera que conozca los conceptos básicos de Excel y VBA, así co
 
 Primero vamos a crear una hoja de trabajo en blanco con la macro habilitada, dentro de ella crearé una pestaña llamad`a resultado`s.
 
-![Hoja de cálculo de Excel](/wp-content/uploads/2020/07/image-15.png)
+![Hoja de cálculo de Excel](./2020-07-image-15.png)
 
 ## Creación de la macro para consultar la API
 
 Por el acceso `directo a`lt + f11 abriremos el editor de macros de Excel y crearemos un módulo llama`do ListPokemon`s.
 
-![Macro VBA](/wp-content/uploads/2020/07/image-16-1024x560.png)
+![Macro VBA](./2020-07-image-16.png)
 
 ### Importación de la biblioteca VBA-JSON
 
 Como la API que consultamos devuelve un JSON [com](http://marquesfernandes.com/o-que-e-json-e-para-que-serve/)o respuesta, necesitaremos importar la biblioteca JSON d[e VBA, se](https://github.com/VBA-tools/VBA-JSON) encargará de todo el trabajo aburrido de traducir el JSON y devolver como una matriz y un objeto. La instalación es bastante simple, sólo [tiene que descargar la última v](https://github.com/VBA-tools/VBA-JSON/releases)ersión aquí y en el editor de macr`os ir en archivo > Importar archivo > JsonConverter.ba`s.
 
-![Importar JSON de VBA](/wp-content/uploads/2020/07/importarjsonvba-1024x706.jpg)
+![Importar JSON de VBA](./2020-07-importarjsonvba.jpg)
 
 ### Habilitación de Microsoft Scripting Runtime
 
 También necesitamos habilitar Microsoft Scripting Runtime, así que simplemente examine Herramientas > R`eferencias y examine y habilit`e el tiempo de ejecución de secuencias de `comandos de microsoft en la list`a.
 
-![Excel API Rest Microsoft Scripting Runtime](/wp-content/uploads/2020/07/image-17-1024x560.png)
+![Excel API Rest Microsoft Scripting Runtime](./2020-07-image-17.png)
 
 ## Creación de la macro VBA para consultar la API REST
 
@@ -218,7 +218,7 @@ Siguiente
 
 Si todo sucede como se esperaba, al presionar f5 `pa`ra rotar nuestra macro, en su hoja de cálculo debería ver el siguiente resultado:
 
-![Resto de la API de Excel](/wp-content/uploads/2020/07/image-18-1024x560.jpg)
+![Resto de la API de Excel](./2020-07-image-18.jpg)
 
 ## Conclusión
 

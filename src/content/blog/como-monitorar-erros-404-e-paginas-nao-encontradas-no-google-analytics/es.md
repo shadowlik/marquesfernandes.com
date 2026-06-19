@@ -39,11 +39,11 @@ El primer informe aprenderemos a crear monitores de enlaces internos que están 
 5.  Agregue un filtro que **excluy**a el val**or (entrad**a) de la dimensi**ón Ruta de página anterior**. Este filtro se asegura de que solo aparezcan 404 errores causados por un vínculo interno.
 6.  Agregue un filtro al títu**lo de la página** que identifique las páginas no descubiertas.
 
-![Informe personalizado para encontrar 404 errores causados por enlaces INTERNOS](/wp-content/uploads/2020/02/image-1-1024x496.png)
+![Informe personalizado para encontrar 404 errores causados por enlaces INTERNOS](./2020-02-image-1.png)
 
 Ahora guarde el informe y vea el resultado:
 
-![](/wp-content/uploads/2020/02/image-2-1024x496.png)
+![](./2020-02-image-2.png)
 
 ## Informe personalizado para encontrar 404 errores causados por enlaces EXTERNOS
 
@@ -56,8 +56,8 @@ Ahora vamos a aprender cómo monitorear los errores 404 procedentes de enlaces e
 5.  Agregue un filtro que **incluy**a el val**or (entrad**a) de la dimensi**ón Ruta de página anterior**. Este filtro se asegura de que solo aparezcan 404 errores causados por un vínculo interno.
 6.  Agregue un filtro al títu**lo de la página** que identifique las páginas no descubiertas.
 
-![Informe personalizado para encontrar 404 errores causados por enlaces EXTERNOS](/wp-content/uploads/2020/02/image-5-1024x496.png)
+![Informe personalizado para encontrar 404 errores causados por enlaces EXTERNOS](./2020-02-image-5.png)
 
 Si todo va bien, ahora tendrá dos informes para ayudarle a identificar y corregir esos errores. Supervise estos informes siempre que sea posible, no deje que un simple error para ser corregido afectar a su SEO!
 
-![](/wp-content/uploads/2020/02/image-6-1024x496.png)
+![](./2020-02-image-6.png)

@@ -37,42 +37,42 @@ The vast majority of good email marketing tools are paid, except MailChimp, Conv
 
 ### 1.[MailChimp](https://mailchimp.com/)
 
-![MailChimp](/wp-content/uploads/2020/12/image-1024x449.jpg)
+![MailChimp](./2020-12-image.jpg)
 
 [MailChimp](https://mailchimp.com/) is probably the best tool available on the market, especially for lay users. All of Mailchimp's usability feels very smooth and natural, you are guided through the process. 
 
 ### two. [Constant Contact](https://www.constantcontact.com/global/home-page)
 
-![Constant Contact](/wp-content/uploads/2020/12/image-1-1024x487.jpg)
+![Constant Contact](./2020-12-image-1.jpg)
 
 [Constant Contact](https://www.constantcontact.com/global/home-page) it is also another very powerful and practical service. The user experience is pretty straightforward, but it takes a little time to get used to navigating through the campaign management tool.
 
 ### 3\. [SendinBlue](https://pt.sendinblue.com/)
 
-![SendinBlue](/wp-content/uploads/2020/12/image-1-1-1024x487.jpg)
+![SendinBlue](./2020-12-image-1-1.jpg)
 
 [SendinBlue](https://pt.sendinblue.com/) has in its strength the usability, very intuitive, but the account setup process and the first campaign take a while.
 
 ### 4\. [ConvertKit](https://convertkit.com/)
 
-![ConvertKit](/wp-content/uploads/2020/12/image-2-1024x472.jpg)
+![ConvertKit](./2020-12-image-2.jpg)
 
 [ConvertKit](https://convertkit.com/) it's too simplistic, maybe even too basic.You don't have some modern features like a drag-and-drop editing tool or a more comprehensive selection of models, but you can get the job done quickly. On the other hand, its clean interface can be a strong point for beginners.
 
 ### 5\. [AWeber](https://www.aweber.com/)
 
-![AWeber](/wp-content/uploads/2020/12/image-2-1-1024x487.jpg)
+![AWeber](./2020-12-image-2-1.jpg)
 
 [AWeber](https://www.aweber.com/) is a good alternative, its interface could be better, but once you get used to the system, navigation is easier.
 
 ### 6\. [GetResponse](https://br.getresponse.com/)
 
-![GetResponse](/wp-content/uploads/2020/12/image-2-2-1024x487.jpg)
+![GetResponse](./2020-12-image-2-2.jpg)
 
 [GetResponse](https://br.getresponse.com/) it's streamlined its start-to-finish process, it's easy to use, and you have a ton of options along the way.However, the experience would be even better with a built-in image editor.
 
 ### 7\. [RD Station](https://www.rdstation.com/)
 
-![RD Station](/wp-content/uploads/2020/12/image-2-1024x487.png)
+![RD Station](./2020-12-image-2.png)
 
 RD Station is a Brazilian tool, it goes far beyond the simple e-mail marketing trigger, it is a complete marketing automation tool. With RD Station's marketing tool you organize, communicate and better understand your target audience.

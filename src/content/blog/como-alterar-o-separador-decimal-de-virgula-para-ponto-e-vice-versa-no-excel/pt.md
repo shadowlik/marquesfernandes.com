@@ -29,12 +29,12 @@ Os separadores decimais dos países de língua inglesa, como EUA, Reino Unido e 
 
 ## 1.   Entre em Opções
 
-![Entre em Opções - Excel](/wp-content/uploads/2020/11/screenshot-nimbus-capture-2020.11.24-17_16_52-1-1024x554.jpg)
+![Entre em Opções - Excel](./2020-11-screenshot-nimbus-capture-2020.11.24-17_16_52-1.jpg)
 
 Na aba "Arquivo", clique no botão "Opções, uma nova janela irá aparecer.
 
 ## 2. Selecione Opções Avançadas
 
-![Selecione Opções Avançadas - Excel](/wp-content/uploads/2020/11/screenshot-nimbus-capture-2020.11.24-17_18_04-1-1024x556.jpg)
+![Selecione Opções Avançadas - Excel](./2020-11-screenshot-nimbus-capture-2020.11.24-17_18_04-1.jpg)
 
 Na nova janela, procure no menu lateral esquerdo por "Avançado". Na janela da direita, procure por "Usar separadores do sistema" e desmarque a seleção. Nos campos apropriados, insira os símbolos desejados para **o separador decimal** e para o **separador de milhares**. Em nosso exemplo, estamos configurando nosso Excel para trabalhar com planilhas que possuem o separador decimal como ponto e o de milhar como vírgula, você pode alterar conforme a sua necessidade. Lembre-se que ao alterar de ponto para vírgula no campo **separador decimal**, você precisa também alterar no campo **separador de milhares**, não é permitido usar uma vírgula ou ponto para os dois campos em simultâneo. Essas configurações de **separador decimal** não são específicas para a planilha em questão, e sim para toda a configuração do Excel, qualquer outra planilha que você abrir, os formatos de número serão alterados.

@@ -5,6 +5,9 @@ import {
   extractUploadPaths,
   wpHtmlToMarkdown,
   decodeEntities,
+  cleanUploadUrl,
+  toOriginalUploadPath,
+  isImagePath,
 } from './transform';
 
 describe('parsePermalink', () => {
@@ -86,6 +89,48 @@ describe('wpHtmlToMarkdown', () => {
     expect(wpHtmlToMarkdown(html).trim()).toBe(
       '![d](/wp-content/uploads/a.png)\n\n*A nice caption*',
     );
+  });
+});
+
+describe('cleanUploadUrl', () => {
+  it('strips query strings and trailing entity junk', () => {
+    expect(cleanUploadUrl('/wp-content/uploads/2022/03/a.png?w=890&amp;resize=1')).toBe(
+      '/wp-content/uploads/2022/03/a.png',
+    );
+    expect(cleanUploadUrl('/wp-content/uploads/data.csv&quot;;')).toBe(
+      '/wp-content/uploads/data.csv',
+    );
+    expect(cleanUploadUrl('/wp-content/uploads/b.jpg?ssl=1')).toBe('/wp-content/uploads/b.jpg');
+  });
+
+  it('leaves a clean path unchanged', () => {
+    expect(cleanUploadUrl('/wp-content/uploads/2021/06/c.webp')).toBe(
+      '/wp-content/uploads/2021/06/c.webp',
+    );
+  });
+});
+
+describe('toOriginalUploadPath', () => {
+  it('strips the WordPress -WIDTHxHEIGHT size suffix', () => {
+    expect(toOriginalUploadPath('/wp-content/uploads/2022/12/image-7-1024x195.png')).toBe(
+      '/wp-content/uploads/2022/12/image-7.png',
+    );
+  });
+
+  it('leaves an original (unsized) path unchanged', () => {
+    expect(toOriginalUploadPath('/wp-content/uploads/2022/12/image-7.png')).toBe(
+      '/wp-content/uploads/2022/12/image-7.png',
+    );
+  });
+});
+
+describe('isImagePath', () => {
+  it('recognizes image extensions and rejects others', () => {
+    expect(isImagePath('/x/a.PNG')).toBe(true);
+    expect(isImagePath('/x/a.jpeg')).toBe(true);
+    expect(isImagePath('/x/a.webp')).toBe(true);
+    expect(isImagePath('/x/data.csv')).toBe(false);
+    expect(isImagePath('/x/clip.mp4')).toBe(false);
   });
 });
 

@@ -190,7 +190,7 @@ app.listen(PORT, () ? >
 
 Ejecute el coma`ndo npm run` dev, abra el explorador y acceda [a http://localhost:8080/hello-world](http://localhost:8080/hello-world)
 
-![](/wp-content/uploads/2019/12/image-26-1024x521.png)
+![](./2019-12-image-26.png)
 
 ## Probar nuestra nueva configuración
 
@@ -224,7 +224,7 @@ app.listen(PORT, () ? >
 
 Guarde el archivo y vea cómo sucede la magia, el resultado esperado es que la aplicación identifica nuestra modificación y actualiza el proceso automáticamente. Para validar, vaya a [http://localhost:8080/helo-world/henriqu](http://localhost:8080/helo-world/henrique)e:
 
-![](/wp-content/uploads/2019/12/image-27-1024x521.png)
+![](./2019-12-image-27.png)
 
 ## Dockerizing la aplicación
 

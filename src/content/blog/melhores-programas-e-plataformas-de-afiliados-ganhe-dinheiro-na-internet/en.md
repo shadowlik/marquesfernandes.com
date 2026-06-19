@@ -34,7 +34,7 @@ There are several affiliate programs on the internet, we will talk about the mos
 
 ### 1\. [hotmart](https://www.hotmart.com/pt-BR/affiliates)
 
-[![hotmart](/wp-content/uploads/2020/07/image-21-1.jpg)](https://www.hotmart.com/pt-BR/affiliates)
+[![hotmart](./2020-07-image-21-1.jpg)](https://www.hotmart.com/pt-BR/affiliates)
 
 Hotmart is the largest and most complete distance learning platform in Latin America. 
 
@@ -46,7 +46,7 @@ A fully integrated platform with the best solutions to scale any digital busines
 
 ### two. [monetize](https://app.monetizze.com.br/r/AP/13283239)
 
-[![monetize](/wp-content/uploads/2020/07/image-18-1.jpg)](https://app.monetizze.com.br/r/AP/13283239)
+[![monetize](./2020-07-image-18-1.jpg)](https://app.monetizze.com.br/r/AP/13283239)
 
 Born in 2015 in Belo Horizonte, Monetizze came up with the proposal to change the digital market, bringing more transparency, quality and attention to affiliates and producers in the sale of digital and physical products.
 
@@ -54,7 +54,7 @@ Márcio Motta, founder of the platform, focused on his mission, scheduled during
 
 ### 3\. [Magazine Luiza](https://www.magazinevoce.com.br/)
 
-![Magalu](/wp-content/uploads/2020/07/image-19.jpg)
+![Magalu](./2020-07-image-19.jpg)
 
 Magalu, the Brazilian's darling virtual store, has a really cool affiliate program. With it, you can create your own store, with an exclusive link with all the products on the official website.
 
@@ -62,13 +62,13 @@ https://www.youtube.com/watch?v=sy8zPcg94Kc&feature=emb\_title
 
 ### 4\. [Amazon](https://associados.amazon.com.br/)
 
-[![Amazon](/wp-content/uploads/2020/07/image-20-1024x494.jpg)](https://associados.amazon.com.br/)
+[![Amazon](./2020-07-image-20.jpg)](https://associados.amazon.com.br/)
 
 The Amazon Affiliate Program helps content creators, publishers and bloggers monetize their sites. With millions of products and diverse programs available on Amazon, members can use simple link-building tools to direct audiences to their recommendations and monetize eligible purchases and programs.
 
 ### 5\. [eduzz](https://www.eduzz.com/afiliados)
 
-[![eduzz](/wp-content/uploads/2020/07/image-20-1.jpg)](https://www.eduzz.com/afiliados)
+[![eduzz](./2020-07-image-20-1.jpg)](https://www.eduzz.com/afiliados)
 
 In the case of infoproducts, Eduzz offers a safe, transparent, very easy and efficient way for affiliates to find, disseminate and sell Digital Content in high demand. It's like having a huge sales force working to generate new business.
 
@@ -78,13 +78,13 @@ Available products are evaluated in advance by our team. Only products with high
 
 ### 6\. [Udemy](https://www.udemy.com/affiliate/?locale=pt_BR)
 
-[![Udemy](/wp-content/uploads/2020/07/image-19-1.jpg)](https://www.udemy.com/affiliate/?locale=pt_BR)
+[![Udemy](./2020-07-image-19-1.jpg)](https://www.udemy.com/affiliate/?locale=pt_BR)
 
 Promote a product that is always useful, desired by people, and that never goes out of style: thousands of online courses in hundreds of categories! The affiliate program is managed by Rakuten, so I suggest you look at the next topic.
 
 ### 7\. [rakuten](https://rakutenadvertising.com/pt-br/afiliados/)
 
-[![rakuten](/wp-content/uploads/2020/07/image-21.jpg)](https://rakutenadvertising.com/pt-br/afiliados/)
+[![rakuten](./2020-07-image-21.jpg)](https://rakutenadvertising.com/pt-br/afiliados/)
 
 Whether you're a blogger, influencer, app developer or company, Rakuten Advertising's premier global affiliate network helps you make money from your digital content and create better experiences for your visitors. Partner with top brands in every industry, from fashion to financial services.
 

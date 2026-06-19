@@ -36,7 +36,7 @@ Snappa es mi herramienta "ir a", tiene una interfaz de creación muy fácil de u
 
 ## [Canva, Año Nuevo](https://www.canva.com/)
 
-![](/wp-content/uploads/2019/02/image-14-1024x502.png)
+![](./2019-02-image-14.png)
 
 [https://www.canva.com/](https://www.canva.com/)
 
@@ -44,7 +44,7 @@ Canva es una excelente alternativa a cuando se supera el límite de 5 descargas 
 
 ## [Plantilla, plantilla](https://getstencil.com/app)
 
-![](/wp-content/uploads/2019/02/image-15-1024x496.png)
+![](./2019-02-image-15.png)
 
 [https://getstencil.com/app](https://getstencil.com/app)
 

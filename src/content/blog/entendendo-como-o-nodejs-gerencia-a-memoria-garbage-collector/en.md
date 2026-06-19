@@ -36,13 +36,13 @@ The way the GC knows that objects are no longer in use is that no other objects 
 
 Analyzing the diagram below, it will give a view of what memory looks like when objects are referenced in it (they are "alive") and when they are no longer referenced (they are "junk").
 
-![](/wp-content/uploads/2020/03/nodememoria.jpg)
+![](./2020-03-nodememoria.jpg)
 
 ### Memory After Collector Works
 
 After the collector works, the unreachable memories are deleted, freeing up memory space.
 
-![](/wp-content/uploads/2020/03/nodememoriav2.jpg)
+![](./2020-03-nodememoriav2.jpg)
 
 The length of time the collector runs varies by application, it maintains a smart methodology to know how often it needs to clear memory. he has a
 

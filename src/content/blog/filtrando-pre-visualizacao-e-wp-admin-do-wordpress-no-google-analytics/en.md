@@ -25,7 +25,7 @@ Before creating any filter, we must create a new one. **visualization** on the p
 2.  Check that the correct account and property are selected in the top left drop-down.
 3.  in the tab of **visit** click in **create visit** . From a descriptive name such as " *Filter test* ".
 
-![Create New View on Property](/wp-content/uploads/2019/12/image-15-1024x496.png)
+![Create New View on Property](./2019-12-image-15.png)
 
 Create New View on Property
 
@@ -34,7 +34,7 @@ Once created, return to the Admin page and verify the **Visit** newly created is
 1.  click in **Filters** in the tab of **Visit** and click the button **+Add filter** .
 2.  Put a meaningful name like " *Delete Preview Pages* ".
 
-![Create new filter](/wp-content/uploads/2019/12/image-17-1024x496.png)
+![Create new filter](./2019-12-image-17.png)
 
 Create new filter
 
@@ -44,7 +44,7 @@ Create new filter
 6.  In **filter pattern** type it, *preview=true.  
     (This text is present on all preview pages, including the [public previews](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress) , if enabled).*
 
-![Delete preview pages](/wp-content/uploads/2019/12/image-18-1024x496.png)
+![Delete preview pages](./2019-12-image-18.png)
 
 Delete preview pages
 
@@ -60,7 +60,7 @@ To filter the admin panel pages, we will follow almost all the same steps as abo
 4.  Select option **Delete** , **traffic to subdirectories** and **that contains** .
 5.  In **Subdirectory** type it, */wp-admin/*(This path is present on all admin panel pages).
 
-![Delete admin pages (/wp-admin/)](/wp-content/uploads/2019/12/image-19-1024x496.png)
+![Delete admin pages (/wp-admin/)](./2019-12-image-19.png)
 
 Delete admin pages (/wp-admin/)
 

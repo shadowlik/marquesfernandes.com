@@ -41,15 +41,15 @@ First of all, create your account at [DigitalOcean](https://m.do.co/c/6bc37502c1
 
 Let's create a server with the operating system Ubuntu Server 18.04, in [DigitalOcean](https://m.do.co/c/6bc37502c1d9) , let's use the most basic Droplet for testing:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-22_54_10-1024x592.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-22_54_10.png)
 
 Now select the plan, for this article I will use the cheapest machine, select it as needed, I currently use a 15 dollar Droplet to host my blog and 14 other sites, 4 of which have more than 20k monthly hits:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-22_55_24-1024x479.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-22_55_24.png)
 
 Now let's select in which region we want our Droplet to be created, let's also configure some optional services:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-23_03_29-1024x479.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_03_29.png)
 
 **Private networking:** Create a local IP, useful if in the future you want to create a hosting cluster, so you can use an internal IP with low latency.  
 **IPv6** : Enables support for the new Internet protocol, IPv6  
@@ -57,7 +57,7 @@ Now let's select in which region we want our Droplet to be created, let's also c
 
 Now a very important step of creation, first let's select the authentication method with the virtual machine, the safest way is through SSH keys, but for ease let's choose the "One-time password" method, it will send a temporary password to our email. In hostname, let's put which domain we want our machine to be responsible for, it's important to use some intuitive name as it will appear in some places, like in headers when sending emails, and we'll also use it as the path to our admin panel:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-23_04_17-1024x400.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_04_17.png)
 
 Click on create and wait for the process to complete. When the creation is successfully completed, an email will be sent with your temporary root password.
 
@@ -69,19 +69,19 @@ First you need to add and validate your domain on Cloudflare, you need to have a
 
 So let's configure our domain `hosting-test.marquesfernandes.com` to point to the IP of our newly created machine:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-23_11_26-1024x528.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_11_26.png)
 
 ### Configuring the A - IPv4 Appointment
 
 Let's create first note of the type `THE` for our `IPv4` , remember to disable the *Proxy Status* for now:
 
-![Configuring IPv4 Appointment](/wp-content/uploads/2020/02/screenshot-dash.cloudflare.com-2020.02.24-23_15_22-1024x501.png)
+![Configuring IPv4 Appointment](./2020-02-screenshot-dash.cloudflare.com-2020.02.24-23_15_22.png)
 
 ### Configuring AAAA Annotation - IPv6
 
 Now let's create the note of the type `YYYY` for our `IPv6` , remember to disable the *Proxy Status* for now:
 
-![Configuring IPv6 Appointment](/wp-content/uploads/2020/02/screenshot-dash.cloudflare.com-2020.02.24-23_16_38-1024x246.png)
+![Configuring IPv6 Appointment](./2020-02-screenshot-dash.cloudflare.com-2020.02.24-23_16_38.png)
 
 ## Installing and configuring Virtualmin
 
@@ -91,7 +91,7 @@ Let's test our DNS configuration logging via SSH on our machine using the root u
 
 Attention, you will need to enter the password sent to your e-mail twice, and then enter a new secure password twice, remember to create a very secure password, after all, many important things for you and perhaps for clients will be on this server:
 
-![Virtualmin Installation - P1](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.24-23_28_06.png)
+![Virtualmin Installation - P1](./2020-02-screenshot-nimbus-capture-2020.02.24-23_28_06.png)
 
 Virtualmin Installation - P1
 
@@ -110,27 +110,27 @@ Now run the installation script as root:
 
 Be aware that some questions will be asked during the installation process:
 
-![Virtualmin Installation - P2](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.24-23_48_13.png)
+![Virtualmin Installation - P2](./2020-02-screenshot-nimbus-capture-2020.02.24-23_48_13.png)
 
 Virtualmin Installation - P2
 
 You will probably want to answer yes to every question. Installation may take a few minutes:
 
-![Virtualmin Installation - P3](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.24-23_55_35.png)
+![Virtualmin Installation - P3](./2020-02-screenshot-nimbus-capture-2020.02.24-23_55_35.png)
 
 Virtualmin Installation - P3
 
 Now to test our installation, we need to access in our browser the following address `https://hospedagem-teste.marquesfernandes.com:10000` . Replace the URL with your hosting address and keep the default port `10000` , you will probably encounter the privacy error, that's because we haven't configured our SSL certificate yet:
 
-![Google Not Private](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-00_06_28.png)
+![Google Not Private](./2020-02-screenshot-nimbus-capture-2020.02.25-00_06_28.png)
 
 Proceed to login, here we will use the user `root` and the password defined for machine access in the first step of the tutorial:
 
-![Virtualmin - Login](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_07_10-1024x496.png)
+![Virtualmin - Login](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_07_10.png)
 
 If that works out, you should see the Virtualmin admin panel like the one below:
 
-![Virtualmin - Administrative Panel](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_08_15-1024x458.png)
+![Virtualmin - Administrative Panel](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_08_15.png)
 
 On our first login, Virtualmin will do an initial setup based on several questions, read them carefully and respond as needed. Now I recommend that you take the time to read the Virtualmin/Webmin documentation, so you don't get confused, Virtualmin is the system that manages one or more Webmin, this is the client part (website, and services). There are several settings you'll want to tweak, create customer account templates, with different limits and services, and much more.
 
@@ -142,7 +142,7 @@ Now let's create a customer account on our Virtualmin installation, that is, let
 
 Let's create a server for the website `test-site.marquesfernandes.com` , with the default server configuration template and chart of account as well. Let's enable the "Setup SSL Website" functionality, to configure the website in *Https* also:
 
-![Server creation](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_24_22-1024x496.png)
+![Server creation](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_24_22.png)
 
 Server creation
 
@@ -150,7 +150,7 @@ Server creation
 
 Let's now create a test email account/user on our new server.
 
-![Creating a new user and email account](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_32_40-1024x496.png)
+![Creating a new user and email account](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_32_40.png)
 
 Creating a new user and email account
 
@@ -158,13 +158,13 @@ Creating a new user and email account
 
 Now let's configure the DNS notes for our newly created website `test-site.marquesfernandes.com` , we're going to add entries for both our website and FTP and email server access. For this we will find all the basic DNS settings of our server and replicate them on Cloudflare:
 
-![DNS configuration](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_51_01-1024x496.png)
+![DNS configuration](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_51_01.png)
 
 DNS configuration
 
 Remembering that the FTP and MX settings must not have Proxy Status enabled on Cloudflare, as our appointment needs to reflect the real IP and this option serves to mask the real IP of the appointment, very useful if you want to hide and use the services from Cloudflare, let's leave this option enabled for all other annotations. After configuring all the necessary DNS, it's time to test if our site is up:
 
-![](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-00_58_41-1024x576.png)
+![](./2020-02-screenshot-nimbus-capture-2020.02.25-00_58_41.png)
 
 Voila, that means our appointment and website are working, as we don't have any html files or system installed, the default system message is "Forbidden".
 
@@ -174,19 +174,19 @@ Now that we have our notes working, let's configure our site to use the SSL cert
 
 THE [Let's Encrypt](https://letsencrypt.org/pt-br/getting-started/) is a free, automated and open certification authority (CA) that operates for the public benefit. It is a service provided by [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/) .
 
-![Generating a valid SSL certificate - Part 1](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_09_38-1024x496.png)
+![Generating a valid SSL certificate - Part 1](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_09_38.png)
 
 Generating a valid SSL certificate - Part 1
 
 Simple as that, if everything goes as expected you will have a valid certificate installed and will be able to access your website using the secure protocol.
 
-![Generating a valid SSL certificate - Part 2](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_11_57-1024x496.png)
+![Generating a valid SSL certificate - Part 2](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_11_57.png)
 
 Generating a valid SSL certificate - Part 2
 
 Let's test by accessing our website `https://site-teste.marquesfernandes.com` :
 
-![](/wp-content/uploads/2020/02/image-11-1024x578.png)
+![](./2020-02-image-11.png)
 
 ## Uploading content to the website
 
@@ -206,19 +206,19 @@ Well, now that we've got everything set up and running, let's upload a home page
 
 Let's upload our file `index.php` to our server via FTP by host `ftp.site-test.marquesfernandes.com` , before we need to create a user with access to the site's root FTP:
 
-![Creating an FTP User](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_31_06-1024x496.png)
+![Creating an FTP User](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_31_06.png)
 
 Creating an FTP User
 
 Now we can log in with the username and password using the Filezilla program to upload our file:
 
-![Uploading content via FTP with Filezilla - Part 1](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-01_35_16-1024x548.png)
+![Uploading content via FTP with Filezilla - Part 1](./2020-02-screenshot-nimbus-capture-2020.02.25-01_35_16.png)
 
 Uploading content via FTP with Filezilla - Part 1
 
 If all goes well, when accessing our website we should see the following message:
 
-![Uploading content via FTP with Filezilla - Part 2](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-01_35_16-1-1024x548.png)
+![Uploading content via FTP with Filezilla - Part 2](./2020-02-screenshot-nimbus-capture-2020.02.25-01_35_16-1.png)
 
 Uploading content via FTP with Filezilla - Part 2
 

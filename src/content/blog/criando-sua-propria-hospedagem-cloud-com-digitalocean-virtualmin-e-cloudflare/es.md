@@ -42,15 +42,15 @@ En primer lugar, cree su cuenta de [DigitalOcean](https://m.do.co/c/6bc37502c1d9
 
 Vamos a crear un servidor con el sistema operativo Ubuntu Server 18.04, en Dig[italOcean, va](https://m.do.co/c/6bc37502c1d9)mos a utilizar el Droplet más básico para las pruebas:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-22_54_10-1024x592.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-22_54_10.png)
 
 Seleccione ahora el plan, para este artículo voy a utilizar la máquina más barata, seleccionar según su necesidad, actualmente utilizar una gota de 15 dólares para alojar mi blog y 14 sitios más, 4 de ellos con más de 20k accesos mensuales:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-22_55_24-1024x479.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-22_55_24.png)
 
 Ahora vamos a seleccionar en qué región queremos que se cree nuestro Droplet, vamos a configurar también algunos servicios opcionales:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-23_03_29-1024x479.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_03_29.png)
 
 **Redes privadas: crea** una IP local, útil para si en el futuro desea crear un clúster de hospedaje, por lo que puede usar una IP interna con baja latencia. IPv6: Permite la  
 **com**patibilidad con el nuevo protoloco de Internet, IPv6Monitoring: In  
@@ -58,7 +58,7 @@ Ahora vamos a seleccionar en qué región queremos que se cree nuestro Droplet, 
 
 Ahora un paso muy importante de creación, primero seleccionaremos el método de autenticación con la máquina virtual, el modo más seguro es a través de las claves SSH, pero para facilitar vamos a elegir el método "Contraseña de una sola vez", enviará una contraseña temporal a nuestro correo electrónico. En nombre de host, pondremos qué dominio queremos que nuestra máquina sea responsable, importante utilizar algún nombre intuitivo porque esto aparecerá en algunos lugares, como en los encabezados en el envío de correos electrónicos, y también lo utilizaremos como la forma de nuestro panel administrativo:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-23_04_17-1024x400.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_04_17.png)
 
 Haga clic en Crear y espere a que se complete el proceso. Cuando la creación se complete correctamente, se enviará un correo electrónico con su contraseña raíz temporal.
 
@@ -70,19 +70,19 @@ En primer lugar, debe agregar y validar su dominio en Cloudflare, debe tener acc
 
 A continuación, configuremos nuestro hosped`agem-teste.marquesfernandes.com de domini`o para que apunten a la IP de nuestra máquina recién creada:
 
-![](/wp-content/uploads/2020/02/screenshot-cloud.digitalocean.com-2020.02.24-23_11_26-1024x528.png)
+![](./2020-02-screenshot-cloud.digitalocean.com-2020.02.24-23_11_26.png)
 
 ### Configuración de la Nota A - IPv4
 
 Vamos a crear el primer tipo Una nota p`a`ra nuestro IPv`4,` recuerde deshabilitar el e*stado del pr*oxy por ahora:
 
-![Configuración de la observación IPv4](/wp-content/uploads/2020/02/screenshot-dash.cloudflare.com-2020.02.24-23_15_22-1024x501.png)
+![Configuración de la observación IPv4](./2020-02-screenshot-dash.cloudflare.com-2020.02.24-23_15_22.png)
 
 ### Configuración de la nota AAAA - IPv6
 
 Ahora vamos a crear la nota de tipo AA`AA p`ara nuestro IP`v6,` recuerde deshabilitar el e*stado del pr*oxy por ahora:
 
-![Configuración de la observación IPv6](/wp-content/uploads/2020/02/screenshot-dash.cloudflare.com-2020.02.24-23_16_38-1024x246.png)
+![Configuración de la observación IPv6](./2020-02-screenshot-dash.cloudflare.com-2020.02.24-23_16_38.png)
 
 ## Instalación y configuración de Virtualmin
 
@@ -92,7 +92,7 @@ Probaremos nuestro registro de configuración DNS a través de SSH en nuestra m�
 
 Atención, tendrá que poner la contraseña enviada a su correo electrónico dos veces, y luego ingrese una nueva contraseña segura dos veces, recuerde crear una contraseña muy segura, después de todas muchas cosas importantes suyas y tal vez los clientes estarán en este servidor:
 
-![Instalación de Virtualmin - P1](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.24-23_28_06.png)
+![Instalación de Virtualmin - P1](./2020-02-screenshot-nimbus-capture-2020.02.24-23_28_06.png)
 
 Instalación de Virtualmin - P1
 
@@ -111,27 +111,27 @@ Ahora ejecute el script de instalación como root:
 
 Tenga en cuenta, ya que algunas preguntas se harán durante el proceso de instalación:
 
-![Instalación de Virtualmin - P2](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.24-23_48_13.png)
+![Instalación de Virtualmin - P2](./2020-02-screenshot-nimbus-capture-2020.02.24-23_48_13.png)
 
 Instalación de Virtualmin - P2
 
 Probablemente querrás responder sí a todas las preguntas. La instalación puede tardar unos minutos:
 
-![Instalación de Virtualmin - P3](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.24-23_55_35.png)
+![Instalación de Virtualmin - P3](./2020-02-screenshot-nimbus-capture-2020.02.24-23_55_35.png)
 
 Instalación de Virtualmin - P3
 
 Ahora para probar nuestra instalación, necesitamos acceder en nuestro navegador a la siguiente direcc`ión https://hospedagem-teste.marquesfernandes.com:1000`0\. Reemplace la dirección URL pero de su hosting y mantenga el puerto predete`rmina`do 10000, probablemente encontrará el error de privacidad, es porque aún no hemos configurado nuestro certificado SSL:
 
-![Google No Privado](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-00_06_28.png)
+![Google No Privado](./2020-02-screenshot-nimbus-capture-2020.02.25-00_06_28.png)
 
 Proceda al inicio de sesión, aquí vamos a utilizar el usuario `raíz` y la contraseña establecida para el acceso a la máquina en el primer paso del tutorial:
 
-![Virtualmin - Inicio de sesión](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_07_10-1024x496.png)
+![Virtualmin - Inicio de sesión](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_07_10.png)
 
 Si trabaja, debería ver el panel de administración de Virtualmin como se muestra a continuación:
 
-![Virtualmin - Panel Administrativo](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_08_15-1024x458.png)
+![Virtualmin - Panel Administrativo](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_08_15.png)
 
 En nuestro primer inicio de sesión, Virtualmin hará una configuración inicial basada en varias preguntas, leerá cuidadosamente y responderá según sea necesario. Ahora recomiendo que se tome el tiempo para leer la documentación de Virtualmin/Webmin, para que no se confunda, Virtualmin es el sistema que administra uno o más Webmin, esa es la parte del cliente (sitio y servicios). Hay varias configuraciones que querrá ajustar, crear plantillas de cuenta de cliente, con diferentes límites y servicios, y mucho más.
 
@@ -143,7 +143,7 @@ Ahora vamos a crear una cuenta de cliente en nuestra instalación de Virtualmin,
 
 Vamos a crear un servidor para el sitio `de site-teste.marquesfernandes.com,` con la plantilla de configuración de servidor predeterminada y el plan de cuenta también. Habilitemos la funcionalidad "Configurar sitio web SSL", para realizar la configuración del sitio en *Https* también:
 
-![Creación de servidores](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_24_22-1024x496.png)
+![Creación de servidores](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_24_22.png)
 
 Creación de servidores
 
@@ -151,7 +151,7 @@ Creación de servidores
 
 Ahora crearemos una prueba de cuenta de usuario/correo electrónico en nuestro nuevo servidor.
 
-![Creación de una nueva cuenta de usuario y correo electrónico](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_32_40-1024x496.png)
+![Creación de una nueva cuenta de usuario y correo electrónico](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_32_40.png)
 
 Creación de una nueva cuenta de usuario y correo electrónico
 
@@ -159,13 +159,13 @@ Creación de una nueva cuenta de usuario y correo electrónico
 
 Ahora vamos a configurar las notas DNS para nuestro nuevo sitio creado site`-teste.marquesfernandes.com, vam`os a agregar entradas tanto a nuestro sitio, como para el acceso al servidor FTP y correo electrónico. Para ello encontraremos todos los ajustes básicos de DNS de nuestro servidor y los replicaremos en Cloudflare:
 
-![Configuración DNS](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_51_01-1024x496.png)
+![Configuración DNS](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-00_51_01.png)
 
 Configuración DNS
 
 Recordando que, la configuración FTP y MX no debe tener el estado de proxy habilitado en Cloudflare, porque nuestra nota necesita reflejar la IP real y esta opción sirve para enmascarar la IP real de la nota, muy útil si desea ocultar y utilizar los servicios de cloudflare, dejaremos esta opción habilitada para todos los demás puntos. Después de configurar todo el DNS necesario, tiempo para probar si nuestro sitio está de pie:
 
-![](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-00_58_41-1024x576.png)
+![](./2020-02-screenshot-nimbus-capture-2020.02.25-00_58_41.png)
 
 Voila, esto significa que nuestra nota y sitio web están funcionando, ya que no tenemos ningún archivo html o sistema instalado, el mensaje predeterminado del sistema es "Prohibido".
 
@@ -175,19 +175,19 @@ Ahora que tenemos nuestras notas funcionando, vamos a configurar nuestro sitio w
 
 L[et's Encrypt](https://letsencrypt.org/pt-br/getting-started/) es una entidad de certificación (CA) gratuita, automatizada y abierta que funciona en beneficio del público. Es un servicio prestado por [el Internet Security Research Group (ISRG](https://www.abetterinternet.org/)).
 
-![Generación de un certificado SSL válido - Parte 1](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_09_38-1024x496.png)
+![Generación de un certificado SSL válido - Parte 1](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_09_38.png)
 
 Generación de un certificado SSL válido - Parte 1
 
 Así de simple, si todo sucede según lo esperado, tendrá un certificado válido instalado y ya podrá acceder a su sitio mediante el protocolo seguro.
 
-![Generación de un certificado SSL válido - Parte 2](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_11_57-1024x496.png)
+![Generación de un certificado SSL válido - Parte 2](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_11_57.png)
 
 Generación de un certificado SSL válido - Parte 2
 
 Vamos a probar accediendo a nuestro siti`o web https://site-teste.marquesfernandes.co`m:
 
-![](/wp-content/uploads/2020/02/image-11-1024x578.png)
+![](./2020-02-image-11.png)
 
 ## Subir contenido al sitio
 
@@ -205,19 +205,19 @@ Bueno, ahora que tenemos todo configurado y trabajando vamos por FTP una página
 
 Vamos a subir nuestro archivo `index.php` a nuestro servidor a través de FTP por host `ftp.site-teste.marquesfernandes.com, a`ntes de que necesitemos crear un usuario con acceso al FTP raíz del sitio:
 
-![Creación de un usuario FTP](/wp-content/uploads/2020/02/screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_31_06-1024x496.png)
+![Creación de un usuario FTP](./2020-02-screenshot-hospedagem-teste.marquesfernandes.com_10000-2020.02.25-01_31_06.png)
 
 Creación de un usuario FTP
 
 Ahora podemos iniciar sesión con el usuario y la contraseña utilizando el programa Filezilla para cargar nuestro archivo:
 
-![Carga de contenido a través de FTP con Filezilla - Parte 1](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-01_35_16-1024x548.png)
+![Carga de contenido a través de FTP con Filezilla - Parte 1](./2020-02-screenshot-nimbus-capture-2020.02.25-01_35_16.png)
 
 Carga de contenido a través de FTP con Filezilla - Parte 1
 
 Si todo va bien, al acceder a nuestro sitio web deberíamos ver el siguiente mensaje:
 
-![Carga de contenido a través de FTP con Filezilla - Parte 2](/wp-content/uploads/2020/02/screenshot-nimbus-capture-2020.02.25-01_35_16-1-1024x548.png)
+![Carga de contenido a través de FTP con Filezilla - Parte 2](./2020-02-screenshot-nimbus-capture-2020.02.25-01_35_16-1.png)
 
 Carga de contenido a través de FTP con Filezilla - Parte 2
 

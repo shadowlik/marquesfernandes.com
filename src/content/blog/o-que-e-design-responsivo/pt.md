@@ -18,11 +18,11 @@ needsReview: false
 updated: 2019-02-12T14:07:49.000Z
 ---
 
-O conceito de design responsivo não é uma novidade, seu conceito teve início em 2004 e se popularizou em 2012 como uma evolução na lógica de web design. Tem chamado bastante atenção nos últimos tempos com o crescimento do mercado de dispositivos móveis. Com essa técnica o site se adapta ao tamanho da tela do usuário, ajustando seu design e conteúdo com o objetivo de levar a melhor experiência para o usuário. ![](/wp-content/uploads/2019/02/3038367-slide-s-2-9-gifs-that-explain-responsive-design-brilliantly-02relative-units-vs-static-units-1.gif)
+O conceito de design responsivo não é uma novidade, seu conceito teve início em 2004 e se popularizou em 2012 como uma evolução na lógica de web design. Tem chamado bastante atenção nos últimos tempos com o crescimento do mercado de dispositivos móveis. Com essa técnica o site se adapta ao tamanho da tela do usuário, ajustando seu design e conteúdo com o objetivo de levar a melhor experiência para o usuário. ![](./2019-02-3038367-slide-s-2-9-gifs-that-explain-responsive-design-brilliantly-02relative-units-vs-static-units-1.gif)
 
 ## Imagine a seguinte situação...
 
-Um exemplo simples: se você entra no site de uma agência de turismo, através do seu desktop, você vai buscar as referências, fotos, serviços adicionais que eles oferecem, etc. Mas se você busca a agência em seu celular, parado no transito em seu carro, tudo que você precisa é encontrar o número para contato e o endereço o mais rápido possível, certo? Essa é a premissa do mobile-first, uma experiência otimizada para cada dispositivo. O que é preciso informar em uma tela de 4 polegadas de forma simples e fácil? São sempre funções diferentes que o site assume dependendo do contexto de uso. ![](/wp-content/uploads/2019/02/3038367-slide-s-8-9-gifs-that-explain-responsive-design-brilliantly-08desktop-first-vs-mobile-first-3.gif)
+Um exemplo simples: se você entra no site de uma agência de turismo, através do seu desktop, você vai buscar as referências, fotos, serviços adicionais que eles oferecem, etc. Mas se você busca a agência em seu celular, parado no transito em seu carro, tudo que você precisa é encontrar o número para contato e o endereço o mais rápido possível, certo? Essa é a premissa do mobile-first, uma experiência otimizada para cada dispositivo. O que é preciso informar em uma tela de 4 polegadas de forma simples e fácil? São sempre funções diferentes que o site assume dependendo do contexto de uso. ![](./2019-02-3038367-slide-s-8-9-gifs-that-explain-responsive-design-brilliantly-08desktop-first-vs-mobile-first-3.gif)
 
 ## Ainda não estou convencido!
 

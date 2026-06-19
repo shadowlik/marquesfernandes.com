@@ -52,25 +52,25 @@ Para o servidor com IP público vamos utilizar o Google Cloud Platform pois ela 
 
 Primeiro você precisa criar uma conta no [GCP](https://cloud.google.com/). Após a conta criada, vamos criar uma máquina virtual que se enquadre no nível gratuito, que no caso seria uma *`e2-micro`* em alguma das regiões: `us-west1; us-central1; us-east1`.
 
-![Acessando o menu do Compute Engine > Instâncias de VM](/wp-content/uploads/2022/12/image-6-1024x574.png)
+![Acessando o menu do Compute Engine > Instâncias de VM](./2022-12-image-6.png)
 
 Acessando o menu do Compute Engine > Instâncias de VM
 
 Primeiro precisamos acessar no menu lateral o serviço de Compute Engine > Instâncias de VM.
 
-![Habilitando a API do Compute Engine](/wp-content/uploads/2022/12/image-1-1024x673.png)
+![Habilitando a API do Compute Engine](./2022-12-image-1.png)
 
 Habilitando a API do Compute Engine
 
 Se for a primeira vez que você estiver acessando o serviço de Compute Engine do Google, você será notificado para habilitar a API, basta clicar em `Habilitar` e esperar o término da habilitação.
 
-![Criar instância de VM](/wp-content/uploads/2022/12/image-7-1024x195.png)
+![Criar instância de VM](./2022-12-image-7.png)
 
 Criar instância de VM
 
 Clique no botão de `Criar Instância` para começar a configuração de nossa nova máquina virtual no GCP.
 
-![Configurando nossa nova VM](/wp-content/uploads/2022/12/image-8-1024x574.png)
+![Configurando nossa nova VM](./2022-12-image-8.png)
 
 Configurando nossa nova VM
 
@@ -78,7 +78,7 @@ Agora vamos configurar nossa máquina virtual para as configurações que se apl
 
 Por padrão a máquina será criada com o sistema operacional [Debian](https://wiki.debian.org/pt_BR/DebianIntroduction) e um disco permanente de 10 GB, vamos prosseguir com essa configuração padrão para o nosso tutorial.
 
-![](/wp-content/uploads/2022/12/image-10-1024x300.png)
+![](./2022-12-image-10.png)
 
 Habilitando os protocolos HTTP e HTTPS
 
@@ -86,7 +86,7 @@ Precisamos adicionar uma última configuração, descendo a página você encont
 
 Agora clique em Criar e aguarda a criação da máquina virtual.
 
-![Máquina virtual GCP](/wp-content/uploads/2022/12/image-11-1024x215.png)
+![Máquina virtual GCP](./2022-12-image-11.png)
 
 Copie o IP público da máquina
 
@@ -100,13 +100,13 @@ Vamos precisar configurar dois domínios, o primeiro domínio será referente ao
 
 Ambos irão apontar para o mesmo lugar, o IP público do nosso servidor criado na etapa anterior, então nossa configuração para o primeiro domínio será do tipo `A` e do segundo vamos utilizar um `CNAME` para o primeiro, dessa maneira se precisarmos trocar a configuração no futuro, só precisaremos alterar em um lugar.
 
-![Criando o primeiro domínio](/wp-content/uploads/2022/12/image-12-1024x274.png)
+![Criando o primeiro domínio](./2022-12-image-12.png)
 
 Criando o primeiro domínio
 
 Crie o primeiro domínio selecionando o tipo como A, insira o IP do servidor copiado na etapa anterior e não se esqueça de desabilitar o proxy do Cloudflare.
 
-![](/wp-content/uploads/2022/12/image-13-1024x273.png)
+![](./2022-12-image-13.png)
 
 Criando o domínio Wildcard
 
@@ -116,13 +116,13 @@ Agora precisamos criar o nosso domínio Wildcard, para isso utilizaremos o `*` a
 
 Agora que temos nossos domínios configurados, podemos finalmente partir para a configuração do boringproxy em nosso servidor, para isso vamos acessar o SSH de nossa máquina virtual. Volte na tela de listagem das máquinas virtuais no Google Cloud e selecione a máquina criada, clique no botão SSH e uma nova janela com o nosso terminal abrirá.
 
-![](/wp-content/uploads/2022/12/image-14-1024x574.png)
+![](./2022-12-image-14.png)
 
 Acessando o SSH da máquina virtual
 
 Aguarde a transferência das chaves de SSH e uma janela parecida com essa deverá ser carregada:
 
-![Terminal VM SSH](/wp-content/uploads/2022/12/image-15-1024x166.png)
+![Terminal VM SSH](./2022-12-image-15.png)
 
 Terminal VM SSH
 
@@ -143,13 +143,13 @@ chmod +x boringproxy-linux-x86\_64
 
 sudo setcap cap\_net\_bind\_service=+ep boringproxy-linux-x86\_64
 
-![](/wp-content/uploads/2022/12/image-16-1024x267.png)
+![](./2022-12-image-16.png)
 
 Se você pretende usar os tuneis para encaminhamento de serviços como banco de dados, que utilizam o protocolo TCP e não HTTP, precisamos editar a configuração do sshd para permitir o encaminhamento de portas TCP.
 
 Vamos editar o arquivo `/etc/ssh/sshd_config` e trocar `GatewayPorts no` por `GatewayPorts clientspecified`. Você pode utilizar o seu editor preferido, no meu caso, `nano /etc/ssh/sshd_config`.
 
-![](/wp-content/uploads/2022/12/image-17-1024x574.png)
+![](./2022-12-image-17.png)
 
 ### Iniciando o boringproxy no servidor
 
@@ -159,15 +159,15 @@ Muito bem, agora podemos [iniciar o boringproxy](https://boringproxy.io/usage/) 
 
 Seu e-mail será solicitado, essa informação é utilizada para gerar os certificados HTTPS necessários utilizando o [Let’s Encrypt](https://letsencrypt.org/pt-br/). Se tudo estiver correto, você deverá ver a mensagem `Successfully acquired certificate...`
 
-![](/wp-content/uploads/2022/12/image-18-1024x264.png)
+![](./2022-12-image-18.png)
 
 Utilize o comando `ctrl + c` para cancelar o serviço, agora utilize o comando `ls` para listar os arquivos da pasta, note que um arquivo chamado boringproxy\_db.json foi criado, ele é um mini banco de dados das configurações do boringproxy. Utilize o comando `cat boringproxy_db.json` para ver o conteúdo do arquivo e pegar o token de acesso, salve esse token em algum lugar seguro.
 
-![](/wp-content/uploads/2022/12/image-19-1024x523.png)
+![](./2022-12-image-19.png)
 
 Execute novamente o comando `./boringproxy-linux-x86_64 server -admin-domain boringproxy.marquesfernandes.com` para iniciar o boringproxy e acesse de seu navegador o domínio do admin, em nosso caso, `boringproxy.marquesfernandes.com`. Se tudo foi configurado corretamente, uma tela solicitando o token de admin deve aparecer, insira o token e acesse o painel administrativo. Mantenha a janela do terminal da máquina virtual aberta e o serviço rodando para os próximos passo.
 
-![Painel administrativo boringproxy](/wp-content/uploads/2022/12/Screenshot-2022-12-12-at-11.33.35-1024x267.png)
+![Painel administrativo boringproxy](./2022-12-Screenshot-2022-12-12-at-11.33.35.png)
 
 Painel administrativo boringproxy
 
@@ -183,7 +183,7 @@ npx create-react-app my-app
 cd my-app
 npm start
 
-![React App funcionando](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-14.40.27.png)
+![React App funcionando](./2022-12-Screenshot-2022-12-13-at-14.40.27.png)
 
 React App funcionando
 
@@ -195,7 +195,7 @@ Para subir o banco de dados, você precisa ter o Docker instalado e [executar o 
 
 docker run --name my-postgres -e POSTGRES\_PASSWORD=123456 -p 5432:5432 postgres
 
-![Executando o Postgres no Docker](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-14.52.56.png)
+![Executando o Postgres no Docker](./2022-12-Screenshot-2022-12-13-at-14.52.56.png)
 
 Executando o Postgres no Docker
 
@@ -207,7 +207,7 @@ Agora que já temos algumas aplicações rodando, podemos criar a configuração
 
 ### Adicionando um cliente
 
-![Criando um cliente no boringproxy](/wp-content/uploads/2022/12/image-20-1024x255.png)
+![Criando um cliente no boringproxy](./2022-12-image-20.png)
 
 Criando um cliente no boringproxy
 
@@ -230,7 +230,7 @@ O painel de túneis permite criar e remover túneis. Ele fornece uma maneira de
 -   **Password Protect**  
     Ative para definir nome de usuário e senha para autenticação básica HTTP
 
-![Adicionando o túnel para a aplicação React](/wp-content/uploads/2022/12/image-21-1024x538.png)
+![Adicionando o túnel para a aplicação React](./2022-12-image-21.png)
 
 Adicionando o túnel para a aplicação React
 
@@ -242,7 +242,7 @@ Agora vamos criar o nosso primeiro túnel, ele fara o proxy para a nossa aplica�
 -   **Client Port**: 3000 (port da nossa aplicação react)
 -   **TLS Termination**: Client HTTPS
 
-![Adicionando o túnel para o banco de dados](/wp-content/uploads/2022/12/image-22-1024x541.png)
+![Adicionando o túnel para o banco de dados](./2022-12-image-22.png)
 
 Adicionando o túnel para o banco de dados
 
@@ -252,7 +252,7 @@ Vamos criar um túnel também para o nosso banco de dados, seguiremos os mesmos 
 -   **TLS Termination**: Server HTTPS
 -   **Allow External TCP**: Sim
 
-![Listagem de túneis do boringproxy](/wp-content/uploads/2022/12/image-23-1024x292.png)
+![Listagem de túneis do boringproxy](./2022-12-image-23.png)
 
 Listagem de túneis do boringproxy
 
@@ -267,11 +267,11 @@ Agora precisamos iniciar o serviço para conectar em nosso servidor, para isso e
 ./boringproxy-dawrin-x86\_64 client \\
     -server boringproxy.marquesfernandes.com -user admin -token <token\_copiado\_do\_servidor> -client-name admin
 
-![boringproxy client](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-15.16.34.png)
+![boringproxy client](./2022-12-Screenshot-2022-12-13-at-15.16.34.png)
 
 Os túneis serão sincronizados, os certificados necessários para o lado cliente serão emitidos e se tudo caminhar conforme o esperado, suas aplicações agora estarão disponíveis na internet. Em um navegador acesse a URL configurada para o React e veja a magia e faça o teste com o seu banco de dados também.
 
-![React App acessível via Proxy](/wp-content/uploads/2022/12/Screenshot-2022-12-13-at-15.16.57-1024x484.png)
+![React App acessível via Proxy](./2022-12-Screenshot-2022-12-13-at-15.16.57.png)
 
 React App acessível via Proxy
 

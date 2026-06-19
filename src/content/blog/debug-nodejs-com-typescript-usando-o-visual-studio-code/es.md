@@ -17,7 +17,7 @@ updated: 2021-12-12T11:24:07.000Z
 
 Cuando estamos en el proceso de desarrollo, pasamos mucho tiempo "depurando" el código y tratando de entender por qué no funciona o peor, por qué funciona... El paso de depuración es muy importante y puede llevar mucho tiempo, por lo que si optimizamos esta búsqueda de errores, optimizamos el tiempo de entrega, así como la calidad.
 
-![Sólo la mitad de la programación es codificación. El otro 90% está depurando](/wp-content/uploads/2020/01/591b0f2b-56af-4179-8bc0-d7f575bf4ed0.jpeg)
+![Sólo la mitad de la programación es codificación. El otro 90% está depurando](./2020-01-591b0f2b-56af-4179-8bc0-d7f575bf4ed0.jpeg)
 
 Visual Studio Code admite el depurador typeScript a través de su depurador nativo de JavaScript.
 
@@ -69,6 +69,6 @@ El archivo launch.json contiene toda la configuración de los depuradores del pr
 
 ## Probar nuestra nueva configuración
 
-![](/wp-content/uploads/2020/01/image-6-1024x548.png)
+![](./2020-01-image-6.png)
 
 Ahora que hemos configurado toda la configuración necesaria, podemos empezar a depurar nuestra aplicación. Haga clic en el botón ▶️ de la ficha De depuración o en el acceso direct**o F**5\. Si todo es correcto, se producirá el proceso de compilación y el depurador se detiene en la fila seleccionada.

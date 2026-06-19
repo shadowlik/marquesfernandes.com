@@ -121,7 +121,7 @@ https://open.spotify.com/show/1EAAAOIGupWaGwidmMTTi0
 
 ## [Café FIAP](https://www.fiap.com.br/fiapx/podcast)
 
-[![](/wp-content/uploads/2020/01/image-41-1024x501.png)](https://www.fiap.com.br/fiapx/podcast)
+[![](./2020-01-image-41.png)](https://www.fiap.com.br/fiapx/podcast)
 
 El podcast FIAP Café es un chat en el que, cada quince días, se invita a un profesional altamente especializado a hablar de las últimas novedades en tecnología, ciencia, emprendimiento e innovación.
 

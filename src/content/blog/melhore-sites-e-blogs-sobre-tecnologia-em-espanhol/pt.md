@@ -23,13 +23,13 @@ Para dar início a essa nova frente aqui no blog, comecei pesquisando outros esc
 
 ## [Xataka](https://www.xataka.com/)
 
-[![https://www.xataka.com/](/wp-content/uploads/2020/08/screenshot-www.xataka.com-2020.08.10-12_26_05-1024x487.jpg)](https://www.xataka.com/)
+[![https://www.xataka.com/](./2020-08-screenshot-www.xataka.com-2020.08.10-12_26_05.jpg)](https://www.xataka.com/)
 
 Xataka é um portal completo sobre tecnologia e gadgets, lembra muito os portais brasileiro [Canaltech](https://canaltech.com.br/) e [TechTudo](https://www.techtudo.com.br/). Cobrem bastante notícias sobre o mundo da tecnologia e também estão presentes em muitos outros portais de conteúdo e possuem outros projetos interessantes como [3djuegos.com](https://www.3djuegos.com/) e [sensacine.com.mx](https://sensacine.com.mx).
 
 ## [Picando codigo](https://picandocodigo.net/)
 
-![https://picandocodigo.net/](/wp-content/uploads/2020/08/screenshot-picandocodigo.net-2020.08.10-12_26_38-1024x455.jpg)
+![https://picandocodigo.net/](./2020-08-screenshot-picandocodigo.net-2020.08.10-12_26_38.jpg)
 
 **[Picando código](https://picandocodigo.net/)** é um blog pessoal do [**Fernando Briano**](http://fernandobriano.com/), onde ele escreve sobre linguagens de programação, ferramentas e metodologias de desenvolvimento de software e informações sobre software livre. Ele é usuário GNU/Linux há alguns anos e documenta todas suas experiências com Debian e ArchLinux em seu blog. Você poderá encontrar também artigos sobre videogames, ficção científica, quadrinhos e muito mais.
 
@@ -39,7 +39,7 @@ Xataka é um portal completo sobre tecnologia e gadgets, lembra muito os portais
 
 ## [Enrique Dans](https://www.enriquedans.com/)
 
-[![https://www.enriquedans.com/](/wp-content/uploads/2020/08/screenshot-www.enriquedans.com-2020.08.10-12_27_20-1024x455.jpg)](https://www.enriquedans.com/)
+[![https://www.enriquedans.com/](./2020-08-screenshot-www.enriquedans.com-2020.08.10-12_27_20.jpg)](https://www.enriquedans.com/)
 
 **[Enrique Dans](https://www.enriquedans.com/)** compartilha em sua página pessoal toda a sua minha atividade profissional e pessoal relacionada com as múltiplas facetas da tecnologia, a sua difusão e os seus efeitos nas pessoas, empresas ou na sociedade em geral. 
 
@@ -49,7 +49,7 @@ Xataka é um portal completo sobre tecnologia e gadgets, lembra muito os portais
 
 ## [Wwwhatsnew](https://wwwhatsnew.com/)
 
-[![https://wwwhatsnew.com/](/wp-content/uploads/2020/08/screenshot-wwwhatsnew.com-2020.08.10-12_28_10-1024x487.jpg)](https://wwwhatsnew.com/)
+[![https://wwwhatsnew.com/](./2020-08-screenshot-wwwhatsnew.com-2020.08.10-12_28_10.jpg)](https://wwwhatsnew.com/)
 
 [WWwhatsnew.com](https://wwwhatsnew.com/) foi criado em 2005 por Juan Diego Polo. No site são discutidos todos os dias diversos aplicativos web, novidades de tecnologia e dicas para quem trabalha com marketing online.
 
@@ -59,7 +59,7 @@ Você também verá notícias publicadas na Internet, com a evolução de con
 
 ## [Loogic](https://loogic.com/)
 
-[![https://loogic.com/](/wp-content/uploads/2020/08/screenshot-loogic.com-2020.08.10-12_28_48-1024x487.jpg)](https://loogic.com/)
+[![https://loogic.com/](./2020-08-screenshot-loogic.com-2020.08.10-12_28_48.jpg)](https://loogic.com/)
 
 Desde a sua fundação em 2003, **[Loogic](https://loogic.com/)** se tornou o meio de informação de referência para **empreendedores** e **startups no** mundo da tecnologia e inovação na Espanha e na América Latina. Seus promotores são  Javier Martín,  Ignacio de Miguel  e Agustín Cuenca.
 
@@ -67,6 +67,6 @@ Também desenvolvem iniciativas como [Loogic Ventures](https://loogic.com/ventu
 
 ## [Linea de Código](http://lineadecodigo.com/)
 
-[![http://lineadecodigo.com/](/wp-content/uploads/2020/08/screenshot-lineadecodigo.com-2020.08.10-12_29_24-1024x455.jpg)](http://lineadecodigo.com/)
+[![http://lineadecodigo.com/](./2020-08-screenshot-lineadecodigo.com-2020.08.10-12_29_24.jpg)](http://lineadecodigo.com/)
 
 **[Línea de Código](http://lineadecodigo.com/)** deseja ajudá-lo a aprender a codificar. Para isso, oferece exemplos simples e explicados passo a passo de diferentes linguagens de programação. Acompanhamos todos os exemplos com seu código-fonte correspondente para que você possa testá-lo diretamente.

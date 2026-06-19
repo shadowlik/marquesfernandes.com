@@ -22,7 +22,7 @@ Si desea mejorar el rendimiento de su instalación Debian/Ubuntu, crear un espac
 
 Si ya utilizas las últimas versiones de Ubuntu, es muy probable que este espacio ya se haya creado automáticamente durante la instalación del sistema operativo. Podemos comprobar con la utilidad **htop** para ver fácilmente si hay un espacio de intercambio, cantidad de espacio libre y usado asignado:
 
-![htop - Intercambio espacial](/wp-content/uploads/2019/12/image-12.png)
+![htop - Intercambio espacial](./2019-12-image-12.png)
 
 En una búsqueda en Internet encontré el siguiente con***sejo: El tamaño de su espacio virtual debe ser igual al doble de la RAM de su ordenador o 32 MB, lo que sea más grande. Pero no debe ser mayor que 2048 MB (o 2 GB).***
 

@@ -30,7 +30,7 @@ Mas vamos ao que interessa, vou contar um pouco do que fiz pra conseguir aumenta
 
 ## Evolução do tráfego
 
-![](/wp-content/uploads/2020/03/image-35.png)
+![](./2020-03-image-35.png)
 
 Google Analytics - Evolução do tráfego
 
@@ -44,7 +44,7 @@ Eu tenho o meu dominio desde 2015, e desde então já teve alguns propósitos di
 
 Desenvolver um blog ou site com qualidade requer tempo, e quando fazemos algo para nós parece que nunca está perfeito, ou seja, nunca acabamos e isso sempre fez com que eu postergasse a minha ideia de escrever.
 
-[![https://themeforest.net/](/wp-content/uploads/2020/03/image-36-1024x501.png)](https://themeforest.net/)
+[![https://themeforest.net/](./2020-03-image-36.png)](https://themeforest.net/)
 
 [https://themeforest.net/](https://themeforest.net/)
 
@@ -68,7 +68,7 @@ Incentive o seu público a interagir com você, além de ser muito gratificante 
 
 ## Tempo - Tenha paciência
 
-![Google Webmaster](/wp-content/uploads/2020/03/image-37.png)
+![Google Webmaster](./2020-03-image-37.png)
 
 Google Webmaster
 

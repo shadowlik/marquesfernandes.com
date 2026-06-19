@@ -25,30 +25,30 @@ Procurando por exemplos de documentações REST online? Separei 5 documentaçõe
 
 [Twitter API](https://dev.twitter.com/overview/api) 
 
-![](/wp-content/uploads/2019/09/07160155479276-1024x384.jpg)
+![](./2019-09-07160155479276.jpg)
 
 Twitter (inglês: \[ˈtwɪtər\]) é uma rede social e um servidor para microblogging, que permite aos usuários enviar e receber atualizações pessoais de outros contatos (em textos de até 280 caracteres, conhecidos como "tweets"), por meio do website do serviço, por SMS e por softwares específicos de gerenciamento.
 
 [Github API](https://developer.github.com/v3/#parameters) 
 
-![](/wp-content/uploads/2019/09/what-is-github-1-1-1024x512.png)
+![](./2019-09-what-is-github-1-1.png)
 
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git.
 
 [Google Drive API](https://developers.google.com/drive/v2/reference/files#resource) 
 
-![](/wp-content/uploads/2019/09/Google-Drive-Apps-Main.png)
+![](./2019-09-Google-Drive-Apps-Main.png)
 
 Google Drive é um serviço de armazenamento e sincronização de arquivos que foi apresentado pela Google em 24 de abril de 2012.
 
 [Paypal API](https://developer.paypal.com/docs/api/overview/) 
 
-![](/wp-content/uploads/2019/09/wpca-paypal-gateway-addon-815x458.jpg)
+![](./2019-09-wpca-paypal-gateway-addon.jpg)
 
 PayPal é uma empresa de pagamentos online situada em São José, na Califórnia, Estados Unidos. Fundada em 1998 por Peter Thiel e Max Levchin, opera internacionalmente e é uma das maiores do ramo por ser capaz de realizar pagamentos rápidos e auxiliar em envios de dinheiro.
 
 [VTEX Catalog API](https://documenter.getpostman.com/view/845/vtex-catalog-api/Hs44?version=latest) 
 
-![](/wp-content/uploads/2019/09/vtex-1-1024x576.jpg)
+![](./2019-09-vtex-1.jpg)
 
 VTEX é uma multinacional brasileira de tecnologia com foco em cloud commerce desenvolvedora da plataforma VTEX Cloud commerce, disponibilizada no mercado como SaaS com atuação global.

@@ -37,28 +37,28 @@ Otro querido de la comunidad y actualmente mi tema de elección. Un tema oscuro 
 
 Para aquellos que están migrando desde [Atom,](https://ide.atom.io/) One Dark Pro te hará sentir como en casa.
 
-![](/wp-content/uploads/2019/03/0_vmc8bpndn19OttSk.png)
+![](./2019-03-0_vmc8bpndn19OttSk.png)
 
 ## [3\. Rainglow, Año Nuevo](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)
 
 Si estás buscando variedad, R**ainglow** es tu elección: Una colección con más de 320 temas de combinación de colores.
 
--   ![](/wp-content/uploads/2019/03/earthsong-1024x689.png)
+-   ![](./2019-03-earthsong.png)
     
--   ![](/wp-content/uploads/2019/03/piggy-1024x689.png)
+-   ![](./2019-03-piggy.png)
     
--   ![](/wp-content/uploads/2019/03/kiwi-1024x689.png)
+-   ![](./2019-03-kiwi.png)
     
--   ![](/wp-content/uploads/2019/03/gloom-contrast-1024x689.png)
+-   ![](./2019-03-gloom-contrast.png)
     
 
 ## [4\. Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
 
 Con combinaciones suaves este es un tema para aquellos que buscan descansar sus ojos. Tiene variaciones claras y oscuras.
 
--   ![](/wp-content/uploads/2019/03/noctisMinimus-1011x1024.png)
+-   ![](./2019-03-noctisMinimus.png)
     
--   ![](/wp-content/uploads/2019/03/NoctisUva-1011x1024.png)
+-   ![](./2019-03-NoctisUva.png)
     
 
 ## [5\. Un tema Monokai](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)

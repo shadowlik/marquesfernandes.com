@@ -21,7 +21,7 @@ That VSCode became the [IDE](http://marquesfernandes.com/melhores-editores-de-te
 
 ## 1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-[![GitLens](/wp-content/uploads/2020/07/image-3-1024x494.jpg)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+[![GitLens](./2020-07-image-3.jpg)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 GitLens extends the Git features of Visual Studio Code. It helps you quickly view the author of code through Git "blame notes", seamlessly browse and explore Git repositories, gain valuable insights with powerful compare commands, and much more.
 
@@ -29,13 +29,13 @@ This extension is great for you to discover that the code you are cursing was ac
 
 ## two. [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-[![prettier](/wp-content/uploads/2020/07/image-6.png)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[![prettier](./2020-07-image-6.png)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 Prettier is an opinionated code formatter. It enforces a consistent style when analyzing your code and reprinting it with its own rules that take into account the maximum line length, wrapping the code when necessary. Very useful for formatting that giant JSON you copied from the internet and are trying to understand.
 
 ## 3. [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
-[![Live Share](/wp-content/uploads/2020/07/image-7.jpg)](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+[![Live Share](./2020-07-image-7.jpg)](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 
 Visual Studio Live Share lets you collaboratively edit and debug with others in real time, regardless of the programming languages you're using or the types of apps you're building. It lets you instantly (and securely) share your current project and, as needed, share debug sessions, terminal instances, local web apps, voice calls and more! Developers joining your sessions are given all the editor context of their environment (eg language services, debugging), which ensures they can start productively collaborating right away, without the need to clone any repositories or install SDKs.
 
@@ -52,25 +52,25 @@ The Remote - SSH extension allows you to use any remote machine with an SSH serv
 
 ## 5. [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-[![Settings Sync](/wp-content/uploads/2020/07/image-9.png)](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+[![Settings Sync](./2020-07-image-9.png)](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
 If you find yourself constantly having new installs of VSCode and are tired of having to remember and install your extensions, settings and themes every time, your problems are over. Settings Sync allows you to synchronize your VSCode state between multiple instances.
 
 ## 6\. [Reload](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
-[![Reload](/wp-content/uploads/2020/07/image-10.png)](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
+[![Reload](./2020-07-image-10.png)](https://marketplace.visualstudio.com/items?itemName=natqe.reload)
 
 This extension I would very much like to not need to use, but I constantly see the need to restart VSCode to get some lint or autocomplete. It will add a VSCode reload button to the status bar at the bottom right. This is a simple extension, to quickly reload your window when you have problems.. or want the editor to take effect.
 
 ## 7\. [Bracket Pair Colorize](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
-[![Bracket Pair Colorize](/wp-content/uploads/2020/07/image-11.png)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+[![Bracket Pair Colorize](./2020-07-image-11.png)](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 This extension allows the corresponding square brackets to be color-coded. The user can define which characters to match and which colors to use.
 
 ## 8\. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
-[![](/wp-content/uploads/2020/07/image-13-1024x461.png)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+[![](./2020-07-image-13.png)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 If you, like me, don't have English as your first language and find yourself constantly wondering if something went wrong in your comments or documentation, this extension is for you!
 
@@ -78,7 +78,7 @@ A basic spell checker that works well with camelCase code. The purpose of this s
 
 ## 9\. [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
-[![](/wp-content/uploads/2020/07/image-15-4-1024x494.jpg)](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+[![](./2020-07-image-15-4.jpg)](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 This plugin tries to replace the user/workspace settings with the settings found in the file. `.editorconfig` . Basically it allows you to crunch a file that can be versioned and shared with useful settings like spacing (tab or space) of the project, if you want it to render whitespaces, and much more.
 

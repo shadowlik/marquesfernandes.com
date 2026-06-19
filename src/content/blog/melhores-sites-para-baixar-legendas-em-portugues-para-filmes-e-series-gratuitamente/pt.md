@@ -25,7 +25,7 @@ Felizmente, existem vários sites disponíveis online, onde você pode baixar ar
 
 ## **[OpenSubtitles](https://www.opensubtitles.org/pb/search/subs)**
 
-[![OpenSubtitles](/wp-content/uploads/2020/11/image-1-1024x487.png)](https://www.opensubtitles.org/pb/search/subs)
+[![OpenSubtitles](./2020-11-image-1.png)](https://www.opensubtitles.org/pb/search/subs)
 
 Com uma das maiores coleções de legendas de filmes e series da internet (mais de cinco milhões, de acordo com o próprio site), o [OpenSubtitles](https://www.opensubtitles.org/pb/search/subs) é provavelmente o primeiro site que você deseja recorrer se estiver procurando por legendas de qualidade.
 
@@ -37,7 +37,7 @@ O site não inclui apenas legendas de filmes você também pode participar do f�
 
 ## [Addic7ed](https://www.addic7ed.com/)
 
-[![Addic7ed](/wp-content/uploads/2020/11/image-3-1024x487.png)](https://www.addic7ed.com/)
+[![Addic7ed](./2020-11-image-3.png)](https://www.addic7ed.com/)
 
 [Addic7ed](https://www.addic7ed.com/) (que significa do inglês, viciado) pretende ser o catálogo que fornece legendas para os viciados em filmes. Como o OpenSubtitles, é um dos principais sites para baixar legendas de filmes e programas de TV, e também conta com diversos idiomas em sua plataforma.
 
@@ -47,7 +47,7 @@ O site também oferece uma programação, mostrando os próximos lançamentos de
 
 ## [Podnapisi](https://www.podnapisi.net/)
 
-[![Podnapisi](/wp-content/uploads/2020/11/image-5-1024x487.png)](https://www.podnapisi.net/)
+[![Podnapisi](./2020-11-image-5.png)](https://www.podnapisi.net/)
 
 [Podnapisi](https://www.podnapisi.net/) é um dos mais limpos e simples de usar! O site possui mais de 2 milhões de legendas para download, com mais de 58.000 filmes e mais de 6.000 séries de TV disponíveis.
 
@@ -55,13 +55,13 @@ Como outros sites de legendas importantes, o Podnapisi permite que você faça p
 
 ## [Pipocas.tv](https://pipocas.tv/login)
 
-[![Pipocas.tv](/wp-content/uploads/2020/11/image-6-5-1024x487.jpg)](https://pipocas.tv/login)
+[![Pipocas.tv](./2020-11-image-6-5.jpg)](https://pipocas.tv/login)
 
 [Pipocas.tv](https://pipocas.tv/login) foi uma surpresa agradável na minha busca, Possui uma interface muito agradável, porém com muitas propagandas. Você precisa se registrar no site para ter acesso às legendas. Conta com um acervo bem completo, uma busca simples, porém eficaz. Você pode ver as avaliações de outros usuários sobre a legenda, se precisar consultar o fórum e até mesmo enviar um pedido de solicitação de legenda.
 
 ## [Legendas YIFY](https://yts-subs.com/)
 
-[![YIFY](/wp-content/uploads/2020/11/image-6-1-1024x487.jpg)](https://yts-subs.com/)
+[![YIFY](./2020-11-image-6-1.jpg)](https://yts-subs.com/)
 
 Com o nome do conhecido grupo de pirataria e com seus lançamentos em mente, [*YIFY Subtitles*](https://yts-subs.com/) é outro site fácil de usar para baixar legendas. Ao contrário de alguns dos outros sites principais, o YIFY Subtitles oferece apenas legendas de filmes para download.
 
@@ -69,6 +69,6 @@ Não deixe que o link para o grupo de pirataria o desencoraje - as legendas YIFY
 
 ## [TVsubtitles.net](http://www.tvsubtitles.net/)
 
-[![TVsubtitles.net](/wp-content/uploads/2020/11/image-6-3-1024x487.jpg)](http://www.tvsubtitles.net/)
+[![TVsubtitles.net](./2020-11-image-6-3.jpg)](http://www.tvsubtitles.net/)
 
 [TVsubtitles.net](http://www.tvsubtitles.net/) não é um site propriamente forte para legendas em português, porém conta com algumas, pode ser uma opção em último caso.

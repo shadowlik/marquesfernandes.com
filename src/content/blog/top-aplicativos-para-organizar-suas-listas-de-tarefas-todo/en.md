@@ -25,7 +25,7 @@ Choosing the right app for you is a very personal task, but it doesn't have to b
 
 ## #1 [Todoist](https://todoist.com/)
 
-[![Todoist Control Panel](/wp-content/uploads/2019/12/image-7-1024x496.png)](https://todoist.com/)
+[![Todoist Control Panel](./2019-12-image-7.png)](https://todoist.com/)
 
 [Todoist](https://todoist.com/) it has a very minimalist interface, but it still has many advanced features and even AI-based recommendation. It is my day-to-day application, it has an effective integration with the google calendar, it is simple and efficient, fulfilling its role of organizing your tasks well.
 
@@ -39,7 +39,7 @@ Todoist is flexible enough to fit most workflows, but not so complicated that it
 
 ## #two [Microsoft To-Do](https://todo.microsoft.com/pt-br)
 
-[![Microsoft All Control Panel](/wp-content/uploads/2019/12/image-6-1024x496.png)](https://todo.microsoft.com/pt-br)
+[![Microsoft All Control Panel](./2019-12-image-6.png)](https://todo.microsoft.com/pt-br)
 
 In 2015, Microsoft purchased Wunderlist and put this team to work on a new to-do list app. THE [Microsoft To-Do](https://todo.microsoft.com/pt-br) is the result of that, and you can find the DNA of Wunderlist (some features are still missing) throughout the project. The main interface is clean and user-friendly, adding tasks is quick, but there's a lot of flexibility below the surface.
 
@@ -53,7 +53,7 @@ I particularly liked the integrated features and the new look of the app a lot, 
 
 ## #3 [Google](https://support.google.com/tasks/answer/7675772?co=GENIE.Platform%3DDesktop&hl=pt) [Tasks](https://gsuite.google.com/learning-center/products/apps/keep-track-of-tasks/)
 
-[![Google Tasks Control Panel](/wp-content/uploads/2019/12/image-11-1024x496.jpg)](https://gsuite.google.com/learning-center/products/apps/keep-track-of-tasks/)
+[![Google Tasks Control Panel](./2019-12-image-11.jpg)](https://gsuite.google.com/learning-center/products/apps/keep-track-of-tasks/)
 
 Google Tasks is a great solution if you want a simple, no-frills app that works seamlessly within the Google ecosystem (especially Gmail and Google Calendar). But don't expect too many advanced features, it's a simple tool.
 
@@ -65,7 +65,7 @@ If you're the type of person who always has Gmail open, it's likely that direct 
 
 ## #4 [Any.do](https://www.any.do/)
 
-[![Any.do Control Panel](/wp-content/uploads/2019/12/image-10-1024x496.png)](https://www.any.do/)
+[![Any.do Control Panel](./2019-12-image-10.png)](https://www.any.do/)
 
 THE [Any.do](https://www.any.do/) offers a user-friendly application that makes it easy to add tasks, organize them into lists and the task due date. But what really stands out about Any.do is the "Plan My Day" daily feature, which forces you to schedule when you'll be doing various tasks, so you remember to actually get things done. Any.do also features integration with Google and Outlook calendars, allowing you to see your appointments and tasks in one place.
 
@@ -75,7 +75,7 @@ THE [Any.do](https://www.any.do/) offers a user-friendly application that makes 
 
 ## #5 [Trello](https://trello.com/)
 
-[![Trello Control Panel](/wp-content/uploads/2019/12/image-8-1024x496.jpg)](https://trello.com/)
+[![Trello Control Panel](./2019-12-image-8.jpg)](https://trello.com/)
 
 [Trello](https://trello.com/b/AwYSWOyt/ultimate-to-do-list) is an excellent tool for those who like Kanban, it can be adapted for a to-do list board like [in this example](https://trello.com/b/AwYSWOyt/ultimate-to-do-list) . Although it is not made specifically to be a task application, if you are used to working on this model it can be something very useful, there are numerous integration plugins with the most diverse services, making it a very versatile tool.
 
@@ -85,7 +85,7 @@ Browser | [Mac](https://itunes.apple.com/app/trello/id1278508951?ls=1&mt=12) | [
 
 ## #6 [asana](https://asana.com/pt)
 
-[![Asana Control Panel](/wp-content/uploads/2019/12/image-9-1024x496.png)](https://asana.com/pt)
+[![Asana Control Panel](./2019-12-image-9.png)](https://asana.com/pt)
 
 THE [asana](https://asana.com/pt) follows the line of Trello, being a tool basically made to manage projects, but with a little imagination and tweaking it becomes a useful tool to organize your tasks.
 

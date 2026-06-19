@@ -26,7 +26,7 @@ Você já se pegou procurando aquele meme antigo? Ou então querendo criar um me
 
 ## 1\. [Meme Generator](https://memegenerator.net/)
 
-![Meme Generator](/wp-content/uploads/2022/08/image-1024x574.jpg)
+![Meme Generator](./2022-08-image.jpg)
 
 [memegenerator.net](https://memegenerator.net)
 
@@ -34,7 +34,7 @@ O [Meme Generator](https://memegenerator.net/) é possivelmente uma das melhores
 
 ## 2\. [quickmeme](http://www.quickmeme.com/)
 
-![quickmeme](/wp-content/uploads/2022/08/image-1-1024x574.jpg)
+![quickmeme](./2022-08-image-1.jpg)
 
 [quickmeme.com](http://www.quickmeme.com/)
 
@@ -42,7 +42,7 @@ O [quickmeme](http://www.quickmeme.com/) permite navegar pelos memes e criar os 
 
 ## 3\. [Imgur](https://imgur.com/memegen)
 
-[![imgur](/wp-content/uploads/2022/08/image-2-1024x574.jpg)](https://imgur.com/memegen)
+[![imgur](./2022-08-image-2.jpg)](https://imgur.com/memegen)
 
 [imgur.com/memegen](https://imgur.com/memegen)
 
@@ -50,7 +50,7 @@ O [quickmeme](http://www.quickmeme.com/) permite navegar pelos memes e criar os 
 
 ## 4\. [Imgflip](https://imgflip.com/memegenerator)
 
-[![imgflip](/wp-content/uploads/2022/08/image-4-1024x574.jpg)](https://imgflip.com/memegenerator)
+[![imgflip](./2022-08-image-4.jpg)](https://imgflip.com/memegenerator)
 
 [imgflip.com/memegenerator](https://imgflip.com/memegenerator)
 
@@ -58,7 +58,7 @@ Os geradores de imagem [Imgflip](https://imgflip.com/memegenerator) são projeta
 
 ## 5\. [livememe](https://livememe.com/)
 
-[![livememe](/wp-content/uploads/2022/08/image-3-1024x574.jpg)](https://livememe.com/)
+[![livememe](./2022-08-image-3.jpg)](https://livememe.com/)
 
 [livememe.com](https://livememe.com/)
 

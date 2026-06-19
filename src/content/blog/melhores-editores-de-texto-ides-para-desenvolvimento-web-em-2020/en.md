@@ -25,7 +25,7 @@ I separated some of the best open source options available on the market, I didn
 
 Like any good open source project, an active community behind it makes all the difference, we can see last year's interest under the topics of each of the listed IDEs:
 
-[![Google Trends - VS Code x Atom x NetBeans x Brackets](/wp-content/uploads/2019/12/image-29-1024x527.png)](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)
+[![Google Trends - VS Code x Atom x NetBeans x Brackets](./2019-12-image-29.png)](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)
 
 [Google Trends - VS Code x Atom x NetBeans x Bracket](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45) [s](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)
 

@@ -36,13 +36,13 @@ La forma en que el GC sabe que los objetos ya no están en uso es que ningún ot
 
 Analizando el diagrama siguiente, dará una visión general de cómo se ve la memoria cuando se hace referencia a los objetos en él (están "vivos") y cuando ya no tiene referencia (son "basura").
 
-![](/wp-content/uploads/2020/03/nodememoria.jpg)
+![](./2020-03-nodememoria.jpg)
 
 ### Memoria después de las obras del colector
 
 Después de que el recopilador funciona, las memorias inalcanzables se eliminan liberando espacio de memoria.
 
-![](/wp-content/uploads/2020/03/nodememoriav2.jpg)
+![](./2020-03-nodememoriav2.jpg)
 
 El intervalo de longitud que ejecuta el recopilador varía según la aplicación, mantiene una metodología inteligente para saber con qué frecuencia necesita borrar la memoria. Tiene un
 

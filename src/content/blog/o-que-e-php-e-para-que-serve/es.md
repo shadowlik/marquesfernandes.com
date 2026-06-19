@@ -55,7 +55,7 @@ Un archivo PHP también puede contener etiquetas como HTML [y JavaScrip](http://
 
 PHP es responsable de hacer toda la lógica para, por ejemplo, representar una página web. Se encarga de consultar las bases de datos, realizar cualquier cálculo y devolver el HTML listo para que el explorador pueda mostrar al usuario.
 
-![](/wp-content/uploads/2020/04/fluxo-php-1.jpg)
+![](./2020-04-fluxo-php-1.jpg)
 
 Sin entrar en problemas muy técnicos, pero para que una aplicación web funcione necesitas un servidor web configurado para ejecutar archivos php. Es responsable de encontrar qué script correcto se ejecutará cuando acceda a una página como https[://marquesfernandes.com](http://marquesfernandes.com). Los servidores web más populares y utilizados son [Apache](https://www.apache.org/) y [Nginx](https://www.nginx.com/).
 

@@ -25,7 +25,7 @@ Então o que esperar de 2020 para o Web Design? Uma coisa interessante que podem
 
 ## 1\. Modo Escuro
 
-![WhatsApp modo escuro](/wp-content/uploads/2020/03/English_DarkMode_iPhone-1024x728.jpg)
+![WhatsApp modo escuro](./2020-03-English_DarkMode_iPhone.jpg)
 
 Os designs no modo escuro parecem ultramodernos, são fáceis de ver e dão destaque a cores e elementos de design. Muito conhecido pelos desenvolvedores, o modo "hacker" vem atraído cada vez mais usuários.
 
@@ -33,19 +33,19 @@ Essa é uma tendência que vai além da beleza, existem princípios práticos po
 
 ## 2\. Sombras Suaves e Elementos Flutuantes
 
-![](https://i0.wp.com/marquesfernandes.com/wp-content/uploads/2020/03/web-design-trends-2020-11.jpg?ssl=1)
+![](https://i0.wp.com/marquesfernandes.com./2020-03-web-design-trends-2020-11.jpg)
 
-![](https://i1.wp.com/marquesfernandes.com/wp-content/uploads/2020/03/dribelekk.jpg?ssl=1)
+![](https://i1.wp.com/marquesfernandes.com./2020-03-dribelekk.jpg)
 
 Seguindo um pouco a onda do [Material Design da Google](http://marquesfernandes.com/sites-para-inspiracao-usando-material-design/), a aposta para elementos flutuantes e com sombras suaves é com certeza garantida. Essa tendência traz as páginas web, sem exagerar, um pouco de profundidade e sensação de 3D.
 
 ## 3\. Ilustrações Customizadas
 
--   ![](/wp-content/uploads/2020/03/web-design-trends-2020-06.jpg)
+-   ![](./2020-03-web-design-trends-2020-06.jpg)
     
--   ![](/wp-content/uploads/2020/03/web-design-trends-2020-05.jpg)
+-   ![](./2020-03-web-design-trends-2020-05.jpg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-lifestrategy.com_.br-2020.03.21-21_38_45-1024x501.png)
+-   ![](./2020-03-screenshot-lifestrategy.com_.br-2020.03.21-21_38_45.png)
     
 
 Hoje, o visual não existe apenas para dar cor às suas páginas, você pode e deve usá-los para criar uma identidade e qual a mensagem que deseja transmitir para o seu público.
@@ -54,24 +54,24 @@ Certamente, colocar uma ilustração no lugar certo pode fazer uma enorme difere
 
 ## 4\. Enquadramentos sólidos
 
--   ![](/wp-content/uploads/2020/03/screenshot-converse.com_.br-2020.03.21-22_02_40-1024x501.jpg)
+-   ![](./2020-03-screenshot-converse.com_.br-2020.03.21-22_02_40.jpg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.nike_.com_.br-2020.03.21-22_01_25-1024x501.png)
+-   ![](./2020-03-screenshot-www.nike_.com_.br-2020.03.21-22_01_25.png)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.oakley.com-2020.03.21-22_05_28-1024x501.jpg)
+-   ![](./2020-03-screenshot-www.oakley.com-2020.03.21-22_05_28.jpg)
     
 
 Lembrando um pouco a moldura de um quadro, ou até mesmo aquela camiseta descolada com uma simples fotografia impressa no peito, enquadramentos tem se tornado uma tendência crescente. Você pode encontrar esse modelo em muitos sites e principalmente lojas virtuais. Sua estrutura limpa e organizada separam bem os conteúdos e favorecem o foco no que é importante!
 
 ## 5\. Cores vibrantes e luminosas
 
--   ![](/wp-content/uploads/2020/03/screenshot-nubank.com_.br-2020.03.21-22_09_14-1024x501.jpg)
+-   ![](./2020-03-screenshot-nubank.com_.br-2020.03.21-22_09_14.jpg)
     
--   ![](/wp-content/uploads/2020/03/attachment_112301902-e1573816708542.jpeg)
+-   ![](./2020-03-attachment_112301902-e1573816708542.jpeg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.bancointer.com_.br-2020.03.21-22_10_40-1024x501.jpg)
+-   ![](./2020-03-screenshot-www.bancointer.com_.br-2020.03.21-22_10_40.jpg)
     
--   ![](/wp-content/uploads/2020/03/Screen-Shot-2019-11-12-at-8.46.03-PM-e1573609778854.jpg)
+-   ![](./2020-03-Screen-Shot-2019-11-12-at-8.46.03-PM-e1573609778854.jpg)
     
 
 Uma tendência que precisa ser usada com muito cuidado, a linha é tenue entre o brega e o chamativo. O uso de cores fores e luminosas desenvolvem um visual moderno e arrojado, se usada da maneira correta pode encantar seu público.

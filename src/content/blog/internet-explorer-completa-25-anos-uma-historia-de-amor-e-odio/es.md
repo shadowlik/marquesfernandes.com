@@ -26,7 +26,7 @@ Microsoft no lo pensó dos veces y copió el código de Netscape. Por mucho que 
 
 En 1995, Netscape Navigator supuestamente tenía casi el 80 por ciento del mercado de navegadores en los Estados Unidos. Pero en 1998, Internet Explorer superó a Netscape con su oferta de navegador "gratuito" e integrado, lo que también llamó la atención del Departamento de Justicia, que inició una demanda [antimonop](https://pt.wikipedia.org/wiki/Lei_Antitruste#:~:text=A%20legisla%C3%A7%C3%A3o%20antitruste%20foi%20criada,de%20mesma%20ordem%20no%20Brasil.)olio, investigando si Microsoft había violado alguna ley. Se libró una batalla legal, con mucha controversia y decisiones controvertidas. Microsoft finalmente llegó a un acuerdo con el Departamento de Justicia, estableciendo un comité independiente de tres personas para revisar el negocio de Microsoft. La empresa tuvo que desarrollar una política interna de cumplimiento antimonopolio para garantizar que este monopolio no volviera a suceder. Pero toda la historia tardó en desarrollarse, lo que provocó que AOL comprara Netscape tan pronto como su participación en el mercado comenzó a caer. En 2004, Internet Explorer tenía alrededor del 90 por ciento del mercado, mientras que el competidor de Netscape no sumaba un solo dígito.
 
-![Internet Explorer 7](/wp-content/uploads/2020/08/internet-explorer-7-InternetExplorer7.jpg)
+![Internet Explorer 7](./2020-08-internet-explorer-7-InternetExplorer7.jpg)
 
 Internet Explorer 7
 
@@ -34,7 +34,7 @@ Empezaban a surgir nuevos competidores, Firefox se estaba apoderando lentamente 
 
 ## Internet Explorer se retira y se reemplaza por Microsoft Edge
 
-![Cuota de mercado de navegadores - 2015 ~ 2020](/wp-content/uploads/2020/08/screenshot-www.statista.com-2020.08.16-21_10_28-1.png)
+![Cuota de mercado de navegadores - 2015 ~ 2020](./2020-08-screenshot-www.statista.com-2020.08.16-21_10_28-1.png)
 
 [Cuota de mercado de navegadores - 2015 ~ 2020](https://www.statista.com/statistics/544400/market-share-of-internet-browsers-desktop/#:~:text=Global%20desktop%20internet%20browsers%20market%20share%202015%2D2020&text=As%20of%20June%202020%2C%20Google,points%20in%20just%20three%20years.)
 

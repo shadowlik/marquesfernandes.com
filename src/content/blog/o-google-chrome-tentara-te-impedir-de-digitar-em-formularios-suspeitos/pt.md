@@ -20,7 +20,7 @@ Você provavelmente já deve ter notado o pequeno ícone de cadeado fechado no s
 
 A ideia inicial é que você receba alguns avisos grandes e chamativos, de acordo com [o post oficial do blog do Google](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html), será algo assim:
 
-![Aviso de Formulário Inseguro](/wp-content/uploads/2020/08/Screen-Shot-2020-08-13-at-4.34.37-PM.png)
+![Aviso de Formulário Inseguro](./2020-08-Screen-Shot-2020-08-13-at-4.34.37-PM.png)
 
 E se mesmo assim, você tentar enviar as suas informações pessoais ignorando o aviso do Google, ele tentará te dar mais uma chance de pensar bem sobre o que você está fazendo:
 

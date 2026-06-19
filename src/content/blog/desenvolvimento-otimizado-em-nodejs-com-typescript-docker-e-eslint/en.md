@@ -190,7 +190,7 @@ app.listen(PORT, () => {
 
 run the command `npm run dev` , open your browser and access [http://localhost:8080/hello-world](http://localhost:8080/hello-world)
 
-![](/wp-content/uploads/2019/12/image-26-1024x521.png)
+![](./2019-12-image-26.png)
 
 ## Testing our new setup
 
@@ -224,7 +224,7 @@ app.listen(PORT, () => {
 
 Save the file and watch the magic happen, the expected result is that the application identifies our modification and updates the process automatically. To validate, go to [http://localhost:8080/helo-world/henrique](http://localhost:8080/helo-world/henrique) :
 
-![](/wp-content/uploads/2019/12/image-27-1024x521.png)
+![](./2019-12-image-27.png)
 
 ## Dockerizing the application
 

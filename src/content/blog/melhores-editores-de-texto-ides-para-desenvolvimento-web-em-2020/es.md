@@ -25,7 +25,7 @@ He separado algunas de las mejores opciones de código abierto disponibles en el
 
 Como todo buen proyecto de código abierto, una comunidad activa detrás de él marca la diferencia, podemos observar el interés del año pasado bajo los temas de cada uno de los IDE LISTADOS:
 
-[![Tendencias de Google - VS Code x Atom x NetBeans x Brackets](/wp-content/uploads/2019/12/image-29-1024x527.png)](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)
+[![Tendencias de Google - VS Code x Atom x NetBeans x Brackets](./2019-12-image-29.png)](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)
 
 [Tendencias de Google - VS Code x Atom x NetBeans x Bracke](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)[ts](https://trends.google.com.br/trends/explore?q=%2Fm%2F0134xwrk,%2Fm%2F0_x5x3g,%2Fm%2F01fchg,%2Fm%2F0k2kj45)
 

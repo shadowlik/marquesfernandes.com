@@ -48,7 +48,7 @@ Imagina que você desenvolveu uma API Rest que devolve o conteúdo de um arquivo
 
 ## [NPM](http://npmjs.com)
 
-![](/wp-content/uploads/2019/03/npm-1024x398.png)
+![](./2019-03-npm.png)
 
 Outra parte maravilhosa do **node** está em sua comunidade: **NPM** é o gerenciador de de pacotes ("dependências") do **NodeJS**, aqui você vai encontrar as mais variadas soluções escritas pela comunidade. Provavelmente você vai se deparar em situações/problemas na hora de desenvolver que alguma boa alma já passou e publicou um pacote **NPM** para facilitar a sua vida. Todo esse ecossistema faz com que o desenvolvimento de aplicações em Node seja rápido e eficiente!
 

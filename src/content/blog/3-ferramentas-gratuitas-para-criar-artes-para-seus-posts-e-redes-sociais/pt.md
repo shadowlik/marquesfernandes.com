@@ -42,7 +42,7 @@ Snappa é a minha "go-to" ferramenta, possuí uma interface de criação muito a
 
 ## [Canva](https://www.canva.com/)
 
-![](/wp-content/uploads/2019/02/image-14-1024x502.png)
+![](./2019-02-image-14.png)
 
 [https://www.canva.com/](https://www.canva.com/)
 
@@ -50,7 +50,7 @@ Canva é uma excelente alternativa para quando você extrapola seu limite de 5 d
 
 ## [Stencil](https://getstencil.com/app)
 
-![](/wp-content/uploads/2019/02/image-15-1024x496.png)
+![](./2019-02-image-15.png)
 
 [https://getstencil.com/app](https://getstencil.com/app)
 

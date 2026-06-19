@@ -24,7 +24,7 @@ So enough of the fuss and let's learn how to transfer the birthday schedule from
 
 ## 1\. Install Birthday Calendar Extractor Extension
 
-[![Transfer birthday schedule from Facebook to Google Calendar](/wp-content/uploads/2020/11/birthday-calendar-1-1024x610.jpg)](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt)
+[![Transfer birthday schedule from Facebook to Google Calendar](./2020-11-birthday-calendar-1.jpg)](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt)
 
 Install the extension ' [Birthday Calendar Extractor for Facebook](https://chrome.google.com/webstore/detail/birthday-calendar-extract/imielmggcccenhgncmpjlehemlinhjjo/related?hl=pt) ' directly from the Chrome Webstore.
 
@@ -32,7 +32,7 @@ Install the extension ' [Birthday Calendar Extractor for Facebook](https://chrom
 
 now visit [Facebook.com](https://facebook.com/) and when you're there, click the Birthday Calendar Extractor icon in the top right extension shortcuts. Importantly, if your facebook has the display language in Portuguese, it will be necessary to switch to one of the languages compatible with the extension, such as English.
 
-![Transfer Facebook Birthday Schedule to Google Calendar - Chrome Extension](/wp-content/uploads/2020/11/facebook-birthdays-print-1-1024x576.jpg)
+![Transfer Facebook Birthday Schedule to Google Calendar - Chrome Extension](./2020-11-facebook-birthdays-print-1.jpg)
 
 Click on 'Generate Google Calendar - ICS' and the file will download in a few seconds.ICS is a universal calendar format used by Microsoft Outlook, Google Calendar and Apple Calendar.Important: Do not change anything in this file.
 
@@ -40,7 +40,7 @@ Click on 'Generate Google Calendar - ICS' and the file will download in a few se
 
 Go to your Google Calendar page.Press the gear icon > settings > Import / Export and you will be on the page [import](https://calendar.google.com/calendar/u/0/r/settings/export?pli=1) from Google Calendar.
 
-![Import birthday file to Google Calendar](/wp-content/uploads/2020/11/image-22-1024x487.png)
+![Import birthday file to Google Calendar](./2020-11-image-22.png)
 
 Choose the file from the download location (wherever it is on your PC) and click the import button. I recommend that you create a specific calendar for this, it will be easier to organize the dates, and whether or not you want to display birthdays later.
 

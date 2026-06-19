@@ -25,7 +25,7 @@ Antes de crear cualquier filtro, debemos crear una nueva **vista previa** en la 
 2.  Asegúrese de que la cuenta y la propiedad correctas están seleccionadas en la lista desplegable superior izquierda.
 3.  En la pestañ**a de vis**ita, haga clic **en Crear visit**a. De un nombre descriptivo, como *"Pruebas de filtr*o."
 
-![Crear nueva vista en la propiedad](/wp-content/uploads/2019/12/image-15-1024x496.png)
+![Crear nueva vista en la propiedad](./2019-12-image-15.png)
 
 Crear nueva vista en la propiedad
 
@@ -34,7 +34,7 @@ Una vez creado, vuelva a la página Administrador y compruebe que la vi**sita r*
 1.  Haga clic e**n Filtros** en la pest**aña Vis**ita y haga clic en el b**otón +Agregar filtr**o.
 2.  Ponga un nombre significativo, como *"Eliminar páginas de vista previa*."
 
-![Crear nuevo filtro](/wp-content/uploads/2019/12/image-17-1024x496.png)
+![Crear nuevo filtro](./2019-12-image-17.png)
 
 Crear nuevo filtro
 
@@ -44,7 +44,7 @@ Crear nuevo filtro
 6.  En **Tipo de patrón de** filtro, v*ista previa y  
     verdadero. (Este texto está presente en todas las páginas de vista previa, incluidas la[s vistas previas públicas, s](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress)i está habilitado.)*
 
-![Eliminar páginas de vista previa](/wp-content/uploads/2019/12/image-18-1024x496.png)
+![Eliminar páginas de vista previa](./2019-12-image-18.png)
 
 Eliminar páginas de vista previa
 
@@ -61,7 +61,7 @@ Para filtrar las páginas del panel administrativo, seguiremos casi todos los mi
 5.  En **subdirector**io type, */wp-admin/  
     *(Esta ruta está presente en todas las páginas del panel administrativo).
 
-![Eliminar páginas administrativas (/wp-admin/)](/wp-content/uploads/2019/12/image-19-1024x496.png)
+![Eliminar páginas administrativas (/wp-admin/)](./2019-12-image-19.png)
 
 Eliminar páginas administrativas (/wp-admin/)
 

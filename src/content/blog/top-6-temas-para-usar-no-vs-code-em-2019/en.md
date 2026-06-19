@@ -37,28 +37,28 @@ Another darling of the community and currently my topic of choice. A dark theme 
 
 For those who are migrating from [atom,](https://ide.atom.io/) One Dark Pro will make you feel at home.
 
-![](/wp-content/uploads/2019/03/0_vmc8bpndn19OttSk.png)
+![](./2019-03-0_vmc8bpndn19OttSk.png)
 
 ## [3\. Rainlow](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)
 
 If you're looking for variety, **Rainlow** it's your choice: A collection of 320+ color matching themes.
 
--   ![](/wp-content/uploads/2019/03/earthsong-1024x689.png)
+-   ![](./2019-03-earthsong.png)
     
--   ![](/wp-content/uploads/2019/03/piggy-1024x689.png)
+-   ![](./2019-03-piggy.png)
     
--   ![](/wp-content/uploads/2019/03/kiwi-1024x689.png)
+-   ![](./2019-03-kiwi.png)
     
--   ![](/wp-content/uploads/2019/03/gloom-contrast-1024x689.png)
+-   ![](./2019-03-gloom-contrast.png)
     
 
 ## [4\. Noctis](https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis)
 
 With soft combinations this is a theme for those looking to rest their eyes. It has light and dark variations.
 
--   ![](/wp-content/uploads/2019/03/noctisMinimus-1011x1024.png)
+-   ![](./2019-03-noctisMinimus.png)
     
--   ![](/wp-content/uploads/2019/03/NoctisUva-1011x1024.png)
+-   ![](./2019-03-NoctisUva.png)
     
 
 ## [5\. One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)

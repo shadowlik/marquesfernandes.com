@@ -52,19 +52,19 @@ En resumen, Linux desciende de Unix, su base está diseñada para comportarse de
 
 Hay dos maneras de acceder a su terminal en Ubuntu: Escribir Termin*al en el* campo de búsqueda de la aplicación o por el ctrl + alt + t a`tajo de teclad`o.
 
-![Búsqueda de aplicaciones](/wp-content/uploads/2020/03/image-17.jpg)
+![Búsqueda de aplicaciones](./2020-03-image-17.jpg)
 
 Búsqueda de aplicaciones
 
 Aparecerá una ventana similar a la siguiente:
 
-![Línea de comandos - Terminal](/wp-content/uploads/2020/03/image-18.jpg)
+![Línea de comandos - Terminal](./2020-03-image-18.jpg)
 
 Línea de comandos - Terminal
 
 Comencemos con algunos conceptos básicos del terminal, primero necesitamos entender qué significa los textos que ya aparecen en la pantalla.
 
-![Comprender la Terminal](/wp-content/uploads/2020/03/image-19.png)
+![Comprender la Terminal](./2020-03-image-19.png)
 
 Comprender la Terminal
 
@@ -79,7 +79,7 @@ usuario@computador:local$
 
 Ahora vamos a probar nuestro primer comando, el pwd`, d`esde el inglés 'impr**i**mir di**r**ectorio de trabajo', se mostrará la ruta completa a la que se hace referencia al ejecutar los comandos, escriba el comando en su terminal y pulse *enter*.
 
-![Utilizando el comando pwd](/wp-content/uploads/2020/03/image-20.png)
+![Utilizando el comando pwd](./2020-03-image-20.png)
 
 Utilizando el comando pwd
 
@@ -93,25 +93,25 @@ A diferencia de Windows, donde convencionalmente la raíz de todos los programas
 
 Ahora vamos a navegar a la raíz de nuestro equipo y volver a nuestra carpeta raíz de usuario, para esto vamos a utilizar el comando cd, desd**e** el inglés 'camb**i**ar dire**c**torio', para cambiar lo suficiente. Introduzca el man`dato` cd/ y pulse Intro.
 
-![Utilizando el comando cd](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.26-11_01_43.png)
+![Utilizando el comando cd](./2020-03-screenshot-nimbus-capture-2020.03.26-11_01_43.png)
 
 Utilizando el comando cd
 
 Podemos observar que logramos navegar a /, tenga e**n** cuenta que en la última línea ya podemos ver el /después de los dos puntos. Ahora vamos a enumerar todas las carpetas que tenemos en este directorio con el comando `l`s. Introduzca ls y pulse Intro.
 
-![Usando el comando ls](/wp-content/uploads/2020/03/image-21.jpg)
+![Usando el comando ls](./2020-03-image-21.jpg)
 
 Usando el comando ls
 
 La convención de carpeta puede variar según la distribución de Linux, estamos interesados en l`a car`peta /home, queremos navegar a ella, para esto repetiremos los pasos anteriores, ahora ejecutando el comando `cd home` y luego ls par`a` enumerar el contenido de la carpeta.
 
-![Navegar a la carpeta raíz ](/wp-content/uploads/2020/03/image-22.jpg)
+![Navegar a la carpeta raíz ](./2020-03-image-22.jpg)
 
 Navegar a la carpeta raíz
 
 Aquí notamos que sólo hay una carpeta dentro de la carpeta /home, porque sólo hay un usuario creado en mi equipo, si tiene más de un usuario, sus carpetas raíz estarán allí. Repita de nuevo la secuencia de comandos, cd `shadowlik (en` este caso el nombre de carpeta de su usuario) y `l`s.
 
-![Navegar a la carpeta de usuario](/wp-content/uploads/2020/03/image-23.jpg)
+![Navegar a la carpeta de usuario](./2020-03-image-23.jpg)
 
 Navegar a la carpeta de usuario
 
@@ -127,7 +127,7 @@ Antes de seguir vamos a aprender a limpiar nuestro terminal, ya que ya hemos eje
 
 Ahora vamos a aprender a crear una carpeta en nuestra casa, para esto vamos a utilizar el co`mando` mkdir, desde e**l** i**ngl**és 'make directory', vamos a crear una carpeta llamada Tutorial, escriba `mkdir Tutorial` y luego usaremos el comando ls para validar si nuestro directorio fue creado.
 
-![Creación de la carpeta Tutorial](/wp-content/uploads/2020/03/image-24.jpg)
+![Creación de la carpeta Tutorial](./2020-03-image-24.jpg)
 
 Creación de la carpeta Tutorial
 
@@ -137,13 +137,13 @@ Ahora vamos a crear un archivo de texto simple, vamos a aprender dos maneras de 
 
 Con el comando touch podemos crear un archivo de texto vacío, así que escribe t`ouch texto.txt` y l`s` para comprobar la creación.
 
-![Creación de un archivo con el comando Táctil](/wp-content/uploads/2020/03/image-25.png)
+![Creación de un archivo con el comando Táctil](./2020-03-image-25.png)
 
 Creación de un archivo con el comando Táctil
 
 Ahora usaremos el comando echo para crear un archivo de texto con contenido, así que escriba `echo "Hello world!" > text2.tx`t. Para validar el contenido de este archivo utilizaremos el `com`ando cat, nos devolverá todo el contenido dentro del archivo, escriba `cat texto2.tx`t.
 
-![Creación de un archivo con el comando echo](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.26-11_25_40.jpg)
+![Creación de un archivo con el comando echo](./2020-03-screenshot-nimbus-capture-2020.03.26-11_25_40.jpg)
 
 Creación de un archivo con el comando echo
 
@@ -151,7 +151,7 @@ Creación de un archivo con el comando echo
 
 En Linux no hay manera de cambiar el nombre de los archivos, no voy a entrar en detalles técnicos de por qué, lo que podemos hacer es mover este archivo con un nuevo nombre y lograremos el comportamiento similar deseado. Para ello usaremos el comando m`v,` del inglés 'm**o**v**e**', escriba m`v texto2.txt olamundo.txt y u`saremos el comando `cat olamundo.txt` para validar la ejecución.
 
-![Mover archivos](/wp-content/uploads/2020/03/image-26.jpg)
+![Mover archivos](./2020-03-image-26.jpg)
 
 Mover archivos
 
@@ -161,13 +161,13 @@ El primer argumento es la ubicación del archivo y el segundo la ubicación fina
 
 Ahora que hemos aprendido a crear carpetas y archivos, vamos a aprender a eliminarlos. Para eliminar carpetas vacías puede utilizar el comando rmdi`r, des`de el 'directori**o** **d**e eli**m**inación' en inglés, pero este comando sólo es posible si la carpeta está vacía. Para eliminar archivos y carpetas con contenido, usamos el comando r`m,` para eliminar archivos es muy simple, utilice el comando `rm olamundo.txt` y `ls` para validar la ejecución.
 
-![Eliminación de archivos](/wp-content/uploads/2020/03/image-27.jpg)
+![Eliminación de archivos](./2020-03-image-27.jpg)
 
 Eliminación de archivos
 
 Ahora volvamos a nuestra carpeta raíz de usuario para eliminar la carpeta Tutorial que creamos anteriormente, para este tipo `cd ..` para volver a una carpeta y utilizar el co`mando` rm -r Tutorial, este comando indica que queremos eliminar, de forma forzóctica y recursiva (-r), la carpeta y cualquier contenido dentro.
 
-![Eliminación de carpetas](/wp-content/uploads/2020/03/image-28.jpg)
+![Eliminación de carpetas](./2020-03-image-28.jpg)
 
 Eliminación de carpetas
 
@@ -181,7 +181,7 @@ Hasta ahora hemos ejecutado un comando a la vez, pero es posible encadenar una s
 
 cd &&&&&&&&&&a echo "Ola mundo" > Textos/mundo.txt && cat Textos/mundo.txt
 
-![¡Ejecutando comandos encadenados!](/wp-content/uploads/2020/03/image-29.png)
+![¡Ejecutando comandos encadenados!](./2020-03-image-29.png)
 
 Ejecución de comandos encadenados
 
@@ -195,7 +195,7 @@ Podemos usar cualquier comando con privilegios de root, por lo que sólo tenemos
 
 Vamos a hacer una prueba para ver cómo funcionan los permisos en la práctica, vamos a intentar crear un comando en la raíz de nuestro sistema, que de forma predeterminada requiere privilegios de root para cualquier operación de escritura, el resultado esperado es un error de privilegio.
 
-![Ejecución de comandos sin privilegios](/wp-content/uploads/2020/03/image-34.png)
+![Ejecución de comandos sin privilegios](./2020-03-image-34.png)
 
 Ejecución de comandos sin privilegios
 
@@ -203,19 +203,19 @@ Ejecución de comandos sin privilegios
 
 La instalación de cualquier aplicación por ubuntu administrador de paquetes requiere privilegios de root, vamos a utilizar este comando como un ejemplo. Vamos a instalar un programa simple, similar al administrador de tareas de Windows, *htop*. Ingrese el comando `sudo apt-get install htop` y presione enter, la contraseña será requerida.
 
-![Instalación de la aplicación htop](/wp-content/uploads/2020/03/image-30.png)
+![Instalación de la aplicación htop](./2020-03-image-30.png)
 
 Instalación de la aplicación htop
 
 Por seguridad en Linux, cuando introduces tu contraseña, no aparece nada, ni siquiera el \*\*\*\*\*\*, por lo que es importante que introduzcas tu contraseña con calma y presiones enter. Tres intentos erróneos cancelarán su comando.
 
-![Instalación de la aplicación htop - parte 2](/wp-content/uploads/2020/03/image-32.jpg)
+![Instalación de la aplicación htop - parte 2](./2020-03-image-32.jpg)
 
 Instalación de la aplicación htop - parte 2
 
 Si todo sucede como se esperaba, habremos instalado con éxito el programa h*top,* ahora se puede abrir el administrador de tareas linux, ver recursos como memoria, procesamiento y servicios abiertos con un comando simple, escr`iba` htop y pulse enter.
 
-![Uso de la aplicación htop](/wp-content/uploads/2020/03/image-33.jpg)
+![Uso de la aplicación htop](./2020-03-image-33.jpg)
 
 Uso de la aplicación htop
 

@@ -41,7 +41,7 @@ Se você estiver em modo EFI e/ou a partição em que seu arquivo deletado estav
 
 Caso não tenha certeza qual o tipo da partição, use o comando `df -Th` para listar todas as partições e seus tipos de suas unidades de disco:
 
-![Screenshot 1](/wp-content/uploads/2020/01/image-31.png)
+![Screenshot 1](./2020-01-image-31.png)
 
 df -Th
 
@@ -49,7 +49,7 @@ df -Th
 
 Vou explicar o nosso exemplo: Eu tenho um pendrive com três arquivos, e sem querer vou deletei com o comando `rm curriculum.txt` o meu precioso currículo, levei horas escrevendo, ó céus! Quando deletamos pela linha de comando, nosso arquivo não vai automaticamente para a lixeira, então teremos a impressão de que ele se foi para sempre.
 
-![Screenshot 2](/wp-content/uploads/2020/01/image-20.png)
+![Screenshot 2](./2020-01-image-20.png)
 
 Nosso cenário de exemplo
 
@@ -67,7 +67,7 @@ Agora execute o TestDisk no terminal com o comando:
 
 `sudo testdisk`
 
-![Screenshot 3](/wp-content/uploads/2020/01/image-12.png)
+![Screenshot 3](./2020-01-image-12.png)
 
 ### 1.3 - Criando um arquivo de log
 
@@ -77,25 +77,25 @@ Você provavelmente esta usando uma versão superior do 7.0, então muito dos co
 
 ### 1.4 - Selecionando o seu disco
 
-![Screenshot 4](/wp-content/uploads/2020/01/image-21.png)
+![Screenshot 4](./2020-01-image-21.png)
 
 Nessa etapa você verá uma listagem de seus discos. Selecione a partição onde estava o seu arquivo, se você não sabe qual é continue seguindo as recomendações da ferramenta, no meu caso é o disco do pendrive da Kingston. *Não esqueça de selecionar no menu de navegação a opção* `Proceed`.
 
 ### 1.5 - Selecionando o tipo de partição
 
-![Screenshot 5](/wp-content/uploads/2020/01/image-23.png)
+![Screenshot 5](./2020-01-image-23.png)
 
 Agora vamos seguir o mesmo conselho do passo **4** e confiar na sugestão do TestDisk.
 
 ### 1.6 - Selecionando o utilitário
 
-![Screenshot 6](/wp-content/uploads/2020/01/image-24.png)
+![Screenshot 6](./2020-01-image-24.png)
 
 Nessa etapa precisaremos analisar um pouco melhor. Caso ainda não tenha notado, essa ferramenta não é só para recuperar arquivos deletados, e sim um poderoso utilitário para discos. Mas se veja com calma a descrição das opções, você verá que o que queremos fazer está em `Advanced`.
 
 ### 1.7 - Selecionando a partição
 
-![Screenshot 7](/wp-content/uploads/2020/01/image-26.png)
+![Screenshot 7](./2020-01-image-26.png)
 
 Agora precisamos selecionar a partição onde está localizado nosso arquivo, provavelmente a partição correta, será a partição com o maior número de sectores. No menu de navegação selecione `Undelete`.
 
@@ -103,13 +103,13 @@ Agora precisamos selecionar a partição onde está localizado nosso arquivo, pr
 
 Encontramos a pasta do nosso arquivo, e olha quem está ali em vermelho! Nosso arquivo deletado vive!
 
-![Screenshot 8](/wp-content/uploads/2020/01/image-29.png)
+![Screenshot 8](./2020-01-image-29.png)
 
 Não ligue pra diferença dos prints, eu tive que refazer as etapas e acabei precisando deletar o arquivo de log anterior do TestDrive
 
 ### 1.9 - Recuperando o arquivo deletado
 
-![Screenshot 9](/wp-content/uploads/2020/01/image-30.png)
+![Screenshot 9](./2020-01-image-30.png)
 
 Agora para recuperar nosso arquivos precisamos selecionar nosso arquivo e pressionar a tecla "**c**". Depois você precisará escolher para qual diretória deseja recuperar o arquivo e se tudo der certo uma mensagem como a seguinte deverá aparecer: "Copy done! 1 ok, 0 failed".
 
@@ -123,23 +123,23 @@ O processo poderá ser um pouco mais demorado dependendo da quantidade de arquiv
 
 Vamos supor que eu deletei um arquivo chamado **curriculum.doc**.
 
-![Screenshot 10](/wp-content/uploads/2020/01/image-32.png)
+![Screenshot 10](./2020-01-image-32.png)
 
 ### 2.1 - Executando o Photorec
 
-![Screenshot 11](/wp-content/uploads/2020/01/image-33-1024x576.png)
+![Screenshot 11](./2020-01-image-33.png)
 
 Execute o comando `sudo photorec` em seu terminal para iniciar o programa de recuperação.
 
 ### 2.2 - Selecionando os tipos de arquivos
 
-![Screenshot 12](/wp-content/uploads/2020/01/image-35-1024x576.png)
+![Screenshot 12](./2020-01-image-35.png)
 
 Selecione o tipo de arquivos que desejamos recuperar, quando mais específico for, menos tempo levaremos para recuperar o nosso arquivo. Clique a tecla **"s"** para descelecionar todas as opções e procure a extensão do seu arquivo, em nosso caso **.doc**. Após ter selecionado todas as extensões desejadas, clique **"b"** para salvar a nova configuração e logo em seguida clique enter na opção quit para retornar ao menu principal.
 
 ### 2.3 - Selecionando a partição
 
-![Screenshot 13](/wp-content/uploads/2020/01/image-36-1024x576.png)
+![Screenshot 13](./2020-01-image-36.png)
 
 Selecione a partição, e com a opção Search selecionada pressione enter.
 
@@ -147,19 +147,19 @@ Nessa etapa, precisamos selecionar qual o tipo da nossa partição, selecione co
 
 ### 2.4 - Selecionando o modo de busca
 
-![Screenshot 14](/wp-content/uploads/2020/01/image-37-1024x576.png)
+![Screenshot 14](./2020-01-image-37.png)
 
 Selecione a opção free para uma busca mais rápida apenas nos espaços de memória desalocados, ou se preferir, faça uma busca na partição inteira.
 
 ### 2.5 - Selecionando a pasta de destino
 
-![Screenshot 15](/wp-content/uploads/2020/01/image-39-1024x576.png)
+![Screenshot 15](./2020-01-image-39.png)
 
 Agora precisamos selecionar para qual pasta desejamos que nossos arquivos recuperados sejam enviados, eu recomendo que você crie uma pasta em um disco diferente do que você está tentando recuperar. Eu criei uma pasta chamada Recovery no disco principal para enviar os arquivos recuperados. Navegue até achar o destinado desejado e então pressione a tecla "c" para dar inicio a recuperação.
 
 ### 2.6 - Executando a recuperação dos arquivos
 
-![Screenshot 16](/wp-content/uploads/2020/01/image-40-1024x576.png)
+![Screenshot 16](./2020-01-image-40.png)
 
 O processo de busca do Photoreco costuma ser mais demorado que o do TestDrive pois ele varre toda a partição em busca de todos os arquivos deletados com as extensões que selecionamos para procurar, você pode acompanhar o processo e em tempo real verificar se algum arquivo já foi recuperado para a pasta selecionada no último passo.
 

@@ -28,7 +28,7 @@ Antes de criar qualquer filtro, devemos criar uma nova **Visualização** na pro
 2.  Verifique se no drop-down superior esquerdo está selecionado a conta e a propriedade correta.
 3.  Na aba de **visita** clique em **Criar visita**. De um nome descritivo, como "*Teste de filtros*".
 
-![Criar nova Vista na Propriedade](/wp-content/uploads/2019/12/image-15-1024x496.png)
+![Criar nova Vista na Propriedade](./2019-12-image-15.png)
 
 Criar nova Vista na Propriedade
 
@@ -37,7 +37,7 @@ Uma vez criado, retorne para a página de Administrador e verifique se a **Visit
 1.  Clique em **Filtros** na aba de **Visita** e clique no botão **+Adicionar filtro**.
 2.  Coloque um nome significativo, como "*Excluir páginas de pré-visualização*".
 
-![Criar novo filtro](/wp-content/uploads/2019/12/image-17-1024x496.png)
+![Criar novo filtro](./2019-12-image-17.png)
 
 Criar novo filtro
 
@@ -47,7 +47,7 @@ Criar novo filtro
 6.  Em **Padrão de filtro** digite, *preview=true.  
     (Esse texto está presente em todas as páginas de pré-visualização, incluindo nas [pré-visualizações públicas](http://marquesfernandes.com/2019/12/04/como-permitir-a-pre-visualizacao-publica-em-artigos-nao-publicados-no-wordpress), se habilitado).*
 
-![Excluir páginas de pré-visualização (preview)](/wp-content/uploads/2019/12/image-18-1024x496.png)
+![Excluir páginas de pré-visualização (preview)](./2019-12-image-18.png)
 
 Excluir páginas de pré-visualização (preview)
 
@@ -64,7 +64,7 @@ Para filtrar as páginas do painel administrativo, seguiremos quase todos os mes
 5.  Em **Subdiretório** digite, */wp-admin/  
     *(Esse caminho está presente em todas as páginas do painel administrativo).
 
-![Excluir páginas administrativas (/wp-admin/)](/wp-content/uploads/2019/12/image-19-1024x496.png)
+![Excluir páginas administrativas (/wp-admin/)](./2019-12-image-19.png)
 
 Excluir páginas administrativas (/wp-admin/)
 

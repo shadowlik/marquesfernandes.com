@@ -49,11 +49,11 @@ O primeiro computador que vamos configurar deverá ser aquele que queremos utili
 
 Baixe a última versão do `.exe` do Barrier em [github.com/debauchee/barrier/releases](https://github.com/debauchee/barrier/releases), e clique duas vezes no arquivo baixado. Provavelmente o Windows exibirá uma mensagem parecida com essa:
 
-![Instalando o Barrier](/wp-content/uploads/2020/07/barrier-1.jpg)
+![Instalando o Barrier](./2020-07-barrier-1.jpg)
 
 Clique em *Mais informações* e *Executar assim mesmo*, depois basta aceitar os termos e condições e prosseguir clicando em *próximo* para concluir a instalação.
 
-![Configurando o primário](/wp-content/uploads/2020/07/image-33.png)
+![Configurando o primário](./2020-07-image-33.png)
 
 Agora procure o seu atalho do Barrier em seu computador e execute o programa. Seleciona a primeira opção *"Server"* para configurar como o computador principal. Anote o IP do seu computador dentro da sua rede, usaremos ele para configurar o computador secundário, no nosso caso é o IP ao lado do número em negrito, usaremos o *192.168.0.43*.
 
@@ -68,17 +68,17 @@ $ sudo apt-get install -y barrier
 
 Agora abra a aplicação e siga o processo de instalação. Quando concluido, abra o programa, selecione o modo *"Client"* e desmarque a seleção de *"Auto config".* No campo *IP do servidor* adicione o número do IP copiado do passo anterior. Anote também o *Nome da tela*, usaremos ele para configurar a posição da tela em nosso computador principal.
 
-![Barrier Configurando Secundário](/wp-content/uploads/2020/07/image-35.jpg)
+![Barrier Configurando Secundário](./2020-07-image-35.jpg)
 
 ## Configurando a Posição da Tela
 
 Agora que temos o programa rodando nos dois computadores, precisamos configurar e autorizar no computador principal a posição do computador secundário que desejamos controlar. Abra o programa novamente e clique no botão *Configurar servidor*, certifique-se que o Barrier não está rodando, se não você não conseguirá editar as configurações.
 
-![Barrier Adicionado Computador](/wp-content/uploads/2020/07/image-36.jpg)
+![Barrier Adicionado Computador](./2020-07-image-36.jpg)
 
 Clique no computador para adicionar um novo computador secundário. Adicione em *Nome da tela* o nome que anotamos no passo anterior e clique em OK.
 
-![Barrier Configuração Secundário](/wp-content/uploads/2020/07/image-38.png)
+![Barrier Configuração Secundário](./2020-07-image-38.png)
 
 Nesse caso configuramos a posição do nosso computador secundário a esquerda de nosso computador primário, isso significa que quando arrastarmos o mouse para o extremo esquerdo do computador principal, ele irá mudar o controle para o computador secundário. Vamos testar nossa configuração, clique em *Iniciar* no computador primário e em *Aplicar* no secundário, se tudo ocorrer conforme esperado, você já conseguirá controlar os dois computadores a partir de um único mouse e teclado. Você pode inclusive adicionar um terceiro computador, por exemplo, um computador da Apple com MacOS, para configurar basta seguir os mesmos passos e escolher a posição dele referente ao seu computador primário.
 

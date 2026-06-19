@@ -35,11 +35,11 @@ O torrent em si é seguro, o que muitas pessoas não entendem é que ele é uma 
 
 A primeira coisa que você precisa é instalar uma aplicação para baixar e gerenciar os torrents, eu recomendo e usaremos nesse tutorial o [uTorrent](https://www.utorrent.com/intl/pt/). Ele está disponível para todos os sistemas operacionais de computadores (Windows, Apple MacOS, Linux) e também existe uma versão mobile para o Android.
 
-[![uTorrent](/wp-content/uploads/2020/08/image-13-1024x487.jpg)](https://www.utorrent.com/intl/pt/)
+[![uTorrent](./2020-08-image-13.jpg)](https://www.utorrent.com/intl/pt/)
 
 Não tem mistério, basta baixar o instalador para o sistema operacional do seu computador e seguir os passos para instalar e executar o programa. Após a instalação você deverá ver uma tela parecida com essa:
 
-![Cliente uTorrent](/wp-content/uploads/2020/08/image-13-1024x560.jpg)
+![Cliente uTorrent](./2020-08-image-13.jpg)
 
 ## Procurando Torrents
 
@@ -47,26 +47,26 @@ Agora precisamos encontrar os torrents que desejamos, existem diversos sites par
 
 Ao entrar no site provavelmente será pedido um desafio de segurança pra saber se você é um humano e não um robo.
 
-![RARBG Segurança](/wp-content/uploads/2020/08/image-14-1024x334.png)
+![RARBG Segurança](./2020-08-image-14.png)
 
 Depois de superado essa etapa, daremos de cara com a home do site e uma campo de busca, utilizaremos ela para buscar o nosso torrent.
 
-![Página Inicial RARBG](/wp-content/uploads/2020/08/image-15-1024x487.jpg)
+![Página Inicial RARBG](./2020-08-image-15.jpg)
 
 Depois que você realizar a busca pelo arquivo desejado, seja ele um filme, um seriado ou um programa, ordene os resultados pela coluna de `Seeders`.
 
-![RARBG](/wp-content/uploads/2020/08/image-15-1-1024x487.jpg)
+![RARBG](./2020-08-image-15-1.jpg)
 
 Essas duas colunas são importantes, quanto mais Seeders um arquivo torrent tiver, significa que mais pessoas estão compartilhando esse arquivo, logo, sua velocidade de download será maior. A coluna ao lado, de Leechers, indica a quantidade de pessoas baixando esse arquivo.
 
-![Página de Download RARBG](/wp-content/uploads/2020/08/image-15-2-1024x487.jpg)
+![Página de Download RARBG](./2020-08-image-15-2.jpg)
 
 Bom agora que você escolheu o arquivo adequado, clique no link para ir para a página de torrent. No exemplo acima eu camuflei as informações, novamente, não incentivo o uso de conteúdo piratas, esse artigo é apenas educacional hehehehe. Agora temos duas opções para download, podemos clicar no link de download do torrente e baixar o arquivo e abrir ele com o nosso gerenciador de torrent uTorrent ou podemos clicar no imã, esse link é chamado de Magnet Link, ele é um atalho que abrirá direto a sua aplicação de torrent e começara o download.
 
 Escolha um método e baixe o arquivo `.torrent`, após abrir esse arquivo você verá uma janela contendo o nome do arquivo que você irá baixar, quais arquivos ele contém, normalmente vem um arquivo de texto com informações do autor do torrent e o arquivo desejado. Selecione o local que deseja salvar e clique em ok.
 
-![uTorrent Abrir Torrent](/wp-content/uploads/2020/08/image-15-1024x560.jpg)
+![uTorrent Abrir Torrent](./2020-08-image-15.jpg)
 
 Pronto, agora você pode acompanhar o progresso do seu download, você poderá ver a velocidade que está recebendo os arquivos e também a velocidade que você está enviando esse arquivo para outras pessoas. Quando o torrent acabar de baixar, você precisa explicitamente clicar no torrent e clicar em parar, caso contrário, ele continuará enviando o arquivo para outras pessoas, consumindo e deixando a sua internet lenta.
 
-![uTorrent Progresso](/wp-content/uploads/2020/08/image-16-1024x560.jpg)
+![uTorrent Progresso](./2020-08-image-16.jpg)

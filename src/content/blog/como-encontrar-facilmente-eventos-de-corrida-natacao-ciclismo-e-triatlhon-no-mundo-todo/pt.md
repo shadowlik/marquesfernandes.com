@@ -20,7 +20,7 @@ Se você é um entusiasta de esportes, como corrida, triatlhon ou natação, sab
 
 O [Apuama](https://apuama.app/) é um site gratuito que permite que você encontre facilmente eventos de corrida, triatlo e natação em sua região ou em qualquer lugar do mundo. Ele fornece informações detalhadas sobre cada evento, como distância, localização, data e hora, e permite que você se inscreva diretamente no site.
 
-[![apuama.app](/wp-content/uploads/2023/05/Screenshot-2023-05-08-at-14.29.47-1024x580.jpg)](https://apuama.app/)
+[![apuama.app](./2023-05-Screenshot-2023-05-08-at-14.29.47.jpg)](https://apuama.app/)
 
 [https://apuama.app/](https://apuama.app/)
 
@@ -34,7 +34,7 @@ Outra característica que faz o Apuama ser tão especial é a sua comunidade de 
 
 ## Como usar o [Apuama](https://apuama.app/)?
 
-[![Busca inteligente Apuama](/wp-content/uploads/2023/05/Screenshot-2023-05-08-at-14.30.37-1024x733.jpg)](https://apuama.app/)
+[![Busca inteligente Apuama](./2023-05-Screenshot-2023-05-08-at-14.30.37.jpg)](https://apuama.app/)
 
 Busca inteligente Apuama
 
@@ -42,7 +42,7 @@ Usar o Apuama é muito simples. Basta acessar o site, criar uma conta gratuita e
 
 ## Conclusão
 
-![Página de evento - apuama.app](/wp-content/uploads/2023/05/Screenshot-2023-05-08-at-14.31.39-1024x738.jpg)
+![Página de evento - apuama.app](./2023-05-Screenshot-2023-05-08-at-14.31.39.jpg)
 
 Página de evento
 

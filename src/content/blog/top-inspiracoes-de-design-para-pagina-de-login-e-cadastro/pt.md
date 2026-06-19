@@ -26,7 +26,7 @@ Páginas de login não precisam ser extremamente elaboradas para serem bonitas e
 
 ### Medium
 
-[![medium.com](/wp-content/uploads/2020/08/image-1024x487.jpg)](https://medium.com/)
+[![medium.com](./2020-08-image.jpg)](https://medium.com/)
 
 [Medium](https://medium.com/)
 
@@ -34,7 +34,7 @@ Medium é uma plataforma de publicação de textos e artigos mundial, reconhecid
 
 ### Dev.to
 
-[![DEV Community](/wp-content/uploads/2020/08/screenshot-dev.to-2020.08.01-23_08_02-1024x487.png)](http://dev.to/)
+[![DEV Community](./2020-08-screenshot-dev.to-2020.08.01-23_08_02.png)](http://dev.to/)
 
 [Dev.to](http://dev.to/)
 
@@ -42,7 +42,7 @@ DEV Community é uma plataforma de publicação de artigos voltada para o mundo 
 
 ### Nubank
 
-[![Nubank](/wp-content/uploads/2020/08/download-2-1024x487.png)](https://app.nubank.com.br/#/login)
+[![Nubank](./2020-08-download-2.png)](https://app.nubank.com.br/#/login)
 
 [Nubank](https://app.nubank.com.br/#/login)
 
@@ -54,7 +54,7 @@ Entreter e encantar os seus usuários na página de login e cadastro, com certez
 
 ### Login Page Illustration Exploration by Aliffajar
 
-[![Login Page Illustration Exploration by Aliffajar](/wp-content/uploads/2020/08/ezgif-7-756edc50b5a1.gif)](https://dribbble.com/shots/5401591-Login-Page-Illustration-Exploration-for-Movie-Website)
+[![Login Page Illustration Exploration by Aliffajar](./2020-08-ezgif-7-756edc50b5a1.gif)](https://dribbble.com/shots/5401591-Login-Page-Illustration-Exploration-for-Movie-Website)
 
 [Login Page Illustration Exploration by Aliffajar](https://dribbble.com/shots/5401591-Login-Page-Illustration-Exploration-for-Movie-Website)
 
@@ -62,7 +62,7 @@ Um design feito por Aliffajar, desenvolvido para uma plataforma de cinema/vídeo
 
 ### Dipnet login page by Roman Bystrytskyi
 
-[![Dipnet login page by Roman Bystrytskyi ](/wp-content/uploads/2020/08/ezgif-7-4be6dc24def6.gif)](https://dribbble.com/shots/3829284-Dipnet-login-page)
+[![Dipnet login page by Roman Bystrytskyi ](./2020-08-ezgif-7-4be6dc24def6.gif)](https://dribbble.com/shots/3829284-Dipnet-login-page)
 
 [Dipnet login page by Roman Bystrytskyi](https://dribbble.com/shots/3829284-Dipnet-login-page)
 
@@ -74,7 +74,7 @@ O uso de ilustrações é muito comum ao desenhar uma página de login ou cadast
 
 ### Dribbble
 
-[![dribbble.com](/wp-content/uploads/2020/08/image-1-1024x487.jpg)](https://dribbble.com/session/new)
+[![dribbble.com](./2020-08-image-1.jpg)](https://dribbble.com/session/new)
 
 [Dribbble](https://dribbble.com/session/new)
 
@@ -82,7 +82,7 @@ Dribbble é uma comunidade para compartilhamento de conteúdo artístico, muito 
 
 ### Headspace
 
-[![Headspace](/wp-content/uploads/2020/08/image-1-1024x487.png)](https://www.headspace.com/pt/login)
+[![Headspace](./2020-08-image-1.png)](https://www.headspace.com/pt/login)
 
 [Headspace](https://www.headspace.com/pt/login)
 
@@ -90,7 +90,7 @@ Headspace é um aplicativo para meditação guiada, toda a sua identidade visual
 
 ### Multiple Login Form by Mahisa Dyan Diptya
 
-[![Multiple Login Form by Mahisa Dyan Diptya](/wp-content/uploads/2020/08/multiple_login_.jpg)](https://dribbble.com/shots/3330825-Multiple-Login-Form)
+[![Multiple Login Form by Mahisa Dyan Diptya](./2020-08-multiple_login_.jpg)](https://dribbble.com/shots/3330825-Multiple-Login-Form)
 
 [Multiple Login Form by Mahisa Dyan Diptya](https://dribbble.com/shots/3330825-Multiple-Login-Form)
 
@@ -98,6 +98,6 @@ Quando se tem uma plataforma que atende diferentes tipos de usuários, a página
 
 ## Login UI by DStudio™
 
-[![Login UI by DStudio™](/wp-content/uploads/2020/08/0e8c29afe8286855941a2f3d6e3452e1-1024x768.jpg)](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)
+[![Login UI by DStudio™](./2020-08-0e8c29afe8286855941a2f3d6e3452e1.jpg)](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)
 
 [Login UI](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media) [](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)[by DStudio™](https://dribbble.com/shots/11015400-Login-UI/attachments/2609325?mode=media)

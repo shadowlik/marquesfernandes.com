@@ -19,7 +19,7 @@ updated: 2021-12-12T11:24:15.000Z
 
 ## **[Documentos basados en datos - D3.js](https://d3js.org/)**
 
-[![](/wp-content/uploads/2019/06/image-1024x525.png)](https://d3js.org/)
+[![](./2019-06-image.png)](https://d3js.org/)
 
 [D3.JS](https://d3js.org/)
 
@@ -33,7 +33,7 @@ D3.js es probablemente una de las bibliotecas más famosas hoy en día, utilizad
 
 ## **[Gráficos de Google](https://developers.google.com/chart/)**
 
-[![](/wp-content/uploads/2019/06/image-1-1024x525.png)](https://developers.google.com/chart/)
+[![](./2019-06-image-1.png)](https://developers.google.com/chart/)
 
 Gráficos de Google
 
@@ -43,7 +43,7 @@ Los gráficos altamente personalizables se representan mediante HTML5 o SVG que 
 
 ## **[Chart.js](https://www.chartjs.org/)**
 
-[![](/wp-content/uploads/2019/06/image-4-1024x525.png)](https://www.chartjs.org/)
+[![](./2019-06-image-4.png)](https://www.chartjs.org/)
 
 **\-ERR:REF-NOT-FOUND-Chart.js**
 
@@ -51,7 +51,7 @@ Chart.js es amado por su simplicidad y objetividad, tiene una amplia selección 
 
 ## **[Chartist.js](https://gionkunz.github.io/chartist-js/)**
 
-[![](/wp-content/uploads/2019/06/image-3-1024x525.png)](https://gionkunz.github.io/chartist-js/)
+[![](./2019-06-image-3.png)](https://gionkunz.github.io/chartist-js/)
 
 **\-ERR:REF-NOT-FOUND-Chartist.js**
 
@@ -59,7 +59,7 @@ Al igual que Chart.js, ofrece hermosos gráficos responsivos. Renderizados en SV
 
 ## **[HighCharts JS](https://www.highcharts.com/)**
 
-[![](/wp-content/uploads/2019/06/image-5-1024x525.png)](https://www.highcharts.com/)
+[![](./2019-06-image-5.png)](https://www.highcharts.com/)
 
 Highcharts, Año Nuevo
 
@@ -67,7 +67,7 @@ Una de las bibliotecas más famosas para construir gráficos, extremadamente fle
 
 ## **[Fusioncharts](https://www.fusioncharts.com/)**
 
-[![](/wp-content/uploads/2019/06/image-6-1024x525.png)](https://www.fusioncharts.com/)
+[![](./2019-06-image-6.png)](https://www.fusioncharts.com/)
 
 [Fusioncharts](https://www.fusioncharts.com/)
 

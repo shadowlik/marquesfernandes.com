@@ -52,12 +52,12 @@ Now if you're on Windows, the least complicated way to create the file **.tar** 
 1.  Select all the files and folders you want in your file **.tar**
 2.  Click on the first icon on the top bar "Add"
 
-![7Zip](/wp-content/uploads/2019/12/image-3.jpg)
+![7Zip](./2019-12-image-3.jpg)
 
 3.  Under "Compressed file format" select **tar**
 4.  Click ok
 
-![7Zip](/wp-content/uploads/2019/12/image-4.jpg)
+![7Zip](./2019-12-image-4.jpg)
 
 On Windows 7-Zip does not allow the generation of the file **TAR** and the compression with **gzip** in one step, so we need an additional step.
 
@@ -65,4 +65,4 @@ On Windows 7-Zip does not allow the generation of the file **TAR** and the compr
 5.  Under "Compressed file format" select **gzip**
 6.  Click ok
 
-![7Zip](/wp-content/uploads/2019/12/image-5.jpg)
+![7Zip](./2019-12-image-5.jpg)

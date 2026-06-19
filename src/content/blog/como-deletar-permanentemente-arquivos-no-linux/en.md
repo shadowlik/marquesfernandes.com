@@ -37,7 +37,7 @@ $ shred -zvu -n 5 passwordsbancarias.txt
 
 **Tip:** Never write down your passwords in a text file. Unfortunately it is a very common but totally unsafe practice to store information of this type.
 
-![Shred - Overwrite the file to hide its contents](/wp-content/uploads/2020/02/image-8.png)
+![Shred - Overwrite the file to hide its contents](./2020-02-image-8.png)
 
 ## two. Wipe - Securely delete files on Linux
 
@@ -56,7 +56,7 @@ $ wipe -rfi passwords/\*
 -   `-f` – enables forced deletion and disables confirmations
 -   `-i` – displays progress
 
-![Wipe - Securely delete files on Linux](/wp-content/uploads/2020/02/image-9.png)
+![Wipe - Securely delete files on Linux](./2020-02-image-9.png)
 
 ***Note** : Wipe tool only works safely on magnetic memory (HDD), use the other methods if you are going to delete files or folders on an SDD or USB.*
 
@@ -76,4 +76,4 @@ $ srm -vz passwords/\*
 -   `-v` – verbose mode, displays more process information
 -   `-z` – clears the last deletion with zeros instead of random data
 
-![Secure-deletetion Toolkit for Linux](/wp-content/uploads/2020/02/image-10.png)
+![Secure-deletetion Toolkit for Linux](./2020-02-image-10.png)

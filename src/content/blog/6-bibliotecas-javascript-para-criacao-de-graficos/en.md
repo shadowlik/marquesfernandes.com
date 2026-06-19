@@ -19,7 +19,7 @@ Looking for libraries to render graphics and visualizations? I have separated 6 
 
 ## **[Data-Driven Documents – D3.js](https://d3js.org/)**
 
-[![](/wp-content/uploads/2019/06/image-1024x525.png)](https://d3js.org/)
+[![](./2019-06-image.png)](https://d3js.org/)
 
 [D3.js](https://d3js.org/)
 
@@ -33,7 +33,7 @@ D3.js is probably one of the most famous libraries today, used in more than [100
 
 ## **[Google Charts](https://developers.google.com/chart/)**
 
-[![](/wp-content/uploads/2019/06/image-1-1024x525.png)](https://developers.google.com/chart/)
+[![](./2019-06-image-1.png)](https://developers.google.com/chart/)
 
 Google Charts
 
@@ -43,7 +43,7 @@ Highly customizable, graphics are rendered using HTML5 or SVG which provide brow
 
 ## **[Chart.js](https://www.chartjs.org/)**
 
-[![](/wp-content/uploads/2019/06/image-4-1024x525.png)](https://www.chartjs.org/)
+[![](./2019-06-image-4.png)](https://www.chartjs.org/)
 
 [Chart.js](https://www.chartjs.org/)
 
@@ -51,7 +51,7 @@ Chart.js is loved for its simplicity and straightforwardness, it has a wide sele
 
 ## **[Chartist.js](https://gionkunz.github.io/chartist-js/)**
 
-[![](/wp-content/uploads/2019/06/image-3-1024x525.png)](https://gionkunz.github.io/chartist-js/)
+[![](./2019-06-image-3.png)](https://gionkunz.github.io/chartist-js/)
 
 [Chartist.js](https://gionkunz.github.io/chartist-js/)
 
@@ -59,7 +59,7 @@ Similar to Chart.js, it offers beautiful responsive charts. Rendered in SVG, the
 
 ## **[High Charts JS](https://www.highcharts.com/)**
 
-[![](/wp-content/uploads/2019/06/image-5-1024x525.png)](https://www.highcharts.com/)
+[![](./2019-06-image-5.png)](https://www.highcharts.com/)
 
 highcharts
 
@@ -67,7 +67,7 @@ One of the most famous libraries for building graphics, extremely flexible and w
 
 ## **[Fusion Charts](https://www.fusioncharts.com/)**
 
-[![](/wp-content/uploads/2019/06/image-6-1024x525.png)](https://www.fusioncharts.com/)
+[![](./2019-06-image-6.png)](https://www.fusioncharts.com/)
 
 [Fusion Charts](https://www.fusioncharts.com/)
 

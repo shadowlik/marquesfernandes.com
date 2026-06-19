@@ -33,17 +33,17 @@ Baixe e instale o [PUTTY](https://www.ssh.com/ssh/putty/#sec-PuTTY-downloads) 
 
 Abra o programa **PUTTYgen** e clique no botão gerar (*Generate*).
 
-![](/wp-content/uploads/2019/11/download.jpg)
+![](./2019-11-download.jpg)
 
 Uma barra de progresso aparecerá pedindo para que você mova o mouse para gerar aleatoriedade. Mova seu mouse em cima da área cinza do programa, espere a barra de progresso preencher por completo e então suas chaves serão geradas.
 
-![](/wp-content/uploads/2019/11/download-1.jpg)
+![](./2019-11-download-1.jpg)
 
 Após a geração das chaves novos campos aparecerão logo abaixo. No campo **Key comment** digite o usuário desejado.
 
 Copie a chave pública e salve a chave privada em um lugar seguro de seu computador.
 
-![](/wp-content/uploads/2019/11/download-2.jpg)
+![](./2019-11-download-2.jpg)
 
 ## Adicionando a chave pública em sua instância no Google Cloud
 
@@ -51,11 +51,11 @@ Acesse sua conta do Google Cloud e navegue até **Compute Engine > Instâncias V
 
 Selecione a instância que você deseja acessar, clique em editar e desça até encontrar a sessão **Chaves SSH**.
 
-![](/wp-content/uploads/2019/11/image-6.png)
+![](./2019-11-image-6.png)
 
 Cole a chave pública que você copiou anteriormente no campo "**Digite todos os dados da chave"**, feito isso você verá a esquerda o usuário que você inseriu na criação da chave.
 
-![](/wp-content/uploads/2019/11/image-7.png)
+![](./2019-11-image-7.png)
 
 Agora atualize a instância clicando em **Salvar**.
 
@@ -63,13 +63,13 @@ Agora atualize a instância clicando em **Salvar**.
 
 Abra o **FileZilla** e navegue até **Editar > Configurações**.
 
-![](/wp-content/uploads/2019/11/image-9.png)
+![](./2019-11-image-9.png)
 
 No menu esquerdo lateral navegue até **Conexão > FTP > SFTP**.
 
 Clique em **adicionar arquivo chave** e selecione a chave privada que você salvou.
 
-![](/wp-content/uploads/2019/11/image-8.png)
+![](./2019-11-image-8.png)
 
 Clique em **OK** para salvar as configurações.
 

@@ -68,7 +68,7 @@ Agora vamos listar todas as instalações WSL disponíveis, no meu caso estou em
 
 lxrunoffline list
 
-![WSL](/wp-content/uploads/2020/07/image-39.png)
+![WSL](./2020-07-image-39.png)
 
 ### Movendo a instalação do Ubuntu 20.04 WSL para outro disco
 

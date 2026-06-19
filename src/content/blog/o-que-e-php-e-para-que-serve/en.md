@@ -56,7 +56,7 @@ A PHP file can also contain tags like HTML and [JavaScript](http://marquesfernan
 
 PHP is responsible for doing all the logic for, for example, rendering a web page. It takes care of querying the databases, doing any calculations, and returning the HTML ready for the browser to display to the user.
 
-![](/wp-content/uploads/2020/04/fluxo-php-1.jpg)
+![](./2020-04-fluxo-php-1.jpg)
 
 Without getting into very technical issues, but for a web application to work you need a web server configured to run the PHP files. It is responsible for finding the correct script to run when you access a page such as [http://marquesfernandes.com](http://marquesfernandes.com) . The most popular and used web servers are the [Apache](https://www.apache.org/) and [Nginx](https://www.nginx.com/) .
 

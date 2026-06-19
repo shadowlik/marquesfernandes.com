@@ -30,7 +30,7 @@ Gracias a algunas herramientas online el proceso de escaneo de un dominio es muy
 
 ### 1\. [DNSdumpster](https://dnsdumpster.com/)
 
-[![DNSdumpster](/wp-content/uploads/2020/06/image-1024x521.png)](https://dnsdumpster.com/)
+[![DNSdumpster](./2020-06-image.png)](https://dnsdumpster.com/)
 
 \-ERR:REF-NOT-FOUND-DNSdumpster
 
@@ -40,7 +40,7 @@ No solo subdominio, sino que proporciona información sobre el servidor DNS, el 
 
 ## 2\. -ERR:REF-NOT-FOUND-[NMMAPPER](https://www.nmmapper.com/sys/tools/subdomainfinder/)
 
-[![NMMAPPER](/wp-content/uploads/2020/06/image-1-1024x521.png)](https://www.nmmapper.com/sys/tools/subdomainfinder/)
+[![NMMAPPER](./2020-06-image-1.png)](https://www.nmmapper.com/sys/tools/subdomainfinder/)
 
 \-ERR:REF-NOT-FOUND-[NMMAPPER](https://www.nmmapper.com/sys/tools/subdomainfinder/)
 
@@ -48,7 +48,7 @@ No solo subdominio, sino que proporciona información sobre el servidor DNS, el 
 
 ## 3\. -ERR:REF-NOT-FOUND-Spyse, Nuevo
 
-[![Spyse, Nuevo](/wp-content/uploads/2020/06/image-2-1024x521.jpg)](https://spyse.com/search/subdomain)
+[![Spyse, Nuevo](./2020-06-image-2.jpg)](https://spyse.com/search/subdomain)
 
 [Spyse, Nuevo](https://spyse.com/search/subdomain)
 
@@ -56,13 +56,13 @@ El *"Subdominio Find*er" de Spyse es un motor de búsqueda artesanal que te perm
 
 ## 4\. **[Pentest-Tools](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)**
 
-[![](/wp-content/uploads/2020/06/image-3-1024x521.png)](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
+[![](./2020-06-image-3.png)](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
 
 Las herramientas de Pentest buscan subdominios mediante varios métodos, como la transferencia de zona DNS, la enumeración DNS basada en listas de palabras y el motor de búsqueda público. Tiene dos opciones de escaneo, uno más clientes potenciales y uno completo, ambos le dan la posibilidad de exportar un informe pdf.
 
 ## 5\. **[ImmuniWeb](https://www.htbridge.com/ssl/)**
 
-[![ImmuniWeb](/wp-content/uploads/2020/06/image-4-1024x521.png)](https://www.htbridge.com/ssl/)
+[![ImmuniWeb](./2020-06-image-4.png)](https://www.htbridge.com/ssl/)
 
 **\-ERR:REF-NOT-FOUND-ImmuniWeb**
 

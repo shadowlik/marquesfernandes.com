@@ -23,7 +23,7 @@ For all the magic to happen we need to install and activate the plugin [Public P
 
 After activation you need to browse and edit the desired post and you will notice that in the tab *Document* a new "Enable public preview" option has appeared, to activate the functionality just click and activate the checkbox.
 
-![How to allow public preview on unpublished articles in Wordpress - Image 1](/wp-content/uploads/2019/12/image-1-1024x547.png)
+![How to allow public preview on unpublished articles in Wordpress - Image 1](./2019-12-image-1.png)
 
 After enabling sharing, save any changes made to the article as a draft, copy the generated link and share with the desired person.
 
@@ -33,6 +33,6 @@ To disable public preview just go back to editing the post and deselect the chec
 
 The shared link renders a preview exactly like the page when the article is finally published.
 
-![How to allow public preview on unpublished articles in Wordpress - Image 2](/wp-content/uploads/2019/12/image-2-1024x527.jpg)
+![How to allow public preview on unpublished articles in Wordpress - Image 2](./2019-12-image-2.jpg)
 
 After the article is launched the public preview option will no longer be available in edit mode and the shared URL will create a redirect to the article's permanent link.

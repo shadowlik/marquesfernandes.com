@@ -26,13 +26,13 @@ Pero, ¿es posible crear plantas sin tierra? No sólo es posible, sino que las p
 
 Muchas civilizaciones pasadas han utilizado técnicas de cultivo hidropónico a lo largo de su historia.  Los jardines colgantes de Babilonia, los jardines flotantes de los aztecas de México y los de los chinos son ejemplos de cultivo hidropónico exitoso. Registros jeroglíficos egipcios que datan de varios cientos de años antes de Cristo describir el crecimiento de las plantas en el agua. Como se ha señalado, la hidroponía es un método antiguo para el cultivo de plantas, pero recientemente se han hecho avances gigantescos en esta área "innovadora" de la agricultura.
 
-![Jardines Colgantes de Babilonia](/wp-content/uploads/2020/08/floating-garden.jpg)
+![Jardines Colgantes de Babilonia](./2020-08-floating-garden.jpg)
 
 Jardines Colgantes de Babilonia
 
 Una de las aplicaciones que impulsó la adopción e investigación de la hidroponía que impulsó fue el cultivo de productos frescos en lugares inhóspitos del mundo, con poco o ningún suelo fértil para el cultivo. La hidroponía fue ampliamente utilizada durante la Segunda Guerra Mundial para abastecer a las tropas asignadas a las islas del Pacífico, que tienen poca o ninguna tierra para la siembra, por lo que a través de sistemas hidropónicos fue posible cultivar productos frescos en estos lugares.
 
-[![Invernaderos lunares diseñados para imitar los cultivos de la Tierra - NASA](/wp-content/uploads/2020/08/screenshot-www.nasa_.gov-2020.08.08-22_32_34.jpg)](https://www.nasa.gov/feature/lunar-martian-greenhouses-designed-to-mimic-those-on-earth)
+[![Invernaderos lunares diseñados para imitar los cultivos de la Tierra - NASA](./2020-08-screenshot-www.nasa_.gov-2020.08.08-22_32_34.jpg)](https://www.nasa.gov/feature/lunar-martian-greenhouses-designed-to-mimic-those-on-earth)
 
 Invernaderos lunares diseñados para imitar los cultivos de la Tierra - NASA
 
@@ -44,7 +44,7 @@ Muchas personas cuando escuchan el tema hidroponía, se asocian rápidamente con
 
 Antes de entender cómo funciona la hidroponía necesitamos entender cómo crecen y se desarrollan las plantas. Las plantas crecen a través del proceso llamado fotosíntesis, en el que utilizan la luz solar y una clorofila (sustancia química presente en las hojas) para convertir el dióxido de carbono y el agua en glucosa (fuente de energía) y oxígeno. Además necesita nutrientes no minerales (hidrógeno, oxígeno, ...), macronutrientes (fósforo, calcio, magnesio, azufre, ...) y micronutrientes (cloro, manganeso, hierro, ...).
 
-[![Macro y micronutrientes](/wp-content/uploads/2020/08/macro-e-micronutrientes_orig-1024x464.jpg)](http://fisiovegetal2016.weebly.com/3nutriccedilatildeo-inorgacircnica-das-plantas/macro-e-micronutrientes)
+[![Macro y micronutrientes](./2020-08-macro-e-micronutrientes_orig.jpg)](http://fisiovegetal2016.weebly.com/3nutriccedilatildeo-inorgacircnica-das-plantas/macro-e-micronutrientes)
 
 En un sistema de plantación de tierra macro y micronutrientes están presentes en el suelo y llegan a la raíz de las plantas, los no minerales están presentes en el agua y el aire atmosférico. En un sistema hidropónico se añaden macronutrientes directamente al agua, que a su vez está en contacto con la raíz de las plantas, sirviendo como medio para tomar todos los no minerales y minerales necesarios para la planta.
 
@@ -66,13 +66,13 @@ La hidroponía tiene varias ventajas sobre el cultivo del suelo, podemos enumera
 
 Hay varios medios de cultivo hidropónico, vamos a hablar de todos ellos con más detalle pronto, por ahora vamos a ver el sistema más simple y más popular:
 
-![Tipos de Sistemas Hidropónicos](/wp-content/uploads/2020/08/IMG_2393.jpg)
+![Tipos de Sistemas Hidropónicos](./2020-08-IMG_2393.jpg)
 
 Tipos de Sistemas Hidropónicos
 
 ### Sistema de absorción cerrado (si*stemas de Wickin*g)
 
-![Sistema de absorción cerrado (sistemas de Wicking)](/wp-content/uploads/2020/08/istock_18_tx-1024x1024.jpg)
+![Sistema de absorción cerrado (sistemas de Wicking)](./2020-08-istock_18_tx.jpg)
 
 Sistema de absorción cerrado (sistemas de Wicking)
 
@@ -86,13 +86,13 @@ Estos sistemas son buenos para plantas más pequeñas que no consumen mucha agua
 
 ### Sistem*a NFT (Nutrie*nt Film Technique)
 
-![Sistema NFT](/wp-content/uploads/2020/08/NFT-hydroponic-system_0.jpg)
+![Sistema NFT](./2020-08-NFT-hydroponic-system_0.jpg)
 
 El Jardín Hidropónico Orgánico de Vegetales
 
 La técnica de película nutritiva se utiliza a menudo para cultivar plantas más pequeñas y de rápido crecimiento, como diferentes tipos de lechugas. Además de la lechuga, los productores comerciales también utilizan este sistema para cultivar hierbas y fresas para niños.
 
-![Sistema NFT](/wp-content/uploads/2020/08/Água-Nutrientes-1024x576.jpg)
+![Sistema NFT](./2020-08-Água-Nutrientes.jpg)
 
 Sistema NFT
 
@@ -102,7 +102,7 @@ Este sistema consiste en un depósito con agua y nutrientes, una bomba de agua r
 
 ### **Sistema *DWC (Cultura* de Aguas Profundas**)
 
-![Sistema de cultura DeepWater](/wp-content/uploads/2020/08/grow-dwc-hydroponics-1024x768.jpg)
+![Sistema de cultura DeepWater](./2020-08-grow-dwc-hydroponics.jpg)
 
 Sistema de cultura DeepWater
 
@@ -112,7 +112,7 @@ Para oxigenar el agua, se utiliza una bomba de aire con una piedra de aire que b
 
 ### Sistemas de goteo
 
-![Sistemas de goteo](/wp-content/uploads/2020/08/FYKIVNYFSSIQIM5.jpg)
+![Sistemas de goteo](./2020-08-FYKIVNYFSSIQIM5.jpg)
 
 Sistemas de goteo
 
@@ -120,7 +120,7 @@ Los sistemas de goteo son muy similares al sistema NFT, la única diferencia es 
 
 ## Aeroponia
 
-![Aeroponia](/wp-content/uploads/2020/08/aeroponics-illustration-02.jpg)
+![Aeroponia](./2020-08-aeroponics-illustration-02.jpg)
 
 Aeroponia
 
@@ -128,15 +128,15 @@ Un sistema aeropónico es similar a un sistema NFT en el que las raíces se susp
 
 **Conclusión**
 
--   [![](/wp-content/uploads/2020/08/hora1-1-1024x768.jpg)](/wp-content/uploads/2020/08/hora1-1-1024x768.jpg)
+-   [![](./2020-08-hora1-1.jpg)](./2020-08-hora1-1.jpg)
     
     Jardín de Verduras NFT
     
--   [![](/wp-content/uploads/2020/08/YDXJ0330-1024x769.jpg)](/wp-content/uploads/2020/08/YDXJ0330.jpg)
+-   [![](./2020-08-YDXJ0330.jpg)](./2020-08-YDXJ0330.jpg)
     
     Jardín de Verduras NFT
     
--   [![](/wp-content/uploads/2020/08/IMG_20160430_091520-1024x768.jpg)](/wp-content/uploads/2020/08/IMG_20160430_091520-1024x768.jpg)
+-   [![](./2020-08-IMG_20160430_091520.jpg)](./2020-08-IMG_20160430_091520.jpg)
     
     Jardín DWC
     

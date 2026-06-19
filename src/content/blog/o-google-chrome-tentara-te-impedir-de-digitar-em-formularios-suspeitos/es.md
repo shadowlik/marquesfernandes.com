@@ -20,7 +20,7 @@ Probablemente hayas notado el pequeño icono de candado cerrado en tu navegador 
 
 La idea inicial es que recibas algunos avisos grandes y llamativos, según la pub[licación oficial del blog de Go](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html)ogle, se verá así:
 
-![Aviso de formulario inseguro](/wp-content/uploads/2020/08/Screen-Shot-2020-08-13-at-4.34.37-PM.png)
+![Aviso de formulario inseguro](./2020-08-Screen-Shot-2020-08-13-at-4.34.37-PM.png)
 
 Y si aún intenta enviar su información personal ignorando la advertencia de Google, intentará darle una oportunidad más para pensar detenidamente sobre lo que está haciendo:
 

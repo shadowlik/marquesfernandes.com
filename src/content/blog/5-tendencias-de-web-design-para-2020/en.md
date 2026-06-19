@@ -23,7 +23,7 @@ So what to expect in 2020 for Web Design? An interesting thing that we can notic
 
 ## 1\. Dark Mode
 
-![whatsapp dark mode](/wp-content/uploads/2020/03/English_DarkMode_iPhone-1024x728.jpg)
+![whatsapp dark mode](./2020-03-English_DarkMode_iPhone.jpg)
 
 Designs in dark mode look ultra-modern, are easy to see and emphasize colors and design elements. Well known by developers, the "hacker" mode has been attracting more and more users.
 
@@ -31,19 +31,19 @@ This is a trend that goes beyond beauty, there are practical principles behind i
 
 ## two. Soft Shadows and Floating Elements
 
-![](https://i0.wp.com/marquesfernandes.com/wp-content/uploads/2020/03/web-design-trends-2020-11.jpg?ssl=1)
+![](https://i0.wp.com/marquesfernandes.com./2020-03-web-design-trends-2020-11.jpg)
 
-![](https://i1.wp.com/marquesfernandes.com/wp-content/uploads/2020/03/dribelekk.jpg?ssl=1)
+![](https://i1.wp.com/marquesfernandes.com./2020-03-dribelekk.jpg)
 
 Following the wave of [Google Material Design](http://marquesfernandes.com/sites-para-inspiracao-usando-material-design/) , the bet for floating elements and with soft shadows is certainly guaranteed. This trend brings web pages, without exaggerating, a little depth and a 3D feel.
 
 ## 3\. Custom Illustrations
 
--   ![](/wp-content/uploads/2020/03/web-design-trends-2020-06.jpg)
+-   ![](./2020-03-web-design-trends-2020-06.jpg)
     
--   ![](/wp-content/uploads/2020/03/web-design-trends-2020-05.jpg)
+-   ![](./2020-03-web-design-trends-2020-05.jpg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-lifestrategy.com_.br-2020.03.21-21_38_45-1024x501.png)
+-   ![](./2020-03-screenshot-lifestrategy.com_.br-2020.03.21-21_38_45.png)
     
 
 Today, visuals don't just exist to give color to your pages, you can and should use them to create an identity and what message you want to convey to your audience.
@@ -52,24 +52,24 @@ Of course, putting an illustration in the right place can make a huge difference
 
 ## 4\. solid framing
 
--   ![](/wp-content/uploads/2020/03/screenshot-converse.com_.br-2020.03.21-22_02_40-1024x501.jpg)
+-   ![](./2020-03-screenshot-converse.com_.br-2020.03.21-22_02_40.jpg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.nike_.com_.br-2020.03.21-22_01_25-1024x501.png)
+-   ![](./2020-03-screenshot-www.nike_.com_.br-2020.03.21-22_01_25.png)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.oakley.com-2020.03.21-22_05_28-1024x501.jpg)
+-   ![](./2020-03-screenshot-www.oakley.com-2020.03.21-22_05_28.jpg)
     
 
 Reminiscent of a picture frame, or even that cool T-shirt with a simple photograph printed on the chest, framing has become a growing trend. You can find this template on many websites and especially online stores. Its clean and organized structure separates the contents well and favors the focus on what is important!
 
 ## 5\. Vibrant and bright colors
 
--   ![](/wp-content/uploads/2020/03/screenshot-nubank.com_.br-2020.03.21-22_09_14-1024x501.jpg)
+-   ![](./2020-03-screenshot-nubank.com_.br-2020.03.21-22_09_14.jpg)
     
--   ![](/wp-content/uploads/2020/03/attachment_112301902-e1573816708542.jpeg)
+-   ![](./2020-03-attachment_112301902-e1573816708542.jpeg)
     
--   ![](/wp-content/uploads/2020/03/screenshot-www.bancointer.com_.br-2020.03.21-22_10_40-1024x501.jpg)
+-   ![](./2020-03-screenshot-www.bancointer.com_.br-2020.03.21-22_10_40.jpg)
     
--   ![](/wp-content/uploads/2020/03/Screen-Shot-2019-11-12-at-8.46.03-PM-e1573609778854.jpg)
+-   ![](./2020-03-Screen-Shot-2019-11-12-at-8.46.03-PM-e1573609778854.jpg)
     
 
 A trend that needs to be used very carefully, the line is fine between tacky and flashy. The use of strong and luminous colors develops a modern and bold look, if used in the right way, it can delight your audience.

@@ -30,7 +30,7 @@ Separei alguns dos modelos de negócios que eu mais gostei, todos em português 
 
 ### Sebrae - Modelo Plano de Negócios (Excel)
 
-![Sebrae - Modelo Plano de Negócios (Excel)](/wp-content/uploads/2020/08/screenshot-nimbus-capture-2020.08.15-17_18_40-1-1024x560.png)
+![Sebrae - Modelo Plano de Negócios (Excel)](./2020-08-screenshot-nimbus-capture-2020.08.15-17_18_40-1.png)
 
 Material objetivo e prático, para você aplicar imediatamente no seu negócio!
 
@@ -40,7 +40,7 @@ Criado em 1972, o Sebrae estimula o empreendedorismo e promove a competitividade
 
 ### Dynamic Business Plan - Modelo Plano de Negócios (Word)
 
-![Dynamic Business Plan - Modelo Plano de Negócios (Word)](/wp-content/uploads/2020/08/screenshot-nimbus-capture-2020.08.15-17_06_11-1024x560.jpg)
+![Dynamic Business Plan - Modelo Plano de Negócios (Word)](./2020-08-screenshot-nimbus-capture-2020.08.15-17_06_11.jpg)
 
 Este folheto é curto, concreto e objetivo!
 
@@ -50,7 +50,7 @@ Desde 1995, Mogens Thomsen, proprietário da Thomsen Business Information, tem e
 
 ### Endeavor - Modelo Plano de Negócios (PDF)
 
-![Endeavor - Modelo Plano de Negócios (PDF)](/wp-content/uploads/2020/08/screenshot-d335luupugsy2.cloudfront.net-2020.08.15-17_13_28-1-1024x487.jpg)
+![Endeavor - Modelo Plano de Negócios (PDF)](./2020-08-screenshot-d335luupugsy2.cloudfront.net-2020.08.15-17_13_28-1.jpg)
 
 MAT: Metas, Ações, Tarefas
 
@@ -60,7 +60,7 @@ A Endeavor é uma organização global sem fins lucrativos com a missão de acel
 
 ### UOL - Modelo Plano de Negócios (PDF)
 
-![UOL - Modelo Plano de Negócios (PDF)](/wp-content/uploads/2020/08/screenshot-ferramentas.download.uol_.com_.br-2020.08.15-17_19_43-1-1024x487.jpg)
+![UOL - Modelo Plano de Negócios (PDF)](./2020-08-screenshot-ferramentas.download.uol_.com_.br-2020.08.15-17_19_43-1.jpg)
 
 O UOL HOST é a unidade de hospedagem e serviços web do Grupo UOL e conta com a experiência de mais de 19 anos da marca que se consolidou como sinônimo de internet no Brasil. Eles contam com um setor chamado Meu Negócio, e por esse canal disponibilizaram um modelo de plano de negócios. Para baixar o arquivo você precisará deixar o seu e-mail, você pode inserir um e-mail inexistente apenas para conseguir ter acesso ao arquivo.
 
@@ -72,24 +72,24 @@ Se você se sente confortável com o inglês, pegar alguns modelos e traduzir co
 
 ### [Score - Modelo de plano de negócios (PDF)](https://www.score.org/resources/business-plan-template-startup-business)
 
-![](/wp-content/uploads/2020/08/screenshot-nimbus-capture-2020.08.15-18_18_30-1-1024x560.png)
+![](./2020-08-screenshot-nimbus-capture-2020.08.15-18_18_30-1.png)
 
 Score é uma organização sem fins lucrativos americana dedicada a ajudar os empreendedores a lançar suas empresas. Seu modelo, disponível para download em PDF ou Word, faz 150 perguntas e é genérico o suficiente para ser personalizado para a maioria dos tipos de negócios. O recurso Refining the Plan que o acompanha é útil, especialmente se esta for sua primeira tentativa de redigir um plano de negócios.
 
 ### [SBA - Administração de Pequenas Empresas dos EUA (PDF)](https://www.sba.gov/tools/business-plan/1)
 
-![](/wp-content/uploads/2020/08/screenshot-nimbus-capture-2020.08.15-18_20_09-1-1024x560.jpg)
+![](./2020-08-screenshot-nimbus-capture-2020.08.15-18_20_09-1.jpg)
 
 O modelo do SBA está disponível para preenchimento online e download em PDF. Você pode voltar e editá-lo conforme necessário, então não se preocupe em ter tudo pronto na primeira vez que você se sentar para resolvê-lo. Mesmo dividido em seções, é um documento longo e um pouco trabalhoso para ser lido, mas produz um plano de negócios útil e com aparência profissional. Isso é particularmente útil se sua ideia não estiver totalmente desenvolvida e você souber que tem dever de casa a fazer - ela solicita informações.
 
 ### [100 Startup - Plano de negócios de uma página (PDF)](http://100startup.com/#resources)
 
-![](/wp-content/uploads/2020/08/screenshot-100startup.com-2020.08.15-18_17_37-1-1024x455.jpg)
+![](./2020-08-screenshot-100startup.com-2020.08.15-18_17_37-1.jpg)
 
 Quem disse que um plano de negócios deve ser um documento longo e complicado? Alguns financiadores vão querer ver muitos detalhes, mas você pode fornecer isso nos apêndices. O 100Startup, o site do best-seller de mesmo nome, tem uma tonelada de recursos simplificados para empresários, incluindo este modelo de plano de negócios super simplificado.
 
 ### [LawDepot - Construtor de Plano de Negócios](http://www.lawdepot.com/contracts/business-plan/?ldcn=partnership-and-joint-venture)
 
-![LawDepot - Construtor de Plano de Negócios](/wp-content/uploads/2020/08/screenshot-www.lawdepot.com-2020.08.15-18_16_25-1-1024x487.jpg)
+![LawDepot - Construtor de Plano de Negócios](./2020-08-screenshot-www.lawdepot.com-2020.08.15-18_16_25-1.jpg)
 
 Você apenas precisa responder a algumas perguntas simples e estará "pronto antes que você perceba!" Não acredite nisso. Um plano de negócios deve levar tempo e muito dever de casa, mas se você já fez isso, o modelo do LawDepot é uma escolha decente. Ele percorre os primeiros passos, marketing, produto, análise competitiva, SWOT e muito mais, com uma janela abaixo dos campos de entrada para mostrar o plano enquanto você o desenvolve. Você pode baixá-lo gratuitamente com uma assinatura de teste, mas deve se lembrar de cancelá-lo dentro de uma semana se não planeja continuar a usá-lo.

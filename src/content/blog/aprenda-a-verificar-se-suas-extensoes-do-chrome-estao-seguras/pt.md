@@ -24,7 +24,7 @@ Me deparei recentemente com um artigo do [Lifehacker](https://lifehacker.com/che
 
 Esse artigo me chamou muita atenção, utilizo muitas extensões no meu dia a dia ([Wappalyzer,](https://www.wappalyzer.com/) [Nimbus Screenshot,](https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj?hl=en) [Trello](https://chrome.google.com/webstore/detail/trello/dmdidbedhnbabookbkpkgomahnocimke?hl=en)), se você for parecido comigo e sai instalando extensões sem se preocupar com nada, vale a leitura:
 
-![Análise de segurança: Extensões e Apps do Chrome](/wp-content/uploads/2019/03/Análise-de-segurança_-Extensões-e-Apps-do-Chrome-855x1024.jpg)
+![Análise de segurança: Extensões e Apps do Chrome](./2019-03-Análise-de-segurança_-Extensões-e-Apps-do-Chrome.jpg)
 
 "De acordo com seu [blog](https://duo.com/blog/crxcavator), os relatórios fornecidos pela Duo Labs não são apenas baseados nos dados de Janeiro. A empresa tem automatizado suas análises, escaneando a Chrome Web Store e atualizando as informações a cada 3 horas.
 

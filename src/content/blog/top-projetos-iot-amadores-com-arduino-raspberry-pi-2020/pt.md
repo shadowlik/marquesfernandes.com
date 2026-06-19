@@ -49,7 +49,7 @@ Esse projeto IoT propõe um sistema automatizado de irrigação que pode analisa
 
 ## 4\. Monitoramento de Nível da Lixeira - Arduíno
 
-![4\. Monitoramento de Nível da Lixeira - Arduíno](/wp-content/uploads/2020/03/image-13-1024x543.jpg)
+![4\. Monitoramento de Nível da Lixeira - Arduíno](./2020-03-image-13.jpg)
 
 Esse projeto de IoT usa um sensor ultrassônico para detectar o nível de lixo em cada lixeira e enviar esses dados para o programa principal. Uma página no navegador mostra o nível de lixo em cada lixeira.
 
@@ -69,7 +69,7 @@ Que tal criar um rastreador GPS usando um Arduíno e visualizar os dados em dois
 
 ## 7\. Braço Robótico - Arduino
 
-[![Braço Robótico - Arduino](/wp-content/uploads/2020/11/modelo-tridimensional-do-braco-robotico-768x530-1.jpg)](https://flaviobabos.com.br/braco-robotico-arduino/)
+[![Braço Robótico - Arduino](./2020-11-modelo-tridimensional-do-braco-robotico-768x530-1.jpg)](https://flaviobabos.com.br/braco-robotico-arduino/)
 
 Já pensou em criar um braço robótico com conceitos similares aos utilizados em indústrias, missões especiais e próteses biônicas? O engenheiro Flávio Babos explica detalhadamente em seu [blog](http://flaviobabos.com.br) o passo a passo de como replicar o projeto de seu braço robótico!
 

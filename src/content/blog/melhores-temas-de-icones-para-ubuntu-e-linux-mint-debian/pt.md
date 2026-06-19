@@ -46,19 +46,19 @@ Circle é um tema de ícone para Linux do [projeto Numix](https://numixproject.g
 
 ## [3\. Qogir Icon Theme](https://github.com/vinceliuice/Qogir-theme)
 
-[![Qogir Icon Theme](/wp-content/uploads/2021/04/0033f3412f640ce6e0e41ceb168337ed8935-1024x1024.png)](https://github.com/vinceliuice/Qogir-theme)
+[![Qogir Icon Theme](./2021-04-0033f3412f640ce6e0e41ceb168337ed8935.png)](https://github.com/vinceliuice/Qogir-theme)
 
 Qogir é um tema de design plano para GTK 3, GTK 2 e Gnome-Shell que suporta ambientes de desktop baseados em GTK 3 e GTK 2 como Gnome, Unity, Budgie, Cinnamon Pantheon, XFCE, Mate, etc.
 
 ## [4\. OS Catalina](https://github.com/zayronxio/Os-Catalina-icons/)
 
-[![OS Catalina](/wp-content/uploads/2021/04/catalina-os-icon-theme.jpg)](https://github.com/zayronxio/Os-Catalina-icons/)
+[![OS Catalina](./2021-04-catalina-os-icon-theme.jpg)](https://github.com/zayronxio/Os-Catalina-icons/)
 
 Se você deseja fazer o Ubuntu se parecer com um Mac - você pode gostar da aparência do sistema operacional, mas não de suas limitações - um conjunto de ícones como o OS Catalina é uma maneira fácil de fazer isso.
 
 ## [5\. Vimix](https://github.com/vinceliuice/vimix-icon-theme)
 
-[![Vimix](/wp-content/uploads/2021/04/best-icon-themes-vimix-1-1024x587.jpg)](https://github.com/vinceliuice/vimix-icon-theme)
+[![Vimix](./2021-04-best-icon-themes-vimix-1.jpg)](https://github.com/vinceliuice/vimix-icon-theme)
 
 O tema do ícone Vimix é baseado no [Paper-Icon-Theme](https://github.com/snwh/paper-icon-theme), um tema moderno de ícones freedesktop cujo design é baseado no uso de cores fortes e formas geométricas simples para compor os ícones. Cada ícone foi meticulosamente projetado para uma visualização perfeita de pixels.
 

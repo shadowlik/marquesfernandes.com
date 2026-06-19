@@ -40,42 +40,42 @@ A grande maioria das ferramentas boas de email marketing são pagas, exceto Mail
 
 ### 1. [MailChimp](https://mailchimp.com/)
 
-![MailChimp](/wp-content/uploads/2020/12/image-1024x449.jpg)
+![MailChimp](./2020-12-image.jpg)
 
 [MailChimp](https://mailchimp.com/) é provavelmente a melhor ferramenta disponível no mercado, principalmente para usuários leigos. Toda a usabilidade do Mailchimp parece muito suave e natural, você recebe orientação durante o processo. 
 
 ### 2\. [Constant Contact](https://www.constantcontact.com/global/home-page)
 
-![Constant Contact](/wp-content/uploads/2020/12/image-1-1024x487.jpg)
+![Constant Contact](./2020-12-image-1.jpg)
 
 [Constant Contact](https://www.constantcontact.com/global/home-page) é também outro serviço muito poderoso e prático. A experiência do usuário é bastante simples, mas leva um pouco de tempo para se acostumar a navegar pela ferramenta de gerenciamento de campanha.
 
 ### 3\. [SendinBlue](https://pt.sendinblue.com/)
 
-![SendinBlue](/wp-content/uploads/2020/12/image-1-1-1024x487.jpg)
+![SendinBlue](./2020-12-image-1-1.jpg)
 
 [SendinBlue](https://pt.sendinblue.com/) tem em seu ponto forte a usabilidade, muito intuitiva, mas o processo de configuração da conta e a primeira campanha demoram um pouco.
 
 ### 4\. [ConvertKit](https://convertkit.com/)
 
-![ConvertKit](/wp-content/uploads/2020/12/image-2-1024x472.jpg)
+![ConvertKit](./2020-12-image-2.jpg)
 
 [ConvertKit](https://convertkit.com/) é muito simplista, talvez até muito básica. Você não conta com alguns recursos modernos, como uma ferramenta de edição de arrastar e soltar ou uma seleção mais abrangente de modelos, mas pode fazer o trabalho rapidamente. Em contrapartida, sua interface limpa pode ser um ponto forte para iniciantes.
 
 ### 5\. [AWeber](https://www.aweber.com/)
 
-![AWeber](/wp-content/uploads/2020/12/image-2-1-1024x487.jpg)
+![AWeber](./2020-12-image-2-1.jpg)
 
 [AWeber](https://www.aweber.com/) é uma boa alternativa, sua interface poderia ser melhor, mas depois que você se acostuma com o sistema, fica mais fácil a navegação.
 
 ### 6\. [GetResponse](https://br.getresponse.com/)
 
-![GetResponse](/wp-content/uploads/2020/12/image-2-2-1024x487.jpg)
+![GetResponse](./2020-12-image-2-2.jpg)
 
 [GetResponse](https://br.getresponse.com/) tem seu processo do início ao fim simplificado, é fácil de usar e você tem uma tonelada de opções ao longo do caminho. No entanto, a experiência seria ainda melhor com um editor de imagens integrado.
 
 ### 7\. [RD Station](https://www.rdstation.com/)
 
-![RD Station](/wp-content/uploads/2020/12/image-2-1024x487.png)
+![RD Station](./2020-12-image-2.png)
 
 O RD Station é uma ferramenta brasileira, ela vai muito além do simples disparo de e-mail marketing, é uma ferramenta completa de automação de marketing. Com a ferramenta de marketing da RD Station você organiza, se comunica e entende melhor o seu público alvo.

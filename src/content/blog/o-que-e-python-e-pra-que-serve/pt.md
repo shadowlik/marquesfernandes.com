@@ -33,7 +33,7 @@ A versão 2 de Python foi lançada em 16 de outubro de 2000, com muitos novos re
 
 A versão 3, foi lançado em 3 de dezembro de 2008 e é a versão principal atualmente ainda, ela trouxe grandes mudanças que a tornaram incompatível com as versões anteriores. Muitos de seus principais recursos também foram adaptados para o Python 2.6 e 2.7 compatível com versões anteriores para tentar minimizar o impacto em aplicações antigas.
 
-![Interesse de Busca no Google por Linguagem de Programação](/wp-content/uploads/2020/08/screenshot-trends.google.com-2020.08.16-01_25_31-1-1024x487.png)
+![Interesse de Busca no Google por Linguagem de Programação](./2020-08-screenshot-trends.google.com-2020.08.16-01_25_31-1.png)
 
 Interesse de Busca no Google por Linguagem de Programação
 

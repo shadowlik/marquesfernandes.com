@@ -20,7 +20,7 @@ I think it's a very common question for beginner bloggers like me. I've been try
 
 I'm going to share with you an example board that I use in [Trello](https://trello.com/b/OUj4FMH0/blog-planejamento) to organize and remember everything I need to do when writing a new article, this board is constantly being updated, if you have any comments or tips, please don't hesitate to comment.
 
-[![Blog - Planning - Trello](/wp-content/uploads/2019/12/image-20-1024x496.png)](https://trello.com/b/OUj4FMH0/blog-planejamento)
+[![Blog - Planning - Trello](./2019-12-image-20.png)](https://trello.com/b/OUj4FMH0/blog-planejamento)
 
 Blog - Planning
 
@@ -32,19 +32,19 @@ The networks listed for disclosure are focused on my blog's niche, after some te
 
 Linkedin is an excellent tool to expand your professional network, and also very good to spread your articles with your followers. Remember to use #hashtags related to your content, this will extend the reach of your post.
 
-[![https://www.linkedin.com/in/henriquemf28/](/wp-content/uploads/2019/12/image-22-1024x502.png)](https://www.linkedin.com/in/henriquemf28/)
+[![https://www.linkedin.com/in/henriquemf28/](./2019-12-image-22.png)](https://www.linkedin.com/in/henriquemf28/)
 
 ### [Facebook](https://www.facebook.com/marquesfernandesblog)
 
 Have one [professional page](https://www.facebook.com/marquesfernandesblog) for your blog is a great way to promote your articles, create a page and start calling all your friends to like it, also take advantage of the promotions of sponsored publications to expand your audience.
 
-[![https://www.facebook.com/marquesfernandesblog](/wp-content/uploads/2019/12/image-21-1024x602.png)](https://www.facebook.com/marquesfernandesblog)
+[![https://www.facebook.com/marquesfernandesblog](./2019-12-image-21.png)](https://www.facebook.com/marquesfernandesblog)
 
 ### [twitter](https://twitter.com/hmarques28)
 
 [twitter](https://twitter.com/hmarques28) still one of the most used networks to follow and consume news and articles, an eye-catching image and text are needed to attract attention and increase its reach.
 
-[![https://twitter.com/hmarques28](/wp-content/uploads/2019/12/image-23-1024x502.png)](https://twitter.com/hmarques28)
+[![https://twitter.com/hmarques28](./2019-12-image-23.png)](https://twitter.com/hmarques28)
 
 ## content networks
 
@@ -52,25 +52,25 @@ Have one [professional page](https://www.facebook.com/marquesfernandesblog) for 
 
 [medium](https://medium.com/@shadowlik) allows you to republish your articles, I recommend using the import tool, in this way a rel=canonical tag is added automatically, preventing Google and other tools from marking your content as duplicate.
 
-[![https://medium.com/@shadowlik](/wp-content/uploads/2019/12/image-24-1024x502.png)](https://medium.com/@shadowlik)
+[![https://medium.com/@shadowlik](./2019-12-image-24.png)](https://medium.com/@shadowlik)
 
 ### [owed to](https://dev.to/shadowlik)
 
 [owed to](https://dev.to/shadowlik) is a content network focused on the tech world, you can write articles using the markdown format, but don't worry, you can easily set up your profile to automatically search your articles for yours. [rss feed](http://marquesfernandes.com/feed) .
 
-[![https://dev.to/shadowlik](/wp-content/uploads/2019/12/image-25-1024x502.png)](https://dev.to/shadowlik)
+[![https://dev.to/shadowlik](./2019-12-image-25.png)](https://dev.to/shadowlik)
 
 ### [Tumblr](https://www.tumblr.com/blog/shadowlik)
 
 Tumblr is a blogging platform that allows users to publish text, images, video, links, quotes, audio and "dialogues". Most posts made on Tumblr are short texts, but the platform is not quite a microblog system, being in an intermediate category between the conventional format blogs Wordpress or Blogger and the microblog Twitter.
 
-[![https://www.tumblr.com/blog/shadowlik](/wp-content/uploads/2019/12/image-31-1024x525.png)](https://www.tumblr.com/blog/shadowlik)
+[![https://www.tumblr.com/blog/shadowlik](./2019-12-image-31.png)](https://www.tumblr.com/blog/shadowlik)
 
 ### [reddit](https://www.reddit.com/user/shadowlik/)
 
 THE [reddit](https://www.reddit.com/user/shadowlik/) it might be a platform worth considering for sharing content, but it needs to be done right. Redditors are very aware that brands try to "spam" subreddits with their own content. So your articles must be carefully chosen and provide real value to users.
 
-[![https://www.reddit.com/user/shadowlik/](/wp-content/uploads/2019/12/image-32-1024x525.png)](https://www.reddit.com/user/shadowlik/)
+[![https://www.reddit.com/user/shadowlik/](./2019-12-image-32.png)](https://www.reddit.com/user/shadowlik/)
 
 ## Conclusion
 

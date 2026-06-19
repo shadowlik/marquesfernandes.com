@@ -48,7 +48,7 @@ Separei uma lita com os melhores e mais populares plugins de cache para o WordPr
 
 ### 1\. [WP](https://br.wordpress.org/plugins/wp-optimize/#description)[\-](https://br.wordpress.org/plugins/wp-optimize/#description)[Optimize](https://br.wordpress.org/plugins/wp-optimize/#description)
 
-[![WP-Optimize](/wp-content/uploads/2020/07/banner-772x250-1.png)](https://br.wordpress.org/plugins/wp-optimize/#description)
+[![WP-Optimize](./2020-07-banner-772x250-1.png)](https://br.wordpress.org/plugins/wp-optimize/#description)
 
 > O WP-Optimize é um plug-in revolucionário, tudo em um, que limpa seu banco de dados, compacta suas imagens e armazena em cache o seu site. O recurso de cache é construído em torno do mecanismo de cache mais rápido do mundo. Esta ferramenta simples, popular e altamente eficaz tem tudo o que você precisa para manter seu site rápido e completamente otimizado!
 
@@ -60,7 +60,7 @@ Separei uma lita com os melhores e mais populares plugins de cache para o WordPr
 
 ### 2\. [WP Super Cache](https://br.wordpress.org/plugins/wp-super-cache/)
 
-[![WP Super Cache](/wp-content/uploads/2020/07/banner-772x250-2.png)](https://br.wordpress.org/plugins/wp-super-cache/)
+[![WP Super Cache](./2020-07-banner-772x250-2.png)](https://br.wordpress.org/plugins/wp-super-cache/)
 
 > Este plugin gera arquivos html estáticos do seu blog dinâmico do WordPress. Depois que um arquivo html é gerado, o seu servidor servirá esse arquivo em vez de processar os scripts PHP do WordPress, que são comparativamente mais pesados e mais custosos.
 
@@ -73,7 +73,7 @@ O WP Super Cache serve arquivos em cache de três maneiras:
 
 ### 3\. [W3 Total Cache](https://br.wordpress.org/plugins/w3-total-cache/)
 
-[![W3 Total Cache](/wp-content/uploads/2020/07/banner-772x250-1.jpg)](https://br.wordpress.org/plugins/w3-total-cache/)
+[![W3 Total Cache](./2020-07-banner-772x250-1.jpg)](https://br.wordpress.org/plugins/w3-total-cache/)
 
 > O W3 Total Cache (W3TC) melhora a experiência de SEO e de usuário do seu site, aumentando o desempenho do site e reduzindo os tempos de carregamento, aproveitando recursos como a integração da rede de entrega de conteúdo (CDN) e as práticas recomendadas mais recentes.
 
@@ -85,7 +85,7 @@ Os desenvolvedores afirmam que o plug-in pode oferecer até 80% de economia de l
 
 ### 4\. [WP Fastest Cache](https://wordpress.org/plugins/wp-fastest-cache/)
 
-[![WP Fastest Cache](/wp-content/uploads/2020/07/banner-772x250-1-1.jpg)](https://wordpress.org/plugins/wp-fastest-cache/)
+[![WP Fastest Cache](./2020-07-banner-772x250-1-1.jpg)](https://wordpress.org/plugins/wp-fastest-cache/)
 
 > O *WP Fastest Cache* - O plugin de cache wordpress mais rápido e fácil.
 

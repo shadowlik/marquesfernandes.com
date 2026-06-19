@@ -29,7 +29,7 @@ Esse comando é provavelmente o mais simples e vai servir para a maioria das an�
 
 $ df -H
 
-![](/wp-content/uploads/2019/11/image-13.png)
+![](./2019-11-image-13.png)
 
 Mas e se a quantidade de discos for muito grande? Como no caso da imagem acima, temos discos criados pelos aplicativos snaps do Ubuntu (*/dev/loopXY*) e queremos focar apenas na partição principal (*/dev/sda6*):
 
@@ -37,7 +37,7 @@ $ df -H /dev/sda6
 
 O resultado agora estará limitado para aquele disco:
 
-![](/wp-content/uploads/2019/11/image-14.jpg)
+![](./2019-11-image-14.jpg)
 
 ## [du](https://linux.die.net/man/1/du)
 
@@ -45,7 +45,7 @@ Agora que você já sabe identificar quanto espaço livre tem sobrando ou não, 
 
 $ du -sh /home/shadowlik/Downloads
 
-![](/wp-content/uploads/2019/11/image-15.jpg)
+![](./2019-11-image-15.jpg)
 
 \* *Não precisamos passar o caminho completo para o comando, podemos passar apenas o caminho referente da pasta em que estamos executando, no caso da imagem acima poderíamos executar **du -sh Downloads/**.*
 
@@ -53,7 +53,7 @@ Vimos acima que a pasta *Downloads* está pesando aproximadamente 19 gigabytes, 
 
 ~$ du -sh Downloads/\*
 
-![](/wp-content/uploads/2019/12/image.jpg)
+![](./2019-12-image.jpg)
 
 As capturas de tela estão diferentes porque formatei meu computador enquanto terminava esse artigo.  
 \* Os nomes dos arquivos foram borrados por segurança.

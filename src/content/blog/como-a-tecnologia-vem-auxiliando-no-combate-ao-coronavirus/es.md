@@ -23,7 +23,7 @@ Podemos ver cuánta tecnología se ha ayudado en la lucha contra Coronavirus, se
 
 ## 1\. [Aplicación Cornavirus SUS](https://www.gov.br/pt-br/apps/coronavirus-sus)
 
-[![](/wp-content/uploads/2020/04/image-9.jpg)](https://www.gov.br/pt-br/apps/coronavirus-sus)
+[![](./2020-04-image-9.jpg)](https://www.gov.br/pt-br/apps/coronavirus-sus)
 
 El Ministerio de Salud, en una respuesta muy rápida, lanzó una aplicación llamada [Coronavirus - SUS](https://www.gov.br/pt-br/apps/coronavirus-sus). La aplicación cuenta con todo, desde descripciones de síntomas, consejos de prevención, cuáles son las formas de transmitir y un mapa con las unidades de salud gratuitas disponibles más cercanas a su ubicación.
 
@@ -33,7 +33,7 @@ Algo encomiable y sorprendente procedente del sector público, que suele estar m
 
 ## 2\. [Universidad Johns Hopkins, Nueva](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
-[![](/wp-content/uploads/2020/04/image-8-1024x481.png)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+[![](./2020-04-image-8.png)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
 [Panel de Monitoreo del Centro de Sistemas de Ciencia e Ingeniería](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
@@ -41,7 +41,7 @@ El [Centro de Sistemas para la Ciencia y la Ingeniería (CSS](https://systems.jh
 
 ## 3\. Inteligencia Artificial
 
-![](/wp-content/uploads/2020/04/rock-n-roll-monkey-R4WCbazrD1g-unsplash-1024x575.jpg)
+![](./2020-04-rock-n-roll-monkey-R4WCbazrD1g-unsplash.jpg)
 
 ### 3.1 Monitoreo y detección preventivos
 
@@ -57,7 +57,7 @@ La empresa estadounidense de inteligencia artificial I[nfervision ha](https://ww
 
 ## 4\. Telemedicina
 
-![](/wp-content/uploads/2020/04/national-cancer-institute-cQ8FfVNvbew-unsplash-1024x683.jpg)
+![](./2020-04-national-cancer-institute-cQ8FfVNvbew-unsplash.jpg)
 
 El Consejo Federal de Medicina (CFM) autorizó el 19 de marzo el [uso de la telemedic](https://pebmed.com.br/tecnologias-que-ampliaram-o-acesso-a-tratamentos-e-diagnosticos-no-brasil-telemedicina/)ina durante **[la pandemia COVID-1](http://marquesfernandes.com/?p=8003&preview=1&_ppp=97c26d0e74)**9.
 

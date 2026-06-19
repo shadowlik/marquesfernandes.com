@@ -27,11 +27,11 @@ Aprenderemos a conectarnos en nuestra base de datos, realizar consultas y mostra
 
 Bueno, lo primero que tenemos que hacer es crear una nueva hoja de cálculo y abrir el editor de código de Google Apps Scripts:
 
-![](/wp-content/uploads/2020/08/image-11-1024x487.png)
+![](./2020-08-image-11.png)
 
 Entonces vamos a tener un editor de código similar al siguiente:
 
-![](/wp-content/uploads/2020/08/image-12-1024x487.png)
+![](./2020-08-image-12.png)
 
 ## Creación de scripts de aplicaciones para conectarse a la base de datos
 
@@ -91,7 +91,7 @@ Cambiar todas las variables indicadas al principio del script a la configuració
 
 Este script básicamente hace una conexión a la base de datos, en el ejemplo utilicé una base de datos de una instalación de WordPress, donde hago una simple selec`ción, SELET * DESDE wp_posts LIMI`T 10 , donde me devuelve 10 mensajes (filas) de la tabla `wp_post`s. Con el resultado hacemos un bucle para crear los encabezados y popular las líneas en la pestaña de men`sajes,` vea el resultado a continuación:
 
-![](/wp-content/uploads/2020/08/image-10-1024x487.png)
+![](./2020-08-image-10.png)
 
 ## Conclusión
 

@@ -36,7 +36,7 @@ http.createServer(function (req, res) {
 
 Let's test it, in the browser, go to `http://localhost:999` .
 
-![](/wp-content/uploads/2020/07/image-2.png)
+![](./2020-07-image-2.png)
 
 Now that we validated that our program works, let's make it run always, if for some reason it stops working it must be restarted and if the machine is restarted, the service needs to start too.
 

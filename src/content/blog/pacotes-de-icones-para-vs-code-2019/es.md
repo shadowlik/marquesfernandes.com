@@ -24,7 +24,7 @@ updated: 2021-12-12T11:24:14.000Z
 **Instalacione**s: +2.5 mill  
 **ionStars:** 4.9
 
-![Tema del icono del material](/wp-content/uploads/2019/10/image.png)
+![Tema del icono del material](./2019-10-image.png)
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) es el paquete de iconos que más me gusta y uso, tiene una amplia selección de iconos propietarios además de identificar y personalizar varias carpetas predeterminadas, como la carpeta "src/".
 
@@ -33,7 +33,7 @@ updated: 2021-12-12T11:24:14.000Z
 **Instalaciones**: +3.7 millo  
 **nesStars:** 4.8
 
-![vscode-iconos](/wp-content/uploads/2019/10/screenshot.gif)
+![vscode-iconos](./2019-10-screenshot.gif)
 
 vscode-icons es el paquete más descargado, con más de 3,7 millones de descargas y 341 estrellas, tiene una amplia variedad de iconos.
 
@@ -42,7 +42,7 @@ vscode-icons es el paquete más descargado, con más de 3,7 millones de descarga
 **Instalacione**s: +560,  
 **000Stars:** 4.9
 
-![ VSCode Grandes Iconos](/wp-content/uploads/2019/10/icons-1024x670.jpg)
+![ VSCode Grandes Iconos](./2019-10-icons.jpg)
 
 VSCode Great Icons tiene más de 100 iconos diferentes, en el top 3 paquetes más descargados es una buena alternativa a sus iconos!
 
@@ -51,7 +51,7 @@ VSCode Great Icons tiene más de 100 iconos diferentes, en el top 3 paquetes má
 **Instalacione**s: +117,  
 **000Stars:** 4.8
 
-![ Nomo Dark Icon Theme](/wp-content/uploads/2019/10/screenshot-marketplace.visualstudio.com-2019.10.04-19_14_50.png)
+![ Nomo Dark Icon Theme](./2019-10-screenshot-marketplace.visualstudio.com-2019.10.04-19_14_50.png)
 
 [Nomo Dark Icon Them](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-icontheme-nomo-dark)e no es tan famoso como los otros, pero su estilo de iconos agrada mucho.
 

@@ -26,15 +26,15 @@ The use of gifs brings a cheerful and relaxed tone to your email, but be careful
 
 ### [LOVE](https://www.amedigital.com/)
 
-![AME Email Marketing Anniversary](/wp-content/uploads/2019/11/email_ame_2019.gif)
+![AME Email Marketing Anniversary](./2019-11-email_ame_2019.gif)
 
 ### [Curriculum](https://www.curriculum.com.br/)
 
-![Curriculum Email Marketing Anniversary](/wp-content/uploads/2019/11/curriculum.gif)
+![Curriculum Email Marketing Anniversary](./2019-11-curriculum.gif)
 
 ## [Pi Investments](https://www.vemprapi.com.br/)
 
-![PI Investments Email Marketing Anniversary](/wp-content/uploads/2019/11/email_pi.gif)
+![PI Investments Email Marketing Anniversary](./2019-11-email_pi.gif)
 
 ## Clean, simple and objective!
 
@@ -42,15 +42,15 @@ That old story of less is more is never wrong.
 
 ### [Monetus](https://monetus.com.br/)
 
-![Monetus Email Marketing Anniversary](/wp-content/uploads/2019/11/image.png)
+![Monetus Email Marketing Anniversary](./2019-11-image.png)
 
 ### [Interbank](https://www.bancointer.com.br/)
 
-![Inter Bank Email Marketing Anniversary](/wp-content/uploads/2019/11/image-1.png)
+![Inter Bank Email Marketing Anniversary](./2019-11-image-1.png)
 
 ### [Rich](http://rico.com.vc)
 
-![Rich Email Marketing Birthday](/wp-content/uploads/2019/11/image-2.jpg)
+![Rich Email Marketing Birthday](./2019-11-image-2.jpg)
 
 ## bold design
 
@@ -58,12 +58,12 @@ Investing a little time in your design demonstrates affection and concern for th
 
 ### [Submarine](https://www.submarino.com.br/)
 
-![Submarino Email Marketing Anniversary](/wp-content/uploads/2019/11/image-3.jpg)
+![Submarino Email Marketing Anniversary](./2019-11-image-3.jpg)
 
 ### [Moved Used Cars](https://www.movidaseminovos.com.br/)
 
-![Movida Used Cars Email Marketing Anniversary](/wp-content/uploads/2019/11/image-4.jpg)
+![Movida Used Cars Email Marketing Anniversary](./2019-11-image-4.jpg)
 
 ### [Online Shipping](https://www.remessaonline.com.br/)
 
-![Online Shipping Email Marketing Birthday](/wp-content/uploads/2019/11/image-5.png)
+![Online Shipping Email Marketing Birthday](./2019-11-image-5.png)

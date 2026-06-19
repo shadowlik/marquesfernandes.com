@@ -42,7 +42,7 @@ $ shred -zvu -n 5 senhasbancarias.txt
 
 **Dica:** Nunca anote suas senhas em um arquivo de texto. Infelizmente é uma prática bem comum mas totalmente insegura de armazenar informações desse tipo.
 
-![Shred - Sobrescrever o arquivo para esconder seu conteúdo](/wp-content/uploads/2020/02/image-8.png)
+![Shred - Sobrescrever o arquivo para esconder seu conteúdo](./2020-02-image-8.png)
 
 ## 2\. Wipe - Delete seguramente arquivos no Linux
 
@@ -61,7 +61,7 @@ $ wipe -rfi senhas/\*
 -   `-f` – habilita a deleção forçada e desabilita as confirmações
 -   `-i` – exibe o progresso
 
-![Wipe - Delete seguramente arquivos no Linux](/wp-content/uploads/2020/02/image-9.png)
+![Wipe - Delete seguramente arquivos no Linux](./2020-02-image-9.png)
 
 ***Nota**: A ferramenta Wipe só funciona seguramente em memória magnética (HDD), use os outros métodos se você vai deletar arquivos ou pastas em um SDD ou USB.*
 
@@ -81,4 +81,4 @@ $ srm -vz senhas/\*
 -   `-v` – modo verboso, exibe mais informações do processo
 -   `-z` – limpa a última deleção com zeros ao invés de dados aleatórios
 
-![Secure-deletetion Toolkit para o Linux](/wp-content/uploads/2020/02/image-10.png)
+![Secure-deletetion Toolkit para o Linux](./2020-02-image-10.png)

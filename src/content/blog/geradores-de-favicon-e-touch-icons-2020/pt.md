@@ -25,7 +25,7 @@ updated: 2020-08-01T21:57:47.000Z
 
 ## 1\. [Favicon.io](https://favicon.io/)
 
-[![Favicon.io](/wp-content/uploads/2020/08/image-2-1024x487.png)](https://favicon.io/)
+[![Favicon.io](./2020-08-image-2.png)](https://favicon.io/)
 
 [https://favicon.io/](https://favicon.io/)
 
@@ -33,7 +33,7 @@ updated: 2020-08-01T21:57:47.000Z
 
 ## 2\. [Favicon Generator](https://www.favicon-generator.org/)
 
-[![Favicon Generator](/wp-content/uploads/2020/08/image-3-1024x487.png)](https://www.favicon-generator.org/)
+[![Favicon Generator](./2020-08-image-3.png)](https://www.favicon-generator.org/)
 
 [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
 
@@ -41,7 +41,7 @@ O [Favicon Generator](https://www.favicon-generator.org/) possui uma interface b
 
 ## 3\. [Real Favicon Generator](https://realfavicongenerator.net/)
 
-[![Real Favicon Generator](/wp-content/uploads/2020/08/image-4-1024x487.png)](https://realfavicongenerator.net/)
+[![Real Favicon Generator](./2020-08-image-4.png)](https://realfavicongenerator.net/)
 
 [https://realfavicongenerator.net/](https://realfavicongenerator.net/)
 
@@ -49,7 +49,7 @@ O [Favicon Generator](https://www.favicon-generator.org/) possui uma interface b
 
 ## 4\. [Favic-o-matic](https://favicomatic.com/)
 
-[![Favic-o-matic](/wp-content/uploads/2020/08/image-5-1024x487.jpg)](https://realfavicongenerator.net/)
+[![Favic-o-matic](./2020-08-image-5.jpg)](https://realfavicongenerator.net/)
 
 [https://favicomatic.com/](https://favicomatic.com/)
 

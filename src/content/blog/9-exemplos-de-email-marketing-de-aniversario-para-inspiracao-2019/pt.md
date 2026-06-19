@@ -28,15 +28,15 @@ O uso de gifs traz um tom alegre e descontraído para seu e-mail, mas cuidado us
 
 ### [AME](https://www.amedigital.com/)
 
-![AME Email Marketing Aniversário](/wp-content/uploads/2019/11/email_ame_2019.gif)
+![AME Email Marketing Aniversário](./2019-11-email_ame_2019.gif)
 
 ### [Curriculum](https://www.curriculum.com.br/)
 
-![Curriculum Email Marketing Aniversário](/wp-content/uploads/2019/11/curriculum.gif)
+![Curriculum Email Marketing Aniversário](./2019-11-curriculum.gif)
 
 ## [Pi Investimentos](https://www.vemprapi.com.br/)
 
-![PI Investimentos Email Marketing Aniversário](/wp-content/uploads/2019/11/email_pi.gif)
+![PI Investimentos Email Marketing Aniversário](./2019-11-email_pi.gif)
 
 ## Clean, simples e objetivo!
 
@@ -44,15 +44,15 @@ Aquela velha história de menos é mais nunca erra.
 
 ### [Monetus](https://monetus.com.br/)
 
-![Monetus Email Marketing Aniversário](/wp-content/uploads/2019/11/image.png)
+![Monetus Email Marketing Aniversário](./2019-11-image.png)
 
 ### [Banco Inter](https://www.bancointer.com.br/)
 
-![Banco Inter Email Marketing Aniversário](/wp-content/uploads/2019/11/image-1.png)
+![Banco Inter Email Marketing Aniversário](./2019-11-image-1.png)
 
 ### [Rico](http://rico.com.vc)
 
-![Rico Email Marketing Aniversário](/wp-content/uploads/2019/11/image-2.jpg)
+![Rico Email Marketing Aniversário](./2019-11-image-2.jpg)
 
 ## Design arrojado
 
@@ -60,12 +60,12 @@ Investir um tempinho em seu design demonstra carinho e preocupação com o clien
 
 ### [Submarino](https://www.submarino.com.br/)
 
-![Submarino Email Marketing Aniversário](/wp-content/uploads/2019/11/image-3.jpg)
+![Submarino Email Marketing Aniversário](./2019-11-image-3.jpg)
 
 ### [Movida Seminovos](https://www.movidaseminovos.com.br/)
 
-![Movida Seminovos Email Marketing Aniversário](/wp-content/uploads/2019/11/image-4.jpg)
+![Movida Seminovos Email Marketing Aniversário](./2019-11-image-4.jpg)
 
 ### [Remessa Online](https://www.remessaonline.com.br/)
 
-![Remessa Online Email Marketing Aniversário](/wp-content/uploads/2019/11/image-5.png)
+![Remessa Online Email Marketing Aniversário](./2019-11-image-5.png)

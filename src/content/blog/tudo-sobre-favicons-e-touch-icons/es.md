@@ -23,7 +23,7 @@ Favicon, "Icono Favorito", es una imagen utilizada por los navegadores para repr
 -   Iconos de escritorio
 -   Icono de la pantalla de inicio móvil
 
-![](/wp-content/uploads/2019/03/screenshot-bitsofco.de-2019.03.14-21-23-38.png)
+![](./2019-03-screenshot-bitsofco.de-2019.03.14-21-23-38.png)
 
 La mayoría de los navegadores tendrán por defecto un archivo en la raíz de su sitio llamado "favicon.ico", pero podemos proporcionar otra ubicación de icono y tamaños a través de la <link /> etiqueta html.
 
@@ -71,7 +71,7 @@ La propiedad "href" indica la ubicación en el servidor del archivo al que se ha
 
 ## Dispositivos móviles
 
-![](/wp-content/uploads/2019/03/Screenshot_20190314-220947-1024x717.png)
+![](./2019-03-Screenshot_20190314-220947.png)
 
 Algunos navegadores móviles permiten la creación de accesos directos en la pantalla de inicio y para ello podemos proporcionar imágenes con calidad y tamaños optimizados:
 

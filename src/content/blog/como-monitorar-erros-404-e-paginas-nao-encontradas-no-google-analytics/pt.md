@@ -41,11 +41,11 @@ O primeiro relatório que vamos aprender a criar monitora os links internos que 
 5.  Adicione um filtro que **exclua** o valor **(entrance)** para a dimensão **Caminho da Página Anterior**. Esse filtro garante que apenas erros 404 causados por um link interno apareçam.
 6.  Adicione um filtro para o **título da página** que identifique suas páginas não encontradas.
 
-![Relatório customizada para encontrar erros 404 causados por links INTERNOS](/wp-content/uploads/2020/02/image-1-1024x496.png)
+![Relatório customizada para encontrar erros 404 causados por links INTERNOS](./2020-02-image-1.png)
 
 Agora salve seu relatório e veja o resultado:
 
-![](/wp-content/uploads/2020/02/image-2-1024x496.png)
+![](./2020-02-image-2.png)
 
 ## Relatório customizada para encontrar erros 404 causados por links EXTERNOS
 
@@ -58,8 +58,8 @@ Agora vamos aprender como monitorar erros 404 vindos por links externos. Links e
 5.  Adicione um filtro que **inclua** o valor **(entrance)** para a dimensão **Caminho da Página Anterior**. Esse filtro garante que apenas erros 404 causados por um link interno apareçam.
 6.  Adicione um filtro para o **título da página** que identifique suas páginas não encontradas.
 
-![Relatório customizada para encontrar erros 404 causados por links EXTERNOS](/wp-content/uploads/2020/02/image-5-1024x496.png)
+![Relatório customizada para encontrar erros 404 causados por links EXTERNOS](./2020-02-image-5.png)
 
 Se tudo der certo, você terá agora dois relatórios para te ajudar a identificar e corrigir esses erros. Monitore sempre que possível esses relatórios, não deixe um erro simples de ser consertado afetar o seu SEO!
 
-![](/wp-content/uploads/2020/02/image-6-1024x496.png)
+![](./2020-02-image-6.png)

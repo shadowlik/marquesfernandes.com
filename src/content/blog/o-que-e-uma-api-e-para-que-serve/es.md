@@ -38,7 +38,7 @@ Las API suelen clasificarse por su nivel de acceso:
 -   **Socios: so**lo los socios tienen acceso a las API. Por ejemplo, Nubank solo permite a ciertas empresas utilizar sus API para conectarse con sus aplicaciones. Esto permite a la empresa controlar y seleccionar proporcionar la API, dándoles más control sobre quién está accediendo a sus recursos.
 -   **Público:** Las API públicas están disponibles para uso público, cualquier persona puede tener acceso a. Por ejemplo, Microsoft lanza las A[PI de Windows p](https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list)ara que cualquier desarrollador pueda desarrollar una aplicación para su sistema operativo, o LinkedIn que proporciona una API públ[ica para q](https://developer.linkedin.com/docs/rest-api#)ue cualquier usuario se conecte con su aplicación.
 
-![Cómo funciona una API](/wp-content/uploads/2020/04/como-api-funciona.jpg)
+![Cómo funciona una API](./2020-04-como-api-funciona.jpg)
 
 ## API Web
 

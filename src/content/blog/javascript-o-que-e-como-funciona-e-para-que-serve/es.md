@@ -30,7 +30,7 @@ El nombre es similar y causa mucha confusión, per**o JavaScrip**t NO es Java. H
 
 Internet era muy diferente de cómo lo conocemos hoy en día, hubo un tiempo en que las páginas eran simplemente sitios web estáticos, aburridos y sin vida. En sus primeros días, *la World Wide* Web era sólo un gran grupo de páginas tabuladas escritas en HTML, con enlaces e imágenes llamativas. Con los años, y la popularización de Internet, las necesidades y funcionalidades se volvieron cada vez más complicadas y requerían una forma más avanzada de crear páginas que interactuaran mejor con los usuarios.
 
-[![Sitio web de Spacejam](/wp-content/uploads/2020/01/SPACE-1024x576.jpg)](https://www.spacejam.com/)
+[![Sitio web de Spacejam](./2020-01-SPACE.jpg)](https://www.spacejam.com/)
 
 Uno de los sitios más famosos de los años 90 [y un ejemplo aún viv](https://www.spacejam.com/)o de cómo era el internet raíz.
 
@@ -89,7 +89,7 @@ Vea la calcu<a href='https://codepen.io/necolas/pen/KrBQmd'>ladora nativa de Pen
 
 Su amplia portabilidad también permite la programación de [dispositivos integrado](http://marquesfernandes.com/internet-das-coisas/)s. Bibliotecas como [Johnny-F](http://johnny-five.io/)ive le permiten desarrollar para Ard[uino,](http://johnny-five.io/#arduino) Te[ssel 2,](http://johnny-five.io/#tessel) [Raspberry P](http://johnny-five.io/#raspberrypi)i[, Intel Edi](http://johnny-five.io/#edison)s[on, Particle](http://johnny-five.io/#spark) Pho[ton, y más...](http://johnny-five.io/platform-support/) usando JavaScript, el lenguaje se compila en el idioma nativo de cada dispositivo.
 
-![](/wp-content/uploads/2020/02/led-scene-0.gif)
+![](./2020-02-led-scene-0.gif)
 
 var cinco - require("johnny-five");
 var board - nuevos cinco. Junta Directiva();

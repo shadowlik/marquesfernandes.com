@@ -29,11 +29,11 @@ You find t *All scripts in this tutorial on [example worksheet](https://docs.goo
 
 To access Google Apps Scripts, create a blank spreadsheet or copy the [example worksheet](https://docs.google.com/spreadsheets/d/1qHZgB9PDH70RkgPmzzMmrHmNyk6gettTuawES3miHgA/edit?usp=sharing) ; click in *Tools > Script Editor* :
 
-![Google Spreadsheets](/wp-content/uploads/2020/01/image-1024x509.png)
+![Google Spreadsheets](./2020-01-image.png)
 
 A new tab with the Google Apps Script text editor will open:
 
-![Google Apps Script Text Editor](/wp-content/uploads/2020/01/image-5-1024x521.png)
+![Google Apps Script Text Editor](./2020-01-image-5.png)
 
 ## Creating the Scripts
 
@@ -43,15 +43,15 @@ We can easily import CSV files into Google Sheets using the function `Utilities.
 
 For all the examples below, when running the scripts we need to authorize Google Apps Scripts to access some functionality of the Google APIs.
 
-![Google Apps Scripts Authorization - 1](/wp-content/uploads/2020/01/image-2.png)
+![Google Apps Scripts Authorization - 1](./2020-01-image-2.png)
 
 Probably, because your script is not yet approved, the screen below will appear:
 
-![Google Apps Scripts Authorization - 2](/wp-content/uploads/2020/01/image-3.png)
+![Google Apps Scripts Authorization - 2](./2020-01-image-3.png)
 
 click in *Show Advanced* > *Access Project* and proceed to authorization:
 
-![Google Apps Scripts Authorization - 3](/wp-content/uploads/2020/01/image-4.png)
+![Google Apps Scripts Authorization - 3](./2020-01-image-4.png)
 
 ### Importing the CSV file from an email attachment into Gmail
 

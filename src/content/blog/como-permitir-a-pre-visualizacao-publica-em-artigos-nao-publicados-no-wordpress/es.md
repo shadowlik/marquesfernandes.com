@@ -23,7 +23,7 @@ Para que toda la magia suceda necesitamos instalar y activar el plugin [Public P
 
 Después de la activación es necesario navegar y editar la publicación deseada y se dará cuenta de que en *la pestaña* Documento apareció una nueva opción de "Habilitar vista previa pública", para activar la funcionalidad simplemente haga clic y active la casilla de verificación.
 
-![Cómo permitir la vista previa pública de artículos no publicados en Wordpress - Imagen 1](/wp-content/uploads/2019/12/image-1-1024x547.png)
+![Cómo permitir la vista previa pública de artículos no publicados en Wordpress - Imagen 1](./2019-12-image-1.png)
 
 Después de activar el uso compartido, redacte los cambios que realice en el artículo, copie el vínculo generado y compártalo con la persona que desee.
 
@@ -33,6 +33,6 @@ Para deshabilitar la vista previa pública, simplemente vuelva a editar la publi
 
 El vínculo compartido representa una vista previa exactamente igual que la página cuando el artículo se publica finalmente.
 
-![Cómo permitir la vista previa pública de artículos no publicados en Wordpress - Image 2](/wp-content/uploads/2019/12/image-2-1024x527.jpg)
+![Cómo permitir la vista previa pública de artículos no publicados en Wordpress - Image 2](./2019-12-image-2.jpg)
 
 Después de publicar el artículo, la opción de vista previa pública ya no estará disponible en modo de edición y la dirección URL compartida creará una redirección al vínculo permanente del artículo.

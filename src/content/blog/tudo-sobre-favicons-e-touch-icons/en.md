@@ -23,7 +23,7 @@ Favicon, "Favourite Icon" (Favorite Icon) , is an image used by browsers to grap
 -   desktop icons
 -   mobile home screen icon
 
-![](/wp-content/uploads/2019/03/screenshot-bitsofco.de-2019.03.14-21-23-38.png)
+![](./2019-03-screenshot-bitsofco.de-2019.03.14-21-23-38.png)
 
 Most browsers will by default look for a file in the root of your site called "favicon.ico" but we can provide another location and sizes for the icon via the html <link /> tag.
 
@@ -71,7 +71,7 @@ The property "href" indicates the location on the server of the referenced file.
 
 ## Mobile Devices
 
-![](/wp-content/uploads/2019/03/Screenshot_20190314-220947-1024x717.png)
+![](./2019-03-Screenshot_20190314-220947.png)
 
 Some mobile browsers allow the creation of shortcuts on the home screen and for this we can provide images with optimized quality and sizes:
 

@@ -31,11 +31,11 @@ Vamos aprender como conectar em nosso banco de dados, realizar consultas e exibi
 
 Bom, a primeira coisa que precisamos fazer é criar uma nova planilha e abrir o editor de códigos do Google Apps Scripts:
 
-![](/wp-content/uploads/2020/08/image-11-1024x487.png)
+![](./2020-08-image-11.png)
 
 Vamos então ter uma editor de código parecido com o abaixo:
 
-![](/wp-content/uploads/2020/08/image-12-1024x487.png)
+![](./2020-08-image-12.png)
 
 ## Criando o App Scripts para Conectar no Banco de Dados
 
@@ -95,7 +95,7 @@ Altere todas as variáveis indicadas no início do script para a configuração 
 
 Esse script basicamente realiza uma conexão ao banco de dados, no exemplo usei um banco de uma instalação WordPress, onde eu faço um select simples, `SELET * FROM wp_posts LIMIT 10` , onde ele me retorna 10 posts (linhas) da tabela `wp_posts`. Com o resultado fazemos um loop para criar os cabeçalhos e popular as linhas na aba `posts`, veja o resultado abaixo:
 
-![](/wp-content/uploads/2020/08/image-10-1024x487.png)
+![](./2020-08-image-10.png)
 
 ## Conclusão
 

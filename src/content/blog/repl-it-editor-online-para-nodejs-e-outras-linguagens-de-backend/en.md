@@ -18,7 +18,7 @@ updated: 2021-12-12T11:15:35.000Z
 
 This post is not sponsored, unfortunately, but I have been using a tool a lot and I saw that many developers do not know this tool yet! Probably many of you may know the [codepen](https://codepen.io/) or [JSFiddle](https://jsfiddle.net/) , but today I came to talk about a service that goes beyond HTML, CSS and JS.
 
-![](/wp-content/uploads/2019/09/image-13-1024x504.png)
+![](./2019-09-image-13.png)
 
 ## embed
 

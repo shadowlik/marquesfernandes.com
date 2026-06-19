@@ -21,7 +21,7 @@ Separé los 5 mejores sitios que utilizo cuando necesito encontrar ese video en 
 
 ## 1. [Pixabay](https://pixabay.com/)
 
-[![Pixabay](/wp-content/uploads/2020/03/image-7-1024x501.png)](https://pixabay.com/)
+[![Pixabay](./2020-03-image-7.png)](https://pixabay.com/)
 
 \-ERR:REF-NOT-FOUND-Pixabay
 
@@ -29,7 +29,7 @@ Pixabay ofrece más de 1,2 millones de imágenes y vídeos, todos publicados baj
 
 ## 2. [Pexels, Año Nuevo](https://videos.pexels.com/)
 
-[![Pexels, Año Nuevo](/wp-content/uploads/2020/03/image-8-1024x501.png)](https://videos.pexels.com/)
+[![Pexels, Año Nuevo](./2020-03-image-8.png)](https://videos.pexels.com/)
 
 \-ERR:REF-NOT-FOUND-Pexels, Año Nuevo
 
@@ -39,7 +39,7 @@ Su colección también está bajo la licencia CC0, por lo que puede editar y uti
 
 ## 3. [Videvo, Año Nuevo](https://www.videvo.net/)
 
-[![Videvo, Año Nuevo](/wp-content/uploads/2020/03/image-9-1024x501.png)](https://www.videvo.net/)
+[![Videvo, Año Nuevo](./2020-03-image-9.png)](https://www.videvo.net/)
 
 \-ERR:REF-NOT-FOUND-Videvo, Año Nuevo
 
@@ -51,7 +51,7 @@ Los licenciatarios bajo Creative Commons 3.0 se pueden utilizar en cualquier pro
 
 ## 4. [Vida de Vids](http://www.lifeofvids.com/)
 
-[![Vida de Vids](/wp-content/uploads/2020/03/image-10-1024x501.png)](http://www.lifeofvids.com/)
+[![Vida de Vids](./2020-03-image-10.png)](http://www.lifeofvids.com/)
 
 \-ERR:REF-NOT-FOUND-Vida de Vids
 
@@ -59,7 +59,7 @@ Life of Vids es una colección de vídeos, clips y loops gratuitos de [Leero](ht
 
 ## 5. [Splitshire, Año Nuevo](https://www.splitshire.com/category/video-2/)
 
-[![Splitshire, Año Nuevo](/wp-content/uploads/2020/03/image-11-1024x501.png)](https://www.splitshire.com/category/video-2/)
+[![Splitshire, Año Nuevo](./2020-03-image-11.png)](https://www.splitshire.com/category/video-2/)
 
 \-ERR:REF-NOT-FOUND-Splitshire, Año Nuevo
 

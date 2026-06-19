@@ -31,7 +31,7 @@ The basic features you want for a podcast hosting service are:
 
 ## 1\. [Buzzsprout](https://www.buzzsprout.com/)
 
-[![Buzzsprout](/wp-content/uploads/2020/05/image-1024x525.jpg)](https://www.buzzsprout.com/)
+[![Buzzsprout](./2020-05-image.jpg)](https://www.buzzsprout.com/)
 
 [Buzzsprout](https://www.buzzsprout.com/)
 
@@ -47,7 +47,7 @@ The platform has served more than 100,000 users since its launch in 2009, and ha
 
 ## two. [Podbean](https://www.podbean.com/)
 
-[![Podbean](/wp-content/uploads/2020/05/image-1-1024x525.jpg)](https://www.podbean.com/)
+[![Podbean](./2020-05-image-1.jpg)](https://www.podbean.com/)
 
 [Podbean](https://www.podbean.com/)
 
@@ -61,7 +61,7 @@ The platform has served more than 100,000 users since its launch in 2009, and ha
 
 ## 3\. [spreader](https://www.spreaker.com/)
 
-[![](/wp-content/uploads/2020/05/image-2-1024x525.jpg)](https://www.spreaker.com/)
+[![](./2020-05-image-2.jpg)](https://www.spreaker.com/)
 
 [spreader](https://www.spreaker.com/)
 

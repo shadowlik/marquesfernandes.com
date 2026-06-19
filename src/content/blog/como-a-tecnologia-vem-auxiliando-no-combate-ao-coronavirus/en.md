@@ -23,7 +23,7 @@ We can see how much technology has helped in the fight against Coronavirus, many
 
 ## 1\. [SUS Cornavirus Application](https://www.gov.br/pt-br/apps/coronavirus-sus)
 
-[![](/wp-content/uploads/2020/04/image-9.jpg)](https://www.gov.br/pt-br/apps/coronavirus-sus)
+[![](./2020-04-image-9.jpg)](https://www.gov.br/pt-br/apps/coronavirus-sus)
 
 The Ministry of Health, in a very quick response, launched an app called [Coronavirus - SUS](https://www.gov.br/pt-br/apps/coronavirus-sus) . The app presents from descriptions of symptoms, prevention tips, which are the forms of transmission and a map with the free health facilities closest to your location.
 
@@ -33,7 +33,7 @@ Something commendable and surprising coming from the public sector, which is usu
 
 ## two. [Johns Hopkins University](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
-[![](/wp-content/uploads/2020/04/image-8-1024x481.png)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+[![](./2020-04-image-8.png)](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
 [Center for Science and Engineering Systems Monitoring Panel](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
@@ -41,7 +41,7 @@ THE [Center for Systems for Science and Engineering (CSSE)](https://systems.jhu.
 
 ## 3\. Artificial intelligence
 
-![](/wp-content/uploads/2020/04/rock-n-roll-monkey-R4WCbazrD1g-unsplash-1024x575.jpg)
+![](./2020-04-rock-n-roll-monkey-R4WCbazrD1g-unsplash.jpg)
 
 ### 3.1 Monitoring and preventive detection
 
@@ -57,7 +57,7 @@ The American Artificial Intelligence Company [Infervision](https://www.wired.com
 
 ## 4\. telemedicine
 
-![](/wp-content/uploads/2020/04/national-cancer-institute-cQ8FfVNvbew-unsplash-1024x683.jpg)
+![](./2020-04-national-cancer-institute-cQ8FfVNvbew-unsplash.jpg)
 
 The Federal Council of Medicine (CFM) authorized on March 19 the [use of telemedicine](https://pebmed.com.br/tecnologias-que-ampliaram-o-acesso-a-tratamentos-e-diagnosticos-no-brasil-telemedicina/) during the **[COVID-19 pandemic](http://marquesfernandes.com/?p=8003&preview=1&_ppp=97c26d0e74)** .
 

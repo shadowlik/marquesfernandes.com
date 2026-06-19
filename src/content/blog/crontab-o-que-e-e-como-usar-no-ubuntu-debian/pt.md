@@ -43,7 +43,7 @@ A sintaxe cron consiste em um grupo de 5 variáveis separadas por espaço: `* * 
 
 ## [Crontab.guru](https://crontab.guru/)
 
-[![](/wp-content/uploads/2020/03/image-12-1024x463.png)](https://crontab.guru/)
+[![](./2020-03-image-12.png)](https://crontab.guru/)
 
 Um site que eu uso bastante para validar minhas crons: [Crontab.guru](https://crontab.guru/). Nesse site você consegue visualmente ver como sua cron cai se comportar, é muito importante ter cuidado ao criar crons complexas pois isso pode levar a resultados catastróficos se configurado errado!
 
@@ -55,13 +55,13 @@ $ crontab -e
 
 Se essa for a sua primeira vez executando o comando, você precisará informar qual editor de texto deseja usar:
 
-![crontab -e](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-18_55_25.png)
+![crontab -e](./2020-03-screenshot-nimbus-capture-2020.03.20-18_55_25.png)
 
 Escolha o editor padrão para sua Crontab
 
 Eu gosto do editor nano, por isso selecionei a opção 1. Em seguida você um arquivo de texto com alguns comentários explicando como utilizar, podemos seguir para o final do arquivo, onde vamos criar o nosso agendamento.
 
-![crontab -e](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-19_02_50.png)
+![crontab -e](./2020-03-screenshot-nimbus-capture-2020.03.20-19_02_50.png)
 
 Comentários do arquivo Crontab
 
@@ -69,12 +69,12 @@ Vamos adicionar a seguinte linha no final do arquivo:
 
 \* \* \* \* echo "Funcionou" >> ~/cron.log
 
-![crontab -e](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-19_08_46.png)
+![crontab -e](./2020-03-screenshot-nimbus-capture-2020.03.20-19_08_46.png)
 
 Basicamente esse agendamento vai rodar a cada minuto adicionando uma linha no arquivo cron.log localizado na nossa pasta home. Para salvar a sua cron use o atalho Ctrl + O para salvar e fechar o arquivo, agora o seu agendamento já está vigente! Para verificar se ela está funcionando corretamente vamos usar o seguinte comando:
 
 $ tail -f ~/cron.log
 
-![tail -f ~/cron.log](/wp-content/uploads/2020/03/screenshot-nimbus-capture-2020.03.20-19_10_33.png)
+![tail -f ~/cron.log](./2020-03-screenshot-nimbus-capture-2020.03.20-19_10_33.png)
 
 Se tudo ocorrer igual o esperado, após alguns minutos você verá algumas linhas com o nosso texto: "Funcionou". Esse exemplo é bem simples, você pode executar qualquer comando aceito no terminal via Crontab.

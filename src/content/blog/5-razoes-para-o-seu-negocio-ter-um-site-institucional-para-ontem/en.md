@@ -15,4 +15,4 @@ needsReview: false
 updated: 2021-12-12T11:14:40.000Z
 ---
 
-Currently, 92% of potential customers use the internet to consume information, share opinions and research about companies, products and services before making a purchase. If your business is not yet present in the digital environment, you may not be among the consumer's options. Want 5 reasons to make a website as fast as possible? So see the infographic below. ![5 reasons for you to create an institutional website for your business](/wp-content/uploads/2015/09/images_5_motivos_para_voce_criar_um_site_institucional_para_o_seu_negocio.png)
+Currently, 92% of potential customers use the internet to consume information, share opinions and research about companies, products and services before making a purchase. If your business is not yet present in the digital environment, you may not be among the consumer's options. Want 5 reasons to make a website as fast as possible? So see the infographic below. ![5 reasons for you to create an institutional website for your business](./2015-09-images_5_motivos_para_voce_criar_um_site_institucional_para_o_seu_negocio.png)

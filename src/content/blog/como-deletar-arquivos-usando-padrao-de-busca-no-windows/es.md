@@ -38,4 +38,4 @@ Get-ChildItem $ Path -Recurse | Donde {$ \_.Nombre -Match "<RegEx>" -and! $ \_. 
 
 Para los usuarios que no tienen el hábito de usar la línea de comandos, existe la posibilidad de filtrar usando la búsqueda del Explorador de Windows y seleccionar todos los archivos filtrados para su eliminación. Esta forma no es la más eficiente y puede llevar un poco más de trabajo, ya que el filtro a veces devuelve elementos que no necesariamente queremos eliminar, en el siguiente ejemplo vemos el filtro por la extensión `.pn`g. Entonces, si va a usar este método, asegúrese de verificar antes de seleccionar todo y eliminar, si todos los archivos enumerados son realmente los que desea eliminar.
 
-![](/wp-content/uploads/2020/10/image-1-1024x560.jpg)
+![](./2020-10-image-1.jpg)
