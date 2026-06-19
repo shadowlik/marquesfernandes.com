@@ -1,0 +1,12 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { useTranslations } from '@/i18n/utils';
+
+const t = useTranslations('en');
+---
+
+<BaseLayout lang="en" title="MF." description={t('site.tagline')}>
+  <h1>MF.</h1>
+  <p>{t('site.tagline')}</p>
+  <p>Migrating from WordPress to Astro.</p>
+</BaseLayout>
