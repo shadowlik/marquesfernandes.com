@@ -56,8 +56,13 @@ src/content/blog/<translation-key>/
   es.md      # optional
 ```
 
-Write the PT file first, fill frontmatter, then `git push` — the site rebuilds
-and deploys. No CMS, no database at runtime.
+Drafting defaults to PT but may begin in EN or ES when explicitly requested.
+Fill frontmatter, then `git push` to rebuild and deploy. No CMS or database is
+used at runtime. Before shipping,
+follow [`finish-blog-post`](./skills/finish-blog-post/SKILL.md): establish the
+stable Portuguese source, complete natural PT/EN/ES versions, perform the final
+editorial and visual review, and validate the real publishing contract. Never
+set `draft: false` until that gate passes and publication is explicitly approved.
 
 ## TypeScript (Strict)
 

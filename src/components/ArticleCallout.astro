@@ -1,0 +1,57 @@
+---
+interface Props {
+  title?: string;
+  tone?: 'accent' | 'info' | 'success' | 'warning';
+}
+
+const { title, tone = 'accent' } = Astro.props;
+---
+
+<aside class:list={['callout', `callout-${tone}`]}>
+  {title && <p class="callout-title">{title}</p>}
+  <div class="callout-body"><slot /></div>
+</aside>
+
+<style>
+  .callout {
+    --callout-color: var(--color-accent);
+    position: relative;
+    margin-block: 1.75rem;
+    padding: 1rem 1.15rem;
+    border-radius: 0 4px 4px 0;
+    background: linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--callout-color) 12%, transparent),
+      transparent 78%
+    );
+    color: var(--color-heading);
+  }
+  .callout::before {
+    content: '';
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 4px;
+    border-radius: 4px 0 0 4px;
+    background: linear-gradient(to bottom, var(--callout-color) 55%, transparent);
+  }
+  .callout-info {
+    --callout-color: #2563eb;
+  }
+  .callout-success {
+    --callout-color: #15803d;
+  }
+  .callout-warning {
+    --callout-color: #b45309;
+  }
+  .callout-title {
+    margin: 0 0 0.35rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+  }
+  .callout-body :global(> :first-child) {
+    margin-top: 0;
+  }
+  .callout-body :global(> :last-child) {
+    margin-bottom: 0;
+  }
+</style>

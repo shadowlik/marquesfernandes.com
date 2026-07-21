@@ -1,0 +1,74 @@
+---
+interface Step {
+  title: string;
+  description?: string;
+}
+
+interface Props {
+  items: Step[];
+}
+
+const { items } = Astro.props;
+---
+
+<ol class="article-steps">
+  {
+    items.map((item) => (
+      <li>
+        <div class="step-content">
+          <strong>{item.title}</strong>
+          {item.description && <p>{item.description}</p>}
+        </div>
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .article-steps {
+    margin-block: 1.75rem;
+    padding: 0;
+    list-style: none;
+    counter-reset: article-step;
+  }
+  li {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2.25rem 1fr;
+    gap: 0.85rem;
+    counter-increment: article-step;
+  }
+  li::before {
+    content: counter(article-step);
+    position: relative;
+    z-index: 1;
+    display: grid;
+    width: 2.25rem;
+    height: 2.25rem;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: var(--color-on-dark);
+    font-family: var(--font-heading);
+    font-weight: 700;
+  }
+  li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 2.25rem;
+    bottom: 0;
+    left: calc(1.125rem - 1px);
+    width: 2px;
+    background: color-mix(in srgb, var(--color-accent) 25%, var(--color-bg));
+  }
+  .step-content {
+    padding: 0.35rem 0 1.35rem;
+  }
+  .step-content strong {
+    color: var(--color-heading);
+    font-family: var(--font-heading);
+  }
+  .step-content p {
+    margin: 0.25rem 0 0;
+  }
+</style>

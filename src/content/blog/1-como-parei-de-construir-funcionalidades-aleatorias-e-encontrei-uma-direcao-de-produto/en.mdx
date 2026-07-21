@@ -1,0 +1,227 @@
+---
+title: '1. How I Stopped Building Random Features and Found a Product Direction'
+description: 'How I turned a pile of ideas into a focused roadmap and learned that an MVP does not need to be small, but it does need to deliver value.'
+date: 2026-07-22T00:00:00.000Z
+lang: en
+translationKey: 1-como-parei-de-construir-funcionalidades-aleatorias-e-encontrei-uma-direcao-de-produto
+slug: 1-how-i-stopped-building-random-features-and-found-a-product-direction
+category: development
+canonicalPath: /en/development/1-how-i-stopped-building-random-features-and-found-a-product-direction/
+tags:
+  - product
+  - mvp
+  - building-in-public
+  - haid
+draft: false
+needsReview: false
+---
+
+import ArticleCallout from '@/components/ArticleCallout.astro';
+import ArticleFigure from '@/components/ArticleFigure.astro';
+import haidProductDirection from './2026-07-IMG_9168.jpeg';
+
+*This is part two of my [Growing HAID in Public](https://haid.app/) series. In [part one](/en/why-im-growing-haid-in-public-not-building-in-public/), I wrote about building a fitness app, failing at distribution, and realizing that my product still lacked a clear reason to exist. This is what happened next: turning a pile of ideas into an actual roadmap.*
+
+## The problem after the problem
+
+I had finally figured out what HAID should be.
+
+Not just another fitness data aggregator, but a system that uses the context of your life to help you understand *how you are actually doing*.
+
+Great. Clear direction. Finally.
+
+Now what?
+
+I had a Notion workspace that would make Sheldon from *The Big Bang Theory* proud. Tasks everywhere, feature ideas piling up, integrations I wanted to build, and interface redesigns I had been sketching.
+
+Everything was organized in the sense that it was written down. It was not organized in the sense that mattered: I had no idea what to build *first*.
+
+I have owned features and contributed to roadmaps at every company I have worked for. I have sat in prioritization meetings, talked to product managers, and debated scope.
+
+But I had never been the person responsible for building everything from scratch. The person who decides not only what goes in, but also what stays out and in what order.
+
+That was a different kind of problem.
+
+## What I thought product thinking was
+
+As an engineer, I used to think product thinking looked something like this:
+
+- List the features.
+- Estimate the effort.
+- Sort everything by impact and effort.
+- Start with high-impact, low-effort work.
+
+That is not exactly wrong. But it is incomplete.
+
+It is the spreadsheet version of product thinking. It skips the harder questions.
+
+What is the first version of this product that can make someone care? Not the version with every feature, but the one that delivers the core promise well enough for a stranger to keep using it.
+
+That question changed the way I looked at everything.
+
+And, honestly, an MVP is rarely truly minimal anymore, especially when you enter a category full of large, established companies. Users will compare your product with the incumbents immediately. There is no way around it.
+
+You need enough familiar functionality to feel like a serious alternative from day one. At the same time, you need to give people a clear reason to switch from what they already use.
+
+That was the real shock for me: HAID could not feel like one more app layered on top of Garmin, Strava, Apple Health, and everything else. It needed to start replacing at least one of them while pointing toward a larger vision.
+
+## Defining what HAID actually is on paper
+
+I forced myself to write.
+
+No code, Figma, or tasks. Just words.
+
+What problem does HAID solve? Who is it for? Why do existing apps fail to solve that problem? What would make someone leave their current setup?
+
+<ArticleFigure
+  src={haidProductDirection}
+  alt="HAID product document in Notion explaining that fitness data needs to account for stress, travel, injuries, and other life context"
+  caption="The document I used to turn the idea behind HAID into a product direction."
+  size="narrow"
+/>
+
+Putting everything on paper gave me more clarity than I expected. Ideas that seemed obvious in my head became questionable once I wrote them down. Things I had been avoiding became clearly important.
+
+And some features I was excited to build revealed themselves for what they were: nice ideas that had no place in the first version.
+
+## Choosing what goes into the MVP
+
+This is where it became difficult. My definition of an MVP had to change.
+
+At first, “MVP” meant the smallest thing I could release. Basic data ingestion, a simple dashboard, and perhaps one social feature.
+
+The classic developer instinct: ship something quickly and iterate.
+
+But after the Reddit experience, someone asked, “Why would I download this?” and I did not have a good answer. I realized that an MVP that was too minimal would simply repeat the same problem.
+
+If the first version does not deliver the core promise, it does not matter how quickly you release it. You will receive the same feedback again.
+
+My new definition became: the minimum version capable of answering *“How am I doing?”* with enough depth to deliver real value.
+
+That completely changed the order of the roadmap.
+
+### Life context moved to the top
+
+The context feature was already in the backlog. The problem was that it was buried in the fourth quarter, behind several things I wanted to build because they looked more exciting and easier.
+
+It needed to become the priority.
+
+Travel, stress, injuries, and recovery could not be a distant add-on. They were precisely what separated HAID from another dashboard full of training charts.
+
+### The experience needed to adapt to the person
+
+I hate opening an app and seeing empty spaces every day for data I will never produce.
+
+That meant defining personas and designing an adaptable experience. A casual user and a professional athlete should not see exactly the same thing or feel judged or overwhelmed by the app.
+
+Their experiences can be different, but they need to share the same core principle: use data and context to help each person understand how they are doing.
+
+### Some ideas had to go
+
+I also cut things I wanted to build simply because they would be fun.
+
+Achievements and route segments, for example. They are enjoyable features, but do they create a meaningful difference? Would an AI bot actually help, or would it make people reject the product before trying it?
+
+“Not now” is a frustrating answer when you know you can build something. But it became a necessary part of the process.
+
+## How I organized the work
+
+I am not going to pretend I discovered a brilliant framework. I did not.
+
+This is what I actually did.
+
+### Everything lives in Notion
+
+I have a product backlog, a screen inventory, and PRDs for the main features. Every screen in the app has a corresponding Notion page with requirements, edge cases, and design decisions.
+
+It is probably too much engineering for a one-person project. But it keeps my head in order.
+
+### Prioritization is simple
+
+For every feature or task, I ask: does this move me closer to a version of HAID that answers “How am I doing?” in a way someone genuinely values?
+
+If the answer is yes, it enters the roadmap. If it is interesting but tangential, it goes onto the “later” list.
+
+### Time is also part of the product
+
+This was the hardest shift.
+
+I am a solo developer with a full-time job. HAID is a side project. I cannot simply enter an endless sprint.
+
+I had to accept that things take time and that I cannot rush the product just because I am excited. Setting realistic timelines, and not tearing myself apart when I miss them, was a skill I had to develop.
+
+Life context was one of those cases.
+
+The idea sounded simple, but it hid several decisions. How do you record a trip without turning it into an annoying form? How do you represent periods of travel, stress, injury, or recovery in a structured way? And how do you carry that context through the rest of the app instead of trapping it on one screen?
+
+I estimated two weeks.
+
+I was very wrong.
+
+The first version felt clumsy. Once I started testing it, both the input flow and the way context appeared throughout the app felt wrong. The result was not what I had imagined.
+
+So I tore it down and started again.
+
+It took five weeks to reach something that made me think: yes, this works.
+
+I had also overcomplicated the first interaction. My original idea was a chatbot-style field where someone could send a message and the app would infer the context from natural language.
+
+I still like the idea. I still want to build it. Just not now.
+
+To validate the flow, a simple form, a few emojis, and a date picker were more than enough. [KISS](https://en.wikipedia.org/wiki/KISS_principle).
+
+## What “minimum” actually means
+
+<ArticleCallout title="The definition that stayed">
+  Minimum does not mean small. It means **focused**.
+</ArticleCallout>
+
+My MVP is not a weekend project. It represents months of work. But every part serves the same goal: provide enough context around fitness data to make someone return the next day.
+
+That is the bar.
+
+Not “How many features does it have?” but “Does this make someone open the app again?”
+
+In the first draft of this article, I estimated that I was about a month away from that version. After missing a two-week estimate by a considerable margin, I would rather not turn another estimate into a promise.
+
+Once it is ready, the focus shifts to bugs, experience refinements, and then the big unknown: getting people to try it.
+
+## What I learned about product as a developer
+
+If I had to summarize what I have learned so far, it would be this.
+
+### Functionality is not value
+
+I could build every feature perfectly and still end up with a product nobody wants.
+
+The “what” matters less than “Why should I care?”
+
+### Writing forces clarity
+
+Whenever I felt confused about the direction, putting things into words instead of code helped me see what I was actually trying to do.
+
+PRDs are not bureaucracy when you are building alone. They are thinking tools.
+
+### Cutting is harder than building
+
+Saying “not yet” to a feature that excites me is genuinely painful. But a focused product beats a product stuffed with features, especially when you do not have enough users to tell you what truly matters.
+
+### Product thinking is a skill
+
+I was not born knowing how to prioritize or define scope. I am learning it the same way I learned engineering: by doing, making mistakes, and adjusting.
+
+It is uncomfortable, but it can be learned.
+
+Being able to build quickly can even become a trap. When you are an engineer who enjoys building, it is very easy to confuse “This would be fun to build” with “This would make a difference.”
+
+For me, a large part of product thinking has been learning to distrust that instinct a little and ask a harder question: does this solve a real problem, or does it merely satisfy my own taste?
+
+## What comes next
+
+First, finish the MVP. Then comes the part I am least prepared for: growth.
+
+The goal I set was to reach 500 users, but the number alone does not answer the harder question: how do the right people discover the product and find enough value to keep using it?
+
+The next article will be about that attempt: how a developer with no marketing experience tries to earn attention in a market flooded with apps that promise to solve everything with AI.
+
+*If you want to follow what I am building: [haid.app](https://haid.app/).*

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finish Blog Post"
+  short_description: "Review, translate, and prepare posts to ship"
+  default_prompt: "Use $finish-blog-post to review this article, complete PT/EN/ES, and prepare it for publication."

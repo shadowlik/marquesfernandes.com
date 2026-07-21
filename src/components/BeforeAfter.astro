@@ -1,0 +1,66 @@
+---
+interface Props {
+  beforeLabel: string;
+  afterLabel: string;
+}
+
+const { beforeLabel, afterLabel } = Astro.props;
+---
+
+<div class="before-after">
+  <section class="comparison-panel comparison-before">
+    <h3>{beforeLabel}</h3>
+    <div class="comparison-body"><slot name="before" /></div>
+  </section>
+  <section class="comparison-panel comparison-after">
+    <h3>{afterLabel}</h3>
+    <div class="comparison-body"><slot name="after" /></div>
+  </section>
+</div>
+
+<style>
+  .before-after {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-block: 1.75rem;
+  }
+  .comparison-panel {
+    position: relative;
+    padding: 1rem 1.1rem;
+    border-radius: 0 0 4px 4px;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--comparison-color) 10%, transparent),
+      transparent 72%
+    );
+  }
+  .comparison-panel::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto;
+    height: 3px;
+    background: linear-gradient(to right, var(--comparison-color) 35%, transparent 90%);
+  }
+  .comparison-before {
+    --comparison-color: #64748b;
+  }
+  .comparison-after {
+    --comparison-color: var(--color-accent);
+  }
+  h3 {
+    margin: 0 0 0.55rem;
+    font-size: 1rem;
+  }
+  .comparison-body :global(> :first-child) {
+    margin-top: 0;
+  }
+  .comparison-body :global(> :last-child) {
+    margin-bottom: 0;
+  }
+  @media (max-width: 560px) {
+    .before-after {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

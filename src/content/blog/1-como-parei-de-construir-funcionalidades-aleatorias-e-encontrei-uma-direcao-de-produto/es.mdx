@@ -1,0 +1,227 @@
+---
+title: '1. Cómo dejé de crear funcionalidades al azar y encontré una dirección de producto'
+description: 'Cómo transformé un montón de ideas en un roadmap enfocado y aprendí que un MVP no tiene que ser pequeño, pero sí debe entregar valor.'
+date: 2026-07-22T00:00:00.000Z
+lang: es
+translationKey: 1-como-parei-de-construir-funcionalidades-aleatorias-e-encontrei-uma-direcao-de-produto
+slug: 1-como-deje-de-crear-funcionalidades-al-azar-y-encontre-una-direccion-de-producto
+category: desarrollo
+canonicalPath: /es/desarrollo/1-como-deje-de-crear-funcionalidades-al-azar-y-encontre-una-direccion-de-producto/
+tags:
+  - producto
+  - mvp
+  - construir-en-publico
+  - haid
+draft: false
+needsReview: false
+---
+
+import ArticleCallout from '@/components/ArticleCallout.astro';
+import ArticleFigure from '@/components/ArticleFigure.astro';
+import haidProductDirection from './2026-07-IMG_9168.jpeg';
+
+*Esta es la segunda parte de mi serie [Haciendo crecer HAID en público](https://haid.app/). En la [primera parte](/es/0-por-que-hago-crecer-haid-en-publico-no-construyo-en-publico/), conté cómo construí una app de fitness, fracasé con la distribución y descubrí que mi producto todavía no tenía una razón clara para existir. Este texto trata sobre lo que vino después: transformar un montón de ideas en un roadmap de verdad.*
+
+## El problema después del problema
+
+Por fin había entendido qué debía ser HAID.
+
+No solo otro agregador de datos de fitness, sino un sistema capaz de considerar el contexto de la vida para ayudarte a entender *cómo te está yendo de verdad*.
+
+Genial. Una dirección clara. Por fin.
+
+¿Y ahora qué?
+
+Tenía un espacio de trabajo en Notion que enorgullecería a Sheldon, de *The Big Bang Theory*. Tareas por todas partes, ideas de funcionalidades acumulándose, integraciones que quería desarrollar y rediseños de interfaz que llevaba tiempo dibujando.
+
+Todo estaba organizado en el sentido de que estaba escrito. Pero no lo estaba en el sentido que realmente importaba: no tenía ni idea de qué construir *primero*.
+
+He sido responsable de funcionalidades y he contribuido a roadmaps en todas las empresas en las que he trabajado. He participado en reuniones de priorización, hablado con product managers y discutido el alcance.
+
+Pero nunca había sido la persona responsable de construirlo todo desde cero. La persona que decide no solo qué entra, sino también qué se queda fuera y en qué orden.
+
+Ese era un problema diferente.
+
+## Lo que creía que era pensar en producto
+
+Como ingeniero, pensaba que trabajar el producto consistía más o menos en esto:
+
+- Enumerar funcionalidades.
+- Estimar el esfuerzo.
+- Ordenarlo todo por impacto y esfuerzo.
+- Empezar por lo que tiene mucho impacto y requiere poco esfuerzo.
+
+Eso no está exactamente mal. Pero está incompleto.
+
+Es la versión de hoja de cálculo del pensamiento de producto. Ignora las preguntas más difíciles.
+
+¿Cuál es la primera versión de este producto capaz de hacer que a alguien le importe? No la versión con todas las funcionalidades, sino la que cumple la promesa central lo bastante bien como para que un desconocido siga usándola.
+
+Esa pregunta cambió mi manera de verlo todo.
+
+Y, sinceramente, hoy en día un MVP rara vez es verdaderamente mínimo, sobre todo cuando entras en una categoría llena de empresas grandes y consolidadas. Los usuarios compararán tu producto con las alternativas conocidas de inmediato. No hay forma de evitarlo.
+
+Necesitas suficientes funcionalidades familiares para parecer una alternativa seria desde el primer día. Al mismo tiempo, tienes que dar a la gente una razón clara para abandonar lo que ya utiliza.
+
+Ese fue el verdadero golpe para mí: HAID no podía parecer otra app más encima de Garmin, Strava, Apple Health y todo lo demás. Tenía que empezar a sustituir al menos a una de ellas mientras apuntaba hacia una visión más amplia.
+
+## Definir sobre el papel qué es realmente HAID
+
+Me obligué a escribir.
+
+Nada de código, Figma o tareas. Solo palabras.
+
+¿Qué problema resuelve HAID? ¿Para quién? ¿Por qué las aplicaciones existentes no lo resuelven? ¿Qué haría que alguien abandonara su configuración actual?
+
+<ArticleFigure
+  src={haidProductDirection}
+  alt="Documento de producto de HAID en Notion que explica que los datos de fitness deben considerar el estrés, los viajes, las lesiones y otros contextos de la vida"
+  caption="El documento que utilicé para transformar la idea de HAID en una dirección de producto."
+  size="narrow"
+/>
+
+Ponerlo todo sobre el papel me dio una claridad que no esperaba. Cosas que parecían obvias en mi cabeza se volvieron cuestionables al escribirlas. Otras que llevaba tiempo evitando pasaron a ser claramente importantes.
+
+Y algunas funcionalidades que me entusiasmaba construir se revelaron como lo que eran: ideas interesantes que no tenían ninguna razón para estar en la primera versión.
+
+## Elegir qué entra en el MVP
+
+Aquí fue donde se puso difícil. Mi propia definición de MVP tuvo que cambiar.
+
+Al principio, “MVP” significaba lo más pequeño que pudiera publicar. Ingesta básica de datos, un dashboard sencillo y quizá alguna funcionalidad social.
+
+El instinto clásico de un desarrollador: publica algo rápido y ve iterando.
+
+Pero, después de la experiencia en Reddit, alguien preguntó: “¿Por qué descargaría esto?”, y yo no tenía una buena respuesta. Entendí que un MVP demasiado mínimo solo repetiría el mismo problema.
+
+Si la primera versión no cumple la promesa central, da igual lo rápido que la publiques. Solo volverás a recibir el mismo feedback.
+
+Mi nueva definición pasó a ser: la versión mínima capaz de responder a la pregunta *“¿Cómo me está yendo?”* con suficiente profundidad como para entregar valor.
+
+Eso cambió por completo el orden del roadmap.
+
+### El contexto de la vida subió al primer puesto
+
+La funcionalidad de contexto ya existía en el backlog. El problema era que estaba enterrada en el cuarto trimestre, detrás de varias cosas que quería construir porque parecían más interesantes y sencillas.
+
+Tenía que convertirse en la prioridad.
+
+Los viajes, el estrés, las lesiones y la recuperación no podían ser un complemento lejano. Eran precisamente la diferencia entre HAID y otro dashboard lleno de gráficos sobre entrenamiento.
+
+### La experiencia tenía que adaptarse a cada persona
+
+Odio entrar en una aplicación y encontrar, todos los días, espacios vacíos para datos que nunca voy a generar.
+
+Por eso tuve que definir personas y pensar en una experiencia adaptable. Un usuario casual y un atleta profesional no deberían ver exactamente lo mismo ni sentirse juzgados o abrumados por la aplicación.
+
+Las experiencias pueden ser diferentes, pero deben compartir el mismo principio central de HAID: utilizar datos y contexto para ayudar a cada persona a entender cómo le está yendo.
+
+### Algunas ideas tuvieron que salir
+
+También eliminé cosas que quería construir simplemente porque serían divertidas.
+
+Logros y segmentos de rutas, por ejemplo. Son funcionalidades interesantes, pero ¿representan una diferencia real? ¿Un bot con IA sería realmente útil o haría que la gente rechazara el producto antes de probarlo?
+
+“Ahora no” es una respuesta frustrante cuando sabes que puedes construir algo. Pero empezó a ser una parte necesaria del proceso.
+
+## Cómo organicé el trabajo
+
+No voy a fingir que descubrí un framework brillante. No fue así.
+
+Esto es lo que hice de verdad.
+
+### Todo vive en Notion
+
+Tengo un backlog de producto, un inventario de pantallas y PRD para las funcionalidades principales. Cada pantalla de la aplicación tiene una página correspondiente en Notion con requisitos, casos límite y decisiones de diseño.
+
+Probablemente sea demasiada ingeniería para un proyecto de una sola persona. Pero mantiene mi cabeza en orden.
+
+### La priorización es sencilla
+
+Para cada funcionalidad o tarea, me pregunto: ¿esto me acerca a una versión de HAID que responde “¿Cómo me está yendo?” de una manera que alguien valora de verdad?
+
+Si la respuesta es sí, entra en el roadmap. Si es interesante pero tangencial, va a la lista de “más adelante”.
+
+### El tiempo también forma parte del producto
+
+Este fue el cambio más difícil.
+
+Soy un desarrollador en solitario con un trabajo a tiempo completo. HAID es un proyecto paralelo. No puedo entrar sin más en un sprint infinito.
+
+Tuve que aceptar que las cosas llevan tiempo y que no puedo acelerar el producto solo porque estoy entusiasmado. Definir plazos realistas y no castigarme cuando no los cumplo fue una habilidad que tuve que desarrollar.
+
+El contexto de la vida fue uno de esos casos.
+
+La idea parecía sencilla, pero escondía muchas decisiones. ¿Cómo registrar un viaje sin convertirlo en un formulario molesto? ¿Cómo representar de forma estructurada periodos de viaje, estrés, lesión o recuperación? ¿Y cómo llevar ese contexto al resto de la aplicación sin dejarlo atrapado en una sola pantalla?
+
+Calculé dos semanas.
+
+Me equivoqué por mucho.
+
+La primera versión era torpe. Cuando empecé a probarla, tanto el flujo de entrada como la forma en que el contexto aparecía en el resto de la aplicación parecían incorrectos. El resultado no era lo que había imaginado.
+
+Así que lo derribé todo y empecé de nuevo.
+
+Pasaron cinco semanas hasta que llegué a algo que me hizo pensar: ahora sí funciona.
+
+También había complicado demasiado la primera interacción. Mi idea inicial era un campo parecido a un chatbot en el que la persona enviaría un mensaje y la aplicación deduciría el contexto a partir del lenguaje natural.
+
+La idea me sigue gustando. Todavía quiero construirla. Pero ahora no.
+
+Para validar el flujo, un formulario sencillo, algunos emojis y un selector de fechas eran más que suficientes. [KISS](https://en.wikipedia.org/wiki/KISS_principle).
+
+## Qué significa realmente “mínimo”
+
+<ArticleCallout title="La definición que permaneció">
+  Mínimo no significa pequeño. Significa **enfocado**.
+</ArticleCallout>
+
+Mi MVP no es un proyecto de fin de semana. Son meses de trabajo. Pero cada parte sirve al mismo objetivo: ofrecer suficiente contexto sobre los datos de fitness para que alguien vuelva al día siguiente.
+
+Ese es el criterio.
+
+No “¿Cuántas funcionalidades tiene?”, sino “¿Esto hace que alguien vuelva a abrir la aplicación?”.
+
+En el primer borrador de este texto, calculaba que faltaba alrededor de un mes para tener lista esa versión. Después de equivocarme por un margen considerable con una estimación de dos semanas, prefiero no convertir otra estimación en una promesa.
+
+Cuando esté lista, el foco pasará a los bugs, el refinamiento de la experiencia y después a la gran incógnita: conseguir que la gente la pruebe.
+
+## Lo que aprendí sobre producto siendo desarrollador
+
+Si tuviera que resumir lo que he aprendido hasta ahora, sería esto.
+
+### Funcionalidad no es valor
+
+Podría construir perfectamente todas las funcionalidades y aun así terminar con un producto que nadie quiere.
+
+El “qué” importa menos que el “¿Por qué debería importarme?”.
+
+### Escribir obliga a tener claridad
+
+Cada vez que me sentí confundido sobre la dirección, poner las cosas en palabras, y no en código, me ayudó a ver lo que realmente intentaba hacer.
+
+Los PRD no son burocracia cuando construyes en solitario. Son herramientas para pensar.
+
+### Eliminar es más difícil que construir
+
+Decir “todavía no” a una funcionalidad que me entusiasma es realmente doloroso. Pero un producto enfocado vence a uno lleno de funcionalidades, sobre todo cuando todavía no tienes suficientes usuarios para decirte qué importa de verdad.
+
+### Pensar en producto es una habilidad
+
+No nací sabiendo priorizar o definir el alcance. Lo estoy aprendiendo de la misma forma que aprendí ingeniería: haciendo, equivocándome y ajustando.
+
+Es incómodo, pero se puede aprender.
+
+Saber construir rápido puede convertirse incluso en una trampa. Cuando eres ingeniero y disfrutas desarrollando, es muy fácil confundir “Sería divertido construir esto” con “Esto marcaría una diferencia”.
+
+Buena parte del pensamiento de producto, al menos para mí, ha consistido en aprender a desconfiar un poco de ese instinto y hacer una pregunta más difícil: ¿esto resuelve un problema real o solo satisface mi propio gusto?
+
+## Qué viene ahora
+
+Primero, terminar el MVP. Después llega la parte para la que estoy menos preparado: el crecimiento.
+
+La meta que definí fue llegar a 500 usuarios, pero el número por sí solo no responde a la pregunta más difícil: ¿cómo conseguir que las personas adecuadas descubran el producto y encuentren suficiente valor como para seguir utilizándolo?
+
+El próximo texto tratará sobre ese intento: cómo un desarrollador sin experiencia en marketing busca conquistar atención en un mercado inundado de aplicaciones que prometen resolverlo todo con IA.
+
+*Si quieres seguir lo que estoy construyendo: [haid.app](https://haid.app/).*
