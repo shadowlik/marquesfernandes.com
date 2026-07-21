@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Write Blog Post'
+  short_description: 'Draft articles in Henrique’s established voice'
+  default_prompt: 'Use $write-blog-post to start a new article for marquesfernandes.com.'

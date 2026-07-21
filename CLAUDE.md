@@ -43,6 +43,12 @@ Markdown/MDX, **migrated off WordPress** (see the design spec below). Trilingual
 
 ## Authoring a New Post
 
+For any request to start, outline, draft, revise, translate, or publish a blog
+article, read and follow the agent-agnostic
+[`write-blog-post` skill](./skills/write-blog-post/SKILL.md). It is the
+procedural source of truth for article work and loads
+`docs/guia-de-estilo-de-escrita.md` as the shared voice reference.
+
 ```
 src/content/blog/<translation-key>/
   pt.md      # source (required)
