@@ -1,7 +1,8 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
-import { postsForLang } from '@/lib/blog';
+import { postsForLang, stripCategoryPath } from '@/lib/blog';
+import { resolveCanonicalPath } from '@/lib/translations';
 
 export async function GET(context: APIContext) {
   const posts = postsForLang(await getCollection('blog'), 'es');
@@ -13,7 +14,7 @@ export async function GET(context: APIContext) {
       title: p.data.title,
       description: p.data.description,
       pubDate: p.data.date,
-      link: p.data.canonicalPath ?? '/es/',
+      link: stripCategoryPath(resolveCanonicalPath(p.data)),
     })),
   });
 }

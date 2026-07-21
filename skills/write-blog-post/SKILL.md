@@ -103,11 +103,15 @@ Do not create or modify an article file when the user only asks for brainstormin
 For a new article, use:
 
 ```text
-src/content/blog/<translation-key>/
+src/content/blog/<year>/<month>/<translation-key>/
   pt.md
   en.md  # optional
   es.md  # optional
 ```
+
+Use zero-padded month folders for new articles, for example
+`src/content/blog/2026/07/my-article/`. This hierarchy is organizational only;
+never derive a public URL from it. The complete archive follows this convention.
 
 Use this frontmatter shape for a new Portuguese draft:
 

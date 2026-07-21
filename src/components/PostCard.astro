@@ -12,9 +12,10 @@ interface Props {
   excerpt?: string;
   date: Date;
   lang: string;
+  category: string;
   cover?: ImageMetadata;
 }
-const { href, title, excerpt, date, lang, cover } = Astro.props;
+const { href, title, excerpt, date, lang, category, cover } = Astro.props;
 const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
   day: '2-digit',
   month: '2-digit',
@@ -24,9 +25,21 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
 
 <article class="card">
   {
-    cover && (
-      <a class="thumb" href={href} aria-hidden="true" tabindex="-1">
-        <Image src={cover} alt="" widths={[400, 800]} sizes="(max-width: 720px) 100vw, 560px" />
+    (
+      <a
+        class:list={['thumb', { 'thumb-fallback': !cover }]}
+        href={href}
+        aria-hidden="true"
+        tabindex="-1"
+      >
+        {cover ? (
+          <Image src={cover} alt="" widths={[400, 800]} sizes="(max-width: 720px) 100vw, 560px" />
+        ) : (
+          <span class="fallback-content">
+            <span class="fallback-mark">MF.</span>
+            <span class="fallback-category">{category.replace(/-/g, ' ')}</span>
+          </span>
+        )}
       </a>
     )
   }
@@ -43,15 +56,63 @@ const formatted = new Intl.DateTimeFormat(lang === 'pt' ? 'pt-BR' : lang, {
     display: block;
     margin-bottom: 1rem;
     overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: var(--color-ink);
   }
   .thumb :global(img) {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.4s ease;
   }
   .card:hover .thumb :global(img) {
     transform: scale(1.04);
+  }
+  .thumb-fallback {
+    position: relative;
+    isolation: isolate;
+    color: var(--color-on-dark);
+    background:
+      radial-gradient(
+        circle at 82% 18%,
+        color-mix(in srgb, var(--color-accent) 55%, transparent),
+        transparent 34%
+      ),
+      linear-gradient(
+        135deg,
+        var(--color-ink) 28%,
+        color-mix(in srgb, var(--color-accent) 42%, var(--color-ink))
+      );
+  }
+  .thumb-fallback::after {
+    content: '';
+    position: absolute;
+    inset: 12% 8%;
+    z-index: -1;
+    border: 1px solid color-mix(in srgb, var(--color-on-dark) 24%, transparent);
+  }
+  .fallback-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 10%;
+    font-family: var(--font-heading);
+  }
+  .fallback-mark {
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    font-weight: 700;
+    line-height: 1;
+  }
+  .fallback-category {
+    max-width: 16ch;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-align: right;
+    text-transform: uppercase;
   }
   .title {
     font-size: 1.6rem;

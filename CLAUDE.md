@@ -50,11 +50,15 @@ procedural source of truth for article work and loads
 `docs/guia-de-estilo-de-escrita.md` as the shared voice reference.
 
 ```
-src/content/blog/<translation-key>/
+src/content/blog/<year>/<month>/<translation-key>/
   pt.md      # source (required)
   en.md      # optional; needsReview: true if machine-translated
   es.md      # optional
 ```
+
+The year/month folders organize source files only. Public URLs come from
+`canonicalPath`, `category`, and `slug`, never from the content folder path.
+The complete archive follows this chronological layout.
 
 Drafting defaults to PT but may begin in EN or ES when explicitly requested.
 Fill frontmatter, then `git push` to rebuild and deploy. No CMS or database is
@@ -63,6 +67,9 @@ follow [`finish-blog-post`](./skills/finish-blog-post/SKILL.md): establish the
 stable Portuguese source, complete natural PT/EN/ES versions, perform the final
 editorial and visual review, and validate the real publishing contract. Never
 set `draft: false` until that gate passes and publication is explicitly approved.
+When a commit publishes an article, follow
+[`publish-blog-post`](./skills/publish-blog-post/SKILL.md) after the site deploys
+to create or update the English canonical copy on DEV.to.
 
 ## TypeScript (Strict)
 

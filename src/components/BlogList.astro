@@ -5,6 +5,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PostCard from '@/components/PostCard.astro';
 import { type Lang } from '@/i18n/ui';
 import { stripCategoryPath } from '@/lib/blog';
+import { resolveCanonicalPath } from '@/lib/translations';
 
 interface Props {
   lang: Lang;
@@ -23,11 +24,12 @@ const { lang, heading, page, ogImage } = Astro.props;
       {
         page.data.map((p) => (
           <PostCard
-            href={p.data.canonicalPath ? stripCategoryPath(p.data.canonicalPath) : '#'}
+            href={stripCategoryPath(resolveCanonicalPath(p.data))}
             title={p.data.title}
             excerpt={p.data.description}
             date={p.data.date}
             lang={lang}
+            category={p.data.category}
             cover={p.data.cover}
           />
         ))

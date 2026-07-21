@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Publish Blog Post'
+  short_description: 'Publish site articles and sync them to DEV.to'
+  default_prompt: 'Use $publish-blog-post to publish this article and sync its English version to DEV.to.'

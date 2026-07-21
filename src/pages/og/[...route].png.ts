@@ -116,7 +116,7 @@ async function renderPng(props: CardProps): Promise<Buffer> {
 }
 
 export const getStaticPaths = (async () => {
-  const posts = (await getCollection('blog')).filter((p) => !p.data.draft && p.data.canonicalPath);
+  const posts = (await getCollection('blog')).filter((p) => !p.data.draft);
 
   const articleRoutes = posts.map((p) => ({
     params: { route: articleOgRoute(p.data.lang, p.data.translationKey) },

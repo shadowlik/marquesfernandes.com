@@ -34,7 +34,7 @@ O autor raramente tenta parecer uma autoridade abstrata. Prefere explicar por qu
 - “Pra mim...”
 - “O que aprendi foi...”
 
-No artigo sobre [como o tráfego do blog cresceu vinte vezes](../src/content/blog/como-aumentei-20-vezes-o-trafego-do-meu-blog-em-um-ano/pt.md), por exemplo, apresenta números, inseguranças e decisões reais, sem transformar a experiência em fórmula universal.
+No artigo sobre [como o tráfego do blog cresceu vinte vezes](../src/content/blog/2020/03/como-aumentei-20-vezes-o-trafego-do-meu-blog-em-um-ano/pt.md), por exemplo, apresenta números, inseguranças e decisões reais, sem transformar a experiência em fórmula universal.
 
 ### 3. Descomplica antes de aprofundar
 
@@ -46,7 +46,7 @@ Um dos padrões mais fortes é:
 4. Introduzir os detalhes técnicos.
 5. Mostrar como aplicar.
 
-A analogia da API com um restaurante é um bom exemplo desse recurso no artigo [O que é uma API e para que serve?](../src/content/blog/o-que-e-uma-api-e-para-que-serve/pt.md).
+A analogia da API com um restaurante é um bom exemplo desse recurso no artigo [O que é uma API e para que serve?](../src/content/blog/2020/04/o-que-e-uma-api-e-para-que-serve/pt.md).
 
 ### 4. Os textos têm utilidade explícita
 
@@ -70,7 +70,7 @@ Nos tutoriais, é comum explicar:
 - Onde é necessário ter cuidado.
 - Por que determinado comando ou decisão é usado.
 
-O [tutorial para iniciantes sobre a linha de comando](../src/content/blog/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/pt.md) mostra bem essa característica, especialmente nos alertas e nas validações após cada comando.
+O [tutorial para iniciantes sobre a linha de comando](../src/content/blog/2020/03/como-comecar-a-usar-a-linha-de-comando-terminal-no-linux-tutorial-para-iniciantes/pt.md) mostra bem essa característica, especialmente nos alertas e nas validações após cada comando.
 
 ### 6. O humor é casual e pontual
 
@@ -88,7 +88,7 @@ O humor aparece como alívio, não como protagonista:
 
 O acervo é muito concentrado em 2019 e 2020, com 173 dos 183 artigos. Por isso, estatisticamente, o estilo histórico é bastante orientado a SEO, tutoriais e conteúdos evergreen.
 
-O texto de 2026 sobre a [HAID e o processo de crescer em público](../src/content/blog/0-why-im-growing-haid-in-public-not-building-in-public/pt.md) aponta para uma voz mais madura e autoral.
+O texto de 2026 sobre a [HAID e o processo de crescer em público](../src/content/blog/2026/04/0-why-im-growing-haid-in-public-not-building-in-public/pt.md) aponta para uma voz mais madura e autoral.
 
 Nele aparecem com mais força:
 

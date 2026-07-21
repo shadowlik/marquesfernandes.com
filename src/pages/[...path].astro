@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import BlogPostLayout from '@/layouts/BlogPostLayout.astro';
-import { getAlternates } from '@/lib/translations';
+import { getAlternates, resolveCanonicalPath } from '@/lib/translations';
 import { stripCategoryPath } from '@/lib/blog';
 import { ogImagePath, articleOgRoute } from '@/lib/og';
 
@@ -12,9 +12,11 @@ import { ogImagePath, articleOgRoute } from '@/lib/og';
  * generated redirect map (see astro.config). The rest param captures the slug.
  */
 export const getStaticPaths = (async () => {
-  const posts = (await getCollection('blog')).filter((p) => !p.data.draft && p.data.canonicalPath);
+  const posts = (await getCollection('blog')).filter((p) => !p.data.draft);
   return posts.map((entry) => ({
-    params: { path: stripCategoryPath(entry.data.canonicalPath!).replace(/^\/+|\/+$/g, '') },
+    params: {
+      path: stripCategoryPath(resolveCanonicalPath(entry.data)).replace(/^\/+|\/+$/g, ''),
+    },
     props: {
       entry,
       alternates: getAlternates(entry, posts).map((a) => ({
