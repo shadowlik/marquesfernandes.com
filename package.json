@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.3",
-    "@astrojs/rss": "^4.0.18",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3",
     "@fontsource/poppins": "^5.2.7",
     "@fontsource/roboto-condensed": "^5.2.8",
