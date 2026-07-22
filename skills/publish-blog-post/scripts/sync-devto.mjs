@@ -23,8 +23,10 @@ function parseSource(source) {
   return YAML.parse(match[1]);
 }
 
-function publicPath(canonicalPath) {
-  const segments = canonicalPath.split('/').filter(Boolean);
+function publicPath(metadata) {
+  if (!metadata.canonicalPath) return `/${metadata.lang}/${metadata.slug}/`;
+
+  const segments = metadata.canonicalPath.split('/').filter(Boolean);
   const lang = segments[0] === 'en' || segments[0] === 'es' ? segments.shift() : undefined;
   const slug = segments.at(-1);
   return `${lang ? `/${lang}` : ''}/${slug}/`;
@@ -102,10 +104,9 @@ if (!englishFile) fail('The article folder has no en.md or en.mdx file.');
 
 const metadata = parseSource(await readFile(resolve(folder, englishFile), 'utf8'));
 if (metadata.lang !== 'en') fail('The selected source is not marked as English.');
+if (!metadata.slug) fail('The English article requires a slug before syndication.');
 if (metadata.draft) fail('Refusing to sync an article that is still a website draft.');
-if (!metadata.canonicalPath) fail('The English article requires canonicalPath before syndication.');
-
-const canonicalUrl = new URL(publicPath(metadata.canonicalPath), SITE_ORIGIN).href;
+const canonicalUrl = new URL(publicPath(metadata), SITE_ORIGIN).href;
 const pageResponse = await fetch(canonicalUrl, {
   headers: { 'User-Agent': 'marquesfernandes.com DEV.to publisher' },
 });
