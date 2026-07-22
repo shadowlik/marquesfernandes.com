@@ -1,0 +1,130 @@
+---
+title: 'AI Will Take My Job, but First I Need to Review Its PR'
+description: 'My current take on AI, software development, product, and the increasingly strange future of our profession.'
+date: 2026-07-22T00:00:00.000Z
+lang: en
+translationKey: a-ia-vai-roubar-meu-emprego-mas-primeiro-preciso-revisar-o-pr-dela
+slug: ai-will-take-my-job-but-first-i-need-to-review-its-pr
+category: development
+tags:
+  - artificial intelligence
+  - software development
+  - career
+  - product
+cover: ./ia-engenheiro-corrida.png
+coverAlt: 'A developer chasing a robot carrying a laptop on a racetrack made of circuits'
+draft: false
+needsReview: false
+---
+
+import ArticleFigure from '@/components/ArticleFigure.astro';
+import engineerReviewingAi from './engenheiro-revisando-trabalho-da-ia.png';
+
+At the beginning of the year, I was certain artificial intelligence was going to end the world.
+
+Not in the metaphorical “this tool will change the market” sense. In my head, the whole script was already written: AI would take every job, money would become meaningless, humans would become obsolete, and we engineers would be the first to go. The ironic twist would be getting replaced by the very systems we helped build and maintain.
+
+I am not usually drawn to paranoia or conspiracy theories. The problem is that I have a vivid imagination, and every now and then it decides to drive without a license.
+
+When I wrote about [why I am growing HAID in public](/en/development/why-im-growing-haid-in-public-not-building-in-public/), I mentioned that AI scared the hell out of me and that I feared what it would do to my job. This is the post I promised back then.
+
+Or at least my view today. A new model could launch tomorrow and I might come back here pretending I never said any of this.
+
+## The panic faded. The amount of stuff to learn did not
+
+After a while, the dust settled. At least a little.
+
+Developers already work in one of the most dynamic markets around. Every week brings a framework, language, library, or tool that, according to someone on X, makes everything you learned before yesterday completely useless.
+
+We are used to studying. It is part of the job.
+
+AI did not simplify that treadmill, though. It placed another treadmill on top of it. Now we need to understand how to work with agents, provide context, organize tasks, compare models, learn what each one is good at, and decide which one to use. By the time you finish comparing them, another has probably launched.
+
+It was supposed to make things easier. Somehow, it made them easier and harder at the same time.
+
+## My first strategy was to assume I was special
+
+I kept using AI heavily and started noticing that some engineers around me had barely tried these tools.
+
+My reaction was deeply human and not especially noble: “Okay, maybe I still have a job.”
+
+I consider myself a good engineer. I study, I try to keep up, and I was already using AI extensively. For a while, I imagined that advantage would protect me. If someone had to be cut, it would be the others, not me.
+
+It is a comforting line of thought. It also has an expiration date.
+
+Knowing how to use the tool may create an advantage today, but the tool keeps getting easier to use. The differentiator cannot simply be talking to it better than the person at the next desk.
+
+## Product and engineering are starting to become the same job
+
+Then I began noticing another shift: the boundary between product and engineering was getting less clear.
+
+That part excited me. I love product. I have built plenty of side projects, attempted startups, and more recently had to [stop piling random features into HAID and find an actual direction](/en/1-how-i-stopped-building-random-features-and-found-a-product-direction/).
+
+If writing code has become cheaper and faster, choosing **what** to build matters even more. Understanding the problem, talking to people, setting priorities, seeing tradeoffs, and making architecture decisions increasingly belong in the same package.
+
+Maybe the engineer will not disappear tomorrow. Maybe the role will become an even stranger mix of engineer, product manager, architect, researcher, and robot babysitter.
+
+I can picture myself in that role. The uncomfortable question is: how long will it remain a human role?
+
+## What if programming languages are just a phase?
+
+I have a slightly wild idea, and it is not exactly a future I am rooting for: if we keep programming with AI, high-level languages may stop being necessary for a large part of the work.
+
+I am not saying that understanding code has become less important. I think the opposite is true. Reading code, spotting bad abstractions, anticipating problems, and validating behavior matter more than ever. What may matter less is manually writing every line.
+
+Today, we use languages designed so humans can express instructions and machines can execute them. But vibe coders and even experienced developers are already submitting PRs without looking at their own code. If that behavior continues, it feels inevitable that someone will ask: why keep a representation designed for humans who are no longer reading it?
+
+I do not want that to happen. I want us to keep understanding what we put into production. I can simply imagine a future where machines create most code and, as a consequence, representations optimized for them emerge while we move further away from the implementation.
+
+That future still feels far away. To trust that level of abstraction, we need much better tools, environments, tests, observability, and verification mechanisms.
+
+Until then, please review your PR. Run the project locally. Check that the application at least starts before asking someone else to review it. And if you do not understand the code you are submitting, ask for help.
+
+We are all learning, but production does not need to learn alongside us.
+
+<ArticleFigure
+  src={engineerReviewingAi}
+  alt="An engineer in a control room reviews the work while a small robot assembles a system of connected blocks"
+  caption="The work may move from the keyboard to the control room. The responsibility stays on our side."
+  size="wide"
+/>
+
+## The numbers still need to add up
+
+There is another huge uncertainty in this story: how much all of this really costs and who ultimately pays the bill.
+
+We still do not know whether there is a bubble, when it might burst, or how the price of these tools will reach end users. If capital becomes more expensive and services stop absorbing part of the cost, access may become more limited. Adoption could slow down, and a technology sold as democratizing could widen the gap between those who can afford it and those who cannot.
+
+The opposite could happen. Models may become smaller, more efficient, and cheaper. Infrastructure may improve. Competition may drive prices down.
+
+I do not know which path wins. Anyone who claims they do probably also has a newsletter to sell you.
+
+## People starting out may pay most of the bill
+
+This is where my concern moves beyond my own job to the people still trying to enter the field.
+
+I have spent a long time working mainly with teams of senior engineers. I do not closely follow the current reality of junior positions, so I do not want to invent a picture of the market that I cannot actually see.
+
+But I can see the risk: if companies expect one person with AI to produce what once required a larger team, where does someone gain the experience needed to become senior?
+
+The easy answer is that beginners can use AI to learn. They can. But that view did not begin with AI. In April 2020, when I wrote my guide on [how to start learning JavaScript](/en/how-and-where-to-learn-to-program-javascript-courses-and-tutorials-free/), I was already arguing that the best way to learn was to have a concrete project and get your hands dirty. AI may speed up the journey, but I still have not found a better way to learn than building something real.
+
+But even learning how to learn requires a foundation. Knowing how to formulate a question, doubt a convincing answer, tell a good explanation from a hallucination, and persist when nothing works are not skills distributed equally.
+
+If entering tech already depended on time, education, and access, adding a monthly subscription and another layer of knowledge may make that path even more unequal.
+
+## My temporary conclusion
+
+At the beginning of the year, I saw a race where AI was ahead and we were just trying to catch up.
+
+Today, I think running faster may be the wrong metric. For now, our value lies less in the speed at which we produce code and more in our ability to decide, connect context, review, take responsibility, and notice when the machine is solving the wrong problem extremely well.
+
+Product and engineering will probably keep moving closer together. People who can learn the other side may buy themselves some time. I do not know how much.
+
+I also do not know whether the bubble will burst, whether we will program in a language made for machines, or whether “software engineer” will become a title as old-fashioned as “telegraph operator.”
+
+I only know that continuing to learn still seems like a better strategy than pretending nothing is happening. Reviewing the PR before the apocalypse costs nothing, either.
+
+These are my two Brazilian cents on a subject nobody asked me about. I do not have an answer, only a slightly better-organized paranoia.
+
+*P.S. Yes, this article was reviewed by an AI. It would have been rude not to invite the prime suspect.*

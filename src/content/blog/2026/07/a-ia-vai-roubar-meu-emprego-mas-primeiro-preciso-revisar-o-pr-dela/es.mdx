@@ -1,0 +1,130 @@
+---
+title: 'La IA me quitará el trabajo, pero antes tengo que revisar su PR'
+description: 'Mi opinión, por ahora, sobre la IA, el desarrollo de software, producto y el futuro cada vez más extraño de nuestra profesión.'
+date: 2026-07-22T00:00:00.000Z
+lang: es
+translationKey: a-ia-vai-roubar-meu-emprego-mas-primeiro-preciso-revisar-o-pr-dela
+slug: la-ia-me-quitara-el-trabajo-pero-antes-tengo-que-revisar-su-pr
+category: desarrollo
+tags:
+  - inteligencia artificial
+  - desarrollo de software
+  - carrera
+  - producto
+cover: ./ia-engenheiro-corrida.png
+coverAlt: 'Un desarrollador persigue a un robot que lleva un portátil sobre una pista hecha de circuitos'
+draft: false
+needsReview: false
+---
+
+import ArticleFigure from '@/components/ArticleFigure.astro';
+import engineerReviewingAi from './engenheiro-revisando-trabalho-da-ia.png';
+
+A principios de año, estaba convencido de que la inteligencia artificial iba a acabar con el mundo.
+
+No en el sentido metafórico de “esta herramienta cambiará el mercado”. En mi cabeza, el guion ya estaba completo: la IA ocuparía todos los puestos de trabajo, el dinero dejaría de tener sentido, los seres humanos quedaríamos obsoletos y nosotros, los ingenieros, seríamos los primeros en caer. El toque irónico sería que nos sustituyeran precisamente los sistemas que ayudamos a construir y mantener.
+
+No suelo caer en la paranoia ni en las teorías de la conspiración. El problema es que tengo una imaginación muy viva y, de vez en cuando, decide conducir sin carnet.
+
+Cuando escribí sobre [por qué estoy haciendo crecer HAID en público](/es/0-por-que-hago-crecer-haid-en-publico-no-construyo-en-publico/), mencioné que la IA me daba muchísimo miedo y que temía lo que haría con mi trabajo. Este es el artículo que prometí entonces.
+
+O, al menos, mi opinión de hoy. Mañana aparece un modelo nuevo y vuelvo aquí fingiendo que nunca dije nada.
+
+## El pánico pasó. La cantidad de cosas que aprender, no
+
+Después de un tiempo, el polvo se asentó. Al menos un poco.
+
+Los desarrolladores ya trabajamos en uno de los mercados más dinámicos que existen. Cada semana aparece un framework, un lenguaje, una biblioteca o una herramienta que, según alguien en X, convierte en completamente inútil todo lo que aprendiste hasta ayer.
+
+Estamos acostumbrados a estudiar. Es parte del trabajo.
+
+Sin embargo, la IA no simplificó esa cinta de correr. Puso otra encima. Ahora tenemos que entender cómo trabajar con agentes, cómo darles contexto, cómo organizar tareas, qué modelos existen, en qué destaca cada uno y cuál elegir. Cuando terminas de compararlos, probablemente ya han lanzado otro.
+
+Se suponía que todo sería más fácil. De algún modo, se volvió más fácil y más difícil al mismo tiempo.
+
+## Mi primera estrategia fue creerme especial
+
+Seguí usando la IA de forma intensiva y empecé a notar que algunos ingenieros a mi alrededor apenas habían probado estas herramientas.
+
+Mi reacción fue muy humana y poco noble: “vale, quizá todavía conserve mi trabajo”.
+
+Me considero un buen ingeniero. Estudio, intento seguir los cambios y ya usaba bastante la IA. Durante un tiempo, imaginé que esa ventaja me protegería. Si despedían a alguien, serían los demás, no yo.
+
+Es una forma de pensar reconfortante. También tiene fecha de caducidad.
+
+Saber usar la herramienta puede dar una ventaja ahora, pero la herramienta es cada vez más fácil de usar. La diferencia no puede consistir únicamente en hablar con ella mejor que la persona de la mesa de al lado.
+
+## Producto e ingeniería empiezan a convertirse en el mismo trabajo
+
+Entonces empecé a percibir otro movimiento: las fronteras entre producto e ingeniería eran cada vez menos claras.
+
+Esa parte me entusiasmó. Me encanta producto. He construido muchos proyectos paralelos, he intentado crear startups y, más recientemente, tuve que [dejar de acumular funcionalidades al azar en HAID para encontrar una dirección de verdad](/es/1-como-deje-de-crear-funcionalidades-al-azar-y-encontre-una-direccion-de-producto/).
+
+Si escribir código es ahora más barato y rápido, elegir **qué** construir tiene todavía más peso. Entender el problema, hablar con personas, definir prioridades, reconocer tradeoffs y tomar decisiones de arquitectura empiezan a formar parte del mismo paquete.
+
+Quizá el ingeniero no desaparezca mañana. Quizá se convierta en una mezcla aún más extraña de ingeniero, product manager, arquitecto, investigador y niñera de robots.
+
+Puedo imaginarme en ese papel. La pregunta incómoda es: ¿durante cuánto tiempo seguirá siendo un papel humano?
+
+## ¿Y si los lenguajes de programación son solo una fase?
+
+Tengo una idea un poco loca, y no es precisamente un futuro que desee: si seguimos programando con IA, puede que los lenguajes de alto nivel dejen de ser necesarios para buena parte del trabajo.
+
+No estoy diciendo que entender código haya perdido importancia. Creo justamente lo contrario. Leer código, detectar una mala abstracción, anticipar problemas y validar el comportamiento es más importante que nunca. Lo que puede perder importancia es escribir cada línea a mano.
+
+Hoy usamos lenguajes pensados para que los humanos podamos expresar instrucciones y las máquinas puedan ejecutarlas. Pero ya hay vibe coders e incluso desarrolladores experimentados que envían PRs sin mirar su propio código. Si ese comportamiento continúa, parece inevitable que alguien pregunte: ¿para qué mantener una representación pensada para humanos que ya no la leen?
+
+No quiero que eso ocurra. Quiero que sigamos entendiendo lo que ponemos en producción. Simplemente puedo imaginar un futuro en el que las máquinas creen la mayor parte del código y, como consecuencia, aparezcan representaciones optimizadas para ellas mientras nosotros nos alejamos cada vez más de la implementación.
+
+Ese futuro todavía parece lejano. Para confiar en ese nivel de abstracción, necesitamos herramientas, entornos, pruebas, observabilidad y mecanismos de verificación mucho mejores.
+
+Hasta entonces, por favor, revisa tu PR. Ejecuta el proyecto en local. Comprueba que la aplicación al menos arranca antes de pedir una revisión. Y si no entiendes el código que estás enviando, pide ayuda.
+
+Todos estamos aprendiendo, pero producción no necesita aprender con nosotros.
+
+<ArticleFigure
+  src={engineerReviewingAi}
+  alt="Un ingeniero revisa el trabajo desde una sala de control mientras un pequeño robot monta un sistema de bloques conectados"
+  caption="El trabajo puede pasar del teclado a la sala de control. La responsabilidad sigue de nuestro lado."
+  size="wide"
+/>
+
+## Las cuentas todavía tienen que cuadrar
+
+Hay otra enorme incertidumbre en esta historia: cuánto cuesta realmente todo esto y quién acabará pagando la factura.
+
+Todavía no sabemos si existe una burbuja, cuándo podría estallar o cómo llegará el precio de estas herramientas al usuario final. Si el capital se encarece y los servicios dejan de absorber parte del coste, el acceso podría quedar más restringido. La adopción se ralentizaría y una tecnología vendida como democratizadora podría ampliar aún más la distancia entre quienes pueden pagarla y quienes quedan fuera.
+
+También puede ocurrir lo contrario. Los modelos pueden hacerse más pequeños, eficientes y baratos. La infraestructura puede mejorar. La competencia puede reducir los precios.
+
+No sé qué camino ganará. Quien diga que lo sabe probablemente también tiene una newsletter que venderte.
+
+## Quienes empiezan pueden pagar la mayor parte de la factura
+
+Aquí es donde mi preocupación deja de centrarse en mi propio trabajo y pasa a quienes todavía intentan entrar en el sector.
+
+Hace tiempo que trabajo principalmente con equipos de ingenieros sénior. No sigo de cerca la realidad actual de los puestos júnior, así que no quiero inventarme una fotografía del mercado que en realidad no tengo.
+
+Pero puedo ver el riesgo: si las empresas esperan que una persona con IA produzca lo que antes exigía un equipo mayor, ¿dónde consigue alguien la experiencia necesaria para convertirse en sénior?
+
+La respuesta fácil es que los principiantes pueden usar la IA para aprender. Claro que pueden. Pero esa opinión no nació con la IA. En abril de 2020, cuando escribí mi guía sobre [cómo empezar a aprender JavaScript](/es/como-y-donde-aprender-a-programa-javascript-cursos-y-tutoriales-libre/), ya defendía que la mejor manera de aprender era tener un proyecto concreto y ponerse manos a la obra. La IA puede acelerar el camino, pero todavía no he encontrado una forma mejor de aprender que construir algo de verdad.
+
+Pero incluso aprender a aprender exige una base. Saber formular una pregunta, desconfiar de una respuesta convincente, distinguir una buena explicación de una alucinación y persistir cuando nada funciona no son habilidades distribuidas por igual.
+
+Si entrar en tecnología ya dependía de tiempo, educación y acceso, añadir una suscripción mensual y una nueva capa de conocimiento puede hacer que ese camino sea todavía más desigual.
+
+## Mi conclusión provisional
+
+A principios de año, veía una carrera en la que la IA iba por delante y nosotros solo intentábamos alcanzarla.
+
+Hoy creo que correr más rápido puede ser la métrica equivocada. Nuestro valor, por ahora, está menos en la velocidad para producir código y más en la capacidad de decidir, conectar contexto, revisar, asumir responsabilidades y detectar cuándo la máquina está resolviendo muy bien el problema equivocado.
+
+Producto e ingeniería probablemente seguirán acercándose. Quienes consigan aprender el otro lado pueden ganar algo de tiempo. No sé cuánto.
+
+Tampoco sé si la burbuja estallará, si programaremos en un lenguaje creado para máquinas o si “ingeniero de software” será un título tan antiguo como “operador de telégrafo”.
+
+Solo sé que seguir aprendiendo todavía parece una estrategia mejor que fingir que no pasa nada. Y revisar el PR antes del apocalipsis tampoco cuesta nada.
+
+Estos son mis dos centavos brasileños sobre un tema por el que nadie me preguntó. No tengo una respuesta, solo una paranoia un poco mejor organizada.
+
+*P. D.: Sí, este artículo fue revisado por una IA. Habría sido de mala educación no invitar a la principal sospechosa.*
