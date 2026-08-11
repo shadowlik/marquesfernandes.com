@@ -13,8 +13,8 @@ tags:
   - producto
 cover: ./cover.png
 coverAlt: 'Un desarrollador tomando notas junto a un portátil en un espacio de trabajo cálido y vivido'
-draft: true
-needsReview: true
+draft: false
+needsReview: false
 ---
 
 Recuerdo el día exacto en que miré mi trabajo y sentí miedo: el 10 de enero.

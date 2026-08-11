@@ -13,8 +13,8 @@ tags:
   - product
 cover: ./cover.png
 coverAlt: 'A developer making notes beside a laptop at a warm, lived-in workspace'
-draft: true
-needsReview: true
+draft: false
+needsReview: false
 ---
 
 I remember the exact day I looked at my work and got scared: January 10.

@@ -13,8 +13,8 @@ tags:
   - produto
 cover: ./cover.png
 coverAlt: 'Desenvolvedor fazendo anotações ao lado de um notebook em uma mesa de trabalho acolhedora e usada no dia a dia'
-draft: true
-needsReview: true
+draft: false
+needsReview: false
 ---
 
 Eu lembro do dia exato em que olhei para o meu trabalho e fiquei com medo: 10 de janeiro.
